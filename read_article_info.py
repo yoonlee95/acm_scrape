@@ -6,11 +6,27 @@ import urllib
 import threading
 
 def download_file(path, download_url):
-    web_file = urllib.urlopen(download_url)
-    local_file = open(path +'/paper.pdf', 'w')
-    local_file.write(web_file.read())
-    web_file.close()
-    local_file.close()
+
+    download_dir = path
+    options = webdriver.ChromeOptions()
+    profile = {"plugins.plugins_list": [{"enabled": False, "name": "Chrome PDF Viewer"}], # Disable Chrome's PDF Viewer
+               "download.default_directory": download_dir , "download.extensions_to_open": "applications/pdf"}  
+
+    options.add_experimental_option("prefs", profile)
+    driver = webdriver.Chrome(chrome_options=options)  # Optional argument, if not specified will search path.
+    driver.get("https://dl.acm.org/"+download_url)
+    for file in os.listdir(path):
+        if file.endswith(".pdf"):
+            print file
+            os.rename(os.path.join(path, file), path+"/paper.pdf")
+
+
+
+    # web_file = urllib.urlopen("https://dl.acm.org/"+download_url)
+    # local_file = open(path +'/paper.pdf', 'w')
+    # local_file.write(web_file.read())
+    # web_file.close()
+    # local_file.close()
 
 def init_webdriver():
   options = webdriver.ChromeOptions()
@@ -97,6 +113,12 @@ def get_published_year(soup):
 def get_title(soup):
     title_tag = soup.find("div", id="divmain").find("div").find("h1")
     return title_tag.string.strip()
+def get_pdf_link(soup):
+    links = soup.find("div", id="divmain").find_all("a", title="FullText PDF")
+    if(len(links) == 1):
+        print links[0]['href']
+        return links[0]['href']
+    return None
 
 def get_article_detail(driver, html):
   detail = {}
@@ -117,7 +139,10 @@ def get_article_detail(driver, html):
 
 
   folder_name = html.split("cfm?id=")[1].strip()
-  #   download_file("output/"+folder_name,)
+
+  link =get_pdf_link(soup)
+  if link != None:
+    download_file("output/"+folder_name, link)
 
   if not os.path.exists("output/"+folder_name):
       os.makedirs("output/"+folder_name)
@@ -125,7 +150,7 @@ def get_article_detail(driver, html):
       json.dump(detail, outfile, indent=4)
 
 article_list = {}
-article_list_file_name = 'isca.json'
+article_list_file_name = 'micro.json'
 with open(article_list_file_name, 'r') as f:
     article_list = json.load(f)
 
@@ -135,3 +160,5 @@ for conf, articles in article_list.iteritems():
     print conf
     for article in articles:
         get_article_detail(Driver, article)
+        break
+    break
