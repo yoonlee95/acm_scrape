@@ -1,0 +1,204 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 397, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 397, 
+        "CitationCount": 0
+    }, 
+    "Title": "Pipelining a triggered processing element", 
+    "Abstract": "Programmable spatial architectures composed of ensembles of autonomous fixed-ISA processing elements offer a compelling design point between the flexibility of an FPGA and the compute density of a GPU or shared-memory many-core. The design regularity of spatial architectures demands examination of the processing element microarchitecture early in the design process to optimize overall efficiency. This paper considers the microarchitectural issues surrounding pipelining a spatial processing element with triggered-instruction control. We propose two new techniques to mitigate pipeline hazards particular to spatial accelerators and non-program-counter architectures, evaluating them using in-vivo performance counters from an FPGA prototype coupled with a rigorous VLSI power and timing estimation methodology. We consider the effect of modern, post-Dennard-scaling CMOS technology on the energy-delay tradeoffs and identify a set of microarchitectures optimal for both high-performance and low-power application settings. Our analysis reveals the effectiveness of our hazard mitigation techniques as well as the range of microarchitectures designers might consider when selecting a processing element for triggered spatial accelerators.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Bushra Ahsan, Michael C. Adler, Neal C. Crago, Joel S. Emer, Aamer Jaleel, Angshuman Parashar, and Michael I. Pellauer. 2013. Distributed Memory Operations. (Sept. 26 2013). reference: United States Patent App. 14/037,468."
+        }, 
+        {
+            "ArticleName": "Massimo Alioto. 2012. Ultra-Low Power VLSI Circuit Design Demystified and Explained: A Tutorial. IEEE Transactions on Circuits and Systems I: Regular Papers 59, 1 (2012), 3--29."
+        }, 
+        {
+            "ArticleName": "Omid Azizi , Aqeel Mahesri , Benjamin C. Lee , Sanjay J. Patel , Mark Horowitz, Energy-performance tradeoffs in processor architecture and circuit design: a marginal cost analysis, ACM SIGARCH Computer Architecture News, v.38 n.3, June 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1816038.1815967", 
+            "DOIname": "10.1145/1816038.1815967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815967"
+        }, 
+        {
+            "ArticleName": "Bevan Baas , Zhiyi Yu , Michael Meeuwsen , Omar Sattari , Ryan Apperson , Eric Work , Jeremy Webb , Michael Lai , Tinoosh Mohsenin , Dean Truong , Jason Cheung, AsAP: A Fine-Grained Many-Core Platform for DSP Applications, IEEE Micro, v.27 n.2, p.34-45, March 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2007.29", 
+            "DOIname": "10.1109/MM.2007.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1308523"
+        }, 
+        {
+            "ArticleName": "Brent Bohnenstiehl, Aaron Stillmaker, Jon J Pimentel, Timothy Andreas, Bin Liu, Anh T Tran, Emmanuel Adeagbo, and Bevan M Baas. 2017. KiloCore: A 32-nm 1000-Processor Computational Array. IEEE Journal of Solid-State Circuits (2017)."
+        }, 
+        {
+            "ArticleName": "Doug Burger , Stephen W. Keckler , Kathryn S. McKinley , Mike Dahlin , Lizy K. John , Calvin Lin , Charles R. Moore , James Burrill , Robert G. McDonald , William Yoder , the TRIPS Team, Scaling to the End of Silicon with EDGE Architectures, Computer, v.37 n.7, p.44-55, July 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2004.65", 
+            "DOIname": "10.1109/MC.2004.65", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1008761"
+        }, 
+        {
+            "ArticleName": "John Y. Chen. 2009. GPU Technology Trends and Future Requirements. In Electron Devices Meeting (IEDM), 2009 IEEE International. IEEE, 1--6."
+        }, 
+        {
+            "ArticleName": "Yu-Hsin Chen , Joel Emer , Vivienne Sze, Eyeriss: a spatial architecture for energy-efficient dataflow for convolutional neural networks, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.40", 
+            "DOIname": "10.1109/ISCA.2016.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001177"
+        }, 
+        {
+            "ArticleName": "Yu-Hsin Chen, Tushar Krishna, Joel S. Emer, and Vivienne Sze. 2017. Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks. IEEE Journal of Solid-State Circuits 52, 1 (2017), 127--138."
+        }, 
+        {
+            "ArticleName": "Weihaw Chuang , Brad Calder, Predicate prediction for efficient out-of-order execution, Proceedings of the 17th annual international conference on Supercomputing, June 23-26, 2003, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/782814.782840", 
+            "DOIname": "10.1145/782814.782840", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=782840"
+        }, 
+        {
+            "ArticleName": "Louise H. Crockett , Ross A. Elliot , Martin A. Enderwitz , Robert W. Stewart, The Zynq Book: Embedded Processing with the Arm Cortex-A9 on the Xilinx Zynq-7000 All Programmable Soc, Strathclyde Academic Media, 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685817"
+        }, 
+        {
+            "ArticleName": "Andrew Danowitz , Kyle Kelley , James Mao , John P. Stevenson , Mark Horowitz, CPU DB: recording microprocessor history, Communications of the ACM, v.55 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2133806.2133822", 
+            "DOIname": "10.1145/2133806.2133822", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2133822"
+        }, 
+        {
+            "ArticleName": "Paul Gratz , Changkyu Kim , Karthikeyan Sankaralingam , Heather Hanson , Premkishore Shivakumar , Stephen W. Keckler , Doug Burger, On-Chip Interconnection Networks of the TRIPS Chip, IEEE Micro, v.27 n.5, p.41-50, September 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2007.90", 
+            "DOIname": "10.1109/MM.2007.90", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1320836"
+        }, 
+        {
+            "ArticleName": "GreenArrays. 2010. GreenArrays F18A 18-bit Computer. (2010)."
+        }, 
+        {
+            "ArticleName": "GreenArrays. 2010. Product Brief: GreenArrays. (2010)."
+        }, 
+        {
+            "ArticleName": "Seongmoo Heo , Krste AsanoviC, Power-optimal pipelining in deep submicron technology, Proceedings of the 2004 international symposium on Low power electronics and design, August 09-11, 2004, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1013235.1013291", 
+            "DOIname": "10.1145/1013235.1013291", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1013291"
+        }, 
+        {
+            "ArticleName": "M. S. Hrishikesh , Doug Burger , Norman P. Jouppi , Stephen W. Keckler , Keith I. Farkas , Premkishore Shivakumar, The optimal logic depth per pipeline stage is 6 to 8 FO4 inverter delays, ACM SIGARCH Computer Architecture News, v.30 n.2, May 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/545214.545218", 
+            "DOIname": "10.1145/545214.545218", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545218"
+        }, 
+        {
+            "ArticleName": "Ziqiang Huang , Andrew D. Hilton , Benjamin C. Lee, Decoupling loads for nano-instruction set computers, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.43", 
+            "DOIname": "10.1109/ISCA.2016.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001181"
+        }, 
+        {
+            "ArticleName": "Angshuman Parashar , Michael Pellauer , Michael Adler , Bushra Ahsan , Neal Crago , Daniel Lustig , Vladimir Pavlov , Antonia Zhai , Mohit Gambhir , Aamer Jaleel , Randy Allmon , Rachid Rayess , Stephen Maresh , Joel Emer, Triggered instructions: a control paradigm for spatially-programmed architectures, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485935", 
+            "DOIname": "10.1145/2508148.2485935", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485935"
+        }, 
+        {
+            "ArticleName": "Michael Pellauer , Angshuman Parashar , Michael Adler , Bushra Ahsan , Randy Allmon , Neal Crago , Kermin Fleming , Mohit Gambhir , Aamer Jaleel , Tushar Krishna , Daniel Lustig , Stephen Maresh , Vladimir Pavlov , Rachid Rayess , Antonia Zhai , Joel Emer, Efficient Control and Communication Paradigms for Coarse-Grained Spatial Architectures, ACM Transactions on Computer Systems (TOCS), v.33 n.3, p.1-32, September 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2754930", 
+            "DOIname": "10.1145/2754930", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2754930"
+        }, 
+        {
+            "ArticleName": "Phitchaya Mangpo Phothilimthana , Tikhon Jelvis , Rohin Shah , Nishant Totla , Sarah Chasins , Rastislav Bodik, Chlorophyll: synthesis-aided compiler for low-power spatial architectures, ACM SIGPLAN Notices, v.49 n.6, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2666356.2594339", 
+            "DOIname": "10.1145/2666356.2594339", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2594339"
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Andrew Putnam, Steve Swanson, Martha Mercaldi, Ken Michelson, Andrew Petersen, Andrew Schwerin, Mark Oskin, and Susan Eggers. 2005. The Microarchitecture of a Pipelined WaveScalar Processor: An RTL-Based Study. Tech. Rep. TR-2005-11-02 (2005)."
+        }, 
+        {
+            "ArticleName": "Behnam Robatmili , Dong Li , Hadi Esmaeilzadeh , Sibi Govindan , Aaron Smith , Andrew Putnam , Doug Burger , Stephen W. Keckler, How to implement effective prediction and forwarding for fusable dynamic multicore architectures, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.460-471, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522341", 
+            "DOIname": "10.1109/HPCA.2013.6522341", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495499"
+        }, 
+        {
+            "ArticleName": "Karthikeyan Sankaralingam , Ramadass Nagarajan , Haiming Liu , Changkyu Kim , Jaehyuk Huh , Doug Burger , Stephen W. Keckler , Charles R. Moore, Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture, ACM SIGARCH Computer Architecture News, v.31 n.2, May 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/871656.859667", 
+            "DOIname": "10.1145/871656.859667", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859667"
+        }, 
+        {
+            "ArticleName": "Reetinder Sidhu , Viktor K. Prasanna, Fast Regular Expression Matching Using FPGAs, Proceedings of the the 9th Annual IEEE Symposium on Field-Programmable Custom Computing Machines, p.227-238, April 29-May 02, 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2001.22", 
+            "DOIname": "10.1109/FCCM.2001.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1058885"
+        }, 
+        {
+            "ArticleName": "Viji Srinivasan , David Brooks , Michael Gschwind , Pradip Bose , Victor Zyuban , Philip N. Strenski , Philip G. Emma, Optimizing pipelines for power and performance, Proceedings of the 35th annual ACM/IEEE international symposium on Microarchitecture, November 18-22, 2002, Istanbul, Turkey", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=774897"
+        }, 
+        {
+            "ArticleName": "Steven Swanson , Andrew Schwerin , Martha Mercaldi , Andrew Petersen , Andrew Putnam , Ken Michelson , Mark Oskin , Susan J. Eggers, The WaveScalar architecture, ACM Transactions on Computer Systems (TOCS), v.25 n.2, p.1-54, May 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1233307.1233308", 
+            "DOIname": "10.1145/1233307.1233308", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1233308"
+        }, 
+        {
+            "ArticleName": "David Tarjan, Shyamkumar Thoziyoor, and Norman P Jouppi. 2006. CACTI 4.0. Technical Report. Technical Report HPL-2006--86, HP Laboratories Palo Alto."
+        }, 
+        {
+            "ArticleName": "Michael Bedford Taylor. 1999. Design Decisions in the Implementation of a RAW Architecture Workstation. Ph.D. Dissertation. Massachusetts Institute of Technology."
+        }, 
+        {
+            "ArticleName": "Michael Bedford Taylor , Jason Kim , Jason Miller , David Wentzlaff , Fae Ghodrat , Ben Greenwald , Henry Hoffman , Paul Johnson , Jae-Wook Lee , Walter Lee , Albert Ma , Arvind Saraf , Mark Seneski , Nathan Shnidman , Volker Strumpen , Matt Frank , Saman Amarasinghe , Anant Agarwal, The Raw Microprocessor: A Computational Fabric for Software Circuits and General-Purpose Programs, IEEE Micro, v.22 n.2, p.25-35, March 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2002.997877", 
+            "DOIname": "10.1109/MM.2002.997877", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624515"
+        }, 
+        {
+            "ArticleName": "Jesmin Jahan Tithi, Neal C. Crago, and Joel S. Emer. 2014. Exploiting Spatial Architectures for Edit Distance Algorithms. In Performance Analysis of Systems and Software (ISPASS), 2014 IEEE International Symposium on. IEEE, 23--34."
+        }, 
+        {
+            "ArticleName": "Louis Woods , Gustavo Alonso , Jens Teubner, Parallel Computation of Skyline Queries, Proceedings of the 2013 IEEE 21st Annual International Symposium on Field-Programmable Custom Computing Machines, p.1-8, April 28-30, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2013.18", 
+            "DOIname": "10.1109/FCCM.2013.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495647"
+        }, 
+        {
+            "ArticleName": "Louis Woods , Gustavo Alonso , Jens Teubner, Parallelizing Data Processing on FPGAs with Shifter Lists, ACM Transactions on Reconfigurable Technology and Systems (TRETS), v.8 n.2, p.1-22, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2629551", 
+            "DOIname": "10.1145/2629551", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2629551"
+        }, 
+        {
+            "ArticleName": "Lisa Wu , Andrea Lottarini , Timothy K. Paine , Martha A. Kim , Kenneth A. Ross, Q100: the architecture and design of a database processing unit, ACM SIGPLAN Notices, v.49 n.4, April 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2644865.2541961", 
+            "DOIname": "10.1145/2644865.2541961", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541961"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Columbia University", 
+            "Name": "Thomas J. Repetti"
+        }, 
+        {
+            "Affiliation": "Columbia University", 
+            "Name": "Jo\u00e3o P. Cerqueira"
+        }, 
+        {
+            "Affiliation": "Columbia University", 
+            "Name": "Martha A. Kim"
+        }, 
+        {
+            "Affiliation": "Columbia University", 
+            "Name": "Mingoo Seok"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124551&preflayout=flat"
+}

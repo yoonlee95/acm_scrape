@@ -1,0 +1,280 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 11, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 11, 
+        "CitationCount": 0
+    }, 
+    "Title": "Low-cost soft error resilience with unified data verification and fine-grained recovery for acoustic sensor based detection", 
+    "Abstract": "This paper presents Turnstile, a hardware/software cooperative technique for low-cost soft error resilience. Leveraging the recent advance of acoustic sensor based soft error detection, Turnstile achieves guaranteed recovery by taking into account the bounded detection latency. The compiler forms verifiable regions and selectively inserts store instructions to checkpoint their register inputs so that Turnstile can verify the register/memory states with regard to a region boundary in a unified way without expensive register file protection. At runtime, for each region, Turnstile regards any stores (to both memory and register checkpoints) as unverified, and thus holds them in a store queue until the region ends and spends the time of the error detection latency. If no error is detected during the time, the verified stores are merged into memory systems, and registers are checkpointed. When all the stores including checkpointing stores prior to a region boundary are verified, the architectural and memory states with regard to the boundary are verified, thus it can serve as a recovery point. In this way, Turnstile contains the errors within the core without extra memory buffering. When an error is detected, Turnstile invalidates unverified entries in the store queue and restores the checkpointed register values to get the architectural and memory states back to what they were at the most recently verified region boundary. Then, Turnstile simply redirects program control to the verified region boundary and continues execution. The experimental results demonstrate that Turnstile can offer guaranteed soft error recovery with low performance overhead (<8% on average).", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Liang Wang , Kevin Skadron, Implications of the Power Wall: Dim Cores and Reconfigurable Logic, IEEE Micro, v.33 n.5, p.40-48, September 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2013.74", 
+            "DOIname": "10.1109/MM.2013.74", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2574275"
+        }, 
+        {
+            "ArticleName": "Cristian Constantinescu, Trends and Challenges in VLSI Circuit Reliability, IEEE Micro, v.23 n.4, p.14-19, July 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1225959", 
+            "DOIname": "10.1109/MM.2003.1225959", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=942690"
+        }, 
+        {
+            "ArticleName": "Gaurang Upasani , Xavier Vera , Antonio Gonz\u00e1lez, Avoiding core's DUE & SDC via acoustic wave detectors and tailored error containment and recovery, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665682"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "Nikos Hardavellas , Michael Ferdman , Babak Falsafi , Anastasia Ailamaki, Toward Dark Silicon in Servers, IEEE Micro, v.31 n.4, p.6-15, July 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.77", 
+            "DOIname": "10.1109/MM.2011.77", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2051985"
+        }, 
+        {
+            "ArticleName": "Muhammad Shafique , Siddharth Garg , J\u00f6rg Henkel , Diana Marculescu, The EDA Challenges in the Dark Silicon Era: Temperature, Reliability, and Variability Perspectives, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593229", 
+            "DOIname": "10.1145/2593069.2593229", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593229"
+        }, 
+        {
+            "ArticleName": "Himanshu Kaul , Mark Anders , Steven Hsu , Amit Agarwal , Ram Krishnamurthy , Shekhar Borkar, Near-threshold voltage (NTV) design: opportunities and challenges, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228572", 
+            "DOIname": "10.1145/2228360.2228572", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228572"
+        }, 
+        {
+            "ArticleName": "Gaurang Upasani , Xavier Vera , Antonio Gonz\u00e1lez, Setting an error detection infrastructure with low cost acoustic wave detectors, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337198"
+        }, 
+        {
+            "ArticleName": "Gaurang Upasani , Xavier Vera , Antonio Gonzalez, A Case for Acoustic Wave Detectors for Soft-Errors, IEEE Transactions on Computers, v.65 n.1, p.5-18, January 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2015.2419652", 
+            "DOIname": "10.1109/TC.2015.2419652", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2881869"
+        }, 
+        {
+            "ArticleName": "George A. Reis , Jonathan Chang , Neil Vachharajani , Ram Rangan , David I. August, SWIFT: Software Implemented Fault Tolerance, Proceedings of the international symposium on Code generation and optimization, p.243-254, March 20-23, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2005.34", 
+            "DOIname": "10.1109/CGO.2005.34", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1048991"
+        }, 
+        {
+            "ArticleName": "ReStore: Symptom Based Soft Error Detection in Microprocessors, Proceedings of the 2005 International Conference on Dependable Systems and Networks, p.30-39, June 28-July 01, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2005.82", 
+            "DOIname": "10.1109/DSN.2005.82", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1078262"
+        }, 
+        {
+            "ArticleName": "Eric Rotenberg, AR-SMT: A Microarchitectural Approach to Fault Tolerance in Microprocessors, Proceedings of the Twenty-Ninth Annual International Symposium on Fault-Tolerant Computing, p.84, June 15-18, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=796966"
+        }, 
+        {
+            "ArticleName": "Martin Dimitrov , Huiyang Zhou, Unified Architectural Support for Soft-Error Protection or Software Bug Detection, Proceedings of the 16th International Conference on Parallel Architecture and Compilation Techniques, p.73-82, September 15-19, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2007.76", 
+            "DOIname": "10.1109/PACT.2007.76", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1299113"
+        }, 
+        {
+            "ArticleName": "Daniel J. Sorin , Milo M. K. Martin , Mark D. Hill , David A. Wood, SafetyNet: improving the availability of shared memory multiprocessors with global checkpoint/recovery, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545229"
+        }, 
+        {
+            "ArticleName": "Albert Meixner , Michael E. Bauer , Daniel Sorin, Argus: Low-Cost, Comprehensive Error Detection in Simple Cores, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.210-222, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.8", 
+            "DOIname": "10.1109/MICRO.2007.8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331720"
+        }, 
+        {
+            "ArticleName": "Shubhendu S. Mukherjee , Christopher Weaver , Joel Emer , Steven K. Reinhardt , Todd Austin, A Systematic Methodology to Compute the Architectural Vulnerability Factors for a High-Performance Microprocessor, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.29, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956570"
+        }, 
+        {
+            "ArticleName": "Jinho Suh , Mehrtash Manoochehri , Murali Annavaram , Michel Dubois, Soft error benchmarking of L2 caches with PARMA, ACM SIGMETRICS Performance Evaluation Review, v.39 n.1, June 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2007116.2007127", 
+            "DOIname": "10.1145/2007116.2007127", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2007127"
+        }, 
+        {
+            "ArticleName": "Shuguang Feng , Shantanu Gupta , Amin Ansari , Scott A. Mahlke , David I. August, Encore: low-cost, fine-grained transient fault recovery, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155667", 
+            "DOIname": "10.1145/2155620.2155667", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155667"
+        }, 
+        {
+            "ArticleName": "Marc A. de Kruijf , Karthikeyan Sankaralingam , Somesh Jha, Static analysis and compiler design for idempotent processing, Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 11-16, 2012, Beijing, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2254064.2254120", 
+            "DOIname": "10.1145/2254064.2254120", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2254120"
+        }, 
+        {
+            "ArticleName": "Marc de Kruijf , Karthikeyan Sankaralingam, Idempotent code generation: Implementation, analysis, and evaluation, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-12, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6495002", 
+            "DOIname": "10.1109/CGO.2013.6495002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495905"
+        }, 
+        {
+            "ArticleName": "Qingrui Liu , Changhee Jung , Dongyoon Lee , Devesh Tiwari, Clover: Compiler Directed Lightweight Soft Error Resilience, Proceedings of the 16th ACM SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems 2015 CD-ROM, p.1-10, June 18-19, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2670529.2754959", 
+            "DOIname": "10.1145/2670529.2754959", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2754959"
+        }, 
+        {
+            "ArticleName": "Xuanhua Li , Donald Yeung, Application-Level Correctness and its Impact on Fault Tolerance, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.181-192, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346196", 
+            "DOIname": "10.1109/HPCA.2007.346196", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318113"
+        }, 
+        {
+            "ArticleName": "M. J. Wing et al., \"Gated store buffer for an advanced microprocessor,\" U.S. Patent 6,011,908 A, January 2000."
+        }, 
+        {
+            "ArticleName": "M. S. Gupta, et al., \"Decor: A delayed commit and rollback mechanism for handling inductive noise in processors,\" in 2008 IEEE 14th International Symposium on High Performance Computer Architecture, pp. 381--392, Feb 2008."
+        }, 
+        {
+            "ArticleName": "Q. Liu et al., \"Lightweight hardware support for transparent consistency-aware checkpointing in intermittent energy-harvesting systems,\" in Proceedings of the IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), 2016."
+        }, 
+        {
+            "ArticleName": "Steven S. Muchnick, Advanced compiler design and implementation, Morgan Kaufmann Publishers Inc., San Francisco, CA, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=286076"
+        }, 
+        {
+            "ArticleName": "Balkaran Gill , Michael Nicolaidis , Francis Wolff , Chris Papachristou , Steven Garverick, An Efficient BICS Design for SEUs Detection and Correction in Semiconductor Memories, Proceedings of the conference on Design, Automation and Test in Europe, p.592-597, March 07-11, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/DATE.2005.54", 
+            "DOIname": "10.1109/DATE.2005.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1049177"
+        }, 
+        {
+            "ArticleName": "Z. F. Huang et al., \"BISS: A Built-In SEU Sensor for Soft Error Mitigation,\" Applied Mechanics and Materials, vol. 130, pp. 4228--4231, Oct. 2011."
+        }, 
+        {
+            "ArticleName": "Ashay Narsale , Michael C. Huang, Variation-tolerant hierarchical voltage monitoring circuit for soft error detection, Proceedings of the 2009 10th International Symposium on Quality of Electronic Design, p.799-805, March 16-18, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISQED.2009.4810395", 
+            "DOIname": "10.1109/ISQED.2009.4810395", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1548472"
+        }, 
+        {
+            "ArticleName": "Seong-Lyong Gong , Minsoo Rhu , Jungrae Kim , Jinsuk Chung , Mattan Erez, CLEAN-ECC: high reliability ECC for adaptive granularity memory system, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830799", 
+            "DOIname": "10.1145/2830772.2830799", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830799"
+        }, 
+        {
+            "ArticleName": "Jungrae Kim , Michael Sullivan , Seong-Lyong Gong , Mattan Erez, Frugal ECC: efficient and versatile memory error protection through fine-grained compression, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2807591.2807659", 
+            "DOIname": "10.1145/2807591.2807659", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807659"
+        }, 
+        {
+            "ArticleName": "ARM., \"Cortex-a57 technique reference manual.\""
+        }, 
+        {
+            "ArticleName": "Qingrui Liu , Changhee Jung , Dongyoon Lee , Devesh Tiwari, Compiler-Directed Soft Error Detection and Recovery to Avoid DUE and SDC via Tail-DMR, ACM Transactions on Embedded Computing Systems (TECS), v.16 n.2, April 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/2930667", 
+            "DOIname": "10.1145/2930667", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2930667"
+        }, 
+        {
+            "ArticleName": "Qingrui Liu , Changhee Jung , Dongyoon Lee , Devesh Tiwari, Compiler-directed lightweight checkpointing for fine-grained guaranteed soft error recovery, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 13-18, 2016, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3014931"
+        }, 
+        {
+            "ArticleName": "Colin Blundell , Milo M.K. Martin , Thomas F. Wenisch, InvisiFence: performance-transparent memory ordering in conventional multiprocessors, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555785", 
+            "DOIname": "10.1145/1555754.1555785", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555785"
+        }, 
+        {
+            "ArticleName": "W. Jang, Soft-error tolerant quasi delay-insensitive circuits. PhD thesis, Pasadena, CA, USA, 2011."
+        }, 
+        {
+            "ArticleName": "Shubhendu S. Mukherjee , Joel Emer , Steven K. Reinhardt, The Soft Error Problem: An Architectural Perspective, Proceedings of the 11th International Symposium on High-Performance Computer Architecture, p.243-247, February 12-16, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2005.37", 
+            "DOIname": "10.1109/HPCA.2005.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1043420"
+        }, 
+        {
+            "ArticleName": "N. DeBardeleben, et al., \"Extra bits on sram and dram errorsmore data from the field,\" in IEEE Workshop on Silicon Errors in Logic-System Effects (SELSE), 2014."
+        }, 
+        {
+            "ArticleName": "Jack Wadden , Alexander Lyashevsky , Sudhanva Gurumurthi , Vilas Sridharan , Kevin Skadron, Real-world design and evaluation of compiler-managed GPU redundant multithreading, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665686"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "Shuguang Feng , Shantanu Gupta , Amin Ansari , Scott Mahlke, Shoestring: probabilistic soft error reliability on the cheap, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736063", 
+            "DOIname": "10.1145/1736020.1736063", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736063"
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Chunho Lee , Miodrag Potkonjak , William H. Mangione-Smith, MediaBench: a tool for evaluating and synthesizing multimedia and communicatons systems, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.330-335, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266832"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Reiley Jeyapaul , Fei Hong , Abhishek Rhisheekesan , Aviral Shrivastava , Kyoungwoo Lee, UnSync-CMP: Multicore CMP Architecture for Energy-Efficient Soft-Error Reliability, IEEE Transactions on Parallel and Distributed Systems, v.25 n.1, p.254-263, January 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2013.14", 
+            "DOIname": "10.1109/TPDS.2013.14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2553602"
+        }, 
+        {
+            "ArticleName": "Paul Racunas , Kypros Constantinides , Srilatha Manne , Shubhendu S. Mukherjee, Perturbation-based Fault Screening, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.169-180, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346195", 
+            "DOIname": "10.1109/HPCA.2007.346195", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318111"
+        }, 
+        {
+            "ArticleName": "Jonathan Chang , George A. Reis , David I. August, Automatic Instruction-Level Software-Only Recovery, Proceedings of the International Conference on Dependable Systems and Networks, p.83-92, June 25-28, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2006.15", 
+            "DOIname": "10.1109/DSN.2006.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1135689"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Virginia Tech", 
+            "Name": "Qingrui Liu"
+        }, 
+        {
+            "Affiliation": "Virginia Tech", 
+            "Name": "Changhee Jung"
+        }, 
+        {
+            "Affiliation": "Virginia Tech", 
+            "Name": "Dongyoon Lee"
+        }, 
+        {
+            "Affiliation": "Oak Ridge National Laboratory", 
+            "Name": "Devesh Tiwari"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195668&preflayout=flat"
+}

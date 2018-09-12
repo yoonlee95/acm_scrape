@@ -1,0 +1,270 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 189, 
+        "Downloads_6Weeks": 12, 
+        "Downloads_cumulative": 189, 
+        "CitationCount": 0
+    }, 
+    "Title": "RTLcheck: verifying the memory consistency of RTL designs", 
+    "Abstract": "Paramount to the viability of a parallel architecture is the correct implementation of its memory consistency model (MCM). Although tools exist for verifying consistency models at several design levels, a problematic verification gap exists between checking an abstract microarchitectural specification of a consistency model and verifying that the actual processor RTL implements it correctly. This paper presents RTLCheck, a methodology and tool for narrowing the microarchitecture/RTL MCM verification gap. Given a set of microarchitectural axioms about MCM behavior, an RTL design, and user-provided mappings to assist in connecting the two, RTLCheck automatically generates the SystemVerilog Assertions (SVA) needed to verify that the implementation satisfies the microarchitectural specification for a given litmus test program. When combined with existing automated MCM verification tools, RTLCheck enables test-based full-stack MCM verification from high-level languages to RTL. We evaluate RTLCheck on a multicore version of the RISC-V V-scale processor, and discover a bug in its memory implementation. Once the bug is fixed, we verify that the multicore V-scale implementation satisfies sequential consistency across 56 litmus tests. The JasperGold property verifier finds complete proofs for 89% of our properties, and can find bounded proofs for the remaining properties.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Mark Aagaard , Byron Cook , Nancy A. Day , Robert B. Jones, A Framework for Microprocessor Correctness Statements, Proceedings of the 11th IFIP WG 10.5 Advanced Research Working Conference on Correct Hardware Design and Verification Methods, p.433-448, September 04-07, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=702043"
+        }, 
+        {
+            "ArticleName": "Mark Aagaard , Robert B. Jones , Thomas F. Melham , John W. O'Leary , Carl-Johan H. Seger, A Methodology for Large-Scale Hardware Verification, Proceedings of the Third International Conference on Formal Methods in Computer-Aided Design, p.263-282, November 01-03, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=683222"
+        }, 
+        {
+            "ArticleName": "Jade Alglave , Mark Batty , Alastair F. Donaldson , Ganesh Gopalakrishnan , Jeroen Ketema , Daniel Poetzl , Tyler Sorensen , John Wickerson, GPU Concurrency: Weak Behaviours and Programming Assumptions, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694391", 
+            "DOIname": "10.1145/2694344.2694391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694391"
+        }, 
+        {
+            "ArticleName": "Jade Alglave , Luc Maranget , Michael Tautschnig, Herding Cats: Modelling, Simulation, Testing, and Data Mining for Weak Memory, ACM Transactions on Programming Languages and Systems (TOPLAS), v.36 n.2, p.1-74, July 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2627752", 
+            "DOIname": "10.1145/2627752", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2627752"
+        }, 
+        {
+            "ArticleName": "ARM. 2011. Cortex-A9 MPCore, programmer advice notice, read-after-read hazards. ARM Reference 761319. (2011). http://infocenter.arm.com/help/topic/com.arm.doc.uan0004a/UAN0004A_a9_read_read.pdf."
+        }, 
+        {
+            "ArticleName": "ARM. 2017. ARM Architecture Reference Manual ARMv8, for ARMv8-A architecture profile. (2017). https://static.docs.arm.com/ddi0487/b/DDI0487B_a_armv8_arm.pdf"
+        }, 
+        {
+            "ArticleName": "Mark Batty , Kayvan Memarian , Scott Owens , Susmit Sarkar , Peter Sewell, Clarifying and compiling C/C++ concurrency: from C++11 to POWER, Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages, January 25-27, 2012, Philadelphia, PA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2103656.2103717", 
+            "DOIname": "10.1145/2103656.2103717", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2103717"
+        }, 
+        {
+            "ArticleName": "Mark Batty , Scott Owens , Susmit Sarkar , Peter Sewell , Tjark Weber, Mathematizing C++ concurrency, Proceedings of the 38th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages, January 26-28, 2011, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1926385.1926394", 
+            "DOIname": "10.1145/1926385.1926394", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1926394"
+        }, 
+        {
+            "ArticleName": "Colin Blundell , Milo M.K. Martin , Thomas F. Wenisch, InvisiFence: performance-transparent memory ordering in conventional multiprocessors, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555785", 
+            "DOIname": "10.1145/1555754.1555785", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555785"
+        }, 
+        {
+            "ArticleName": "Hans-J. Boehm , Sarita V. Adve, Foundations of the C++ concurrency memory model, Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 07-13, 2008, Tucson, AZ, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375581.1375591", 
+            "DOIname": "10.1145/1375581.1375591", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375591"
+        }, 
+        {
+            "ArticleName": "James Bornholt , Emina Torlak, Synthesizing memory models from framework sketches and Litmus tests, Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 18-23, 2017, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/3062341.3062353", 
+            "DOIname": "10.1145/3062341.3062353", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3062353"
+        }, 
+        {
+            "ArticleName": "Cadence Design Systems, Inc. 2015. JasperGold Apps User's Guide. (2015)."
+        }, 
+        {
+            "ArticleName": "Cadence Design Systems, Inc. 2016. JasperGold Engine Selection Guide. (2016)."
+        }, 
+        {
+            "ArticleName": "Eduard Cerny , Surrendra Dudani , John Havlicek , Dmitry Korchemny, SVA: The Power of Assertions in SystemVerilog, Springer Publishing Company, Incorporated, 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2677118"
+        }, 
+        {
+            "ArticleName": "Luis Ceze , James Tuck , Pablo Montesinos , Josep Torrellas, BulkSC: bulk enforcement of sequential consistency, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250697", 
+            "DOIname": "10.1145/1250662.1250697", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250697"
+        }, 
+        {
+            "ArticleName": "comododragon. 2016. Stores are not working. (2016). https://github.com/ucb-bar/vscale/issues/13."
+        }, 
+        {
+            "ArticleName": "The Coq development team. 2004. The Coq proof assistant reference manual, version 8.0. LogiCal Project. http://coq.inria.fr"
+        }, 
+        {
+            "ArticleName": "The diy development team. 2012. A don't (diy) tutorial, version 5.01. http://diy.inria.fr/doc/index.html"
+        }, 
+        {
+            "ArticleName": "Shaked Flur , Kathryn E. Gray , Christopher Pulte , Susmit Sarkar , Ali Sezgin , Luc Maranget , Will Deacon , Peter Sewell, Modelling the ARMv8 architecture, operationally: concurrency and ISA, Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, January 20-22, 2016, St. Petersburg, FL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2837614.2837615", 
+            "DOIname": "10.1145/2837614.2837615", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2837615"
+        }, 
+        {
+            "ArticleName": "Harry D. Foster, Trends in functional verification: a 2014 industry study, Proceedings of the 52nd Annual Design Automation Conference, p.1-6, June 07-11, 2015, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2744769.2744921", 
+            "DOIname": "10.1145/2744769.2744921", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2744921"
+        }, 
+        {
+            "ArticleName": "Kathryn E. Gray , Gabriel Kerneis , Dominic Mulligan , Christopher Pulte , Susmit Sarkar , Peter Sewell, An integrated concurrency and core-ISA architectural envelope definition, and test oracle, for IBM POWER multiprocessors, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830775", 
+            "DOIname": "10.1145/2830772.2830775", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830775"
+        }, 
+        {
+            "ArticleName": "R. Guanciale, H. Nemati, C. Baumann, and M. Dam. 2016. Cache Storage Channels: Alias-Driven Attacks and Verified Countermeasures. In 2016 IEEE Symposium on Security and Privacy (SP). 38--55."
+        }, 
+        {
+            "ArticleName": "Mark Hachman. 2014. Intel finds specialized TSX enterprise bug on Haswell, Broadwell CPUs. (2014). http://www.pcworld.com/article/2464880/intel-finds-specialized-tsx-enterprise-bug-on-haswell-broadwell-cpus.html."
+        }, 
+        {
+            "ArticleName": "Sudheendra Hangal , Durgam Vahia , Chaiyasit Manovit , Juin-Yeu Joseph Lu, TSOtool: A Program for Verifying Memory Systems Using the Memory Consistency Model, Proceedings of the 31st annual international symposium on Computer architecture, p.114, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006710"
+        }, 
+        {
+            "ArticleName": "IBM. 2013. Power ISA Version 2.07. (2013)."
+        }, 
+        {
+            "ArticleName": "IEEE. 2010. IEEE Standard for Property Specification Language (PSL). IEEE Std 1850-2010 (Revision of IEEE Std1850-2005) (April 2010)."
+        }, 
+        {
+            "ArticleName": "IEEE. 2013. IEEE Standard for SystemVerilog-Unified Hardware Design, Specification, and Verification Language. IEEE Std 1800-2012 (Revision of IEEE Std 1800-2009) (Feb 2013), 1--1315."
+        }, 
+        {
+            "ArticleName": "Intel. 2013. Intel 64 and IA-32 Architectures Software Developer's Manual. (2013). http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf"
+        }, 
+        {
+            "ArticleName": "L. Lamport, How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs, IEEE Transactions on Computers, v.28 n.9, p.690-691, September 1979", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1979.1675439", 
+            "DOIname": "10.1109/TC.1979.1675439", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1311750"
+        }, 
+        {
+            "ArticleName": "Yunsup Lee, Albert Ou, and Albert Magyar. 2015. Z-Scale: Tiny 32-bit RISC-V Systems. (2015). https://riscv.org/wp-content/uploads/2015/06/riscv-zscale-workshop-june2015.pdf."
+        }, 
+        {
+            "ArticleName": "Daniel Lustig , Michael Pellauer , Margaret Martonosi, PipeCheck: Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.38", 
+            "DOIname": "10.1109/MICRO.2014.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742219"
+        }, 
+        {
+            "ArticleName": "Daniel Lustig , Geet Sethi , Margaret Martonosi , Abhishek Bhattacharjee, COATCheck: Verifying Memory Ordering at the Hardware-OS Interface, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872399", 
+            "DOIname": "10.1145/2872362.2872399", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872399"
+        }, 
+        {
+            "ArticleName": "Daniel Lustig, Caroline Trippel, Yatin A. Manerkar, Margaret Martonosi, and Michael Pellauer. 2017. Check Research Tools and Papers. (2017). http://check.cs.princeton.edu/."
+        }, 
+        {
+            "ArticleName": "Albert Magyar. 2016. Verilog version of Z-scale. (2016). https://github.com/ucb-bar/vscale."
+        }, 
+        {
+            "ArticleName": "Yatin A. Manerkar , Daniel Lustig , Michael Pellauer , Margaret Martonosi, CCICheck: using \u00b5hb graphs to verify the coherence-consistency interface, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830782", 
+            "DOIname": "10.1145/2830772.2830782", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830782"
+        }, 
+        {
+            "ArticleName": "Yatin A. Manerkar, Caroline Trippel, Daniel Lustig, Michael Pellauer, and Margaret Martonosi. 2016. Counterexamples and Proof Loophole for the C/C++ to POWER and ARMv7 Trailing-Sync Compiler Mappings. CoRR abs/1611.01507 (2016). http://arxiv.org/abs/1611.01507"
+        }, 
+        {
+            "ArticleName": "Jeremy Manson , William Pugh , Sarita V. Adve, The Java memory model, Proceedings of the 32nd ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.378-391, January 12-14, 2005, Long Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1040305.1040336", 
+            "DOIname": "10.1145/1040305.1040336", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1040336"
+        }, 
+        {
+            "ArticleName": "Albert Meixner , Daniel J. Sorin, Dynamic Verification of Memory Consistency in Cache-Coherent Multithreaded Computer Architectures, IEEE Transactions on Dependable and Secure Computing, v.6 n.1, p.18-31, January 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TDSC.2007.70243", 
+            "DOIname": "10.1109/TDSC.2007.70243", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1512345"
+        }, 
+        {
+            "ArticleName": "Scott Owens , Susmit Sarkar , Peter Sewell, A Better x86 Memory Model: x86-TSO, Proceedings of the 22nd International Conference on Theorem Proving in Higher Order Logics, August 17-20, 2009, Munich, Germany", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-03359-9_27", 
+            "DOIname": "10.1007/978-3-642-03359-9_27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1616107"
+        }, 
+        {
+            "ArticleName": "M. Pellauer , M. Lis , D. Baltus , R. Nikhil, Synthesis of synchronous assertions with guarded atomic actions, Proceedings of the 2nd ACM/IEEE International Conference on Formal Methods and Models for Co-Design, p.15-24, July 11-14, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MEMCOD.2005.1487886", 
+            "DOIname": "10.1109/MEMCOD.2005.1487886", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1322141"
+        }, 
+        {
+            "ArticleName": "Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, and Ali Zaidi. 2016. End-to-End Verification of Processors with ISA-Formal. In 28th International Conference on Computer Aided Verification (CAV)."
+        }, 
+        {
+            "ArticleName": "RISC-V Foundation. 2015. RISC-V in Verilog. (2015). https://riscv.org/2015/09/risc-v-in-verilog/."
+        }, 
+        {
+            "ArticleName": "Susmit Sarkar , Kayvan Memarian , Scott Owens , Mark Batty , Peter Sewell , Luc Maranget , Jade Alglave , Derek Williams, Synchronising C/C++ and POWER, Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 11-16, 2012, Beijing, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2254064.2254102", 
+            "DOIname": "10.1145/2254064.2254102", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2254102"
+        }, 
+        {
+            "ArticleName": "Susmit Sarkar , Peter Sewell , Jade Alglave , Luc Maranget , Derek Williams, Understanding POWER multiprocessors, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993520", 
+            "DOIname": "10.1145/1993498.1993520", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993520"
+        }, 
+        {
+            "ArticleName": "Tyler Sorensen , Alastair F. Donaldson, Exposing errors related to weak memory in GPU applications, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908114", 
+            "DOIname": "10.1145/2908080.2908114", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908114"
+        }, 
+        {
+            "ArticleName": "CORPORATE SPARC International, Inc., The SPARC architecture manual (version 9), Prentice-Hall, Inc., Upper Saddle River, NJ, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=174556"
+        }, 
+        {
+            "ArticleName": "Daryl Stewart, David Gilday, Daniel Nevill, and Thomas Roberts. 2014. Processor memory system verification using DOGReL: a language for specifying end-to-end properties. In International Workshop on Design and Implementation of Formal Tools and Systems (DIFTS)."
+        }, 
+        {
+            "ArticleName": "Pramod Subramanyan , Yakir Vizel , Sayak Ray , Sharad Malik, Template-based synthesis of instruction-level abstractions for SoC verification, Proceedings of the 15th Conference on Formal Methods in Computer-Aided Design, p.160-167, September 27-30, 2015, Austin, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2893557"
+        }, 
+        {
+            "ArticleName": "Caroline Trippel , Yatin A. Manerkar , Daniel Lustig , Michael Pellauer , Margaret Martonosi, TriCheck: Memory Model Verification at the Trisection of Software, Hardware, and ISA, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037719", 
+            "DOIname": "10.1145/3037697.3037719", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037719"
+        }, 
+        {
+            "ArticleName": "Babu Turumella , Mukesh Sharma, Assertion-based verification of a 32 thread SPARC\u2122 CMT microprocessor, Proceedings of the 45th annual Design Automation Conference, June 08-13, 2008, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1391469.1391535", 
+            "DOIname": "10.1145/1391469.1391535", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1391535"
+        }, 
+        {
+            "ArticleName": "Muralidaran Vijayaraghavan, Adam Chlipala, Arvind, and Nirav Dave. 2015. Modular Deductive Verification of Multiprocessor Hardware Designs. In 27th International Conference on Computer Aided Verification (CAV)."
+        }, 
+        {
+            "ArticleName": "Mark Walton. 2016. Intel Skylake bug causes PCs to freeze during complex workloads. (2016). https://arstechnica.com/gadgets/2016/01/intel-skylake-bug-causes-pcs-to-freeze-during-complex-workloads/."
+        }, 
+        {
+            "ArticleName": "Ping Yeung and K. Larsen. 2005. Practical Assertion-based Formal Verification for SoC Designs. In 2005 International Symposium on System-on-Chip. 58--61."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Princeton University", 
+            "Name": "Yatin A. Manerkar"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Daniel Lustig"
+        }, 
+        {
+            "Affiliation": "Princeton University", 
+            "Name": "Margaret Martonosi"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Michael Pellauer"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124536&preflayout=flat"
+}

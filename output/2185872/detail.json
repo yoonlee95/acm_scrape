@@ -1,0 +1,70 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 0
+    }, 
+    "Title": "Accelerating agent-based ecosystem models using the cell broadband engine", 
+    "Abstract": "This paper investigates how the parallel streaming capabilities of the Cell Broadband Engine can be used to speed up a class of agent-based plankton models generated from a domain-specific model compiler called the Virtual Ecology Workbench (VEW). We show that excellent speed-ups over a conventional x86 platform can be achieved for the agent update loop. We also show that scalability of the application as a whole is limited by the need to perform particle management, which splits and merges agents in order to keep the global agent count within specified bounds. Furthermore, we identify the size of the PPE L2 cache as the main hardware limitation for this process and give an indication of how to perform the required searches more efficiently.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "Bader, D. A., Agarwal, V., Madduri, K.: On the Design and Analysis of Irregular Algorithms on the Cell Processor: A Case Study of List Ranking. In: Proceedings of 21st IEEE IPDPS (2007)"
+        }, 
+        {
+            "ArticleName": "Chen, T., Raghavan, R., Dale, J., Iwata, E.: Cell Broadband Engine Architecture and its first implementation, http://www.ibm.com/developerworks/power/ library/pa-cellperf/"
+        }, 
+        {
+            "ArticleName": "Erez, M., Ahn, J. H., Gummaraju, J., Rosenblum, M., Dally, W. J.: Executing irregular scientific applications on stream architectures. ACM (2007)"
+        }, 
+        {
+            "ArticleName": "De Fabritiis, G.: Performance of the Cell processor for biomolecular simulations. Computer Physics Communications 176, 660-664 (2007)"
+        }, 
+        {
+            "ArticleName": "Hinsley, W. R.: Planktonica: A system for doing biological oceanography by computer. PhD thesis, Imperial College London (2005)"
+        }, 
+        {
+            "ArticleName": "Wes Hinsley , Tony Field , John Woods, Creating Individual Based Models of the Plankton Ecosystem, Proceedings of the 7th international conference on Computational Science, Part I: ICCS 2007, p.111-118, May 27-30, 2007, Beijing, China", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-72584-8_15", 
+            "DOIname": "10.1007/978-3-540-72584-8_15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1418011"
+        }, 
+        {
+            "ArticleName": "Julien Lamoureux , Tony Field , Wayne Luk, Accelerating a Virtual Ecology Model with FPGAs, Proceedings of the 2009 20th IEEE International Conference on Application-specific Systems, Architectures and Processors, p.67-74, July 07-09, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ASAP.2009.27", 
+            "DOIname": "10.1109/ASAP.2009.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1602620"
+        }, 
+        {
+            "ArticleName": "Petrini, F., Fossum, G., Fernandez, J., Varbanescu, A. L., Kistler, M., Perrone, M.: Multicore surprises: Lessons learned from optimizing sweep3d on the cell broadband engine. In: Proceedings of 21st IEEE IPDPS (2007)"
+        }, 
+        {
+            "ArticleName": "Sinerchia, M.: Testing theories on fisheries recruitment. PhD thesis, Imperial College London (2007)"
+        }, 
+        {
+            "ArticleName": "Spray, J., Hill, J., Trew, A.: Performance of a Lattice Quantum Chronodynamics kernel on the Cell processor. Computer Physics Communications 179, 642-646 (2008)"
+        }, 
+        {
+            "ArticleName": "Williams, S., Shalf, J., Oliker, L., Kamil, S., Husbands, P., Yelick, K.: The Potential of the Cell Processor for Scientific Computing. ACM (2005)"
+        }, 
+        {
+            "ArticleName": "Woods, J. D.: The Lagrangian Ensemble metamodel for simulating plankton ecosystems. Progress in Oceanography 67, 84-159 (2005)"
+        }, 
+        {
+            "ArticleName": "Woods, J. D., Perilli, A., Barkmann, W.: Stability and predictability of a virtual plankton ecosystem created with an individual-based model. Progress in Oceanography 67, 43-83 (2005)"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Department of Computing, Imperial College London, UK", 
+            "Name": "Michael Lange"
+        }, 
+        {
+            "Affiliation": "Department of Computing, Imperial College London, UK", 
+            "Name": "Tony Field"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185872&preflayout=flat"
+}

@@ -1,0 +1,289 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Mehmet E. Belviranli , Seyong Lee , Jeffrey S. Vetter , Laxmi N. Bhuyan, Juggler: a dependence-aware task-based execution framework for GPUs, ACM SIGPLAN Notices, v.53 n.1, p.54-67, January 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3178492"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 365, 
+        "Downloads_6Weeks": 8, 
+        "Downloads_cumulative": 365, 
+        "CitationCount": 1
+    }, 
+    "Title": "Versapipe: a versatile programming framework for pipelined computing on GPU", 
+    "Abstract": "Pipeline is an important programming pattern, while GPU, designed mostly for data-level parallel executions, lacks an efficient mechanism to support pipeline programming and executions. This paper provides a systematic examination of various existing pipeline execution models on GPU, and analyzes their strengths and weaknesses. To address their shortcomings, this paper then proposes three new execution models equipped with much improved controllability, including a hybrid model that is capable of getting the strengths of all. These insights ultimately lead to the development of a software programming framework named VersaPipe. With VersaPipe, users only need to write the operations for each pipeline stage. VersaPipe will then automatically assemble the stages into a hybrid execution model and configure it to achieve the best performance. Experiments on a set of pipeline benchmarks and a real-world face detection application show that VersaPipe produces up to 6.90X (2.88X on average) speedups over the original manual implementations.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Edward Adelson, Charles Anderson, James Bergen, Peter Burt, and Joan Ogden. 1984. Pyramid Methods in Image Processing. RCA Engineer 29, 6 (1984), 33--41."
+        }, 
+        {
+            "ArticleName": "Timo Ahonen , Abdenour Hadid , Matti Pietikainen, Face Description with Local Binary Patterns: Application to Face Recognition, IEEE Transactions on Pattern Analysis and Machine Intelligence, v.28 n.12, p.2037-2041, December 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPAMI.2006.244", 
+            "DOIname": "10.1109/TPAMI.2006.244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1176245"
+        }, 
+        {
+            "ArticleName": "Timo Aila , Samuli Laine, Understanding the efficiency of ray traversal on GPUs, Proceedings of the Conference on High Performance Graphics 2009, August 01-03, 2009, New Orleans, Louisiana", 
+            "DOIhref": "http://doi.acm.org/10.1145/1572769.1572792", 
+            "DOIname": "10.1145/1572769.1572792", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1572792"
+        }, 
+        {
+            "ArticleName": "Herbert Bay , Tinne Tuytelaars , Luc Van Gool, SURF: speeded up robust features, Proceedings of the 9th European conference on Computer Vision, May 07-13, 2006, Graz, Austria", 
+            "DOIhref": "https://dx.doi.org/10.1007/11744023_32", 
+            "DOIname": "10.1007/11744023_32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2094476"
+        }, 
+        {
+            "ArticleName": "Christian Bienia , Kai Li, Characteristics of workloads using the pipeline programming model, Proceedings of the 2010 international conference on Computer Architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-24322-6_14", 
+            "DOIname": "10.1007/978-3-642-24322-6_14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2185887"
+        }, 
+        {
+            "ArticleName": "Michael Boyer , David Tarjan , Scott T. Acton , Kevin Skadron, Accelerating leukocyte tracking using CUDA: A case study in leveraging manycore coprocessors, Proceedings of the 2009 IEEE International Symposium on Parallel&Distributed Processing, p.1-12, May 23-29, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2009.5160984", 
+            "DOIname": "10.1109/IPDPS.2009.5160984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1587593"
+        }, 
+        {
+            "ArticleName": "Daniel Cederman , Philippas Tsigas, On dynamic load balancing on graphics processors, Proceedings of the 23rd ACM SIGGRAPH/EUROGRAPHICS symposium on Graphics hardware, June 20-21, 2008, Sarajevo, Bosnia and Herzegovina", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1413967"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Guoyang Chen , Xipeng Shen, Free launch: optimizing GPU dynamic kernel launches through thread reuse, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830818", 
+            "DOIname": "10.1145/2830772.2830818", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830818"
+        }, 
+        {
+            "ArticleName": "Long Chen, Oreste Villa, Sriram Krishnamoorthy, and Guang R Gao. 2010. Dynamic Load Balancing on Single-and Multi-GPU Systems. In IEEE International Symposium on Parallel & Distributed Processing. IEEE, 1--12."
+        }, 
+        {
+            "ArticleName": "Nagai-Man Cheung, Xiaopeng Fan, Oscar C Au, and Man-Cheung Kung. 2010. Video Coding on Multicore Graphics Processors. IEEE Signal Processing Magazine 27, 2 (2010), 79--89."
+        }, 
+        {
+            "ArticleName": "Robert L. Cook , Loren Carpenter , Edwin Catmull, The Reyes image rendering architecture, ACM SIGGRAPH Computer Graphics, v.21 n.4, p.95-102, July 1987", 
+            "DOIhref": "http://doi.acm.org/10.1145/37402.37414", 
+            "DOIname": "10.1145/37402.37414", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=37414"
+        }, 
+        {
+            "ArticleName": "Carl Doersch , Saurabh Singh , Abhinav Gupta , Josef Sivic , Alexei A. Efros, What makes Paris look like Paris?, Communications of the ACM, v.58 n.12, December 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830541", 
+            "DOIname": "10.1145/2830541", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830541"
+        }, 
+        {
+            "ArticleName": "Izzat El Hajj, Juan G\u00f3mez-Luna, Cheng Li, Li-Wen Chang, Dejan Milojicic, and Wen-mei Hwu. 2016. KLAP: Kernel Launch Aggregation and Promotion for Optimizing Dynamic Parallelism. In 49th Annual IEEE/ACM International Symposium on Microarchitecture. IEEE, 1--12."
+        }, 
+        {
+            "ArticleName": "Robert Gallager. 1962. Low-density Parity-check Codes. IRE Transactions on Information Theory 8, 1 (1962), 21--28."
+        }, 
+        {
+            "ArticleName": "Kshitij Gupta, Jeff A Stuart, and John D Owens. 2012. A Study of Persistent Threads Style GPU Programming for GPGPU Workloads. In Innovative Parallel Computing (InPar), 2012. IEEE, 1--14."
+        }, 
+        {
+            "ArticleName": "John L Hess and A_M O Smith. 1967. Calculation of Potential Flow about Arbitrary Bodies. Progress in Aerospace Sciences 8 (1967), 1--138."
+        }, 
+        {
+            "ArticleName": "Jiwei Liang. 2016. LDPC OOK Decoder. https://github.com/BibbyLiang/LDPC-OOK-Decoder-on-GPU. (2016)."
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Nachiappan Chidambaram Nachiappan , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance, ACM SIGPLAN Notices, v.48 n.4, April 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499368.2451158", 
+            "DOIname": "10.1145/2499368.2451158", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451158"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Orchestrated scheduling and prefetching for GPGPUs, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485951", 
+            "DOIname": "10.1145/2485922.2485951", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485951"
+        }, 
+        {
+            "ArticleName": "Onur Kay\u0131ran , Adwait Jog , Mahmut Taylan Kandemir , Chita Ranjan Das, Neither more nor less: optimizing thread-level parallelism for GPGPUs, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523745"
+        }, 
+        {
+            "ArticleName": "Brucek Khailany , William J. Dally , Ujval J. Kapasi , Peter Mattson , Jinyung Namkoong , John D. Owens , Brian Towles , Andrew Chang , Scott Rixner, Imagine: Media Processing with Streams, IEEE Micro, v.21 n.2, p.35-46, March 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.918001", 
+            "DOIname": "10.1109/40.918001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624434"
+        }, 
+        {
+            "ArticleName": "Gwangsun Kim , Jiyun Jeong , John Kim , Mark Stephenson, Automatically Exploiting Implicit Pipeline Parallelism from Multiple Dependent Kernels for GPUs, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967952", 
+            "DOIname": "10.1145/2967938.2967952", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967952"
+        }, 
+        {
+            "ArticleName": "Samuli Laine , Tero Karras , Timo Aila, Megakernels considered harmful: wavefront path tracing on GPUs, Proceedings of the 5th High-Performance Graphics Conference, July 19-21, 2013, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2492045.2492060", 
+            "DOIname": "10.1145/2492045.2492060", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2492060"
+        }, 
+        {
+            "ArticleName": "Minseok Lee, Gwangsun Kim, John Kim, Woong Seo, Yeongon Cho, and Soojung Ryu. 2016. iPAWS: Instruction-issue Pattern-based Adaptive Warp Scheduling for GPGPUs. In 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 370--381."
+        }, 
+        {
+            "ArticleName": "K. Li , J. F. Naughton, Multiprocessor main memory transaction processing, Proceedings of the first international symposium on Databases in parallel and distributed systems, p.177-187, December 05-07, 1988, Austin, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=62617"
+        }, 
+        {
+            "ArticleName": "Zhen Lin , Lars Nyland , Huiyang Zhou, Enabling efficient preemption for SIMT architectures with lightweight context switching, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 13-18, 2016, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3015007"
+        }, 
+        {
+            "ArticleName": "David G. Lowe, Distinctive Image Features from Scale-Invariant Keypoints, International Journal of Computer Vision, v.60 n.2, p.91-110, November 2004", 
+            "DOIhref": "https://dx.doi.org/10.1023/B:VISI.0000029664.99615.94", 
+            "DOIname": "10.1023/B:VISI.0000029664.99615.94", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=996342"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2016. NVIDIA CUDA. http://www.nvidia.com/object/cuda_home_new.html. (2016)."
+        }, 
+        {
+            "ArticleName": "Chanyoung Oh, Saehanseul Yi, and Youngmin Yi. 2015. Real-time Face Detection in Full HD Images Exploiting both Embedded CPU and GPU. In 2015 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 1--6."
+        }, 
+        {
+            "ArticleName": "Sreepathi Pai , Keshav Pingali, A compiler for throughput optimization of graph algorithms on GPUs, Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, November 02-04, 2016, Amsterdam, Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2983990.2984015", 
+            "DOIname": "10.1145/2983990.2984015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2984015"
+        }, 
+        {
+            "ArticleName": "Steven G. Parker , James Bigler , Andreas Dietrich , Heiko Friedrich , Jared Hoberock , David Luebke , David McAllister , Morgan McGuire , Keith Morley , Austin Robison , Martin Stich, OptiX: a general purpose ray tracing engine, ACM Transactions on Graphics (TOG), v.29 n.4, July 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1778765.1778803", 
+            "DOIname": "10.1145/1778765.1778803", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1778803"
+        }, 
+        {
+            "ArticleName": "Anjul Patney and John D Owens. 2008. Real-time Reyes: Programmable Pipelines and Research Challenges. ACM SIGGRAPH Asia 2008 Course Notes (2008)."
+        }, 
+        {
+            "ArticleName": "Anjul Patney , Stanley Tzeng , Kerry A. Seitz, Jr. , John D. Owens, Piko: a framework for authoring programmable graphics pipelines, ACM Transactions on Graphics (TOG), v.34 n.4, August 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2766973", 
+            "DOIname": "10.1145/2766973", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2766973"
+        }, 
+        {
+            "ArticleName": "Pixar. 2016. Pixar's RenderMan. https://renderman.pixar.com/view/renderman. (2016)."
+        }, 
+        {
+            "ArticleName": "Timothy J. Purcell , Ian Buck , William R. Mark , Pat Hanrahan, Ray tracing on programmable graphics hardware, ACM Transactions on Graphics (TOG), v.21 n.3, July 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/566654.566640", 
+            "DOIname": "10.1145/566654.566640", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=566640"
+        }, 
+        {
+            "ArticleName": "Jonathan Ragan-Kelley , Connelly Barnes , Andrew Adams , Sylvain Paris , Fr\u00e9do Durand , Saman Amarasinghe, Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines, ACM SIGPLAN Notices, v.48 n.6, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499370.2462176", 
+            "DOIname": "10.1145/2499370.2462176", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2462176"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Divergence-aware warp scheduling, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540718", 
+            "DOIname": "10.1145/2540708.2540718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540718"
+        }, 
+        {
+            "ArticleName": "Keigo Shirai, Hirokazu Madokoro, Satoshi Takahashi, and Kazuhito Sato. 2014. Parallel Implementation of Saliency Maps for Real-time Robot Vision. In Control, Automation and Systems (ICCAS), 2014 14th International Conference on. IEEE, 1046--1051."
+        }, 
+        {
+            "ArticleName": "Changhe Song, Yunsong Li, and Bormin Huang. 2011. A GPU-accelerated Wavelet Decompression System with SPIHT and Reed-Solomon Decoding For Satellite Images. IEEE Journal of selected topics in applied earth observations and remote sensing 4, 3 (2011), 683--690."
+        }, 
+        {
+            "ArticleName": "Markus Steinberger , Bernhard Kainz , Bernhard Kerbl , Stefan Hauswiesner , Michael Kenzel , Dieter Schmalstieg, Softshell: dynamic scheduling on GPUs, ACM Transactions on Graphics (TOG), v.31 n.6, November 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366145.2366180", 
+            "DOIname": "10.1145/2366145.2366180", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2366180"
+        }, 
+        {
+            "ArticleName": "Markus Steinberger , Michael Kenzel , Pedro Boechat , Bernhard Kerbl , Mark Dokter , Dieter Schmalstieg, Whippletree: task-based scheduling of dynamic workloads on the GPU, ACM Transactions on Graphics (TOG), v.33 n.6, November 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2661229.2661250", 
+            "DOIname": "10.1145/2661229.2661250", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2661250"
+        }, 
+        {
+            "ArticleName": "Jeremy Sugerman , Kayvon Fatahalian , Solomon Boulos , Kurt Akeley , Pat Hanrahan, GRAMPS: A programming model for graphics pipelines, ACM Transactions on Graphics (TOG), v.28 n.1, p.1-11, January 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1477926.1477930", 
+            "DOIname": "10.1145/1477926.1477930", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1477930"
+        }, 
+        {
+            "ArticleName": "Weibin Sun , Robert Ricci, Fast and flexible: parallel packet processing with GPUs and click, Proceedings of the ninth ACM/IEEE symposium on Architectures for networking and communications systems, October 21-22, 2013, San Jose, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2537861"
+        }, 
+        {
+            "ArticleName": "Stanley Tzeng , Anjul Patney , John D. Owens, Task management for irregular-parallel workloads on the GPU, Proceedings of the Conference on High Performance Graphics, June 25-27, 2010, Saarbrucken, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1921485"
+        }, 
+        {
+            "ArticleName": "Paul Viola and Michael Jones. 2001. Rapid Object Detection Using a Boosted Cascade of Simple Features. In Computer Vision and Pattern Recognition, 2001. CVPR 2001. Proceedings of the 2001 IEEE Computer Society Conference on, Vol. 1. IEEE, I--511."
+        }, 
+        {
+            "ArticleName": "Wang, Jin and Yalamanchili, Sudhakar. 2014. Characterization and Analysis of Dynamic Parallelism in Unstructured GPU Applications. In Workload Characterization (IISWC), 2014 IEEE International Symposium on. IEEE, 51--60."
+        }, 
+        {
+            "ArticleName": "Bo Wu , Guoyang Chen , Dong Li , Xipeng Shen , Jeffrey Vetter, Enabling and Exploiting Flexible Task Assignment on GPU through SM-Centric Program Transformations, Proceedings of the 29th ACM on International Conference on Supercomputing, June 08-11, 2015, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2751205.2751213", 
+            "DOIname": "10.1145/2751205.2751213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2751213"
+        }, 
+        {
+            "ArticleName": "Feng Zhang , Jidong Zhai , Bingsheng He , Shuhao Zhang , Wenguang Chen, Understanding Co-Running Behaviors on Integrated CPU/GPU Architectures, IEEE Transactions on Parallel and Distributed Systems, v.28 n.3, p.905-918, March 2017", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2016.2586074", 
+            "DOIname": "10.1109/TPDS.2016.2586074", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3057960"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Tsinghua University", 
+            "Name": "Zhen Zheng"
+        }, 
+        {
+            "Affiliation": "University of Seoul", 
+            "Name": "Chanyoung Oh"
+        }, 
+        {
+            "Affiliation": "Tsinghua University", 
+            "Name": "Jidong Zhai"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Xipeng Shen"
+        }, 
+        {
+            "Affiliation": "University of Seoul", 
+            "Name": "Youngmin Yi"
+        }, 
+        {
+            "Affiliation": "Tsinghua University", 
+            "Name": "Wenguang Chen"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123978&preflayout=flat"
+}

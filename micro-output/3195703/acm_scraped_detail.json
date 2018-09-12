@@ -1,0 +1,174 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Amir M. Rahmani , Bryan Donyanavard , Tiago M\u00fcck , Kasra Moazzemi , Axel Jantsch , Onur Mutlu , Nikil Dutt, SPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173199"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 15, 
+        "Downloads_6Weeks": 6, 
+        "Downloads_cumulative": 15, 
+        "CitationCount": 1
+    }, 
+    "Title": "Redefining QoS and customizing the power management policy to satisfy individual mobile users", 
+    "Abstract": "Delivering an excellent use experience to the customers is the top challenge faced by today's mobile device designers and producers. There have been multiple studies on achieving the good trade-offs between QoS and energy to enhance the user experience, however, they generally lack a comprehensive and accurate understanding of QoS, and ignore the fact that each individual user has his/her own preference between QoS and energy. In this study, we overcome these two drawbacks and propose a customized power management policy that dynamically configures the mobile platform to achieve the user-specific optimal QoS and energy trade-offs and hence, satisfy each individual mobile user. We first introduce a novel and comprehensive definition of QoS, and propose the accurate QoS measurement and management methodologies. We then observe that user's personality greatly determines his/her preferences between QoS and energy, and propose an online personality-guided user satisfaction prediction model based on the QoS and energy, guided by the user personality inferred from his/her device usage history. Our validation proves our model can achieve very high prediction accuracy. Finally, we propose our customized power management policy based on the prediction model for individual users. The experiment results show that our technique can improve the user experience by around 36% compared with the state-of-the-art power management policies.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Y. Zhu, M. Halpern, and V. J. Reddi, \"Event-based scheduling for energy-efficient qos (eqos) in mobile web applications,\" in High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on, pp. 137--149, Feb 2015."
+        }, 
+        {
+            "ArticleName": "C. J. W. Benjamin Gaudette and S. Vrudhula, \"Improving Smartphone User Experience by Balancing Performance and Energy with Probabilistic QoS Guarantee,\" in High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on, March 2016."
+        }, 
+        {
+            "ArticleName": "Alex Shye , Berkin Ozisikyilmaz , Arindam Mallik , Gokhan Memik , Peter A. Dinda , Robert P. Dick , Alok N. Choudhary, Learning and Leveraging the Relationship between Architecture-Level Measurements and Individual User Satisfaction, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.427-438, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.29", 
+            "DOIname": "10.1109/ISCA.2008.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382158"
+        }, 
+        {
+            "ArticleName": "Wook Song , Nosub Sung , Byung-Gon Chun , Jihong Kim, Reducing energy consumption of smartphones using user-perceived response time analysis, Proceedings of the 15th Workshop on Mobile Computing Systems and Applications, p.1-6, February 26-27, 2014, Santa Barbara, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2565585.2565595", 
+            "DOIname": "10.1145/2565585.2565595", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2565595"
+        }, 
+        {
+            "ArticleName": "Xiaomeng Chen , Ning Ding , Abhilash Jindal , Y. Charlie Hu , Maruti Gupta , Rath Vannithamby, Smartphone Energy Drain in the Wild: Analysis and Implications, Proceedings of the 2015 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems, June 15-19, 2015, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2745844.2745875", 
+            "DOIname": "10.1145/2745844.2745875", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2745875"
+        }, 
+        {
+            "ArticleName": "Rahul Murmuria , Jeffrey Medsger , Angelos Stavrou , Jeffrey M. Voas, Mobile Application and Device Power Usage Measurements, Proceedings of the 2012 IEEE Sixth International Conference on Software Security and Reliability, p.147-156, June 20-22, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/SERE.2012.19", 
+            "DOIname": "10.1109/SERE.2012.19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2359713"
+        }, 
+        {
+            "ArticleName": "A. E. Kazdin, Encyclopedia of Psychology. Oxford University Press, 2000."
+        }, 
+        {
+            "ArticleName": "R. R. McCrae and O. P. John, \"An introduction to the five-factor model and its applications. journal of personality,\" Journal of Personality, vol. 60, pp. 175--215, 1992."
+        }, 
+        {
+            "ArticleName": "P. J. R. Samuel D. Gosling and W. B. S. Jr., \"A very brif measure of the big-five personality domains,\" Journal of Research in Personality, vol. 37, pp. 504--528, 2003."
+        }, 
+        {
+            "ArticleName": "Gokul Chittaranjan , Jan Blom , Daniel Gatica-Perez, Mining large-scale smartphone data for personality studies, Personal and Ubiquitous Computing, v.17 n.3, p.433-450, March 2013", 
+            "DOIhref": "https://dx.doi.org/10.1007/s00779-011-0490-1", 
+            "DOIname": "10.1007/s00779-011-0490-1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2444522"
+        }, 
+        {
+            "ArticleName": "AppCategory. http://www.appbrain.com/stats/android-market-app-categories, 2016."
+        }, 
+        {
+            "ArticleName": "Qiang Wu , Margaret Martonosi , Douglas W. Clark , V. J. Reddi , Dan Connors , Youfeng Wu , Jin Lee , David Brooks, A Dynamic Compilation Framework for Controlling Microprocessor Energy and Performance, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.271-282, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.7", 
+            "DOIname": "10.1109/MICRO.2005.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100556"
+        }, 
+        {
+            "ArticleName": "Fen Xie , Margaret Martonosi , Sharad Malik, Compile-time dynamic voltage scaling settings: opportunities and limits, Proceedings of the ACM SIGPLAN 2003 conference on Programming language design and implementation, June 09-11, 2003, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/781131.781138", 
+            "DOIname": "10.1145/781131.781138", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781138"
+        }, 
+        {
+            "ArticleName": "Aaron Carroll , Gernot Heiser, An analysis of power consumption in a smartphone, Proceedings of the 2010 USENIX conference on USENIX annual technical conference, p.21-21, June 23-25, 2010, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855861"
+        }, 
+        {
+            "ArticleName": "Fengyuan Xu , Yunxin Liu , Qun Li , Yongguang Zhang, V-edge: fast self-constructive power modeling of smartphones based on battery voltage dynamics, Proceedings of the 10th USENIX conference on Networked Systems Design and Implementation, April 02-05, 2013, Lombard, IL", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2482633"
+        }, 
+        {
+            "ArticleName": "Glenford J. Myers, Advances in Computer Architecture, John Wiley & Sons, Inc., New York, NY, 1982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=539235"
+        }, 
+        {
+            "ArticleName": "G. E. P. Box and G. M. Jenkins, Time Series Analysis: Forecasting and Control. Holden-Day, 1971."
+        }, 
+        {
+            "ArticleName": "thenextweb.com. http://thenextweb.com/insider/2012/05/16/nielsen-us-smartphones-have-an-average-of-41-apps-installed-up-from-32-last-year/, 2015."
+        }, 
+        {
+            "ArticleName": "S. Ickin, K. Wac, M. Fiedler, L. Janowski, J.-H. Hong, and A. Dey, \"Factors influencing quality of experience of commonly used mobile applications,\" Communications Magazine, IEEE, vol. 50, pp. 48--56, April 2012."
+        }, 
+        {
+            "ArticleName": "William J. Doll , Gholamreza Torkzadeh, The measurement of end-user computing satisfaction, MIS Quarterly, v.12 n.2, p.259-274, June 1988", 
+            "DOIhref": "https://dx.doi.org/10.2307/248851", 
+            "DOIname": "10.2307/248851", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=58316"
+        }, 
+        {
+            "ArticleName": "Alex Shye , Yan Pan , Ben Scholbrock , J. Scott Miller , Gokhan Memik , Peter A. Dinda , Robert P. Dick, Power to the people: Leveraging human physiological traits to control microprocessor frequency, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.188-199, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771790", 
+            "DOIname": "10.1109/MICRO.2008.4771790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521795"
+        }, 
+        {
+            "ArticleName": "Alex Shye , Benjamin Scholbrock , Gokhan Memik, Into the wild: studying real user activity patterns to guide power optimizations for mobile architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669135", 
+            "DOIname": "10.1145/1669112.1669135", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669135"
+        }, 
+        {
+            "ArticleName": "Arian Maghazeh , Unmesh D. Bordoloi , Mattias Villani , Petru Eles , Zebo Peng, Perception-Aware Power Management for Mobile Games via Dynamic Resolution Scaling, Proceedings of the IEEE/ACM International Conference on Computer-Aided Design, p.613-620, November 02-06, 2015, Austin, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2840904"
+        }, 
+        {
+            "ArticleName": "V. J. R. Matthew Halpern, Yuhao Zhu, \"Mobile CPUs Rise to Power: Quantifying the Impact of Generational Mobile CPU Design Trends on Performance, Energy, and User Satisfaction,\" in High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on, March 2016."
+        }, 
+        {
+            "ArticleName": "V. Seeker, P. Petoumenos, H. Leather, and B. Franke, \"Measuring qoe of interactive workloads and characterising frequency governors on mobile devices,\" in Workload Characterization (IISWC), 2014 IEEE International Symposium on, pp. 61--70, Oct 2014."
+        }, 
+        {
+            "ArticleName": "Kaige Yan , Xingyao Zhang , Xin Fu, Characterizing, modeling, and improving the QoE of mobile devices with low battery level, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830786", 
+            "DOIname": "10.1145/2830772.2830786", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830786"
+        }, 
+        {
+            "ArticleName": "Mian Dong , Lin Zhong, Chameleon: A Color-Adaptive Web Browser for Mobile OLED Displays, IEEE Transactions on Mobile Computing, v.11 n.5, p.724-738, May 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TMC.2012.40", 
+            "DOIname": "10.1109/TMC.2012.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2197352"
+        }, 
+        {
+            "ArticleName": "W. K. M. Walsh, Shari P. and R. Young, \"Over-connected? a qualitative exploration of the relationship between australian youth and their mobile phones,\" Journal of Adolescence, vol. 31, pp. 77--92, 2008."
+        }, 
+        {
+            "ArticleName": "S. B. James G. Phillips and A. Blaszczynski, \"Personality and self-reported use of mobile phones for games,\" Cyber Psychology and Behavior, vol. 9, pp. 753--758, 2007."
+        }, 
+        {
+            "ArticleName": "Richard N. Landers , John W. Lounsbury, An investigation of Big Five and narrow personality traits in relation to Internet usage, Computers in Human Behavior, v.22 n.2, p.283-293, March, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.chb.2004.06.001", 
+            "DOIname": "10.1016/j.chb.2004.06.001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1672809"
+        }, 
+        {
+            "ArticleName": "V. Osmani, R. Ferdous, and O. Mayora, \"Smartphone app usage as a predictor of perceived stress levels at workplace,\" IEEE, 8 2015."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Houston", 
+            "Name": "Kaige Yan"
+        }, 
+        {
+            "Affiliation": "University of Houston", 
+            "Name": "Xingyao Zhang"
+        }, 
+        {
+            "Affiliation": "University of Houston", 
+            "Name": "Jingweijia Tan"
+        }, 
+        {
+            "Affiliation": "University of Houston", 
+            "Name": "Xin Fu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195703&preflayout=flat"
+}

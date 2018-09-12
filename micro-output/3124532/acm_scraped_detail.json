@@ -1,0 +1,231 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 224, 
+        "Downloads_6Weeks": 16, 
+        "Downloads_cumulative": 224, 
+        "CitationCount": 0
+    }, 
+    "Title": "Unleashing the power of GPU for physically-based rendering via dynamic ray shuffling", 
+    "Abstract": "Computer graphics is generally divided into two branches: real-time rendering and physically-based rendering. Conventional graphics processing units (GPUs) were designed to accelerate the former which is based on the standard Z-buffer algorithm. However, many applications in entertainment, science, and industry require high quality visual effects such as soft-shadows, reflections, and diffuse lighting interactions which are difficult to achieve with the Z-buffer algorithm, but are straightforward to implement using physically-based rendering methods. Physically-based rendering can already be implemented on present programmable GPUs. However, for physically-based rendering on GPUs, a large portion of the processing power is wasted due to low utilization of SIMD units. This is because the core algorithm of physically-based rendering, ray tracing, suffers from Single Instruction, Multiple Thread (SIMT) control flow divergences. In this paper, we propose the Dynamic Ray Shuffling (DRS) architecture for GPUs to address this problem. Our key insight is that the primary control flow divergences are caused by inconsistent ray traversal states of a warp, and can be eliminated by dynamically shuffling rays. Experimental results show that, for an estimated 0.11% area cost, DRS significantly improves the SIMD efficiency for the tested benchmarks from 41.06% to 81.04% on average. With this, the performance of a physically-based rendering method such as path tracing can be improved by 1.67X--1.92X, and 1.79X on average.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Attila T. \u00c1fra , L\u00e1szl\u00f3 Szirmay-Kalos, Stackless Multi-BVH Traversal for CPU, MIC and GPU Ray Tracing, Computer Graphics Forum, v.33 n.1, p.129-140, February 2014", 
+            "DOIhref": "https://dx.doi.org/10.1111/cgf.12259", 
+            "DOIname": "10.1111/cgf.12259", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2771573"
+        }, 
+        {
+            "ArticleName": "Timo Aila , Tero Karras, Architecture considerations for tracing incoherent rays, Proceedings of the Conference on High Performance Graphics, June 25-27, 2010, Saarbrucken, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1921497"
+        }, 
+        {
+            "ArticleName": "Timo Aila , Samuli Laine, Understanding the efficiency of ray traversal on GPUs, Proceedings of the Conference on High Performance Graphics 2009, August 01-03, 2009, New Orleans, Louisiana", 
+            "DOIhref": "http://doi.acm.org/10.1145/1572769.1572792", 
+            "DOIname": "10.1145/1572769.1572792", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1572792"
+        }, 
+        {
+            "ArticleName": "Timo Aila, Samuli Laine, and Tero Karras. 2012. Understanding the Efficiency of Ray Traversal on GPUs - Kepler and Fermi Addendum. NVIDIA Technical Report NVR-2012-02. NVIDIA Corporation."
+        }, 
+        {
+            "ArticleName": "A Bakhoda, G. L Yuan, W. W. L Fung, H Wong, and T. M Aamodt. 2009. Analyzing CUDA workloads using a detailed GPU simulator. In IEEE International Symposium on PERFORMANCE Analysis of Systems and Software. 163--174."
+        }, 
+        {
+            "ArticleName": "Jon Louis Bentley, Multidimensional binary search trees used for associative searching, Communications of the ACM, v.18 n.9, p.509-517, Sept. 1975", 
+            "DOIhref": "http://doi.acm.org/10.1145/361002.361007", 
+            "DOIname": "10.1145/361002.361007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=361007"
+        }, 
+        {
+            "ArticleName": "Nicolas Brunie , Sylvain Collange , Gregory Diamos, Simultaneous branch and warp interweaving for sustained GPU performance, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337166"
+        }, 
+        {
+            "ArticleName": "Tom\u00e1\u0161 Davidovi\u010d , Jaroslav K\u0159iv\u00e1nek , Milo\u0161 Ha\u0161an , Philipp Slusallek, Progressive Light Transport Simulation on the GPU: Survey and Improvements, ACM Transactions on Graphics (TOG), v.33 n.3, p.1-19, May 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2602144", 
+            "DOIname": "10.1145/2602144", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2602144"
+        }, 
+        {
+            "ArticleName": "Gregory Diamos , Benjamin Ashbaugh , Subramaniam Maiyuran , Andrew Kerr , Haicheng Wu , Sudhakar Yalamanchili, SIMD re-convergence at thread frontiers, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155676", 
+            "DOIname": "10.1145/2155620.2155676", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155676"
+        }, 
+        {
+            "ArticleName": "Ahmed ElTantawy, Jessica Wenjie Ma, Mike O'Connor, and Tor M. Aamodt. 2014. A scalable multi-path microarchitecture for efficient GPU control flow. 2014 IEEE 20th International Symposium on High Performance Computer Architecture (HPCA) 00 (2014), 248--259."
+        }, 
+        {
+            "ArticleName": "Marcos Fajardo. 2014. How Ray Tracing Conquered Cinematic Rendering, Keynote. In Proceedings of High Performance Graphics (HPG '14)."
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Tor M. Aamodt, Thread block compaction for efficient SIMT control flow, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.25-36, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014893"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Ivan Sham , George Yuan , Tor M. Aamodt, Dynamic Warp Formation and Scheduling for Efficient GPU Control Flow, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.407-420, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.12", 
+            "DOIname": "10.1109/MICRO.2007.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331735"
+        }, 
+        {
+            "ArticleName": "Venkatraman Govindaraju , Peter Djeu , Karthikeyan Sankaralingam , Mary Vernon , William R. Mark, Toward a multicore architecture for real-time ray-tracing, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.176-187, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771789", 
+            "DOIname": "10.1109/MICRO.2008.4771789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521794"
+        }, 
+        {
+            "ArticleName": "Khronos Group. 2016. The OpenCL C Specification V2.0. Technical Report."
+        }, 
+        {
+            "ArticleName": "Imagination. 2017. Power VR Graphics Processors. Technical Report."
+        }, 
+        {
+            "ArticleName": "S. Keely, Reduced precision for hardware ray tracing in GPUs, Proceedings of High Performance Graphics, p.29-40, June 23-25, 2014, Lyon, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2980013"
+        }, 
+        {
+            "ArticleName": "Daniel Kopta , Konstantin Shkurko , Josef Spjut , Erik Brunvand , Al Davis, An energy and bandwidth efficient ray tracing architecture, Proceedings of the 5th High-Performance Graphics Conference, July 19-21, 2013, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2492045.2492058", 
+            "DOIname": "10.1145/2492045.2492058", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2492058"
+        }, 
+        {
+            "ArticleName": "D. Kopta, J. Spjut, E. Brunvand, and A. Davis. 2010. Efficient MIMD architectures for high-performance ray tracing. In IEEE International Conference on Computer Design. 9--16."
+        }, 
+        {
+            "ArticleName": "Samuli Laine , Tero Karras , Timo Aila, Megakernels considered harmful: wavefront path tracing on GPUs, Proceedings of the 5th High-Performance Graphics Conference, July 19-21, 2013, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2492045.2492060", 
+            "DOIname": "10.1145/2492045.2492060", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2492060"
+        }, 
+        {
+            "ArticleName": "Won-Jong Lee , Youngsam Shin , Jaedon Lee , Jin-Woo Kim , Jae-Ho Nah , Seokyoon Jung , Shihwa Lee , Hyun-Sang Park , Tack-Don Han, SGRT: a mobile GPU architecture for real-time ray tracing, Proceedings of the 5th High-Performance Graphics Conference, July 19-21, 2013, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2492045.2492057", 
+            "DOIname": "10.1145/2492045.2492057", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2492057"
+        }, 
+        {
+            "ArticleName": "G. Liktor , K. Vaidyanathan, Bandwidth-efficient BVH layout for incremental hardware traversal, Proceedings of High Performance Graphics, June 20-22, 2016, Dublin, Ireland", 
+            "DOIhref": "https://dx.doi.org/10.2312/hpg.20161192", 
+            "DOIname": "10.2312/hpg.20161192", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2977344"
+        }, 
+        {
+            "ArticleName": "Jiayuan Meng , David Tarjan , Kevin Skadron, Dynamic warp subdivision for integrated branch and memory divergence tolerance, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815992", 
+            "DOIname": "10.1145/1815961.1815992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815992"
+        }, 
+        {
+            "ArticleName": "Jae-Ho Nah , Jeong-Soo Park , Chanmin Park , Jin-Woo Kim , Yun-Hye Jung , Woo-Chan Park , Tack-Don Han, T&I engine: traversal and intersection engine for hardware accelerated ray tracing, Proceedings of the 2011 SIGGRAPH Asia Conference, December 12-15, 2011, Hong Kong, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024156.2024194", 
+            "DOIname": "10.1145/2024156.2024194", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024194"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2012. NVIDIA Kepler GK110 Architecture Whitepaper V1.0. Technical Report."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2017. CUDA C Programming Guide V8.0. Technical Report."
+        }, 
+        {
+            "ArticleName": "Sreepathi Pai , Keshav Pingali, A compiler for throughput optimization of graph algorithms on GPUs, Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, November 02-04, 2016, Amsterdam, Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2983990.2984015", 
+            "DOIname": "10.1145/2983990.2984015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2984015"
+        }, 
+        {
+            "ArticleName": "Luke Peterson and Tobias Hector. 2016. Ray Tracing on the Wizard GPU. In Imagination Developers Connection (IDC '16). https://community.imgtec.com/downloads/ray-tracing-api-overview/"
+        }, 
+        {
+            "ArticleName": "Matt Pharr , Greg Humphreys, Physically Based Rendering: From Theory to Implementation, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=975275"
+        }, 
+        {
+            "ArticleName": "Karthik Ramani , Christiaan P. Gribble , Al Davis, StreamRay: a stream filtering architecture for coherent ray tracing, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508282", 
+            "DOIname": "10.1145/1508244.1508282", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508282"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, CAPRI: prediction of compaction-adequacy for handling control-divergence in GPGPU architectures, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337167"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, The dual-path execution model for efficient GPU control flow, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.591-602, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522352", 
+            "DOIname": "10.1109/HPCA.2013.6522352", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495487"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "J\u00f6rg Schmittler , Sven Woop , Daniel Wagner , Wolfgang J. Paul , Philipp Slusallek, Realtime ray tracing of dynamic scenes on an FPGA chip, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS conference on Graphics hardware, August 29-30, 2004, Grenoble, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1058129.1058143", 
+            "DOIname": "10.1145/1058129.1058143", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1058143"
+        }, 
+        {
+            "ArticleName": "Josef Spjut , Andrew Kensler , Daniel Kopta , Erik Brunvand, TRaX: a multicore hardware architecture for real-time ray tracing, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.28 n.12, p.1802-1815, December 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2009.2028981", 
+            "DOIname": "10.1109/TCAD.2009.2028981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1721250"
+        }, 
+        {
+            "ArticleName": "Markus Steinberger , Michael Kenzel , Pedro Boechat , Bernhard Kerbl , Mark Dokter , Dieter Schmalstieg, Whippletree: task-based scheduling of dynamic workloads on the GPU, ACM Transactions on Graphics (TOG), v.33 n.6, November 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2661229.2661250", 
+            "DOIname": "10.1145/2661229.2661250", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2661250"
+        }, 
+        {
+            "ArticleName": "Aniruddha S. Vaidya , Anahita Shayesteh , Dong Hyuk Woo , Roy Saharoy , Mani Azimi, SIMD divergence optimization through intra-warp compaction, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485954", 
+            "DOIname": "10.1145/2485922.2485954", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485954"
+        }, 
+        {
+            "ArticleName": "Sven Woop , J\u00f6rg Schmittler , Philipp Slusallek, RPU: a programmable ray processing unit for realtime ray tracing, ACM SIGGRAPH 2005 Papers, July 31-August 04, 2005, Los Angeles, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186822.1073211", 
+            "DOIname": "10.1145/1186822.1073211", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1073211"
+        }, 
+        {
+            "ArticleName": "Michael Steffen , Joseph Zambreno, Improving SIMT Efficiency of Global Rendering Algorithms with Architectural Support for Dynamic Micro-Kernels, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.237-248, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.45", 
+            "DOIname": "10.1109/MICRO.2010.45", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935025"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Astronautical Engineering University Beijing, China", 
+            "Name": "Yashuai L\u00fc"
+        }, 
+        {
+            "Affiliation": "National University of Defense Technology, Changsha, China", 
+            "Name": "Libo Huang"
+        }, 
+        {
+            "Affiliation": "National University of Defense Technology, Changsha, China", 
+            "Name": "Li Shen"
+        }, 
+        {
+            "Affiliation": "National University of Defense Technology, Changsha, China", 
+            "Name": "Zhiying Wang"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124532&preflayout=flat"
+}

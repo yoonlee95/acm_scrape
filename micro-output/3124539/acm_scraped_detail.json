@@ -1,0 +1,280 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Vaibhav Gogte , Stephan Diestelhorst , William Wang , Satish Narayanasamy , Peter M. Chen , Thomas F. Wenisch, Persistency for synchronization-free regions, Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 18-22, 2018, Philadelphia, PA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3192367"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 459, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 459, 
+        "CitationCount": 1
+    }, 
+    "Title": "Proteus: a flexible and fast software supported hardware logging approach for NVM", 
+    "Abstract": "Emerging non-volatile memory (NVM) technologies, such as phase-change memory, spin-transfer torque magnetic memory, memristor, and 3D Xpoint, are encouraging the development of new architectures that support the challenges of persistent programming. An important remaining challenge is dealing with the high logging overheads introduced by durable transactions. In this paper, we propose a new logging approach, Proteus for durable transactions that achieves the favorable characteristics of both prior software and hardware approaches. Like software, it has no hardware constraint limiting the number of transactions or logs available to it, and like hardware, it has very low overhead. Our approach introduces two new instructions: log-load creates a log entry by loading the original data, and log-flush writes the log entry into the log. We add hardware support, primarily within the core, to manage the execution of these instructions and critical ordering requirements between logging operations and updates to data. We also propose a novel optimization at the memory controller that is enabled by a persistent write pending queue in the memory controller. We drop log updates that have not yet written back to NVMM by the time a transaction is considered durable. We implemented our design on a cycle accurate simulator, MarssX86, and compared it against state-of-the-art hardware logging, ATOM [19], and a software only approach. Our experiments show that Proteus improves performance by 1.44--1.47\u00d7 depending on configuration, on average, compared to a system without hardware logging and 9--11% faster than ATOM. A significant advantage of our approach is dropping writes to the log when they are not needed. On average, ATOM makes 3.4\u00d7 more writes to memory than our design.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "H. Akinaga and H. Shima. 2010. Resistive Random Access Memory (ReRAM) Based on Metal Oxides. Proc. IEEE 98, 12 (Dec 2010), 2237--2251."
+        }, 
+        {
+            "ArticleName": "NVM Library Team at Intel. 2016. Persistent Memory Programming. (August 2016). http://pmem.io."
+        }, 
+        {
+            "ArticleName": "Amro Awad , Sergey Blagodurov , Yan Solihin, Write-Aware Management of NVM-based Memory Extensions, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926284", 
+            "DOIname": "10.1145/2925426.2926284", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926284"
+        }, 
+        {
+            "ArticleName": "Amro Awad , Pratyusa Manadhata , Stuart Haber , Yan Solihin , William Horne, Silent Shredder: Zero-Cost Shredding for Secure Non-Volatile Main Memory Controllers, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872377", 
+            "DOIname": "10.1145/2872362.2872377", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872377"
+        }, 
+        {
+            "ArticleName": "Amro Awad , Yipeng Wang , Deborah Shands , Yan Solihin, ObfusMem: A Low-Overhead Access Obfuscation for Trusted Memories, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080230", 
+            "DOIname": "10.1145/3079856.3080230", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080230"
+        }, 
+        {
+            "ArticleName": "Dhruva R. Chakrabarti , Hans-J. Boehm , Kumud Bhandari, Atlas: leveraging locks for non-volatile memory consistency, Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications, October 20-24, 2014, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2660193.2660224", 
+            "DOIname": "10.1145/2660193.2660224", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660224"
+        }, 
+        {
+            "ArticleName": "Andreas Chatzistergiou , Marcelo Cintra , Stratis D. Viglas, REWIND: <u>re</u>covery <u>w</u>rite-ahead system for <u>i</u>n-memory <u>n</u>on-volatile <u>d</u>ata-structures, Proceedings of the VLDB Endowment, v.8 n.5, p.497-508, January 2015", 
+            "DOIhref": "https://dx.doi.org/10.14778/2735479.2735483", 
+            "DOIname": "10.14778/2735479.2735483", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2735483"
+        }, 
+        {
+            "ArticleName": "Joel Coburn , Adrian M. Caulfield , Ameen Akel , Laura M. Grupp , Rajesh K. Gupta , Ranjit Jhala , Steven Swanson, NV-Heaps: making persistent objects fast and safe with next-generation, non-volatile memories, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950380", 
+            "DOIname": "10.1145/1950365.1950380", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950380"
+        }, 
+        {
+            "ArticleName": "Jeremy Condit , Edmund B. Nightingale , Christopher Frost , Engin Ipek , Benjamin Lee , Doug Burger , Derrick Coetzee, Better I/O through byte-addressable, persistent memory, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629589", 
+            "DOIname": "10.1145/1629575.1629589", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629589"
+        }, 
+        {
+            "ArticleName": "K. Doshi, E. Giles, and P. Varman. 2016. Atomic persistence for SCM with a non-intrusive backend controller. In 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). 77--89."
+        }, 
+        {
+            "ArticleName": "Subramanya R. Dulloor , Amitabha Roy , Zheguang Zhao , Narayanan Sundaram , Nadathur Satish , Rajesh Sankaran , Jeff Jackson , Karsten Schwan, Data tiering in heterogeneous memory systems, Proceedings of the Eleventh European Conference on Computer Systems, April 18-21, 2016, London, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/2901318.2901344", 
+            "DOIname": "10.1145/2901318.2901344", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901344"
+        }, 
+        {
+            "ArticleName": "Yiming Huai, Frank Albert, Paul Nguyen, Mahendra Pakala, and Thierry Valet. 2004. Observation of spin-transfer switching in deep submicron-sized and low-resistance magnetic tunnel junctions. Applied Physics Letters 84, 16 (2004), 3118--3120."
+        }, 
+        {
+            "ArticleName": "Jian Huang , Karsten Schwan , Moinuddin K. Qureshi, NVRAM-aware logging in transaction systems, Proceedings of the VLDB Endowment, v.8 n.4, p.389-400, December 2014", 
+            "DOIhref": "https://dx.doi.org/10.14778/2735496.2735502", 
+            "DOIname": "10.14778/2735496.2735502", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2735502"
+        }, 
+        {
+            "ArticleName": "Intel. 2016. Intel 64 and IA-32 Architectures Developer's Manual: Vol. 3A. Intel. https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-3a-part-1-manual.html"
+        }, 
+        {
+            "ArticleName": "Intel. 2016. Intel 64 and IA-32 Architectures Optimization Reference Manual. Intel. https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-optimization-manual.html"
+        }, 
+        {
+            "ArticleName": "Intel and Micron. 2015. Intel and Micron Produce Breakthrough Memory Technology. (Jul. 2015). https://newsroom.intel.com/news-releases/intel-and-micron-produce-breakthrough-memory-technology"
+        }, 
+        {
+            "ArticleName": "Joseph Izraelevitz , Terence Kelly , Aasheesh Kolli, Failure-Atomic Persistent Memory Updates via JUSTDO Logging, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872410", 
+            "DOIname": "10.1145/2872362.2872410", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872410"
+        }, 
+        {
+            "ArticleName": "Arpit Joshi , Vijay Nagarajan , Marcelo Cintra , Stratis Viglas, Efficient persist barriers for multicores, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830805", 
+            "DOIname": "10.1145/2830772.2830805", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830805"
+        }, 
+        {
+            "ArticleName": "A. Joshi, V. Nagarajan, S. Viglas, and M. Cintra. 2017. ATOM: Atomic Durability in Non-volatile Memory through Hardware Logging. In 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA). 361--372."
+        }, 
+        {
+            "ArticleName": "T. Kawahara, R. Takemura, K. Miura, J. Hayakawa, S. Ikeda, Y. Lee, R. Sasaki, Y. Goto, K. Ito, T. Meguro, F. Matsukura, H. Takahashi, H. Matsuoka, and H. Ohno. 2007. 2Mb Spin-Transfer Torque RAM (SPRAM) with Bit-by-Bit Bidirectional Current Write and Parallelizing-Direction Current Read. In 2007 IEEE International Solid-State Circuits Conference. Digest of Technical Papers. 480--617."
+        }, 
+        {
+            "ArticleName": "Wook-Hee Kim , Jinwoong Kim , Woongki Baek , Beomseok Nam , Youjip Won, NVWAL: Exploiting NVRAM in Write-Ahead Logging, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872392", 
+            "DOIname": "10.1145/2872362.2872392", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872392"
+        }, 
+        {
+            "ArticleName": "E. K\u00c3ijlt\u00c3ijrsay, M. Kandemir, A. Sivasubramaniam, and O. Mutlu. 2013. Evaluating STT-RAM as an energy-efficient main memory alternative. In 2013 IEEE International Symposium on Performance Analysis of Systems and Software (IS-PASS). 256--267."
+        }, 
+        {
+            "ArticleName": "Aasheesh Kolli , Steven Pelley , Ali Saidi , Peter M. Chen , Thomas F. Wenisch, High-Performance Transactions for Persistent Memories, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872381", 
+            "DOIname": "10.1145/2872362.2872381", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872381"
+        }, 
+        {
+            "ArticleName": "A. Kolli, J. Rosen, S. Diestelhorst, A. Saidi, S. Pelley, S. Liu, P. M. Chen, and T. F. Wenisch. 2016. Delegated persist ordering. In 2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO). 1--13."
+        }, 
+        {
+            "ArticleName": "M. H. Kryder and C. S. Kim. 2009. After Hard Drives - What Comes Next? IEEE Transactions on Magnetics 45, 10 (Oct 2009), 3406--3413."
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Engin Ipek , Onur Mutlu , Doug Burger, Architecting phase change memory as a scalable dram alternative, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555758", 
+            "DOIname": "10.1145/1555754.1555758", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555758"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Ping Zhou , Jun Yang , Youtao Zhang , Bo Zhao , Engin Ipek , Onur Mutlu , Doug Burger, Phase-Change Technology and the Future of Main Memory, IEEE Micro, v.30 n.1, p.143-143, January 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2010.24", 
+            "DOIname": "10.1109/MM.2010.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1749491"
+        }, 
+        {
+            "ArticleName": "Zhongqi Li , Ruijin Zhou , Tao Li, Exploring high-performance and energy proportional interface for phase change memory systems, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.210-221, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522320", 
+            "DOIname": "10.1109/HPCA.2013.6522320", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495492"
+        }, 
+        {
+            "ArticleName": "Mengxing Liu , Mingxing Zhang , Kang Chen , Xuehai Qian , Yongwei Wu , Weimin Zheng , Jinglei Ren, DudeTM: Building Durable Transactions with Decoupling for Persistent Memory, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037714", 
+            "DOIname": "10.1145/3037697.3037714", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037714"
+        }, 
+        {
+            "ArticleName": "Youyou Lu, Jiwu Shu, Long Sun, and Onur Mutlu. 2014. Loose-Ordering Consistency for persistent memory. In 32nd International Conference on Computer Design."
+        }, 
+        {
+            "ArticleName": "Iulian Moraru , David G. Andersen , Michael Kaminsky , Niraj Tolia , Parthasarathy Ranganathan , Nathan Binkert, Consistent, durable, and safe memory management for byte-addressable non volatile main memory, Proceedings of the First ACM SIGOPS Conference on Timely Results in Operating Systems, p.1-17, November 03-06, 2013, Farmington, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2524211.2524216", 
+            "DOIname": "10.1145/2524211.2524216", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2524216"
+        }, 
+        {
+            "ArticleName": "Dushyanth Narayanan , Orion Hodson, Whole-system persistence, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151018", 
+            "DOIname": "10.1145/2150976.2151018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151018"
+        }, 
+        {
+            "ArticleName": "Faisal Nawab, Dhruva Chakrabarti, Terence Kelly, and Charles Morrey. 2015. Procrastination Beats Prevention: Timely Sufficient Persistence for Efficient Crash Resilience. In International Conference on Extending Database Technology."
+        }, 
+        {
+            "ArticleName": "Faisal Nawab, Dhruva Chakrabarti, Terence Kelly, and Charles Morrey. 2015. Zero-Overhead NVM Crash Resilience. In Non-Volatile Memories Workshop."
+        }, 
+        {
+            "ArticleName": "Gihwan Oh , Sangchul Kim , Sang-Won Lee , Bongki Moon, SQLite optimization with phase change memory for mobile applications, Proceedings of the VLDB Endowment, v.8 n.12, August 2015", 
+            "DOIhref": "https://dx.doi.org/10.14778/2824032.2824044", 
+            "DOIname": "10.14778/2824032.2824044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2824044"
+        }, 
+        {
+            "ArticleName": "Avadh Patel , Furat Afram , Shunfei Chen , Kanad Ghose, MARSS: a full system simulator for multicore x86 CPUs, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024954", 
+            "DOIname": "10.1145/2024724.2024954", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024954"
+        }, 
+        {
+            "ArticleName": "Steven Pelley , Peter M. Chen , Thomas F. Wenisch, Memory persistency, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665712"
+        }, 
+        {
+            "ArticleName": "Steven Pelley , Thomas F. Wenisch , Brian T. Gold , Bill Bridge, Storage management in the NVRAM era, Proceedings of the VLDB Endowment, v.7 n.2, p.121-132, October 2013", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732228.2732231", 
+            "DOIname": "10.14778/2732228.2732231", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732231"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , John Karidis , Michele Franceschini , Vijayalakshmi Srinivasan , Luis Lastras , Bulent Abali, Enhancing lifetime and security of PCM-based main memory with start-gap wear leveling, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669117", 
+            "DOIname": "10.1145/1669112.1669117", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669117"
+        }, 
+        {
+            "ArticleName": "Raghunath Rajachandrasekar , Sreeram Potluri , Akshay Venkatesh , Khaled Hamidouche , Md. Wasi-ur-Rahman , Dhabaleswar K. (DK) Panda, MIC-Check: a distributed check pointing framework for the intel many integrated cores architecture, Proceedings of the 23rd international symposium on High-performance parallel and distributed computing, June 23-27, 2014, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2600212.2600713", 
+            "DOIname": "10.1145/2600212.2600713", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2600713"
+        }, 
+        {
+            "ArticleName": "Jinglei Ren , Jishen Zhao , Samira Khan , Jongmoo Choi , Yongwei Wu , Onur Mutlu, ThyNVM: enabling software-transparent crash consistency in persistent memory systems, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830802", 
+            "DOIname": "10.1145/2830772.2830802", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830802"
+        }, 
+        {
+            "ArticleName": "Seunghee Shin , James Tuck , Yan Solihin, Hiding the Long Latency of Persist Barriers Using Speculative Execution, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080240", 
+            "DOIname": "10.1145/3079856.3080240", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080240"
+        }, 
+        {
+            "ArticleName": "Haris Volos , Andres Jaan Tack , Michael M. Swift, Mnemosyne: lightweight persistent memory, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950379", 
+            "DOIname": "10.1145/1950365.1950379", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950379"
+        }, 
+        {
+            "ArticleName": "C. Wang, Q. Wei, J. Yang, C. Chen, and M. Xue. 2015. How to be consistent with persistent memory? An evaluation approach. In 2015 IEEE International Conference on Networking, Architecture and Storage (NAS). 186--194."
+        }, 
+        {
+            "ArticleName": "Tianzheng Wang , Ryan Johnson, Scalable logging through emerging non-volatile memory, Proceedings of the VLDB Endowment, v.7 n.10, p.865-876, June 2014", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732951.2732960", 
+            "DOIname": "10.14778/2732951.2732960", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732960"
+        }, 
+        {
+            "ArticleName": "Jun Yang , Qingsong Wei , Cheng Chen , Chundong Wang , Khai Leong Yong , Bingsheng He, NV-Tree: reducing consistency cost for NVM-based single level systems, Proceedings of the 13th USENIX Conference on File and Storage Technologies, p.167-181, February 16-19, 2015, Santa Clara, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750495"
+        }, 
+        {
+            "ArticleName": "J. Joshua Yang , R. Stanley Williams, Memristive devices in computing system: Promises and challenges, ACM Journal on Emerging Technologies in Computing Systems (JETC), v.9 n.2, p.1-20, May 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463585.2463587", 
+            "DOIname": "10.1145/2463585.2463587", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2463587"
+        }, 
+        {
+            "ArticleName": "Jishen Zhao , Sheng Li , Doe Hyun Yoon , Yuan Xie , Norman P. Jouppi, Kiln: closing the performance gap between systems with and without persistence support, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540744", 
+            "DOIname": "10.1145/2540708.2540744", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540744"
+        }, 
+        {
+            "ArticleName": "Ping Zhou , Bo Zhao , Jun Yang , Youtao Zhang, A durable and energy efficient main memory using phase change memory technology, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555759", 
+            "DOIname": "10.1145/1555754.1555759", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555759"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Seunghee Shin"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Satish Kumar Tirukkovalluri"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "James Tuck"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Yan Solihin"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124539&preflayout=flat"
+}

@@ -1,0 +1,76 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "O. Temam , W. Jalby, Characterizing the behavior of sparse algorithms on caches, Proceedings of the 1992 ACM/IEEE conference on Supercomputing, p.578-587, November 16-20, 1992, Minneapolis, Minnesota, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=148091"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 8, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 293, 
+        "CitationCount": 1
+    }, 
+    "Title": "Architectural mechanisms to support sparse vector processing", 
+    "Abstract": "We discuss the algorithmic steps involved in common sparse matrix problems, with particular emphasis on linear programming by the revised simplex method. We then propose new architectural mechanisms which are being built into an experimental machine, the Edinburgh Sparse Processor, and which enable vector instructions to operate efficiently on sparse vectors stored in compressed form. Finally, we review the use of these new mechanisms on the linear programming problem.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "James Ft. Bunch and Donald 3. Rose, editors. Sparse Motriz Computations. Academic Press, 1976."
+        }, 
+        {
+            "ArticleName": "Thomas F. Coleman, Large sparse numerical optimization, Springer-Verlag New York, Inc., New York, NY, 1984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=519"
+        }, 
+        {
+            "ArticleName": "Iain S. Duff and G.W. Stewart, editors. Sparse Matrix Proceedings 1978. SIAM, Philadelphia, 1979."
+        }, 
+        {
+            "ArticleName": "Hideharu Amano , Takaichi Yoshida , Hideo Aiso, (SM)2-Sparse Matrix Solving Machine, Proceedings of the 10th annual international symposium on Computer architecture, p.213-220, June 13-17, 1983, Stockholm, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/800046.801658", 
+            "DOIname": "10.1145/800046.801658", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801658"
+        }, 
+        {
+            "ArticleName": "Hideharu Amano , Taisuke Boku , Tomohiro Kudoh , Hideo Aiso, (SM)2-II: a new version of the sparse matrix solving machine, Proceedings of the 12th annual international symposium on Computer architecture, p.100-107, June 17-19, 1985, Boston, Massachusetts, United States", 
+            "DOIhref": "http://doi.acm.org/10.1145/327010.327137", 
+            "DOIname": "10.1145/327010.327137", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=327137"
+        }, 
+        {
+            "ArticleName": "High Level Hardware Ltd., Headington, Oxford, UK. ORION Time Sharing Manual, 1986."
+        }, 
+        {
+            "ArticleName": "R. N. Ibbett , N. P. Topham, Architecture of high performance computers: vol. 1, Springer-Verlag New York, Inc., New York, NY, 1989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=62002"
+        }, 
+        {
+            "ArticleName": "Donald E. Knuth, The art of computer programming, volume 1 (3rd ed.): fundamental algorithms, Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=260999"
+        }, 
+        {
+            "ArticleName": "H.M. Markowitz. The elimination form of the inverse and its application to linear programming. Management Science, 3:255-269,1957."
+        }, 
+        {
+            "ArticleName": "D. Morris and R.N. Ibbett. The MU5 Computer System. Macmillan, London, 1979."
+        }, 
+        {
+            "ArticleName": "Ole 0sterby and Zahari Zlatev. Direct Mehds for Sporse Matrices. Lecture Notes in Computer Science. Springer- Verlag, 1983."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Departments of Computer Science and Mathematics, University of Edinburgh, James Clerk Maxwell Building, King's Buildings, Mayfield Road, Edinburgh", 
+            "Name": "R. N. Ibbett"
+        }, 
+        {
+            "Affiliation": "Departments of Computer Science and Mathematics, University of Edinburgh, James Clerk Maxwell Building, King's Buildings, Mayfield Road, Edinburgh", 
+            "Name": "T. M. Hopkins"
+        }, 
+        {
+            "Affiliation": "Departments of Computer Science and Mathematics, University of Edinburgh, James Clerk Maxwell Building, King's Buildings, Mayfield Road, Edinburgh", 
+            "Name": "K. I. M. McKinnon"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74933&preflayout=flat"
+}

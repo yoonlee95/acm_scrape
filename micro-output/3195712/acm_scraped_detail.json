@@ -1,0 +1,312 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Sam Ainsworth , Timothy M. Jones, An Event-Triggered Programmable Prefetcher for Irregular Workloads, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173189"
+        }, 
+        {
+            "ArticleName": "Sushant Kondguli , Michael Huang, A Case for a More Effective, Power-Efficient Turbo Boosting, ACM Transactions on Architecture and Code Optimization (TACO), v.15 n.1, p.1-22, April 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3170433"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 39, 
+        "Downloads_6Weeks": 16, 
+        "Downloads_cumulative": 39, 
+        "CitationCount": 2
+    }, 
+    "Title": "Continuous runahead: transparent hardware acceleration for memory intensive workloads", 
+    "Abstract": "Runahead execution pre-executes the application's own code to generate new cache misses. This pre-execution results in prefetch requests that are overwhelmingly accurate (95% in a realistic system configuration for the memory intensive SPEC CPU2006 benchmarks), much more so than a global history buffer (GHB) or stream prefetcher (by 13%/19%). However, we also find that current runahead techniques are very limited in coverage: they prefetch only a small fraction (13%) of all runahead-reachable cache misses. This is because runahead intervals are short and limited by the duration of each full-window stall. In this work, we explore removing the constraints that lead to these short intervals. We dynamically filter the instruction stream to identify the chains of operations that cause the pipeline to stall. These operations are renamed to execute speculatively in a loop and are then migrated to a Continuous Runahead Engine (CRE), a shared multi-core accelerator located at the memory controller. The CRE runs ahead with the chain continuously, increasing prefetch coverage to 70% of runahead-reachable cache misses. The result is a 43.3% weighted speedup gain on a set of memory intensive quad-core workloads and a significant reduction in system energy consumption. This is a 21.9% performance gain over the Runahead Buffer, a state-of-the-art runahead proposal and a 13.2%/13.5% gain over GHB/stream prefetching. When the CRE is combined with GHB prefetching, we observe a 23.5% gain over a baseline with GHB prefetching alone.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Murali Annavaram , Jignesh M. Patel , Edward S. Davidson, Data prefetching by dependence graph precomputation, ACM SIGARCH Computer Architecture News, v.29 n.2, p.52-61, May 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/384285.379251", 
+            "DOIname": "10.1145/384285.379251", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379251"
+        }, 
+        {
+            "ArticleName": "Ronald D. Barnes , Erik M. Nystrom , John W. Sias , Sanjay J. Patel , Nacho Navarro , Wen-mei W. Hwu, Beating in-order stalls with \"flea-flicker\" two-pass pipelining, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.387, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956557"
+        }, 
+        {
+            "ArticleName": "J. A. Brown et al., \"Speculative precomputation on chip multiprocessors,\" in MTEAC-6, 2001."
+        }, 
+        {
+            "ArticleName": "Robert S. Chappell , Jared Stark , Sangwook P. Kim , Steven K. Reinhardt , Yale N. Patt, Simultaneous subordinate microthreading (SSMT), Proceedings of the 26th annual international symposium on Computer architecture, p.186-195, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300995", 
+            "DOIname": "10.1145/300979.300995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300995"
+        }, 
+        {
+            "ArticleName": "M. J. Charney and A. P. Reeves, \"Generalized correlation-based hardware prefetching,\" Cornell Univ., Tech. Rep. EE-CEG-95-1, 1995."
+        }, 
+        {
+            "ArticleName": "Jamison D. Collins , Dean M. Tullsen , Hong Wang , John P. Shen, Dynamic speculative precomputation, Proceedings of the 34th annual ACM/IEEE international symposium on Microarchitecture, December 01-05, 2001, Austin, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=564037"
+        }, 
+        {
+            "ArticleName": "Jamison D. Collins , Hong Wang , Dean M. Tullsen , Christopher Hughes , Yong-Fong Lee , Dan Lavery , John P. Shen, Speculative precomputation: long-range prefetching of delinquent loads, Proceedings of the 28th annual international symposium on Computer architecture, p.14-25, June 30-July 04, 2001, G\u00f6teborg, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/379240.379248", 
+            "DOIname": "10.1145/379240.379248", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379248"
+        }, 
+        {
+            "ArticleName": "Robert Cooksey , Stephan Jourdan , Dirk Grunwald, A stateless, content-directed data prefetching mechanism, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605427", 
+            "DOIname": "10.1145/605397.605427", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605427"
+        }, 
+        {
+            "ArticleName": "James Dundas , Trevor Mudge, Improving data cache performance by pre-executing instructions under a cache miss, Proceedings of the 11th international conference on Supercomputing, p.68-75, July 07-11, 1997, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/263580.263597", 
+            "DOIname": "10.1145/263580.263597", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=263597"
+        }, 
+        {
+            "ArticleName": "E. Ebrahimi, O. Mutlu, and Y. N. Patt, \"Techniques for bandwidth-efficient prefetching of linked data structures in hybrid prefetching systems,\" in HPCA-15, 2009."
+        }, 
+        {
+            "ArticleName": "Stijn Eyerman , Lieven Eeckhout, System-Level Performance Metrics for Multiprogram Workloads, IEEE Micro, v.28 n.3, p.42-53, May 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.44", 
+            "DOIname": "10.1109/MM.2008.44", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1436100"
+        }, 
+        {
+            "ArticleName": "Alok Garg , Michael C. Huang, A performance-correctness explicitly-decoupled architecture, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.306-317, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771800", 
+            "DOIname": "10.1109/MICRO.2008.4771800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521804"
+        }, 
+        {
+            "ArticleName": "J. D. Gindele, \"Buffer block prefetching method,\" IBM Technical Disclosure Bulletin, vol. 20, no. 2, pp. 696--697, Jul. 1977."
+        }, 
+        {
+            "ArticleName": "M. Hashemi, \"On-chip mechanisms to reduce effective memory access latency,\" Ph.D. dissertation, The University of Texas at Austin, 2016."
+        }, 
+        {
+            "ArticleName": "Milad Hashemi , Khubaib , Eiman Ebrahimi , Onur Mutlu , Yale N. Patt, Accelerating dependent cache misses with an enhanced memory controller, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.46", 
+            "DOIname": "10.1109/ISCA.2016.46", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001184"
+        }, 
+        {
+            "ArticleName": "Milad Hashemi , Yale N. Patt, Filtered runahead execution with a runahead buffer, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830812", 
+            "DOIname": "10.1145/2830772.2830812", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830812"
+        }, 
+        {
+            "ArticleName": "G. Hinton et al., \"The microarchitecture of the Pentium\u00ae 4 processor,\" in Intel Technology Journal, Q1, 2001."
+        }, 
+        {
+            "ArticleName": "Doug Joseph , Dirk Grunwald, Prefetching using Markov predictors, ACM SIGARCH Computer Architecture News, v.25 n.2, p.252-263, May 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/384286.264207", 
+            "DOIname": "10.1145/384286.264207", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264207"
+        }, 
+        {
+            "ArticleName": "Norman P. Jouppi, Improving direct-mapped cache performance by the addition of a small fully-associative cache and prefetch buffers, ACM SIGARCH Computer Architecture News, v.18 n.2SI, p.364-373, June 1990", 
+            "DOIhref": "http://doi.acm.org/10.1145/325096.325162", 
+            "DOIname": "10.1145/325096.325162", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325162"
+        }, 
+        {
+            "ArticleName": "Md Kamruzzaman , Steven Swanson , Dean M. Tullsen, Inter-core prefetching for multicore processors using migrating helper threads, ACM SIGARCH Computer Architecture News, v.39 n.1, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961295.1950411", 
+            "DOIname": "10.1145/1961295.1950411", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950411"
+        }, 
+        {
+            "ArticleName": "Dongkeun Kim , Donald Yeung, Design and evaluation of compiler algorithms for pre-execution, ACM SIGPLAN Notices, v.37 n.10, October 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/605432.605415", 
+            "DOIname": "10.1145/605432.605415", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605415"
+        }, 
+        {
+            "ArticleName": "An-Chow Lai , Cem Fide , Babak Falsafi, Dead-block prediction & dead-block correlating prefetchers, ACM SIGARCH Computer Architecture News, v.29 n.2, p.144-154, May 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/384285.379259", 
+            "DOIname": "10.1145/384285.379259", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379259"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Jiwei Lu , Abhinav Das , Wei-Chung Hsu , Khoa Nguyen , Santosh G. Abraham, Dynamic Helper Threaded Prefetching on the Sun UltraSPARC CMP Processor, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.93-104, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.18", 
+            "DOIname": "10.1109/MICRO.2005.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100542"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk, Tolerating memory latency through software-controlled pre-execution in simultaneous multithreading processors, Proceedings of the 28th annual international symposium on Computer architecture, p.40-51, June 30-July 04, 2001, G\u00f6teborg, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/379240.379250", 
+            "DOIname": "10.1145/379240.379250", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379250"
+        }, 
+        {
+            "ArticleName": "\"Micron Technology MT41J512M4 DDR3 SDRAM Datasheet Rev. K, April 2010,\" http://download.micron.com/pdf/datasheets/dram/ddr3/2Gb_DDR3_SDRAM.pdf."
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar and R. Balasubramonian, \"CACTI 6.0: A tool to model large caches,\" in HP Laboratories, Tech. Rep. HPL-2009-85, 2009."
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Yale N. Patt, Efficient runahead execution processors, University of Texas at Austin, Austin, TX, 2006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1329993"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Jared Stark , Chris Wilkerson , Yale N. Patt, Runahead Execution: An Alternative to Very Large Instruction Windows for Out-of-Order Processors, Proceedings of the 9th International Symposium on High-Performance Computer Architecture, p.129, February 08-12, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822823"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Jared Stark , Chris Wilkerson , Yale N. Patt, Runahead Execution: An Effective Alternative to Large Instruction Windows, IEEE Micro, v.23 n.6, p.20-25, November 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1261383", 
+            "DOIname": "10.1109/MM.2003.1261383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1436211"
+        }, 
+        {
+            "ArticleName": "O. Mutlu et al., \"Address-value delta (AVD) prediction: Increasing the effectiveness of runahead execution by exploting regular memory allocation patterns,\" in MICRO-38, 2005."
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Hyesoon Kim , Jared Stark , Yale N. Patt, On Reusing the Results of Pre-Executed Instructions in a Runahead Execution Processor, IEEE Computer Architecture Letters, v.4 n.1, p.2-2, January 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2005.1", 
+            "DOIname": "10.1109/L-CA.2005.1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1115831"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Hyesoon Kim , Yale N. Patt, Techniques for Efficient Processing in Runahead Execution Engines, Proceedings of the 32nd annual international symposium on Computer Architecture, p.370-381, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.49", 
+            "DOIname": "10.1109/ISCA.2005.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070000"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Hyesoon Kim , Yale N. Patt, Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance, IEEE Micro, v.26 n.1, p.10-20, January 2006", 
+            "DOIhref": "https://dx.doi.org/2006-02-17 02:00:03.800", 
+            "DOIname": "2006-02-17 02:00:03.800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1116665"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.63-74, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.7", 
+            "DOIname": "10.1109/ISCA.2008.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382128"
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , James E. Smith, Data Cache Prefetching Using a Global History Buffer, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.96, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10030", 
+            "DOIname": "10.1109/HPCA.2004.10030", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072460"
+        }, 
+        {
+            "ArticleName": "S. Palacharla , R. E. Kessler, Evaluating stream buffers as a secondary cache replacement, Proceedings of the 21st annual international symposium on Computer architecture, p.24-33, April 18-21, 1994, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/191995.192014", 
+            "DOIname": "10.1145/191995.192014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=192014"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Daniel N. Lynch , Onur Mutlu , Yale N. Patt, A Case for MLP-Aware Cache Replacement, Proceedings of the 33rd annual international symposium on Computer Architecture, p.167-178, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.5", 
+            "DOIname": "10.1109/ISCA.2006.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136501"
+        }, 
+        {
+            "ArticleName": "T. Ram\u00edrez et al., \"Runahead threads to improve SMT performance,\" in HPCA-14, 2008."
+        }, 
+        {
+            "ArticleName": "T. Ram\u00edrez et al., \"Efficient runahead threads,\" in PACT-19, 2010."
+        }, 
+        {
+            "ArticleName": "Amir Roth , Andreas Moshovos , Gurindar S. Sohi, Dependence based prefetching for linked data structures, Proceedings of the eighth international conference on Architectural support for programming languages and operating systems, p.115-126, October 02-07, 1998, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/291069.291034", 
+            "DOIname": "10.1145/291069.291034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=291034"
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Brad Calder, Automatically characterizing large scale program behavior, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605403", 
+            "DOIname": "10.1145/605397.605403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605403"
+        }, 
+        {
+            "ArticleName": "Allan Snavely , Dean M. Tullsen, Symbiotic jobscheduling for a simultaneous multithreaded processor, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.234-244, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379244", 
+            "DOIname": "10.1145/378993.379244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379244"
+        }, 
+        {
+            "ArticleName": "Stephen Somogyi , Thomas F. Wenisch , Anastassia Ailamaki , Babak Falsafi , Andreas Moshovos, Spatial Memory Streaming, Proceedings of the 33rd annual international symposium on Computer Architecture, p.252-263, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.38", 
+            "DOIname": "10.1109/ISCA.2006.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136508"
+        }, 
+        {
+            "ArticleName": "Santhosh Srinath , Onur Mutlu , Hyesoon Kim , Yale N. Patt, Feedback Directed Prefetching: Improving the Performance and Bandwidth-Efficiency of Hardware Prefetchers, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.63-74, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346185", 
+            "DOIname": "10.1109/HPCA.2007.346185", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318101"
+        }, 
+        {
+            "ArticleName": "Srikanth T. Srinivasan , Ravi Rajwar , Haitham Akkary , Amit Gandhi , Mike Upton, Continual flow pipelines, Proceedings of the 11th international conference on Architectural support for programming languages and operating systems, October 07-13, 2004, Boston, MA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1024393.1024407", 
+            "DOIname": "10.1145/1024393.1024407", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1024407"
+        }, 
+        {
+            "ArticleName": "Karthik Sundaramoorthy , Zach Purser , Eric Rotenburg, Slipstream processors: improving both performance and fault tolerance, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.257-268, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379247", 
+            "DOIname": "10.1145/378993.379247", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379247"
+        }, 
+        {
+            "ArticleName": "J. M. Tendler et al., \"POWER4 system microarchitecture,\" IBM Technical White Paper, Oct. 2001."
+        }, 
+        {
+            "ArticleName": "Rafael Ubal , Byunghyun Jang , Perhaad Mistry , Dana Schaa , David Kaeli, Multi2Sim: a simulation framework for CPU-GPU computing, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370865", 
+            "DOIname": "10.1145/2370816.2370865", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370865"
+        }, 
+        {
+            "ArticleName": "Kenzo Craeynest , Stijn Eyerman , Lieven Eeckhout, MLP-Aware Runahead Threads in a Simultaneous Multithreading Processor, Proceedings of the 4th International Conference on High Performance Embedded Architectures and Compilers, January 25-28, 2009, Paphos, Cyprus", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-92990-1_10", 
+            "DOIname": "10.1007/978-3-540-92990-1_10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1505830"
+        }, 
+        {
+            "ArticleName": "Weifeng Zhang , Dean M. Tullsen , Brad Calder, Accelerating and Adapting Precomputation Threads for Effcient Prefetching, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.85-95, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346187", 
+            "DOIname": "10.1109/HPCA.2007.346187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318102"
+        }, 
+        {
+            "ArticleName": "Huiyang Zhou, Dual-Core Execution: Building a Highly Scalable Single-Thread Instruction Window, Proceedings of the 14th International Conference on Parallel Architectures and Compilation Techniques, p.231-242, September 17-21, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2005.18", 
+            "DOIname": "10.1109/PACT.2005.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1092217"
+        }, 
+        {
+            "ArticleName": "Craig Zilles , Gurindar Sohi, Execution-based prediction using speculative slices, ACM SIGARCH Computer Architecture News, v.29 n.2, p.2-13, May 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/384285.379246", 
+            "DOIname": "10.1145/384285.379246", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379246"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The University of Texas at Austin", 
+            "Name": "Milad Hashemi"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich", 
+            "Name": "Onur Mutlu"
+        }, 
+        {
+            "Affiliation": "The University of Texas at Austin", 
+            "Name": "Yale N. Patt"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195712&preflayout=flat"
+}

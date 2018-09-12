@@ -1,0 +1,154 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 259, 
+        "Downloads_6Weeks": 10, 
+        "Downloads_cumulative": 259, 
+        "CitationCount": 0
+    }, 
+    "Title": "Architectural opportunities for novel dynamic EMI shifting (DEMIS)", 
+    "Abstract": "Processors emit non-trivial amounts of electromagnetic radiation, creating interference in frequency bands used by wireless communication technologies such as cellular, WiFi and Bluetooth. We introduce the problem of in-band radio frequency noise as a form of electromagnetic interference (EMI) to the computer architecture community as a technical challenge to be addressed. This paper proposes the new idea of Dynamic EMI Shifting (DEMIS) where architectural and/or compiler changes allow the EMI to be shifted at runtime. DEMIS processors dynamically move the interference from bands used during communication to other unused frequencies. Unlike previous works that leverage static techniques, DEMIS dynamically targets specific frequency bands; the type of techniques used here are only possible from an architectural perspective. This paper is also the first to provide insights in the new area of dynamic EMI shifting by evaluating several platforms and showing the EMI is sensitive to many architectural and compilation parameters. Our evaluation over real systems shows a decrease of in-band EMI ranging from 3 to 15 dB with less than a 10% average performance impact. A 15dB EMI reduction for LTE can represent over 3x bandwidth improvement for EMI bound communication.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "3GPP. {n. d.}. 3GPP TS 36.211: E-UTRA:Physical Channels and Modulation. ({n. d.}). www.3gpp.org/dynareport/36211.htm."
+        }, 
+        {
+            "ArticleName": "HFSS Ansoft. 2007. ver. 11. Ansoft Corporation, Pittsburgh, PA (2007)."
+        }, 
+        {
+            "ArticleName": "John Aycock, A brief history of just-in-time, ACM Computing Surveys (CSUR), v.35 n.2, p.97-113, June 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/857076.857077", 
+            "DOIname": "10.1145/857076.857077", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=857077"
+        }, 
+        {
+            "ArticleName": "Naoya Azuma, Tetsuya Makita, Satoshi Ueyama, Makoto Nagata, Satoshi Takahashi, Motoki Murakami, Kenji Hori, Shoji Tanaka, and Masaki Yamaguchi. 2013. In-system diagnosis of RF ICs for tolerance against on-chip in-band interferers. In Test Conference (ITC), 2013 IEEE International. IEEE, 1--9."
+        }, 
+        {
+            "ArticleName": "Bonnie Baker. 2012. EMI Problems? Part two: Where does EMI come from? (2012). http://www.edn.com/electronics-blogs/bakers-best/4369076/EMI-problems-Part-two-Where-does-EMI-come-from-."
+        }, 
+        {
+            "ArticleName": "Vasanth Bala , Evelyn Duesterwald , Sanjeev Banerjia, Dynamo: a transparent dynamic optimization system, Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation, p.1-12, June 18-21, 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/349299.349303", 
+            "DOIname": "10.1145/349299.349303", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=349303"
+        }, 
+        {
+            "ArticleName": "Bluetooth. {n. d.}. What is Bluetooth Technology? https://www.bluetooth.com/what-is-bluetooth-technology. ({n. d.}). Accessed: 2016-04-04."
+        }, 
+        {
+            "ArticleName": "Bluetooth. 2002. Wi-Fi and Bluetooth - Interference Issues. Technical Report. HP. Accessed: 2016-04-04."
+        }, 
+        {
+            "ArticleName": "Dan Bornstein. 2008. Dalvik vm internals. In Google I/O developer conference, Vol. 23. 17--30."
+        }, 
+        {
+            "ArticleName": "Robert Callan , Alenka Zaji\u0107 , Milos Prvulovic, A Practical Methodology for Measuring the Side-Channel Signal Available to the Attacker for Instruction-Level Events, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.39", 
+            "DOIname": "10.1109/MICRO.2014.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742179"
+        }, 
+        {
+            "ArticleName": "Robert Callan , Alenka Zaji\u0107 , Milos Prvulovic, FASE: finding amplitude-modulated side-channel emanations, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750394", 
+            "DOIname": "10.1145/2749469.2750394", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750394"
+        }, 
+        {
+            "ArticleName": "Jay Conrod. 2013. A tour of V8: full compiler. (Dec. 2013). http://jayconrod.com/posts/51/a-tour-of-v8-full-compiler"
+        }, 
+        {
+            "ArticleName": "Paul Dean. 2016. Here's everything new in Android Nougat 7.1. (2016)."
+        }, 
+        {
+            "ArticleName": "Xue Fuqiao, Florian Scholz, Karen Scarfone, Berker Peksag, Till Schneidereit, Eric Shepherd, and Chris Leary. 2014. Tracing JIT. (May. 2014). https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Internals/Tracing_JIT"
+        }, 
+        {
+            "ArticleName": "Robin Getz and Bob Moeckel. 1996. Understanding and Eliminating EMI in Microcontroller Applications. National Semiconductor (1996)."
+        }, 
+        {
+            "ArticleName": "Neal Gompa. 2015. Deep dive: What is LTE? http://www.extremetech.com/mobile/110711-what-is-lte. (April 2015). Accessed: 2016-04-04."
+        }, 
+        {
+            "ArticleName": "Mentor Graphics. 2004. Hyperlynx Signal Integrity Simulation software. (2004)."
+        }, 
+        {
+            "ArticleName": "Brian Hackett , Shu-yu Guo, Fast and precise hybrid type inference for JavaScript, ACM SIGPLAN Notices, v.47 n.6, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2345156.2254094", 
+            "DOIname": "10.1145/2345156.2254094", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2254094"
+        }, 
+        {
+            "ArticleName": "Keith B Hardin, John T Fessler, and Donald R Bush. 1994. Spread spectrum clock generation for the reduction of radiated emissions. In Electromagnetic Compatibility, 1994. Symposium Record. Compatibility in the Loop., IEEE International Symposium on. IEEE, 227--231."
+        }, 
+        {
+            "ArticleName": "Keith B Hardin, John T Fessler, and Donald R Bush. 1995. A study of the interference potential of spread spectrum clock generation techniques. In Electromagnetic Compatibility, 1995. Symposium Record., 1995 IEEE International Symposium on. IEEE, 624--629."
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Xuchu Hu , Matthew R. Guthaus, Clock tree optimization for electromagnetic compatibility (EMC), Proceedings of the 16th Asia and South Pacific Design Automation Conference, p.184-189, January 25-28, 2011, Yokohama, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950863"
+        }, 
+        {
+            "ArticleName": "S I-The, A Chen, and J Keip. 2000. Spread spectrum and PLL technology combine to reduce EMI. RF DESIGN 23, 4 (2000), 20--25."
+        }, 
+        {
+            "ArticleName": "Mark A McHenry, Dennis Roberson, and Robert J Matheson. 2015. Electronic Noise Is Drowning Out the Internet of Things. IEEE Spectrum: Technology, Engineering, and Science News, Available at: http://spectrum.ieee.org/telecom/wireless/electronic-noise-is-drowning-out-the-internet-of-things.{Accessed: 3 Jun. 2016} (2015)."
+        }, 
+        {
+            "ArticleName": "Leo Janghwan Oh. 2017. RF Desense story 2. (2017). https://www.linkedin.com/pulse/rf-desense-story-2-leo-janghwan-oh."
+        }, 
+        {
+            "ArticleName": "Kailas Patil. 2011. JaegerMonkey Architecture. (Aug. 2011). http://kailaspatil.blogspot.com/2011/08/jaegermonkey-architecture.html"
+        }, 
+        {
+            "ArticleName": "Erik Rolf, Anders Petersson, Ola Samuelsson, and Pontus Nelderup. 2009. Desense with adaptive control. (Aug. 6 2009). http://www.google.ch/patents/US20090197591 US Patent App. 12/025,254."
+        }, 
+        {
+            "ArticleName": "Florian Scholz. 2014. SpiderMonkey Internals. (May. 2014). https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Internals"
+        }, 
+        {
+            "ArticleName": "Nader Sehatbakhsh, Alireza Nazari, Alenka Zajic, and Milos Prvulovic. 2016. Spectral profiling: Observer-effect-free profiling by monitoring EM emanations. In Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 1--11."
+        }, 
+        {
+            "ArticleName": "Microwave Studio. 2008. CST-Computer Simulation Technology. Bad Nuheimer Str 19 (2008), 64289."
+        }, 
+        {
+            "ArticleName": "T. Suganuma , T. Ogasawara , M. Takeuchi , T. Yasue , M. Kawahito , K. Ishizaki , H. Komatsu , T. Nakatani, Overview of the IBM Java just-in-time compiler, IBM Systems Journal, v.39 n.1, p.175-193, January 2000", 
+            "DOIhref": "https://dx.doi.org/10.1147/sj.391.0175", 
+            "DOIname": "10.1147/sj.391.0175", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1011398"
+        }, 
+        {
+            "ArticleName": "R. Thomas, N. Sedaghati, and R. Teodorescu. 2016. EmerGPU: Understanding and mitigating resonance-induced voltage noise in GPU architectures. In 2016 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). 79--89."
+        }, 
+        {
+            "ArticleName": "Andy Wingo. 2011. v8: a tale of two compilers. (Jul. 2011). http://wingolog.org/archives/2011/07/05/v8-a-tale-of-two-compilers"
+        }, 
+        {
+            "ArticleName": "Byung-Sun Yang , Soo-Mook Moon , Seongbae Park , Junpyo Lee , SeungIl Lee , Jinpyo Park , Yoo C. Chung , Suhyun Kim , Kemal Ebcioglu , Erik Altman, LaTTe: A Java VM Just-in-Time Compiler with Fast and Efficient Register Allocation, Proceedings of the 1999 International Conference on Parallel Architectures and Compilation Techniques, p.128, October 12-16, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825720"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California Santa Cruz", 
+            "Name": "Daphne I. Gorman"
+        }, 
+        {
+            "Affiliation": "University of California Santa Cruz", 
+            "Name": "Matthew R. Guthaus"
+        }, 
+        {
+            "Affiliation": "University of California Santa Cruz", 
+            "Name": "Jose Renau"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123973&preflayout=flat"
+}

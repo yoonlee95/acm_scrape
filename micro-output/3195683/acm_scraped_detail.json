@@ -1,0 +1,249 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Boyou Zhou , Anmol Gupta , Rasoul Jahanshahi , Manuel Egele , Ajay Joshi, Hardware Performance Counters Can Detect Malware: Myth or Fact?, Proceedings of the 2018 on Asia Conference on Computer and Communications Security, June 04-04, 2018, Incheon, Republic of Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196515"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 16, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 16, 
+        "CitationCount": 1
+    }, 
+    "Title": "Quantifying and improving the efficiency of hardware-based mobile malware detectors", 
+    "Abstract": "Hardware-based malware detectors (HMDs) are a key emerging technology to build trustworthy systems, especially mobile platforms. Quantifying the efficacy of HMDs against malicious adversaries is thus an important problem. The challenge lies in that real-world malware adapts to defenses, evades being run in experimental settings, and hides behind benign applications. Thus, realizing the potential of HMDs as a small and battery-efficient line of defense requires a rigorous foundation for evaluating HMDs. We introduce Sherlock---a white-box methodology that quantifies an HMD's ability to detect malware and identify the reason why. Sherlock first deconstructs malware into atomic, orthogonal actions to synthesize a diverse malware suite. Sherlock then drives both malware and benign programs with real user-inputs, and compares their executions to determine an HMD's operating range, i.e., the smallest malware actions an HMD can detect. We show three case studies using Sherlock to not only quantify HMDs' operating ranges but design better detectors. First, using information about concrete malware actions, we build a discrete-wavelet transform based unsupervised HMD that outperforms prior work based on power transforms by 24.7% (AUC metric). Second, training a supervised HMD using Sherlock's diverse malware dataset yields 12.5% better HMDs than past approaches that train on ad-hoc subsets of malware. Finally, Sherlock shows why a malware instance is detectable. This yields a surprising new result---obfuscation techniques used by malware to evade static analyses makes them more detectable using HMDs.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "A. P. Felt and D. Wagner, \"Phishing on mobile devices,\" in In W2SP, 2011."
+        }, 
+        {
+            "ArticleName": "\"Vulnerable & aggressive adware,\" http://www.fireeye.com/blog/technical/2013/10/ad-vulna-a-vulnaggressive-vulnerable-aggressive-adware-threatening-millions.html."
+        }, 
+        {
+            "ArticleName": "\"Master key vulnerability,\" http://blog.trendmicro.com/trendlabs-security-intelligence/trend-micro-solution-for-vulnerability-affecting-nearly-all-android-devices."
+        }, 
+        {
+            "ArticleName": "Naser Peiravian , Xingquan Zhu, Machine Learning for Android Malware Detection Using Permission and API Calls, Proceedings of the 2013 IEEE 25th International Conference on Tools with Artificial Intelligence, p.300-305, November 04-06, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICTAI.2013.53", 
+            "DOIname": "10.1109/ICTAI.2013.53", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2572941"
+        }, 
+        {
+            "ArticleName": "John Demme , Matthew Maycock , Jared Schmitz , Adrian Tang , Adam Waksman , Simha Sethumadhavan , Salvatore Stolfo, On the feasibility of online malware detection with performance counters, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485970", 
+            "DOIname": "10.1145/2485922.2485970", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485970"
+        }, 
+        {
+            "ArticleName": "A. Tang, S. Sethumadhavan, and S. J. Stolfo, \"Unsupervised anomaly-based malware detection using hardware features,\" in Research in Attacks, Intrusions and Defenses - 17th International Symposium, RAID 2014, Gothenburg, Sweden, September 17--19, 2014. Proceedings, 2014, pp. 109--129."
+        }, 
+        {
+            "ArticleName": "M. Ozsoy, C. Donovick, I. Gorelik, N. Abu-Ghazaleh, and D. Ponomarev, \"Malware-aware processors: A framework for efficient online malware detection,\" in Proceeding of the 21st International Symposium on High Performance Computer Architecture, 2015."
+        }, 
+        {
+            "ArticleName": "Khaled N. Khasawneh , Meltem Ozsoy , Caleb Donovick , Nael Abu-Ghazaleh , Dmitry Ponomarev, Ensemble Learning for Low-Level Hardware-Supported Malware Detection, Proceedings of the 18th International Symposium on Research in Attacks, Intrusions, and Defenses, November 02-04, 2015, Kyoto, Japan", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-26362-5_1", 
+            "DOIname": "10.1007/978-3-319-26362-5_1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2939209"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Ross Daly , Jeremie Kim , Chris Fallin , Ji Hye Lee , Donghyuk Lee , Chris Wilkerson , Konrad Lai , Onur Mutlu, Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665726"
+        }, 
+        {
+            "ArticleName": "M. Seaborn and T. Dullien, \"Exploiting the dram rowhammer bug to gain kernel privileges,\" in BlackHat, 2015."
+        }, 
+        {
+            "ArticleName": "Yossef Oren , Vasileios P. Kemerlis , Simha Sethumadhavan , Angelos D. Keromytis, The Spy in the Sandbox: Practical Cache Attacks in JavaScript and their Implications, Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, October 12-16, 2015, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2810103.2813708", 
+            "DOIname": "10.1145/2810103.2813708", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2813708"
+        }, 
+        {
+            "ArticleName": "Mathias Payer, HexPADS: A Platform to Detect \"Stealth\" Attacks, Proceedings of the 8th International Symposium on Engineering Secure Software and Systems, p.138-154, April 06-08, 2016, London, UK", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-30806-7_9", 
+            "DOIname": "10.1007/978-3-319-30806-7_9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2990919"
+        }, 
+        {
+            "ArticleName": "Emmanouil Vasilomanolakis , Shankar Karuppayah , Max M\u00fchlh\u00e4user , Mathias Fischer, Taxonomy and Survey of Collaborative Intrusion Detection, ACM Computing Surveys (CSUR), v.47 n.4, p.1-33, July 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2716260", 
+            "DOIname": "10.1145/2716260", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2716260"
+        }, 
+        {
+            "ArticleName": "Chenfeng Vincent Zhou , Christopher Leckie , Shanika Karunasekera, A survey of coordinated attacks and collaborative intrusion detection, Computers and Security, v.29 n.1, p.124-140, February, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.cose.2009.06.008", 
+            "DOIname": "10.1016/j.cose.2009.06.008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2639616"
+        }, 
+        {
+            "ArticleName": "W. Xu, Y. Qi, and D. Evans, \"Automatically evading classifiers a case study on pdf malware classifiers,\" in Network and Distributed Systems Symposium, 2016."
+        }, 
+        {
+            "ArticleName": "\"Trendlabs a look at google bouncer,\" http://blog.trendmicro.com/trendlabs-security-intelligence/a-look-at-google-bouncer."
+        }, 
+        {
+            "ArticleName": "William Enck , Peter Gilbert , Byung-Gon Chun , Landon P. Cox , Jaeyeon Jung , Patrick McDaniel , Anmol N. Sheth, TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones, Proceedings of the 9th USENIX conference on Operating systems design and implementation, p.393-407, October 04-06, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924971"
+        }, 
+        {
+            "ArticleName": "Steven Arzt , Siegfried Rasthofer , Christian Fritz , Eric Bodden , Alexandre Bartel , Jacques Klein , Yves Le Traon , Damien Octeau , Patrick McDaniel, FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps, Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 09-11, 2014, Edinburgh, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/2594291.2594299", 
+            "DOIname": "10.1145/2594291.2594299", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2594299"
+        }, 
+        {
+            "ArticleName": "Denver Dash , Branislav Kveton , John Mark Agosta , Eve Schooler , Jaideep Chandrashekar , Abraham Bachrach , Alex Newman, When gossip is good: distributed probabilistic inference for detection of slow network intrusions, proceedings of the 21st national conference on Artificial intelligence, p.1115-1122, July 16-20, 2006, Boston, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1597366"
+        }, 
+        {
+            "ArticleName": "Y. Xie, H.-A. Kim, D. R. O'Hallaron, M. K. Reiter, and H. Zhang, \"Seurat: A pointillist approach to anomaly detection,\" in The International Symposium on Research in Attacks, Intrusions and Defenses (RAID), 2004."
+        }, 
+        {
+            "ArticleName": "Davide Canali , Andrea Lanzi , Davide Balzarotti , Christopher Kruegel , Mihai Christodorescu , Engin Kirda, A quantitative study of accuracy in system call-based malware detection, Proceedings of the 2012 International Symposium on Software Testing and Analysis, July 15-20, 2012, Minneapolis, MN, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2338965.2336768", 
+            "DOIname": "10.1145/2338965.2336768", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2336768"
+        }, 
+        {
+            "ArticleName": "Y. Aafer, W. Du, and H. Yin, \"Droidapiminer: Mining api-level features for robust malware detection in android,\" in Security and Privacy in Communication Networks - 9th International ICST Conference, SecureComm 2013, Sydney, NSW, Australia, September 25--28, 2013, Revised Selected Papers, 2013, pp. 86--103. {Online}. Available"
+        }, 
+        {
+            "ArticleName": "L. Invernizzi, S. Miskovic, R. Torres, C. Kruegel, S. Saha, G. Vigna, S. Lee, and M. Mellia, \"Nazca: Detecting malware distribution in large-scale networks,\" in 21st Annual Network and Distributed System Security Symposium, NDSS 2014, San Diego, California, USA, February 23--26, 2014, 2014. {Online}. Available: http://www.internetsociety.org/doc/nazca-detecting-malware-distribution-large-scale-networks"
+        }, 
+        {
+            "ArticleName": "Matthew Hoekstra , Reshma Lal , Pradeep Pappachan , Vinay Phegade , Juan Del Cuvillo, Using innovative instructions to create trustworthy software solutions, Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-1, June 23-24, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2487726.2488370", 
+            "DOIname": "10.1145/2487726.2488370", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2488370"
+        }, 
+        {
+            "ArticleName": "I. Anati, S. Gueron, S. P. Johnson, and V. R. Scarlata, \"Innovative technology for cpu based attestation and sealing,\" ser. HASP '13, 2013."
+        }, 
+        {
+            "ArticleName": "K. Yang, M. Hicks, Q. Dong, T. Austin, and D. Sylvester, \"A2: Analog malicious hardware,\" in Proceeding SP '12 Proceedings of the 2012 IEEE Symposium on Security and Privacy, 2016."
+        }, 
+        {
+            "ArticleName": "Yajin Zhou , Xuxian Jiang, Dissecting Android Malware: Characterization and Evolution, Proceedings of the 2012 IEEE Symposium on Security and Privacy, p.95-109, May 20-25, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2012.16", 
+            "DOIname": "10.1109/SP.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310710"
+        }, 
+        {
+            "ArticleName": "\"Mobile malware database,\" http://contagiominidump.blogspot.com."
+        }, 
+        {
+            "ArticleName": "\"Obad malware,\" http://securityintelligence.com/diy-android-malware-analysis-taking-apart-obad-part-1."
+        }, 
+        {
+            "ArticleName": "\"Geinimi malware,\" https://nakedsecurity.sophos.com/2010/12/31/geinimi-android-trojan-horse-discovered/."
+        }, 
+        {
+            "ArticleName": "\"Malware database,\" http://malware.lu."
+        }, 
+        {
+            "ArticleName": "\"Malware database,\" http://virusshare.com."
+        }, 
+        {
+            "ArticleName": "\"Universal android rooting procedure (rage method),\" http://theunlockr.com/2010/10/26/universal-android-rooting-procedure-rage-method/."
+        }, 
+        {
+            "ArticleName": "\"Gingerbreak apk root,\" http://droidmodderx.com/gingerbreak-apk-root-your-gingerbread-device."
+        }, 
+        {
+            "ArticleName": "\"Exploid,\" http://forum.xda-developers.com/showthread.php?t=739874."
+        }, 
+        {
+            "ArticleName": "Erika Chin , David Wagner, Bifocals: Analyzing WebView Vulnerabilities in Android Applications, Revised Selected Papers of the 14th International Workshop on Information Security Applications, August 19-21, 2013, Jeju Island, Korea", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-05149-9_9", 
+            "DOIname": "10.1007/978-3-319-05149-9_9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2735193"
+        }, 
+        {
+            "ArticleName": "\"Evernote patches,\" http://blog.trendmicro.com/trendlabs-security-intelligence/evernote-patches-vulnerability-in-android-app/."
+        }, 
+        {
+            "ArticleName": "\"Applock vulnerability,\" http://blog.trendmicro.com/trendlabs-security-intelligence/applock-vulnerability-leaves-configuration-files-open-for-exploit."
+        }, 
+        {
+            "ArticleName": "Adrienne Porter Felt , Erika Chin , Steve Hanna , Dawn Song , David Wagner, Android permissions demystified, Proceedings of the 18th ACM conference on Computer and communications security, October 17-21, 2011, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2046707.2046779", 
+            "DOIname": "10.1145/2046707.2046779", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2046779"
+        }, 
+        {
+            "ArticleName": "\"Android rat malware,\" http://www.itpro.co.uk/malware/22627/android-rat-malware-invades-mobile-banking-apps."
+        }, 
+        {
+            "ArticleName": "\"Mobile bitcoin miner,\" https://blog.lookout.com/blog/2014/04/24/badlepricon-bitcoin."
+        }, 
+        {
+            "ArticleName": "Mikhail Kazdagli , Ling Huang , Vijay Reddi , Mohit Tiwari, Morpheus: benchmarking computational diversity in mobile malware, Proceedings of the Third Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 15-15, 2014, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2611765.2611767", 
+            "DOIname": "10.1145/2611765.2611767", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2611767"
+        }, 
+        {
+            "ArticleName": "\"http://developer.android.com/tools/help/proguard.html.\" {Online}. Available: http://developer.android.com/tools/help/proguard.html"
+        }, 
+        {
+            "ArticleName": "\"Ui/application exerciser monkey,\" http://developer.android.com/tools/help/monkey.html."
+        }, 
+        {
+            "ArticleName": "Aravind Machiry , Rohan Tahiliani , Mayur Naik, Dynodroid: an input generation system for Android apps, Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering, August 18-26, 2013, Saint Petersburg, Russia", 
+            "DOIhref": "http://doi.acm.org/10.1145/2491411.2491450", 
+            "DOIname": "10.1145/2491411.2491450", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2491450"
+        }, 
+        {
+            "ArticleName": "\"Record and replay for android,\" http://www.androidreran.com."
+        }, 
+        {
+            "ArticleName": "\"Jitbit macro recorder,\" http://www.jitbit.com/."
+        }, 
+        {
+            "ArticleName": "Dan Pelleg , Andrew W. Moore, X-means: Extending K-means with Efficient Estimation of the Number of Clusters, Proceedings of the Seventeenth International Conference on Machine Learning, p.727-734, June 29-July 02, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=657808"
+        }, 
+        {
+            "ArticleName": "Robert E. Schapire , Yoav Freund, Boosting: Foundations and Algorithms, The MIT Press, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2207821"
+        }, 
+        {
+            "ArticleName": "\"Slow loris attack,\" http://www.slashroot.in/slowloris-http-dosdenial-serviceattack-and-prevention."
+        }, 
+        {
+            "ArticleName": "\"Dissecting android's bouncer,\" https://www.duosecurity.com/blog/dissecting-androids-bouncer."
+        }, 
+        {
+            "ArticleName": "Long Lu , Zhichun Li , Zhenyu Wu , Wenke Lee , Guofei Jiang, CHEX: statically vetting Android apps for component hijacking vulnerabilities, Proceedings of the 2012 ACM conference on Computer and communications security, October 16-18, 2012, Raleigh, North Carolina, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2382196.2382223", 
+            "DOIname": "10.1145/2382196.2382223", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2382223"
+        }, 
+        {
+            "ArticleName": "Robin Sommer , Vern Paxson, Outside the Closed World: On Using Machine Learning for Network Intrusion Detection, Proceedings of the 2010 IEEE Symposium on Security and Privacy, p.305-316, May 16-19, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2010.25", 
+            "DOIname": "10.1109/SP.2010.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1849980"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "UT Austin", 
+            "Name": "Mikhail Kazdagli"
+        }, 
+        {
+            "Affiliation": "UT Austin", 
+            "Name": "Vijay Janapa Reddi"
+        }, 
+        {
+            "Affiliation": "UT Austin", 
+            "Name": "Mohit Tiwari"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195683&preflayout=flat"
+}

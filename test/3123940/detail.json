@@ -1,0 +1,250 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 350, 
+        "Downloads_6Weeks": 14, 
+        "Downloads_cumulative": 350, 
+        "CitationCount": 0
+    }, 
+    "Title": "Taming the instruction bandwidth of quantum computers via hardware-managed error correction", 
+    "Abstract": "A quantum computer consists of quantum bits (qubits) and a control processor that acts as an interface between the programmer and the qubits. As qubits are very sensitive to noise, they rely on continuous error correction to maintain the correct state. Current proposals rely on software-managed error correction and require large instruction bandwidth, which must scale in proportion to the number of qubits. While such a design may be reasonable for small-scale quantum computers, we show that instruction bandwidth tends to become a critical bottleneck for scaling quantum computers. In this paper, we show that 99.999% of the instructions in the instruction stream of a typical quantum workload stem from error correction. Using this observation, we propose QuEST (<u>Q</u>uantum <u>E</u>rror-Correction <u>S</u>ubs<u>t</u>rate), an architecture that delegates the task of quantum error correction to the hardware. QuEST uses a dedicated programmable micro-coded engine to continuously replay the instruction stream associated with error correction. The instruction bandwidth requirement of QuEST scales in proportion to the number of active qubits (typically << 0.1%) rather than the total number of qubits. We analyze the effectiveness of QuEST with area and thermal constraints and propose a scalable microarchitecture using typical Quantum Error Correction Code (QECC) execution patterns. Our evaluations show that QuEST reduces instruction bandwidth demand of several key workloads by five orders of magnitude while ensuring deterministic instruction delivery. Apart from error correction, we also observe a large instruction bandwidth requirement for fault tolerant quantum instructions (magic state distillation). We extend QuEST to manage these instructions in hardware and provide additional reduction in bandwidth. With QuEST, we reduce the total instruction bandwidth by eight orders of magnitude.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "A. Ambainis , A. M. Childs , B. W. Reichardt , R. \u0160palek , S. Zhang, Any AND-OR Formula of Size $N$ Can Be Evaluated in Time $N^{1/2+o(1)}$ on a Quantum Computer, SIAM Journal on Computing, v.39 n.6, p.2513-2530, March 2010", 
+            "DOIhref": "https://dx.doi.org/10.1137/080712167", 
+            "DOIname": "10.1137/080712167", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1898205"
+        }, 
+        {
+            "ArticleName": "Steven Balensiefer , Lucas Kregor-Stickles , Mark Oskin, An Evaluation Framework and Instruction Set Architecture for Ion-Trap Based Quantum Micro-Architectures, ACM SIGARCH Computer Architecture News, v.33 n.2, p.186-196, May 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1080695.1069986", 
+            "DOIname": "10.1145/1080695.1069986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069986"
+        }, 
+        {
+            "ArticleName": "Douglas M. Carmean. 2017. Quantum and Cryo and DNA, oh my! sights along the new yellow brick road. ISCA 2016 Keynote, http://dcarmean.azurewebsites.net/ISCA2016.pdf. (2017). {Online; accessed 7-June-2017}."
+        }, 
+        {
+            "ArticleName": "J. Chang, M. R. Vissers, A. D. Corcoles, M. Sandberg, J. Gao, David W. Abraham, Jerry M. Chow, Jay M. Gambetta, M. B. Rothwell, G. A. Keefe, Matthias Steffen, and D. P. Pappas. 2013. Improved superconducting qubit coherence using titanium nitride. Appl. Phys. Lett. 103, 012602 (2013). (2013). arXiv:arXiv:1303.4071"
+        }, 
+        {
+            "ArticleName": "E. Charbon, F. Sebastiano, A. Vladimirescu, H. Homulle, S. Visser, L. Song, and R. M. Incandela. 2016. Cryo-CMOS for quantum computing. In 2016 IEEE International Electron Devices Meeting (IEDM). 13.5.1--13.5.4."
+        }, 
+        {
+            "ArticleName": "Eric Chi , Stephen A. Lyon , Margaret Martonosi, Tailoring quantum architectures to implementation style: a quantum computer for mobile and persistent qubits, ACM SIGARCH Computer Architecture News, v.35 n.2, May 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273440.1250687", 
+            "DOIname": "10.1145/1273440.1250687", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250687"
+        }, 
+        {
+            "ArticleName": "Andrew M. Childs , Richard Cleve , Enrico Deotto , Edward Farhi , Sam Gutmann , Daniel A. Spielman, Exponential algorithmic speedup by a quantum walk, Proceedings of the thirty-fifth annual ACM symposium on Theory of computing, June 09-11, 2003, San Diego, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/780542.780552", 
+            "DOIname": "10.1145/780542.780552", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=780552"
+        }, 
+        {
+            "ArticleName": "Dean Copsey, Mark Oskin, Francois Impens, Tzvetan Metodiev, Andrew Cross, Frederic T Chong, Isaac L Chuang, and John Kubiatowicz. 2003. Toward a scalable, silicon-based quantum computing architecture. IEEE Journal of selected topics in quantum electronics 9, 6 (2003), 1552--1569."
+        }, 
+        {
+            "ArticleName": "International Business Machines Corporation. 2017. Universal Quantum Computer Development at IBM:. http://research.ibm.com/ibm-q/research/. (2017). {Online; accessed 3-April-2017}."
+        }, 
+        {
+            "ArticleName": "David P DiVincenzo et al. 2000. The physical implementation of quantum computation. arXiv preprint quant-ph/0002077 (2000)."
+        }, 
+        {
+            "ArticleName": "Mikhail Dorojevets and Zuoting Chen. 2015. Fast pipelined storage for high-performance energy-efficient computing with superconductor technology. In Emerging Technologies for a Smarter World (CEWIT), 2015 12th International Conference & Expo on. IEEE, 1--6."
+        }, 
+        {
+            "ArticleName": "Mikhail Dorojevets, Zuoting Chen, Christopher L Ayala, and Artur K Kasperek. 2015. Towards 32-bit Energy-Efficient Superconductor RQL Processors: The Cell-Level Design and Analysis of Key Processing and On-Chip Storage Units. IEEE Transactions on Applied Superconductivity 25, 3 (2015), 1--8."
+        }, 
+        {
+            "ArticleName": "Austin G. Fowler, Minimum weight perfect matching of fault-tolerant topological quantum error correction in average O(1) parallel time, Quantum Information & Computation, v.15 n.1-2, p.145-158, January 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685197"
+        }, 
+        {
+            "ArticleName": "Austin G Fowler, Matteo Mariantoni, John M Martinis, and Andrew N Cleland. 2012. Surface codes: Towards practical large-scale quantum computation. Physical Review A 86, 3 (2012), 032324."
+        }, 
+        {
+            "ArticleName": "Jeongwan Haah, Matthew B. Hastings, D. Poulin, and D. Wecker. 2017. Magic State Distillation with Low Space Overhead and Optimal Asymptotic Input Count. (2017). arXiv:arXiv:1703.07847"
+        }, 
+        {
+            "ArticleName": "Thomas H\u00e4ner, Damian S Steiger, Krysta Svore, and Matthias Troyer. 2016. A software methodology for compiling quantum programs. arXiv preprint arXiv:1604.01401 (2016)."
+        }, 
+        {
+            "ArticleName": "Matthew B. Hastings , Dave Wecker , Bela Bauer , Matthias Troyer, Improving quantum algorithms for quantum chemistry, Quantum Information & Computation, v.15 n.1-2, p.1-21, January 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685189"
+        }, 
+        {
+            "ArticleName": "Jeff Heckey , Shruti Patil , Ali JavadiAbhari , Adam Holmes , Daniel Kudrow , Kenneth R. Brown , Diana Franklin , Frederic T. Chong , Margaret Martonosi, Compiler Management of Communication and Parallelism for Quantum Computation, ACM SIGARCH Computer Architecture News, v.43 n.1, March 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786763.2694357", 
+            "DOIname": "10.1145/2786763.2694357", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694357"
+        }, 
+        {
+            "ArticleName": "W. H. Henkels, N. C. C. Lu, W. Hwang, T. V. Rajeevakumar, R. L. Franch, K. A. Jenkins, T. J. Bucelot, D. F. Heidel, and M. J. Immediato. 1989. A low temperature 12 ns DRAM. In VLSI Technology, Systems and Applications, 1989. Proceedings of Technical Papers. 1989 International Symposium on."
+        }, 
+        {
+            "ArticleName": "Quentin P Herr, Anna Y Herr, Oliver T Oberg, and Alexander G Ioannidis. 2011. Ultra-low-power superconductor logic. Journal of applied physics (2011)."
+        }, 
+        {
+            "ArticleName": "D. S. Holmes, A. L. Ripple, and M. A. Manheimer. 2013. Energy-Efficient Superconducting Computing x2014;Power Budgets and Requirements. IEEE Transactions on Applied Superconductivity 23, 3 (June 2013), 1701610--1701610."
+        }, 
+        {
+            "ArticleName": "Harald Homulle , Stefan Visser , Bishnu Patra , Giorgio Ferrari , Enrico Prati , Carmen G. Almud\u00e9ver , Koen Bertels , Fabio Sebastiano , Edoardo Charbon, CryoCMOS hardware technology a classical infrastructure for a scalable quantum computer, Proceedings of the ACM International Conference on Computing Frontiers, May 16-19, 2016, Como, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2903150.2906828", 
+            "DOIname": "10.1145/2903150.2906828", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2906828"
+        }, 
+        {
+            "ArticleName": "Harald Homulle, Stefan Visser, Bishnu Patra, Giorgio Ferrari, Enrico Prati, Fabio Sebastiano, and Edoardo Charbon. 2017. A reconfigurable cryogenic platform for the classical control of quantum processors. Review of Scientific Instruments 88, 4 (2017), 045103."
+        }, 
+        {
+            "ArticleName": "J. M. Hornibrook, J. I. Colless, I. D. Conway Lamb, S. J. Pauka, H. Lu, A. C. Gossard, J. D. Watson, G. C. Gardner, S. Fallahi, M. J. Manfra, and D. J. Reilly. 2015. Cryogenic Control Architecture for Large-Scale Quantum Computing. Phys. Rev. Applied 3 (Feb 2015), 024010. Issue 2."
+        }, 
+        {
+            "ArticleName": "Nemanja Isailovic , Mark Whitney , Yatish Patel , John Kubiatowicz, Running a Quantum Circuit at the Speed of Data, ACM SIGARCH Computer Architecture News, v.36 n.3, p.177-188, June 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1394608.1382137", 
+            "DOIname": "10.1145/1394608.1382137", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382137"
+        }, 
+        {
+            "ArticleName": "Ali JavadiAbhari , Shruti Patil , Daniel Kudrow , Jeff Heckey , Alexey Lvov , Frederic T. Chong , Margaret Martonosi, ScaffCC, Parallel Computing, v.45 n.C, p.2-17, June 2015", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.parco.2014.12.001", 
+            "DOIname": "10.1016/j.parco.2014.12.001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2792367"
+        }, 
+        {
+            "ArticleName": "Cody Jones, Peter Brooks, and Jim Harrington. 2016. Gauge color codes in two dimensions. Phys. Rev. A 93 (May 2016), 052332. Issue 5."
+        }, 
+        {
+            "ArticleName": "Daniel Kudrow, Kenneth Bier, Zhaoxia Deng, Diana Franklin, and Frederic T Chong. 2013. Dynamic Machine-Code Generation for Quantum Rotations. GSWC 2013 (2013), 23."
+        }, 
+        {
+            "ArticleName": "Daniel Kudrow , Kenneth Bier , Zhaoxia Deng , Diana Franklin , Yu Tomita , Kenneth R. Brown , Frederic T. Chong, Quantum rotations: a case study in static and dynamic machine-code generation for quantum computers, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485937", 
+            "DOIname": "10.1145/2508148.2485937", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485937"
+        }, 
+        {
+            "ArticleName": "Bjoern Lekitsch, Sebastian Weidt, Austin G Fowler, Klaus M\u00f8lmer, Simon J Devitt, Christof Wunderlich, and Winfried K Hensinger. 2017. Blueprint for a microwave trapped ion quantum computer. Science Advances 3, 2 (2017), e1601540."
+        }, 
+        {
+            "ArticleName": "Seth Lloyd, Masoud Mohseni, and Patrick Rebentrost. 2013. Quantum algorithms for supervised and unsupervised machine learning. (2013). arXiv:arXiv:1307.0411"
+        }, 
+        {
+            "ArticleName": "Fre\u00b4de\u00b4ric Magniez , Miklos Santha , Mario Szegedy, Quantum Algorithms for the Triangle Problem, SIAM Journal on Computing, v.37 n.2, p.413-424, May 2007", 
+            "DOIhref": "https://dx.doi.org/10.1137/050643684", 
+            "DOIname": "10.1137/050643684", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1328742"
+        }, 
+        {
+            "ArticleName": "J. Medford, M. Stoutimore, Q. Herr, O. Naaman, H. Hearne, J. Strand, A. Przybysz, A. Pesetski, and J. Przybysz. 2015. Demonstrated control of a Transmon using a Reciprocal Quantum Logic digital circuit - Part 2. In APS Meeting Abstracts."
+        }, 
+        {
+            "ArticleName": "Rodney Van Meter , Mark Oskin, Architectural implications of quantum computing technologies, ACM Journal on Emerging Technologies in Computing Systems (JETC), v.2 n.1, p.31-63, January 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1126257.1126259", 
+            "DOIname": "10.1145/1126257.1126259", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1126259"
+        }, 
+        {
+            "ArticleName": "Tzvetan S. Metodi , Arvin I. Faruque , Frederic T. Chong, Quantum Computing for Computer Architects, Second Edition, Morgan & Claypool Publishers, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2011926"
+        }, 
+        {
+            "ArticleName": "O. Naaman, M. O. Abutaleb, C. Kirby, and M. Rennie. 2016. On-chip Josephson junction microwave switch. Applied Physics Letters 108, 11, Article 112601 (2016)."
+        }, 
+        {
+            "ArticleName": "Mark Oskin , Frederic T. Chong , Isaac L. Chuang, A Practical Architecture for Reliable Quantum Computers, Computer, v.35 n.1, p.79-87, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.976922", 
+            "DOIname": "10.1109/2.976922", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621887"
+        }, 
+        {
+            "ArticleName": "PJJ O\u00e2\u0102\u0179Malley, J Kelly, R Barends, B Campbell, Y Chen, Z Chen, B Chiaro, A Dunsworth, AG Fowler, I-C Hoi, et al. 2015. Qubit metrology of ultralow phase noise using randomized benchmarking. Physical Review Applied 3, 4 (2015), 044009."
+        }, 
+        {
+            "ArticleName": "Shruti Patil, Ali JavadiAbhari, Chen-Fu Chiang, Jeff Heckey, Margaret Martonosi, and Frederic T Chong. 2014. Characterizing the performance effect of trials and rotations in applications that use Quantum Phase Estimation. In Workload Characterization (IISWC), 2014 IEEE International Symposium on. IEEE, 181--190."
+        }, 
+        {
+            "ArticleName": "Ethan Schuchman , T. N. Vijaykumar, A program transformation and architecture support for quantum uncomputation, ACM SIGOPS Operating Systems Review, v.40 n.5, December 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168917.1168889", 
+            "DOIname": "10.1145/1168917.1168889", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168889"
+        }, 
+        {
+            "ArticleName": "Peter W. Shor. 1995. Scheme for reducing decoherence in quantum computer memory. Phys. Rev. A 52 (Oct 1995), R2493--R2496. Issue 4."
+        }, 
+        {
+            "ArticleName": "Peter W. Shor, Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer, SIAM Review, v.41 n.2, p.303-332, June 1999", 
+            "DOIhref": "https://dx.doi.org/10.1137/S0036144598347011", 
+            "DOIname": "10.1137/S0036144598347011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325514"
+        }, 
+        {
+            "ArticleName": "Sung-min Sim, Yeonsu Lee, Hye-lim Kang, Kwon-Yong Shin, Sang-Ho Lee, and Jung-Mu Kim. 2016. Transmission line printed using silver nanoparticle ink on FR-4 and polyimide substrates. Micro and Nano Systems Letters 4, 1 (2016), 7."
+        }, 
+        {
+            "ArticleName": "Tom Simonite. 2015. Google Quantum Dream Machine. https://www.technologyreview.com/s/544421/googles-quantum-dream-machine/?state=email-verified. (2015). {Online; accessed 2-November-2016}."
+        }, 
+        {
+            "ArticleName": "Marshall Stoneham. 2009. Trend: Is a room-temperature, solid-state quantum computer mere fantasy? Physics 2 (2009), 34."
+        }, 
+        {
+            "ArticleName": "M. Stoutimore, J. Medford, Q. Herr, O. Naaman, H. Hearne, J. Strand, A. Przybysz, A. Pesetski, and J. Przybysz. 2015. Demonstrated control of a Transmon using a Reciprocal Quantum Logic digital circuit - Part 1. In APS Meeting Abstracts."
+        }, 
+        {
+            "ArticleName": "M. Suchara, J. Kubiatowicz, A. Faruque, F. T. Chong, C. Y. Lai, and G. Paz. 2013. QuRE: The Quantum Resource Estimator toolbox. In 2013 IEEE 31st International Conference on Computer Design (ICCD). 419--426."
+        }, 
+        {
+            "ArticleName": "Darshan D. Thaker , Tzvetan S. Metodi , Andrew W. Cross , Isaac L. Chuang , Frederic T. Chong, Quantum Memory Hierarchies: Efficient Designs to Match Available Parallelism in Quantum Computing, ACM SIGARCH Computer Architecture News, v.34 n.2, p.378-390, May 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1150019.1136518", 
+            "DOIname": "10.1145/1150019.1136518", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136518"
+        }, 
+        {
+            "ArticleName": "Sergey K Tolpygo, Vladimir Bolkhovsky, TJ Weir, Alex Wynn, DE Oates, LM Johnson, and MA Gouker. 2016. Advanced Fabrication Processes for Superconducting Very Large-Scale Integrated Circuits. IEEE Transactions on Applied Superconductivity 26, 3 (2016), 1--10."
+        }, 
+        {
+            "ArticleName": "Yu Tomita and Krysta M. Svore. 2014. Low-distance surface codes under realistic quantum noise. Phys. Rev. A 90 (Dec 2014), 062320. Issue 6."
+        }, 
+        {
+            "ArticleName": "David B Tuckerman, Michael C Hamilton, David J Reilly, Rujun Bai, George A Hernandez, John M Hornibrook, John A Sellers, and Charles D Ellis. 2016. Flexible superconducting Nb transmission lines on thin film polyimide for quantum computing applications. Superconductor Science and Technology (2016)."
+        }, 
+        {
+            "ArticleName": "Rodney Van Meter , Clare Horsman, A blueprint for building a quantum computer, Communications of the ACM, v.56 n.10, October 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2494568", 
+            "DOIname": "10.1145/2494568", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2494568"
+        }, 
+        {
+            "ArticleName": "W. K. Wootters and W. H. Zurek. 1982. A single quantum cannot be cloned. Nature 299, 5886 (28 Oct 1982), 802--803."
+        }, 
+        {
+            "ArticleName": "Theodore J Yoder and Isaac H Kim. 2016. The surface code with a twist. arXiv preprint arXiv:1612.04795 (2016)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Swamit S. Tannu"
+        }, 
+        {
+            "Affiliation": "Stanford University", 
+            "Name": "Zachary A. Myers"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Prashant J. Nair"
+        }, 
+        {
+            "Affiliation": "Microsoft Research", 
+            "Name": "Douglas M. Carmean"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Moinuddin K. Qureshi"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123940&preflayout=flat"
+}

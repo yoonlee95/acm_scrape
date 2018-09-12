@@ -1,0 +1,306 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Boyou Zhou , Anmol Gupta , Rasoul Jahanshahi , Manuel Egele , Ajay Joshi, Hardware Performance Counters Can Detect Malware: Myth or Fact?, Proceedings of the 2018 on Asia Conference on Computer and Communications Security, June 04-04, 2018, Incheon, Republic of Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196515"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 235, 
+        "Downloads_6Weeks": 11, 
+        "Downloads_cumulative": 235, 
+        "CitationCount": 1
+    }, 
+    "Title": "RHMD: evasion-resilient hardware malware detectors", 
+    "Abstract": "Hardware Malware Detectors (HMDs) have recently been proposed as a defense against the proliferation of malware. These detectors use low-level features, that can be collected by the hardware performance monitoring units on modern CPUs to detect malware as a computational anomaly. Several aspects of the detector construction have been explored, leading to detectors with high accuracy. In this paper, we explore the question of how well evasive malware can avoid detection by HMDs. We show that existing HMDs can be effectively reverse-engineered and subsequently evaded, allowing malware to hide from detection without substantially slowing it down (which is important for certain types of malware). This result demonstrates that the current generation of HMDs can be easily defeated by evasive malware. Next, we explore how well a detector can evolve if it is exposed to this evasive malware during training. We show that simple detectors, such as logistic regression, cannot detect the evasive malware even with retraining. More sophisticated detectors can be retrained to detect evasive malware, but the retrained detectors can be reverse-engineered and evaded again. To address these limitations, we propose a new type of Resilient HMDs (RHMDs) that stochastically switch between different detectors. These detectors can be shown to be provably more difficult to reverse engineer based on resent results in probably approximately correct (PAC) learnability theory. We show that indeed such detectors are resilient to both reverse engineering and evasion, and that the resilience increases with the number and diversity of the individual detectors. Our results demonstrate that these HMDs offer effective defense against evasive malware at low additional complexity.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Sherly Abraham and InduShobha Chengalur-Smith. 2010. An overview of social engineering malware: Trends, tactics, and implications. Technology in Society 32, 3 (2010), 183--196."
+        }, 
+        {
+            "ArticleName": "Sruthi Bandhakavi , Samuel T. King , P. Madhusudan , Marianne Winslett, VEX: vetting browser extensions for security vulnerabilities, Proceedings of the 19th USENIX conference on Security, August 11-13, 2010, Washington, DC", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1929850"
+        }, 
+        {
+            "ArticleName": "Marco Barreno , Blaine Nelson , Anthony D. Joseph , J. D. Tygar, The security of machine learning, Machine Learning, v.81 n.2, p.121-148, November 2010", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10994-010-5188-5", 
+            "DOIname": "10.1007/s10994-010-5188-5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1860722"
+        }, 
+        {
+            "ArticleName": "Battista Biggio , Igino Corona , Davide Maiorca , Blaine Nelson , Nedim \u0160rndi\u0107 , Pavel Laskov , Giorgio Giacinto , Fabio Roli, Evasion attacks against machine learning at test time, Proceedings of the 2013th European Conference on Machine Learning and Knowledge Discovery in Databases, September 23-27, 2013, Prague, Czech Republic", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-40994-3_25", 
+            "DOIname": "10.1007/978-3-642-40994-3_25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3120221"
+        }, 
+        {
+            "ArticleName": "Battista Biggio , Giorgio Fumera , Fabio Roli, Adversarial Pattern Classification Using Multiple Classifiers and Randomisation, Proceedings of the 2008 Joint IAPR International Workshop on Structural, Syntactic, and Statistical Pattern Recognition, December 04-06, 2008, Orlando, Florida", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-89689-0_54", 
+            "DOIname": "10.1007/978-3-540-89689-0_54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1485863"
+        }, 
+        {
+            "ArticleName": "Battista Biggio , Blaine Nelson , Pavel Laskov, Poisoning attacks against support vector machines, Proceedings of the 29th International Coference on International Conference on Machine Learning, p.1467-1474, June 26-July 01, 2012, Edinburgh, Scotland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3042761"
+        }, 
+        {
+            "ArticleName": "Daniel Bilar, Opcodes as predictor for malware, International Journal of Electronic Security and Digital Forensics, v.1 n.2, p.156-168, May 2007", 
+            "DOIhref": "https://dx.doi.org/10.1504/IJESDF.2007.016865", 
+            "DOIname": "10.1504/IJESDF.2007.016865", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1359312"
+        }, 
+        {
+            "ArticleName": "Danilo Bruschi, Lorenzo Cavallaro, and Andrea Lanzi. 2007. An efficient technique for preventing mimicry and impossible paths execution attacks. In Performance, Computing, and Communications Conference, 2007. IPCCC 2007. IEEE Internationa. IEEE, 418--425."
+        }, 
+        {
+            "ArticleName": "Juan Caballero , Chris Grier , Christian Kreibich , Vern Paxson, Measuring pay-per-install: the commoditization of malware distribution, Proceedings of the 20th USENIX conference on Security, p.13-13, August 08-12, 2011, San Francisco, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2028080"
+        }, 
+        {
+            "ArticleName": "Jie Chen , Guru Venkataramani, CC-Hunter: Uncovering Covert Timing Channels on Shared Processor Hardware, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.42", 
+            "DOIname": "10.1109/MICRO.2014.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742177"
+        }, 
+        {
+            "ArticleName": "Richard Colbaugh and Kristin Glass. 2012. Predictive defense against evolving adversaries. In Intelligence and Security Informatics (ISI), 2012 IEEE International Conference on. IEEE, 18--23."
+        }, 
+        {
+            "ArticleName": "John Demme , Matthew Maycock , Jared Schmitz , Adrian Tang , Adam Waksman , Simha Sethumadhavan , Salvatore Stolfo, On the feasibility of online malware detection with performance counters, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485970", 
+            "DOIname": "10.1145/2508148.2485970", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485970"
+        }, 
+        {
+            "ArticleName": "Artem Dinaburg , Paul Royal , Monirul Sharif , Wenke Lee, Ether: malware analysis via hardware virtualization extensions, Proceedings of the 15th ACM conference on Computer and communications security, October 27-31, 2008, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1455770.1455779", 
+            "DOIname": "10.1145/1455770.1455779", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1455779"
+        }, 
+        {
+            "ArticleName": "H. Drucker , Donghui Wu , V. N. Vapnik, Support vector machines for spam categorization, IEEE Transactions on Neural Networks, v.10 n.5, p.1048-1054, September 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/72.788645", 
+            "DOIname": "10.1109/72.788645", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2326469"
+        }, 
+        {
+            "ArticleName": "Manuel Egele , Theodoor Scholte , Engin Kirda , Christopher Kruegel, A survey on automated dynamic malware-analysis techniques and tools, ACM Computing Surveys (CSUR), v.44 n.2, p.1-42, February 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2089125.2089126", 
+            "DOIname": "10.1145/2089125.2089126", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2089126"
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Dmitry Ponomarev , Nael Abu-Ghazaleh, Understanding and Mitigating Covert Channels Through Branch Predictors, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.1, p.1-23, April 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2870636", 
+            "DOIname": "10.1145/2870636", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2870636"
+        }, 
+        {
+            "ArticleName": "Tal Garfinkel , Ben Pfaff , Jim Chow , Mendel Rosenblum , Dan Boneh, Terra: a virtual machine-based platform for trusted computing, ACM SIGOPS Operating Systems Review, v.37 n.5, December 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/1165389.945464", 
+            "DOIname": "10.1145/1165389.945464", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=945464"
+        }, 
+        {
+            "ArticleName": "Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. 2014. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572 (2014)."
+        }, 
+        {
+            "ArticleName": "Guofei Gu , Phillip Porras , Vinod Yegneswaran , Martin Fong , Wenke Lee, BotHunter: detecting malware infection through IDS-driven dialog correlation, Proceedings of 16th USENIX Security Symposium on USENIX Security Symposium, p.1-16, August 06-10, 2007, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1362915"
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Casen Hunger, Mikhail Kazdagli, Ankit Rawat, Alex Dimakis, Sriram Vishwanath, and Mohit Tiwari. 2015. Understanding contention-based channels and using them for defense. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. IEEE, 639--650."
+        }, 
+        {
+            "ArticleName": "Nwokedi Idika and Aditya P Mathur. 2007. A survey of malware detection techniques. Purdue University 48 (2007)."
+        }, 
+        {
+            "ArticleName": "Mehmet Kayaalp , Nael Abu-Ghazaleh , Dmitry Ponomarev , Aamer Jaleel, A high-resolution side-channel attack on last-level cache, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2897962", 
+            "DOIname": "10.1145/2897937.2897962", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2897962"
+        }, 
+        {
+            "ArticleName": "Mehmet Kayaalp , Timothy Schmitt , Junaid Nomani , Dmitry Ponomarev , Nael Abu-Ghazaleh, SCRAP: Architecture for signature-based protection from Code Reuse Attacks, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.258-269, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522324", 
+            "DOIname": "10.1109/HPCA.2013.6522324", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495494"
+        }, 
+        {
+            "ArticleName": "Mikhail Kazdagli, Ling Huang, Vijay Reddi, and Mohit Tiwari. 2016. EMMA: A New Platform to Evaluate Hardware-based Mobile Malware Analyses. CoRR abs/1603.03086 (2016). http://arxiv.org/abs/1603.03086"
+        }, 
+        {
+            "ArticleName": "Mikhail Kazdagli, Vijay Janapa Reddi, and Mohit Tiwari. 2016. Quantifying and improving the efficiency of hardware-based mobile malware detectors. In Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 1--13."
+        }, 
+        {
+            "ArticleName": "Khaled N. Khasawneh , Meltem Ozsoy , Caleb Donovick , Nael Abu-Ghazaleh , Dmitry Ponomarev, Ensemble Learning for Low-Level Hardware-Supported Malware Detection, Proceedings of the 18th International Symposium on Research in Attacks, Intrusions, and Defenses, November 02-04, 2015, Kyoto, Japan", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-26362-5_1", 
+            "DOIname": "10.1007/978-3-319-26362-5_1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2939209"
+        }, 
+        {
+            "ArticleName": "Marius Kloft and Pavel Laskov. 2010. Online anomaly detection under adversarial impact. In Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics. 405--412."
+        }, 
+        {
+            "ArticleName": "Nedim \u0160rndic , Pavel Laskov, Practical Evasion of a Learning-Based Classifier: A Case Study, Proceedings of the 2014 IEEE Symposium on Security and Privacy, p.197-211, May 18-21, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2014.20", 
+            "DOIname": "10.1109/SP.2014.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2650798"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, ACM SIGPLAN Notices, v.40 n.6, June 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1064978.1065034", 
+            "DOIname": "10.1145/1064978.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Malwaredb. 2010. Liste Malware. (2010). Available online (last accessed, May 2015): www.malwaredb.malekal.com."
+        }, 
+        {
+            "ArticleName": "Lorenzo Martignoni, Mihai Christodorescu, and Somesh Jha. 2007. Omniunpack: Fast, generic, and safe unpacking of malware. In Computer Security Applications Conference, 2007. ACSAC 2007. Twenty-Third Annual. IEEE, 431--441."
+        }, 
+        {
+            "ArticleName": "Gary McGraw , Greg Morrisett, Attacking Malicious Code: A Report to the Infosec Research Council, IEEE Software, v.17 n.5, p.33-41, September 2000", 
+            "DOIhref": "https://dx.doi.org/10.1109/52.877857", 
+            "DOIname": "10.1109/52.877857", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=626176"
+        }, 
+        {
+            "ArticleName": "Thomas M. Mitchell, Machine Learning, McGraw-Hill, Inc., New York, NY, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=541177"
+        }, 
+        {
+            "ArticleName": "Andreas Moser, Christopher Kruegel, and Engin Kirda. 2007. Limits of static analysis for malware detection. In Computer security applications conference, 2007. ACSAC 2007. Twenty-third annual. IEEE, 421--430."
+        }, 
+        {
+            "ArticleName": "Carey Nachenberg, Computer virus-antivirus coevolution, Communications of the ACM, v.40 n.1, p.46-51, Jan. 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/242857.242869", 
+            "DOIname": "10.1145/242857.242869", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=242869"
+        }, 
+        {
+            "ArticleName": "Hoda Naghibijouybari and Nael Abu-Ghazaleh. 2017. Covert Channels on GPG-PUs. IEEE Computer Architecture Letters 16, 1 (2017), 22--25."
+        }, 
+        {
+            "ArticleName": "Aleksander Osman. 2014. The AO486 project. (2014). http://opencores.org/project,ao486"
+        }, 
+        {
+            "ArticleName": "Meltem Ozsoy, Caleb Donovick, Iakov Gorelik, Nael Abu-Ghazaleh, and Dmitry Ponomarev. 2015. Malware-aware processors: A framework for efficient online malware detection. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. IEEE, 651--661."
+        }, 
+        {
+            "ArticleName": "Meltem Ozsoy , Khaled N. Khasawneh , Caleb Donovick , Iakov Gorelik , Nael Abu-Ghazaleh , Dmitry Ponomarev, Hardware-Based Malware Detection Using Low-Level Architectural Features, IEEE Transactions on Computers, v.65 n.11, p.3332-3344, November 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2016.2540634", 
+            "DOIname": "10.1109/TC.2016.2540634", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026208"
+        }, 
+        {
+            "ArticleName": "Nicolas Papernot , Patrick McDaniel , Ian Goodfellow , Somesh Jha , Z. Berkay Celik , Ananthram Swami, Practical Black-Box Attacks against Machine Learning, Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security, April 02-06, 2017, Abu Dhabi, United Arab Emirates", 
+            "DOIhref": "http://doi.acm.org/10.1145/3052973.3053009", 
+            "DOIname": "10.1145/3052973.3053009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3053009"
+        }, 
+        {
+            "ArticleName": "Colin Percival. 2005. Cache missing for fun and profit. (2005)."
+        }, 
+        {
+            "ArticleName": "Qualcomm 2016. Qualcomm Smart Protect Technology. (2016). Last Accessed July 2016 from https://www.qualcomm.com/products/snapdragon/security/smart-protect."
+        }, 
+        {
+            "ArticleName": "Neha Runwal , Richard M. Low , Mark Stamp, Opcode graph similarity and metamorphic detection, Journal in Computer Virology, v.8 n.1-2, p.37-52, May 2012", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11416-012-0160-5", 
+            "DOIname": "10.1007/s11416-012-0160-5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2317423"
+        }, 
+        {
+            "ArticleName": "Igor Santos , Felix Brezo , Javier Nieves , Yoseba K. Penya , Borja Sanz , Carlos Laorden , Pablo G. Bringas, Idea: opcode-sequence-based malware detection, Proceedings of the Second international conference on Engineering Secure Software and Systems, February 03-04, 2010, Pisa, Italy", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-11747-3_3", 
+            "DOIname": "10.1007/978-3-642-11747-3_3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2175009"
+        }, 
+        {
+            "ArticleName": "Hovav Shacham, The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86), Proceedings of the 14th ACM conference on Computer and communications security, November 02-October 31, 2007, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1315245.1315313", 
+            "DOIname": "10.1145/1315245.1315313", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1315313"
+        }, 
+        {
+            "ArticleName": "Reza Shokri, Marco Stronati, and Vitaly Shmatikov. 2016. Membership inference attacks against machine learning models. arXiv preprint arXiv:1610.05820 (2016)."
+        }, 
+        {
+            "ArticleName": "Ed Skoudis , Lenny Zeltser, Malware: Fighting Malicious Code, Prentice Hall PTR, Upper Saddle River, NJ, 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1212670"
+        }, 
+        {
+            "ArticleName": "Charles Smutz and Angelos Stavrou. 2016. When a Tree Falls: Using Diversity in Ensemble Classifiers to Identify Evasion in Malware Detectors. In Proceedings of Network and Distributed System Security Symposium (NDSS)."
+        }, 
+        {
+            "ArticleName": "Adrian Tang, Simha Sethumadhavan, and Salvatore J Stolfo. 2014. Unsupervised anomaly-based malware detection using hardware features. In International Symposium on Recent Advances in Intrusion Detection (RAID). 109--129."
+        }, 
+        {
+            "ArticleName": "Florian Tram\u00e8r, Fan Zhang, Ari Juels, Michael K Reiter, and Thomas Ristenpart. 2016. Stealing machine learning models via prediction apis. In USENIX Security."
+        }, 
+        {
+            "ArticleName": "Yevgeniy Vorobeychik , Bo Li, Optimal randomized classification in adversarial settings, Proceedings of the 2014 international conference on Autonomous agents and multi-agent systems, May 05-09, 2014, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2615811"
+        }, 
+        {
+            "ArticleName": "Ke Wang , Janak J. Parekh , Salvatore J. Stolfo, Anagram: a content anomaly detector resistant to mimicry attack, Proceedings of the 9th international conference on Recent Advances in Intrusion Detection, September 20-22, 2006, Hamburg, Germany", 
+            "DOIhref": "https://dx.doi.org/10.1007/11856214_12", 
+            "DOIname": "10.1007/11856214_12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2166390"
+        }, 
+        {
+            "ArticleName": "Kenneth C. Wilbur , Yi Zhu, Click Fraud, Marketing Science, v.28 n.2, p.293-308, March 2009", 
+            "DOIhref": "https://dx.doi.org/10.1287/mksc.1080.0397", 
+            "DOIname": "10.1287/mksc.1080.0397", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1535939"
+        }, 
+        {
+            "ArticleName": "Weilin Xu, Yanjun Qi, and David Evans. 2016. Automatically evading classifiers. In Proceedings of the 2016 Network and Distributed Systems Symposium."
+        }, 
+        {
+            "ArticleName": "Guanhua Yan , Nathan Brown , Deguang Kong, Exploring discriminatory features for automated malware classification, Proceedings of the 10th international conference on Detection of Intrusions and Malware, and Vulnerability Assessment, July 18-19, 2013, Berlin, Germany", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-39235-1_3", 
+            "DOIname": "10.1007/978-3-642-39235-1_3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2530088"
+        }, 
+        {
+            "ArticleName": "Heng Yin , Dawn Song , Manuel Egele , Christopher Kruegel , Engin Kirda, Panorama: capturing system-wide information flow for malware detection and analysis, Proceedings of the 14th ACM conference on Computer and communications security, November 02-October 31, 2007, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1315245.1315261", 
+            "DOIname": "10.1145/1315245.1315261", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1315261"
+        }, 
+        {
+            "ArticleName": "Ilsun You , Kangbin Yim, Malware Obfuscation Techniques: A Brief Survey, Proceedings of the 2010 International Conference on Broadband, Wireless Computing, Communication and Applications, p.297-300, November 04-06, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/BWCCA.2010.85", 
+            "DOIname": "10.1109/BWCCA.2010.85", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1908903"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "Khaled N. Khasawneh"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Nael Abu-Ghazaleh"
+        }, 
+        {
+            "Affiliation": "Binghamton University", 
+            "Name": "Dmitry Ponomarev"
+        }, 
+        {
+            "Affiliation": "Binghamton University", 
+            "Name": "Lei Yu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123972&preflayout=flat"
+}

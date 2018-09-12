@@ -1,0 +1,254 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Daejin Jung , Sunjung Lee , Wonjong Rhee , Jung Ho Ahn, Partitioning Compute Units in CNN Acceleration for Statistical Memory Traffic Shaping, IEEE Computer Architecture Letters, v.17 n.1, p.72-75, January 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3202988"
+        }, 
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }, 
+        {
+            "ArticleName": "Yue Zha , Jing Li, Liquid Silicon-Monona: A Reconfigurable Memory-Oriented Computing Fabric with Scalable Multi-Context Support, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173167"
+        }, 
+        {
+            "ArticleName": "Yuichi Nakamura , Hideyuki Shimonishi , Kozo Satoda , Dai Kanetomo , Yuki Kobayashi , Yashuhiro Matsunaga, Novel heterogeneous computing platforms and 5G communications for IoT applications, Proceedings of the 36th International Conference on Computer-Aided Design, p.874-879, November 13-16, 2017, Irvine, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3199820"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 48, 
+        "Downloads_6Weeks": 25, 
+        "Downloads_cumulative": 48, 
+        "CitationCount": 4
+    }, 
+    "Title": "A cloud-scale acceleration architecture", 
+    "Abstract": "Hyperscale datacenter providers have struggled to balance the growing need for specialized hardware (efficiency) with the economic benefits of homogeneity (manageability). In this paper we propose a new cloud architecture that uses reconfigurable logic to accelerate both network plane functions and applications. This Configurable Cloud architecture places a layer of reconfigurable logic (FPGAs) between the network switches and the servers, enabling network flows to be programmably transformed at line rate, enabling acceleration of local applications running on the server, and enabling the FPGAs to communicate directly, at datacenter scale, to harvest remote FPGAs unused by their local servers. We deployed this design over a production server bed, and show how it can be used for both service acceleration (Web search ranking) and network acceleration (encryption of data in transit at high-speeds). This architecture is much more scalable than prior work which used secondary rack-scale networks for inter-FPGA communication. By coupling to the network plane, direct FPGA-to-FPGA messages can be achieved at comparable latency to previous work, without the secondary network. Additionally, the scale of direct inter-FPGA messaging is much larger. The average round-trip latencies observed in our measurements among 24, 1000, and 250,000 machines are under 3, 9, and 20 microseconds, respectively. The Configurable Cloud architecture has been deployed at hyperscale in Microsoft's production datacenters worldwide.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "M. Staveley, \"Applications that scale using GPU Compute,\" in AzureCon 2015, August 2015."
+        }, 
+        {
+            "ArticleName": "J. Barr, \"Build 3D Streaming Applications with EC2's New G2 Instance Type,\" Nov 2013."
+        }, 
+        {
+            "ArticleName": "J. Ouyang, S. Lin, W. Qi, Y. Wang, B. Yu, and S. Jiang, \"SDA: Software-Defined Accelerator for Large-Scale DNN Systems,\" in HotChips 2014, August 2014."
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Mellanox, \"ConnectX-4 Lx EN Programmable Adapter Card. Rev. 1.1,\" 2015."
+        }, 
+        {
+            "ArticleName": "S. Gulley and V. Gopal, \"Haswell Cryptographic Performance,\" July 2013. Available at http://www.intel.com/content/www/us/en/communications/haswell-cryptographic-performance-paper.html."
+        }, 
+        {
+            "ArticleName": "Sai Rahul Chalamalasetti , Kevin Lim , Mitch Wright , Alvin AuYoung , Parthasarathy Ranganathan , Martin Margala, An FPGA memcached appliance, Proceedings of the ACM/SIGDA international symposium on Field programmable gate arrays, February 11-13, 2013, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2435264.2435306", 
+            "DOIname": "10.1145/2435264.2435306", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2435306"
+        }, 
+        {
+            "ArticleName": "IEEE, IEEE 802.1Qbb - Priority-based Flow Control, June 2011 ed., 2011."
+        }, 
+        {
+            "ArticleName": "Yibo Zhu , Haggai Eran , Daniel Firestone , Chuanxiong Guo , Marina Lipshteyn , Yehonatan Liron , Jitendra Padhye , Shachar Raindel , Mohamad Haj Yahia , Ming Zhang, Congestion Control for Large-Scale RDMA Deployments, Proceedings of the 2015 ACM Conference on Special Interest Group on Data Communication, August 17-21, 2015, London, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/2785956.2787484", 
+            "DOIname": "10.1145/2785956.2787484", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2787484"
+        }, 
+        {
+            "ArticleName": "Vinod Kumar Vavilapalli , Arun C. Murthy , Chris Douglas , Sharad Agarwal , Mahadev Konar , Robert Evans , Thomas Graves , Jason Lowe , Hitesh Shah , Siddharth Seth , Bikas Saha , Carlo Curino , Owen O'Malley , Sanjay Radia , Benjamin Reed , Eric Baldeschwieler, Apache Hadoop YARN: yet another resource negotiator, Proceedings of the 4th annual Symposium on Cloud Computing, October 01-03, 2013, Santa Clara, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2523616.2523633", 
+            "DOIname": "10.1145/2523616.2523633", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523633"
+        }, 
+        {
+            "ArticleName": "G. Gibb , J. W. Lockwood , J. Naous , P. Hartke , N. McKeown, NetFPGA\u2014An Open Platform for Teaching How to Build Gigabit-Rate Network Switches and Routers, IEEE Transactions on Education, v.51 n.3, p.364-369, August 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/TE.2008.919664", 
+            "DOIname": "10.1109/TE.2008.919664", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2257550"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , David Meisner , Ali G. Saidi , Parthasarathy Ranganathan , Thomas F. Wenisch, Thin servers with smart pipes: designing SoC accelerators for memcached, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485926", 
+            "DOIname": "10.1145/2508148.2485926", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485926"
+        }, 
+        {
+            "ArticleName": "Maysam Lavasani , Hari Angepat , Derek Chiou, An FPGA-based In-Line Accelerator for Memcached, IEEE Computer Architecture Letters, v.13 n.2, p.57-60, July 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2013.17", 
+            "DOIname": "10.1109/L-CA.2013.17", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2776848"
+        }, 
+        {
+            "ArticleName": "M. Blott and K. Vissers, \"Dataflow architectures for 10gbps line-rate key-value-stores,\" in HotChips 2013, August 2013."
+        }, 
+        {
+            "ArticleName": "E. S. Fukuda, H. Inoue, T. Takenaka, D. Kim, T. Sadashisa, T. Asai, and M. Motomura, \"Caching mecached at reconfigurable network interface,\" in Proceedings of the 24th International Conference on Field Programmable Logic and Applications, 2014."
+        }, 
+        {
+            "ArticleName": "A. G. Lawande, A. D. George, and H. Lam, \"Novo-g: a multidimensional torus-based reconfigurable cluster for molecular dynamics,\" Concurrency and Computation: Practice and Experience, pp. n/a-n/a, 2015. cpe.3565."
+        }, 
+        {
+            "ArticleName": "Cray, Cray XD1 Datasheet, 1.3 ed., 2005."
+        }, 
+        {
+            "ArticleName": "R. Baxter, S. Booth, M. Bull, G. Cawood, J. Perry, M. Parsons, A. Simpson, A. Trew, A. Mccormick, G. Smart, R. Smart, A. Cantle, R. Chamberlain, and G. Genest, \"Maxwell - a 64 FPGA Supercomputer,\" Engineering Letters, vol. 16, pp. 426--433, 2008."
+        }, 
+        {
+            "ArticleName": "Alan George , Herman Lam , Greg Stitt, Novo-G: At the Forefront of Scalable Reconfigurable Supercomputing, Computing in Science and Engineering, v.13 n.1, p.82-86, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MCSE.2011.11", 
+            "DOIname": "10.1109/MCSE.2011.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1936362"
+        }, 
+        {
+            "ArticleName": "Oliver Pell , Oskar Mencer, Surviving the end of frequency scaling with reconfigurable dataflow computing, ACM SIGARCH Computer Architecture News, v.39 n.4, September 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2082156.2082172", 
+            "DOIname": "10.1145/2082156.2082172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2082172"
+        }, 
+        {
+            "ArticleName": "Convey, The Convey HC-2 Computer, conv-12--030.2 ed., 2012."
+        }, 
+        {
+            "ArticleName": "BEECube, BEE4 Hardware Platform, 1.0 ed., 2011."
+        }, 
+        {
+            "ArticleName": "SRC, MAPstation Systems, 70000 AH ed., 2014."
+        }, 
+        {
+            "ArticleName": "M. Showerman, J. Enos, A. Pant, V. Kindratenko, C. Steffen, R. Pennington, and W. Hwu, \"Qp: A heterogeneous multi-accelerator cluster,\" 2009."
+        }, 
+        {
+            "ArticleName": "J. Stuecheli, \"Next Generation POWER microprocessor,\" in HotChips 2013, August 2013."
+        }, 
+        {
+            "ArticleName": "J. Stuecheli, B. Blaner, C. Johns, and M. Siegel, \"Capi: A coherent accelerator processor interface,\" IBM Journal of Research and Development, vol. 59, no. 1, pp. 7--1, 2015."
+        }, 
+        {
+            "ArticleName": "M. J. Jaspers, Acceleration of read alignment with coherent attached FPGA coprocessors. PhD thesis, TU Delft, Delft University of Technology, 2015."
+        }, 
+        {
+            "ArticleName": "C.-C. Chung, C.-K. Liu, and D.-H. Lee, \"Fpga-based accelerator platform for big data matrix processing,\" in Electron Devices and Solid-State Circuits (EDSSC), 2015 IEEE International Conference on, pp. 221--224, IEEE, 2015."
+        }, 
+        {
+            "ArticleName": "P. Gupta, \"Xeon+fpga platform for the data center,\" 2015."
+        }, 
+        {
+            "ArticleName": "Liu Ling , Neal Oliver , Chitlur Bhushan , Wang Qigang , Alvin Chen , Shen Wenbo , Yu Zhihong , Arthur Sheiman , Ian McCallum , Joseph Grecco , Henry Mitchel , Liu Dong , Prabhat Gupta, High-performance, energy-efficient platforms using in-socket FPGA accelerators, Proceedings of the ACM/SIGDA international symposium on Field programmable gate arrays, February 22-24, 2009, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508128.1508172", 
+            "DOIname": "10.1145/1508128.1508172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508172"
+        }, 
+        {
+            "ArticleName": "Intel, \"An Introduction to the Intel Quickpath Interconnect,\" 2009."
+        }, 
+        {
+            "ArticleName": "David Slogsnat , Alexander Giese , Mondrian N\u00fcssle , Ulrich Br\u00fcning, An open-source HyperTransport core, ACM Transactions on Reconfigurable Technology and Systems (TRETS), v.1 n.3, p.1-21, September 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1391732.1391734", 
+            "DOIname": "10.1145/1391732.1391734", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1391734"
+        }, 
+        {
+            "ArticleName": "DRC, DRC Accelium Coprocessors Datasheet, ds ac 7--08 ed., 2014."
+        }, 
+        {
+            "ArticleName": "\"NVIDIA NVLink High-Speed Interconnect: Application Performance,\" Nov. 2014."
+        }, 
+        {
+            "ArticleName": "Johann Hauswald , Yiping Kang , Michael A. Laurenzano , Quan Chen , Cheng Li , Trevor Mudge , Ronald G. Dreslinski , Jason Mars , Lingjia Tang, DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2749472", 
+            "DOIname": "10.1145/2749469.2749472", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749472"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, ACM SIGPLAN Notices, v.49 n.4, April 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2644865.2541967", 
+            "DOIname": "10.1145/2644865.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "S. A. Fahmy and K. Vipin, \"A case for fpga accelerators in the cloud,\" Poster at SoCC 2014."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Adrian M. Caulfield"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Eric S. Chung"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Andrew Putnam"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Hari Angepat"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Jeremy Fowers"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Michael Haselman"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Stephen Heil"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Matt Humphrey"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Puneet Kaur"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Joo-Young Kim"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Daniel Lo"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Todd Massengill"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Kalin Ovtcharov"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Michael Papamichael"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Lisa Woods"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Sitaram Lanka"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Derek Chiou"
+        }, 
+        {
+            "Affiliation": "Microsoft Corporation", 
+            "Name": "Doug Burger"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195647&preflayout=flat"
+}

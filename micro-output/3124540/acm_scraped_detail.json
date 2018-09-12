@@ -1,0 +1,278 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 337, 
+        "Downloads_6Weeks": 17, 
+        "Downloads_cumulative": 337, 
+        "CitationCount": 0
+    }, 
+    "Title": "Pageforge: a near-memory content-aware page-merging architecture", 
+    "Abstract": "To reduce the memory requirements of virtualized environments, modern hypervisors are equipped with the capability to search the memory address space and merge identical pages --- a process called page deduplication. This process uses a combination of data hashing and exhaustive comparison of pages, which consumes processor cycles and pollutes caches. In this paper, we present a lightweight hardware mechanism that augments the memory controller and performs the page merging process with minimal hypervisor involvement. Our concept, called PageForge, is effective. It compares pages in the memory controller, and repurposes the Error Correction Codes (ECC) engine to generate accurate and inexpensive ECC-based hash keys. We evaluate PageForge with simulations of a 10-core processor with a virtual machine (VM) on each core, running a set of applications from the TailBench suite. When compared with RedHat's KSM, a state-of-the-art software implementation of page merging, PageForge attains identical savings in memory footprint while substantially reducing the overhead. Compared to a system without same-page merging, PageForge reduces the memory footprint by an average of 48%, enabling the deployment of twice as many VMs for the same physical memory. Importantly, it keeps the average latency overhead to 10%, and the 95th percentile tail latency to 11%. In contrast, in KSM, these latency overheads are 68% and 136%, respectively.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Andrea Arcangeli, Izik Eidus, and Chris Wright. 2009. Increasing memory density by using KSM. In Proceedings of the Linux Symposium. 19--28."
+        }, 
+        {
+            "ArticleName": "Microsoft Azure. https://azure.microsoft.com."
+        }, 
+        {
+            "ArticleName": "Sean Barker , Timothy Wood , Prashant Shenoy , Ramesh Sitaraman, An empirical study of memory sharing in virtual machines, Proceedings of the 2012 USENIX conference on Annual Technical Conference, p.25-25, June 13-15, 2012, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2342846"
+        }, 
+        {
+            "ArticleName": "Thomas W. Barr , Alan L. Cox , Scott Rixner, SpecTLB: a mechanism for speculative address translation, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000101", 
+            "DOIname": "10.1145/2000064.2000101", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000101"
+        }, 
+        {
+            "ArticleName": "Luiz Andre Barroso , Urs Hoelzle, The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Morgan and Claypool Publishers, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1643608"
+        }, 
+        {
+            "ArticleName": "Edouard Bugnion , Scott Devine , Kinshuk Govil , Mendel Rosenblum, Disco: running commodity operating systems on scalable multiprocessors, ACM Transactions on Computer Systems (TOCS), v.15 n.4, p.412-447, Nov. 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/265924.265930", 
+            "DOIname": "10.1145/265924.265930", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=265930"
+        }, 
+        {
+            "ArticleName": "J. Carter , W. Hsieh , L. Stoller , M. Swanson , L. Zhang , E. Brunvand , A. Davis , C.-C. Kuo , R. Kuramkote , M. Parker , L. Schaelicke , T. Tateyama, Impulse: Building a Smarter Memory Controller, Proceedings of the 5th International Symposium on High Performance Computer Architecture, p.70, January 09-12, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822749"
+        }, 
+        {
+            "ArticleName": "Rodrigo Ceron, Rafael Folco, Breno Leitao, and Humberto Tsubamoto. Power Systems Memory Deduplication. http://www.redbooks.ibm.com/abstracts/redp4827.html."
+        }, 
+        {
+            "ArticleName": "Nadav Chachmon , Daniel Richins , Robert Cohn , Magnus Christensson , Wenzhi Cui , Vijay Janapa Reddi, Simulation and Analysis Engine for Scale-Out Workloads, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926293", 
+            "DOIname": "10.1145/2925426.2926293", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926293"
+        }, 
+        {
+            "ArticleName": "Chao-Rui Chang , Jan-Jan Wu , Pangfeng Liu, An Empirical Study on Memory Sharing of Virtual Machines for Server Consolidation, Proceedings of the 2011 IEEE Ninth International Symposium on Parallel and Distributed Processing with Applications, p.244-249, May 26-28, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISPA.2011.31", 
+            "DOIname": "10.1109/ISPA.2011.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2006151"
+        }, 
+        {
+            "ArticleName": "David Cheriton , Amin Firoozshahian , Alex Solomatnikov , John P. Stevenson , Omid Azizi, HICAMP: architectural support for efficient concurrency-safe shared structured data access, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151007", 
+            "DOIname": "10.1145/2150976.2151007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151007"
+        }, 
+        {
+            "ArticleName": "IBM Cloud. https://www.ibm.com/cloud-computing."
+        }, 
+        {
+            "ArticleName": "Brian F. Cooper , Adam Silberstein , Erwin Tam , Raghu Ramakrishnan , Russell Sears, Benchmarking cloud serving systems with YCSB, Proceedings of the 1st ACM symposium on Cloud computing, June 10-11, 2010, Indianapolis, Indiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1807128.1807152", 
+            "DOIname": "10.1145/1807128.1807152", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1807152"
+        }, 
+        {
+            "ArticleName": "Jeffrey Dean , Luiz Andr\u00e9 Barroso, The tail at scale, Communications of the ACM, v.56 n.2, February 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2408776.2408794", 
+            "DOIname": "10.1145/2408776.2408794", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2408794"
+        }, 
+        {
+            "ArticleName": "Timothy J. Dell. 1997. A White Paper on the Benefits of Chipkill-Correct ECC for PC Server Main Memory. In IBM Executive Overview."
+        }, 
+        {
+            "ArticleName": "Umesh Deshpande , Xiaoshuang Wang , Kartik Gopalan, Live gang migration of virtual machines, Proceedings of the 20th international symposium on High performance distributed computing, June 08-11, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1996130.1996151", 
+            "DOIname": "10.1145/1996130.1996151", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1996151"
+        }, 
+        {
+            "ArticleName": "Y. Du, M. Zhou, B. R. Childers, D. Mosse, and R. Melhem. 2015. Supporting superpages in non-contiguous physical memory. In IEEE International Symposium on High Performance Computer Architecture (HPCA). 223--234."
+        }, 
+        {
+            "ArticleName": "Amazon EC2. https://aws.amazon.com/ec2."
+        }, 
+        {
+            "ArticleName": "Google Compute Engine. https://cloud.google.com/compute."
+        }, 
+        {
+            "ArticleName": "Mikinori Eto and Hidenori Umeno. 2008. Design and implementation of content based page sharing method in Xen. In International Conference on Control, Automation and Systems (ICCAS). 2919--2922."
+        }, 
+        {
+            "ArticleName": "Linux Kernel JHash Header File. http://lxr.free-electrons.com/source/include/linux/jhash.h."
+        }, 
+        {
+            "ArticleName": "Fei Guo , Seongbeom Kim , Yury Baskakov , Ishan Banerjee, Proactively Breaking Large Pages to Improve Memory Overcommitment Performance in VMware ESXi, Proceedings of the 11th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments, March 14-15, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2731186.2731187", 
+            "DOIname": "10.1145/2731186.2731187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2731187"
+        }, 
+        {
+            "ArticleName": "Diwaker Gupta , Sangmin Lee , Michael Vrable , Stefan Savage , Alex C. Snoeren , George Varghese , Geoffrey M. Voelker , Amin Vahdat, Difference engine: harnessing memory redundancy in virtual machines, Proceedings of the 8th USENIX conference on Operating systems design and implementation, p.309-322, December 08-10, 2008, San Diego, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855763"
+        }, 
+        {
+            "ArticleName": "R. W. Hamming. 1950. Error detecting and error correcting codes. The Bell System Technical Journal 29, 2 (April 1950), 147--160."
+        }, 
+        {
+            "ArticleName": "Milad Hashemi , Khubaib , Eiman Ebrahimi , Onur Mutlu , Yale N. Patt, Accelerating dependent cache misses with an enhanced memory controller, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.46", 
+            "DOIname": "10.1109/ISCA.2016.46", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001184"
+        }, 
+        {
+            "ArticleName": "H. Hassan, G. Pekhimenko, N. Vijaykumar, V. Seshadri, D. Lee, O. Ergin, and O. Mutlu. 2016. ChargeCache: Reducing DRAM latency by exploiting row access locality. In 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). 581--593."
+        }, 
+        {
+            "ArticleName": "Benjamin Hindman , Andy Konwinski , Matei Zaharia , Ali Ghodsi , Anthony D. Joseph , Randy Katz , Scott Shenker , Ion Stoica, Mesos: a platform for fine-grained resource sharing in the data center, Proceedings of the 8th USENIX conference on Networked systems design and implementation, March 30-April 01, 2011, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1972488"
+        }, 
+        {
+            "ArticleName": "M. Y. Hsiao, A class of optimal minimum odd-weight-column SEC-DED codes, IBM Journal of Research and Development, v.14 n.4, p.395-401, July 1970", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.144.0395", 
+            "DOIname": "10.1147/rd.144.0395", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1662982"
+        }, 
+        {
+            "ArticleName": "Ubuntu Cloud Images. https://cloud-images.ubuntu.com."
+        }, 
+        {
+            "ArticleName": "Intel. Intel Clear Containers. https://clearlinux.org/features/intel-clear-containers"
+        }, 
+        {
+            "ArticleName": "Intel. Intel Clear Containers: A Breakthrough Combination of Speed and Workload Isolation. https://clearlinux.org/sites/default/files/vmscontainers_wp_v5.pdf"
+        }, 
+        {
+            "ArticleName": "Engin Ipek , Onur Mutlu , Jos\u00e9 F. Mart\u00ednez , Rich Caruana, Self-Optimizing Memory Controllers: A Reinforcement Learning Approach, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.39-50, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.21", 
+            "DOIname": "10.1109/ISCA.2008.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382172"
+        }, 
+        {
+            "ArticleName": "H. Kasture and D. Sanchez. 2016. Tailbench: a benchmark suite and evaluation methodology for latency-critical applications. In 2016 IEEE International Symposium on Workload Characterization (IISWC). 1--10."
+        }, 
+        {
+            "ArticleName": "Y. Kim, D. Han, O. Mutlu, and M. Harchol-Balter. 2010. ATLAS: A scalable and high-performance scheduling algorithm for multiple memory controllers. In IEEE International Symposium on High-Performance Computer Architecture (HPCA). 1--12."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Michael Papamichael , Onur Mutlu , Mor Harchol-Balter, Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.65-76, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.51", 
+            "DOIname": "10.1109/MICRO.2010.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935012"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Kernel Virtual Machine. https://www.linux-kvm.org."
+        }, 
+        {
+            "ArticleName": "Linux Programmer's Manual MADVISE(2). http://man7.org/linux/man-pages/man2/madvise.2.html."
+        }, 
+        {
+            "ArticleName": "Peter S. Magnusson , Magnus Christensson , Jesper Eskilson , Daniel Forsgren , Gustav H\u00e5llberg , Johan H\u00f6gberg , Fredrik Larsson , Andreas Moestedt , Bengt Werner, Simics: A Full System Simulation Platform, Computer, v.35 n.2, p.50-58, February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.982916", 
+            "DOIname": "10.1109/2.982916", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621909"
+        }, 
+        {
+            "ArticleName": "Grzegorz Mi\u0142\u00f3s , Derek G. Murray , Steven Hand , Michael A. Fetterman, Satori: enlightened page sharing, Proceedings of the 2009 conference on USENIX Annual technical conference, p.1-1, June 14-19, 2009, San Diego, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855808"
+        }, 
+        {
+            "ArticleName": "Panagiota Nikolaou , Yiannakis Sazeides , Lorena Ndreu , Marios Kleanthous, Modeling the implications of DRAM failures and protection techniques on datacenter TCO, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830804", 
+            "DOIname": "10.1145/2830772.2830804", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830804"
+        }, 
+        {
+            "ArticleName": "Openstack. https://www.openstack.org."
+        }, 
+        {
+            "ArticleName": "Binh Pham , J\u00e1n Vesel\u00fd , Gabriel H. Loh , Abhishek Bhattacharjee, Large pages and lightweight memory management in virtualized environments: can you have it both ways?, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830773", 
+            "DOIname": "10.1145/2830772.2830773", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830773"
+        }, 
+        {
+            "ArticleName": "RedHat. https://www.redhat.com."
+        }, 
+        {
+            "ArticleName": "RedHat. https://www.redhat.com/en/resources/kvm-kernel-based-virtual-machine."
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, Proceedings of the 27th annual international symposium on Computer architecture, p.128-138, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339668", 
+            "DOIname": "10.1145/339647.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "A. F. Rodrigues , K. S. Hemmert , B. W. Barrett , C. Kersey , R. Oldfield , M. Weston , R. Risen , J. Cook , P. Rosenfeld , E. CooperBalls , B. Jacob, The structural simulation toolkit, ACM SIGMETRICS Performance Evaluation Review, v.38 n.4, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1964218.1964225", 
+            "DOIname": "10.1145/1964218.1964225", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1964225"
+        }, 
+        {
+            "ArticleName": "Paul Rosenfeld , Elliott Cooper-Balis , Bruce Jacob, DRAMSim2: A Cycle Accurate Memory System Simulator, IEEE Computer Architecture Letters, v.10 n.1, p.16-19, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2011.4", 
+            "DOIname": "10.1109/L-CA.2011.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999216"
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides , Emre \u00d6zer , Danny Kershaw , Panagiota Nikolaou , Marios Kleanthous , Jaume Abella, Implicit-storing and redundant-encoding-of-attribute information in error-correction-codes, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540723", 
+            "DOIname": "10.1145/2540708.2540723", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540723"
+        }, 
+        {
+            "ArticleName": "Ubuntu Server. https://www.ubuntu.com/server."
+        }, 
+        {
+            "ArticleName": "Jaewoong Sim , Gabriel H. Loh , Vilas Sridharan , Mike O'Connor, Resilient die-stacked DRAM caches, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485958", 
+            "DOIname": "10.1145/2485922.2485958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485958"
+        }, 
+        {
+            "ArticleName": "J.P. Stevenson. Fine-grain In-memory Deduplication for Large-scale Workloads, PhD Thesis, Stanford University, Department of Electrical Engineering. https://books.google.com/books?id=tsjdnQAACAAJ"
+        }, 
+        {
+            "ArticleName": "Yingying Tian , Samira M. Khan , Daniel A. Jim\u00e9nez , Gabriel H. Loh, Last-level cache deduplication, Proceedings of the 28th ACM international conference on Supercomputing, June 10-13, 2014, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/2597652.2597655", 
+            "DOIname": "10.1145/2597652.2597655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2597655"
+        }, 
+        {
+            "ArticleName": "UKSM. http://kerneldedup.org/."
+        }, 
+        {
+            "ArticleName": "Carl A. Waldspurger, Memory resource management in VMware ESX server, ACM SIGOPS Operating Systems Review, v.36 n.SI, Winter 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/844128.844146", 
+            "DOIname": "10.1145/844128.844146", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=844146"
+        }, 
+        {
+            "ArticleName": "Timothy Wood , Gabriel Tarasuk-Levin , Prashant Shenoy , Peter Desnoyers , Emmanuel Cecchet , Mark D. Corner, Memory buddies: exploiting page sharing for smart colocation in virtualized data centers, Proceedings of the 2009 ACM SIGPLAN/SIGOPS international conference on Virtual execution environments, March 11-13, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508293.1508299", 
+            "DOIname": "10.1145/1508293.1508299", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508299"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Dimitrios Skarlatos"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Nam Sung Kim"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Josep Torrellas"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124540&preflayout=flat"
+}

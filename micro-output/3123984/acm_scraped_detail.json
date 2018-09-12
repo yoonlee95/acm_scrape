@@ -1,0 +1,199 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 321, 
+        "Downloads_6Weeks": 18, 
+        "Downloads_cumulative": 321, 
+        "CitationCount": 0
+    }, 
+    "Title": "Schedtask: a hardware-assisted task scheduler", 
+    "Abstract": "The execution of workloads such as web servers and database servers typically switches back and forth between different tasks such as user applications, system call handlers, and interrupt handlers. The combined size of the instruction footprints of such tasks typically exceeds that of the i-cache (16--32 KB). This causes a lot of i-cache misses and thereby reduces the application's performance. Hence, we propose SchedTask, a hardware-assisted task scheduler that improves the performance of such workloads by executing tasks with similar instruction footprints on the same core. We start by decomposing the combined execution of the OS and the applications into sequences of instructions called SuperFunctions. We propose a scheme to determine the amount of overlap between the instruction footprints of different SuperFunctions by using Bloom filters. We then use a hierarchical scheduler to execute SuperFunctions with similar instruction footprints on the same core. For a suite of 8 popular OS-intensive workloads, we report an increase in the application's performance of up to 29 percentage points (mean: 11.4 percentage points) over state of the art scheduling techniques.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "2016. Filebench. (2016). https://github.com/filebench/filebench/wiki"
+        }, 
+        {
+            "ArticleName": "2016. Linux Security Fix against Rowhammer Vulnerability. (2016). https://lwn.net/Articles/642069/"
+        }, 
+        {
+            "ArticleName": "2016. Project Zero: Exploiting the DRAM rowhammer bug to gain kernel privileges. (2016). https://googleprojectzero.blogspot.in/2015/03/exploiting-dram-rowhammer-bug-to-gain.html"
+        }, 
+        {
+            "ArticleName": "2016. TPC-H. (2016). http://www.tpc.org/tpch/"
+        }, 
+        {
+            "ArticleName": "2017. Sensitivity Analysis of Core Specialization Techniques. (2017). https://arxiv.org/abs/1708.03900"
+        }, 
+        {
+            "ArticleName": "Murali Annavaram , Jignesh M. Patel , Edward S. Davidson, Call graph prefetching for database applications, ACM Transactions on Computer Systems (TOCS), v.21 n.4, p.412-444, November 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/945506.945509", 
+            "DOIname": "10.1145/945506.945509", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=945509"
+        }, 
+        {
+            "ArticleName": "Islam Atta , Pinar Tozun , Anastasia Ailamaki , Andreas Moshovos, SLICC: Self-Assembly of Instruction Cache Collectives for OLTP Workloads, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.188-198, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.26", 
+            "DOIname": "10.1109/MICRO.2012.26", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457497"
+        }, 
+        {
+            "ArticleName": "Islam Atta , Pinar T\u00f6z\u00fcn , Xin Tong , Anastasia Ailamaki , Andreas Moshovos, STREX: boosting instruction cache reuse in OLTP workloads through stratified transaction execution, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485946", 
+            "DOIname": "10.1145/2485922.2485946", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485946"
+        }, 
+        {
+            "ArticleName": "Andrew Baumann , Paul Barham , Pierre-Evariste Dagand , Tim Harris , Rebecca Isaacs , Simon Peter , Timothy Roscoe , Adrian Sch\u00fcpbach , Akhilesh Singhania, The multikernel: a new OS architecture for scalable multicore systems, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629579", 
+            "DOIname": "10.1145/1629575.1629579", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629579"
+        }, 
+        {
+            "ArticleName": "Fabrice Bellard, QEMU, a fast and portable dynamic translator, Proceedings of the annual conference on USENIX Annual Technical Conference, p.41-41, April 10-15, 2005, Anaheim, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1247401"
+        }, 
+        {
+            "ArticleName": "Muli Ben-Yehuda , Michael D. Day , Zvi Dubitzky , Michael Factor , Nadav Har'El , Abel Gordon , Anthony Liguori , Orit Wasserman , Ben-Ami Yassour, The turtles project: design and implementation of nested virtualization, Proceedings of the 9th USENIX conference on Operating systems design and implementation, p.423-436, October 04-06, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924973"
+        }, 
+        {
+            "ArticleName": "Rohan Bhalla, Prathmesh Kallurkar, Nitin Gupta, and Smruti R Sarangi. 2014. TriKon: A Hypervisor Aware Manycore Processor. In IEEE International Conference on High Performance Computing (HiPC). http://ieeexplore.ieee.org/document/7116710/"
+        }, 
+        {
+            "ArticleName": "Burton H. Bloom, Space/time trade-offs in hash coding with allowable errors, Communications of the ACM, v.13 n.7, p.422-426, July 1970", 
+            "DOIhref": "http://doi.acm.org/10.1145/362686.362692", 
+            "DOIname": "10.1145/362686.362692", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=362692"
+        }, 
+        {
+            "ArticleName": "Silas Boyd-Wickizer , Haibo Chen , Rong Chen , Yandong Mao , Frans Kaashoek , Robert Morris , Aleksey Pesterev , Lex Stein , Ming Wu , Yuehua Dai , Yang Zhang , Zheng Zhang, Corey: an operating system for many cores, Proceedings of the 8th USENIX conference on Operating systems design and implementation, p.43-57, December 08-10, 2008, San Diego, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855745"
+        }, 
+        {
+            "ArticleName": "Silas Boyd-Wickizer , Austin T. Clements , Yandong Mao , Aleksey Pesterev , M. Frans Kaashoek , Robert Morris , Nickolai Zeldovich, An analysis of Linux scalability to many cores, Proceedings of the 9th USENIX conference on Operating systems design and implementation, p.1-16, October 04-06, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924944"
+        }, 
+        {
+            "ArticleName": "Koushik Chakraborty , Philip M. Wells , Gurindar S. Sohi, Computation spreading: employing hardware migration to specialize CMP cores on-the-fly, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168893", 
+            "DOIname": "10.1145/1168857.1168893", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168893"
+        }, 
+        {
+            "ArticleName": "Sandeep Chandran , Prathmesh Kallurkar , Parul Gupta , Smruti R. Sarangi, Architectural Support for Handling Jitterin Shared Memory Based Parallel Applications, IEEE Transactions on Parallel and Distributed Systems, v.25 n.5, p.1166-1176, May 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2013.127", 
+            "DOIname": "10.1109/TPDS.2013.127", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2707608"
+        }, 
+        {
+            "ArticleName": "Nachiappan Chidambaram Nachiappan , Praveen Yedlapalli , Niranjan Soundararajan , Mahmut Taylan Kandemir , Anand Sivasubramaniam , Chita R. Das, GemDroid: a framework to evaluate mobile platforms, ACM SIGMETRICS Performance Evaluation Review, v.42 n.1, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2637364.2591973", 
+            "DOIname": "10.1145/2637364.2591973", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591973"
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Cansu Kaynak , Babak Falsafi, Proactive instruction fetch, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155638", 
+            "DOIname": "10.1145/2155620.2155638", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155638"
+        }, 
+        {
+            "ArticleName": "Abel Gordon , Nadav Amit , Nadav Har'El , Muli Ben-Yehuda , Alex Landau , Assaf Schuster , Dan Tsafrir, ELI: bare-metal performance for I/O virtualization, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151020", 
+            "DOIname": "10.1145/2150976.2151020", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151020"
+        }, 
+        {
+            "ArticleName": "Sangjin Han , Scott Marshall , Byung-Gon Chun , Sylvia Ratnasamy, MegaPipe: a new programming interface for scalable network I/O, Proceedings of the 10th USENIX conference on Operating Systems Design and Implementation, October 08-10, 2012, Hollywood, CA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2387894"
+        }, 
+        {
+            "ArticleName": "Stavros Harizopoulos , Anastassia Ailamaki, Steps towards cache-resident transaction processing, Proceedings of the Thirtieth international conference on Very large data bases, p.660-671, August 31-September 03, 2004, Toronto, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1316747"
+        }, 
+        {
+            "ArticleName": "Michio Honda , Felipe Huici , Costin Raiciu , Joao Araujo , Luigi Rizzo, Rekindling network protocol innovation with user-level stacks, ACM SIGCOMM Computer Communication Review, v.44 n.2, April 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2602204.2602212", 
+            "DOIname": "10.1145/2602204.2602212", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2602212"
+        }, 
+        {
+            "ArticleName": "Raj Jain, Arjan Durresi, and Gojko Babic. 1999. Throughput fairness index: An explanation. Technical Report. Tech. rep., Department of CIS, The Ohio State University."
+        }, 
+        {
+            "ArticleName": "Eun Young Jeong , Shinae Woo , Muhammad Jamshed , Haewon Jeong , Sunghwan Ihm , Dongsu Han , KyoungSoo Park, mTCP: a highly scalable user-level TCP stack for multicore systems, Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation, April 02-04, 2014, Seattle, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616493"
+        }, 
+        {
+            "ArticleName": "Prathmesh Kallurkar and Smruti R Sarangi. 2016. pTask: A Smart Prefetching Scheme for OS Intensive Applications. In ACM/IEEE Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Aasheesh Kolli , Ali Saidi , Thomas F. Wenisch, RDIP: return-address-stack directed instruction prefetching, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540731", 
+            "DOIname": "10.1145/2540708.2540731", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540731"
+        }, 
+        {
+            "ArticleName": "Alexey Kopytov. 2004. SysBench: a system performance benchmark. (2004)."
+        }, 
+        {
+            "ArticleName": "Robert F Krick, Glenn J Hinton, Michael D Upton, David J Sager, and Chan W Lee. 2000. Trace based instruction caching. (2000). US Patent 6,018,786."
+        }, 
+        {
+            "ArticleName": "Min Lee. 2013. Memory region: a system abstraction for managing the complex memory structures of multicore platforms. Ph.D. Dissertation. Georgia Institute of Technology."
+        }, 
+        {
+            "ArticleName": "Pierre Michaud, Exploiting the Cache Capacity of a Single-Chip Multi-Core Processor with Execution Migration, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.186, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10026", 
+            "DOIname": "10.1109/HPCA.2004.10026", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072468"
+        }, 
+        {
+            "ArticleName": "David Nellans, Rajeev Balasubramonian, and Erik Brunvand. 2009. Interference Aware Cache Designs for Operating System Execution. University of Utah, Tech. Rep. UUCS-09-002 (2009)."
+        }, 
+        {
+            "ArticleName": "Peter Pessl, Daniel Gruss, Cl\u00e9mentine Maurice, Michael Schwarz, and Stefan Mangard. 2016. DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks. In USENIX Security Symposium. Austin, TX. https://www.usenix.org/node/197211"
+        }, 
+        {
+            "ArticleName": "S. R. Sarangi, Kalayappan Rajshekar, Kallurkar Prathmesh, Goel Seep, and Peter Eldhose. 2015. Tejas: A Java based Versatile Micro-architectural Simulator. In IEEE International Workshop on Power And Timing Modeling, Optimization and Simulation (PATMOS)."
+        }, 
+        {
+            "ArticleName": "Pranab Kumar Sen. 1968. Estimates of the Regression Coefficient Based on Kendall's Tau. J. Amer. Statist. Assoc. (1968)."
+        }, 
+        {
+            "ArticleName": "Livio Soares , Michael Stumm, FlexSC: flexible system call scheduling with exception-less system calls, Proceedings of the 9th USENIX conference on Operating systems design and implementation, p.33-46, October 04-06, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924946"
+        }, 
+        {
+            "ArticleName": "Kenzo Van Craeynest , Aamer Jaleel , Lieven Eeckhout , Paolo Narvaez , Joel Emer, Scheduling heterogeneous multi-cores through Performance Impact Estimation (PIE), Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337184"
+        }, 
+        {
+            "ArticleName": "Victor van der Veen , Yanick Fratantonio , Martina Lindorfer , Daniel Gruss , Clementine Maurice , Giovanni Vigna , Herbert Bos , Kaveh Razavi , Cristiano Giuffrida, Drammer: Deterministic Rowhammer Attacks on Mobile Platforms, Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, October 24-28, 2016, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/2976749.2978406", 
+            "DOIname": "10.1145/2976749.2978406", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2978406"
+        }, 
+        {
+            "ArticleName": "David Wentzlaff , Anant Agarwal, Factored operating systems (fos): the case for a scalable operating system for multicores, ACM SIGOPS Operating Systems Review, v.43 n.2, April 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1531793.1531805", 
+            "DOIname": "10.1145/1531793.1531805", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1531805"
+        }, 
+        {
+            "ArticleName": "Matthew Wilcox. 2003. I'll Do It Later: Softirqs, Tasklets, Bottom Halves, Task Queues, Work Queues and Timers. In linux. conf. au."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Intel Corporation", 
+            "Name": "Prathmesh Kallurkar"
+        }, 
+        {
+            "Affiliation": "Indian Institute of Technology Delhi", 
+            "Name": "Smruti R. Sarangi"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123984&preflayout=flat"
+}

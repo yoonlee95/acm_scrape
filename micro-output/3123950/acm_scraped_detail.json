@@ -1,0 +1,324 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 445, 
+        "Downloads_6Weeks": 17, 
+        "Downloads_cumulative": 445, 
+        "CitationCount": 0
+    }, 
+    "Title": "Efficient exception handling support for GPUs", 
+    "Abstract": "Operating systems have long relied on the exception handling mechanism to implement numerous virtual memory features and optimizations. However, today's GPUs have a limited support for exceptions, which prevents implementation of such techniques. The existing solution forwards GPU memory faults to the CPU while the faulting instruction is stalled in the GPU pipeline. This approach prevents preemption of the faulting threads, and results in underutilized hardware resources while the page fault is being resolved by the CPU. In this paper, we present three schemes for supporting GPU exceptions that allow the system software to preempt and restart the execution of the faulting code. There is a trade-off between the performance overhead introduced by adding exception support and the additional complexity. Our solutions range from 90% of the baseline performance with no area overheads, to 99.2% of the baseline performance with less than 1% area and 2% power overheads. Experimental results also show 10% performance improvement on some benchmarks when using this support to context switch the GPU during page migrations, to hide their latency. We further observe up to 1.75x average speedup when implementing lazy memory allocation on the GPU, also possible thanks to our exception handling support.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Andrew V. Adinetz and Dirk Pleiter. 2014. Halloc: a high-throughput dynamic memory allocator for GPGPU architectures. http://on-demand.gputechconf.com/gtc/2014/presentations/S4271-halloc-high-throughput-dynamic-memory-allocator.pdf. (2014)."
+        }, 
+        {
+            "ArticleName": "AMD. 2016. Reference Guide: Graphics Core Next Architecture, Generation 3. (2016)."
+        }, 
+        {
+            "ArticleName": "D. W. Anderson , F. J. Sparacio , R. M. Tomasulo, The IBM system/360 model 91: machine philosophy and instruction-handling, IBM Journal of Research and Development, v.11 n.1, p.8-24, January 1967", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.111.0008", 
+            "DOIname": "10.1147/rd.111.0008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1662739"
+        }, 
+        {
+            "ArticleName": "A. W. Appel , J. R. Ellis , K. Li, Real-time concurrent collection on stock multiprocessors, Proceedings of the ACM SIGPLAN 1988 conference on Programming language design and implementation, p.11-20, June 20-24, 1988, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/53990.53992", 
+            "DOIname": "10.1145/53990.53992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=53992"
+        }, 
+        {
+            "ArticleName": "Andrew W. Appel , Kai Li, Virtual memory primitives for user programs, Proceedings of the fourth international conference on Architectural support for programming languages and operating systems, p.96-107, April 08-11, 1991, Santa Clara, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/106972.106984", 
+            "DOIname": "10.1145/106972.106984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=106984"
+        }, 
+        {
+            "ArticleName": "Sara S. Baghsorkhi , Isaac Gelado , Matthieu Delahaye , Wen-mei W. Hwu, Efficient performance evaluation of memory hierarchy for highly multithreaded graphics processors, Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming, February 25-29, 2012, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145816.2145820", 
+            "DOIname": "10.1145/2145816.2145820", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145820"
+        }, 
+        {
+            "ArticleName": "Daniel Bovet , Marco Cesati, Understanding The Linux Kernel, Oreilly & Associates Inc, 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1077084"
+        }, 
+        {
+            "ArticleName": "Roger A. Bringmann , Scott A. Mahlke , Richard E. Hank , John C. Gyllenhaal , Wen-mei W. Hwu, Speculative execution exception recovery using write-back suppression, Proceedings of the 26th annual international symposium on Microarchitecture, p.214-223, December 01-03, 1993, Austin, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255290"
+        }, 
+        {
+            "ArticleName": "W. Buchholz, The IBM System/370 vector architecture, IBM Systems Journal, v.25 n.1, p.51-62, March 1986", 
+            "DOIhref": "https://dx.doi.org/10.1147/sj.251.0051", 
+            "DOIname": "10.1147/sj.251.0051", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1663554"
+        }, 
+        {
+            "ArticleName": "Weihaw Chuang , Satish Narayanasamy , Ganesh Venkatesh , Jack Sampson , Michael Van Biesbrouck , Gilles Pokam , Brad Calder , Osvaldo Colavin, Unbounded page-based transactional memory, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168901", 
+            "DOIname": "10.1145/1168857.1168901", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168901"
+        }, 
+        {
+            "ArticleName": "Marc de Kruijf , Karthikeyan Sankaralingam, Idempotent processor architecture, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155637", 
+            "DOIname": "10.1145/2155620.2155637", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155637"
+        }, 
+        {
+            "ArticleName": "Roger Espasa , Federico Ardanaz , Joel Emer , Stephen Felix , Julio Gago , Roger Gramunt , Isaac Hernandez , Toni Juan , Geoff Lowney , Matthew Mattina , Andr\u00e9 Seznec, Tarantula: a vector extension to the alpha architecture, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545247"
+        }, 
+        {
+            "ArticleName": "Roger Espasa , Mateo Valero , James E. Smith, Out-of-order vector architectures, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.160-170, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266816"
+        }, 
+        {
+            "ArticleName": "Robert Fitzgerald , Richard F. Rashid, The integration of virtual memory management and interprocess communication in Accent, ACM Transactions on Computer Systems (TOCS), v.4 n.2, p.147-177, May 1986", 
+            "DOIhref": "http://doi.acm.org/10.1145/214419.214422", 
+            "DOIname": "10.1145/214419.214422", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=214422"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Daniel R. Johnson , David Tarjan , Stephen W. Keckler , William J. Dally , Erik Lindholm , Kevin Skadron, A Hierarchical Thread Scheduler and Register File for Energy-Efficient Throughput Processors, ACM Transactions on Computer Systems (TOCS), v.30 n.2, p.1-38, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2166879.2166882", 
+            "DOIname": "10.1145/2166879.2166882", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2166882"
+        }, 
+        {
+            "ArticleName": "Isaac Gelado , John H. Kelm , Shane Ryoo , Steven S. Lumetta , Nacho Navarro , Wen-mei W. Hwu, CUBA: an architecture for efficient CPU/co-processor data communication, Proceedings of the 22nd annual international conference on Supercomputing, June 07-12, 2008, Island of Kos, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375527.1375571", 
+            "DOIname": "10.1145/1375527.1375571", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375571"
+        }, 
+        {
+            "ArticleName": "Isaac Gelado , John E. Stone , Javier Cabezas , Sanjay Patel , Nacho Navarro , Wen-mei W. Hwu, An asymmetric distributed shared memory model for heterogeneous parallel systems, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736059", 
+            "DOIname": "10.1145/1736020.1736059", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736059"
+        }, 
+        {
+            "ArticleName": "W. W. Hwu , Y. N. Patt, Checkpoint repair for out-of-order execution machines, Proceedings of the 14th annual international symposium on Computer architecture, p.18-26, June 02-05, 1987, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/30350.30353", 
+            "DOIname": "10.1145/30350.30353", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=30353"
+        }, 
+        {
+            "ArticleName": "Thomas B. Jablin , James A. Jablin , Prakash Prabhu , Feng Liu , David I. August, Dynamically managed data for CPU-GPU architectures, Proceedings of the Tenth International Symposium on Code Generation and Optimization, March 31-April 04, 2012, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2259016.2259038", 
+            "DOIname": "10.1145/2259016.2259038", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2259038"
+        }, 
+        {
+            "ArticleName": "Bruce L. Jacob , Trevor N. Mudge, A look at several memory management units, TLB-refill mechanisms, and page table organizations, Proceedings of the eighth international conference on Architectural support for programming languages and operating systems, p.295-306, October 02-07, 1998, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/291069.291065", 
+            "DOIname": "10.1145/291069.291065", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=291065"
+        }, 
+        {
+            "ArticleName": "Feng Ji , Heshan Lin , Xiaosong Ma, RSVM: a region-based software virtual memory for GPU, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523758"
+        }, 
+        {
+            "ArticleName": "Shinpei Kato , Michael McThrow , Carlos Maltzahn , Scott Brandt, Gdev: first-class GPU resource management in the operating system, Proceedings of the 2012 USENIX conference on Annual Technical Conference, p.37-37, June 13-15, 2012, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2342858"
+        }, 
+        {
+            "ArticleName": "Stephen W. Keckler , Andrew Chang , Whay S. Lee , Sandeep Chatterjee , William J. Dally, Concurrent Event Handling through Multithreading, IEEE Transactions on Computers, v.48 n.9, p.903-916, September 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.795220", 
+            "DOIname": "10.1109/12.795220", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=318116"
+        }, 
+        {
+            "ArticleName": "Kenji Kitagawa, Satoru Tagaya, Yasuhiko Hagihara, and Yasushi Kanoh. 2003. A hardware overview of SX-6 and SX-7 supercomputer. NEC research & development 44, 1 (2003), 2--7."
+        }, 
+        {
+            "ArticleName": "Christos Kozyrakis , David Patterson, Overcoming the limitations of conventional vector processors, Proceedings of the 30th annual international symposium on Computer architecture, June 09-11, 2003, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/859618.859664", 
+            "DOIname": "10.1145/859618.859664", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859664"
+        }, 
+        {
+            "ArticleName": "George Kyriazis. 2012. Heterogeneous System Architecture: A Technical Review. http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/hsa10.pdf. (2012)."
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "Janghaeng Lee , Mehrzad Samadi , Scott Mahlke, VAST: the illusion of a large memory space for GPUs, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628075", 
+            "DOIname": "10.1145/2628071.2628075", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628075"
+        }, 
+        {
+            "ArticleName": "K. Li , J. F. Naughton , J. S. Plank, Real-time, concurrent checkpoint for parallel programs, Proceedings of the second ACM SIGPLAN symposium on Principles & practice of parallel programming, p.79-88, March 14-16, 1990, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/99163.99173", 
+            "DOIname": "10.1145/99163.99173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=99173"
+        }, 
+        {
+            "ArticleName": "Erik Lindholm , John Nickolls , Stuart Oberman , John Montrym, NVIDIA Tesla: A Unified Graphics and Computing Architecture, IEEE Micro, v.28 n.2, p.39-55, March 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.31", 
+            "DOIname": "10.1109/MM.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373197"
+        }, 
+        {
+            "ArticleName": "Scott A. Mahlke , William Y. Chen , Wen-mei W. Hwu , B. Ramakrishna Rau , Michael S. Schlansker, Sentinel scheduling for VLIW and superscalar processors, Proceedings of the fifth international conference on Architectural support for programming languages and operating systems, p.238-247, October 12-15, 1992, Boston, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/143365.143529", 
+            "DOIname": "10.1145/143365.143529", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143529"
+        }, 
+        {
+            "ArticleName": "Jaikrishnan Menon , Marc De Kruijf , Karthikeyan Sankaralingam, iGPU: exception support and speculative execution on GPUs, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337168", 
+            "DOIname": "10.1145/2366231.2337168", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337168"
+        }, 
+        {
+            "ArticleName": "Mayan Moudgill , Keshav Pingali , Stamatis Vassiliadis, Register renaming and dynamic speculation: an alternative approach, Proceedings of the 26th annual international symposium on Microarchitecture, p.202-213, December 01-03, 1993, Austin, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255288"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar, Rajeev Balasubramonian, and Norman P Jouppi. 2009. CACTI 6.0: A tool to model large caches. Technical Report. Technical Report HPL-2009--85 HP Laboratories."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. CUDA C programming guide. https://docs.nvidia.com/cuda/cuda-c-programming-guide. (2016)."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. NVIDIA Tesla P100 White Paper. https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf. (2016)."
+        }, 
+        {
+            "ArticleName": "Jason Jong Kyu Park , Yongjun Park , Scott Mahlke, Chimera: Collaborative Preemption for Multitasking on a Shared GPU, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694346", 
+            "DOIname": "10.1145/2694344.2694346", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694346"
+        }, 
+        {
+            "ArticleName": "Bharath Pichai , Lisa Hsu , Abhishek Bhattacharjee, Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541942", 
+            "DOIname": "10.1145/2541940.2541942", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541942"
+        }, 
+        {
+            "ArticleName": "Jason Power, Mark D Hill, and David A Wood. 2014. Supporting x86--64 address translation for 100s of GPU lanes. In 2014 IEEE 20th International Symposium on High Performance Computer Architecture (HPCA). IEEE, 568--578."
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Daniel R. Johnson , Mike O'Connor , Stephen W. Keckler, A variable warp size architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750410", 
+            "DOIname": "10.1145/2749469.2750410", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750410"
+        }, 
+        {
+            "ArticleName": "Kevin W. Rudd, Efficient Exception Handling Techniques for High-Performance Processor Architectures, Stanford University, Stanford, CA, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=891806"
+        }, 
+        {
+            "ArticleName": "Richard M. Russell, The CRAY-1 computer system, Communications of the ACM, v.21 n.1, p.63-72, Jan. 1978", 
+            "DOIhref": "http://doi.acm.org/10.1145/359327.359336", 
+            "DOIname": "10.1145/359327.359336", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=359336"
+        }, 
+        {
+            "ArticleName": "Bratin Saha , Xiaocheng Zhou , Hu Chen , Ying Gao , Shoumeng Yan , Mohan Rajagopalan , Jesse Fang , Peinan Zhang , Ronny Ronen , Avi Mendelson, Programming model for a heterogeneous x86 platform, ACM SIGPLAN Notices, v.44 n.6, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1543135.1542525", 
+            "DOIname": "10.1145/1543135.1542525", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1542525"
+        }, 
+        {
+            "ArticleName": "Michael Schulte. 2015. Floating-Point Arithmetic in AMD Processors. Presented at the 22nd IEEE Symposium on Computer Arithmetic, Lyon, France. (2015)."
+        }, 
+        {
+            "ArticleName": "Sagi Shahar , Shai Bergman , Mark Silberstein, ActivePointers: a case for software address translation on GPUs, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.58", 
+            "DOIname": "10.1109/ISCA.2016.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001200"
+        }, 
+        {
+            "ArticleName": "James E. Smith , Andrew R. Pleszkun, Implementation of precise interrupts in pipelined processors, Proceedings of the 12th annual international symposium on Computer architecture, p.36-44, June 17-19, 1985, Boston, Massachusetts, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=327125"
+        }, 
+        {
+            "ArticleName": "Gurindar S. Sohi, Instruction Issue Logic for High-Performance, Interruptible, Multiple Functional Unit, Pipelined Computers, IEEE Transactions on Computers, v.39 n.3, p.349-359, March 1990", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.48865", 
+            "DOIname": "10.1109/12.48865", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=78592"
+        }, 
+        {
+            "ArticleName": "John A. Stratton, Christopher Rodrigues, I-Jui Sung, Nady Obeid, Li-Wen Chang, Nasser Anssari, Geng D. Liu, and Wen-mei W. Hwu. 2012. Parboil: a revised benchmark suite for scientific and commercial throughput computing. Technical Report."
+        }, 
+        {
+            "ArticleName": "B. K. Szymanski, A simple solution to Lamport's concurrent programming problem with linear wait, Proceedings of the 2nd international conference on Supercomputing, p.621-626, June 1988, St. Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/55364.55425", 
+            "DOIname": "10.1145/55364.55425", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=55425"
+        }, 
+        {
+            "ArticleName": "Ivan Tanasic , Isaac Gelado , Javier Cabezas , Alex Ramirez , Nacho Navarro , Mateo Valero, Enabling preemptive multiprogramming on GPUs, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665702"
+        }, 
+        {
+            "ArticleName": "J. E. Thornton, Design of a Computer\u2014The Control Data 6600, Scott Foresman & Co, 1970", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1102018"
+        }, 
+        {
+            "ArticleName": "R. M. Tomasulo, An efficient algorithm for exploiting multiple arithmetic units, IBM Journal of Research and Development, v.11 n.1, p.25-33, January 1967", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.111.0025", 
+            "DOIname": "10.1147/rd.111.0025", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1662740"
+        }, 
+        {
+            "ArticleName": "H. C. Torng , M. Day, Interrupt Handling for Out-of-Order Execution Processors, IEEE Transactions on Computers, v.42 n.1, p.122-127, January 1993", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.192223", 
+            "DOIname": "10.1109/12.192223", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=626703"
+        }, 
+        {
+            "ArticleName": "Teruo Utsumi , Masayuki Ikeda , Moriyuki Takamura, Architecture of the VPP500 parallel supercomputer, Proceedings of the 1994 ACM/IEEE conference on Supercomputing, November 14-18, 1994, Washington, D.C.", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=602852"
+        }, 
+        {
+            "ArticleName": "J. Vesely, A. Basu, M. Oskin, G. H. Loh, and A. Bhattacharjee. 2016. Observations and opportunities in architecting shared virtual memory for heterogeneous systems. In 2016 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). 161--171."
+        }, 
+        {
+            "ArticleName": "Kaibo Wang , Xiaoning Ding , Rubao Lee , Shinpei Kato , Xiaodong Zhang, GDM: device memory management for gpgpu computing, The 2014 ACM international conference on Measurement and modeling of computer systems, June 16-20, 2014, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2591971.2592002", 
+            "DOIname": "10.1145/2591971.2592002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2592002"
+        }, 
+        {
+            "ArticleName": "Zhenning Wang, Jun Yang, Rami Melhem, Bruce Childers, Youtao Zhang, and Minyi Guo. 2016. Simultaneous Multikernel GPU: Multi-tasking throughput processors via fine-grained sharing. In International Symposium on High Performance Computer Architecture (HPCA). IEEE, 358--369."
+        }, 
+        {
+            "ArticleName": "T. Zheng, D. Nellans, A. Zulfiqar, M. Stephenson, and S. W. Keckler. 2016. Towards high performance paged memory for GPUs. In 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 345--357."
+        }, 
+        {
+            "ArticleName": "Craig B. Zilles , Joel S. Emer , Gurindar S. Sohi, The use of multithreading for exception handling, Proceedings of the 32nd annual ACM/IEEE international symposium on Microarchitecture, p.219-229, November 16-18, 1999, Haifa, Israel", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=320114"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Barcelona Supercomputing Center and Universitat Politecnica de Catalunya", 
+            "Name": "Ivan Tanasic"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Isaac Gelado"
+        }, 
+        {
+            "Affiliation": "Barcelona Supercomputing Center", 
+            "Name": "Marc Jorda"
+        }, 
+        {
+            "Affiliation": "Barcelona Supercomputing Center and Universitat Politecnica de Catalunya", 
+            "Name": "Eduard Ayguade"
+        }, 
+        {
+            "Affiliation": "Barcelona Supercomputing Center and Universitat Politecnica de Catalunya", 
+            "Name": "Nacho Navarro"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123950&preflayout=flat"
+}

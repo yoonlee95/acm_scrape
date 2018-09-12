@@ -1,0 +1,355 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 17, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 17, 
+        "CitationCount": 0
+    }, 
+    "Title": "MIMD synchronization on SIMT architectures", 
+    "Abstract": "In the single-instruction multiple-threads (SIMT) execution model, small groups of scalar threads operate in lockstep. Within each group, current SIMT hardware implementations serialize the execution of threads that follow different paths, and to ensure efficiency, revert to lockstep execution as soon as possible. These constraints must be considered when adapting algorithms that employ synchronization. A deadlock-free program on a multiple-instruction multiple-data (MIMD) architecture may deadlock on a SIMT machine. To avoid this, programmers need to restructure control flow with SIMT scheduling constraints in mind. This requires programmers to be familiar with the underlying SIMT hardware. In this paper, we propose a static analysis technique that detects SIMT deadlocks by inspecting the application control flow graph (CFG). We further propose a CFG transformation that avoids SIMT deadlocks when synchronization is local to a function. Both the analysis and the transformation algorithms are implemented as LLVM compiler passes. Finally, we propose an adaptive hardware reconvergence mechanism that supports MIMD synchronization without changing the application CFG, but which can leverage our compiler analysis to gain efficiency. The static detection has a false detection rate of only 4%--5%. The automated transformation has an average performance overhead of 8.2%--10.9% compared to manual transformation. Our hardware approach performs on par with the compiler transformation, however, it avoids synchronization scope limitations, static instruction and register overheads, and debuggability challenges that are present in the compiler only solution.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "NVIDIA, CUDA, \"NVIDIA CUDA Programming Guide,\" 2011."
+        }, 
+        {
+            "ArticleName": "Intel Corporation, \"The ISPC Parallel Execution Model,\" 2016."
+        }, 
+        {
+            "ArticleName": "AMD, \"Accelerated Parallel Processing: OpenCL Programming Guide,\" 2013."
+        }, 
+        {
+            "ArticleName": "Adam Levinthal , Thomas Porter, Chap - a SIMD graphics processor, Proceedings of the 11th annual conference on Computer graphics and interactive techniques, p.77-82, January 1984", 
+            "DOIhref": "http://doi.acm.org/10.1145/800031.808581", 
+            "DOIname": "10.1145/800031.808581", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=808581"
+        }, 
+        {
+            "ArticleName": "B. Coon and J. Lindholm, \"System and method for managing divergent threads in a simd architecture,\" 2008. US Patent 7,353,369."
+        }, 
+        {
+            "ArticleName": "B. Beylin and R. S. Glanville, \"Insertion of multithreaded execution synchronization points in a software program,\" 2013. US Patent 8,381,203."
+        }, 
+        {
+            "ArticleName": "AMD Corporation, \"Southern Islands Series Instruction Set Architecture,\" 2012."
+        }, 
+        {
+            "ArticleName": "M. HOUSTON, B. Gaster, L. HOWES, M. Mantor, and D. Behr, \"Method and System for Synchronization of Workitems with Divergent Control Flow,\" 2013. WO Patent App. PCT/US2013/043,394."
+        }, 
+        {
+            "ArticleName": "Axel Habermaier , Alexander Knapp, On the correctness of the SIMT execution model of GPUs, Proceedings of the 21st European conference on Programming Languages and Systems, p.316-335, March 24-April 01, 2012, Tallinn, Estonia", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-28869-2_16", 
+            "DOIname": "10.1007/978-3-642-28869-2_16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2259264"
+        }, 
+        {
+            "ArticleName": "Sungpack Hong , Sang Kyun Kim , Tayo Oguntebi , Kunle Olukotun, Accelerating CUDA graph algorithms at maximum warp, Proceedings of the 16th ACM symposium on Principles and practice of parallel programming, February 12-16, 2011, San Antonio, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1941553.1941590", 
+            "DOIname": "10.1145/1941553.1941590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941590"
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Rupesh Nasre , Keshav Pingali, A quantitative study of irregular programs on GPUs, Proceedings of the 2012 IEEE International Symposium on Workload Characterization (IISWC), p.141-151, November 04-06, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2012.6402918", 
+            "DOIname": "10.1109/IISWC.2012.6402918", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2474126"
+        }, 
+        {
+            "ArticleName": "Duane Merrill , Michael Garland , Andrew Grimshaw, Scalable GPU graph traversal, Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming, February 25-29, 2012, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145816.2145832", 
+            "DOIname": "10.1145/2145816.2145832", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145832"
+        }, 
+        {
+            "ArticleName": "Seyong Lee , Seung-Jai Min , Rudolf Eigenmann, OpenMP to GPGPU: a compiler framework for automatic translation and optimization, Proceedings of the 14th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 14-18, 2009, Raleigh, NC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1504176.1504194", 
+            "DOIname": "10.1145/1504176.1504194", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1504194"
+        }, 
+        {
+            "ArticleName": "Gabriel Noaje , Christophe Jaillet , Micha\u00ebl Krajecki, Source-to-Source Code Translator: OpenMP C to CUDA, Proceedings of the 2011 IEEE International Conference on High Performance Computing and Communications, p.512-519, September 02-04, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCC.2011.73", 
+            "DOIname": "10.1109/HPCC.2011.73", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2058119"
+        }, 
+        {
+            "ArticleName": "Carlo Bertolli , Samuel F. Antao , Alexandre E. Eichenberger , Kevin O'Brien , Zehra Sura , Arpith C. Jacob , Tong Chen , Olivier Sallenave, Coordinating GPU threads for OpenMP 4.0 in LLVM, Proceedings of the 2014 LLVM Compiler Infrastructure in HPC, November 16-21, 2014, New Orleans, Louisiana", 
+            "DOIhref": "https://dx.doi.org/10.1109/LLVM-HPC.2014.10", 
+            "DOIname": "10.1109/LLVM-HPC.2014.10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2688364"
+        }, 
+        {
+            "ArticleName": "S. Antao, C. Bertolli, A. Bokhanko, A. Eichenberger, H. Finkel, S. Ostanevich, E. Stotzer, and G. Zhang, \"OpenMP Offload Infrastructure in LLVM,\" tech. rep."
+        }, 
+        {
+            "ArticleName": "OpenMP Clang Frontend, \"OpenMP Clang Frontend Documentation.\" https://github.com/clang-omp, 2015."
+        }, 
+        {
+            "ArticleName": "X. Tian and B. R. de Supins, \"Explicit Vector Programming with OpenMP 4.0 SIMD Extension,\" Primeur Magazine 2014, 2014."
+        }, 
+        {
+            "ArticleName": "A. ElTantawy, \"SSDE and AWARE codes.\" https://github.com/ElTantawy/mimd_to_simt/, 2016."
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Ivan Sham , George Yuan , Tor M. Aamodt, Dynamic Warp Formation and Scheduling for Efficient GPU Control Flow, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.407-420, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.12", 
+            "DOIname": "10.1109/MICRO.2007.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331735"
+        }, 
+        {
+            "ArticleName": "Jiayuan Meng , David Tarjan , Kevin Skadron, Dynamic warp subdivision for integrated branch and memory divergence tolerance, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815992", 
+            "DOIname": "10.1145/1815961.1815992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815992"
+        }, 
+        {
+            "ArticleName": "NVIDIA Forums, \"atomicCAS does NOT seem to work.\" http://forums.nvidia.com/index.php?showtopic=98444, 2009."
+        }, 
+        {
+            "ArticleName": "NVIDIA Forums, \"atomic locks.\" https://devtalk.nvidia.com/default/topic/512038/atomic-locks/, 2012."
+        }, 
+        {
+            "ArticleName": "A. Ramamurthy, \"Towards Scalar Synchronization in SIMT Architectures,\" Master's thesis, The University of British Columbia, 2011."
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Inderpreet Singh , Andrew Brownsword , Tor M. Aamodt, Hardware transactional memory for GPU architectures, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155655", 
+            "DOIname": "10.1145/2155620.2155655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155655"
+        }, 
+        {
+            "ArticleName": "Yunlong Xu , Rui Wang , Nilanjan Goswami , Tao Li , Lan Gao , Depei Qian, Software Transactional Memory for GPU Architectures, Proceedings of Annual IEEE/ACM International Symposium on Code Generation and Optimization, February 15-19, 2014, Orlando, FL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2544137.2544139", 
+            "DOIname": "10.1145/2544137.2544139", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2544139"
+        }, 
+        {
+            "ArticleName": "H. Wong, M.-M. Papadopoulou, M. Sadooghi-Alvandi, and A. Moshovos, \"Demystifying GPU Microarchitecture Through Microbenchmarking,\" in Proc. IEEE Symp. on Perf. Analysis of Systems and Software (ISPASS), pp. 235--246, 2010."
+        }, 
+        {
+            "ArticleName": "Adam Betts , Nathan Chong , Alastair Donaldson , Shaz Qadeer , Paul Thomson, GPUVerify: a verifier for GPU kernels, Proceedings of the ACM international conference on Object oriented programming systems languages and applications, October 19-26, 2012, Tucson, Arizona, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2384616.2384625", 
+            "DOIname": "10.1145/2384616.2384625", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2384625"
+        }, 
+        {
+            "ArticleName": "Guodong Li , Peng Li , Geof Sawaya , Ganesh Gopalakrishnan , Indradeep Ghosh , Sreeranga P. Rajan, GKLEE: concolic verification and test generation for GPUs, Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming, February 25-29, 2012, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145816.2145844", 
+            "DOIname": "10.1145/2145816.2145844", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145844"
+        }, 
+        {
+            "ArticleName": "Rahul Sharma , Michael Bauer , Alex Aiken, Verification of producer-consumer synchronization in GPU programs, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2737962", 
+            "DOIname": "10.1145/2737924.2737962", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2737962"
+        }, 
+        {
+            "ArticleName": "\"How does the OpenACC API relate to the OpenMP API?.\" OpenACC.org."
+        }, 
+        {
+            "ArticleName": "LLVM Compiler, \"LLVN 3.6 Release Information.\" http://llvm.org/releases/3.6.0/, 2015."
+        }, 
+        {
+            "ArticleName": "M. Villmow, \"AMD OpenCL Compiler.\" LLVM Developers Conference, 2010. Presentation."
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"CUDA LLVM Compiler.\" https://developer.nvidia.com/cuda-llvm-compiler, 2015."
+        }, 
+        {
+            "ArticleName": "Intel Developer Zone, \"Weird behaviour of atomic functions.\" https://software.intel.com/en-us/forums/opencl/topic/278350, 2012."
+        }, 
+        {
+            "ArticleName": "NVIDIA Forums, \"GLSL Spinlock.\" https://devtalk.nvidia.com/default/topic/768115/opengl/glsl-spinlock/, 2014."
+        }, 
+        {
+            "ArticleName": "M. Burtscher and K. Pingali, \"An Efficient CUDA Implementation of the Tree-based Barnes Hut n-Body Algorithm,\" GPU computing Gems Emerald edition, 2011."
+        }, 
+        {
+            "ArticleName": "A. ElTantawy and T. M. Aamodt, \"Correctness Discussion of a SIMT-induced Deadlock Elimination Algorithm,\" tech. rep., University of British Columbia, 2016."
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"CUDA Binary Utilities,\" http://docs.nvidia.com/cuda/cuda-binary-utilities/, 2015."
+        }, 
+        {
+            "ArticleName": "S. Horwitz , T. Reps , D. Binkley, Interprocedural slicing using dependence graphs, Proceedings of the ACM SIGPLAN 1988 conference on Programming language design and implementation, p.35-46, June 20-24, 1988, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/53990.53994", 
+            "DOIname": "10.1145/53990.53994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=53994"
+        }, 
+        {
+            "ArticleName": "Michael Burke , Ron Cytron, Interprocedural dependence analysis and parallelization, Proceedings of the 1986 SIGPLAN symposium on Compiler construction, p.162-175, June 25-27, 1986, Palo Alto, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/12276.13328", 
+            "DOIname": "10.1145/12276.13328", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=13328"
+        }, 
+        {
+            "ArticleName": "Urs H\u00f6lzle , Craig Chambers , David Ungar, Debugging optimized code with dynamic deoptimization, Proceedings of the ACM SIGPLAN 1992 conference on Programming language design and implementation, p.32-43, June 15-19, 1992, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/143095.143114", 
+            "DOIname": "10.1145/143095.143114", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143114"
+        }, 
+        {
+            "ArticleName": "John Hennessy, Symbolic Debugging of Optimized Code, ACM Transactions on Programming Languages and Systems (TOPLAS), v.4 n.3, p.323-344, July 1982", 
+            "DOIhref": "http://doi.acm.org/10.1145/357172.357173", 
+            "DOIname": "10.1145/357172.357173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357173"
+        }, 
+        {
+            "ArticleName": "A. ElTantawy, J. W. Ma, M. O'Connor, and T. M. Aamodt, \"A Scalable Multi-Path Microarchitecture for Efficient GPU Control Flow,\" in Proc. IEEE Symp. on High-Perf. Computer Architecture (HPCA), 2014."
+        }, 
+        {
+            "ArticleName": "B. W. Coon, P. C. Mills, S. F. Oberman, and M. Y. Siu., \"Tracking Register Usage during Multithreaded Processing Using a Scoreboard having Separate Memory Regions and Storing Sequential Register Size Indicators. US Patent 7,434,032,\" 2008."
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "A. Brownsword, \"Cloth in OpenCL,\" tech. rep., Khronos Group, 2009."
+        }, 
+        {
+            "ArticleName": "Jared Coplin , Martin Burtscher, Effects of source-code optimizations on GPU performance and energy consumption, Proceedings of the 8th Workshop on General Purpose Processing using GPUs, February 07-07, 2015, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2716282.2716292", 
+            "DOIname": "10.1145/2716282.2716292", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2716292"
+        }, 
+        {
+            "ArticleName": "J. M. Bull, \"Measuring synchronisation and scheduling overheads in openmp,\" in Proc. European Workshop on OpenMP, vol. 8, p. 49, 1999."
+        }, 
+        {
+            "ArticleName": "Microsoft. https://msdn.microsoft.com/en-us/library/b38674ky.aspx, 2016."
+        }, 
+        {
+            "ArticleName": "LLVM Compiler, \"LLVM Alias Analysis Infrastructure.\" http://llvm.org/docs/AliasAnalysis.html, 2015."
+        }, 
+        {
+            "ArticleName": "Vugranam C. Sreedhar , Guang R. Gao , Yong-Fong Lee, Identifying loops using DJ graphs, ACM Transactions on Programming Languages and Systems (TOPLAS), v.18 n.6, p.649-658, Nov. 1996", 
+            "DOIhref": "http://doi.acm.org/10.1145/236114.236115", 
+            "DOIname": "10.1145/236114.236115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=236115"
+        }, 
+        {
+            "ArticleName": "A. Bakhoda, G. L. Yuan, W. W. Fung, H. Wong, and T. M. Aamodt, \"Analyzing CUDA Workloads Using a Detailed GPU Simulator,\" in Proc. IEEE Symp. on Perf. Analysis of Systems and Software (ISPASS), pp. 163--174, 2009."
+        }, 
+        {
+            "ArticleName": "T. M. Aamodt et al., GPGPU-Sim 3.x Manual. University of British Columbia, 2013."
+        }, 
+        {
+            "ArticleName": "LLVM Compiler, \"Clang Front End.\" http://clang.llvm.org/, 2015."
+        }, 
+        {
+            "ArticleName": "LLVM Compiler, \"LIBCLC Library.\" http://libclc.llvm.org/, 2015."
+        }, 
+        {
+            "ArticleName": "Dmitry Mikushin, \"CUDA to LLVM-IR.\" https://github.com/apc-llc/nvcc-llvm-ir, 2015."
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"LibNVVM Library.\" http://docs.nvidia.com/cuda/libnvvm-api/, 2015."
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"CUDA SDK 3.2,\" September 2013."
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Jeff Larkin, NVIDIA, \"OpenMP and NVIDIA.\" http://openmp.org/sc13/SC13_OpenMP_and_NVIDIA.pdf, 2013."
+        }, 
+        {
+            "ArticleName": "Michael Wong, Alexey Bataev, \"OpenMP GPU/Accelerators Coming of Age in Clang.\" http://llvm.org/devmtg/2015-10/slides/WongBataev-OpenMPGPUAcceleratorsComingOfAgeInClang.pdf, 2015."
+        }, 
+        {
+            "ArticleName": "Carlo Bertolli , Samuel F. Antao , Gheorghe-Teodor Bercea , Arpith C. Jacob , Alexandre E. Eichenberger , Tong Chen , Zehra Sura , Hyojin Sung , Georgios Rokos , David Appelhans , Kevin O'Brien, Integrating GPU support for OpenMP offloading directives into Clang, Proceedings of the Second Workshop on the LLVM Compiler Infrastructure in HPC, p.1-11, November 15-15, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2833157.2833161", 
+            "DOIname": "10.1145/2833157.2833161", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2833161"
+        }, 
+        {
+            "ArticleName": "Gheorghe-Teodor Bercea , Carlo Bertolli , Samuel F. Antao , Arpith C. Jacob , Alexandre E. Eichenberger , Tong Chen , Zehra Sura , Hyojin Sung , Georgios Rokos , David Appelhans , Kevin O'Brien, Performance analysis of OpenMP on a GPU using a CORAL proxy application, Proceedings of the 6th International Workshop on Performance Modeling, Benchmarking, and Simulation of High Performance Computing Systems, p.1-11, November 15-15, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2832087.2832089", 
+            "DOIname": "10.1145/2832087.2832089", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2832089"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, The dual-path execution model for efficient GPU control flow, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.591-602, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522352", 
+            "DOIname": "10.1109/HPCA.2013.6522352", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495487"
+        }, 
+        {
+            "ArticleName": "Gregory Diamos , Benjamin Ashbaugh , Subramaniam Maiyuran , Andrew Kerr , Haicheng Wu , Sudhakar Yalamanchili, SIMD re-convergence at thread frontiers, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155676", 
+            "DOIname": "10.1145/2155620.2155676", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155676"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Tor M. Aamodt, Thread block compaction for efficient SIMT control flow, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.25-36, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014893"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, CAPRI: prediction of compaction-adequacy for handling control-divergence in GPGPU architectures, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337167"
+        }, 
+        {
+            "ArticleName": "Krste Asanovic , Stephen W. Keckler , Yunsup Lee , Ronny Krashinsky , Vinod Grover, Convergence and scalarization for data-parallel architectures, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-11, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6494995", 
+            "DOIname": "10.1109/CGO.2013.6494995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495936"
+        }, 
+        {
+            "ArticleName": "Mai Zheng , Vignesh T. Ravi , Feng Qin , Gagan Agrawal, GRace: a low-overhead mechanism for detecting data races in GPU programs, ACM SIGPLAN Notices, v.46 n.8, August 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2038037.1941574", 
+            "DOIname": "10.1145/2038037.1941574", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941574"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "John A. Stratton , Sam S. Stone , Wen-Mei W. Hwu, MCUDA: An Efficient Implementation of CUDA Kernels for Multi-core CPUs, Languages and Compilers for Parallel Computing: 21th International Workshop, LCPC 2008, Edmonton, Canada, July 31 - August 2, 2008, Revised Selected Papers, Springer-Verlag, Berlin, Heidelberg, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-89740-8_2", 
+            "DOIname": "10.1007/978-3-540-89740-8_2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1485703"
+        }, 
+        {
+            "ArticleName": "Ayse Yilmazer , David Kaeli, HQL: A Scalable Synchronization Mechanism for GPUs, Proceedings of the 2013 IEEE 27th International Symposium on Parallel and Distributed Processing, p.475-486, May 20-24, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2013.82", 
+            "DOIname": "10.1109/IPDPS.2013.82", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2511368"
+        }, 
+        {
+            "ArticleName": "A. Li, G.-J. van den Braak, H. Corporaal, and A. Kumar, \"Fine-grained Synchronizations and Dataflow Programming on GPUs,\" 2015."
+        }, 
+        {
+            "ArticleName": "Yunlong Xu , Lan Gao , Rui Wang , Zhongzhi Luan , Weiguo Wu , Depei Qian, Lock-based synchronization for GPU architectures, Proceedings of the ACM International Conference on Computing Frontiers, May 16-19, 2016, Como, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2903150.2903155", 
+            "DOIname": "10.1145/2903150.2903155", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2903155"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of British Columbia", 
+            "Name": "Ahmed ElTantawy"
+        }, 
+        {
+            "Affiliation": "University of British Columbia", 
+            "Name": "Tor M. Aamodt"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195652&preflayout=flat"
+}

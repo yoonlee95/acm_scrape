@@ -1,0 +1,168 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Sayeh Sharify , Alberto Delmas Lascorz , Kevin Siu , Patrick Judd , Andreas Moshovos, Loom: exploiting weight and activation precisions to accelerate convolutional neural networks, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196072"
+        }, 
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 830, 
+        "Downloads_6Weeks": 62, 
+        "Downloads_cumulative": 830, 
+        "CitationCount": 2
+    }, 
+    "Title": "Bit-pragmatic deep neural network computing", 
+    "Abstract": "Deep Neural Networks expose a high degree of parallelism, making them amenable to highly data parallel architectures. However, data-parallel architectures often accept inefficiency in individual computations for the sake of overall efficiency. We show that on average, activation values of convolutional layers during inference in modern Deep Convolutional Neural Networks (CNNs) contain 92% zero bits. Processing these zero bits entails ineffectual computations that could be skipped. We propose Pragmatic (PRA), a massively data-parallel architecture that eliminates most of the ineffectual computations on-the-fly, improving performance and energy efficiency compared to state-of-the-art high-performance accelerators [5]. The idea behind PRA is deceptively simple: use serial-parallel shift-and-add multiplication while skipping the zero bits of the serial input. However, a straightforward implementation based on shift-and-add multiplication yields unacceptable area, power and memory access overheads compared to a conventional bit-parallel design. PRA incorporates a set of design decisions to yield a practical, area and energy efficient design. Measurements demonstrate that for convolutional layers, PRA is 4.31X faster than DaDianNao [5] (DaDN) using a 16-bit fixed-point representation. While PRA requires 1.68X more area than DaDN, the performance gains yield a 1.70X increase in energy efficiency in a 65nm technology. With 8-bit quantized activations, PRA is 2.25X faster and 1.31X more energy efficient than an 8-bit version of DaDN.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "\"How to Quantize Neural Networks with TensorFlow.\" {Online}. Available: https://www.tensorflow.org/performance/quantization"
+        }, 
+        {
+            "ArticleName": "Jorge Albericio , Patrick Judd , Tayler Hetherington , Tor Aamodt , Natalie Enright Jerger , Andreas Moshovos, Cnvlutin: ineffectual-neuron-free deep neural network computing, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.11", 
+            "DOIname": "10.1109/ISCA.2016.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001138"
+        }, 
+        {
+            "ArticleName": "H. Alemdar, N. Caldwell, V. Leroy, A. Prost-Boucle, and F. P\u00e9trot, \"Ternary neural networks for resource-efficient AI applications,\" CoRR, vol. abs/1609.00222, 2016. {Online}. Available: http://arxiv.org/abs/1609.00222"
+        }, 
+        {
+            "ArticleName": "A. D. Booth, \"A signed binary multiplication technique,\" The Quarterly Journal of Mechanics and Applied Mathematics, vol. 4, no. 2, pp. 236--240, 1951."
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Chen, Yu-Hsin and Krishna, Tushar and Emer, Joel and Sze, Vivienne, \"Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks,\" in IEEE International Solid-State Circuits Conference, ISSCC 2016, Digest of Technical Papers, 2016, pp. 262--263."
+        }, 
+        {
+            "ArticleName": "M. Courbariaux, Y. Bengio, and J.-P. David, \"BinaryConnect: Training Deep Neural Networks with binary weights during propagations,\" ArXiv e-prints, Nov. 2015."
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "Ross Girshick , Jeff Donahue , Trevor Darrell , Jitendra Malik, Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, p.580-587, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPR.2014.81", 
+            "DOIname": "10.1109/CVPR.2014.81", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2679851"
+        }, 
+        {
+            "ArticleName": "R. Gonzalez and M. Horowitz, \"Energy dissipation in general purpose microprocessors,\" Solid-State Circuits, IEEE Journal of, vol. 31, no. 9, pp. 1277--1284, Sep 1996."
+        }, 
+        {
+            "ArticleName": "Google, \"Low-precision matrix multiplication,\" https://github.com/google/gemmlowp, 2016."
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "S. Han, H. Mao, and W. J. Dally, \"Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding,\" arXiv:1510.00149 {cs}, Oct. 2015, arXiv: 1510.00149. {Online}. Available: http://arxiv.org/abs/1510.00149"
+        }, 
+        {
+            "ArticleName": "A. Y. Hannun, C. Case, J. Casper, B. C. Catanzaro, G. Diamos, E. Elsen, R. Prenger, S. Satheesh, S. Sengupta, A. Coates, and A. Y. Ng, \"Deep speech: Scaling up end-to-end speech recognition,\" CoRR, vol. abs/1412.5567, 2014."
+        }, 
+        {
+            "ArticleName": "F. N. Iandola, M. W. Moskewicz, K. Ashraf, S. Han, W. J. Dally, and K. Keutzer, \"Squeezenet: Alexnet-level accuracy with 50x fewer parameters and <1mb model size,\" CoRR, vol. abs/1602.07360, 2016. {Online}. Available: http://arxiv.org/abs/1602.07360"
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. Aamodt, N. Enright Jerger, and A. Moshovos, \"Proteus: Exploiting numerical precision variability in deep neural networks,\" in Workshop On Approximate Computing (WAPCO), 2016."
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. Aamodt, N. E. Jerger, R. Urtasun, and A. Moshovos, \"Reduced-Precision Strategies for Bounded Memory in Deep Neural Nets, arXiv:1511.05236v4 {cs.LG},\" arXiv.org, 2015."
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. Aamodt, and A. Moshovos, \"Stripes: Bit-serial Deep Neural Network Computing,\" in Proceedings of the 49th Annual IEEE/ACM International Symposium on Microarchitecture, ser. MICRO-49, 2016."
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, and A. Moshovos, \"Stripes: Bit-serial Deep Neural Network Computing,\" Computer Architecture Letters, 2016."
+        }, 
+        {
+            "ArticleName": "J. Kim, K. Hwang, and W. Sung, \"X1000 real-time phoneme recognition VLSI using feed-forward deep neural networks,\" in 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), May 2014, pp. 7510--7514."
+        }, 
+        {
+            "ArticleName": "Alain J. Martin , Mika Nystr\u00f6m , Paul I. P\u00e9nzes, ET2: a metric for time and energy efficiency of computation, Power aware computing, Kluwer Academic Publishers, Norwell, MA, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=783076"
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar and R. Balasubramonian, \"Cacti 6.0: A tool to understand large caches.\""
+        }, 
+        {
+            "ArticleName": "Vinod Nair , Geoffrey E. Hinton, Rectified linear units improve restricted boltzmann machines, Proceedings of the 27th International Conference on International Conference on Machine Learning, p.807-814, June 21-24, 2010, Haifa, Israel", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3104425"
+        }, 
+        {
+            "ArticleName": "Angshuman Parashar , Minsoo Rhu , Anurag Mukkara , Antonio Puglielli , Rangharajan Venkatesan , Brucek Khailany , Joel Emer , Stephen W. Keckler , William J. Dally, SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080254", 
+            "DOIname": "10.1145/3079856.3080254", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080254"
+        }, 
+        {
+            "ArticleName": "Matt Poremba , Sparsh Mittal , Dong Li , Jeffrey S. Vetter , Yuan Xie, DESTINY: a tool for modeling emerging 3D NVM and eDRAM caches, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2757168"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "Synopsys, \"Design Compiler,\" http://www.synopsys.com/Tools/Implementation/RTLSynthesis/DesignCompiler/Pages."
+        }, 
+        {
+            "ArticleName": "C. S. Wallace, \"A suggestion for a fast multiplier,\" IEEE Trans. Electronic Computers, vol. 13, no. 1, pp. 14--17, 1964. {Online}. Available"
+        }, 
+        {
+            "ArticleName": "P. Warden, \"Low-precision matrix multiplication,\" https://petewarden.com, 2016."
+        }, 
+        {
+            "ArticleName": "H. H. Yao and E. E. Swartzlander, \"Serial-parallel multipliers,\" in Proceedings of 27th Asilomar Conference on Signals, Systems and Computers, Nov. 1993, pp. 359--363 vol.1."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Univ. of Toronto NVIDIA", 
+            "Name": "Jorge Albericio"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Alberto Delm\u00e1s"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Patrick Judd"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Sayeh Sharify"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Gerard O'Leary"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Roman Genov"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Andreas Moshovos"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123982&preflayout=flat"
+}

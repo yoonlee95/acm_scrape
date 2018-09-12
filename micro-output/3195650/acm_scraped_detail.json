@@ -1,0 +1,168 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 10, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 10, 
+        "CitationCount": 0
+    }, 
+    "Title": "NeSC: self-virtualizing nested storage controller", 
+    "Abstract": "The emergence of high-speed, multi GB/s storage devices has shifted the performance bottleneck of storage virtualization to the software layers of the hypervisor. The hypervisor overheads can be avoided by allowing the virtual machine (VM) to directly access the storage device (a method known as direct device assignment), but this method voids all protection guarantees provided by filesystem permissions, since the device has no notion of client isolation. Recently, following the introduction of 10Gbs and higher networking interfaces, the PCIe specification was extended to include the SR-IOV specification for self-virtualizing devices, which allows a single physical device to present multiple virtual interfaces on the PCIe interconnect. Using SR-IOV, a hypervisor can directly assign a virtual PCIe device interface to each of its VMs. However, as networking interfaces simply multiplex packets sent from/to different clients, the specification does not dictate the semantics of a virtual storage device and how to maintain data isolation in a self-virtualizing device. In this paper we present the self-virtualizing, nested storage controller (NeSC) architecture, which includes a filesystem-agnostic protection mechanism that enables the physical device to export files as virtual PCIe storage devices. The protection mechanism maps file offsets to physical blocks and thereby offloads the hypervisor's storage layer functionality to hardware. Using NeSC, a hypervisor can securely expose its files as virtual PCIe devices and directly assign them to VMs. We have prototyped a 1GB/s NeSC controller using a Virtex-7 FPGA development board connected to the PCIe interconnect. Our evaluation of NeSC on a real system shows that NeSC virtual devices enable VMs to access their data with near-native performance (in terms of both throughput and latency).", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Gerald J. Popek , Robert P. Goldberg, Formal requirements for virtualizable third generation architectures, Communications of the ACM, v.17 n.7, p.412-421, July 1974", 
+            "DOIhref": "http://doi.acm.org/10.1145/361011.361073", 
+            "DOIname": "10.1145/361011.361073", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=361073"
+        }, 
+        {
+            "ArticleName": "Intel, Intel 64 and IA-32 Architectures Software Developer Manual, Dec 2015."
+        }, 
+        {
+            "ArticleName": "ARM, ARMv8 Architecture Reference Manual, Jan 2016."
+        }, 
+        {
+            "ArticleName": "PCI-SIG, \"PCI I/O virtualization.\" http://pcisig.com/specifications/iov/."
+        }, 
+        {
+            "ArticleName": "Igor Smolyar , Muli Ben-Yehuda , Dan Tsafrir, Securing self-virtualizing ethernet devices, Proceedings of the 24th USENIX Conference on Security Symposium, p.335-350, August 12-14, 2015, Washington, D.C.", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2831165"
+        }, 
+        {
+            "ArticleName": "Intel, \"Product brief: Intel solid state drive data center p3608 series,\" 2015."
+        }, 
+        {
+            "ArticleName": "Seagate, \"Press release: Seagate demonstrates fastest-ever SSD flash drive.\" www.seagate.com/em/en/about-seagate/news/seagate-demonstrates-fastest-ever-ssd-flash-drive-pr/, Mar 2016."
+        }, 
+        {
+            "ArticleName": "Rusty Russell, virtio: towards a de-facto standard for virtual I/O devices, ACM SIGOPS Operating Systems Review, v.42 n.5, p.95-103, July 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1400097.1400108", 
+            "DOIname": "10.1145/1400097.1400108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1400108"
+        }, 
+        {
+            "ArticleName": "Duy Le , Hai Huang , Haining Wang, Understanding performance implications of nested file systems in a virtualized environment, Proceedings of the 10th USENIX conference on File and Storage Technologies, p.8-8, February 14-17, 2012, San Jose, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2208469"
+        }, 
+        {
+            "ArticleName": "Young Jin Yu , Dong In Shin , Woong Shin , Nae Young Song , Jae Woo Choi , Hyeong Seog Kim , Hyeonsang Eom , Heon Young Yeom, Optimizing the Block I/O Subsystem for Fast Storage Devices, ACM Transactions on Computer Systems (TOCS), v.32 n.2, p.1-48, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2619092", 
+            "DOIname": "10.1145/2619092", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2619092"
+        }, 
+        {
+            "ArticleName": "Jeremy Sugerman , Ganesh Venkitachalam , Beng-Hong Lim, Virtualizing I/O Devices on VMware Workstation's Hosted Virtual Machine Monitor, Proceedings of the General Track: 2001 USENIX Annual Technical Conference, p.1-14, June 25-30, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=715774"
+        }, 
+        {
+            "ArticleName": "Paul Barham , Boris Dragovic , Keir Fraser , Steven Hand , Tim Harris , Alex Ho , Rolf Neugebauer , Ian Pratt , Andrew Warfield, Xen and the art of virtualization, Proceedings of the nineteenth ACM symposium on Operating systems principles, October 19-22, 2003, Bolton Landing, NY, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/945445.945462", 
+            "DOIname": "10.1145/945445.945462", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=945462"
+        }, 
+        {
+            "ArticleName": "Himanshu Raj , Karsten Schwan, High performance and scalable I/O virtualization via self-virtualized devices, Proceedings of the 16th international symposium on High performance distributed computing, June 25-29, 2007, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1272366.1272390", 
+            "DOIname": "10.1145/1272366.1272390", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1272390"
+        }, 
+        {
+            "ArticleName": "NVM Express, NVM Express Specification, Oct 2015. Revision 1.2a."
+        }, 
+        {
+            "ArticleName": "Adrian M. Caulfield , Arup De , Joel Coburn , Todor I. Mollow , Rajesh K. Gupta , Steven Swanson, Moneta: A High-Performance Storage Array Architecture for Next-Generation, Non-volatile Memories, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.385-395, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.33", 
+            "DOIname": "10.1109/MICRO.2010.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934984"
+        }, 
+        {
+            "ArticleName": "Adrian M. Caulfield , Todor I. Mollov , Louis Alex Eisner , Arup De , Joel Coburn , Steven Swanson, Providing safe, user space access to fast, solid state disks, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151017", 
+            "DOIname": "10.1145/2150976.2151017", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151017"
+        }, 
+        {
+            "ArticleName": "Henry M. Levy, Capability-Based Computer Systems, Butterworth-Heinemann, Newton, MA, 1984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=538134"
+        }, 
+        {
+            "ArticleName": "Sudharsan Seshadri , Mark Gahagan , Sundaram Bhaskaran , Trevor Bunker , Arup De , Yanqin Jin , Yang Liu , Steven Swanson, Willow: a user-programmable SSD, Proceedings of the 11th USENIX conference on Operating Systems Design and Implementation, October 06-08, 2014, Broomfield, CO", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685055"
+        }, 
+        {
+            "ArticleName": "Junbin Kang , Benlong Zhang , Tianyu Wo , Chunming Hu , Jinpeng Huai, MultiLanes: providing virtualized storage for OS-level virtualization on many cores, Proceedings of the 12th USENIX conference on File and Storage Technologies, February 17-20, 2014, Santa Clara, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591337"
+        }, 
+        {
+            "ArticleName": "Simon Peter , Jialin Li , Irene Zhang , Dan R. K. Ports , Doug Woos , Arvind Krishnamurthy , Thomas Anderson , Timothy Roscoe, Arrakis: The Operating System Is the Control Plane, ACM Transactions on Computer Systems (TOCS), v.33 n.4, p.1-30, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2812806", 
+            "DOIname": "10.1145/2812806", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2812806"
+        }, 
+        {
+            "ArticleName": "Jian Huang , Anirudh Badam , Moinuddin K. Qureshi , Karsten Schwan, Unified address translation for memory-mapped SSDs with FlashMap, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750420", 
+            "DOIname": "10.1145/2749469.2750420", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750420"
+        }, 
+        {
+            "ArticleName": "A. Mathur, M. Cao, S. Bhattacharya, A. Dilger, A. Tomas, and L. Vivier, \"The new ext4 filesystem: current status and future plans,\" in Ottawa Linux Symp., Jun 2007."
+        }, 
+        {
+            "ArticleName": "Ohad Rodeh , Josef Bacik , Chris Mason, BTRFS: The Linux B-Tree Filesystem, ACM Transactions on Storage (TOS), v.9 n.3, p.1-32, August 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2501620.2501623", 
+            "DOIname": "10.1145/2501620.2501623", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2501623"
+        }, 
+        {
+            "ArticleName": "Adam Sweeney , Doug Doucette , Wei Hu , Curtis Anderson , Mike Nishimoto , Geoff Peck, Scalability in the XFS file system, Proceedings of the 1996 annual conference on USENIX Annual Technical Conference, p.1-1, January 22-26, 1996, San Diego, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1268300"
+        }, 
+        {
+            "ArticleName": "Douglas Comer, Ubiquitous B-Tree, ACM Computing Surveys (CSUR), v.11 n.2, p.121-137, June 1979", 
+            "DOIhref": "http://doi.acm.org/10.1145/356770.356776", 
+            "DOIname": "10.1145/356770.356776", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=356776"
+        }, 
+        {
+            "ArticleName": "Abel Gordon , Nadav Amit , Nadav Har'El , Muli Ben-Yehuda , Alex Landau , Assaf Schuster , Dan Tsafrir, ELI: bare-metal performance for I/O virtualization, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151020", 
+            "DOIname": "10.1145/2150976.2151020", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151020"
+        }, 
+        {
+            "ArticleName": "Jaehyung Ahn , Dongup Kwon , Youngsok Kim , Mohammadamin Ajdari , Jaewon Lee , Jangwoo Kim, DCS: a fast and scalable device-centric server architecture, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830794", 
+            "DOIname": "10.1145/2830772.2830794", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830794"
+        }, 
+        {
+            "ArticleName": "Robert Love, Linux Kernel Development, Addison-Wesley Professional, 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855096"
+        }, 
+        {
+            "ArticleName": "\"Gnu coreutils.\" http://www.gnu.org/software/coreutils/coreutils.html."
+        }, 
+        {
+            "ArticleName": "A. Kopytov, \"SysBench: a system performance benchmark.\" http://sysbench.sourceforge.net, 2004."
+        }, 
+        {
+            "ArticleName": "J. Katcher, \"Postmark: A new file system benchmark,\" Tech. Rep. TR3022, Network Appliance, 1997."
+        }, 
+        {
+            "ArticleName": "\"MySQL.\" https://www.mysql.com."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Israel Institute of Technology", 
+            "Name": "Yonatan Gottesman"
+        }, 
+        {
+            "Affiliation": "Israel Institute of Technology", 
+            "Name": "Yoav Etsion"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195650&preflayout=flat"
+}

@@ -1,0 +1,219 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 222, 
+        "Downloads_6Weeks": 12, 
+        "Downloads_cumulative": 222, 
+        "CitationCount": 0
+    }, 
+    "Title": "Software-based gate-level information flow security for IoT systems", 
+    "Abstract": "The growing movement to connect literally everything to the internet (internet of things or IoT) through ultra-low-power embedded microprocessors poses a critical challenge for information security. Gate-level tracking of information flows has been proposed to guarantee information flow security in computer systems. However, such solutions rely on non-commodity, secure-by-design processors. In this work, we observe that the need for secure-by-design processors arises because previous works on gate-level information flow tracking assume no knowledge of the application running in a system. Since IoT systems typically run a single application over and over for the lifetime of the system, we see a unique opportunity to provide application-specific gate-level information flow security for IoT systems. We develop a gate-level symbolic analysis framework that uses knowledge of the application running in a system to efficiently identify all possible information flow security vulnerabilities for the system. We leverage this information to provide security guarantees on commodity processors. We also show that security vulnerabilities identified by our analysis framework can be eliminated through software modifications at 15% energy overhead, on average, obviating the need for secure-by-design hardware. Our framework also allows us to identify and eliminate only the vulnerabilities that an application is prone to, reducing the cost of information flow security by 3.3\u00d7 compared to a software-based approach that assumes no application knowledge.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "M. Stanislav and T. Beardsley, \"Hacking iot: A case study on baby monitor exposures and vulnerabilities,\" 2015."
+        }, 
+        {
+            "ArticleName": "C. Miller and C. Valasek, \"Remote exploitation of an unaltered passenger vehicle,\" Black Hat USA, vol. 2015, 2015."
+        }, 
+        {
+            "ArticleName": "He Wang , Ted Tsung-Te Lai , Romit Roy Choudhury, MoLe: Motion Leaks through Smartwatch Sensors, Proceedings of the 21st Annual International Conference on Mobile Computing and Networking, September 07-11, 2015, Paris, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2789168.2790121", 
+            "DOIname": "10.1145/2789168.2790121", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2790121"
+        }, 
+        {
+            "ArticleName": "S. Sridhar, A. Hahn, and M. Govindarasu, \"Cyber-physical system security for the electric power grid,\" Proceedings of the IEEE, vol. 100, pp. 210--224, Jan 2012."
+        }, 
+        {
+            "ArticleName": "Johannes Sametinger , Jerzy Rozenblit , Roman Lysecky , Peter Ott, Security challenges for medical devices, Communications of the ACM, v.58 n.4, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2667218", 
+            "DOIname": "10.1145/2667218", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2667218"
+        }, 
+        {
+            "ArticleName": "James Clause , Wanchun Li , Alessandro Orso, Dytan: a generic dynamic taint analysis framework, Proceedings of the 2007 international symposium on Software testing and analysis, July 09-12, 2007, London, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273463.1273490", 
+            "DOIname": "10.1145/1273463.1273490", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1273490"
+        }, 
+        {
+            "ArticleName": "Feng Qin , Cheng Wang , Zhenmin Li , Ho-seop Kim , Yuanyuan Zhou , Youfeng Wu, LIFT: A Low-Overhead Practical Information Flow Tracking System for Detecting Security Attacks, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.135-148, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.29", 
+            "DOIname": "10.1109/MICRO.2006.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194834"
+        }, 
+        {
+            "ArticleName": "J. Newsome, \"Dynamic taint analysis for automatic detection, analysis, and signature generation of exploits on commodity software,\" 2005."
+        }, 
+        {
+            "ArticleName": "Manuel Costa , Jon Crowcroft , Miguel Castro , Antony Rowstron , Lidong Zhou , Lintao Zhang , Paul Barham, Vigilante: end-to-end containment of internet worms, Proceedings of the twentieth ACM symposium on Operating systems principles, October 23-26, 2005, Brighton, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/1095810.1095824", 
+            "DOIname": "10.1145/1095810.1095824", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1095824"
+        }, 
+        {
+            "ArticleName": "Wei Xu , Sandeep Bhatkar , R. Sekar, Taint-enhanced policy enforcement: a practical approach to defeat a wide range of attacks, Proceedings of the 15th conference on USENIX Security Symposium, July 31-August 04, 2006, Vancouver, B.C., Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1267345"
+        }, 
+        {
+            "ArticleName": "F. Nentwich, N. Jovanovic, E. Kirda, C. Kruegel, and G. Vigna, \"Cross-site scripting prevention with dynamic data tainting and static analysis,\" in In Proceeding of the Network and Distributed System Security Symposium (NDSS'07, 2007."
+        }, 
+        {
+            "ArticleName": "Michael Dalton , Hari Kannan , Christos Kozyrakis, Raksha: a flexible information flow architecture for software security, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250722", 
+            "DOIname": "10.1145/1250662.1250722", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250722"
+        }, 
+        {
+            "ArticleName": "Shimin Chen , Michael Kozuch , Theodoros Strigkos , Babak Falsafi , Phillip B. Gibbons , Todd C. Mowry , Vijaya Ramachandran , Olatunji Ruwase , Michael Ryan , Evangelos Vlachos, Flexible Hardware Acceleration for Instruction-Grain Program Monitoring, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.377-388, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.20", 
+            "DOIname": "10.1109/ISCA.2008.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382153"
+        }, 
+        {
+            "ArticleName": "G. Venkataramani, I. Doudalis, Y. Solihin, and M. Prvulovic, \"Flexitaint: A programmable accelerator for dynamic taint propagation,\" in 2008 IEEE 14th International Symposium on High Performance Computer Architecture, pp. 173--184, Feb 2008."
+        }, 
+        {
+            "ArticleName": "Haibo Chen , Xi Wu , Liwei Yuan , Binyu Zang , Pen-chung Yew , Frederic T. Chong, From Speculation to Security: Practical and Efficient Information Flow Tracking Using Speculative Hardware, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.401-412, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.18", 
+            "DOIname": "10.1109/ISCA.2008.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382156"
+        }, 
+        {
+            "ArticleName": "Mohit Tiwari , Hassan M.G. Wassel , Bita Mazloom , Shashidhar Mysore , Frederic T. Chong , Timothy Sherwood, Complete information flow tracking from the gates up, ACM SIGPLAN Notices, v.44 n.3, March 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508284.1508258", 
+            "DOIname": "10.1145/1508284.1508258", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508258"
+        }, 
+        {
+            "ArticleName": "Wei Hu , Jason Oberg , Ali Irturk , Mohit Tiwari , Timothy Sherwood , Dejun Mu , Ryan Kastner, On the Complexity of Generating Gate Level Information Flow Tracking Logic, IEEE Transactions on Information Forensics and Security, v.7 n.3, p.1067-1080, June 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TIFS.2012.2189105", 
+            "DOIname": "10.1109/TIFS.2012.2189105", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2713691"
+        }, 
+        {
+            "ArticleName": "Mohit Tiwari , Xun Li , Hassan M. G. Wassel , Frederic T. Chong , Timothy Sherwood, Execution leases: a hardware-supported mechanism for enforcing strong non-interference, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669174", 
+            "DOIname": "10.1145/1669112.1669174", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669174"
+        }, 
+        {
+            "ArticleName": "Mohit Tiwari , Jason K. Oberg , Xun Li , Jonathan Valamehr , Timothy Levin , Ben Hardekopf , Ryan Kastner , Frederic T. Chong , Timothy Sherwood, Crafting a usable microkernel, processor, and I/O system with strict and provable information flow security, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000087", 
+            "DOIname": "10.1145/2000064.2000087", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000087"
+        }, 
+        {
+            "ArticleName": "\"Products with an MSP430.\" http://43oh.com/2012/03/winner-products-using-the-msp430/."
+        }, 
+        {
+            "ArticleName": "Xun Li , Mohit Tiwari , Jason K. Oberg , Vineeth Kashyap , Frederic T. Chong , Timothy Sherwood , Ben Hardekopf, Caisson: a hardware description language for secure information flow, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993512", 
+            "DOIname": "10.1145/1993498.1993512", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993512"
+        }, 
+        {
+            "ArticleName": "Xun Li , Vineeth Kashyap , Jason K. Oberg , Mohit Tiwari , Vasanth Ram Rajarathinam , Ryan Kastner , Timothy Sherwood , Ben Hardekopf , Frederic T. Chong, Sapper: a language for hardware-level security policy enforcement, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541947", 
+            "DOIname": "10.1145/2541940.2541947", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541947"
+        }, 
+        {
+            "ArticleName": "Danfeng Zhang , Yao Wang , G. Edward Suh , Andrew C. Myers, A Hardware Design Language for Timing-Sensitive Information-Flow Security, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694372", 
+            "DOIname": "10.1145/2694344.2694372", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694372"
+        }, 
+        {
+            "ArticleName": "Andrew Ferraiuolo , Rui Xu , Danfeng Zhang , Andrew C. Myers , G. Edward Suh, Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037739", 
+            "DOIname": "10.1145/3037697.3037739", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037739"
+        }, 
+        {
+            "ArticleName": "Cristian Cadar , Koushik Sen, Symbolic execution for software testing: three decades later, Communications of the ACM, v.56 n.2, February 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2408776.2408795", 
+            "DOIname": "10.1145/2408776.2408795", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2408795"
+        }, 
+        {
+            "ArticleName": "Kiyoharu Hamaguchi, Symbolic Simulation Heuristics for High-Level Design Descriptions with Uninterpreted Functions, Proceedings of the Sixth IEEE International High-Level Design Validation and Test Workshop (HLDVT'01), p.25, December 07-09, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822332"
+        }, 
+        {
+            "ArticleName": "\"International Technology Roadmap for Semiconductors 2.0 2015 Edition Executive Report.\" http://www.semiconductors.org/main/2015_international_technology_-roadmap_for_semiconductors_itrs/."
+        }, 
+        {
+            "ArticleName": "G. Press, \"Internet of Things By The Numbers: Market Estimates And Forecasts,\" Forbes, 2014."
+        }, 
+        {
+            "ArticleName": "O. Girard, \"OpenMSP430 project,\" available at opencores.org, 2013."
+        }, 
+        {
+            "ArticleName": "Wikipedia, \"List of wireless sensor nodes,\" 2016. {Online; accessed 7-April-2016}."
+        }, 
+        {
+            "ArticleName": "J. Borgeson, \"Ultra-low-power pioneers: TI slashes total MCU power by 50 percent with new \"Wolverine\" MCU platform,\" Texas Instruments White Paper, 2012."
+        }, 
+        {
+            "ArticleName": "Synopsys, Design Compiler User Guide."
+        }, 
+        {
+            "ArticleName": "Cadence, Encounter Digital Implementation User Guide."
+        }, 
+        {
+            "ArticleName": "Bo Zhai , Sanjay Pant , Leyla Nazhandali , Scott Hanson , Javin Olson , Anna Reeves , Michael Minuth , Ryan Helfand , Todd Austin , Dennis Sylvester , David Blaauw, Energy-efficient subthreshold processor design, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.17 n.8, p.1127-1137, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2008.2007564", 
+            "DOIname": "10.1109/TVLSI.2008.2007564", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1721442"
+        }, 
+        {
+            "ArticleName": "\"EEMBC, Embedded Microprocessor Benchmark Consortium.\" http://www.eembc.org."
+        }, 
+        {
+            "ArticleName": "\"The FreeRTOS website.\" http://www.freertos.org/."
+        }, 
+        {
+            "ArticleName": "M. Magno, L. Benini, C. Spagnol, and E. Popovici, \"Wearable low power dry surface wireless sensor node for healthcare monitoring application,\" in Wireless and Mobile Computing, Networking and Communications (WiMob), 2013 IEEE 9th International Conference on, pp. 189--195, IEEE, 2013."
+        }, 
+        {
+            "ArticleName": "R. Yu and T. Watteyne, \"Reliable, Low Power Wireless Sensor Networks for the Internet of Things: Making Wireless Sensors as Accessible as Web Servers,\" Linear Technology, 2013."
+        }, 
+        {
+            "ArticleName": "A. Dunkels, J. Eriksson, N. Finne, F. Osterlind, N. Tsiftes, J. Abeill\u00e9, and M. Durvy, \"Low-Power IPv6 for the internet of things,\" in Networked Sensing Systems (INSS), 2012 Ninth International Conference on, pp. 1--6, IEEE, 2012."
+        }, 
+        {
+            "ArticleName": "Russell Tessier , David Jasinski , Atul Maheshwari , Aiyappan Natarajan , Weifeng Xu , Wayne Burleson, An energy-aware active smart card, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.13 n.10, p.1190-1199, October 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2005.859471", 
+            "DOIname": "10.1109/TVLSI.2005.859471", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1962054"
+        }, 
+        {
+            "ArticleName": "C. Park, P. H. Chou, Y. Bai, R. Matthews, and A. Hibbs, \"An ultra-wearable, wireless, low power ECG monitoring system,\" in Biomedical Circuits and Systems Conference, 2006. BioCAS 2006. IEEE, pp. 241--244, IEEE, 2006."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Minnesota", 
+            "Name": "Hari Cherupalli"
+        }, 
+        {
+            "Affiliation": "Iowa State University", 
+            "Name": "Henry Duwe"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Weidong Ye"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Rakesh Kumar"
+        }, 
+        {
+            "Affiliation": "University of Minnesota", 
+            "Name": "John Sartori"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123955&preflayout=flat"
+}

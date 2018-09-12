@@ -1,0 +1,241 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 11, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 11, 
+        "CitationCount": 0
+    }, 
+    "Title": "Contention-based congestion management in large-scale networks", 
+    "Abstract": "Global adaptive routing exploits non-minimal paths to improve performance on adversarial traffic patterns and load-balance network channels in large-scale networks. However, most prior work on global adaptive routing have assumed admissible traffic pattern where no endpoint node is oversubscribed. In the presence of a greedy flow or hotspot traffic, we show how exploiting path diversity with global adaptive routing can spread network congestion and degrade performance. When global adaptive routing is combined with congestion management, the two types of congestion - network congestion that occurs within the interconnection network channels and endpoint congestion that occurs from oversubscribed endpoint nodes - are not properly differentiated. As a result, previously proposed congestion management mechanisms that are effective in addressing endpoint congestion are not necessarily effective when global adaptive routing is also used in the network. Thus, we propose a novel, low-cost contention-based congestion management (CBCM) to identify endpoint congestion based on the contention within the intermediate routers and at the endpoint nodes. While contention also occurs for network congestion, the endpoint nodes or the destination determines whether the congestion is endpoint congestion or network congestion. If it is only network congestion, CBCM ignores the network congestion and adaptive routing is allowed to minimize network congestion. However, if endpoint congestion occurs, CBCM throttles the hotspot senders and minimally route the traffic through a separate VC. Our evaluation across different traffic patterns and network sizes demonstrates that our approach is more robust in identifying endpoint congestion in the network while complementing global adaptive routing to avoid network congestion.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "William James Dally , Brian Patrick Towles, Principles and Practices of Interconnection Networks, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2821589"
+        }, 
+        {
+            "ArticleName": "Dennis Abts , John Kim, High Performance Datacenter Networks: Architectures, Algorithms, & Opportunities, Morgan & Claypool Publishers, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2012054"
+        }, 
+        {
+            "ArticleName": "John Kim , William J. Dally , Brian Towles , Amit K. Gupta, Microarchitecture of a High-Radix Router, Proceedings of the 32nd annual international symposium on Computer Architecture, p.420-431, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.35", 
+            "DOIname": "10.1109/ISCA.2005.35", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070005"
+        }, 
+        {
+            "ArticleName": "John Kim , William J. Dally , Dennis Abts, Flattened butterfly: a cost-efficient topology for high-radix networks, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250679", 
+            "DOIname": "10.1145/1250662.1250679", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250679"
+        }, 
+        {
+            "ArticleName": "John Kim , William Dally , Steve Scott , Dennis Abts, Cost-Efficient Dragonfly Topology for Large-Scale Systems, IEEE Micro, v.29 n.1, p.33-40, January 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2009.5", 
+            "DOIname": "10.1109/MM.2009.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1512277"
+        }, 
+        {
+            "ArticleName": "Greg Faanes , Abdulla Bataineh , Duncan Roweth , Tom Court , Edwin Froese , Bob Alverson , Tim Johnson , Joe Kopnick , Mike Higgins , James Reinhard, Cray cascade: a scalable HPC system based on a Dragonfly network, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 10-16, 2012, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2389136"
+        }, 
+        {
+            "ArticleName": "Baba Arimilli , Ravi Arimilli , Vicente Chung , Scott Clark , Wolfgang Denzel , Ben Drerup , Torsten Hoefler , Jody Joyner , Jerry Lewis , Jian Li , Nan Ni , Ram Rajamony, The PERCS High-Performance Interconnect, Proceedings of the 2010 18th IEEE Symposium on High Performance Interconnects, p.75-82, August 18-20, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/HOTI.2010.16", 
+            "DOIname": "10.1109/HOTI.2010.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1902282"
+        }, 
+        {
+            "ArticleName": "A. Singh, \"Load-balanced routing in interconnection networks,\" Ph.D. dissertation, Stanford University, 2005."
+        }, 
+        {
+            "ArticleName": "Marina Garc\u00eda , Enrique Vallejo , Ram\u00f3n Beivide , Miguel Odriozola , Mateo Valero, Efficient Routing Mechanisms for Dragonfly Networks, Proceedings of the 2013 42nd International Conference on Parallel Processing, p.582-592, October 01-04, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2013.72", 
+            "DOIname": "10.1109/ICPP.2013.72", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2571114"
+        }, 
+        {
+            "ArticleName": "Nan Jiang , John Kim , William J. Dally, Indirect adaptive routing on large scale interconnection networks, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555783", 
+            "DOIname": "10.1145/1555754.1555783", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555783"
+        }, 
+        {
+            "ArticleName": "J. Won, G. Kim, J. Kim, T. Jiang, M. Parker, and S. Scott, \"Overcoming far-end congestion in large-scale networks,\" in Proceedings of HPCA'15, pp. 415--427."
+        }, 
+        {
+            "ArticleName": "Nan Jiang , Daniel U. Becker , George Michelogiannakis , William J. Dally, Network congestion avoidance through Speculative Reservation, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169047", 
+            "DOIname": "10.1109/HPCA.2012.6169047", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192662"
+        }, 
+        {
+            "ArticleName": "George Michelogiannakis , Nan Jiang , Daniel Becker , William J. Dally, Channel reservation protocol for over-subscribed channels and destinations, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 17-21, 2013, Denver, Colorado", 
+            "DOIhref": "http://doi.acm.org/10.1145/2503210.2503213", 
+            "DOIname": "10.1145/2503210.2503213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2503213"
+        }, 
+        {
+            "ArticleName": "Nan Jiang , Larry Dennison , William J. Dally, Network endpoint congestion control for fine-grained communication, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2807591.2807600", 
+            "DOIname": "10.1145/2807591.2807600", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807600"
+        }, 
+        {
+            "ArticleName": "J. Duato , I. Johnson , J. Flich , F. Naven , P. Garcia , T. Nachiondo, A New Scalable and Cost-Effective Congestion Management Strategy for Lossless Multistage Interconnection Networks, Proceedings of the 11th International Symposium on High-Performance Computer Architecture, p.108-119, February 12-16, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2005.1", 
+            "DOIname": "10.1109/HPCA.2005.1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1043401"
+        }, 
+        {
+            "ArticleName": "Jesus Escudero-Sahuquillo , Pedro J. Garcia , Francisco J. Quiles , Jose Flich , Jose Duato, An Effective and Feasible Congestion Management Technique for High-Performance MINs with Tag-Based Distributed Routing, IEEE Transactions on Parallel and Distributed Systems, v.24 n.10, p.1918-1929, October 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2012.303", 
+            "DOIname": "10.1109/TPDS.2012.303", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2553606"
+        }, 
+        {
+            "ArticleName": "N. McKeown, A. Mekkittikul, V. Anantharam, and J. Walrand, \"Achieving 100% throughput in an input-queued switch,\" Communications, IEEE Transactions on, vol. 47, no. 8, pp. 1260--1267, Aug 1999."
+        }, 
+        {
+            "ArticleName": "Arjun Singh , William J. Dally , Amit K. Gupta , Brian Towles, GOAL: a load-balanced adaptive routing algorithm for torus networks, Proceedings of the 30th annual international symposium on Computer architecture, June 09-11, 2003, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/859618.859641", 
+            "DOIname": "10.1145/859618.859641", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859641"
+        }, 
+        {
+            "ArticleName": "J. Santos, Y. Turner, and G. Janakiraman, \"End-to-end congestion control for infiniband,\" in Proceedings of INFOCOM'03, pp. 1123--1133 vol.2."
+        }, 
+        {
+            "ArticleName": "Joan-LLu\u00eds Ferrer , Elvira Baydal , Antonio Robles , Pedro L\u00f3pez , Jos\u00e9 Duato, A Scalable and Early Congestion Management Mechanism for MINs, Proceedings of the 2010 18th Euromicro Conference on Parallel, Distributed and Network-based Processing, p.43-50, February 17-19, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/PDP.2010.36", 
+            "DOIname": "10.1109/PDP.2010.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1800393"
+        }, 
+        {
+            "ArticleName": "Joan-LLuis Ferrer , Elvira Baydal , Antonio Robles , Pedro Lopez , Jose Duato, Congestion Management in MINs through Marked and Validated Packets, Proceedings of the 15th Euromicro International Conference on Parallel, Distributed and Network-Based Processing, p.254-261, February 07-09, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/PDP.2007.32", 
+            "DOIname": "10.1109/PDP.2007.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1263637"
+        }, 
+        {
+            "ArticleName": "G. F. Pfister and V. A. Norton, \"Hot spot contention and combining in multistage interconnection networks,\" IEEE Transactions on Computers, vol. 34, no. 10, pp. 943--948, 1985."
+        }, 
+        {
+            "ArticleName": "M. Karol, M. Hluchyj, and S. Morgan, \"Input versus output queueing on a space-division packet switch,\" Communications, IEEE Transactions on, vol. 35, no. 12, pp. 1347--1356, Dec 1987."
+        }, 
+        {
+            "ArticleName": "\"Infiniband architecture specification,\" volume 1, release 1.2.1, Infiniband trade association. {Online}. Available: http://www.infinibandta.org."
+        }, 
+        {
+            "ArticleName": "William J. Dally, Virtual-channel flow control, Proceedings of the 17th annual international symposium on Computer Architecture, p.60-68, May 28-31, 1990, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/325164.325115", 
+            "DOIname": "10.1145/325164.325115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325115"
+        }, 
+        {
+            "ArticleName": "N. Jiang, D. Becker, G. Michelogiannakis, J. Balfour, B. Towles, D. Shaw, J. Kim, and W. Dally, \"A detailed and flexible cycle-accurate network-on-chip simulator,\" in Proceedings of ISPASS'13, pp. 86--96."
+        }, 
+        {
+            "ArticleName": "Helgi Adalsteinsson , Scott Cranford , David A. Evensky , Joseph P. Kenny , Jackson Mayo , Ali Pinar , Curtis L. Janssen, A Simulator for Large-Scale Parallel Computer Architectures, International Journal of Distributed Systems and Technologies, v.1 n.2, p.57-73, April 2010", 
+            "DOIhref": "https://dx.doi.org/10.4018/jdst.2010040104", 
+            "DOIname": "10.4018/jdst.2010040104", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2438500"
+        }, 
+        {
+            "ArticleName": "A. L. McPherson, H. Dong, M. Ravishankar, P. Sathre, M. B. Sullivan, W. Taitano, J. A. Willert, T. C. Germann, D. A. Knoll, B. R. Lally, P. S. McCormick,, and S. D. Pakin, \"Quasi diffusion accelerated monte carlo,\" Tech. Rep., 2011, Los Alamos National Laboratory."
+        }, 
+        {
+            "ArticleName": "D. F. Richards , J. N. Glosli , B. Chan , M. R. Dorr , E. W. Draeger , J.-L. Fattebert , W. D. Krauss , T. Spelce , F. H. Streitz , M. P. Surh , J. A. Gunnels, Beyond homogeneous decomposition: scaling long-range forces on Massively Parallel Systems, Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis, November 14-20, 2009, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/1654059.1654121", 
+            "DOIname": "10.1145/1654059.1654121", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1654121"
+        }, 
+        {
+            "ArticleName": "J. Bell, A. Almgren, V. Beckner, M. Day, M. Lijewski, A. Nonaka, and W. Zhang, \"Boxlib user guide,\" 2013, Center for Computational Sciences and Engineering, Lawrence Berkeley National Laboratory."
+        }, 
+        {
+            "ArticleName": "\"Characterization of the doe mini-apps,\" National Energy Research Scientific Computing Center. {Online}. Available: http://portal.nersc.gov/project/CAL/doe-miniapps.htm."
+        }, 
+        {
+            "ArticleName": "Steve Scott , Dennis Abts , John Kim , William J. Dally, The BlackWidow High-Radix Clos Network, Proceedings of the 33rd annual international symposium on Computer Architecture, p.16-28, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.40", 
+            "DOIname": "10.1109/ISCA.2006.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136488"
+        }, 
+        {
+            "ArticleName": "G. Pfister, M. Gusat, W. Denzel, D. Craddock, N. Ni, W. Rooney, T. Engbersen, R. Luijten, R. Krishnamurthy, and J. Duato, \"Solving hot spot contention using infiniband architecture congestion control,\" Proceedings of HP-IPC'05."
+        }, 
+        {
+            "ArticleName": "Joan-Llu\u00eds Ferrer , Elvira Baydal , Antonio Robles , Pedro L\u00f3pez , Jos\u00e9 Duato, On the Influence of the Packet Marking and Injection Control Schemes in Congestion Management for MINs, Proceedings of the 14th international Euro-Par conference on Parallel Processing, August 26-29, 2008, Las Palmas de Gran Canaria, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-85451-7_100", 
+            "DOIname": "10.1007/978-3-540-85451-7_100", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1429736"
+        }, 
+        {
+            "ArticleName": "L.-S. Peh and W. Dally, \"Flit-reservation flow control,\" in Proceedings of HPCA'00, pp. 73--84."
+        }, 
+        {
+            "ArticleName": "Yong Ho Song , Timothy Mark Pinkston, Distributed Resolution of Network Congestion and Potential Deadlock Using Reservation-Based Scheduling, IEEE Transactions on Parallel and Distributed Systems, v.16 n.8, p.686-701, August 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2005.93", 
+            "DOIname": "10.1109/TPDS.2005.93", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070731"
+        }, 
+        {
+            "ArticleName": "Yanpei Chen , Rean Griffith , Junda Liu , Randy H. Katz , Anthony D. Joseph, Understanding TCP incast throughput collapse in datacenter networks, Proceedings of the 1st ACM workshop on Research on enterprise networking, August 21-21, 2009, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/1592681.1592693", 
+            "DOIname": "10.1145/1592681.1592693", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1592693"
+        }, 
+        {
+            "ArticleName": "Pablo Fuentes , Enrique Vallejo , Marina Garc\u00eda , Ram\u00f3n Beivide , Germ\u00e1n Rodr\u00edguez , Cyriel Minkenberg , Mateo Valero, Contention-Based Nonminimal Adaptive Routing in High-Radix Networks, Proceedings of the 2015 IEEE International Parallel and Distributed Processing Symposium, p.103-112, May 25-29, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2015.78", 
+            "DOIname": "10.1109/IPDPS.2015.78", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2864018"
+        }, 
+        {
+            "ArticleName": "P. Gratz, B. Grot, and S. Keckler, \"Regional congestion awareness for load balance in networks-on-chip,\" in Proceedings of HPCA'08, pp. 203--214."
+        }, 
+        {
+            "ArticleName": "Sheng Ma , Natalie Enright Jerger , Zhiying Wang, DBAR: an efficient routing algorithm to support multiple concurrent applications in networks-on-chip, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000113", 
+            "DOIname": "10.1145/2000064.2000113", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000113"
+        }, 
+        {
+            "ArticleName": "W. J. Dally , H. Aoki, Deadlock-Free Adaptive Routing in Multicomputer Networks Using Virtual Channels, IEEE Transactions on Parallel and Distributed Systems, v.4 n.4, p.466-475, April 1993", 
+            "DOIhref": "https://dx.doi.org/10.1109/71.219761", 
+            "DOIname": "10.1109/71.219761", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629170"
+        }, 
+        {
+            "ArticleName": "Jongman Kim , Dongkook Park , T. Theocharides , N. Vijaykrishnan , Chita R. Das, A low latency router supporting adaptivity for on-chip interconnects, Proceedings of the 42nd annual Design Automation Conference, June 13-17, 2005, Anaheim, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065579.1065726", 
+            "DOIname": "10.1145/1065579.1065726", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065726"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "KAIST", 
+            "Name": "Gwangsun Kim"
+        }, 
+        {
+            "Affiliation": "KAIST", 
+            "Name": "Changhyun Kim"
+        }, 
+        {
+            "Affiliation": "KAIST", 
+            "Name": "Jiyun Jeong"
+        }, 
+        {
+            "Affiliation": "Intel Corp.", 
+            "Name": "Mike Parker"
+        }, 
+        {
+            "Affiliation": "KAIST", 
+            "Name": "John Kim"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195674&preflayout=flat"
+}

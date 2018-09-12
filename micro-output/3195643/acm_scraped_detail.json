@@ -1,0 +1,196 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 13, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 13, 
+        "CitationCount": 0
+    }, 
+    "Title": "Register sharing for equality prediction", 
+    "Abstract": "Recently, Value Prediction (VP) has been gaining renewed traction in the research community. VP speculates on the result of instructions to increase Instruction Level Parallelism (ILP). In most embodiments, VP requires large tables to track predictions for many static instructions. However, in many cases, it is possible to detect that the result of an instruction is produced by an older inflight instruction, but not to predict the result itself. Consequently it is possible to rely on predicting register equality and handle speculation through the renamer. To do so, we propose to use Distance Prediction, a technique that was previously used to perform Speculative Memory Bypassing (short-circuiting def-store-load-use chains). Distance Prediction attempts to determine how many instructions separate the instruction of interest and the most recent older instruction that produced the same result. With this information, the physical register identifier of the older instruction can be retrieved from the ROB and provided to the renamer. In this paper, we first quantify the performance gains brought by renaming-based register equality prediction and regular VP on SPEC benchmarks. Second, we study the overlap between the two different schemes and show that those mechanisms often capture different behavior.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Intel, Intel 64 and IA-32 Architectures Software Developer's Manual, September 2013."
+        }, 
+        {
+            "ArticleName": "Intel. (2014, September) Software optimization manual. {Online}. Available: http://www..fr/content/www/fr/fr/architecture-and-technology/64-ia-32-architectures-optimization-manual.html"
+        }, 
+        {
+            "ArticleName": "Mikko H. Lipasti , Christopher B. Wilkerson , John Paul Shen, Value locality and load value prediction, Proceedings of the seventh international conference on Architectural support for programming languages and operating systems, p.138-147, October 01-04, 1996, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/237090.237173", 
+            "DOIname": "10.1145/237090.237173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=237173"
+        }, 
+        {
+            "ArticleName": "Mikko H. Lipasti , John Paul Shen, Exceeding the dataflow limit via value prediction, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.226-237, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243889"
+        }, 
+        {
+            "ArticleName": "A. Mendelson and F. Gabbay, \"Speculative execution based on value prediction,\" Technion-Israel Institute of Technology, Tech. Rep. TR1080, 1997."
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec, \"BeBoP: A cost effective predictor infrastructure for superscalar value prediction,\" in Proceedings of the International Symposium on High Performance Computer Architecture, 2015."
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec, \"Practical data value speculation for future high-end processors,\" in Proceedings of the International Symposium on High-Performance Computer Architecture, 2014."
+        }, 
+        {
+            "ArticleName": "Arthur Perais , Andr\u00e9 Seznec, EOLE: paving the way for an effective implementation of value prediction, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665742"
+        }, 
+        {
+            "ArticleName": "Dean M. Tullsen , John S. Seng, Storageless value prediction using prior register values, Proceedings of the 26th annual international symposium on Computer architecture, p.270-279, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.301002", 
+            "DOIname": "10.1145/300979.301002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=301002"
+        }, 
+        {
+            "ArticleName": "Tingting Sha , Milo M. K. Martin , Amir Roth, NoSQ: Store-Load Communication without a Store Queue, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.285-296, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.39", 
+            "DOIname": "10.1109/MICRO.2006.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194845"
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec, \"Cost-effective physical register sharing,\" in Proceedings of the International Symposium on High-performance Computer Architecture. IEEE Computer Society, 2016, p. TBD."
+        }, 
+        {
+            "ArticleName": "Steven Battle , Andrew D. Hilton , Mark Hempstead , Amir Roth, Flexible register management using reference counting, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169033", 
+            "DOIname": "10.1109/HPCA.2012.6169033", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192686"
+        }, 
+        {
+            "ArticleName": "Amir Roth, Physical Register Reference Counting, IEEE Computer Architecture Letters, v.7 n.1, p.9-12, January 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2007.15", 
+            "DOIname": "10.1109/L-CA.2007.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1383080"
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Benjamin G. Zorn, Exploring Last n Value Prediction, Proceedings of the 1999 International Conference on Parallel Architectures and Compilation Techniques, p.66, October 12-16, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825757"
+        }, 
+        {
+            "ArticleName": "Brad Calder , Glenn Reinman , Dean M. Tullsen, Selective value prediction, Proceedings of the 26th annual international symposium on Computer architecture, p.64-74, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300985", 
+            "DOIname": "10.1145/300979.300985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300985"
+        }, 
+        {
+            "ArticleName": "Freddy Gabbay , Avi Mendelson, The effect of instruction fetch bandwidth on value prediction, Proceedings of the 25th annual international symposium on Computer architecture, p.272-281, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.278058", 
+            "DOIname": "10.1145/279358.278058", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=278058"
+        }, 
+        {
+            "ArticleName": "Freddy Gabbay , Avi Mendelson, Using value prediction to increase the power of speculative execution hardware, ACM Transactions on Computer Systems (TOCS), v.16 n.3, p.234-270, Aug. 1998", 
+            "DOIhref": "http://doi.acm.org/10.1145/290409.290411", 
+            "DOIname": "10.1145/290409.290411", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=290411"
+        }, 
+        {
+            "ArticleName": "Bart Goeman , Hans Vandierendonck , Koen de Bosschere, Differential FCM: Increasing Value Prediction Accuracy by Improving Table Usage Efficiency, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.207, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876442"
+        }, 
+        {
+            "ArticleName": "Bohuslav Rychlik , John Faistl , Bryon Krug , John P. Shen, Efficacy and Performance Impact of Value Prediction, Proceedings of the 1998 International Conference on Parallel Architectures and Compilation Techniques, p.148, October 12-18, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825671"
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides , James E. Smith, The predictability of data values, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.248-258, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266824"
+        }, 
+        {
+            "ArticleName": "Y. Sazeides and J. Smith, \"Implementations of context based value predictors,\" Department of Electrical and Computer Engineering, University of Wisconsin-Madison, Tech. Rep. ECE97--8, 1998."
+        }, 
+        {
+            "ArticleName": "Avinash Sodani , Gurindar S. Sohi, Understanding the differences between value prediction and instruction reuse, Proceedings of the 31st annual ACM/IEEE international symposium on Microarchitecture, p.205-215, November 1998, Dallas, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=290983"
+        }, 
+        {
+            "ArticleName": "Kai Wang , Manoj Franklin, Highly accurate data value prediction using hybrid predictors, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.281-290, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266827"
+        }, 
+        {
+            "ArticleName": "Huiyang Zhou , Jill Flanagan , Thomas M. Conte, Detecting global stride locality in value streams, Proceedings of the 30th annual international symposium on Computer architecture, June 09-11, 2003, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/859618.859656", 
+            "DOIname": "10.1145/859618.859656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859656"
+        }, 
+        {
+            "ArticleName": "A. Seznec, \"A 64-Kbytes ITTAGE indirect branch predictor,\" Journal of Instruction-Level Parallelism, 2011."
+        }, 
+        {
+            "ArticleName": "Stephen Jourdan , Ronny Ronen , Michael Bekerman , Bishara Shomar , Adi Yoaz, A novel renaming scheme to exploit value temporal locality through physical register reuse and unification, Proceedings of the 31st annual ACM/IEEE international symposium on Microarchitecture, p.216-225, November 1998, Dallas, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=290985"
+        }, 
+        {
+            "ArticleName": "Vlad Petric , Anne Bracy , Amir Roth, Three extensions to register integration, Proceedings of the 35th annual ACM/IEEE international symposium on Microarchitecture, November 18-22, 2002, Istanbul, Turkey", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=774866"
+        }, 
+        {
+            "ArticleName": "Vlad Petric , Tingting Sha , Amir Roth, RENO: A Rename-Based Instruction Optimizer, Proceedings of the 32nd annual international symposium on Computer Architecture, p.98-109, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.43", 
+            "DOIname": "10.1109/ISCA.2005.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069980"
+        }, 
+        {
+            "ArticleName": "Brian Fahs , Todd Rafacz , Sanjay J. Patel , Steven S. Lumetta, Continuous Optimization, Proceedings of the 32nd annual international symposium on Computer Architecture, p.86-97, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.19", 
+            "DOIname": "10.1109/ISCA.2005.19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069967"
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation. (2006) CPU. {Online}. Available: http://www.spec.org/cpu2006/"
+        }, 
+        {
+            "ArticleName": "A. Seznec and P. Michaud, \"A case for (partially) TAgged GEometric history length branch prediction,\" Journal of Instruction Level Parallelism, vol. 8, 2006."
+        }, 
+        {
+            "ArticleName": "N. Riley and C. B. Zilles, \"Probabilistic counter updates for predictor hysteresis and stratification,\" in Proceedings of the International Symposium on High Performance Computer Architecture, 2006."
+        }, 
+        {
+            "ArticleName": "V. Zyuban , P. Kogge, The energy complexity of register files, Proceedings of the 1998 international symposium on Low power electronics and design, p.305-310, August 10-12, 1998, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/280756.280943", 
+            "DOIname": "10.1145/280756.280943", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=280943"
+        }, 
+        {
+            "ArticleName": "Andr\u00e9 Seznec , Stephen Felix , Venkata Krishnan , Yiannakis Sazeides, Design tradeoffs for the Alpha EV8 conditional branch predictor, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545249"
+        }, 
+        {
+            "ArticleName": "Peter G. Sassone , Jeff Rupley, II , Edward Brekelbaum , Gabriel H. Loh , Bryan Black, Matrix scheduler reloaded, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250704", 
+            "DOIname": "10.1145/1250662.1250704", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250704"
+        }, 
+        {
+            "ArticleName": "George Z. Chrysos , Joel S. Emer, Memory dependence prediction using store sets, Proceedings of the 25th annual international symposium on Computer architecture, p.142-153, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.279378", 
+            "DOIname": "10.1145/279358.279378", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=279378"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "INRIA/IRISA", 
+            "Name": "Arthur Perais"
+        }, 
+        {
+            "Affiliation": "INRIA/IRISA", 
+            "Name": "Fernando A. Endo"
+        }, 
+        {
+            "Affiliation": "INRIA/IRISA", 
+            "Name": "Andr\u00e9 Seznec"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195643&preflayout=flat"
+}

@@ -1,0 +1,279 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 11, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 11, 
+        "CitationCount": 0
+    }, 
+    "Title": "Dynamic error mitigation in NoCs using intelligent prediction techniques", 
+    "Abstract": "Network-on-chips (NoCs) are quickly becoming the standard communication fabric for multi-core systems. As technology continues to scale down into the nanometer regime, device behavior will become increasingly unreliable due to a combination of aging, soft errors, aggressive transistor design, and process-voltage-temperature variations. Further, stringent timing constraints in NoCs are designed so that data can be pushed faster. The net result is an increase in errors which must be mitigated by the NoC. Typical techniques for handling faults are often reactive as they respond to faults after the error has occurred, making the recovery process inefficient in energy and time. In this paper, we take a different approach wherein we propose to use proactive, fault-tolerant schemes to be employed before the fault affects the system. We propose to utilize machine learning techniques to train a decision tree which can be used to predict faults efficiently in the network. Based on the prediction model, we dynamically mitigate these predicted faults through error correction codes (ECC) and relaxed timing transmission. Our results indicate that, on average, we can accurately predict timing errors 60.6% better than a static single error correction and double error detection (SECDED) technique resulting in an average 26.8% reduction in retransmitted packets, a average net speedup of 3.31X, and an average energy savings of 60.0% over other designs for real traffic patterns.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "J. Held, \"Single-chip cloud computer: An experimental many-core processor from intel labs.\" Presented at Intel Labs Single-chip Cloud Computer Symposium, Santa Clara, California, 2010."
+        }, 
+        {
+            "ArticleName": "M. Mattina, \"Architecture and performance of the tile-gx processor family,\" White Paper, Tilera Corporation."
+        }, 
+        {
+            "ArticleName": "B. de Dinechin, R. Ayrignac, P.-E. Beaucamps, P. Couvert, B. Ganne, P. de Massas, F. Jacquet, S. Jones, N. Chaisemartin, F. Riss, and T. Strudel, \"A clustered manycore processor architecture for embedded and accelerated applications,\" in High Performance Extreme Computing Conference (HPEC), 2013."
+        }, 
+        {
+            "ArticleName": "Luca Benini , Giovanni De Micheli, Networks on Chips: A New SoC Paradigm, Computer, v.35 n.1, p.70-78, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.976921", 
+            "DOIname": "10.1109/2.976921", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621885"
+        }, 
+        {
+            "ArticleName": "William J. Dally , Brian Towles, Route packets, not wires: on-chip inteconnection networks, Proceedings of the 38th annual Design Automation Conference, p.684-689, June 2001, Las Vegas, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378239.379048", 
+            "DOIname": "10.1145/378239.379048", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379048"
+        }, 
+        {
+            "ArticleName": "Paul Friedberg , Yu Cao , Jason Cain , Ruth Wang , Jan Rabaey , Costas Spanos, Modeling Within-Die Spatial Correlation Effects for Process-Design Co-Optimization, Proceedings of the 6th International Symposium on Quality of Electronic Design, p.516-521, March 21-23, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISQED.2005.82", 
+            "DOIname": "10.1109/ISQED.2005.82", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1049713"
+        }, 
+        {
+            "ArticleName": "M. Orshansky, L. Milor, and C. Hu, \"Characterization of spatial intrafield gate cd variability, its impact on circuit performance, and spatial masklevel correction,\" IEEE Transactions on Semiconductor Manufacturing, vol. 17, no. 1, pp. 2--11, Feb 2004."
+        }, 
+        {
+            "ArticleName": "B. Stine, D. Boning, and J. Chung, \"Analysis and decomposition of spatial variation in integrated circuit processes and devices,\" IEEE Transactions on Semiconductor Manufacturing, vol. 10, no. 1, pp. 24--41, Feb 1997."
+        }, 
+        {
+            "ArticleName": "Shekhar Borkar , Tanay Karnik , Vivek De, Design and reliability challenges in nanometer technologies, Proceedings of the 41st annual Design Automation Conference, June 07-11, 2004, San Diego, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/996566.996588", 
+            "DOIname": "10.1145/996566.996588", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=996588"
+        }, 
+        {
+            "ArticleName": "S. Sarangi, B. Greskamp, R. Teodorescu, J. Nakano, A. Tiwari, and J. Torrellas, \"Varius: A model of process variation and resulting timing errors for microarchitects,\" IEEE Transactions on Semiconductor Manufacturing, vol. 21, no. 1, pp. 3--13, Feb 2008."
+        }, 
+        {
+            "ArticleName": "Hyungjun Kim , Arseniy Vitkovskiy , Paul V. Gratz , Vassos Soteriou, Use it or lose it: wear-out and lifetime in future chip multiprocessors, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540721", 
+            "DOIname": "10.1145/2540708.2540721", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540721"
+        }, 
+        {
+            "ArticleName": "JEDEC Solid State Technology Association, \"Failure mechanisms and models for semiconductor devices,\" JEP122G, 2011."
+        }, 
+        {
+            "ArticleName": "Fabian Oboril , Mehdi B. Tahoori, ExtraTime: Modeling and analysis of wearout due to transistor aging at microarchitecture-level, Proceedings of the 2012 42nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), p.1-12, June 25-28, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2355129"
+        }, 
+        {
+            "ArticleName": "Dean Michael Ancajas , James McCabe Nickerson , Koushik Chakraborty , Sanghamitra Roy, HCI-tolerant NoC router microarchitecture, Proceedings of the 50th Annual Design Automation Conference, May 29-June 07, 2013, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463209.2488783", 
+            "DOIname": "10.1145/2463209.2488783", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2488783"
+        }, 
+        {
+            "ArticleName": "Kshitij Bhardwaj , Koushik Chakraborty , Sanghamitra Roy, Towards graceful aging degradation in NoCs through an adaptive routing algorithm, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228429", 
+            "DOIname": "10.1145/2228360.2228429", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228429"
+        }, 
+        {
+            "ArticleName": "A. Ansari, A. Mishra, J. Xu, and J. Torrellas, \"Tangle: Route-oriented dynamic voltage minimization for variation-afflicted, energy-efficient on-chip networks,\" in 20th International Symposium on High Performance Computer Architecture, 2014."
+        }, 
+        {
+            "ArticleName": "Konstantinos Aisopos , Chia-Hsin Owen Chen , Li-Shiuan Peh, Enabling system-level modeling of variation-induced faults in networks-on-chips, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024931", 
+            "DOIname": "10.1145/2024724.2024931", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024931"
+        }, 
+        {
+            "ArticleName": "Asit K. Mishra , Reetuparna Das , Soumya Eachempati , Ravi Iyer , N. Vijaykrishnan , Chita R. Das, A case for dynamic frequency tuning in on-chip networks, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669151", 
+            "DOIname": "10.1145/1669112.1669151", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669151"
+        }, 
+        {
+            "ArticleName": "Chia-Hsin Owen Chen , Sunghyun Park , Tushar Krishna , Suvinay Subramanian , Anantha P. Chandrakasan , Li-Shiuan Peh, SMART: a single-cycle reconfigurable NoC for SoC applications, Proceedings of the Conference on Design, Automation and Test in Europe, March 18-22, 2013, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485371"
+        }, 
+        {
+            "ArticleName": "John Kim , William J. Dally , Dennis Abts, Flattened butterfly: a cost-efficient topology for high-radix networks, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250679", 
+            "DOIname": "10.1145/1250662.1250679", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250679"
+        }, 
+        {
+            "ArticleName": "Konstantinos Aisopos , Andrew DeOrio , Li-Shiuan Peh , Valeria Bertacco, ARIADNE: Agnostic Reconfiguration in a Disconnected Network Environment, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.298-309, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.61", 
+            "DOIname": "10.1109/PACT.2011.61", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121457"
+        }, 
+        {
+            "ArticleName": "David Fick , Andrew DeOrio , Gregory Chen , Valeria Bertacco , Dennis Sylvester , David Blaauw, A highly resilient routing algorithm for fault-tolerant NoCs, Proceedings of the Conference on Design, Automation and Test in Europe, April 20-24, 2009, Nice, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1874628"
+        }, 
+        {
+            "ArticleName": "V. Puente , J. A. Gregorio , F. Vallejo , R. Beivide, Immunet: A Cheap and Robust Fault-Tolerant Packet Routing Mechanism, ACM SIGARCH Computer Architecture News, v.32 n.2, p.198, March 2004", 
+            "DOIhref": "http://doi.acm.org/10.1145/1028176.1006718", 
+            "DOIname": "10.1145/1028176.1006718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006718"
+        }, 
+        {
+            "ArticleName": "Jongman Kim , Chrysostomos Nicopoulos , Dongkook Park , Vijaykrishnan Narayanan , Mazin S. Yousif , Chita R. Das, A Gracefully Degrading and Energy-Efficient Modular Router Architecture for On-Chip Networks, Proceedings of the 33rd annual international symposium on Computer Architecture, p.4-15, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.6", 
+            "DOIname": "10.1109/ISCA.2006.6", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136487"
+        }, 
+        {
+            "ArticleName": "Wen-Chung Tsai , Deng-Yuan Zheng , Sao-Jie Chen , Yu-Hen Hu, A fault-tolerant NoC scheme using bidirectional channel, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024929", 
+            "DOIname": "10.1145/2024724.2024929", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024929"
+        }, 
+        {
+            "ArticleName": "D. DiTomaso, A. Kodi, and A. Louri, \"QORE: A fault tolerant network-on-chip architecture with power-efficient quad-function channel (QFC) buffers,\" in IEEE 20th International Symposium on High Performance Computer Architecture (HPCA), 2014."
+        }, 
+        {
+            "ArticleName": "Ritesh Parikh , Reetuparna Das , Valeria Bertacco, Power-Aware NoCs through Routing and Topology Reconfiguration, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593187", 
+            "DOIname": "10.1145/2593069.2593187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593187"
+        }, 
+        {
+            "ArticleName": "Andreas Prodromou , Andreas Panteli , Chrysostomos Nicopoulos , Yiannakis Sazeides, NoCAlert: An On-Line and Real-Time Fault Detection Mechanism for Network-on-Chip Architectures, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.60-71, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.15", 
+            "DOIname": "10.1109/MICRO.2012.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457486"
+        }, 
+        {
+            "ArticleName": "Ritesh Parikh , Valeria Bertacco, Formally enhanced runtime verification to ensure NoC functional correctness, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155668", 
+            "DOIname": "10.1145/2155620.2155668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155668"
+        }, 
+        {
+            "ArticleName": "Jing Xin , Russ Joseph, Identifying and predicting timing-critical instructions to boost timing speculation, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155636", 
+            "DOIname": "10.1145/2155620.2155636", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155636"
+        }, 
+        {
+            "ArticleName": "Shruti Padmanabha , Andrew Lukefahr , Reetuparna Das , Scott Mahlke, Trace based phase prediction for tightly-coupled heterogeneous cores, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540746", 
+            "DOIname": "10.1145/2540708.2540746", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540746"
+        }, 
+        {
+            "ArticleName": "Yong Wang , Margaret Martonosi , Li-Shiuan Peh, A supervised learning approach for routing optimizations in wireless sensor networks, Proceedings of the 2nd international workshop on Multi-hop ad hoc networks: from theory to reality, May 26-26, 2006, Florence, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/1132983.1132997", 
+            "DOIname": "10.1145/1132983.1132997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1132997"
+        }, 
+        {
+            "ArticleName": "Jih-Sheng Shen , Chun-Hsian Huang , Pao-Ann Hsiung, Learning-based adaptation to applications and environments in a reconfigurable network-on-chip, Proceedings of the Conference on Design, Automation and Test in Europe, March 08-12, 2010, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1871019"
+        }, 
+        {
+            "ArticleName": "Sourav Das , Janardhan Rao Doppa , Dae Hyun Kim , Partha Pratim Pande , Krishnendu Chakrabarty, Optimizing 3D NoC Design for Energy Efficiency: A Machine Learning Approach, Proceedings of the IEEE/ACM International Conference on Computer-Aided Design, p.705-712, November 02-06, 2015, Austin, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2840917"
+        }, 
+        {
+            "ArticleName": "Sanath Jayasena , Saman Amarasinghe , Asanka Abeyweera , Gayashan Amarasinghe , Himeshi De Silva , Sunimal Rathnayake , Xiaoqiao Meng , Yanbin Liu, Detection of false sharing using machine learning, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 17-21, 2013, Denver, Colorado", 
+            "DOIhref": "http://doi.acm.org/10.1145/2503210.2503269", 
+            "DOIname": "10.1145/2503210.2503269", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2503269"
+        }, 
+        {
+            "ArticleName": "J. Won, X. Chen, P. V. Gratz, J. Hu, and V. Soteriou, \"Up by their bootstraps: Online learning in artificial neural networks for CMP uncore power management,\" in The 20th IEEE International Symposium on High Performance Computer Architecture (HPCA), 2014."
+        }, 
+        {
+            "ArticleName": "Da-Cheng Juan , Siddharth Garg , Jinpyo Park , Diana Marculescu, Learning the optimal operating point for many-core systems with extended range voltage/frequency scaling, Proceedings of the Ninth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis, p.1-10, September 29-October 04, 2013, Montreal, Quebec, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555700"
+        }, 
+        {
+            "ArticleName": "Elena Kakoulli , Vassos Soteriou , Theocharis Theocharides, Intelligent Hotspot Prediction for Network-on-Chip-Based Multicore Systems, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.31 n.3, p.418-431, March 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2011.2170568", 
+            "DOIname": "10.1109/TCAD.2011.2170568", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2332670"
+        }, 
+        {
+            "ArticleName": "Fahimeh Farahnakian , Masoumeh Ebrahimi , Masoud Daneshtalab , Pasi Liljeberg , Juha Plosila, Q-learning based congestion-aware routing algorithm for on-chip network, Proceedings of the 2011 IEEE 2nd International Conference on Networked Embedded Systems for Enterprise Applications, p.1-7, December 08-09, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/NESEA.2011.6144949", 
+            "DOIname": "10.1109/NESEA.2011.6144949", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2195715"
+        }, 
+        {
+            "ArticleName": "Wei Huang , Shougata Ghosh , Siva Velusamy , Karthik Sankaranarayanan , Kevin Skadron , Mircea R. Stan, Hotspot: acompact thermal modeling methodology for early-stage VLSI design, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.14 n.5, p.501-513, May 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2006.876103", 
+            "DOIname": "10.1109/TVLSI.2006.876103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1962135"
+        }, 
+        {
+            "ArticleName": "Yao Wang , Sorin Cotofana , Liang Fang, A unified aging model of NBTI and HCI degradation towards lifetime reliability management for nanoscale MOSFET circuits, Proceedings of the 2011 IEEE/ACM International Symposium on Nanoscale Architectures, p.175-180, June 08-09, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/NANOARCH.2011.5941501", 
+            "DOIname": "10.1109/NANOARCH.2011.5941501", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2052123"
+        }, 
+        {
+            "ArticleName": "T. Sakurai and A. Newton, \"Alpha-power law mosfet model and its applications to cmos inverter delay and other formulas,\" IEEE Journal of Solid-State Circuits, vol. 25, no. 2, pp. 584--594, Apr 1990."
+        }, 
+        {
+            "ArticleName": "J. R. Quinlan, Induction of Decision Trees, Machine Learning, v.1 n.1, p.81-106", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1022643204877", 
+            "DOIname": "10.1023/A:1022643204877", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=637969"
+        }, 
+        {
+            "ArticleName": "K. Brayer and J. J. L. Hammond, \"Evaluation of error detection polynomial performance on the autovon channel,\" in National Telecommunications Conference, December 1975, pp. 8--21."
+        }, 
+        {
+            "ArticleName": "Chen Sun , Chia-Hsin Owen Chen , George Kurian , Lan Wei , Jason Miller , Anant Agarwal , Li-Shiuan Peh , Vladimir Stojanovic, DSENT - A Tool Connecting Emerging Photonics with Electronics for Opto-Electronic Networks-on-Chip Modeling, Proceedings of the 2012 IEEE/ACM Sixth International Symposium on Networks-on-Chip, p.201-210, May 09-11, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/NOCS.2012.31", 
+            "DOIname": "10.1109/NOCS.2012.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2311275"
+        }, 
+        {
+            "ArticleName": "James Balfour , William J. Dally, Design tradeoffs for tiled CMP on-chip networks, Proceedings of the 20th annual international conference on Supercomputing, June 28-July 01, 2006, Cairns, Queensland, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/1183401.1183430", 
+            "DOIname": "10.1145/1183401.1183430", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1183430"
+        }, 
+        {
+            "ArticleName": "Dongkook Park , Chrysostomos Nicopoulos , Jongman Kim , N. Vijaykrishnan , Chita R. Das, Exploring Fault-Tolerant Network-on-Chip Architectures, Proceedings of the International Conference on Dependable Systems and Networks, p.93-104, June 25-28, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2006.35", 
+            "DOIname": "10.1109/DSN.2006.35", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1135690"
+        }, 
+        {
+            "ArticleName": "Peter S. Magnusson , Magnus Christensson , Jesper Eskilson , Daniel Forsgren , Gustav H\u00e5llberg , Johan H\u00f6gberg , Fredrik Larsson , Andreas Moestedt , Bengt Werner, Simics: A Full System Simulation Platform, Computer, v.35 n.2, p.50-58, February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.982916", 
+            "DOIname": "10.1109/2.982916", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621909"
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Bradford M. Beckmann , Michael R. Marty , Min Xu , Alaa R. Alameldeen , Kevin E. Moore , Mark D. Hill , David A. Wood, Multifacet's general execution-driven multiprocessor simulator (GEMS) toolset, ACM SIGARCH Computer Architecture News, v.33 n.4, November 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1105734.1105747", 
+            "DOIname": "10.1145/1105734.1105747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105747"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "George Washington University", 
+            "Name": "Dominic DiTomaso"
+        }, 
+        {
+            "Affiliation": "George Washington University", 
+            "Name": "Travis Boraten"
+        }, 
+        {
+            "Affiliation": "George Washington University", 
+            "Name": "Avinash Kodi"
+        }, 
+        {
+            "Affiliation": "Ohio University", 
+            "Name": "Ahmed Louri"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195675&preflayout=flat"
+}

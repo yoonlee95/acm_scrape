@@ -1,0 +1,184 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 18, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 18, 
+        "CitationCount": 0
+    }, 
+    "Title": "Lazy release consistency for GPUs", 
+    "Abstract": "The heterogeneous-race-free (HRF) memory model has been embraced by the Heterogeneous System Architecture (HSA) Foundation and OpenCL\u2122 because it clearly and precisely defines the behavior of current GPUs. However, compared to the simpler SC for DRF memory model, HRF has two shortcomings. The first is that HRF requires programmers to label atomic memory operations with the correct scope of synchronization. This explicit labeling can save significant coherence overhead when synchronization is local, but it is tedious and error-prone. The second shortcoming is that HRF restricts important dynamic data sharing patterns like work stealing. Prior work on remote-scope promotion (RSP) attempted to resolve the second shortcoming. However, RSP further complicates the memory model and no scalable implementation of RSP has been proposed. For example, we found that the previously proposed RSP implementation actually results in slowdowns of up to 30% on large GPUs, compared to a na\u00efve baseline system that forgoes work stealing and scopes. Meanwhile, DeNovo has been shown to offer efficient synchronization with an SC for DRF memory model, performing on average 21% better than our baseline system, but it introduces additional overheads to maintain ownership of all modified data. To resolve these deficiencies, we propose to adapt lazy release consistency---previously only proposed for homogeneous CPU systems---to a heterogeneous system. Our approach, called hLRC, uses a DeNovo-like mechanism to track ownership of synchronization variables, lazily performing coherence actions only when a synchronization variable changes locations. hLRC allows GPU programmers to use the simpler SC for DRF memory model without tracking ownership for all modified data. Our evaluation shows that lazy release consistency provides robust performance improvement across a set of work-stealing graph analysis applications---29% on average versus the baseline system.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Daniel J. Sorin , Mark D. Hill , David A. Wood, A Primer on Memory Consistency and Cache Coherence, Morgan & Claypool Publishers, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2028905"
+        }, 
+        {
+            "ArticleName": "International Organization for Standardization, \"Working Draft, Standard for Programming Language C++,\" {Online}. Available: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf"
+        }, 
+        {
+            "ArticleName": "Sarita V. Adve , Mark D. Hill, Weak ordering\u2014a new definition, Proceedings of the 17th annual international symposium on Computer Architecture, p.2-14, May 28-31, 1990, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/325164.325100", 
+            "DOIname": "10.1145/325164.325100", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325100"
+        }, 
+        {
+            "ArticleName": "\"CUDA C Programming Guide.\" {Online}. Available: http://docs.nvidia.com/cuda/cuda-c-programming-guide/."
+        }, 
+        {
+            "ArticleName": "A. Munshi. The OpenCL Specification (Version 2.0). Khronos OpenCL Working Group, November 2013."
+        }, 
+        {
+            "ArticleName": "\"HSA Programmer's Reference Manual: HSAIL Virtual ISA and Programming Model, Compiler Writer's Guide, and Object Format (BRIG) Version 1.0 Provisional,\" HSA Foundation, Spring 2013."
+        }, 
+        {
+            "ArticleName": "Derek R. Hower , Blake A. Hechtman , Bradford M. Beckmann , Benedict R. Gaster , Mark D. Hill , Steven K. Reinhardt , David A. Wood, Heterogeneous-race-free memory models, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541981", 
+            "DOIname": "10.1145/2541940.2541981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541981"
+        }, 
+        {
+            "ArticleName": "Benedict R. Gaster , Derek Hower , Lee Howes, HRF-Relaxed: Adapting HRF to the Complexities of Industrial Heterogeneous Memory Models, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.1, p.1-26, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2701618", 
+            "DOIname": "10.1145/2701618", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2701618"
+        }, 
+        {
+            "ArticleName": "Tyler Sorensen , Alastair F. Donaldson, Exposing errors related to weak memory in GPU applications, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908114", 
+            "DOIname": "10.1145/2908080.2908114", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908114"
+        }, 
+        {
+            "ArticleName": "Matthew D. Sinclair , Johnathan Alsop , Sarita V. Adve, Efficient GPU synchronization without scopes: saying no to complex consistency models, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830821", 
+            "DOIname": "10.1145/2830772.2830821", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830821"
+        }, 
+        {
+            "ArticleName": "Hyojin Sung , Sarita V. Adve, DeNovoSync: Efficient Support for Arbitrary Synchronization without Writer-Initiated Invalidations, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694356", 
+            "DOIname": "10.1145/2694344.2694356", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694356"
+        }, 
+        {
+            "ArticleName": "Marc S. Orr , Shuai Che , Ayse Yilmazer , Bradford M. Beckmann , Mark D. Hill , David A. Wood, Synchronization Using Remote-Scope Promotion, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694350", 
+            "DOIname": "10.1145/2694344.2694350", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694350"
+        }, 
+        {
+            "ArticleName": "Mike Mantor, \"AMD Radeon<sup>\u2122</sup> HD 7970 with Graphics Core Next (GCN) Architecture,\" In HOT Chips, A Symposium on High Performance Chips, 2012."
+        }, 
+        {
+            "ArticleName": "Hans-J. Boehm , Sarita V. Adve, Foundations of the C++ concurrency memory model, Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 07-13, 2008, Tucson, AZ, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375581.1375591", 
+            "DOIname": "10.1145/1375581.1375591", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375591"
+        }, 
+        {
+            "ArticleName": "John Wickerson , Mark Batty , Bradford M. Beckmann , Alastair F. Donaldson, Remote-scope promotion: clarified, rectified, and verified, Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 25-30, 2015, Pittsburgh, PA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2814270.2814283", 
+            "DOIname": "10.1145/2814270.2814283", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2814283"
+        }, 
+        {
+            "ArticleName": "Pete Keleher , Alan L. Cox , Willy Zwaenepoel, Lazy release consistency for software distributed shared memory, Proceedings of the 19th annual international symposium on Computer architecture, p.13-21, May 19-21, 1992, Queensland, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/139669.139676", 
+            "DOIname": "10.1145/139669.139676", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=139676"
+        }, 
+        {
+            "ArticleName": "AMD Research, \"AMD's GEM5 APU simulator\" {Online}. Available: http://www.gem5.org/wiki/images/7/7a/2015_ws_03_amd-apu-model.pdf"
+        }, 
+        {
+            "ArticleName": "S. Che, B. M. Beckmann, S. K. Reinhardt, and K. Skadron, \"Pannotia: Understanding Irregular GPGPU Graph Applications,\" In Proceedings of the International Symposium on Workload Characterizations, 2013"
+        }, 
+        {
+            "ArticleName": "D. Cederman and P. Tsigas, \"Dynamic Load-Balancing Using Work-Stealing,\" In GPU Computing Gems Jade Edition, Wen-Mei Hwu (Editor-in-Chief), Morgan Kaufmann"
+        }, 
+        {
+            "ArticleName": "Timothy A. Davis , Yifan Hu, The university of Florida sparse matrix collection, ACM Transactions on Mathematical Software (TOMS), v.38 n.1, p.1-25, November 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2049662.2049663", 
+            "DOIname": "10.1145/2049662.2049663", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2049663"
+        }, 
+        {
+            "ArticleName": "Alvin R. Lebeck , David A. Wood, Dynamic self-invalidation: reducing coherence overhead in shared-memory multiprocessors, Proceedings of the 22nd annual international symposium on Computer architecture, p.48-59, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223995", 
+            "DOIname": "10.1145/223982.223995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223995"
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Stefanos Kaxiras, Complexity-effective multicore coherence, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370853", 
+            "DOIname": "10.1145/2370816.2370853", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370853"
+        }, 
+        {
+            "ArticleName": "M. Elver and V. Nagarajan. \"TSO-CC: Consistency directed cache coherence for TSO,\" In High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on, 2014."
+        }, 
+        {
+            "ArticleName": "Marco Elver , Vijay Nagarajan, RC3: Consistency Directed Cache Coherence for x86-64 with RC Extensions, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.292-304, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.37", 
+            "DOIname": "10.1109/PACT.2015.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923799"
+        }, 
+        {
+            "ArticleName": "H. Sung, R. Komuravelli, and S. V. Adve, \"DeNovoND: efficient hardware support for disciplined non-determinism.\" In Proceedings of the 47<sup>th</sup> International Symposium on Microarchitecture, 2014."
+        }, 
+        {
+            "ArticleName": "Blake A. Hechtman , Daniel J. Sorin, Exploring memory consistency for massively-threaded throughput-oriented processors, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485940", 
+            "DOIname": "10.1145/2485922.2485940", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485940"
+        }, 
+        {
+            "ArticleName": "Jason Power , Arkaprava Basu , Junli Gu , Sooraj Puthoor , Bradford M. Beckmann , Mark D. Hill , Steven K. Reinhardt , David A. Wood, Heterogeneous system coherence for integrated CPU-GPU systems, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540747", 
+            "DOIname": "10.1145/2540708.2540747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540747"
+        }, 
+        {
+            "ArticleName": "B. A. Hechtman, S. Che, D. R. Hower, Y. Tian, B. M. Beckmann, M. D. Hill, S. K. Reinhardt and D. A. Wood, \"QuickRelease: A throughput-oriented approach to release consistency on GPUs,\" In High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on, 2014."
+        }, 
+        {
+            "ArticleName": "Inderpreet Singh , Arrvindh Shriraman , Wilson W. L. Fung , Mike O'Connor , Tor M. Aamodt, Cache coherence for GPU architectures, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.578-590, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522351", 
+            "DOIname": "10.1109/HPCA.2013.6522351", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495501"
+        }, 
+        {
+            "ArticleName": "Jade Alglave , Mark Batty , Alastair F. Donaldson , Ganesh Gopalakrishnan , Jeroen Ketema , Daniel Poetzl , Tyler Sorensen , John Wickerson, GPU Concurrency: Weak Behaviours and Programming Assumptions, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694391", 
+            "DOIname": "10.1145/2694344.2694391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694391"
+        }, 
+        {
+            "ArticleName": "Abhayendra Singh , Shaizeen Aga , Satish Narayanasamy, Efficiently enforcing strong memory ordering in GPUs, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830778", 
+            "DOIname": "10.1145/2830772.2830778", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830778"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Johnathan Alsop"
+        }, 
+        {
+            "Affiliation": "University of Wisconsin-Madison and AMD Research", 
+            "Name": "Marc S. Orr"
+        }, 
+        {
+            "Affiliation": "AMD Research", 
+            "Name": "Bradford M. Beckmann"
+        }, 
+        {
+            "Affiliation": "University of Wisconsin-Madison and AMD Research", 
+            "Name": "David A. Wood"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195669&preflayout=flat"
+}

@@ -1,0 +1,117 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 0
+    }, 
+    "Title": "What kinds of applications can benefit from transactional memory?", 
+    "Abstract": "We discuss the current state of research on transactional memory, with a focus on what characteristics of applications may make them more or less likely to be able to benefit from using transactional memory, and how this issue can and should influence ongoing and future research.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "Adl-Tabatabai, A.-R., Shpeisman, T. (eds.): Draft specification of transactional language constructs for C++, version 1.0 (August 2009), http://research.sun. com/scalable/pubs/C++-transactional-constructs-1.0.pdf"
+        }, 
+        {
+            "ArticleName": "Blundell, C., Lewis, E.C., Martin, M. M. K.: Deconstructing transactional semantics: The subtleties of atomicity. In: Annual Workshop on Duplicating, Deconstructing, and Debunking (WDDD) (June 2005)"
+        }, 
+        {
+            "ArticleName": "Cao Minh, C., Chung, J., Kozyrakis, C., Olukotun, K.: STAMP: Stanford transactional applications for multi-processing. In: IISWC 2008Proceedings of The IEEE International Symposium on Workload Characterization (September 2008)"
+        }, 
+        {
+            "ArticleName": "Calin Cascaval , Colin Blundell , Maged Michael , Harold W. Cain , Peng Wu , Stefanie Chiras , Siddhartha Chatterjee, Software Transactional Memory: Why Is It Only a Research Toy?, Queue, v.6 n.5, September 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454456.1454466", 
+            "DOIname": "10.1145/1454456.1454466", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454466"
+        }, 
+        {
+            "ArticleName": "Peter Damron , Alexandra Fedorova , Yossi Lev , Victor Luchangco , Mark Moir , Daniel Nussbaum, Hybrid transactional memory, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168900", 
+            "DOIname": "10.1145/1168857.1168900", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168900"
+        }, 
+        {
+            "ArticleName": "Dave Dice , Yossi Lev , Virendra J. Marathe , Mark Moir , Dan Nussbaum , Marek Olszewski, Simplifying concurrent algorithms by exploiting hardware transactional memory, Proceedings of the 22nd ACM symposium on Parallelism in algorithms and architectures, June 13-15, 2010, Thira, Santorini, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/1810479.1810537", 
+            "DOIname": "10.1145/1810479.1810537", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1810537"
+        }, 
+        {
+            "ArticleName": "Dave Dice , Yossi Lev , Mark Moir , Daniel Nussbaum, Early experience with a commercial hardware transactional memory implementation, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508263", 
+            "DOIname": "10.1145/1508244.1508263", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508263"
+        }, 
+        {
+            "ArticleName": "Dave Dice , Yossi Lev , Mark Moir , Dan Nussbaum , Marek Olszewski, Early experience with a commercial hardware transactional memory implementation, Sun Microsystems, Inc., Mountain View, CA, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1698221"
+        }, 
+        {
+            "ArticleName": "Dave Dice , Ori Shalev , Nir Shavit, Transactional locking II, Proceedings of the 20th international conference on Distributed Computing, September 18-20, 2006, Stockholm, Sweden", 
+            "DOIhref": "https://dx.doi.org/10.1007/11864219_14", 
+            "DOIname": "10.1007/11864219_14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2136065"
+        }, 
+        {
+            "ArticleName": "Aleksandar Dragojevi\u0107 , Pascal Felber , Vincent Gramoli , Rachid Guerraoui, Why STM can be more than a research toy, Communications of the ACM, v.54 n.4, April 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1924421.1924440", 
+            "DOIname": "10.1145/1924421.1924440", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924440"
+        }, 
+        {
+            "ArticleName": "Faith Ellen , Yossi Lev , Victor Luchangco , Mark Moir, SNZI: scalable NonZero indicators, Proceedings of the twenty-sixth annual ACM symposium on Principles of distributed computing, August 12-15, 2007, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1281100.1281106", 
+            "DOIname": "10.1145/1281100.1281106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1281106"
+        }, 
+        {
+            "ArticleName": "Maurice Herlihy , Yossi Lev, tm_db: A Generic Debugging Library for Transactional Programs, Proceedings of the 2009 18th International Conference on Parallel Architectures and Compilation Techniques, p.136-145, September 12-16, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2009.23", 
+            "DOIname": "10.1109/PACT.2009.23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1637734"
+        }, 
+        {
+            "ArticleName": "Maurice Herlihy , Victor Luchangco , Mark Moir , William N. Scherer, III, Software transactional memory for dynamic-sized data structures, Proceedings of the twenty-second annual symposium on Principles of distributed computing, p.92-101, July 13-16, 2003, Boston, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/872035.872048", 
+            "DOIname": "10.1145/872035.872048", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=872048"
+        }, 
+        {
+            "ArticleName": "Maurice Herlihy , J. Eliot B. Moss, Transactional memory: architectural support for lock-free data structures, Proceedings of the 20th annual international symposium on computer architecture, p.289-300, May 16-19, 1993, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/165123.165164", 
+            "DOIname": "10.1145/165123.165164", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165164"
+        }, 
+        {
+            "ArticleName": "Lev, Y.: Debugging and proling of transactional programs (April 2010), www.cs. brown.edu/people/levyossi/Thesis"
+        }, 
+        {
+            "ArticleName": "Lev, Y., Luchangco, V., Marathe, V., Moir, M., Nussbaum, D., Olszewski, M.: Anatomy of a scalable software transactional memory. In: Workshop on Transactional Computing (Transact) (February 2009), research.sun.com/scalable/ pubs/TRANSACT2009-ScalableSTMAnatomy.pdf"
+        }, 
+        {
+            "ArticleName": "Lev, Y., Moir, M., Nussbaum, D.: PhTM: Phased transactional memory. In: Workshop on Transactional Computing (Transact) (2007), research.sun.com/ scalable/pubs/TRANSACT2007-PhTM.pdf"
+        }, 
+        {
+            "ArticleName": "Nancy A. Lynch, Distributed Algorithms, Morgan Kaufmann Publishers Inc., San Francisco, CA, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=525656"
+        }, 
+        {
+            "ArticleName": "McKenney, P.: Transactional memory everywhere? (September 2009), paulmck. livejournal.com/10264.html"
+        }, 
+        {
+            "ArticleName": "Shavit, N., Touitou, D.: Software transactional memory. Distributed Computing (10), 99-116 (1997)"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Sun Labs at Oracle, Burlington, MA", 
+            "Name": "Mark Moir"
+        }, 
+        {
+            "Affiliation": "Sun Labs at Oracle, Burlington, MA", 
+            "Name": "Dan Nussbaum"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185886&preflayout=flat"
+}

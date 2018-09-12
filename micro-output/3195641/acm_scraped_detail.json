@@ -1,0 +1,160 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 21, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 21, 
+        "CitationCount": 0
+    }, 
+    "Title": "Perceptron learning for reuse prediction", 
+    "Abstract": "The disparity between last-level cache and memory latencies motivates the search for efficient cache management policies. Recent work in predicting reuse of cache blocks enables optimizations that significantly improve cache performance and efficiency. However, the accuracy of the prediction mechanisms limits the scope of optimization. This paper proposes perceptron learning for reuse prediction. The proposed predictor greatly improves accuracy over previous work. For multi- programmed workloads, the average false positive rate of the proposed predictor is 3.2%, while sampling dead block prediction (SDBP) and signature-based hit prediction (SHiP) yield false positive rates above 7%. The improvement in accuracy translates directly into performance. For single-thread workloads and a 4MB lastlevel cache, reuse prediction with perceptron learning enables a replacement and bypass optimization to achieve a geometric mean speedup of 6.1%, compared with 3.8% for SHiP and 3.5% for SDBP on the SPEC CPU 2006 benchmarks. On a memory-intensive subset of SPEC, perceptron learning yields 18.3% speedup, versus 10.5% for SHiP and 7.7% for SDBP. For multi- programmed workloads and a 16MB cache, the proposed technique doubles the efficiency of the cache over LRU and yields a geometric mean normalized weighted speedup of 7.4%, compared with 4.4% for SHiP and 4.2% for SDBP.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Samira Manabi Khan , Yingying Tian , Daniel A. Jimenez, Sampling Dead Block Prediction for Last-Level Caches, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.175-186, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.24", 
+            "DOIname": "10.1109/MICRO.2010.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934977"
+        }, 
+        {
+            "ArticleName": "Carole-Jean Wu , Aamer Jaleel , Will Hasenplaugh , Margaret Martonosi , Simon C. Steely, Jr. , Joel Emer, SHiP: signature-based hit predictor for high performance caching, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155671", 
+            "DOIname": "10.1145/2155620.2155671", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155671"
+        }, 
+        {
+            "ArticleName": "H. D. Block, \"The perceptron: A model for brain functioning,\" Reviews of Modern Physics, vol. 34, pp. 123--135, 1962."
+        }, 
+        {
+            "ArticleName": "Marvin L. Minsky , Seymour A. Papert, Perceptrons: expanded edition, MIT Press, Cambridge, MA, 1988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=50066"
+        }, 
+        {
+            "ArticleName": "Daniel A. Jim\u00e9nez , Calvin Lin, Dynamic Branch Prediction with Perceptrons, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.197, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876441"
+        }, 
+        {
+            "ArticleName": "D. Tarjan, K. Skadron, and M. Stan, \"An ahead pipelined alloyed per-ceptron with single cycle access time,\" in Proceedings of the Workshop on Complexity Effective Design (WCED), June 2004."
+        }, 
+        {
+            "ArticleName": "A. Seznec, \"Genesis of the o-gehl branch predictor,\" Journal of Instruction-Level Parallelism (JILP), vol. 7, April 2005."
+        }, 
+        {
+            "ArticleName": "G. Pekhimenko, T. Huberty, R. Cai, O. Mutlu, P. B. Gibbons, M. A. Kozuch, and T. C. Mowry, \"Exploiting compressed block size as an indicator of future reuse.,\" in HPCA, pp. 51--63, IEEE, 2015."
+        }, 
+        {
+            "ArticleName": "Aamer Jaleel , Kevin B. Theobald , Simon C. Steely, Jr. , Joel Emer, High performance cache replacement using re-reference interval prediction (RRIP), Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815971", 
+            "DOIname": "10.1145/1815961.1815971", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815971"
+        }, 
+        {
+            "ArticleName": "G. Keramidas, P. Petoumenos, and S. Kaxiras, \"Cache replacement based on reuse-distance prediction,\" in In Proceedings of the 25th International Conference on Computer Design (ICCD-2007), pp. 245--250, 2007."
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Daniel N. Lynch , Onur Mutlu , Yale N. Patt, A Case for MLP-Aware Cache Replacement, Proceedings of the 33rd annual international symposium on Computer Architecture, p.167-178, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.5", 
+            "DOIname": "10.1109/ISCA.2006.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136501"
+        }, 
+        {
+            "ArticleName": "An-Chow Lai , Babak Falsafi, Selective, accurate, and timely self-invalidation using last-touch prediction, Proceedings of the 27th annual international symposium on Computer architecture, p.139-148, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339669", 
+            "DOIname": "10.1145/339647.339669", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339669"
+        }, 
+        {
+            "ArticleName": "An-Chow Lai , Cem Fide , Babak Falsafi, Dead-block prediction & dead-block correlating prefetchers, ACM SIGARCH Computer Architecture News, v.29 n.2, p.144-154, May 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/384285.379259", 
+            "DOIname": "10.1145/384285.379259", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379259"
+        }, 
+        {
+            "ArticleName": "Stephen Somogyi , Thomas F. Wenisch , Nikolaos Hardavellas , Jangwoo Kim , Anastassia Ailamaki , Babak Falsafi, Memory coherence activity prediction in commercial workloads, Proceedings of the 3rd workshop on Memory performance issues: in conjunction with the 31st international symposium on computer architecture, p.37-45, June 20-20, 2004, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1054943.1054949", 
+            "DOIname": "10.1145/1054943.1054949", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1054949"
+        }, 
+        {
+            "ArticleName": "Zhigang Hu , Stefanos Kaxiras , Margaret Martonosi, Timekeeping in the memory system: predicting and optimizing memory behavior, ACM SIGARCH Computer Architecture News, v.30 n.2, May 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/545214.545239", 
+            "DOIname": "10.1145/545214.545239", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545239"
+        }, 
+        {
+            "ArticleName": "Jaume Abella , Antonio Gonz\u00e1lez , Xavier Vera , Michael F. P. O'Boyle, IATAC: a smart predictor to turn-off L2 cache lines, ACM Transactions on Architecture and Code Optimization (TACO), v.2 n.1, p.55-77, March 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1061267.1061271", 
+            "DOIname": "10.1145/1061267.1061271", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1061271"
+        }, 
+        {
+            "ArticleName": "Haiming Liu , Michael Ferdman , Jaehyuk Huh , Doug Burger, Cache bursts: A new approach for eliminating dead blocks and increasing cache efficiency, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.222-233, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771793", 
+            "DOIname": "10.1109/MICRO.2008.4771793", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521798"
+        }, 
+        {
+            "ArticleName": "Mazen Kharbutli , Yan Solihin, Counter-Based Cache Replacement and Bypassing Algorithms, IEEE Transactions on Computers, v.57 n.4, p.433-447, April 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2007.70816", 
+            "DOIname": "10.1109/TC.2007.70816", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1345907"
+        }, 
+        {
+            "ArticleName": "Pierre Michaud , Andr\u00e9 Seznec , Richard Uhlig, Trading conflict and capacity aliasing in conditional branch predictors, Proceedings of the 24th annual international symposium on Computer architecture, p.292-303, June 01-04, 1997, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/264107.264211", 
+            "DOIname": "10.1145/264107.264211", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264211"
+        }, 
+        {
+            "ArticleName": "G. H. Loh and D. A. Jim\u00e9nez, \"Reducing the power and complexity of path-based neural branch prediction,\" in Proceedings of the 2005 Workshop on Complexity-Effective Design (WCED'05), pp. 28--35, June 2005."
+        }, 
+        {
+            "ArticleName": "Daniel A. Jim\u00e9nez, Insertion and promotion for tree-based PseudoLRU last-level caches, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540733", 
+            "DOIname": "10.1145/2540708.2540733", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540733"
+        }, 
+        {
+            "ArticleName": "Erez Perelman , Greg Hamerly , Michael Van Biesbrouck , Timothy Sherwood , Brad Calder, Using SimPoint for accurate and efficient simulation, ACM SIGMETRICS Performance Evaluation Review, v.31 n.1, June 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/885651.781076", 
+            "DOIname": "10.1145/885651.781076", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781076"
+        }, 
+        {
+            "ArticleName": "A. Hilton, N. Eswaran, and A. Roth, \"FIESTA: A sample-balanced multi-program workload methodology,\" in Workshop on Modeling, Benchmarking and Simulation (MoBS), June 2009."
+        }, 
+        {
+            "ArticleName": "Nam Duong , Dali Zhao , Taesu Kim , Rosario Cammarota , Mateo Valero , Alexander V. Veidenbaum, Improving Cache Management Policies Using Dynamic Reuse Distances, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.389-400, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.43", 
+            "DOIname": "10.1109/MICRO.2012.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457514"
+        }, 
+        {
+            "ArticleName": "Manish Shah , Robert Golla , Gregory Grohoski , Paul Jordan , Jama Barreh , Jeffrey Brooks , Mark Greenberg , Gideon Levinsky , Mark Luttrell , Christopher Olson , Zeid Samoail , Matt Smittle , Thomas Ziaja, Sparc T4: A Dynamically Threaded Server-on-a-Chip, IEEE Micro, v.32 n.2, p.8-19, March 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2012.1", 
+            "DOIname": "10.1109/MM.2012.1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2196995"
+        }, 
+        {
+            "ArticleName": "A. Fog, \"The Microarchitecture of Intel, AMD, and VIA CPUs.\" http://www.agner.org/optimize/microarchitecture.pdf, 2014."
+        }, 
+        {
+            "ArticleName": "D. Burger, J. R. Goodman, and A. Kagi, \"The declining effectiveness of dynamic caching for general-purpose microprocessors,\" Technical Report 1261, 1995."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Texas A&M University", 
+            "Name": "Elvira Teran"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Zhe Wang"
+        }, 
+        {
+            "Affiliation": "Texas A&M University", 
+            "Name": "Daniel A. Jim\u00e9nez"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195641&preflayout=flat"
+}

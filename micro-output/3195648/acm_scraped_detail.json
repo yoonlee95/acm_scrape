@@ -1,0 +1,218 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 16, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 16, 
+        "CitationCount": 0
+    }, 
+    "Title": "Towards efficient server architecture for virtualized network function deployment: implications and implementations", 
+    "Abstract": "Recent years have seen a revolution in network infrastructure brought on by the ever-increasing demands for data volume. One promising proposal to emerge from this revolution is Network Functions Virtualization (NFV), which has been widely adopted by service and cloud providers. The essence of NFV is to run network functions as virtualized workloads on commodity Standard High Volume Servers (SHVS), which is the industry standard. However, our experience using NFV when deployed on modern NUMA-based SHVS paints a frustrating picture. Due to the complexity in the NFV data plane and its service function chain feature, modern NFV deployment on SHVS exhibits a unique processing pattern---heterogeneous software pipeline (HSP), in which the NFV traffic flows must be processed by heterogeneous software components sequentially from the NIC to the end receiver. Since the end-to-end performance of flows is cooperatively determined by the performance of each processing stage, the resource allocation/mapping scheme in NUMA-based SHVS must consider a thread-dependence scheduling to tradeoff the impact of co-located contention and remote packet transmission. In this paper, we develop a thread scheduling mechanism that collaboratively places threads of HSP to minimize the end-to-end performance slowdown for NFV traffic flow. It employs a dynamic programming-based method to search for the optimal thread mapping with negligible overhead. To serve this mechanism, we also develop a performance slowdown estimation model to accurately estimate the performance slowdown at each stage of HSP. We implement our collaborative thread scheduling mechanism on a real system and evaluate it using real workloads. On average, our algorithm outperforms state-of-the-art NUMA-aware and contention-aware scheduling policies by at least 7% on CPU utilization and 23% on traffic throughput with negligible computational overhead (less than 1 second).", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Chao Li , Yang Hu , Longjun Liu , Juncheng Gu , Mingcong Song , Xiaoyao Liang , Jingling Yuan , Tao Li, Towards sustainable in-situ server systems in the big data era, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750381", 
+            "DOIname": "10.1145/2749469.2750381", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750381"
+        }, 
+        {
+            "ArticleName": "C. Cui, H. Deng, D. Telekom, U. Michel, and H. Damker, \"Network functions virtualisation: An introduction, benefits, enablers, challenges and call for action,\" Netw. Funct. Virtualisation - Introd. White Pap., no. 1, pp. 1--16, 2012."
+        }, 
+        {
+            "ArticleName": "ETSI ISG NFV, \"Network Functions Virtualisation (NFV): Architectural Framework,\" 2013."
+        }, 
+        {
+            "ArticleName": "Teemu Koponen , Keith Amidon , Peter Balland , Mart\u00edn Casado , Anupam Chanda , Bryan Fulton , Igor Ganichev , Jesse Gross , Natasha Gude , Paul Ingram , Ethan Jackson , Andrew Lambeth , Romain Lenglet , Shih-Hao Li , Amar Padmanabhan , Justin Pettit , Ben Pfaff , Rajiv Ramanathan , Scott Shenker , Alan Shieh , Jeremy Stribling , Pankaj Thakkar , Dan Wendlandt , Alexander Yip , Ronghua Zhang, Network virtualization in multi-tenant datacenters, Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation, April 02-04, 2014, Seattle, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616468"
+        }, 
+        {
+            "ArticleName": "L. Foundation, \"Open Platform for NFV (OPNFV).\" {Online}, Available: https://www.opnfv.org/."
+        }, 
+        {
+            "ArticleName": "Oracle, \"The Road to NFV Success Is Paved with Intelligent Orchestration,\" 2015."
+        }, 
+        {
+            "ArticleName": "TechNavio, \"Global Network Function Virtualization Market 2014--2018,\" 2014."
+        }, 
+        {
+            "ArticleName": "W. Paper and S. Infrastructure, \"Intel\u00ae Open Network Platform Server Reference Architecture: SDN and NFV for Carrier-Grade Infrastructure and Cloud Data Centers,\" 2014."
+        }, 
+        {
+            "ArticleName": "Y. Dong, X. Yang, X. Li, J. Li, K. Tian, and H. Guan, \"High performance network virtualization with SR-IOV,\" High Perform. Comput. Archit. (HPCA), 2010 IEEE 16th Int. Symp., pp. 1--10, 2010."
+        }, 
+        {
+            "ArticleName": "Intel, \"Intel Data Direct I/O Technology (Intel DDIO): A Primer.\""
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , David Lo , Richard M. Yoo , Jeremy Sugerman , Christos Kozyrakis, Dynamic Fine-Grain Scheduling of Pipeline Parallelism, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.22-32, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.9", 
+            "DOIname": "10.1109/PACT.2011.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121481"
+        }, 
+        {
+            "ArticleName": "W. Wang, J. W. Davidson, and M. Lou Soffa, \"Predicting the Memory Bandwidth and Optimal Core Allocations for Multi-threaded Applications on Large-scale NUMA Machines,\" pp. 419--431, 2016."
+        }, 
+        {
+            "ArticleName": "Lavanya Subramanian , Vivek Seshadri , Arnab Ghosh , Samira Khan , Onur Mutlu, The application slowdown model: quantifying and controlling the impact of inter-application interference at shared caches and main memory, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830803", 
+            "DOIname": "10.1145/2830772.2830803", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830803"
+        }, 
+        {
+            "ArticleName": "Y. Zhang, M. A. Laurenzano, J. Mars, and L. Tang, \"Smite: Precise qos prediction on real system smt processors to improve utilization in warehouse scale computers,\" 2014."
+        }, 
+        {
+            "ArticleName": "Ming Liu , Tao Li, Optimizing virtual machine consolidation performance on NUMA server architecture for cloud workloads, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665720"
+        }, 
+        {
+            "ArticleName": "P. Garg and Y.-S. Wang, \"NVGRE: Network Virtualization using Generic Routing Encapsulation,\" 2014."
+        }, 
+        {
+            "ArticleName": "\"Scaling in the Linux Networking Stack.\" {Online}. Available: https://www.kernel.org/doc/Documentation/networking/scaling.txt."
+        }, 
+        {
+            "ArticleName": "Ben Pfaff , Justin Pettit , Teemu Koponen , Ethan J. Jackson , Andy Zhou , Jarno Rajahalme , Jesse Gross , Alex Wang , Jonathan Stringer , Pravin Shelar , Keith Amidon , Mart\u00edn Casado, The design and implementation of open vSwitch, Proceedings of the 12th USENIX Conference on Networked Systems Design and Implementation, p.117-130, May 04-06, 2015, Oakland, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2789779"
+        }, 
+        {
+            "ArticleName": "\"Project Clearwater.\" http://www.projectclearwater.org/about-clearwater/."
+        }, 
+        {
+            "ArticleName": "\"Welcome to SIPp.\" {Online}. Available: http://sipp.sourceforge.net/."
+        }, 
+        {
+            "ArticleName": "\"OpenStack Cloud Software.\" {Online}. Available: www.openstack.org."
+        }, 
+        {
+            "ArticleName": "R. Jones, \"NefPerf: a network performance benchmark,\" Inf. Networks Div. Hewlett-Packard Co., 1996."
+        }, 
+        {
+            "ArticleName": "R. S. Roman Dementiev, Thomas Willhalm, Otto Bruggeman, Patrick Fay, Patrick Ungerer, Austen Ott, Patrick Lu, James Harris, Phil Kerly, Patrick Konsor, Andrey Semin, Michael Kanaly, Ryan Brazones, \"Intel\u00ae Performance Counter Monitor - A better way to measure CPU utilization.\" ."
+        }, 
+        {
+            "ArticleName": "Eiman Ebrahimi , Chang Joo Lee , Onur Mutlu , Yale N. Patt, Fairness via Source Throttling: A Configurable and High-Performance Fairness Substrate for Multicore Memory Systems, ACM Transactions on Computer Systems (TOCS), v.30 n.2, p.1-35, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2166879.2166881", 
+            "DOIname": "10.1145/2166879.2166881", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2166881"
+        }, 
+        {
+            "ArticleName": "Lingjia Tang , Jason Mars , Neil Vachharajani , Robert Hundt , Mary Lou Soffa, The impact of memory subsystem resource sharing on datacenter applications, ACM SIGARCH Computer Architecture News, v.39 n.3, June 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024723.2000099", 
+            "DOIname": "10.1145/2024723.2000099", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000099"
+        }, 
+        {
+            "ArticleName": "Jason Mars , Lingjia Tang , Robert Hundt , Kevin Skadron , Mary Lou Soffa, Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155650", 
+            "DOIname": "10.1145/2155620.2155650", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155650"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Stall-Time Fair Memory Access Scheduling for Chip Multiprocessors, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.146-160, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.40", 
+            "DOIname": "10.1109/MICRO.2007.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331715"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.63-74, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.7", 
+            "DOIname": "10.1109/ISCA.2008.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382128"
+        }, 
+        {
+            "ArticleName": "Lei Liu , Yong Li , Zehan Cui , Yungang Bao , Mingyu Chen , Chengyong Wu, Going vertical in memory management: handling multiplicity by multi-policy, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665698"
+        }, 
+        {
+            "ArticleName": "L. Liu, Y. Li, C. Ding, H. Yang, and C. Wu, \"Rethinking Memory Management in Modern Operating System: Horizontal, Vertical or Random ?,\" vol. 65, no. 6, pp. 1--14, 2016."
+        }, 
+        {
+            "ArticleName": "Mingcong Song , Yang Hu , Yunlong Xu , Chao Li , Huixiang Chen , Jingling Yuan , Tao Li, Bridging the Semantic Gaps of GPU Acceleration for Scale-out CNN-based Big Data Processing: Think Big, See Small, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967944", 
+            "DOIname": "10.1145/2967938.2967944", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967944"
+        }, 
+        {
+            "ArticleName": "Yang Hu , Chao Li , Longjun Liu , Tao Li, HOPE: Enabling Efficient Service Orchestration in Software-Defined Data Centers, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926257", 
+            "DOIname": "10.1145/2925426.2926257", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926257"
+        }, 
+        {
+            "ArticleName": "Baptiste Lepers , Vivien Qu\u00e9ma , Alexandra Fedorova, Thread and memory placement on NUMA systems: asymmetry matters, Proceedings of the 2015 USENIX Conference on Usenix Annual Technical Conference, p.277-289, July 08-10, 2015, Santa Clara, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2813788"
+        }, 
+        {
+            "ArticleName": "Qiuyun Wang , Benjamin C. Lee, Modeling Communication Costs in Blade Servers, ACM SIGOPS Operating Systems Review, v.49 n.2, December 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2883591.2883607", 
+            "DOIname": "10.1145/2883591.2883607", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2883607"
+        }, 
+        {
+            "ArticleName": "Lei Liu , Zehan Cui , Mingjie Xing , Yungang Bao , Mingyu Chen , Chengyong Wu, A software memory partition approach for eliminating bank-level interference in multicore systems, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370869", 
+            "DOIname": "10.1145/2370816.2370869", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370869"
+        }, 
+        {
+            "ArticleName": "Sergey Blagodurov , Sergey Zhuravlev , Alexandra Fedorova , Ali Kamali, A case for NUMA-aware contention management on multicore systems, Proceedings of the 19th international conference on Parallel architectures and compilation techniques, September 11-15, 2010, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/1854273.1854350", 
+            "DOIname": "10.1145/1854273.1854350", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1854350"
+        }, 
+        {
+            "ArticleName": "Intel, \"Small Packet Traffic Performance Optimization for 8255x and 8254x Ethernet Controllers,\" 2003."
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2150982", 
+            "DOIname": "10.1145/2150976.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Gaurav Chadha , Scott Mahlke , Satish Narayanasamy, When less is more (LIMO):controlled parallelism forimproved efficiency, Proceedings of the 2012 international conference on Compilers, architectures and synthesis for embedded systems, October 07-12, 2012, Tampere, Finland", 
+            "DOIhref": "http://doi.acm.org/10.1145/2380403.2380431", 
+            "DOIname": "10.1145/2380403.2380431", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2380431"
+        }, 
+        {
+            "ArticleName": "Srinath Sridharan , Gagan Gupta , Gurindar S. Sohi, Adaptive, efficient, parallel execution of parallel programs, Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 09-11, 2014, Edinburgh, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/2594291.2594292", 
+            "DOIname": "10.1145/2594291.2594292", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2594292"
+        }, 
+        {
+            "ArticleName": "Aleksey Pesterev , Jacob Strauss , Nickolai Zeldovich , Robert T. Morris, Improving network connection locality on multicore systems, Proceedings of the 7th ACM european conference on Computer Systems, April 10-13, 2012, Bern, Switzerland", 
+            "DOIhref": "http://doi.acm.org/10.1145/2168836.2168870", 
+            "DOIname": "10.1145/2168836.2168870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2168870"
+        }, 
+        {
+            "ArticleName": "Xiaofeng Lin , Yu Chen , Xiaodong Li , Junjie Mao , Jiaquan He , Wei Xu , Yuanchun Shi, Scalable Kernel TCP Design and Implementation for Short-Lived Connections, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872391", 
+            "DOIname": "10.1145/2872362.2872391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872391"
+        }, 
+        {
+            "ArticleName": "Kaushik Kumar Ram , Alan L. Cox , Mehul Chadha , Scott Rixner, Hyper-switch: a scalable software virtual switching architecture, Proceedings of the 2013 USENIX conference on Annual Technical Conference, June 26-28, 2013, San Jose, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2535464"
+        }, 
+        {
+            "ArticleName": "Jinho Hwang , K. K. Ramakrishnan , Timothy Wood, NetVM: high performance and flexible networking using virtualization on commodity platforms, Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation, April 02-04, 2014, Seattle, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616490"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Florida", 
+            "Name": "Yang Hu"
+        }, 
+        {
+            "Affiliation": "University of Florida", 
+            "Name": "Tao Li"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195648&preflayout=flat"
+}

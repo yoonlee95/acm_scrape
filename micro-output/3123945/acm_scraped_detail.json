@@ -1,0 +1,451 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Anup Das , Hasan Hassan , Onur Mutlu, VRL-DRAM: improving DRAM performance via variable refresh latency, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196136"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 349, 
+        "Downloads_6Weeks": 29, 
+        "Downloads_cumulative": 349, 
+        "CitationCount": 1
+    }, 
+    "Title": "Detecting and mitigating data-dependent DRAM failures by exploiting current memory content", 
+    "Abstract": "DRAM cells in close proximity can fail depending on the data content in neighboring cells. These failures are called data-dependent failures. Detecting and mitigating these failures online, while the system is running in the field, enables various optimizations that improve reliability, latency, and energy efficiency of the system. For example, a system can improve performance and energy efficiency by using a lower refresh rate for most cells and mitigate the failing cells using higher refresh rates or error correcting codes. All these system optimizations depend on accurately detecting every possible data-dependent failure that could occur with any content in DRAM. Unfortunately, detecting all data-dependent failures requires the knowledge of DRAM internals specific to each DRAM chip. As internal DRAM architecture is not exposed to the system, detecting data-dependent failures at the system-level is a major challenge. In this paper, we decouple the detection and mitigation of data-dependent failures from physical DRAM organization such that it is possible to detect failures without knowledge of DRAM internals. To this end, we propose MEMCON, a memory content-based detection and mitigation mechanism for data-dependent failures in DRAM. MEMCON does not detect every possible data-dependent failure. Instead, it detects and mitigates failures that occur only with the current content in memory while the programs are running in the system. Such a mechanism needs to detect failures whenever there is a write access that changes the content of memory. As detection of failure with a runtime testing has a high overhead, MEMCON selectively initiates a test on a write, only when the time between two consecutive writes to that page (i.e., write interval) is long enough to provide significant benefit by lowering the refresh rate during that interval. MEMCON builds upon a simple, practical mechanism that predicts the long write intervals based on our observation that the write intervals in real workloads follow a Pareto distribution: the longer a page remains idle after a write, the longer it is expected to remain idle. Our evaluation shows that compared to a system that uses an aggressive refresh rate, MEMCON reduces refresh operations by 65--74%, leading to a 10%/17%/40% (min) to 12%/22%/50% (max) performance improvement for a single-core and 10%/23%/52% (min) to 17%/29%/65% (max) performance improvement for a 4-core system using 8/16/32 Gb DRAM chips.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "\"STREAM Benchmark,\" http://www.streambench.org/."
+        }, 
+        {
+            "ArticleName": "\"Oral history of Joel Karp,\" Computer History Museum, 2003."
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungpack Hong , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, A scalable processing-in-memory accelerator for parallel graph processing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750386", 
+            "DOIname": "10.1145/2749469.2750386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750386"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, PIM-enabled instructions: a low-overhead, locality-aware processing-in-memory architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750385", 
+            "DOIname": "10.1145/2749469.2750385", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750385"
+        }, 
+        {
+            "ArticleName": "Zaid Al-Ars , Said Hamdioui , Ad J. van de Goor, Effects of Bit Line Coupling on the Faulty Behavior of DRAMs, Proceedings of the 22nd IEEE VLSI Test Symposium, p.117, April 25-29, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=987949"
+        }, 
+        {
+            "ArticleName": "B. Arnold, Pareto distributions. Chapman & Hall/CRC Monographs on Statistics & Applied Probability, 1983."
+        }, 
+        {
+            "ArticleName": "A. Bacchini et al., \"Characterization of data retention faults in DRAM devices,\" in DFT, 2014."
+        }, 
+        {
+            "ArticleName": "Yungang Bao , Mingyu Chen , Yuan Ruan , Li Liu , Jianping Fan , Qingbo Yuan , Bo Song , Jianwei Xu, HMTT: a platform independent full-system memory trace monitoring system, ACM SIGMETRICS Performance Evaluation Review, v.36 n.1, June 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1384529.1375484", 
+            "DOIname": "10.1145/1384529.1375484", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375484"
+        }, 
+        {
+            "ArticleName": "R. E. Barlow et al., \"Properties of probability distributions with monotone hazard rate,\" The Annals of Mathematical Statistics, 1963."
+        }, 
+        {
+            "ArticleName": "Gordon B. Bell , Kevin M. Lepak , Mikko H. Lipasti, Characterization of Silent Stores, Proceedings of the 2000 International Conference on Parallel Architectures and Compilation Techniques, p.133, October 15-19, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825791"
+        }, 
+        {
+            "ArticleName": "S. Cha et al., \"Defect analysis and cost-effective resilience architecture for future DRAM devices,\" in HPCA, 2017."
+        }, 
+        {
+            "ArticleName": "Karthik Chandrasekar , Sven Goossens , Christian Weis , Martijn Koedam , Benny Akesson , Norbert Wehn , Kees Goossens, Exploiting expendable process-margins in DRAMs for run-time performance optimization, Proceedings of the conference on Design, Automation & Test in Europe, March 24-28, 2014, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616820"
+        }, 
+        {
+            "ArticleName": "K. K. Chang, \"Understanding and improving the latency of DRAM-based memory systems,\" Ph.D. dissertation, CMU, 2017."
+        }, 
+        {
+            "ArticleName": "Kevin K. Chang , Abhijith Kashyap , Hasan Hassan , Saugata Ghose , Kevin Hsieh , Donghyuk Lee , Tianshi Li , Gennady Pekhimenko , Samira Khan , Onur Mutlu, Understanding Latency Variation in Modern DRAM Chips: Experimental Characterization, Analysis, and Optimization, Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science, June 14-18, 2016, Antibes Juan-les-Pins, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2896377.2901453", 
+            "DOIname": "10.1145/2896377.2901453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901453"
+        }, 
+        {
+            "ArticleName": "K. K. Chang et al., \"Improving DRAM performance by parallelizing refreshes with accesses,\" in HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "K. K. Chang et al., \"Low-Cost Inter-Linked Subarrays (LISA): Enabling Fast Inter-Subarray Data Movement in DRAM,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Kevin K. Chang , Abdullah Giray Ya\u011fl\u0131k\u00e7\u0131 , Saugata Ghose , Aditya Agrawal , Niladrish Chatterjee , Abhijith Kashyap , Donghyuk Lee , Mike O'Connor , Hasan Hassan , Onur Mutlu, Understanding Reduced-Voltage Operation in Modern DRAM Devices: Experimental Characterization, Analysis, and Mechanisms, Proceedings of the 2017 ACM SIGMETRICS / International Conference on Measurement and Modeling of Computer Systems, June 05-09, 2017, Urbana-Champaign, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3078505.3078590", 
+            "DOIname": "10.1145/3078505.3078590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3078590"
+        }, 
+        {
+            "ArticleName": "Mark E. Crovella , Azer Bestavros, Self-similarity in World Wide Web traffic: evidence and possible causes, IEEE/ACM Transactions on Networking (TON), v.5 n.6, p.835-846, Dec. 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/90.650143", 
+            "DOIname": "10.1109/90.650143", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=270880"
+        }, 
+        {
+            "ArticleName": "Mor Harchol-Balter , Allen B. Downey, Exploiting process lifetime distributions for dynamic load balancing, ACM SIGMETRICS Performance Evaluation Review, v.24 n.1, p.13-24, May 1996", 
+            "DOIhref": "http://doi.acm.org/10.1145/233008.233019", 
+            "DOIname": "10.1145/233008.233019", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=233019"
+        }, 
+        {
+            "ArticleName": "H. Hassan et al., \"ChargeCache: Reducing DRAM Latency by Exploiting Row Access Locality,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "H. Hassan et al., \"SoftMC: A Flexible and Practical Open-Source Infrastructure for Enabling Experimental DRAM Studies,\" in HPCA, 2017."
+        }, 
+        {
+            "ArticleName": "M. Horiguchi and K. Itoh, Repair for Nanoscale Memories. Springer, 2011."
+        }, 
+        {
+            "ArticleName": "K. Hsieh et al., \"Accelerating pointer chasing in 3D-stacked memory: Challenges, mechanisms, evaluation,\" in ICCD, 2016."
+        }, 
+        {
+            "ArticleName": "Andy A. Hwang , Ioan A. Stefanovici , Bianca Schroeder, Cosmic rays don't strike twice: understanding the nature of DRAM errors and the implications for system design, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2150989", 
+            "DOIname": "10.1145/2248487.2150989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150989"
+        }, 
+        {
+            "ArticleName": "C. Isen and L. John, \"ESKIMO - Energy savings using semantic knowledge of inconsequential memory occupancy for DRAM subsystem,\" in ISCA, 2009."
+        }, 
+        {
+            "ArticleName": "JEDEC, JEDEC Standard: Low Power Double Data Rate 2 (LPDDR2), 2010."
+        }, 
+        {
+            "ArticleName": "JEDEC, Standard No. 79--3F. DDR3 SDRAM Specification, 2012."
+        }, 
+        {
+            "ArticleName": "JEDEC, Standard No. 79--4B. DDR4 SDRAM Specification, 2017."
+        }, 
+        {
+            "ArticleName": "Matthias Jung , Carl C. Rheinl\u00e4nder , Christian Weis , Norbert Wehn, Reverse Engineering of DRAMs: Row Hammer with Crosshair, Proceedings of the Second International Symposium on Memory Systems, October 03-06, 2016, Alexandria, VA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2989081.2989114", 
+            "DOIname": "10.1145/2989081.2989114", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2989114"
+        }, 
+        {
+            "ArticleName": "U. Kang et al., \"Co-Architecting Controllers and DRAM to Enhance DRAM Process Scaling,\" in The Memory Forum, 2014."
+        }, 
+        {
+            "ArticleName": "S. Khan et al., \"PARBOR: An Efficient System-Level Technique to Detect Data-Dependent Failures in DRAM,\" in DSN, 2016."
+        }, 
+        {
+            "ArticleName": "Samira Khan , Donghyuk Lee , Yoongu Kim , Alaa R. Alameldeen , Chris Wilkerson , Onur Mutlu, The efficacy of error mitigation techniques for DRAM retention failures: a comparative experimental study, ACM SIGMETRICS Performance Evaluation Review, v.42 n.1, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2637364.2592000", 
+            "DOIname": "10.1145/2637364.2592000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2592000"
+        }, 
+        {
+            "ArticleName": "S. Khan et al., \"A case for memory content-based detection and mitigation of data-dependent failures in DRAM,\" in IEEE CAL, 2016."
+        }, 
+        {
+            "ArticleName": "S. Khan et al., MEMCON Data Repository, https://github.com/samirakhan/MEMCON-data, 2017."
+        }, 
+        {
+            "ArticleName": "K. Kim, \"Technology for sub-50nm DRAM and NAND flash manufacturing,\" in IEDM, 2005."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Weikun Yang , Onur Mutlu, Ramulator: A Fast and Extensible DRAM Simulator, IEEE Computer Architecture Letters, v.15 n.1, p.45-49, January 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2414456", 
+            "DOIname": "10.1109/LCA.2015.2414456", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2965092"
+        }, 
+        {
+            "ArticleName": "Y. Kim et al., Ramulator Repository, https://github.com/CMU-SAFARI/ramulator, 2015."
+        }, 
+        {
+            "ArticleName": "Y. Kim, \"Architectural techniques to enhance DRAM scaling,\" Ph.D. dissertation, CMU, 2015."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Ross Daly , Jeremie Kim , Chris Fallin , Ji Hye Lee , Donghyuk Lee , Chris Wilkerson , Konrad Lai , Onur Mutlu, Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors, ACM SIGARCH Computer Architecture News, v.42 n.3, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2678373.2665726", 
+            "DOIname": "10.1145/2678373.2665726", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665726"
+        }, 
+        {
+            "ArticleName": "Y. Kim et al., \"ATLAS: A scalable and high-performance scheduling algorithm for multiple memory controllers.\" in HPCA, 2010."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Lavanya Subramanian , Rachata Ausavarungnirun , Jongmoo Choi , Onur Mutlu, Decoupled Direct Memory Access: Isolating CPU and IO Traffic by Leveraging a Dual-Data-Port DRAM, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.174-187, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.51", 
+            "DOIname": "10.1109/PACT.2015.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923788"
+        }, 
+        {
+            "ArticleName": "D. Lee, \"Reducing DRAM latency at low cost by exploiting heterogeneity,\" Ph.D. dissertation, CMU, 2015."
+        }, 
+        {
+            "ArticleName": "D. Lee et al., \"Reducing DRAM latency by exploiting design-induced latency variation in modern DRAM chips,\" in ArXiv, 2016."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Samira Khan , Lavanya Subramanian , Saugata Ghose , Rachata Ausavarungnirun , Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu, Design-Induced Latency Variation in Modern DRAM Chips: Characterization, Analysis, and Latency Reduction Mechanisms, Proceedings of the 2017 ACM SIGMETRICS / International Conference on Measurement and Modeling of Computer Systems, June 05-09, 2017, Urbana-Champaign, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3078505.3078533", 
+            "DOIname": "10.1145/3078505.3078533", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3078533"
+        }, 
+        {
+            "ArticleName": "D. Lee et al., \"Adaptive-latency DRAM: Optimizing DRAM timing for the common-case,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Yoongu Kim , Vivek Seshadri , Jamie Liu , Lavanya Subramanian , Onur Mutlu, Tiered-latency DRAM: A low latency and low cost DRAM architecture, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.615-626, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522354", 
+            "DOIname": "10.1109/HPCA.2013.6522354", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495482"
+        }, 
+        {
+            "ArticleName": "Kevin M. Lepak , Mikko H. Lipasti, Silent stores for free, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.22-31, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360133", 
+            "DOIname": "10.1145/360128.360133", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360133"
+        }, 
+        {
+            "ArticleName": "Kevin M. Lepak , Mikko H. Lipasti, On the value locality of store instructions, Proceedings of the 27th annual international symposium on Computer architecture, p.182-191, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339678", 
+            "DOIname": "10.1145/339647.339678", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339678"
+        }, 
+        {
+            "ArticleName": "Kevin M. Lepak , Mikko H. Lipasti, Temporally silent stores, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605401", 
+            "DOIname": "10.1145/605397.605401", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605401"
+        }, 
+        {
+            "ArticleName": "Jamie Liu , Ben Jaiyen , Yoongu Kim , Chris Wilkerson , Onur Mutlu, An experimental study of data retention behavior in modern DRAM devices: implications for retention time profiling mechanisms, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485928", 
+            "DOIname": "10.1145/2485922.2485928", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485928"
+        }, 
+        {
+            "ArticleName": "Jamie Liu , Ben Jaiyen , Richard Veras , Onur Mutlu, RAIDR: Retention-Aware Intelligent DRAM Refresh, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337161"
+        }, 
+        {
+            "ArticleName": "Song Liu , Karthik Pattabiraman , Thomas Moscibroda , Benjamin G. Zorn, Flikker: saving DRAM refresh-power through critical data partitioning, ACM SIGPLAN Notices, v.46 n.3, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961296.1950391", 
+            "DOIname": "10.1145/1961296.1950391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950391"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Yixin Luo , Sriram Govindan , Bikash Sharma , Mark Santaniello , Justin Meza , Aman Kansal , Jie Liu , Badriddine Khessib , Kushagra Vaid , Onur Mutlu, Characterizing Application Memory Error Vulnerability to Optimize Datacenter Cost via Heterogeneous-Reliability Memory, Proceedings of the 2014 44th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.467-478, June 23-26, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2014.50", 
+            "DOIname": "10.1109/DSN.2014.50", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2672438"
+        }, 
+        {
+            "ArticleName": "J. A. Mandelman , R. H. Dennard , G. B. Bronner , J. K. DeBrosse , R. Divakaruni , Y. Li , C. J. Radens, Challenges and future directions for the scaling of dynamic random-access memory (DRAM), IBM Journal of Research and Development, v.46 n.2-3, p.187-212, March 2002", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.462.0187", 
+            "DOIname": "10.1147/rd.462.0187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1665903"
+        }, 
+        {
+            "ArticleName": "Justin Meza , Jichuan Chang , HanBin Yoon , Onur Mutlu , Parthasarathy Ranganathan, Enabling Efficient and Scalable Hybrid Memories Using Fine-Granularity DRAM Cache Management, IEEE Computer Architecture Letters, v.11 n.2, p.61-64, July 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2012.2", 
+            "DOIname": "10.1109/L-CA.2012.2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2420697"
+        }, 
+        {
+            "ArticleName": "Justin Meza , Qiang Wu , Sanjeev Kumar , Onur Mutlu, Revisiting Memory Errors in Large-Scale Production Data Centers: Analysis and Modeling of New Trends from the Field, Proceedings of the 2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.415-426, June 22-25, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2015.57", 
+            "DOIname": "10.1109/DSN.2015.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2859952"
+        }, 
+        {
+            "ArticleName": "W. Mueller et al., \"Challenges for the DRAM cell scaling to 40nm,\" in IEDM, 2005."
+        }, 
+        {
+            "ArticleName": "Janani Mukundan , Hillery Hunter , Kyu-hyoun Kim , Jeffrey Stuecheli , Jos\u00e9 F. Mart\u00ednez, Understanding and mitigating refresh overheads in high-density DDR4 DRAM systems, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485927", 
+            "DOIname": "10.1145/2485922.2485927", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485927"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu, The RowHammer problem and other issues we may face as memory becomes denser, Proceedings of the Conference on Design, Automation & Test in Europe, March 27-31, 2017, Lausanne, Switzerland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3130643"
+        }, 
+        {
+            "ArticleName": "O. Mutlu, \"Memory scaling: A systems architecture perspective,\" IMW, 2013."
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Lavanya Subramanian, Research Problems and Opportunities in Memory Systems, Supercomputing Frontiers and Innovations: an International Journal, v.1 n.3, p.19-55, October 2014", 
+            "DOIhref": "https://dx.doi.org/10.14529/jsfi140302", 
+            "DOIname": "10.14529/jsfi140302", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2983611"
+        }, 
+        {
+            "ArticleName": "Prashant Nair , Chia-Chen Chou , Moinuddin K. Qureshi, A case for Refresh Pausing in DRAM memory systems, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.627-638, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522355", 
+            "DOIname": "10.1109/HPCA.2013.6522355", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495517"
+        }, 
+        {
+            "ArticleName": "Prashant J. Nair , Dae-Hyun Kim , Moinuddin K. Qureshi, ArchShield: architectural framework for assisting DRAM scaling by tolerating high error rates, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485929", 
+            "DOIname": "10.1145/2485922.2485929", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485929"
+        }, 
+        {
+            "ArticleName": "Y. Nakagome et al., \"The impact of data-line interference noise on DRAM scaling,\" JSSC, 1988."
+        }, 
+        {
+            "ArticleName": "Minesh Patel , Jeremie S. Kim , Onur Mutlu, The Reach Profiler (REAPER): Enabling the Mitigation of DRAM Retention Failures via Profiling at Aggressive Conditions, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080242", 
+            "DOIname": "10.1145/3079856.3080242", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080242"
+        }, 
+        {
+            "ArticleName": "Vern Paxson , Sally Floyd, Wide area traffic: the failure of Poisson modeling, IEEE/ACM Transactions on Networking (TON), v.3 n.3, p.226-244, June 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/90.392383", 
+            "DOIname": "10.1109/90.392383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=208390"
+        }, 
+        {
+            "ArticleName": "Erez Perelman , Greg Hamerly , Michael Van Biesbrouck , Timothy Sherwood , Brad Calder, Using SimPoint for accurate and efficient simulation, ACM SIGMETRICS Performance Evaluation Review, v.31 n.1, June 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/885651.781076", 
+            "DOIname": "10.1145/885651.781076", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781076"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Dae-Hyun Kim , Samira Khan , Prashant J. Nair , Onur Mutlu, AVATAR: A Variable-Retention-Time (VRT) Aware Refresh for DRAM Systems, Proceedings of the 2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.427-437, June 22-25, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2015.58", 
+            "DOIname": "10.1109/DSN.2015.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2859953"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Gabe H. Loh, Fundamental Latency Trade-off in Architecting DRAM Caches: Outperforming Impractical SRAM-Tags with a Simple and Practical Design, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.235-246, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.30", 
+            "DOIname": "10.1109/MICRO.2012.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457502"
+        }, 
+        {
+            "ArticleName": "Michael Redeker , Bruce F. Cockburn , Duncan G. Elliott, An Investigation into Crosstalk Noise in DRAM Structures, Proceedings of the The 2002 IEEE International Workshop on Memory Technology, Design and Testing, p.123, July 10-12, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825134"
+        }, 
+        {
+            "ArticleName": "Bianca Schroeder , Mor Harchol-Balter, Evaluation of Task Assignment Policies for Supercomputing Servers: The Case for Load Unbalancing and Fairness, Cluster Computing, v.7 n.2, p.151-161, April 2004", 
+            "DOIhref": "https://dx.doi.org/10.1023/B:CLUS.0000018564.05723.a2", 
+            "DOIname": "10.1023/B:CLUS.0000018564.05723.a2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=973195"
+        }, 
+        {
+            "ArticleName": "Bianca Schroeder , Eduardo Pinheiro , Wolf-Dietrich Weber, DRAM errors in the wild: a large-scale field study, ACM SIGMETRICS Performance Evaluation Review, v.37 n.1, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/2492101.1555372", 
+            "DOIname": "10.1145/2492101.1555372", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555372"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Kevin Hsieh , Amirali Boroumand , Donghyuk Lee , Michael A. Kozuch , Onur Mutlu , Phillip B. Gibbons , Todd C. Mowry, Fast Bulk Bitwise AND and OR in DRAM, IEEE Computer Architecture Letters, v.14 n.2, p.127-131, July 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2434872", 
+            "DOIname": "10.1109/LCA.2015.2434872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2878683"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Yoongu Kim , Chris Fallin , Donghyuk Lee , Rachata Ausavarungnirun , Gennady Pekhimenko , Yixin Luo , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, RowClone: fast and energy-efficient in-DRAM bulk data copy and initialization, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540725", 
+            "DOIname": "10.1145/2540708.2540725", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540725"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Donghyuk Lee , Thomas Mullins , Hasan Hassan , Amirali Boroumand , Jeremie Kim , Michael A. Kozuch , Onur Mutlu , Phillip B. Gibbons , Todd C. Mowry, Ambit: in-memory accelerator for bulk bitwise operations using commodity DRAM technology, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/3123939.3124544", 
+            "DOIname": "10.1145/3123939.3124544", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3124544"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Thomas Mullins , Amirali Boroumand , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Gather-scatter DRAM: in-DRAM address translation to improve the spatial locality of non-unit strided accesses, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830820", 
+            "DOIname": "10.1145/2830772.2830820", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830820"
+        }, 
+        {
+            "ArticleName": "V. Seshadri and O. Mutlu, Simple Operations in Memory to Reduce Data Movement. Advances in Computers, 2016."
+        }, 
+        {
+            "ArticleName": "SPEC CPU2006, \"Standard Performance Evaluation Corporation,\" http://www.spec.org/cpu2006."
+        }, 
+        {
+            "ArticleName": "Vilas Sridharan , Nathan DeBardeleben , Sean Blanchard , Kurt B. Ferreira , Jon Stearley , John Shalf , Sudhanva Gurumurthi, Memory Errors in Modern Systems: The Good, The Bad, and The Ugly, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694348", 
+            "DOIname": "10.1145/2694344.2694348", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694348"
+        }, 
+        {
+            "ArticleName": "Vilas Sridharan , Dean Liberty, A study of DRAM failures in the field, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 10-16, 2012, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2389100"
+        }, 
+        {
+            "ArticleName": "J. Stuecheli et al., \"Elastic refresh: Techniques to mitigate refresh penalties in high density memory,\" in ISCA, 2010."
+        }, 
+        {
+            "ArticleName": "Transaction Processing Performance Council, \"TPC 2011,\" http://www.tpc.org/."
+        }, 
+        {
+            "ArticleName": "Ad. J. van de Goor , Ivo Schanstra, Address and Data Scrambling: Causes and Impact on Memory Tests, Proceedings of the The First IEEE International Workshop on Electronic Design, Test and Applications (DELTA '02), p.128, January 29-31, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=790005"
+        }, 
+        {
+            "ArticleName": "R. Venkatesan et al., \"Retention-Aware Placement in DRAM (RAPID): Software Methods for Quasi-Non-Volatile DRAM,\" in HPCA, 2006."
+        }, 
+        {
+            "ArticleName": "Xilinx, ML605 Hardware User Guide, 2012."
+        }, 
+        {
+            "ArticleName": "Doe Hyun Yoon , Mattan Erez, Virtualized and flexible ECC for main memory, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736064", 
+            "DOIname": "10.1145/1736020.1736064", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736064"
+        }, 
+        {
+            "ArticleName": "Xiangyao Yu , Christopher J. Hughes , Nadathur Satish , Onur Mutlu , Srinivas Devadas, Banshee: bandwidth-efficient DRAM caching via software/hardware cooperation, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/3123939.3124555", 
+            "DOIname": "10.1145/3123939.3124555", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3124555"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Virginia", 
+            "Name": "Samira Khan"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Chris Wilkerson"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Zhe Wang"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Alaa R. Alameldeen"
+        }, 
+        {
+            "Affiliation": "Nvidia Research", 
+            "Name": "Donghyuk Lee"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich", 
+            "Name": "Onur Mutlu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123945&preflayout=flat"
+}

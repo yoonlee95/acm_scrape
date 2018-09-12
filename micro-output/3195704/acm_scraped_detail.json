@@ -1,0 +1,233 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 9, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 9, 
+        "CitationCount": 0
+    }, 
+    "Title": "Snatch: opportunistically reassigning power allocation between processor and memory in 3D stacks", 
+    "Abstract": "The pin count largely determines the cost of a chip package, which is often comparable to the cost of a die. In 3D processor-memory designs, power and ground (P/G) pins can account for the majority of the pins. This is because packages include separate pins for the disjoint processor and memory power delivery networks (PDNs). Supporting separate PDNs and P/G pins for processor and memory is inefficient, as each set has to be provisioned for the worst-case power delivery requirements. In this paper, we propose to reduce the number of P/G pins of both processor and memory in a 3D design, and dynamically and opportunistically divert some power between the two PDNs on demand. To perform the power transfer, we use a small bidirectional on-chip voltage regulator that connects the two PDNs. Our concept, called Snatch, is effective. It allows the computer to execute code sections with high processor or memory power requirements without having to throttle performance. We evaluate Snatch with simulations of an 8-core multicore stacked with two memory dies. In a set of compute-intensive codes, the processor snatches memory power for 30% of the time on average, speeding-up the codes by up to 23% over advanced turbo-boosting; in memory-intensive codes, the memory snatches processor power. Alternatively, Snatch can reduce the package cost by about 30%.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "K. Banerjee, S. Souri, P. Kapur, and K. Saraswat, \"3-D ICs: A Novel Chip Design for Improving Deep-Submicrometer Interconnect Performance and Systems-on-Chip Integration,\" Proceedings of the IEEE, 2001."
+        }, 
+        {
+            "ArticleName": "Shekhar Borkar, 3D integration for energy efficient system design, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024774", 
+            "DOIname": "10.1145/2024724.2024774", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024774"
+        }, 
+        {
+            "ArticleName": "Bryan Black , Murali Annavaram , Ned Brekelbaum , John DeVale , Lei Jiang , Gabriel H. Loh , Don McCaule , Pat Morrow , Donald W. Nelson , Daniel Pantuso , Paul Reed , Jeff Rupley , Sadasivan Shankar , John Shen , Clair Webb, Die Stacking (3D) Microarchitecture, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.469-479, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.18", 
+            "DOIname": "10.1109/MICRO.2006.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194860"
+        }, 
+        {
+            "ArticleName": "Xiangyu Dong , Jishen Zhao , Yuan Xie, Fabrication cost analysis and cost-aware design space exploration for 3-D ICs, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.29 n.12, p.1959-1972, December 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2010.2062811", 
+            "DOIname": "10.1109/TCAD.2010.2062811", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1922088"
+        }, 
+        {
+            "ArticleName": "Intel Corp. http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/processors-for-communications-infrastructure-datasheet-vol-1.pdf."
+        }, 
+        {
+            "ArticleName": "Mikhail Popovich , Andrey V. Mezhiba , Eby G. Friedman, Power Distribution Networks with On-Chip Decoupling Capacitors, Springer Publishing Company, Incorporated, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1564896"
+        }, 
+        {
+            "ArticleName": "Shaoming Chen , Yue Hu , Ying Zhang , Lu Peng , Jesse Ardonne , Samuel Irving , Ashok Srivastava, Increasing off-chip bandwidth in multi-core processors with switchable pins, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665730"
+        }, 
+        {
+            "ArticleName": "Indrani Paul , Wei Huang , Manish Arora , Sudhakar Yalamanchili, Harmonia: balancing compute and memory power in high-performance GPUs, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750404", 
+            "DOIname": "10.1145/2749469.2750404", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750404"
+        }, 
+        {
+            "ArticleName": "Waclaw Godycki , Christopher Torng , Ivan Bukreyev , Alyssa Apsel , Christopher Batten, Enabling Realistic Fine-Grain Voltage Scaling with Reconfigurable Power Distribution Networks, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.52", 
+            "DOIname": "10.1109/MICRO.2014.52", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742194"
+        }, 
+        {
+            "ArticleName": "P. A. M. Bezerra, F. Krismer, T. M. Andersen, J. W. Kolar, A. Sridhar, T. Brunschwiler, T. Toifl, M. Jatlaoui, F. Voiron, Z. Pavlovic, N. Wang, N. Cordero, C. Rabot, and C. O. Mathuna, \"Modeling and multi-objective optimization of 2.5D inductor-based Fully Integrated Voltage Regulators for microprocessor applications,\" in 2015 IEEE 13th Brazilian Power Electronics Conference and 1st Southern Power Electronics Conference (COBEP/SPEC), Nov 2015."
+        }, 
+        {
+            "ArticleName": "E. A. Burton, G. Schrom, F. Paillet, J. Douglas, W. J. Lambert, K. Radhakrishnan, and M. J. Hill, \"FIVR - Fully integrated voltage regulators on 4th generation Intel Core SoCs,\" in Twenty-Ninth Annual IEEE Applied Power Electronics Conference and Exposition (APEC), March 2014."
+        }, 
+        {
+            "ArticleName": "S. T. Kim, Y. C. Shih, K. Mazumdar, R. Jain, J. F. Ryan, C. Tokunaga, C. Augustine, J. P. Kulkarni, K. Ravichandran, J. W. Tschanz, M. M. Khellah, and V. De, \"Enabling Wide Autonomous DVFS in a 22 nm Graphics Execution Core Using a Digitally Controlled Fully Integrated Voltage Regulator,\" IEEE Journal of Solid-State Circuits, vol. 51, no. 1, pp. 18--30, Jan 2016."
+        }, 
+        {
+            "ArticleName": "N. Sturcken, E. J. O'Sullivan, N. Wang, P. Herget, B. C. Webb, L. T. Romankiw, M. Petracca, R. Davies, R. E. Fontana, G. M. Decad, I. Kymissis, A. V. Peterchev, L. P. Carloni, W. J. Gallagher, and K. L. Shepard, \"A 2.5D Integrated Voltage Regulator Using Coupled-Magnetic-Core Inductors on Silicon Interposer,\" IEEE Journal of Solid-State Circuits, vol. 48, no. 1, pp. 244--254, Jan 2013."
+        }, 
+        {
+            "ArticleName": "W. Kim, M. S. Gupta, G. Y. Wei, and D. Brooks, \"System level analysis of fast, per-core DVFS using on-chip switching regulators,\" in IEEE 14th International Symposium on High Performance Computer Architecture, Feb 2008, pp. 123--134."
+        }, 
+        {
+            "ArticleName": "M. Rodriguez, L. Corradini, C. Olalla, and D. Maksimovic, \"Average current-mode control of boost converters with bidirectional power transfer capabilities,\" in IEEE 13th Workshop on Control and Modeling for Power Electronics (COMPEL), June 2012, pp. 1--7."
+        }, 
+        {
+            "ArticleName": "E. A. Burton, \"Package and platform view of Intel's Fully Integrated Voltage Regulators (FIVR),\" Tech. Rep., 2015, {Online} http://www.apec-conf.org/wp-content/uploads/IS-8.7-A-Package-and-Platform-View-of-Intels-Fully-Integrated-Coltage-Regulator.pdf."
+        }, 
+        {
+            "ArticleName": "N. Kurd, M. Chowdhury, E. Burton, T. P. Thomas, C. Mozak, B. Boswell, P. Mosalikanti, M. Neidengard, A. Deval, A. Khanna, N. Chowdhury, R. Rajwar, T. M. Wilson, and R. Kumar, \"Haswell: A Family of IA 22 nm Processors,\" IEEE Journal of Solid-State Circuits, vol. 50, no. 1, pp. 49--58, Jan 2015."
+        }, 
+        {
+            "ArticleName": "Coilcraft 0603HP Datasheet, Coilcraft, Inc., {Online} Available at www.coilcraft.com/0603hp.cfm."
+        }, 
+        {
+            "ArticleName": "P. Hazucha, G. Schrom, J. Hahn, B. A. Bloechel, P. Hack, G. E. Dermer, S. Narendra, D. Gardner, T. Karnik, V. De, and S. Borkar, \"A 233-MHz 80%-87% efficient four-phase DC-DC converter utilizing air-core inductors on package,\" IEEE Journal of Solid-State Circuits, vol. 40, no. 4, pp. 838--845, April 2005."
+        }, 
+        {
+            "ArticleName": "G. Schrom, P. Hazucha, F. Paillet, D. S. Gardner, S. T. Moon, and T. Karnik, \"Optimal Design of Monolithic Integrated DC-DC Converters,\" in IEEE International Conference on Integrated Circuit Design and Technology, 2006, pp. 1--3."
+        }, 
+        {
+            "ArticleName": "Xin Huang , Tan Yu , Valeriy Sukharev , Sheldon X.-D. Tan, Physics-based Electromigration Assessment for Power Grid Networks, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593180", 
+            "DOIname": "10.1145/2593069.2593180", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593180"
+        }, 
+        {
+            "ArticleName": "J. R. Black, \"Electromigration: A brief survey and some recent results,\" IEEE Transactions on Electron Devices, vol. 16, no. 4, pp. 338--347, Apr 1969."
+        }, 
+        {
+            "ArticleName": "W. J. Choi, E. C. C. Yeh, and K. N. Tu, \"Mean-time-to-failure study of flip chip solder joints on Cu/Ni(V)/Al thin-film under-bump-metallization,\" Journal of Applied Physics, vol. 94, no. 9, pp. 5665--5671, 2003."
+        }, 
+        {
+            "ArticleName": "Runjie Zhang , Ke Wang , Brett H. Meyer , Mircea R. Stan , Kevin Skadron, Architecture implications of pads as a scarce resource, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665728"
+        }, 
+        {
+            "ArticleName": "Texas Instruments, \"An-1205 electrical performance of packages,\" Tech. Rep., 2004. {Online}. Available: http://www.ti.com/lit/an/snoa405a/snoa405a.pdf"
+        }, 
+        {
+            "ArticleName": "Kaiwei Yao , Fred C. Lee, High-frequency and high-performance vrm design for the next generations of processors, Virginia Polytechnic Institute and State University, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1023412"
+        }, 
+        {
+            "ArticleName": "J. Renau, B. Fraguela, J. Tuck, W. Liu, M. Prvulovic, L. Ceze, K. Strauss, S. Sarangi, P. Sack, and P. Montesinos, \"SESC Simulator,\" January 2005, http://sesc.sourceforge.net."
+        }, 
+        {
+            "ArticleName": "M. Halpern, Y. Zhu, and V. J. Reddi, \"Mobile CPU's rise to power: Quantifying the impact of generational mobile CPU design trends on performance, energy, and user satisfaction,\" in 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA), March 2016."
+        }, 
+        {
+            "ArticleName": "Anandtech. http://www.anandtech.com/show/8718/the-samsung-galaxy-note-4-exynos-review/6."
+        }, 
+        {
+            "ArticleName": "W. El-Essawy and D. H. Albonesi, \"Mitigating inductive noise in SMT processors,\" in International Symposium on Low Power Electronics and Design (ISLPED), August 2004, pp. 332--337."
+        }, 
+        {
+            "ArticleName": "Meeta S. Gupta , Jarod L. Oatley , Russ Joseph , Gu-Yeon Wei , David M. Brooks, Understanding voltage variations in chip multiprocessors using a distributed power-delivery network, Proceedings of the conference on Design, automation and test in Europe, April 16-20, 2007, Nice, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1266498"
+        }, 
+        {
+            "ArticleName": "J. Leng, Y. Zu, and V. Reddi, \"GPU voltage noise: Characterization and hierarchical smoothing of spatial and temporal voltage noise interference in GPU architectures,\" in International Symposium on High Performance Computer Architecture (HPCA), February 2015, pp. 161--173."
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Yazhou Zu , Minsoo Rhu , Meeta Gupta , Vijay Janapa Reddi, GPUVolt: modeling and characterizing voltage noise in GPU architectures, Proceedings of the 2014 international symposium on Low power electronics and design, August 11-13, 2014, La Jolla, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2627369.2627605", 
+            "DOIname": "10.1145/2627369.2627605", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2627605"
+        }, 
+        {
+            "ArticleName": "Xuan Zhang , Tao Tong , Svilen Kanev , Sae Kyu Lee , Gu-Yeon Wei , David Brooks, Characterizing and evaluating voltage noise in multi-core near-threshold processors, Proceedings of the 2013 International Symposium on Low Power Electronics and Design, September 04-06, 2013, Beijing, China", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2648689"
+        }, 
+        {
+            "ArticleName": "D. Herrell and B. Beker, \"Modeling of power distribution systems for high-performance microprocessors,\" IEEE Transactions on Advanced Packaging, vol. 22, no. 3, pp. 240--248, 1999."
+        }, 
+        {
+            "ArticleName": "Tsung-Hao Chen , Charlie Chung-Ping Chen, Efficient large-scale power grid analysis based on preconditioned krylov-subspace iterative methods, Proceedings of the 38th annual Design Automation Conference, p.559-562, June 2001, Las Vegas, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378239.379023", 
+            "DOIname": "10.1145/378239.379023", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379023"
+        }, 
+        {
+            "ArticleName": "Paul Rosenfeld , Elliott Cooper-Balis , Bruce Jacob, DRAMSim2: A Cycle Accurate Memory System Simulator, IEEE Computer Architecture Letters, v.10 n.1, p.16-19, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2011.4", 
+            "DOIname": "10.1109/L-CA.2011.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999216"
+        }, 
+        {
+            "ArticleName": "Wide I/O SDR Standard. (2011) http://www.jedec.org/standards-documents/results/jesd229."
+        }, 
+        {
+            "ArticleName": "Wide I/O 2 Standard. (2014) http://www.jedec.org/standards-documents/results/jesd229-2."
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "G. Faust, R. Zhang, K. Skadron, M. Stan, and B. Meyer, \"ArchFP: Rapid prototyping of pre-RTL floorplans,\" in IEEE International Conference on VLSI and System-on-Chip, 2012."
+        }, 
+        {
+            "ArticleName": "Jie Meng , Katsutoshi Kawakami , Ayse K. Coskun, Optimizing energy efficiency of 3-D multicore systems with stacked DRAM under power and thermal constraints, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228477", 
+            "DOIname": "10.1145/2228360.2228477", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228477"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "NAS Parallel Benchmarks. http://www.nas.nasa.gov/publications/npb.html."
+        }, 
+        {
+            "ArticleName": "SPEC-CPU2006. https://www.spec.org/cpu2006/."
+        }, 
+        {
+            "ArticleName": "R. Zhang, B. H. Meyer, K. Wang, M. R. Stan, and K. Skadron, \"Tolerating the Consequences of Multiple EM-Induced C4 Bump Failures,\" IEEE Transactions on Very Large Scale Integration (VLSI) Systems, no. 99, pp. 1--10, 2015."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Dimitrios Skarlatos"
+        }, 
+        {
+            "Affiliation": "Ohio State University", 
+            "Name": "Renji Thomas"
+        }, 
+        {
+            "Affiliation": "NVIDIA Corp.", 
+            "Name": "Aditya Agrawal"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Shibin Qin"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Robert Pilawa-Podgurski"
+        }, 
+        {
+            "Affiliation": "University of Minnesota", 
+            "Name": "Ulya R. Karpuzcu"
+        }, 
+        {
+            "Affiliation": "Ohio State University", 
+            "Name": "Radu Teodorescu"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Nam Sung Kim"
+        }, 
+        {
+            "Affiliation": "University of Illinois", 
+            "Name": "Josep Torrellas"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195704&preflayout=flat"
+}

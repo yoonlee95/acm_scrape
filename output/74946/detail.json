@@ -1,0 +1,114 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Santosh K. Shrivastava , Paul D. Ezhilchelvan , Neil A. Speirs , Sha Tao , Alan Tully, Principal Features of the VOLTAN Family of Reliable Node Architectures for Distributed Systems, IEEE Transactions on Computers, v.41 n.5, p.542-549, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=146957"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 8, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 283, 
+        "CitationCount": 1
+    }, 
+    "Title": "Constructing replicated systems using processors with point-to-point communication links", 
+    "Abstract": "Replicated processing with majority voting is a well known method of achieving fault tolerance. We consider the problem of constructing a distributed system composed of an arbitrarily large number of N-modular redundant (NMR) nodes, where each node itself is composed of N, N = 2m + 1 and m \u2265 1, processing and voting elements. Advanced microprocessors, such as Inmos Transputers, provide fast serial communication links for inter-processor communication, making it possible to construct large networks of processors. We describe how replicated processing with majority voting can be achieved for such processor networks. This paper will present the overall systems architecture, including voting and NMR synchronization algorithms specially developed to exploit fast point to point communication facilities.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "F.B. Schneider, \"Abstractions for fault tolerance in distributed systams\",Proc ofIFIP86Congress. 1986,pp. 727.733, NorthHolland.]]"
+        }, 
+        {
+            "ArticleName": "Santosh K. Shrivastava, Replicated Distributed Processing, Proceedings of the International Seminar on Networking in Open Systems, p.325-337, August 18-22, 1986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=743490"
+        }, 
+        {
+            "ArticleName": "J.H. Wensley et al., \"SIFT: Design and analysis of a fault-tolerant computer for aircraft control\", Proc. of IEEE, 66, 10, October 1976. pp. 1240.1255.]]"
+        }, 
+        {
+            "ArticleName": "R.E. Harper, J.H. Lala and J.J. Deyst. \"Fault tolerant processor architecture overview\", Digest of papers, Fault Tol. Comp. Symp-18. Tokyo, June 1968, pp. 252.257.]]"
+        }, 
+        {
+            "ArticleName": "D. Powell et al., \"\"The Delta-4 approach to dependability in open distributed computing systems\", Digest of papers, Fault Tol. Comp. Symp- 18,Tokyo.June 1988,pp.246-251.]]"
+        }, 
+        {
+            "ArticleName": "Kenneth P. Birman, Replication and fault-tolerance in the ISIS system, Proceedings of the tenth ACM symposium on Operating systems principles, p.79-86, December 1985, Orcas Island, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/323647.323636", 
+            "DOIname": "10.1145/323647.323636", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=323636"
+        }, 
+        {
+            "ArticleName": "Leslie Lamport , Robert Shostak , Marshall Pease, The Byzantine Generals Problem, ACM Transactions on Programming Languages and Systems (TOPLAS), v.4 n.3, p.382-401, July 1982", 
+            "DOIhref": "http://doi.acm.org/10.1145/357172.357176", 
+            "DOIname": "10.1145/357172.357176", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357176"
+        }, 
+        {
+            "ArticleName": "CORPORATE INMOS Limited, Transputer reference manual, Prentice Hall International (UK) Ltd., Hertfordshire, UK, 1988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=51254"
+        }, 
+        {
+            "ArticleName": "N. Theuretzbacher. \"VOTRICS: Voting triple modular computing system\", Digest of papers, Fault Tol. Comp. Symp-16, Vienna, July 1986, pp. 144-160.]]"
+        }, 
+        {
+            "ArticleName": "Inmos Ltd.\"OCCAM 2 Reference Manual\", Prentice Hall, 1988.]]"
+        }, 
+        {
+            "ArticleName": "Andrew D. Birrell , Bruce Jay Nelson, Implementing remote procedure calls, ACM Transactions on Computer Systems (TOCS), v.2 n.1, p.39-59, February 1984", 
+            "DOIhref": "http://doi.acm.org/10.1145/2080.357392", 
+            "DOIname": "10.1145/2080.357392", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357392"
+        }, 
+        {
+            "ArticleName": "R. L. Rivest , A. Shamir , L. Adleman, A method for obtaining digital signatures and public-key cryptosystems, Communications of the ACM, v.21 n.2, p.120-126, Feb. 1978", 
+            "DOIhref": "http://doi.acm.org/10.1145/359340.359342", 
+            "DOIname": "10.1145/359340.359342", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=359342"
+        }, 
+        {
+            "ArticleName": "F. Cristiaq, H. Aghili, R. Strong and D. Dolev. \"Atomic broadcast: from simple measage diffusion to Byzantine Agreement\", Digest of papers, FaultTol.Comp. Symp-15,AnnArbor.June 1986, pp. 200.206.]]"
+        }, 
+        {
+            "ArticleName": "O. Babaoglu and R. Drummond. \"(Almost) no coat clock synchronization (preliminary version)\", Digest of papers, Fault Tol. Comp. Sympl'l, Michigan, June 1987, pp. 42-47.]]"
+        }, 
+        {
+            "ArticleName": "L Mancini, Modular redundancy in a message passing system, IEEE Transactions on Software Engineering, v.12 n.1, p.79-86, January 1986", 
+            "DOIhref": "https://dx.doi.org/10.1109/TSE.1986.6312922", 
+            "DOIname": "10.1109/TSE.1986.6312922", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=10686"
+        }, 
+        {
+            "ArticleName": "K. Echtle, \"Fault masking and sequencing agreement by a voting protocol with low message number\", Proc. of 6th Symp. on reliability in dist,soft.anddatabase systems. Williamsburg, March 1987.pp. 149.160.]]"
+        }, 
+        {
+            "ArticleName": "N. Natarajan and J. Tang. \"Synchronization of redundant computation in a distributed system\", Proc. of 6th Symp. on reliability in dist. software and database systems. Williamsburg. March 1987. pp. 13% 148.]]"
+        }, 
+        {
+            "ArticleName": "L. Mancini and S.K. Shrivastava. \"Failure detection in replicated systems\", Computing Laboratory, University of Newcastle Upon Tyne, Tech. reportno.238,June 1987.]]"
+        }, 
+        {
+            "ArticleName": "L. Mancini and S.K. Shrivastava. \"Exception handling in replicated systems with voting\", Digestofpapers, Fault Tol. Comp. Symp-16. Vienna, Jdy 1986.pp.384-389.]]"
+        }, 
+        {
+            "ArticleName": "Joseph Y. Halpern , Barbara Simons , Ray Strong , Danny Dolev, Fault-tolerant clock synchronization, Proceedings of the third annual ACM symposium on Principles of distributed computing, p.89-102, August 27-29, 1984, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/800222.806739", 
+            "DOIname": "10.1145/800222.806739", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=806739"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Computing Laboratory, University of Newcastle Upon Tyne, England, U.K.", 
+            "Name": "P. D. Ezhilchelvan"
+        }, 
+        {
+            "Affiliation": "Computing Laboratory, University of Newcastle Upon Tyne, England, U.K.", 
+            "Name": "S. K. Shrivastava"
+        }, 
+        {
+            "Affiliation": "Computing Laboratory, University of Newcastle Upon Tyne, England, U.K.", 
+            "Name": "A. Tully"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74946&preflayout=flat"
+}

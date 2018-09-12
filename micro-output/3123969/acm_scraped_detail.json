@@ -1,0 +1,277 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 424, 
+        "Downloads_6Weeks": 15, 
+        "Downloads_cumulative": 424, 
+        "CitationCount": 0
+    }, 
+    "Title": "Mirage cores: the illusion of many out-of-order cores using in-order hardware", 
+    "Abstract": "Heterogenous chip multiprocessors (Het-CMPs) offer a combination of large Out-of-Order (OoO) cores optimized for high single-threaded performance and small In-Order (InO) cores optimized for low-energy and area costs. Due to practical constraints, CMP designers must choose to either optimize for total system throughput by utilizing many InO cores or maximize single-thread execution with fewer OoO cores. We propose Mirage Cores, a novel Het-CMP design where clusters of InO cores are architected around an OoO in a manner that optimizes for both throughput and single-thread performance. The insight behind Mirage Cores is that InO cores can achieve near-OoO performance if they are provided with the dynamic instruction schedule of an OoO core. To leverage this, Mirage Cores employs an OoO core as an optimal instruction schedule generator as well as a high-performance alternative for all neighboring InO cores. We also develop intelligent runtime schedulers which orchestrate the arbitration and migration of applications between the InO cores and the central OoO. Fast and timely transfer of dynamic schedules from the OoO to InO allows Mirage Cores to create the appearance of all OoO cores to the user using underlying In-Order hardware. Overall, with an 8 InO per OoO configuration, Mirage Cores can achieve on average 84% of the performance of a CMP with 8 OoO cores, a 28% increase relative to current systems, while conserving 55% of energy and 25% of area costs. We find that we can scale the design to around 12 InOs per OoO before starvation for the OoO starts to hamper system performance.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "AMD. 2014. AMD Compute Cores. (2014). https://www.amd.com/Documents/Compute_Cores_Whitepaper.pdf."
+        }, 
+        {
+            "ArticleName": "ARM. 2015. Cortex-A53 Processor. (2015). http://www.arm.com/products/processors/cortex-a/cortex-a53-processor.php."
+        }, 
+        {
+            "ArticleName": "Saisanthosh Balakrishnan , Ravi Rajwar , Mike Upton , Konrad Lai, The Impact of Performance Asymmetry in Emerging Multicore Architectures, ACM SIGARCH Computer Architecture News, v.33 n.2, p.506-517, May 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1080695.1070012", 
+            "DOIname": "10.1145/1080695.1070012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070012"
+        }, 
+        {
+            "ArticleName": "Michela Becchi , Patrick Crowley, Dynamic thread assignment on heterogeneous multiprocessor architectures, Proceedings of the 3rd conference on Computing frontiers, May 03-05, 2006, Ischia, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/1128022.1128029", 
+            "DOIname": "10.1145/1128022.1128029", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1128029"
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee , Margaret Martonosi, Thread criticality predictors for dynamic performance, power, and resource management in chip multiprocessors, ACM SIGARCH Computer Architecture News, v.37 n.3, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555815.1555792", 
+            "DOIname": "10.1145/1555815.1555792", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555792"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Sarah Bird, Aashish Phansalkar, Lizy K John, Alex Mericas, and Rajeev Indukuru. 2007. Performance characterization of SPEC CPU benchmarks on intel's core microarchitecture based processor. In SPEC Benchmark Workshop."
+        }, 
+        {
+            "ArticleName": "Bryan Black and John Paul Shen. 2000. Turboscalar: a high frequency high IPC microarchitecture. ISCA27 (2000), 36--44."
+        }, 
+        {
+            "ArticleName": "Darrell Boggs, Gary Brown, Nathan Tuck, and KS Venkatraman. 2015. Denver: Nvidia's first 64-bit ARM processor. IEEE Micro 35, 2 (2015), 46--55."
+        }, 
+        {
+            "ArticleName": "Qiong Cai , Jos\u00e9 Gonz\u00e1lez , Ryan Rakvic , Grigorios Magklis , Pedro Chaparro , Antonio Gonz\u00e1lez, Meeting points: using thread criticality to adapt multicore hardware to parallel regions, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454149", 
+            "DOIname": "10.1145/1454115.1454149", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454149"
+        }, 
+        {
+            "ArticleName": "Jian Chen , Lizy K. John, Efficient program scheduling for heterogeneous multi-core processors, Proceedings of the 46th Annual Design Automation Conference, July 26-31, 2009, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629911.1630149", 
+            "DOIname": "10.1145/1629911.1630149", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1630149"
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation. 2006. SPEC 2006. (2006). http://www.spec.com/cpu2006/."
+        }, 
+        {
+            "ArticleName": "Chris Fallin, Chris Wilkerson, and Onur Mutlu. 2014. The Heterogeneous Block Architecture. SAFARI Technical Report No. 2014-001 (March 2014)."
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2150982", 
+            "DOIname": "10.1145/2248487.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Peter Greenhalgh. 2011. Big.LITTLE Processing with ARM Cortex-A15 & Cortex-A7. (Sept. 2011). http://www.arm.com/files/downloads/big_LITTLE_Final.pdf."
+        }, 
+        {
+            "ArticleName": "Wen-Mei W. Hwu , Scott A. Mahlke , William Y. Chen , Pohua P. Chang , Nancy J. Warter , Roger A. Bringmann , Roland G. Ouellette , Richard E. Hank , Tokuzo Kiyohara , Grant E. Haab , John G. Holm , Daniel M. Lavery, The superblock: an effective technique for VLIW and superscalar compilation, The Journal of Supercomputing, v.7 n.1-2, p.229-248, May 1993", 
+            "DOIhref": "https://dx.doi.org/10.1007/BF01205185", 
+            "DOIname": "10.1007/BF01205185", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=172791"
+        }, 
+        {
+            "ArticleName": "Intel. 2008. 2nd generation Intel Core vPro processor family. (2008). http://www.intel.com/content/dam/doc/white-paper/performance-2nd-generation-core-vpro-family-paper.pdf."
+        }, 
+        {
+            "ArticleName": "Canturk Isci , Alper Buyuktosunoglu , Chen-Yong Cher , Pradip Bose , Margaret Martonosi, An Analysis of Efficient Multi-Core Global Power Management Policies: Maximizing Performance for a Given Power Budget, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.347-358, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.8", 
+            "DOIname": "10.1109/MICRO.2006.8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194850"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 A. Joao , M. Aater Suleman , Onur Mutlu , Yale N. Patt, Bottleneck identification and scheduling in multithreaded applications, ACM SIGARCH Computer Architecture News, v.40 n.1, March 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2189750.2151001", 
+            "DOIname": "10.1145/2189750.2151001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151001"
+        }, 
+        {
+            "ArticleName": "J. A. Kahle , M. N. Day , H. P. Hofstee , C. R. Johns , T. R. Maeurer , D. Shippy, Introduction to the cell multiprocessor, IBM Journal of Research and Development, v.49 n.4/5, p.589-604, July 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1148891"
+        }, 
+        {
+            "ArticleName": "Cansu Kaynak , Boris Grot , Babak Falsafi, Confluence: unified instruction supply for scale-out servers, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830785", 
+            "DOIname": "10.1145/2830772.2830785", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830785"
+        }, 
+        {
+            "ArticleName": "David Koufaty , Dheeraj Reddy , Scott Hahn, Bias scheduling in heterogeneous multi-core architectures, Proceedings of the 5th European conference on Computer systems, April 13-16, 2010, Paris, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1755913.1755928", 
+            "DOIname": "10.1145/1755913.1755928", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1755928"
+        }, 
+        {
+            "ArticleName": "Rakesh Kumar , Keith I. Farkas , Norman P. Jouppi , Parthasarathy Ranganathan , Dean M. Tullsen, Single-ISA Heterogeneous Multi-Core Architectures: The Potential for Processor Power Reduction, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.81, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956569"
+        }, 
+        {
+            "ArticleName": "Rakesh Kumar , Dean M. Tullsen , Parthasarathy Ranganathan , Norman P. Jouppi , Keith I. Farkas, Single-ISA Heterogeneous Multi-Core Architectures for Multithreaded Workload Performance, Proceedings of the 31st annual international symposium on Computer architecture, p.64, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006707"
+        }, 
+        {
+            "ArticleName": "Nagesh Lakshminarayana, Sushma Rao, and Hyesoon Kim. 2008. Asymmetry aware scheduling algorithms for asymmetric multiprocessors. In In Proc. of the Fourth Annual Workshop on the Interaction between Operating Systems and Computer Architecture. Citeseer."
+        }, 
+        {
+            "ArticleName": "Nagesh B. Lakshminarayana , Jaekyu Lee , Hyesoon Kim, Age based scheduling for asymmetric multiprocessors, Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis, November 14-20, 2009, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/1654059.1654085", 
+            "DOIname": "10.1145/1654059.1654085", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1654085"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Tong Li , Dan Baumberger , David A. Koufaty , Scott Hahn, Efficient operating system scheduling for performance-asymmetric multi-core architectures, Proceedings of the 2007 ACM/IEEE conference on Supercomputing, November 10-16, 2007, Reno, Nevada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1362622.1362694", 
+            "DOIname": "10.1145/1362622.1362694", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1362694"
+        }, 
+        {
+            "ArticleName": "Andrew Lukefahr , Shruti Padmanabha , Reetuparna Das , Faissal M. Sleiman , Ronald Dreslinski , Thomas F. Wenisch , Scott Mahlke, Composite Cores: Pushing Heterogeneity Into a Core, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.317-328, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.37", 
+            "DOIname": "10.1109/MICRO.2012.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457508"
+        }, 
+        {
+            "ArticleName": "Daniel S. McFarlin , Charles Tucker , Craig Zilles, Discerning the dominant out-of-order performance advantage: is it speculation or dynamism?, ACM SIGPLAN Notices, v.48 n.4, April 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499368.2451143", 
+            "DOIname": "10.1145/2499368.2451143", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451143"
+        }, 
+        {
+            "ArticleName": "Ravi Nair , Martin E. Hopkins, Exploiting instruction level parallelism in processors by caching scheduled groups, Proceedings of the 24th annual international symposium on Computer architecture, p.13-25, June 01-04, 1997, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/264107.264125", 
+            "DOIname": "10.1145/264107.264125", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264125"
+        }, 
+        {
+            "ArticleName": "NVidia. 2011. Variable SMP - a multi-core CPU architecture for low power and high performance. (2011). http://www.nvidia.com/content/PDF/tegra_white_papers/Variable-SMP-A-Multi-Core-CPU-Architecture-for-LowPower-and-High-Performance-v1-1.pdf."
+        }, 
+        {
+            "ArticleName": "Shruti Padmanabha , Andrew Lukefahr , Reetuparna Das , Scott Mahlke, Trace based phase prediction for tightly-coupled heterogeneous cores, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540746", 
+            "DOIname": "10.1145/2540708.2540746", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540746"
+        }, 
+        {
+            "ArticleName": "Shruti Padmanabha , Andrew Lukefahr , Reetuparna Das , Scott Mahlke, DynaMOS: dynamic schedule migration for heterogeneous cores, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830791", 
+            "DOIname": "10.1145/2830772.2830791", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830791"
+        }, 
+        {
+            "ArticleName": "Oscar Palomar , Toni Juan , Juan J. Navarro, Reusing cached schedules in an out-of-order processor with in-order issue logic, Proceedings of the 2009 IEEE international conference on Computer design, October 04-07, 2009, Lake Tahoe, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1792403"
+        }, 
+        {
+            "ArticleName": "Sanjay J. Patel , Tony Tung , Satarupa Bose , Matthew M. Crum, Increasing the size of atomic instruction blocks using control flow assertions, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.303-313, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360160", 
+            "DOIname": "10.1145/360128.360160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360160"
+        }, 
+        {
+            "ArticleName": "Vinicius Petrucci, Michael A Laurenzano, John Doherty, Yunqi Zhang, Daniel Mosse, Jason Mars, and Lingjia Tang. 2015. Octopus-man: Qos-driven task management for heterogeneous multicores in warehouse-scale computers. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. IEEE, 246--258."
+        }, 
+        {
+            "ArticleName": "Qualcomm. 2011. Snapdragon S4 Processors: System on Chip Solutions for a New Mobile Age. (2011). https://www.qualcomm.com/documents/snapdragon-s4-processors-system-chip-solutions-new-mobile-age."
+        }, 
+        {
+            "ArticleName": "Krishna K. Rangan , Gu-Yeon Wei , David Brooks, Thread motion: fine-grained power management for multi-core systems, ACM SIGARCH Computer Architecture News, v.37 n.3, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555815.1555793", 
+            "DOIname": "10.1145/1555815.1555793", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555793"
+        }, 
+        {
+            "ArticleName": "Eric Rotenberg , Steve Bennett , James E. Smith, Trace cache: a low latency approach to high bandwidth instruction fetching, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.24-35, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243854"
+        }, 
+        {
+            "ArticleName": "Eric Rotenberg, Brandon H Dwiel, Elliott Forbes, Zhenqian Zhang, Randy Widialaksono, Rangeen Basu Roy Chowdhury, Nyunyi Tshibangu, Steve Lipa, W Rhett Davis, and Paul D Franzon. 2013. Rationale for a 3D Heterogeneous Multi-core Processor, migration 100, 1K (2013), 10K."
+        }, 
+        {
+            "ArticleName": "Amirali Sharifian, Snehasish Kumar, Apala Guha, and Arrvindh Shriraman. 2016. Chainsaw: Von-neumann accelerators to leverage fused instruction chains. In Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 1--14."
+        }, 
+        {
+            "ArticleName": "Daniel Shelepov , Juan Carlos Saez Alcaide , Stacey Jeffery , Alexandra Fedorova , Nestor Perez , Zhi Feng Huang , Sergey Blagodurov , Viren Kumar, HASS: a scheduler for heterogeneous multicore systems, ACM SIGOPS Operating Systems Review, v.43 n.2, April 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1531793.1531804", 
+            "DOIname": "10.1145/1531793.1531804", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1531804"
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Brad Calder, Automatically characterizing large scale program behavior, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605403", 
+            "DOIname": "10.1145/605397.605403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605403"
+        }, 
+        {
+            "ArticleName": "M. Aater Suleman , Onur Mutlu , Moinuddin K. Qureshi , Yale N. Patt, Accelerating critical section execution with asymmetric multi-core architectures, ACM SIGARCH Computer Architecture News, v.37 n.1, March 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/2528521.1508274", 
+            "DOIname": "10.1145/2528521.1508274", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508274"
+        }, 
+        {
+            "ArticleName": "Emil Talpes , Diana Marculescu, Execution cache-based microarchitecture power-efficient superscalar processors, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.13 n.1, p.14-26, January 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2004.840406", 
+            "DOIname": "10.1109/TVLSI.2004.840406", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1063535"
+        }, 
+        {
+            "ArticleName": "Kenzo Van Craeynest , Shoaib Akram , Wim Heirman , Aamer Jaleel , Lieven Eeckhout, Fairness-aware scheduling on single-ISA heterogeneous multi-cores, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523748"
+        }, 
+        {
+            "ArticleName": "Kenzo Van Craeynest , Aamer Jaleel , Lieven Eeckhout , Paolo Narvaez , Joel Emer, Scheduling heterogeneous multi-cores through Performance Impact Estimation (PIE), Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337184"
+        }, 
+        {
+            "ArticleName": "Carlos Villavieja, Jose A. Joao, Rustam Miftakhutdinov, and Yale N. Patt. 2014. Yoga: A Hybrid Dynamic VLIW/OoO Processor. HPS Technical Report No. 2014--001 (2014)."
+        }, 
+        {
+            "ArticleName": "Randy Widialaksono, Rangeen Basu Roy Chowdhury, Zhenqian Zhang, Joshua Schabel, Steve Lipa, Eric Rotenberg, W Rhett Davis, and Paul Franzon. 2016. Physical design of a 3D-stacked heterogeneous multi-core processor. In 3D Systems Integration Conference (3DIC), 2016 IEEE International. IEEE, 1--5."
+        }, 
+        {
+            "ArticleName": "Qiang Wu , Margaret Martonosi , Douglas W. Clark , V. J. Reddi , Dan Connors , Youfeng Wu , Jin Lee , David Brooks, A Dynamic Compilation Framework for Controlling Microprocessor Energy and Performance, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.271-282, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.7", 
+            "DOIname": "10.1109/MICRO.2005.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100556"
+        }, 
+        {
+            "ArticleName": "Yuhao Zhu and Vijay Janapa Reddi. 2013. High-Performance and Energy-Efficient Mobile Web Browsing on Big/Little Systems. Network 8000 (2013), 6000."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Shruti Padmanabha"
+        }, 
+        {
+            "Affiliation": "Indiana University", 
+            "Name": "Andrew Lukefahr"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Reetuparna Das"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Scott Mahlke"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123969&preflayout=flat"
+}

@@ -1,0 +1,181 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Lei Wang , Poornachandran Kumar , Ki Hwan Yum , Eun Jung Kim, APCR: an adaptive physical channel regulator for on-chip interconnects, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370830"
+        }, 
+        {
+            "ArticleName": "Hassan M. G. Wassel , Ying Gao , Jason K. Oberg , Ted Huffmire , Ryan Kastner , Frederic T. Chong , Timothy Sherwood, SurfNoC: a low latency and provably non-interfering approach to secure networks-on-chip, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485972"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Lavanya Subramanian, Research Problems and Opportunities in Memory Systems, Supercomputing Frontiers and Innovations: an International Journal, v.1 n.3, p.19-55, October 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2983611"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 3
+    }, 
+    "Title": "Topology-Aware quality-of-service support in highly integrated chip multiprocessors", 
+    "Abstract": "Power limitations and complexity constraints demand modular designs, such as chip multiprocessors (CMPs) and systems-on-chip (SOCs). Today's CMPs feature up to a hundred discrete cores, with greater levels of integration anticipated in the future. Supporting effective on-chip resource sharing for cloud computing and server consolidation necessitates CMP-level quality-of-service (QOS) for performance isolation, service guarantees, and security. This work takes a topology-aware approach to on-chip QOS. We propose to segregate shared resources into dedicated, QOS-enabled regions of the chip. We than eliminate QOS-related hardware and its associated overheads from the rest of the die via a combination of topology and operating system support. We evaluate several topologies for the QOS-enabled regions, including a new organization called Destination Partitioned Subnets (DPS) which uses a light-weight dedicated network for each destination node. DPS matches or bests other topologies with comparable bisection bandwidth in performance, area- and energy-efficiency, fairness, and preemption resilience.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "James Balfour , William J. Dally, Design tradeoffs for tiled CMP on-chip networks, Proceedings of the 20th annual international conference on Supercomputing, June 28-July 01, 2006, Cairns, Queensland, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/1183401.1183430", 
+            "DOIname": "10.1145/1183401.1183430", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1183430"
+        }, 
+        {
+            "ArticleName": "Ramazan Bitirgen , Engin Ipek , Jose F. Martinez, Coordinated management of multiple interacting resources in chip multiprocessors: A machine learning approach, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.318-329, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771801", 
+            "DOIname": "10.1109/MICRO.2008.4771801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521805"
+        }, 
+        {
+            "ArticleName": "William Dally , Brian Towles, Principles and Practices of Interconnection Networks, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=995703"
+        }, 
+        {
+            "ArticleName": "Reetuparna Das , Onur Mutlu , Thomas Moscibroda , Chita R. Das, Application-aware prioritization mechanisms for on-chip networks, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669150", 
+            "DOIname": "10.1145/1669112.1669150", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669150"
+        }, 
+        {
+            "ArticleName": "A. Demers , S. Keshav , S. Shenker, Analysis and simulation of a fair queueing algorithm, Symposium proceedings on Communications architectures & protocols, p.1-12, September 25-27, 1989, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/75246.75248", 
+            "DOIname": "10.1145/75246.75248", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=75248"
+        }, 
+        {
+            "ArticleName": "Eiman Ebrahimi , Chang Joo Lee , Onur Mutlu , Yale N. Patt, Fairness via source throttling: a configurable and high-performance fairness substrate for multi-core memory systems, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736058", 
+            "DOIname": "10.1145/1736020.1736058", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736058"
+        }, 
+        {
+            "ArticleName": "Golestani, S.: Congestion-free Communication in High-Speed Packet Networks. IEEE Transactions on Communications 39(12), 1802-1812 (1991)"
+        }, 
+        {
+            "ArticleName": "Grot, B., Hestness, J., Keckler, S. W., Mutlu, O.: Express Cube Topologies for On-Chip Interconnects. In: 15th International Symposium on High-Performance Computer Architecture, pp. 163-174. IEEE Computer Society, Washington, DC (2009)"
+        }, 
+        {
+            "ArticleName": "Boris Grot , Stephen W. Keckler , Onur Mutlu, Preemptive virtual clock: a flexible, efficient, and cost-effective QOS scheme for networks-on-chip, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669149", 
+            "DOIname": "10.1145/1669112.1669149", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669149"
+        }, 
+        {
+            "ArticleName": "Ravi Iyer, CQoS: a framework for enabling QoS in shared caches of CMP platforms, Proceedings of the 18th annual international conference on Supercomputing, June 26-July 01, 2004, Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1006209.1006246", 
+            "DOIname": "10.1145/1006209.1006246", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006246"
+        }, 
+        {
+            "ArticleName": "Andrew B. Kahng , Bin Li , Li-Shiuan Peh , Kambiz Samadi, ORION 2.0: a fast and accurate NoC power and area model for early-stage design space exploration, Proceedings of the Conference on Design, Automation and Test in Europe, April 20-24, 2009, Nice, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1874721"
+        }, 
+        {
+            "ArticleName": "Kermani, P., Kleinrock, L.: Virtual Cut-Through: a New Computer Communication Switching Technique. Computer Networks 3, 267-286 (1979)"
+        }, 
+        {
+            "ArticleName": "Jae H. Kim , Andrew A. Chien, Rotating combined queueing (RCQ): bandwidth and latency guarantees in low-cost, high-performance networks, Proceedings of the 23rd annual international symposium on Computer architecture, p.226-236, May 22-24, 1996, Philadelphia, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/232973.232996", 
+            "DOIname": "10.1145/232973.232996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=232996"
+        }, 
+        {
+            "ArticleName": "John Kim , James Balfour , William Dally, Flattened Butterfly Topology for On-Chip Networks, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.172-182, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.15", 
+            "DOIname": "10.1109/MICRO.2007.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331717"
+        }, 
+        {
+            "ArticleName": "Jae W. Lee , Man Cheuk Ng , Krste Asanovic, Globally-Synchronized Frames for Guaranteed Quality-of-Service in On-Chip Networks, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.89-100, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.31", 
+            "DOIname": "10.1109/ISCA.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382130"
+        }, 
+        {
+            "ArticleName": "Michael R. Marty , Mark D. Hill, Virtual hierarchies to support server consolidation, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250670", 
+            "DOIname": "10.1145/1250662.1250670", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250670"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar , Rajeev Balasubramonian , Norm Jouppi, Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.3-14, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.30", 
+            "DOIname": "10.1109/MICRO.2007.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331704"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.63-74, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.7", 
+            "DOIname": "10.1109/ISCA.2008.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382128"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Stall-Time Fair Memory Access Scheduling for Chip Multiprocessors, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.146-160, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.40", 
+            "DOIname": "10.1109/MICRO.2007.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331715"
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , James Laudon , James E. Smith, Virtual private caches, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250671", 
+            "DOIname": "10.1145/1250662.1250671", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250671"
+        }, 
+        {
+            "ArticleName": "NVIDIA Fermi architecture, http://www.nvidia.com/object/fermi_architecture.html"
+        }, 
+        {
+            "ArticleName": "E. Rijpkema , K. G. W. Goossens , A. Radulescu , J. Dielissen , J. van Meerbergen , P. Wielage , E. Waterlander, Trade Offs in the Design of a Router with Both Guaranteed and Best-Effort Services for Networks on Chip, Proceedings of the conference on Design, Automation and Test in Europe, p.10350, March 03-07, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1022751"
+        }, 
+        {
+            "ArticleName": "Thomas Ristenpart , Eran Tromer , Hovav Shacham , Stefan Savage, Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds, Proceedings of the 16th ACM conference on Computer and communications security, November 09-13, 2009, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1653662.1653687", 
+            "DOIname": "10.1145/1653662.1653687", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1653687"
+        }, 
+        {
+            "ArticleName": "Shin, J., Tam, K., Huang, D., Petrick, B., Pham, H., Hwang, C., Li, H., Smith, A., Johnson, T., Schumacher, F., Greenhill, D., Leon, A., Strong, A.: A 40nm 16- core 128-thread CMT SPARC SoC Processor. In: IEEE International Solid-State Circuits Conference, pp. 98-99 (2010)"
+        }, 
+        {
+            "ArticleName": "G. Edward Suh , Srinivas Devadas , Larry Rudolph, A New Memory Monitoring Scheme for Memory-Aware Scheduling and Partitioning, Proceedings of the 8th International Symposium on High-Performance Computer Architecture, p.117, February 02-06, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876484"
+        }, 
+        {
+            "ArticleName": "Tilera TILE-Gx100, http://www.tilera.com/products/TILE-Gx.php"
+        }, 
+        {
+            "ArticleName": "Wendel, D., Kalla, R., Cargoni, R., Clables, J., Friedrich, J., Frech, R., Kahle, J., Sinharoy, B., Starke, W., Taylor, S., Weitzel, S., Chu, S., Islam, S., Zyuban, V.: The Implementation of POWER7: A Highly Parallel and Scalable Multi-Core High-End Server Processor. In: IEEE International Solid-State Circuits Conference, pp. 102-103 (2010)"
+        }, 
+        {
+            "ArticleName": "L. Zhang, Virtual clock: a new traffic control algorithm for packet switching networks, ACM SIGCOMM Computer Communication Review, v.20 n.4, p.19-29, Sep. 1990", 
+            "DOIhref": "http://doi.acm.org/10.1145/99517.99525", 
+            "DOIname": "10.1145/99517.99525", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=99525"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The University of Texas at Austin, Austin, TX", 
+            "Name": "Boris Grot"
+        }, 
+        {
+            "Affiliation": "The University of Texas at Austin, Austin, TX", 
+            "Name": "Stephen W. Keckler"
+        }, 
+        {
+            "Affiliation": "Carnegie Mellon University, Pittsburgh, PA", 
+            "Name": "Onur Mutlu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185903&preflayout=flat"
+}

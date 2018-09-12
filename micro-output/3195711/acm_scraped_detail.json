@@ -1,0 +1,170 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Sam Ainsworth , Timothy M. Jones, An Event-Triggered Programmable Prefetcher for Irregular Workloads, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173189"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 28, 
+        "Downloads_6Weeks": 12, 
+        "Downloads_cumulative": 28, 
+        "CitationCount": 1
+    }, 
+    "Title": "Path confidence based lookahead prefetching", 
+    "Abstract": "Designing prefetchers to maximize system performance often requires a delicate balance between coverage and accuracy. Achieving both high coverage and accuracy is particularly challenging in workloads with complex address patterns, which may require large amounts of history to accurately predict future addresses. This paper describes the Signature Path Prefetcher (SPP), which offers effective solutions for three classic challenges in prefetcher design. First, SPP uses a compressed history based scheme that accurately predicts complex address patterns. Second, unlike other history based algorithms, which miss out on many prefetching opportunities when address patterns make a transition between physical pages, SPP tracks complex patterns across physical page boundaries and continues prefetching as soon as they move to new pages. Finally, SPP uses the confidence it has in its predictions to adaptively throttle itself on a per-prefetch stream basis. In our analysis, we find that SPP improves performance by 27.2% over a no-prefetching baseline, and outperforms the state-of-the-art Best Offset prefetcher by 6.4%. SPP does this with minimal overhead, operating strictly in the physical address space, and without requiring any additional processor core state, such as the PC.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Wm. A. Wulf , Sally A. McKee, Hitting the memory wall: implications of the obvious, ACM SIGARCH Computer Architecture News, v.23 n.1, p.20-24, March 1995", 
+            "DOIhref": "http://doi.acm.org/10.1145/216585.216588", 
+            "DOIname": "10.1145/216585.216588", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=216588"
+        }, 
+        {
+            "ArticleName": "A. J. Smith, Sequential Program Prefetching in Memory Hierarchies, Computer, v.11 n.12, p.7-21, December 1978", 
+            "DOIhref": "https://dx.doi.org/10.1109/C-M.1978.218016", 
+            "DOIname": "10.1109/C-M.1978.218016", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1302399"
+        }, 
+        {
+            "ArticleName": "Jean-Loup Baer , Tien-Fu Chen, Effective Hardware-Based Data Prefetching for High-Performance Processors, IEEE Transactions on Computers, v.44 n.5, p.609-623, May 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.381947", 
+            "DOIname": "10.1109/12.381947", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=627012"
+        }, 
+        {
+            "ArticleName": "Stephen Somogyi , Thomas F. Wenisch , Anastassia Ailamaki , Babak Falsafi , Andreas Moshovos, Spatial Memory Streaming, ACM SIGARCH Computer Architecture News, v.34 n.2, p.252-263, May 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1150019.1136508", 
+            "DOIname": "10.1145/1150019.1136508", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136508"
+        }, 
+        {
+            "ArticleName": "Ibrahim Hur , Calvin Lin, Memory Prefetching Using Adaptive Stream Detection, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.397-408, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.32", 
+            "DOIname": "10.1109/MICRO.2006.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194853"
+        }, 
+        {
+            "ArticleName": "Stephen Somogyi , Thomas F. Wenisch , Anastasia Ailamaki , Babak Falsafi, Spatio-temporal memory streaming, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555766", 
+            "DOIname": "10.1145/1555754.1555766", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555766"
+        }, 
+        {
+            "ArticleName": "Akanksha Jain , Calvin Lin, Linearizing irregular memory accesses for improved correlated prefetching, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540730", 
+            "DOIname": "10.1145/2540708.2540730", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540730"
+        }, 
+        {
+            "ArticleName": "Y. Ishii, M. Inaba, and K. Hiraki, \"Access map pattern matching for high performance data cache prefetch,\" Journal of Instruction-Level Parallelism, vol. 13, pp. 1--24, 2011."
+        }, 
+        {
+            "ArticleName": "Manjunath Shevgoor , Sahil Koladiya , Rajeev Balasubramonian , Chris Wilkerson , Seth H. Pugsley , Zeshan Chishti, Efficiently prefetching complex address patterns, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830793", 
+            "DOIname": "10.1145/2830772.2830793", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830793"
+        }, 
+        {
+            "ArticleName": "P. Michaud, \"A best-offset prefetcher,\" in High Performance Computer Architecture (HPCA), 2016 IEEE 20th International Symposium on, IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "John W. C. Fu , Janak H. Patel , Bob L. Janssens, Stride directed prefetching in scalar processors, ACM SIGMICRO Newsletter, v.23 n.1-2, p.102-110, Dec. 1992", 
+            "DOIhref": "http://doi.acm.org/10.1145/144965.145006", 
+            "DOIname": "10.1145/144965.145006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=145006"
+        }, 
+        {
+            "ArticleName": "David Kadjo , Jinchun Kim , Prabal Sharma , Reena Panda , Paul Gratz , Daniel Jimenez, B-Fetch: Branch Prediction Directed Prefetching for Chip-Multiprocessors, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.29", 
+            "DOIname": "10.1109/MICRO.2014.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742218"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Jared Stark , Chris Wilkerson , Yale N. Patt, Runahead Execution: An Alternative to Very Large Instruction Windows for Out-of-Order Processors, Proceedings of the 9th International Symposium on High-Performance Computer Architecture, p.129, February 08-12, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822823"
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , Ashutosh S. Dhodapkar , James E. Smith, AC/DC: An Adaptive Data Cache Prefetcher, Proceedings of the 13th International Conference on Parallel Architectures and Compilation Techniques, p.135-145, September 29-October 03, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2004.4", 
+            "DOIname": "10.1109/PACT.2004.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1026003"
+        }, 
+        {
+            "ArticleName": "S. H. Pugsley, Z. Chishti, C. Wilkerson, P.-f. Chuang, R. L. Scott, A. Jaleel, S.-L. Lu, K. Chow, and R. Balasubramonian, \"Sandbox prefetching: Safe run-time evaluation of aggressive prefetchers,\" in High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on, pp. 626--637, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "Santhosh Srinath , Onur Mutlu , Hyesoon Kim , Yale N. Patt, Feedback Directed Prefetching: Improving the Performance and Bandwidth-Efficiency of Hardware Prefetchers, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.63-74, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346185", 
+            "DOIname": "10.1109/HPCA.2007.346185", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318101"
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , James E. Smith, Data Cache Prefetching Using a Global History Buffer, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.96, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10030", 
+            "DOIname": "10.1109/HPCA.2004.10030", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072460"
+        }, 
+        {
+            "ArticleName": "S. H. Pugsley, A. R. Alameldeen, C. Wilkerson, and H. Kim, \"The 2nd Data Prefetching Championship (DPC-2).\""
+        }, 
+        {
+            "ArticleName": "Erez Perelman , Greg Hamerly , Michael Van Biesbrouck , Timothy Sherwood , Brad Calder, Using SimPoint for accurate and efficient simulation, ACM SIGMETRICS Performance Evaluation Review, v.31 n.1, June 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/885651.781076", 
+            "DOIname": "10.1145/885651.781076", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781076"
+        }, 
+        {
+            "ArticleName": "\"Standard Performance Evaluation Corporation CPU2006 Benchmark Suite..\""
+        }, 
+        {
+            "ArticleName": "Harish Patil , Cristiano Pereira , Mack Stallcup , Gregory Lueck , James Cownie, PinPlay: a framework for deterministic replay and reproducible analysis of parallel programs, Proceedings of the 8th annual IEEE/ACM international symposium on Code generation and optimization, April 24-28, 2010, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1772954.1772958", 
+            "DOIname": "10.1145/1772954.1772958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1772958"
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2150982", 
+            "DOIname": "10.1145/2248487.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Yasuo Ishii , Mary Inaba , Kei Hiraki, Unified memory optimizing architecture: memory subsystem control with a unified predictor, Proceedings of the 26th ACM international conference on Supercomputing, June 25-29, 2012, San Servolo Island, Venice, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2304576.2304614", 
+            "DOIname": "10.1145/2304576.2304614", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2304614"
+        }, 
+        {
+            "ArticleName": "N. D. Enright Jerger, E. L. Hill, and M. H. Lipasti, \"Friendly fire: understanding the effects of multiprocessor prefetches,\" in International Symposium on Performance Analysis of Systems and Software (ISPASS), pp. 177--188, 2006."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Texas A& M University", 
+            "Name": "Jinchun Kim"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Seth H. Pugsley"
+        }, 
+        {
+            "Affiliation": "Texas A& M University", 
+            "Name": "Paul V. Gratz"
+        }, 
+        {
+            "Affiliation": "Texas A& M University", 
+            "Name": "A. L. Narasimha Reddy"
+        }, 
+        {
+            "Affiliation": "Intel Labs", 
+            "Name": "Chris Wilkerson"
+        }, 
+        {
+            "Affiliation": "Texas A& M University", 
+            "Name": "Zeshan Chishti"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195711&preflayout=flat"
+}

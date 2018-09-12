@@ -1,0 +1,153 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Jason Cong , Muhuan Huang , Di Wu , Cody Hao Yu, Invited - Heterogeneous datacenters: options and opportunities, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2905012"
+        }, 
+        {
+            "ArticleName": "Stijn Polfliet , Frederick Ryckbosch , Lieven Eeckhout, Optimizing the datacenter for data-centric workloads, Proceedings of the international conference on Supercomputing, May 31-June 04, 2011, Tucson, Arizona, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1995926"
+        }, 
+        {
+            "ArticleName": "F. Almeida , V. Blanco , A. Cabrera , J. Ruiz, Modeling energy consumption for master---slave applications, The Journal of Supercomputing, v.65 n.3, p.1137-1149, September 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2509354"
+        }, 
+        {
+            "ArticleName": "Dumitrel Loghin , Bogdan Marius Tudor , Hao Zhang , Beng Chin Ooi , Yong Meng Teo, A performance study of big data on small nodes, Proceedings of the VLDB Endowment, v.8 n.7, p.762-773, February 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2752945"
+        }, 
+        {
+            "ArticleName": "David Meisner , Thomas F. Wenisch, Does low-power design imply energy efficiency for data centers?, Proceedings of the 17th IEEE/ACM international symposium on Low-power electronics and design, August 01-03, 2011, Fukuoka, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2016833"
+        }, 
+        {
+            "ArticleName": "Marisabel Guevara , Benjamin Lubin , Benjamin C. Lee, Market mechanisms for managing datacenters with heterogeneous microarchitectures, ACM Transactions on Computer Systems (TOCS), v.32 n.1, p.1-31, February 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541258"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 6
+    }, 
+    "Title": "The search for energy-efficient building blocks for the data center", 
+    "Abstract": "This paper conducts a survey of several small clusters of machines in search of the most energy-efficient data center building block targeting data-intensive computing. We first evaluate the performance and power of single machines from the embedded, mobile, desktop, and server spaces. From this group, we narrow our choices to three system types. We build five-node homogeneous clusters of each type and run Dryad, a distributed execution engine, with a collection of data-intensive workloads to measure the energy consumption per task on each cluster. For this collection of data-intensive workloads, our high-end mobile-class system was, on average, 80% more energy-efficient than a cluster with embedded processors and at least 300% more energy-efficient than a cluster with low-power server processors.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "United States Environmental Protection Agency Energy Star Program: Report on Server and Data Center Energy Efficiency (2007)"
+        }, 
+        {
+            "ArticleName": "Urs Hoelzle , Luiz Andre Barroso, The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Morgan and Claypool Publishers, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1643608"
+        }, 
+        {
+            "ArticleName": "Koomey, J. G.: Estimating Total Power Consumption by Servers in the U. S. and the World. Analytics Press, Oakland (2007)"
+        }, 
+        {
+            "ArticleName": "Meikel Poess , Raghunath Othayoth Nambiar, Energy cost, the key challenge of today's data centers: a power consumption analysis of TPC-C results, Proceedings of the VLDB Endowment, v.1 n.2, August 2008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454162"
+        }, 
+        {
+            "ArticleName": "Luiz Andr\u00e9 Barroso , Urs H\u00f6lzle, The Case for Energy-Proportional Computing, Computer, v.40 n.12, p.33-37, December 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2007.443", 
+            "DOIname": "10.1109/MC.2007.443", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1339894"
+        }, 
+        {
+            "ArticleName": "Jeffrey Dean , Sanjay Ghemawat, MapReduce: simplified data processing on large clusters, Proceedings of the 6th conference on Symposium on Opearting Systems Design & Implementation, p.10-10, December 06-08, 2004, San Francisco, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251264"
+        }, 
+        {
+            "ArticleName": "Hadoop Wiki, http://wiki.apache.org/hadoop/"
+        }, 
+        {
+            "ArticleName": "Michael Isard , Mihai Budiu , Yuan Yu , Andrew Birrell , Dennis Fetterly, Dryad: distributed data-parallel programs from sequential building blocks, Proceedings of the 2nd ACM SIGOPS/EuroSys European Conference on Computer Systems 2007, March 21-23, 2007, Lisbon, Portugal", 
+            "DOIhref": "http://doi.acm.org/10.1145/1272996.1273005", 
+            "DOIname": "10.1145/1272996.1273005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1273005"
+        }, 
+        {
+            "ArticleName": "Douglas Thain , Todd Tannenbaum , Miron Livny, Distributed computing in practice: the Condor experience: Research Articles, Concurrency and Computation: Practice & Experience, v.17 n.2-4, p.323-356, February 2005", 
+            "DOIhref": "https://dx.doi.org/10.1002/cpe.v17:2/4", 
+            "DOIname": "10.1002/cpe.v17:2/4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1064336"
+        }, 
+        {
+            "ArticleName": "Intel: Intel X18-M/X25-M SATA solid state drive product manual, http://download.intel.com/design/flash/nand/mainstream/mains tream-sata-ssd-datasheet.pdf"
+        }, 
+        {
+            "ArticleName": "Szalay, A. S., Bell, G., Huang, H. H., Terzis, A., White, A.: Low-Power Amdahl-Balanced Blades for Data Intensive Computing. In: 2nd Workshop on Power Aware Computing and Systems (HotPower), ACM SIGOPS (2009)"
+        }, 
+        {
+            "ArticleName": "Adrian M. Caulfield , Laura M. Grupp , Steven Swanson, Gordon: using flash memory to build fast, power-efficient clusters for data-intensive applications, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508270", 
+            "DOIname": "10.1145/1508244.1508270", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508270"
+        }, 
+        {
+            "ArticleName": "David G. Andersen , Jason Franklin , Michael Kaminsky , Amar Phanishayee , Lawrence Tan , Vijay Vasudevan, FAWN: a fast array of wimpy nodes, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629577", 
+            "DOIname": "10.1145/1629575.1629577", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629577"
+        }, 
+        {
+            "ArticleName": "Vijay Vasudevan , David Andersen , Michael Kaminsky , Lawrence Tan , Jason Franklin , Iulian Moraru, Energy-efficient cluster computing with FAWN: workloads and implications, Proceedings of the 1st International Conference on Energy-Efficient Computing and Networking, April 13-15, 2010, Passau, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1791314.1791347", 
+            "DOIname": "10.1145/1791314.1791347", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1791347"
+        }, 
+        {
+            "ArticleName": "Beckmann, A., Meyer, U., Sanders, P., Singler, J.: Energy-Efficient Sorting Using Solid State Disks, http://sortbenchmark.org/ecosort_2010_Jan_01.pdf"
+        }, 
+        {
+            "ArticleName": "Vijay Janapa Reddi , Benjamin C. Lee , Trishul Chilimbi , Kushagra Vaid, Web search using mobile cores: quantifying and mitigating the price of efficiency, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1816002", 
+            "DOIname": "10.1145/1815961.1816002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1816002"
+        }, 
+        {
+            "ArticleName": "Suzanne Rivoire , Mehul A. Shah , Parthasarathy Ranganathan , Christos Kozyrakis, JouleSort: a balanced energy-efficiency benchmark, Proceedings of the 2007 ACM SIGMOD international conference on Management of data, June 11-14, 2007, Beijing, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/1247480.1247522", 
+            "DOIname": "10.1145/1247480.1247522", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1247522"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , Parthasarathy Ranganathan , Jichuan Chang , Chandrakant Patel , Trevor Mudge , Steven Reinhardt, Understanding and Designing New Server Architectures for Emerging Warehouse-Computing Environments, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.315-326, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.37", 
+            "DOIname": "10.1109/ISCA.2008.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382148"
+        }, 
+        {
+            "ArticleName": "Hamilton, J.: CEMS: Low-Cost, Low-Power Servers for Internet-Scale Services. In: 4th Biennial Conference on Innovative Data Systems Research (2009)"
+        }, 
+        {
+            "ArticleName": "ClueWeb09 dataset, http://boston.lti.cs.cmu.edu/Data/clueweb09/"
+        }, 
+        {
+            "ArticleName": "Bianca Schroeder , Eduardo Pinheiro , Wolf-Dietrich Weber, DRAM errors in the wild: a large-scale field study, Proceedings of the eleventh international joint conference on Measurement and modeling of computer systems, June 15-19, 2009, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555349.1555372", 
+            "DOIname": "10.1145/1555349.1555372", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555372"
+        }, 
+        {
+            "ArticleName": "Yelick, K.: How to Waste a Parallel Computer. In: Keynote Address at 36th International Symposium on Computer Architecture (2008)"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California, Berkeley", 
+            "Name": "Laura Keys"
+        }, 
+        {
+            "Affiliation": "Sonoma State University", 
+            "Name": "Suzanne Rivoire"
+        }, 
+        {
+            "Affiliation": "Microsoft Research, Silicon Valley", 
+            "Name": "John D. Davis"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185889&preflayout=flat"
+}

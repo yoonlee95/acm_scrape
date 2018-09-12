@@ -1,0 +1,291 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 11, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 11, 
+        "CitationCount": 0
+    }, 
+    "Title": "Reducing data movement energy via online data clustering and encoding", 
+    "Abstract": "Modern computer systems expend significant amounts of energy on transmitting data over long and highly capacitive interconnects. A promising way of reducing the data movement energy is to design the interconnect such that the transmission of 0s is considerably cheaper than that of 1s. Given such an interconnect with asymmetric transmission costs, data movement energy can be reduced by encoding the transmitted data such that the number of 1s in each transmitted codeword is minimized. This paper presents a new data encoding technique based on online data clustering that exploits this opportunity. The transmitted data blocks are dynamically clustered based on the similarities between their binary representations. Each data block is expressed as the bitwise XOR between one of multiple cluster centers and a residual with a small number of 1s. The data movement energy is minimized by sending the residual along with an identifier that specifies which cluster center to use in decoding the transmitted data. At runtime, the proposed approach continually updates the cluster centers based on the observed data to adapt to phase changes. The proposed technique is compared to three previously proposed energy-efficient data encoding techniques on a set of 14 applications. The results indicate respective energy savings of 5%, 9%, and 12% in DDR4, LPDDR3, and last level cache subsystems as compared to the best existing baseline encoding technique.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Bill Dally, Power, Programmability, and Granularity: The Challenges of ExaScale Computing, Proceedings of the 2011 IEEE International Parallel & Distributed Processing Symposium, p.878, May 16-20, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2011.420", 
+            "DOIname": "10.1109/IPDPS.2011.420", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2059485"
+        }, 
+        {
+            "ArticleName": "G. Kestor, R. Gioiosa, D. J. Kerbyson, and A. Hoisie, \"Quantifying the energy cost of data movement in scientific applications,\" in Workload Characterization (IISWC), 2013 IEEE International Symposium on, pp. 56--65, Sept 2013."
+        }, 
+        {
+            "ArticleName": "D. Pandiyan and C. J. Wu, \"Quantifying the energy cost of data movement for emerging smart phone workloads on mobile platforms,\" in Workload Characterization (IISWC), 2014 IEEE International Symposium on, pp. 171--180, Oct 2014."
+        }, 
+        {
+            "ArticleName": "W. J. Dally, \"Challenges for future computing systems,\" Jan 2015."
+        }, 
+        {
+            "ArticleName": "\"Top ten exascale research challenges, DOE advanced scientific computing advisory committee (ASCAC) subcommittee report,\" tech. rep., U.S. Department of Energy, February 2014."
+        }, 
+        {
+            "ArticleName": "K. Sohn, T. Na, I. Song, Y. Shim, W. Bae, S. Kang, D. Lee, H. Jung, S. Hyun, H. Jeoung, K.-W. Lee, J.-S. Park, J. Lee, B. Lee, I. Jun, J. Park, J. Park, H. Choi, S. Kim, H. Chung, Y. Choi, D.-H. Jung, B. Kim, J.-H. Choi, S.-J. Jang, C.-W. Kim, J.-B. Lee, and J. S. Choi, \"A 1.2 v 30 nm 3.2 gb/s/pin 4 gb DDR4 SDRAM with dual-error detection and PVT-tolerant data-fetch scheme,\" IEEE Journal of Solid-State Circuits, vol. 48, pp. 168--177, Jan 2013."
+        }, 
+        {
+            "ArticleName": "Micron Technology, \"4Gb DDR4 SDRAM,\" 2014."
+        }, 
+        {
+            "ArticleName": "R. Maddah, S. M. Seyedzadeh, and R. Melhem, \"CAFO: Cost aware flip optimization for asymmetric memories,\" in High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on, pp. 320--330, 2015."
+        }, 
+        {
+            "ArticleName": "Satoshi Komatsu , Makoto Ikeda , Kunihiro Asada, Low Power Chip Interface Based on Bus Data Encoding with Adaptive Code-Book Method, Proceedings of the Ninth Great Lakes Symposium on VLSI, p.368, March 04-06, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=797267"
+        }, 
+        {
+            "ArticleName": "Jun Yang , Rajiv Gupta , Chuanjun Zhang, Frequent value encoding for low power data buses, ACM Transactions on Design Automation of Electronic Systems (TODAES), v.9 n.3, p.354-384, July 2004", 
+            "DOIhref": "http://doi.acm.org/10.1145/1013948.1013953", 
+            "DOIname": "10.1145/1013948.1013953", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1013953"
+        }, 
+        {
+            "ArticleName": "Micron Technology, \"TN-40-03: DDR4 networking design guide,\" 2014."
+        }, 
+        {
+            "ArticleName": "K. Song, S. Lee, D. Kim, Y. Shim, S. Park, B. Ko, D. Hong, Y. Joo, W. Lee, Y. Cho, W. Shin, J. Yun, H. Lee, J. Lee, E. Lee, N. Jang, J. Yang, H. k. Jung, J. Cho, H. Kim, and J. Kim, \"A 1.1 v 2y-nm 4.35 gb/s/pin 8 gb LPDDR4 mobile device with bandwidth improvement techniques,\" IEEE Journal of Solid-State Circuits, vol. 50, pp. 1945--1959, Aug 2015."
+        }, 
+        {
+            "ArticleName": "Micron Technology, \"16Gb: 216-ball, dual-channel mobile LPDDR3 SDRAM,\" 2014."
+        }, 
+        {
+            "ArticleName": "Micron Technology, \"LPDDR3 power calculator,\" 2015."
+        }, 
+        {
+            "ArticleName": "Mircea R. Stan , Wayne P. Burleson, Bus-invert coding for low-power I/O, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.3 n.1, p.49-58, March 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/92.365453", 
+            "DOIname": "10.1109/92.365453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=205235"
+        }, 
+        {
+            "ArticleName": "JEDEC, \"High Bandwidth Memory (HBM) DRAM,\" 2015."
+        }, 
+        {
+            "ArticleName": "JEDEC, \"Wide I/O 2 (WideIO2),\" 2014."
+        }, 
+        {
+            "ArticleName": "Hybrid Memory Cube Consortium, \"Hybrid Memory Cube specification 2.1,\" 2014."
+        }, 
+        {
+            "ArticleName": "J. Jeddeloh and B. Keeth, \"Hybrid memory cube new DRAM architecture increases density and performance,\" in VLSI Technology (VLSIT), 2012 Symposium on, pp. 87--88, June 2012."
+        }, 
+        {
+            "ArticleName": "Aniruddha N. Udipi , Naveen Muralimanohar , Rajeev Balasubramonian , Al Davis , Norman P. Jouppi, Combining memory and a controller with photonics through 3D-stacking to enable scalable and energy-efficient systems, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000115", 
+            "DOIname": "10.1145/2000064.2000115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000115"
+        }, 
+        {
+            "ArticleName": "Sudeep Pasricha , Nikil Dutt, On-Chip Communication Architectures: System on Chip Interconnect, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1211699"
+        }, 
+        {
+            "ArticleName": "Memory Bus Encoding for Low Power: A Tutorial, Proceedings of the 2nd International Symposium on Quality Electronic Design, p.199, March 26-28, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=850177"
+        }, 
+        {
+            "ArticleName": "M. R. Stan and W. P. Burleson, \"Limited-weight codes for low-power I/O,\" in International Workshop on low power design, pp. 209--214, 1994."
+        }, 
+        {
+            "ArticleName": "M. R. Stan , W. P. Burleson, Coding a terminated bus for low power, Proceedings of the Fifth Great Lakes Symposium on VLSI (GLSVLSI'95), p.70, March 16-18, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=797415"
+        }, 
+        {
+            "ArticleName": "Yanwei Song , Engin Ipek, More is less: improving the energy efficiency of data movement via opportunistic use of sparse codes, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830806", 
+            "DOIname": "10.1145/2830772.2830806", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830806"
+        }, 
+        {
+            "ArticleName": "Dinesh C. Suresh , Banit Agrawal , Jun Yang , Walid A. Najjar, Tunable and Energy Efficient Bus Encoding Techniques, IEEE Transactions on Computers, v.58 n.8, p.1049-1062, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2009.39", 
+            "DOIname": "10.1109/TC.2009.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1592233"
+        }, 
+        {
+            "ArticleName": "Sumant Ramprasad , Naresh R. Shanbhag , Ibrahim N. Hajj, A coding framework for low-power address and data busses, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.7 n.2, p.212-221, June 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/92.766748", 
+            "DOIname": "10.1109/92.766748", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=310167"
+        }, 
+        {
+            "ArticleName": "Sangyeun Cho , Hyunjin Lee, Flip-N-Write: a simple deterministic technique to improve PRAM write performance, energy and endurance, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669157", 
+            "DOIname": "10.1145/1669112.1669157", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669157"
+        }, 
+        {
+            "ArticleName": "J. MacQueen et al., \"Some methods for classification and analysis of multivariate observations,\" in Proceedings of the fifth Berkeley symposium on mathematical statistics and probability, vol. 1, pp. 281--297, 1967."
+        }, 
+        {
+            "ArticleName": "S. Lloyd, Least squares quantization in PCM, IEEE Transactions on Information Theory, v.28 n.2, p.129-137, March 1982", 
+            "DOIhref": "https://dx.doi.org/10.1109/TIT.1982.1056489", 
+            "DOIname": "10.1109/TIT.1982.1056489", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2269955"
+        }, 
+        {
+            "ArticleName": "C. Grana, D. Borghesani, M. Manfredi, and R. Cucchiara, \"A fast approach for integrating ORB descriptors in the bag of words model,\" in IS&T/SPIE Electronic Imaging, pp. 866709--866709, 2013."
+        }, 
+        {
+            "ArticleName": "A. L. Shimpi, \"Qualcomm Snapdragon 805 Performance Preview,\" 2014. http://www.anandtech.com/show/8035/qualcomm-snapdragon-805-performance-preview."
+        }, 
+        {
+            "ArticleName": "Qualcomm, \"Snapdragon 808,\" 2016. https://www.qualcomm.com/products/snapdragon/processors/808."
+        }, 
+        {
+            "ArticleName": "Poonacha Kongetira , Kathirgamar Aingaran , Kunle Olukotun, Niagara: A 32-Way Multithreaded Sparc Processor, IEEE Micro, v.25 n.2, p.21-29, March 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2005.35", 
+            "DOIname": "10.1109/MM.2005.35", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069758"
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, Proceedings of the 27th annual international symposium on Computer architecture, p.128-138, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339668", 
+            "DOIname": "10.1145/339647.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "Mircea R. Stan , Wayne P. Burleson, Low-power encodings for global communication in CMOS VLSI, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.5 n.4, p.444-455, Dec. 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/92.645071", 
+            "DOIname": "10.1109/92.645071", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=271081"
+        }, 
+        {
+            "ArticleName": "J. Renau, B. Fraguela, J. Tuck, W. Liu, M. Prvulovic, L. Ceze, S. Sarangi, P. Sack, K. Strauss, and P. Montesinos, \"SESC simulator,\" January 2005. http://sesc.sourceforge.net."
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar , Rajeev Balasubramonian , Norm Jouppi, Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.3-14, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.30", 
+            "DOIname": "10.1109/MICRO.2007.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331704"
+        }, 
+        {
+            "ArticleName": "Shyamkumar Thoziyoor , Jung Ho Ahn , Matteo Monchiero , Jay B. Brockman , Norman P. Jouppi, A Comprehensive Memory Modeling Tool and Its Application to the Design and Analysis of Future Memory Hierarchies, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.51-62, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.16", 
+            "DOIname": "10.1109/ISCA.2008.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382127"
+        }, 
+        {
+            "ArticleName": "Mahdi Nazm Bojnordi , Engin Ipek, DESC: energy-efficient data exchange using synchronized counters, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540729", 
+            "DOIname": "10.1145/2540708.2540729", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540729"
+        }, 
+        {
+            "ArticleName": "Somayeh Sardashti , David A. Wood, Decoupled compressed cache: exploiting spatial locality for energy-optimized compressed caching, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540715", 
+            "DOIname": "10.1145/2540708.2540715", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540715"
+        }, 
+        {
+            "ArticleName": "Mu-Tien Chang , Paul Rosenfeld , Shih-Lien Lu , Bruce Jacob, Technology comparison for large last-level caches (L3Cs): Low-leakage SRAM, low write-energy STT-RAM, and refresh-optimized eDRAM, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.143-154, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522314", 
+            "DOIname": "10.1109/HPCA.2013.6522314", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495476"
+        }, 
+        {
+            "ArticleName": "Angelos Arelakis , Per Stenstrom, SC2: a statistical compression cache scheme, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665696"
+        }, 
+        {
+            "ArticleName": "Micron Technology, \"DDR4 power calculator,\" 2014."
+        }, 
+        {
+            "ArticleName": "James E. Stine , Ivan Castellanos , Michael Wood , Jeff Henson , Fred Love , W. Rhett Davis , Paul D. Franzon , Michael Bucher , Sunil Basavarajaiah , Julie Oh , Ravi Jenkal, FreePDK: An Open-Source Variation-Aware Design Kit, Proceedings of the 2007 IEEE International Conference on Microelectronic Systems Education, p.173-174, June 03-04, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MSE.2007.44", 
+            "DOIname": "10.1109/MSE.2007.44", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1262793"
+        }, 
+        {
+            "ArticleName": "Synopsys, \"Synopsys design compiler,\" 2010. http://www.synopsys.com/Tools/Implementation/RTLSynthesis/DesignCompiler/Pages/default.aspx."
+        }, 
+        {
+            "ArticleName": "Niket K. Choudhary , Salil V. Wadhavkar , Tanmay A. Shah , Hiran Mayukh , Jayneel Gandhi , Brandon H. Dwiel , Sandeep Navada , Hashem H. Najaf-abadi , Eric Rotenberg, FabScalar: composing synthesizable RTL designs of arbitrary cores within a canonical superscalar template, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000067", 
+            "DOIname": "10.1145/2000064.2000067", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000067"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "Wei Zhao , Yu Cao, New Generation of Predictive Technology Model for Sub-45nm Design Exploration, Proceedings of the 7th International Symposium on Quality Electronic Design, p.585-590, March 27-29, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISQED.2006.91", 
+            "DOIname": "10.1109/ISQED.2006.91", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1126816"
+        }, 
+        {
+            "ArticleName": "ITRS, \"International Technology Roadmap for Semiconductors: 2010 Update.\""
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Brad Calder, Automatically characterizing large scale program behavior, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605403", 
+            "DOIname": "10.1145/605397.605403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605403"
+        }, 
+        {
+            "ArticleName": "J. Pisharath, Y. Liu, W. Liao, A. Choudhary, G. Memik, and J. Parhi, \"NU-MineBench 2.0,\" tech. rep., Northwestern University, August 2005. Tech. Rep. CUCIS-2005-08-01."
+        }, 
+        {
+            "ArticleName": "P. Luszczek, J. J. Dongarra, D. Koester, R. Rabenseifner, B. Lucas, J. Kepner, J. McCalpin, D. Bailey, and D. Takahashi, \"Introduction to the HPC challenge benchmark suite,\" Lawrence Berkeley National Laboratory, 2005."
+        }, 
+        {
+            "ArticleName": "Richard M. Yoo , Anthony Romano , Christos Kozyrakis, Phoenix rebirth: Scalable MapReduce on a large-scale shared-memory system, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.198-207, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306783", 
+            "DOIname": "10.1109/IISWC.2009.5306783", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680796"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "D. H. Bailey , E. Barszcz , J. T. Barton , D. S. Browning , R. L. Carter , L. Dagum , R. A. Fatoohi , P. O. Frederickson , T. A. Lasinski , R. S. Schreiber , H. D. Simon , V. Venkatakrishnan , S. K. Weeratunga, The NAS parallel benchmarks\u2014summary and preliminary results, Proceedings of the 1991 ACM/IEEE conference on Supercomputing, p.158-165, November 18-22, 1991, Albuquerque, New Mexico, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/125826.125925", 
+            "DOIname": "10.1145/125826.125925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=125925"
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation, \"SPEC OMP2001,\" 2001. https://www.spec.org/omp2001/."
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation, \"SPEC CPU2006,\" 2006. https://www.spec.org/cpu2006/."
+        }, 
+        {
+            "ArticleName": "Allan Snavely , Dean M. Tullsen, Symbiotic jobscheduling for a simultaneous multithreaded processor, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.234-244, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379244", 
+            "DOIname": "10.1145/378993.379244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379244"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Rochester", 
+            "Name": "Shibo Wang"
+        }, 
+        {
+            "Affiliation": "University of Rochester", 
+            "Name": "Engin Ipek"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195676&preflayout=flat"
+}

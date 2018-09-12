@@ -1,0 +1,386 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Aiman Fang , Andrew A. Chien, ABFR: convenient management of latent error resilience using application knowledge, Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing, June 11-15, 2018, Tempe, Arizona", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3208046"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 566, 
+        "Downloads_6Weeks": 50, 
+        "Downloads_cumulative": 566, 
+        "CitationCount": 1
+    }, 
+    "Title": "Incidental computing on IoT nonvolatile processors", 
+    "Abstract": "Batteryless IoT devices powered through energy harvesting face a fundamental imbalance between the potential volume of collected data and the amount of energy available for processing that data locally. However, many such devices perform similar operations across each new input record, which provides opportunities for mining the potential information in buffered historical data, at potentially lower effort, while processing new data rather than abandoning old inputs due to limited computational energy. We call this approach incidental computing, and highlight synergies between this approach and approximation techniques when deployed on a non-volatile processor platform (NVP). In addition to incidental computations, the backup and restore operations in an incidental NVP provide approximation opportunities and optimizations that are unique to NVPs. We propose a variety of incidental approximation approaches suited to NVPs, with a focus on approximate backup and restore, and approximate recomputation in the face of power interruptions. We perform RTL level evaluation for many frequently used workloads. We show that these incidental techniques provide an average of 4.2X more forward progress than precise NVP execution.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Using ECC Feedback to Guide Voltage Speculation in Low-Voltage Processors, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.54", 
+            "DOIname": "10.1109/MICRO.2014.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742186"
+        }, 
+        {
+            "ArticleName": "Domenico Balsamo , Alex S. Weddell , Anup Das , Alberto Rodriguez Arreola , Davide Brunelli , Bashir M. Al-Hashimi , Geoff V. Merrett , Luca Benini, Hibernus++: A Self-Calibrating and Adaptive System for Transiently-Powered Embedded Devices, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.35 n.12, p.1968-1980, December 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2016.2547919", 
+            "DOIname": "10.1109/TCAD.2016.2547919", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3025320"
+        }, 
+        {
+            "ArticleName": "D. Balsamo, A. S. Weddell, G. V. Merrett, B. M. Al-Hashimi, D. Brunelli, and L. Benini, \"Hibernus: Sustaining computation during intermittent supply for energy-harvesting systems,\" IEEE Embedded Systems Letters, vol. 7, no. 1, pp. 15--18, 2015."
+        }, 
+        {
+            "ArticleName": "Paul Bogdan , Miroslav Pajic , Partha Pratim Pande , Vijay Raghunathan, Making the internet-of-things a reality: from smart models, sensing and actuation to energy-efficient architectures, Proceedings of the Eleventh IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis, p.1-10, October 01-07, 2016, Pittsburgh, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2968456.2973272", 
+            "DOIname": "10.1145/2968456.2973272", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2973272"
+        }, 
+        {
+            "ArticleName": "Michael Carbin , Sasa Misailovic , Martin C. Rinard, Verifying quantitative reliability for programs that execute on unreliable hardware, ACM SIGPLAN Notices, v.48 n.10, October 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2544173.2509546", 
+            "DOIname": "10.1145/2544173.2509546", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2509546"
+        }, 
+        {
+            "ArticleName": "Alexei Colin , Brandon Lucia, Chain: tasks and channels for reliable intermittent programs, Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, November 02-04, 2016, Amsterdam, Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2983990.2983995", 
+            "DOIname": "10.1145/2983990.2983995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2983995"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Architecture support for disciplined approximate programming, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2151008", 
+            "DOIname": "10.1145/2248487.2151008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151008"
+        }, 
+        {
+            "ArticleName": "Vaibhav Gupta , Debabrata Mohapatra , Sang Phill Park , Anand Raghunathan , Kaushik Roy, IMPACT: imprecise adders for low-power approximate computing, Proceedings of the 17th IEEE/ACM international symposium on Low-power electronics and design, August 01-03, 2011, Fukuoka, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2016898"
+        }, 
+        {
+            "ArticleName": "M. R. Guthaus , J. S. Ringenberg , D. Ernst , T. M. Austin , T. Mudge , R. B. Brown, MiBench: A free, commercially representative embedded benchmark suite, Proceedings of the Workload Characterization, 2001. WWC-4. 2001 IEEE International Workshop, p.3-14, December 02-02, 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/WWC.2001.15", 
+            "DOIname": "10.1109/WWC.2001.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1128563"
+        }, 
+        {
+            "ArticleName": "S. Jankowski, J. Covello, H. Bellini, J. Ritchie, and D. Costa, \"The internet of things: Making sense of the next mega-trend,\" IoT primer, 2014."
+        }, 
+        {
+            "ArticleName": "Hrishikesh Jayakumar , Arnab Raha , Vijay Raghunathan, QUICKRECALL: A Low Overhead HW/SW Approach for Enabling Computations across Power Cycles in Transiently Powered Computers, Proceedings of the 2014 27th International Conference on VLSI Design and 2014 13th International Conference on Embedded Systems, p.330-335, January 05-09, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/VLSID.2014.63", 
+            "DOIname": "10.1109/VLSID.2014.63", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2586877"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Asit K. Mishra , Cong Xu , Yuan Xie , Vijaykrishnan Narayanan , Ravishankar Iyer , Chita R. Das, Cache revive: architecting volatile STT-RAM caches for enhanced performance in CMPs, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228406", 
+            "DOIname": "10.1145/2228360.2228406", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228406"
+        }, 
+        {
+            "ArticleName": "S. Khanna, S. C. Bartling, M. Clinton, S. Summerfelt, J. A. Rodriguez, and H. P. McAdams, \"An fram-based nonvolatile logic mcu soc exhibiting 100digital state retention at vdd= 0 v achieving zero leakage with < 400-ns wakeup time for ulp applications,\" IEEE Journal of Solid-State Circuits, vol. 49, no. 1, pp. 95--106, Jan 2014."
+        }, 
+        {
+            "ArticleName": "Daya S. Khudia , Babak Zamirai , Mehrzad Samadi , Scott Mahlke, Rumba: an online quality management system for approximate computing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750371", 
+            "DOIname": "10.1145/2749469.2750371", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750371"
+        }, 
+        {
+            "ArticleName": "V. Leonov, T. Torfs, P. Fiorini, and C. V. Hoof, \"Thermoelectric converters of human warmth for self-powered wireless sensor nodes,\" IEEE Sensors Journal, vol. 7, no. 5, pp. 650--657, May 2007."
+        }, 
+        {
+            "ArticleName": "X. Li, S. George, K. Ma, W. Y. Tsai, A. Aziz, J. Sampson, S. K. Gupta, M. F. Chang, Y. Liu, S. Datta, and V. Narayanan, \"Advancing nonvolatile computing with nonvolatile ncfet latches and flip-flops,\" IEEE Transactions on Circuits and Systems I: Regular Papers, vol. PP, no. 99, pp. 1--13, 2017."
+        }, 
+        {
+            "ArticleName": "X. Li, K. Ma, S. George, W. S. Khwa, J. Sampson, S. Gupta, Y. Liu, M. F. Chang, S. Datta, and V. Narayanan, \"Design of nonvolatile sram with ferroelectric fets for energy-efficient backup and restore,\" IEEE Transactions on Electron Devices, vol. 64, no. 7, pp. 3037--3040, July 2017."
+        }, 
+        {
+            "ArticleName": "X. Li, J. Sampson, A. Khan, K. Ma, S. George, A. Aziz, S. K. Gupta, S. Salahuddin, M. F. Chang, S. Datta, and V. Narayanan, \"Enabling energy-efficient nonvolatile computing with negative capacitance fet,\" IEEE Transactions on Electron Devices, vol. 64, no. 8, pp. 3452--3458, Aug 2017."
+        }, 
+        {
+            "ArticleName": "X. Li, H. Liu, U. D. Heo, K. Ma, S. Datta, and V. Narayanan, \"Rf-powered systems using steep-slope devices,\" New Circuits and Systems Conference (NEWCAS), pp. 73--76, 2014."
+        }, 
+        {
+            "ArticleName": "Song Liu , Karthik Pattabiraman , Thomas Moscibroda , Benjamin G. Zorn, Flikker: saving DRAM refresh-power through critical data partitioning, ACM SIGPLAN Notices, v.46 n.3, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961296.1950391", 
+            "DOIname": "10.1145/1961296.1950391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950391"
+        }, 
+        {
+            "ArticleName": "Y. Liu, Z. Wang, A. Lee, F. Su, C. P. Lo, Z. Yuan, C. C. Lin, Q. Wei, Y. Wang, Y. C. King, C. J. Lin, P. Khalili, K. L. Wang, M. F. Chang, and H. Yang, \"A 65nm reram-enabled nonvolatile processor with 6x reduction in restore time and 4x higher clock frequency using adaptive data retention and self-write-termination nonvolatile logic,\" 2016 IEEE International Solid-State Circuits Conference (ISSCC), pp. 84--86, Jan 2016."
+        }, 
+        {
+            "ArticleName": "Brandon Lucia , Benjamin Ransford, A simpler, safer programming and execution model for intermittent systems, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2737978", 
+            "DOIname": "10.1145/2737924.2737978", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2737978"
+        }, 
+        {
+            "ArticleName": "K. Ma, X. Li, S. Li, Y. Liu, J. J. Sampson, Y. Xie, and V. Narayanan, \"Nonvolatile processor architecture exploration for energy-harvesting applications,\" IEEE Micro, vol. 35, no. 5, pp. 32--40, 2015."
+        }, 
+        {
+            "ArticleName": "Kaisheng Ma , Xueqing Li , Huichu Liu , Xiao Sheng , Yiqun Wang , Karthik Swaminathan , Yongpan Liu , Yuan Xie , John Sampson , Vijaykrishnan Narayanan, Dynamic Power and Energy Management for Energy Harvesting Nonvolatile Processor Systems, ACM Transactions on Embedded Computing Systems (TECS), v.16 n.4, September 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3077575", 
+            "DOIname": "10.1145/3077575", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3077575"
+        }, 
+        {
+            "ArticleName": "Kaisheng Ma , Xueqing Li , Yongpan Liu , John Sampson , Yuan Xie , Vijaykrishnan Narayanan, Dynamic Machine Learning Based Matching of Nonvolatile Processor Microarchitecture to Harvested Energy Profile, Proceedings of the IEEE/ACM International Conference on Computer-Aided Design, p.670-675, November 02-06, 2015, Austin, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2840912"
+        }, 
+        {
+            "ArticleName": "K. Ma, X. Li, J. Sampson, Y. Liu, Y. Xie, and V. Narayanan, \"Nonvolatile processor optimization for ambient energy harvesting scenarios,\" 15th Non-volatile Memory Technology Symposium (NVMTS 2015), 2015."
+        }, 
+        {
+            "ArticleName": "K. Ma, X. Li, S. R. Srinivasa, Y. Liu, J. Sampson, Y. Xie, and V. Narayanan, \"Spendthrift: Machine learning based resource and frequency scaling for ambient energy harvesting nonvolatile processors,\" in Design Automation Conference (ASP-DAC), 2017 22nd Asia and South Pacific. IEEE, 2017, pp. 678--683."
+        }, 
+        {
+            "ArticleName": "K. Ma, X. Li, K. Swaminathan, Y. Zheng, S. Li, Y. Liu, Y. Xie, J. J. M. Sampson, and V. Narayanan, \"Nonvolatile processor architectures: Efficient, reliable progress with unstable power.\" IEEE Micro, vol. 36, no. 3, pp. 72--83, 2016."
+        }, 
+        {
+            "ArticleName": "K. Ma, M. Liao, X. Li, Z. Huan, and J. Sampson, \"Evaluating tradeoffs in granularity and overheads in supporting nonvolatile execution semantics,\" ISQED, 2017."
+        }, 
+        {
+            "ArticleName": "K. Ma, Y. Zheng, S. Li, K. Swaminathan, X. Li, Y. Liu, J. Sampson, Y. Xie, and V. Narayanan, \"Architecture exploration for ambient energy harvesting nonvolatile processors,\" 2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA), pp. 526--537, 2015."
+        }, 
+        {
+            "ArticleName": "Divya Mahajan , Amir Yazdanbakhsh , Jongse Park , Bradley Thwaites , Hadi Esmaeilzadeh, Towards statistical guarantees in controlling quality tradeoffs for approximate acceleration, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.16", 
+            "DOIname": "10.1109/ISCA.2016.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001144"
+        }, 
+        {
+            "ArticleName": "Geoff V. Merrett, Invited - Energy harvesting and transient computing: a paradigm shift for embedded systems?, Proceedings of the 53rd Annual Design Automation Conference, p.1-2, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2905011", 
+            "DOIname": "10.1145/2897937.2905011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2905011"
+        }, 
+        {
+            "ArticleName": "G. V. Merrett and B. Al-Hashimi, \"Energy-driven computing: Rethinking the design of energy harvesting systems,\" 2017."
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Mario Badr , Natalie Enright Jerger, Load Value Approximation, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.22", 
+            "DOIname": "10.1109/MICRO.2014.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742169"
+        }, 
+        {
+            "ArticleName": "A. Mirhoseini, B. D. Rouhani, E. Songhori, and F. Koushanfar, \"Chime: Checkpointing long computations on interm ittently energized iot devices,\" IEEE Transactions on Multi-Scale Computing Systems, vol. 2, no. 4, pp. 277--290, Oct 2016."
+        }, 
+        {
+            "ArticleName": "A. Mirhoseini, E. M. Songhori, and F. Koushanfar, \"Idetic: A high-level synthesis approach for enabling long computations on transiently-powered asics,\" in Pervasive Computing and Communications (PerCom), 2013 IEEE International Conference on. IEEE, 2013, pp. 216--224."
+        }, 
+        {
+            "ArticleName": "Nikita Mishra , Huazhe Zhang , John D. Lafferty , Henry Hoffmann, A Probabilistic Graphical Model-based Approach for Minimizing Energy Under Performance Constraints, ACM SIGPLAN Notices, v.50 n.4, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2775054.2694373", 
+            "DOIname": "10.1145/2775054.2694373", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694373"
+        }, 
+        {
+            "ArticleName": "Debabrata Mohapatra , Georgios Karakonstantis , Kaushik Roy, Significance driven computation: a voltage-scalable, variation-aware, quality-tuning motion estimator, Proceedings of the 2009 ACM/IEEE international symposium on Low power electronics and design, August 19-21, 2009, San Fancisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1594233.1594282", 
+            "DOIname": "10.1145/1594233.1594282", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1594282"
+        }, 
+        {
+            "ArticleName": "Saman Naderiparizi , Zerina Kapetanovic , Joshua R. Smith, Battery-Free Connected Machine Vision with WISPCam, GetMobile: Mobile Computing and Communications, v.20 n.1, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2972413.2972417", 
+            "DOIname": "10.1145/2972413.2972417", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2972417"
+        }, 
+        {
+            "ArticleName": "S. Naderiparizi, Z. Kapetanovic, and J. R. Smith, \"Rf-powered, backscatter-based cameras,\" in Antennas and Propagation (EUCAP), 2017 11th European Conference on. IEEE, 2017, pp. 346--349."
+        }, 
+        {
+            "ArticleName": "S. Naderiparizi, A. N. Parks, Z. Kapetanovic, B. Ransford, and J. R. Smith, \"Wispcam: A battery-free rfid camera,\" in RFID (RFID), 2015 IEEE International Conference on. IEEE, 2015, pp. 166--173."
+        }, 
+        {
+            "ArticleName": "Chen Pan , Mimi Xie , Chengmo Yang , Yiran Chen , Jingtong Hu, Exploiting Multiple Write Modes of Nonvolatile Main Memory in Embedded Systems, ACM Transactions on Embedded Computing Systems (TECS), v.16 n.4, September 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3063130", 
+            "DOIname": "10.1145/3063130", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3063130"
+        }, 
+        {
+            "ArticleName": "J. Park, X. Zhang, K. Ni, H. Esmaeilzadeh, and M. Naik, \"Expax: A framework for automating approximate programming,\" Georgia Institute of Technology, Tech. Rep., 2014."
+        }, 
+        {
+            "ArticleName": "R. Perricone, I. Ahmed, Z. Liang, M. Mankalale, X. S. Hu, M. Kim, Chris H. and Niemier, S. Sapatnekar, and J.-P. Wang, \"Advanced spintronic memory and logic for nonvolatile processors,\" in International conference and exhibition for the design and engineering of systems-on-chip and embedded systems., Mar 2017."
+        }, 
+        {
+            "ArticleName": "Benjamin Ransford , Jacob Sorber , Kevin Fu, Mementos: system support for long-running computation on RFID-scale devices, ACM SIGARCH Computer Architecture News, v.39 n.1, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961295.1950386", 
+            "DOIname": "10.1145/1961295.1950386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950386"
+        }, 
+        {
+            "ArticleName": "Alberto Rodriguez Arreola , Domenico Balsamo , Anup K. Das , Alex S. Weddell , Davide Brunelli , Bashir M. Al-Hashimi , Geoff V. Merrett, Approaches to Transient Computing for Energy Harvesting Systems: A Quantitative Evaluation, Proceedings of the 3rd International Workshop on Energy Harvesting & Energy Neutral Sensing Systems, November 01-01, 2015, Seoul, South Korea", 
+            "DOIhref": "http://doi.acm.org/10.1145/2820645.2820652", 
+            "DOIname": "10.1145/2820645.2820652", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2820652"
+        }, 
+        {
+            "ArticleName": "Mehrzad Samadi , Davoud Anoushe Jamshidi , Janghaeng Lee , Scott Mahlke, Paraprox: pattern-based approximation for data parallel applications, ACM SIGARCH Computer Architecture News, v.42 n.1, March 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2654822.2541948", 
+            "DOIname": "10.1145/2654822.2541948", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541948"
+        }, 
+        {
+            "ArticleName": "Mehrzad Samadi , Janghaeng Lee , D. Anoushe Jamshidi , Amir Hormati , Scott Mahlke, SAGE: self-tuning approximation for graphics engines, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540711", 
+            "DOIname": "10.1145/2540708.2540711", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540711"
+        }, 
+        {
+            "ArticleName": "A. Sampson, A. Baixo, B. Ransford, T. Moreau, J. Yip, L. Ceze, and M. Oskin, \"Accept: A programmer-guided compiler framework for practical approximate computing,\" University of Washington Technical Report UW-CSE-15--01, vol. 1, 2015."
+        }, 
+        {
+            "ArticleName": "Adrian Sampson , Werner Dietl , Emily Fortuna , Danushen Gnanapragasam , Luis Ceze , Dan Grossman, EnerJ: approximate data types for safe and general low-power computation, ACM SIGPLAN Notices, v.46 n.6, June 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993316.1993518", 
+            "DOIname": "10.1145/1993316.1993518", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993518"
+        }, 
+        {
+            "ArticleName": "Adrian Sampson , Jacob Nelson , Karin Strauss , Luis Ceze, Approximate Storage in Solid-State Memories, ACM Transactions on Computer Systems (TOCS), v.32 n.3, p.1-23, September 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2644808", 
+            "DOIname": "10.1145/2644808", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2644808"
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Natalie Enright Jerger, The anytime automaton, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.54", 
+            "DOIname": "10.1109/ISCA.2016.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001195"
+        }, 
+        {
+            "ArticleName": "Sophiane Senni , Lionel Torres , Gilles Sassatelli , Abdoulaye Gamatie, Non-Volatile Processor Based on MRAM for Ultra-Low-Power IoT Devices, ACM Journal on Emerging Technologies in Computing Systems (JETC), v.13 n.2, March 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3001936", 
+            "DOIname": "10.1145/3001936", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001936"
+        }, 
+        {
+            "ArticleName": "Sophiane Senni , Lionel Torres , Gilles Sassatelli , Abdoulaye Gamatie, Non-Volatile Processor Based on MRAM for Ultra-Low-Power IoT Devices, ACM Journal on Emerging Technologies in Computing Systems (JETC), v.13 n.2, March 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3001936", 
+            "DOIname": "10.1145/3001936", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001936"
+        }, 
+        {
+            "ArticleName": "C.-X. G. seris datasheet, \"https://www.cap-xx.com/resource/cap-xx-g-series-datasheets/.\""
+        }, 
+        {
+            "ArticleName": "A. Sheikholeslami and P. G. Gulak, \"A survey of circuit innovations in ferroelectric random-access memories,\" Proceedings of the IEEE, vol. 88, no. 5, pp. 667--689, 2000."
+        }, 
+        {
+            "ArticleName": "X. Sheng, C. Wang, Y. Liu, H. G. Lee, N. Chang, and H. Yang, \"A high-efficiency dual-channel photovoltaic power system for nonvolatile sensor nodes,\" in Non-Volatile Memory Systems and Applications Symposium (NVMSA), 2014 IEEE. IEEE, 2014, pp. 1--2."
+        }, 
+        {
+            "ArticleName": "Clinton W. Smullen , Vidyabhushan Mohan , Anurag Nigam , Sudhanva Gurumurthi , Mircea R. Stan, Relaxing non-volatility for fast and energy-efficient STT-RAM caches, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.50-61, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014895"
+        }, 
+        {
+            "ArticleName": "Ren\u00e9e St. Amant , Amir Yazdanbakhsh , Jongse Park , Bradley Thwaites , Hadi Esmaeilzadeh , Arjang Hassibi , Luis Ceze , Doug Burger, General-purpose code acceleration with limited-precision analog computation, ACM SIGARCH Computer Architecture News, v.42 n.3, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2678373.2665746", 
+            "DOIname": "10.1145/2678373.2665746", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665746"
+        }, 
+        {
+            "ArticleName": "F. Su, Y. Liu, Y. Wang, and H. Yang, \"A ferroelectric nonvolatile processor with 46 us system-level wake-up time and 14 us sleep time for energy harvesting applications,\" IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 64, no. 3, pp. 596--607, March 2017."
+        }, 
+        {
+            "ArticleName": "Fang Su , Kaisheng Ma , Xueqing Li , Tongda Wu , Yongpan Liu , Vijaykrishnan Narayanan, Nonvolatile processors: why is it trending?, Proceedings of the Conference on Design, Automation & Test in Europe, March 27-31, 2017, Lausanne, Switzerland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3130611"
+        }, 
+        {
+            "ArticleName": "Xin Sui , Andrew Lenharth , Donald S. Fussell , Keshav Pingali, Proactive Control of Approximate Programs, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872402", 
+            "DOIname": "10.1145/2872362.2872402", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872402"
+        }, 
+        {
+            "ArticleName": "K. Swaminathan, R. Pisolkar, C. Xu, and V. Narayanan, \"When to forget: A system-level perspective on stt-rams,\" in Design Automation Conference (ASP-DAC), 2012 17th Asia and South Pacific. IEEE, 2012, pp. 311--316."
+        }, 
+        {
+            "ArticleName": "V. Talla, B. Kellogg, B. Ransford, S. Naderiparizi, S. Gollakota, and J. R. Smith, \"Powering the next billion devices with wi-fi,\" arXiv preprint arXiv:1505.06815, 2015."
+        }, 
+        {
+            "ArticleName": "Y. K. Tan and S. K. Panda, \"Energy harvesting from hybrid indoor ambient light and thermal energy sources for enhanced performance of wireless sensor nodes,\" IEEE Transactions on Industrial Electronics, vol. 58, no. 9, pp. 4424--4435, Sept 2011."
+        }, 
+        {
+            "ArticleName": "X. Tang, M. Kandemir, P. Yedlapalli, and J. Kotra, \"Improving bank-level parallelism for irregular applications,\" in Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 2016, pp. 1--12."
+        }, 
+        {
+            "ArticleName": "TI, \"Ctpl \"compute through power loss\" software utility, https://e2e.ti.com/blogs_/b/msp430blog/archive/2015/05/29/what-is-compute-through-power-loss.\""
+        }, 
+        {
+            "ArticleName": "Joel Van Der Woude , Matthew Hicks, Intermittent computation without hardware support or programmer intervention, Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation, November 02-04, 2016, Savannah, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026880"
+        }, 
+        {
+            "ArticleName": "Y. Wang, Y. Liu, S. Li, D. Zhang, B. Zhao, M.-F. Chiang, Y. Yan, B. Sai, and H. Yang, \"A 3us wake-up time nonvolatile processor based on ferroelectric flip-flops,\" in ESSCIRC (ESSCIRC), 2012 Proceedings of the. IEEE, 2012, pp. 149--152."
+        }, 
+        {
+            "ArticleName": "Alex S. Weddell , Michele Magno , Geoff V. Merrett , Davide Brunelli , Bashir M. Al-Hashimi , Luca Benini, A survey of multi-source energy harvesting systems, Proceedings of the Conference on Design, Automation and Test in Europe, March 18-22, 2013, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485505"
+        }, 
+        {
+            "ArticleName": "D. Wong, N. S. Kim, and M. Annavaram, \"Approximating warps with intra-warp operand value similarity,\" 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA), pp. 176--187, 2016."
+        }, 
+        {
+            "ArticleName": "Yuan Xie, Emerging Memory Technologies: Design, Architecture, and Applications, Springer Publishing Company, Incorporated, 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2553098"
+        }, 
+        {
+            "ArticleName": "T. Xue, X. Ma, C. Rahn, and S. Roundy, \"Analysis of upper bound power output for a wrist-worn rotational energy harvester from real-world measured inputs,\" Journal of Physics: Conference Series, vol. 557, no. 1, p. 012090, 2014."
+        }, 
+        {
+            "ArticleName": "T. Xue and S. Roundy, \"Analysis of Magnetic Plucking Configurations for Frequency Up-Converting Harvesters,\" Journal of Physics Conference Series, vol. 660, no. 1, p. 012098, Dec. 2015."
+        }, 
+        {
+            "ArticleName": "Rong Ye , Ting Wang , Feng Yuan , Rakesh Kumar , Qiang Xu, On reconfiguration-oriented approximate adder design and its application, Proceedings of the International Conference on Computer-Aided Design, November 18-21, 2013, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2561838"
+        }, 
+        {
+            "ArticleName": "W. Zhao, X. Zhao, B. Zhang, K. Cao, L. Wang, W. Kang, Q. Shi, M. Wang, Y. Zhang, Y. Wang et al., \"Failure analysis in magnetic tunnel junction nanopillar with interfacial perpendicular magnetic anisotropy,\" Materials, vol. 9, no. 1, p. 41, 2016."
+        }, 
+        {
+            "ArticleName": "M. Zwerg, A. Baumann, R. Kuhn, M. Arnold, R. Nerlich, M. Herzog, R. Ledwa, C. Sichert, V. Rzehak, P. Thanigai, and B. O. Eversmann, \"An 82 ua/mhz microcontroller with embedded feram for energy-harvesting applications,\" in 2011 IEEE International Solid-State Circuits Conference, Feb 2011, pp. 334--336."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Kaisheng Ma"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Xueqing Li"
+        }, 
+        {
+            "Affiliation": "Tsinghua University", 
+            "Name": "Jinyang Li"
+        }, 
+        {
+            "Affiliation": "Tsinghua University", 
+            "Name": "Yongpan Liu"
+        }, 
+        {
+            "Affiliation": "University of California at Santa Barbara", 
+            "Name": "Yuan Xie"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Jack Sampson"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Mahmut Taylan Kandemir"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Vijaykrishnan Narayanan"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124533&preflayout=flat"
+}

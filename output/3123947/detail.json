@@ -1,0 +1,215 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 186, 
+        "Downloads_6Weeks": 17, 
+        "Downloads_cumulative": 186, 
+        "CitationCount": 0
+    }, 
+    "Title": "TMI: thread memory isolation for false sharing repair", 
+    "Abstract": "Cache contention in the form of false sharing and true sharing arises when threads overshare cache lines at high frequency. Such oversharing can reduce or negate the performance benefits of parallel execution. Prior systems for detecting and repairing cache contention lack efficiency in detection or repair, contain subtle memory consistency flaws, or require invasive changes to the program environment. In this paper, we introduce a new way to combat cache line oversharing via the Thread Memory Isolation (Tmi) system. Tmi operates completely in userspace, leveraging performance counters and the Linux ptrace mechanism to tread lightly on monitored applications, intervening only when necessary. Tmi's compatible-by-default design allows it to scale to real-world workloads, unlike previous proposals. Tmi introduces a novel code-centric consistency model to handle cross-language memory consistency issues. Tmi exploits the flexibility of code-centric consistency to efficiently repair false sharing while preserving strong consistency model semantics when necessary. Tmi has minimal impact on programs without oversharing, slowing their execution by just 2% on average. We also evaluate Tmi on benchmarks with known false sharing, and manually inject a false sharing bug into the leveldb key-value store from Google. For these programs, Tmi provides an average speedup of 5.2x and achieves 88% of the speedup possible with manual source code fixes.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Advanced Micro Devices, Inc. 2013. Preliminary BIOS and Kernel Developer\u00e2\u0102\u0179s Guide (BKDG) for AMD Family 16h Models 00h-0Fh (Kabini) Processors. Chapter 2.6.2 Instruction Based Sampling."
+        }, 
+        {
+            "ArticleName": "Amittai Aviram, Shu-Chun Weng, Sen Hu, and Bryan Ford. 2010. Efficient System-Enforced Deterministic Parallelism. CoRR abs/1005.3450 (2010). http://arxiv.org/abs/1005.3450"
+        }, 
+        {
+            "ArticleName": "Mark Batty , Scott Owens , Susmit Sarkar , Peter Sewell , Tjark Weber, Mathematizing C++ concurrency, Proceedings of the 38th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages, January 26-28, 2011, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1926385.1926394", 
+            "DOIname": "10.1145/1926385.1926394", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1926394"
+        }, 
+        {
+            "ArticleName": "Christian Bienia. 2011. Benchmarking Modern Multiprocessors. Ph.D. Dissertation. Princeton, NJ, USA. Advisor(s) Li, Kai. AAI3445564."
+        }, 
+        {
+            "ArticleName": "Silas Boyd-Wickizer , Austin T. Clements , Yandong Mao , Aleksey Pesterev , M. Frans Kaashoek , Robert Morris , Nickolai Zeldovich, An analysis of Linux scalability to many cores, Proceedings of the 9th USENIX conference on Operating systems design and implementation, p.1-16, October 04-06, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924944"
+        }, 
+        {
+            "ArticleName": "Derek Bruening , Timothy Garnett , Saman Amarasinghe, An infrastructure for adaptive dynamic optimization, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, March 23-26, 2003, San Francisco, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=776290"
+        }, 
+        {
+            "ArticleName": "Buddhika Chamith , Bo Joel Svensson , Luke Dalessandro , Ryan R. Newton, Living on the edge: rapid-toggling probes with cross-modification on x86, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908084", 
+            "DOIname": "10.1145/2908080.2908084", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908084"
+        }, 
+        {
+            "ArticleName": "Austin T. Clements , M. Frans Kaashoek , Nickolai Zeldovich, Scalable address spaces using RCU balanced trees, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2150998", 
+            "DOIname": "10.1145/2150976.2150998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150998"
+        }, 
+        {
+            "ArticleName": "Austin T. Clements , M. Frans Kaashoek , Nickolai Zeldovich, RadixVM: scalable address spaces for multithreaded applications, Proceedings of the 8th ACM European Conference on Computer Systems, April 15-17, 2013, Prague, Czech Republic", 
+            "DOIhref": "http://doi.acm.org/10.1145/2465351.2465373", 
+            "DOIname": "10.1145/2465351.2465373", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465373"
+        }, 
+        {
+            "ArticleName": "Intel Corporation. 2015. Intel VTune Amplifier 2015. (May 2015). https://software.intel.com/en-us/intel-vtune-amplifier-xe"
+        }, 
+        {
+            "ArticleName": "Ariel Eizenberg , Shiliang Hu , Gilles Pokam , Joseph Devietti, Remix: online detection and repair of cache contention for the JVM, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908090", 
+            "DOIname": "10.1145/2908080.2908090", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908090"
+        }, 
+        {
+            "ArticleName": "Joseph L. Greathouse , Zhiqiang Ma , Matthew I. Frank , Ramesh Peri , Todd Austin, Demand-driven software race detection using hardware performance counters, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000084", 
+            "DOIname": "10.1145/2000064.2000084", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000084"
+        }, 
+        {
+            "ArticleName": "Stephan M. G\u00fcnther , Josef Weidendorfer, Assessing cache false sharing effects by dynamic binary instrumentation, Proceedings of the Workshop on Binary Instrumentation and Applications, December 12-12, 2009, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1791194.1791198", 
+            "DOIname": "10.1145/1791194.1791198", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1791198"
+        }, 
+        {
+            "ArticleName": "Lockless Inc. 2015. Lockless Performance. http://locklessinc.com/"
+        }, 
+        {
+            "ArticleName": "International Standard ISO/IEC 14882:2011. 2011. Programming Languages - C++. International Organization for Standards."
+        }, 
+        {
+            "ArticleName": "Sanath Jayasena , Saman Amarasinghe , Asanka Abeyweera , Gayashan Amarasinghe , Himeshi De Silva , Sunimal Rathnayake , Xiaoqiao Meng , Yanbin Liu, Detection of false sharing using machine learning, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 17-21, 2013, Denver, Colorado", 
+            "DOIhref": "http://doi.acm.org/10.1145/2503210.2503269", 
+            "DOIname": "10.1145/2503210.2503269", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2503269"
+        }, 
+        {
+            "ArticleName": "David Levinthal. {n. d.}. Performance Analysis Guide for Intel Core i7 Processor and Intel Xeon 5500 Processors. Intel Corporation."
+        }, 
+        {
+            "ArticleName": "C.-L. Liu. 2009. False sharing analysis for multithreaded programs. Master's thesis. National Chung Cheng University."
+        }, 
+        {
+            "ArticleName": "Tongping Liu , Emery D. Berger, SHERIFF: precise detection and automatic mitigation of false sharing, Proceedings of the 2011 ACM international conference on Object oriented programming systems languages and applications, October 22-27, 2011, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2048066.2048070", 
+            "DOIname": "10.1145/2048066.2048070", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2048070"
+        }, 
+        {
+            "ArticleName": "Tongping Liu , Charlie Curtsinger , Emery D. Berger, Dthreads: efficient deterministic multithreading, Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles, October 23-26, 2011, Cascais, Portugal", 
+            "DOIhref": "http://doi.acm.org/10.1145/2043556.2043587", 
+            "DOIname": "10.1145/2043556.2043587", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2043587"
+        }, 
+        {
+            "ArticleName": "Tongping Liu , Xu Liu, Cheetah: detecting false sharing efficiently and effectively, Proceedings of the 2016 International Symposium on Code Generation and Optimization, March 12-18, 2016, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/2854038.2854039", 
+            "DOIname": "10.1145/2854038.2854039", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2854039"
+        }, 
+        {
+            "ArticleName": "Tongping Liu , Chen Tian , Ziang Hu , Emery D. Berger, PREDATOR: predictive false sharing detection, Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 15-19, 2014, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2555243.2555244", 
+            "DOIname": "10.1145/2555243.2555244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555244"
+        }, 
+        {
+            "ArticleName": "Kai Lu , Xu Zhou , Tom Bergan , Xiaoping Wang, Efficient deterministic multithreading without global barriers, Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 15-19, 2014, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2555243.2555252", 
+            "DOIname": "10.1145/2555243.2555252", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555252"
+        }, 
+        {
+            "ArticleName": "Liang Luo, Akshitha Sriraman, Brooke Fugate, Shiliang Hu, Gilles Pokam, Chris Newburn, and Joseph Devietti. 2016. LASER: Light, Accurate Sharing Detection and Repair. In IEEE International Symposium on High Performance Computer Architecture (HPCA '16)."
+        }, 
+        {
+            "ArticleName": "Luc Maranget, Susmit Sarkar, and Peter Sewell. 2012. A Tutorial Introduction to the ARM and POWER Relaxed Memory Models. Technical Report. INRIA and University of Cambridge. https://www.cl.cam.ac.uk/-pes20/ppc-supplemental/test7.pdf"
+        }, 
+        {
+            "ArticleName": "Joe Mario. 2016. C2C - False Sharing Detection in Linux Perf. (September 2016). https://joemario.github.io/blog/2016/09/01/c2c-blog/"
+        }, 
+        {
+            "ArticleName": "Robert Martin , John Demme , Simha Sethumadhavan, TimeWarp: rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337173"
+        }, 
+        {
+            "ArticleName": "mcmcc. 2012. false sharing in boost::detail::spinlock_pool? (June 2012). http://stackoverflow.com/questions/11037655/false-sharing-in-boostdetailspinlock-pool"
+        }, 
+        {
+            "ArticleName": "Timothy Merrifield and Jakob Eriksson. 2013. Increasing Concurrency in Deterministic Runtimes with Conversion. (2013)."
+        }, 
+        {
+            "ArticleName": "Mihir Nanavati , Mark Spear , Nathan Taylor , Shriram Rajagopalan , Dutch T. Meyer , William Aiello , Andrew Warfield, Whose cache line is it anyway?: operating system support for live detection and repair of false sharing, Proceedings of the 8th ACM European Conference on Computer Systems, April 15-17, 2013, Prague, Czech Republic", 
+            "DOIhref": "http://doi.acm.org/10.1145/2465351.2465366", 
+            "DOIname": "10.1145/2465351.2465366", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465366"
+        }, 
+        {
+            "ArticleName": "Colby Ranger , Ramanan Raghuraman , Arun Penmetsa , Gary Bradski , Christos Kozyrakis, Evaluating MapReduce for Multi-core and Multiprocessor Systems, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.13-24, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346181", 
+            "DOIname": "10.1109/HPCA.2007.346181", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318097"
+        }, 
+        {
+            "ArticleName": "Mikael Ronstrom. 2012. MySQL team increases scalability by >50% for Sysbench OLTP RO in MySQL 5.6 labs release april 2012. (April 2012). http://mikaelronstrom.blogspot.com/2012/04/mysql-team-increases-scalability-by-50.html"
+        }, 
+        {
+            "ArticleName": "Susmit Sarkar , Peter Sewell , Jade Alglave , Luc Maranget , Derek Williams, Understanding POWER multiprocessors, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993520", 
+            "DOIname": "10.1145/1993498.1993520", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993520"
+        }, 
+        {
+            "ArticleName": "Martin Schindewolf. 2007. Analysis of Cache Misses Using SIMICS. Master's thesis. Institute for Computing Systems Architecture, University of Edinburgh."
+        }, 
+        {
+            "ArticleName": "Peter Sewell , Susmit Sarkar , Scott Owens , Francesco Zappa Nardelli , Magnus O. Myreen, x86-TSO: a rigorous and usable programmer's model for x86 multiprocessors, Communications of the ACM, v.53 n.7, July 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1785414.1785443", 
+            "DOIname": "10.1145/1785414.1785443", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1785443"
+        }, 
+        {
+            "ArticleName": "CORPORATE SPARC International, Inc., The SPARC architecture manual (version 9), Prentice-Hall, Inc., Upper Saddle River, NJ, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=174556"
+        }, 
+        {
+            "ArticleName": "Vince Weaver. 2015. perf events Library Man Page. http://web.eece.maine.edu/~vweaver/projects/perf_events/perf_event_open.html"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "Qin Zhao , David Koh , Syed Raza , Derek Bruening , Weng-Fai Wong , Saman Amarasinghe, Dynamic cache contention detection in multi-threaded applications, Proceedings of the 7th ACM SIGPLAN/SIGOPS international conference on Virtual execution environments, March 09-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1952682.1952688", 
+            "DOIname": "10.1145/1952682.1952688", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1952688"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Pennsylvania", 
+            "Name": "Christian DeLozier"
+        }, 
+        {
+            "Affiliation": "University of Pennsylvania", 
+            "Name": "Ariel Eizenberg"
+        }, 
+        {
+            "Affiliation": "Intel Corporation", 
+            "Name": "Shiliang Hu"
+        }, 
+        {
+            "Affiliation": "Intel Corporation", 
+            "Name": "Gilles Pokam"
+        }, 
+        {
+            "Affiliation": "University of Pennsylvania", 
+            "Name": "Joseph Devietti"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123947&preflayout=flat"
+}

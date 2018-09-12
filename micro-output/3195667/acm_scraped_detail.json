@@ -1,0 +1,282 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 13, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 13, 
+        "CitationCount": 0
+    }, 
+    "Title": "Crystalball: statically analyzing runtime behavior via deep sequence learning", 
+    "Abstract": "Understanding dynamic program behavior is critical in many stages of the software development lifecycle, for purposes as diverse as optimization, debugging, testing, and security. This paper focuses on the problem of predicting dynamic program behavior statically. We introduce a novel technique to statically identify hot paths that leverages emerging deep learning techniques to take advantage of their ability to learn subtle, complex relationships between sequences of inputs. This approach maps well to the problem of identifying the behavior of sequences of basic blocks in program execution. Our technique is also designed to operate on the compiler's intermediate representation (IR), as opposed to the approaches taken by prior techniques that have focused primarily on source code, giving our approach language-independence. We describe the pitfalls of conventional metrics used for hot path prediction such as accuracy, and motivate the use of Area Under the Receiver Operating Characteristic curve (AUROC). Through a thorough evaluation of our technique on complex applications that include the SPEC CPU2006 benchmarks, we show that our approach achieves an AUROC of 0.85.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"Address of Label and Indirect Branches in LLVM IR\". http://blog.llvm.org/2010/01/address-of-label-and-indirect-branches.html."
+        }, 
+        {
+            "ArticleName": "\"Implementation of Path Profiling in the LLVM Infrastructure\". http://llvm.org/pubs/2010-12-Preuss-PathProfiling.pdf."
+        }, 
+        {
+            "ArticleName": "\"LLVM Language Reference Manual\". http://llvm.org/docs/LangRef.html#alloca-instruction."
+        }, 
+        {
+            "ArticleName": "\"LLVM's Analysis and Transform Passes\". http://llvm.org/docs/Passes.html#block-placement-profile-guided-basic-block-placement."
+        }, 
+        {
+            "ArticleName": "\"Programming Languages Supported by GCC\". https://gcc.gnu.org/onlinedocs/gcc/G_002b_002b-and-GCC.html."
+        }, 
+        {
+            "ArticleName": "Matthew Arnold , Stephen Fink , Vivek Sarkar , Peter F. Sweeney, A comparative study of static and profile-based heuristics for inlining, Proceedings of the ACM SIGPLAN workshop on Dynamic and adaptive compilation and optimization, p.52-64, January 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/351397.351416", 
+            "DOIname": "10.1145/351397.351416", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=351416"
+        }, 
+        {
+            "ArticleName": "Takanobu Baba , Tomohisa Masuho , Takashi Yokota , Kanemitsu Ootsu, Design of a two-level hot path detector for path-based loop optimizations, Proceedings of the third conference on IASTED International Conference: Advances in Computer Science and Technology, p.23-28, April 02-04, 2007, Phuket, Thailand", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1322472"
+        }, 
+        {
+            "ArticleName": "Domagoj Babic , Alan J. Hu, Calysto: scalable and precise extended static checking, Proceedings of the 30th international conference on Software engineering, May 10-18, 2008, Leipzig, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1368088.1368118", 
+            "DOIname": "10.1145/1368088.1368118", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1368118"
+        }, 
+        {
+            "ArticleName": "Thomas Ball , James R. Larus, Branch prediction for free, Proceedings of the ACM SIGPLAN 1993 conference on Programming language design and implementation, p.300-313, June 21-25, 1993, Albuquerque, New Mexico, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/155090.155119", 
+            "DOIname": "10.1145/155090.155119", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=155119"
+        }, 
+        {
+            "ArticleName": "Thomas Ball , James R. Larus, Efficient path profiling, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.46-57, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243857"
+        }, 
+        {
+            "ArticleName": "Thomas Ball , Peter Mataga , Mooly Sagiv, Edge profiling versus path profiling: the showdown, Proceedings of the 25th ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.134-148, January 19-21, 1998, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/268946.268958", 
+            "DOIname": "10.1145/268946.268958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=268958"
+        }, 
+        {
+            "ArticleName": "Tom Bergan , Owen Anderson , Joseph Devietti , Luis Ceze , Dan Grossman, CoreDet: a compiler and runtime system for deterministic multithreaded execution, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736029", 
+            "DOIname": "10.1145/1736020.1736029", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736029"
+        }, 
+        {
+            "ArticleName": "J. Bergstra, O. Breuleux, F. Bastien, P. Lamblin, R. Pascanu, G. Desjardins, J. Turian, D. Warde-Farley, and Y. Bengio. \"Theano: A CPU and GPU Math Expression Compiler\". In Proceedings of the Python for Scientific Computing Conference (SciPy), 2010."
+        }, 
+        {
+            "ArticleName": "David Binkley, Source Code Analysis: A Road Map, 2007 Future of Software Engineering, p.104-119, May 23-25, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/FOSE.2007.27", 
+            "DOIname": "10.1109/FOSE.2007.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1254713"
+        }, 
+        {
+            "ArticleName": "Bruno Blanchet , Patrick Cousot , Radhia Cousot , J\u00e9rome Feret , Laurent Mauborgne , Antoine Min\u00e9 , David Monniaux , Xavier Rival, A static analyzer for large safety-critical software, Proceedings of the ACM SIGPLAN 2003 conference on Programming language design and implementation, June 09-11, 2003, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/781131.781153", 
+            "DOIname": "10.1145/781131.781153", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781153"
+        }, 
+        {
+            "ArticleName": "C. Boogerd and L. Moonen. \"On the Use of Data Flow Analysis in Static Profiling\". In Conference on Source Code Analysis and Manipulation, 2008."
+        }, 
+        {
+            "ArticleName": "Andrew P. Bradley, The use of the area under the ROC curve in the evaluation of machine learning algorithms, Pattern Recognition, v.30 n.7, p.1145-1159, July, 1997", 
+            "DOIhref": "https://dx.doi.org/10.1016/S0031-3203(96)00142-2", 
+            "DOIname": "10.1016/S0031-3203(96)00142-2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1746434"
+        }, 
+        {
+            "ArticleName": "Derek Bruening , Timothy Garnett , Saman Amarasinghe, An infrastructure for adaptive dynamic optimization, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, March 23-26, 2003, San Francisco, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=776290"
+        }, 
+        {
+            "ArticleName": "Raymond P. L. Buse , Westley Weimer, The road not taken: Estimating path execution frequency statically, Proceedings of the 31st International Conference on Software Engineering, p.144-154, May 16-24, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICSE.2009.5070516", 
+            "DOIname": "10.1109/ICSE.2009.5070516", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555030"
+        }, 
+        {
+            "ArticleName": "Brad Calder , Dirk Grunwald , Michael Jones , Donald Lindsay , James Martin , Michael Mozer , Benjamin Zorn, Evidence-based static branch prediction using machine learning, ACM Transactions on Programming Languages and Systems (TOPLAS), v.19 n.1, p.188-222, Jan. 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/239912.239923", 
+            "DOIname": "10.1145/239912.239923", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=239923"
+        }, 
+        {
+            "ArticleName": "Tsong Yueh Chen , Fei-Ching Kuo , Robert Merkel, On the Statistical Properties of the F-measure, Proceedings of the Quality Software, Fourth International Conference, p.146-153, September 08-10, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/QSIC.2004.27", 
+            "DOIname": "10.1109/QSIC.2004.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1022066"
+        }, 
+        {
+            "ArticleName": "F. Chollet. \"Keras\", 2015. https://keras.io/."
+        }, 
+        {
+            "ArticleName": "Evelyn Duesterwald , Vasanth Bala, Software profiling for hot path prediction: less is more, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.202-211, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379241", 
+            "DOIname": "10.1145/378993.379241", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379241"
+        }, 
+        {
+            "ArticleName": "M. E. Fagan. \"Design and Code Inspections to Reduce Errors in Program Development\". In Pioneers and Their Contributions to Software Engineering. 1976."
+        }, 
+        {
+            "ArticleName": "Peter A. Flach, The geometry of ROC space: understanding machine learning metrics through ROC isometrics, Proceedings of the Twentieth International Conference on International Conference on Machine Learning, p.194-201, August 21-24, 2003, Washington, DC, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3041863"
+        }, 
+        {
+            "ArticleName": "Felix A. Gers , J\u00fcrgen A. Schmidhuber , Fred A. Cummins, Learning to Forget: Continual Prediction with LSTM, Neural Computation, v.12 n.10, p.2451-2471, October 2000", 
+            "DOIhref": "https://dx.doi.org/10.1162/089976600300015015", 
+            "DOIname": "10.1162/089976600300015015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1121915"
+        }, 
+        {
+            "ArticleName": "Simon F. Goldsmith , Alex S. Aiken , Daniel S. Wilkerson, Measuring empirical computational complexity, Proceedings of the the 6th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering, September 03-07, 2007, Dubrovnik, Croatia", 
+            "DOIhref": "http://doi.acm.org/10.1145/1287624.1287681", 
+            "DOIname": "10.1145/1287624.1287681", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1287681"
+        }, 
+        {
+            "ArticleName": "Susan L. Graham , Peter B. Kessler , Marshall K. Mckusick, Gprof: A call graph execution profiler, Proceedings of the 1982 SIGPLAN symposium on Compiler construction, p.120-126, June 23-25, 1982, Boston, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/800230.806987", 
+            "DOIname": "10.1145/800230.806987", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=806987"
+        }, 
+        {
+            "ArticleName": "A. Graves. \"Supervised Sequence Labelling with Recurrent Neural Networks\". Springer, 2012."
+        }, 
+        {
+            "ArticleName": "A. Graves, A.-r. Mohamed, and G. Hinton. \"Speech Recognition with Deep Recurrent Neural Networks\". In International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2013."
+        }, 
+        {
+            "ArticleName": "Rajiv Gupta , Mary Lou Soffa , John Howard, Hybrid slicing: integrating dynamic information with static analysis, ACM Transactions on Software Engineering and Methodology (TOSEM), v.6 n.4, p.370-397, Oct. 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/261640.261644", 
+            "DOIname": "10.1145/261640.261644", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=261644"
+        }, 
+        {
+            "ArticleName": "Johann Hauswald , Michael A. Laurenzano , Yunqi Zhang , Cheng Li , Austin Rovinski , Arjun Khurana , Ronald G. Dreslinski , Trevor Mudge , Vinicius Petrucci , Lingjia Tang , Jason Mars, Sirius: An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694347", 
+            "DOIname": "10.1145/2694344.2694347", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694347"
+        }, 
+        {
+            "ArticleName": "Sepp Hochreiter , J\u00fcrgen Schmidhuber, Long short-term memory, Neural Computation, v.9 n.9, p.1735-1780, Nov. 15, 1997", 
+            "DOIhref": "https://dx.doi.org/10.1162/neco.1997.9.8.1735", 
+            "DOIname": "10.1162/neco.1997.9.8.1735", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264179"
+        }, 
+        {
+            "ArticleName": "James R. Larus, Whole program paths, Proceedings of the ACM SIGPLAN 1999 conference on Programming language design and implementation, p.259-269, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/301618.301678", 
+            "DOIname": "10.1145/301618.301678", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=301678"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "Michael A. Laurenzano , Yunqi Zhang , Lingjia Tang , Jason Mars, Protean Code: Achieving Near-Free Online Code Transformations for Warehouse Scale Computers, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.21", 
+            "DOIname": "10.1109/MICRO.2014.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742212"
+        }, 
+        {
+            "ArticleName": "Yau-Tsun Steven Li , Sharad Malik, Performance analysis of embedded software using implicit path enumeration, Proceedings of the 32nd annual ACM/IEEE Design Automation Conference, p.456-461, June 12-16, 1995, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/217474.217570", 
+            "DOIname": "10.1145/217474.217570", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=217570"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Matthew C. Merten , Andrew R. Trick , Christopher N. George , John C. Gyllenhaal , Wen-mei W. Hwu, A hardware-driven profiling scheme for identifying program hot spots to support runtime optimization, Proceedings of the 26th annual international symposium on Computer architecture, p.136-147, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300991", 
+            "DOIname": "10.1145/300979.300991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300991"
+        }, 
+        {
+            "ArticleName": "T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, and S. Khudanpur. \"Recurrent Neural Network Based Language Model\". In Proceedings of the International Speech Communication Association (INTERSPEECH), 2010."
+        }, 
+        {
+            "ArticleName": "Kevin P. Murphy, Machine Learning: A Probabilistic Perspective, The MIT Press, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2380985"
+        }, 
+        {
+            "ArticleName": "D. M. Powers. \"Evaluation: From Precision, Recall and F-measure to ROC, Informedness, Markedness and Correlation\". Technical report, Flinders University, Adelaide, Australia, 2011."
+        }, 
+        {
+            "ArticleName": "Amitabh Srivastava , Alan Eustace, ATOM: a system for building customized program analysis tools, Proceedings of the ACM SIGPLAN 1994 conference on Programming language design and implementation, p.196-205, June 20-24, 1994, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/178243.178260", 
+            "DOIname": "10.1145/178243.178260", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=178260"
+        }, 
+        {
+            "ArticleName": "Ilya Sutskever , Oriol Vinyals , Quoc V. Le, Sequence to sequence learning with neural networks, Proceedings of the 27th International Conference on Neural Information Processing Systems, p.3104-3112, December 08-13, 2014, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969173"
+        }, 
+        {
+            "ArticleName": "Dirk Tetzlaff , Sabine Glesner, Static Prediction of Loop Iteration Counts Using Machine Learning to Enable Hot Spot Optimizations, Proceedings of the 2013 39th Euromicro Conference on Software Engineering and Advanced Applications, p.300-307, September 04-06, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/SEAA.2013.12", 
+            "DOIname": "10.1109/SEAA.2013.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2552715"
+        }, 
+        {
+            "ArticleName": "David Ung , Cristina Cifuentes, Optimising hot paths in a dynamic binary translator, ACM SIGARCH Computer Architecture News, v.29 n.1, p.55-65, March 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/373574.373590", 
+            "DOIname": "10.1145/373574.373590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=373590"
+        }, 
+        {
+            "ArticleName": "Westley Weimer , George C. Necula, Exceptional situations and program reliability, ACM Transactions on Programming Languages and Systems (TOPLAS), v.30 n.2, p.1-51, March 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1330017.1330019", 
+            "DOIname": "10.1145/1330017.1330019", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1330019"
+        }, 
+        {
+            "ArticleName": "S. M. Weiss and I. Kapouleas. An Empirical Comparison of Pattern Recognition, Neural Nets and Machine Learning Classification Methods. Readings in Machine Learning, 1990."
+        }, 
+        {
+            "ArticleName": "P. J. Werbos. \"Backpropagation Through Time: What It Does and How To Do It\". Proceedings of the IEEE, 1990."
+        }, 
+        {
+            "ArticleName": "Cliff Young , Michael D. Smith, Improving the accuracy of static branch prediction using branch correlation, Proceedings of the sixth international conference on Architectural support for programming languages and operating systems, p.232-241, October 05-07, 1994, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/195473.195549", 
+            "DOIname": "10.1145/195473.195549", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=195549"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Stephen Zekany"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Daniel Rings"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Nathan Harada"
+        }, 
+        {
+            "Affiliation": "University of Michigan and Clinc, Inc.", 
+            "Name": "Michael A. Laurenzano"
+        }, 
+        {
+            "Affiliation": "University of Michigan and Clinc, Inc.", 
+            "Name": "Lingjia Tang"
+        }, 
+        {
+            "Affiliation": "University of Michigan and Clinc, Inc.", 
+            "Name": "Jason Mars"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195667&preflayout=flat"
+}

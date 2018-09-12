@@ -1,0 +1,218 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Mehmet E. Belviranli , Seyong Lee , Jeffrey S. Vetter , Laxmi N. Bhuyan, Juggler: a dependence-aware task-based execution framework for GPUs, ACM SIGPLAN Notices, v.53 n.1, p.54-67, January 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3178492"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 272, 
+        "Downloads_6Weeks": 12, 
+        "Downloads_cumulative": 272, 
+        "CitationCount": 1
+    }, 
+    "Title": "Wireframe: supporting data-dependent parallelism through dependency graph execution in GPUs", 
+    "Abstract": "GPUs lack fundamental support for data-dependent parallelism and synchronization. While CUDA Dynamic Parallelism signals progress in this direction, many limitations and challenges still remain. This paper introduces Wireframe, a hardware-software solution that enables generalized support for data-dependent parallelism and synchronization. Wireframe enables applications to naturally express execution dependencies across different thread blocks through a dependency graph abstraction at run-time, which is sent to the GPU hardware at kernel launch. At run-time, the hardware enforces the dependencies specified in the dependency graph through a dependency-aware thread block scheduler. Overall, Wireframe is able to improve total execution time up to 65.20% with an average of 45.07%.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "2012. Dynamic Parallelism in CUDA. http://developer.download.nvidia.com/assets/cuda/docs/TechBrief_Dynamic_Parallelism_in_CUDA_v2.pdf. (2012)."
+        }, 
+        {
+            "ArticleName": "2016. CUDA Programming Guide. https://docs.nvidia.com/cuda/cuda-c-programming-guide/. (2016). Accessed: 09-27-2016."
+        }, 
+        {
+            "ArticleName": "2017. CUDA 9 Features Revealed: Volta, Cooperative Groups and More. https://devblogs.nvidia.com/parallelforall/cuda-9-features-revealed/. (2017)."
+        }, 
+        {
+            "ArticleName": "Itai Avron , Ran Ginosar, Hardware Scheduler Performance on the Plural Many-Core Architecture, Proceedings of the 3rd International Workshop on Many-core Embedded Systems, p.48-51, June 13-14, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2768177.2768184", 
+            "DOIname": "10.1145/2768177.2768184", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2768184"
+        }, 
+        {
+            "ArticleName": "Ali Bakhoda, George L Yuan, Wilson WL Fung, Henry Wong, and Tor M Aamodt. 2009. Analyzing CUDA workloads using a detailed GPU simulator. In Performance Analysis of Systems and Software, 2009. ISPASS 2009. IEEE International Symposium on. IEEE, 163--174."
+        }, 
+        {
+            "ArticleName": "Mehmet E. Belviranli , Chih-Hsun Chou , Laxmi N. Bhuyan , Rajiv Gupta, A paradigm shift in GP-GPU computing: task based execution of applications with dynamic data dependencies, Proceedings of the sixth international workshop on Data intensive distributed computing, June 23-27, 2014, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2608020.2608024", 
+            "DOIname": "10.1145/2608020.2608024", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2608024"
+        }, 
+        {
+            "ArticleName": "Mehmet E. Belviranli , Peng Deng , Laxmi N. Bhuyan , Rajiv Gupta , Qi Zhu, PeerWave: Exploiting Wavefront Parallelism on GPUs with Peer-SM Synchronization, Proceedings of the 29th ACM on International Conference on Supercomputing, June 08-11, 2015, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2751205.2751243", 
+            "DOIname": "10.1145/2751205.2751243", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2751243"
+        }, 
+        {
+            "ArticleName": "Lars Bergstrom , John Reppy, Nested data-parallelism on the gpu, ACM SIGPLAN Notices, v.47 n.9, September 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2398856.2364563", 
+            "DOIname": "10.1145/2398856.2364563", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2364563"
+        }, 
+        {
+            "ArticleName": "Berkin Bilgic, Berthold KP Horn, and Ichiro Masaki. 2010. Efficient integral image computation on the GPU. In Intelligent Vehicles Symposium (IV), 2010 IEEE. IEEE, 528--533."
+        }, 
+        {
+            "ArticleName": "Guoyang Chen , Xipeng Shen, Free launch: optimizing GPU dynamic kernel launches through thread reuse, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830818", 
+            "DOIname": "10.1145/2830772.2830818", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830818"
+        }, 
+        {
+            "ArticleName": "Long Chen, Oreste Villa, Sriram Krishnamoorthy, and Guang R Gao. 2010. Dynamic load balancing on single-and multi-GPU systems. In Parallel & Distributed Processing (IPDPS), 2010 IEEE International Symposium on. IEEE, 1--12."
+        }, 
+        {
+            "ArticleName": "Peng Di , Hui Wu , Jingling Xue , Feng Wang , Canqun Yang, Parallelizing SOR for GPGPUs using alternate loop tiling, Parallel Computing, v.38 n.6-7, p.310-328, June, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.parco.2012.03.004", 
+            "DOIname": "10.1016/j.parco.2012.03.004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2222220"
+        }, 
+        {
+            "ArticleName": "Izzat El Hajj et al. 2016. KLAP: Kernel Launch Aggregation and Promotion for Optimizing Dynamic Parallelism. In MICRO'16."
+        }, 
+        {
+            "ArticleName": "Yoav Etsion , Felipe Cabarcas , Alejandro Rico , Alex Ramirez , Rosa M. Badia , Eduard Ayguade , Jesus Labarta , Mateo Valero, Task Superscalar: An Out-of-Order Task Pipeline, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.89-100, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.13", 
+            "DOIname": "10.1109/MICRO.2010.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935014"
+        }, 
+        {
+            "ArticleName": "Alcides Fonseca , Bruno Cabral , Jo\u00e3o Rafael , Ivo Correia, Automatic Parallelization: Executing Sequential Programs on a Task-Based Parallel Runtime, International Journal of Parallel Programming, v.44 n.6, p.1337-1358, December 2016", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10766-016-0426-5", 
+            "DOIname": "10.1007/s10766-016-0426-5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2992345"
+        }, 
+        {
+            "ArticleName": "Priyanka Ghosh, Yonghong Yan, and Barbara Chapman. 2012. Support for dependency driven executions among openmp tasks. IEEE."
+        }, 
+        {
+            "ArticleName": "Priyanka Ghosh, Yonghong Yan, Deepak Eachempati, and Barbara Chapman. 2013. A prototype implementation of OpenMP task dependency support. In International Workshop on OpenMP. Springer, 128--140."
+        }, 
+        {
+            "ArticleName": "Gagan Gupta , Gurindar S. Sohi, Dataflow execution of sequential imperative programs on multicore architectures, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155628", 
+            "DOIname": "10.1145/2155620.2155628", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155628"
+        }, 
+        {
+            "ArticleName": "Kshitij Gupta, Jeff A Stuart, and John D Owens. 2012. A study of persistent threads style GPU programming for GPGPU workloads. In Innovative Parallel Computing (InPar), 2012. IEEE, 1--14."
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Nachiappan Chidambaram Nachiappan , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451158", 
+            "DOIname": "10.1145/2451116.2451158", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451158"
+        }, 
+        {
+            "ArticleName": "Leslie Lamport, The parallel execution of DO loops, Communications of the ACM, v.17 n.2, p.83-93, Feb. 1974", 
+            "DOIhref": "http://doi.acm.org/10.1145/360827.360844", 
+            "DOIname": "10.1145/360827.360844", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360844"
+        }, 
+        {
+            "ArticleName": "Meinard M\u00fcller. 2007. Dynamic Time Warping. Springer Berlin Heidelberg, 69--84."
+        }, 
+        {
+            "ArticleName": "Mahdieh Poostchi , Kannappan Palaniappan , Filiz Bunyak , Michela Becchi , Guna Seetharaman, Efficient GPU implementation of the integral histogram, Proceedings of the 11th international conference on Computer Vision, November 05-06, 2012, Daejeon, Korea", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-37410-4_23", 
+            "DOIname": "10.1007/978-3-642-37410-4_23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2482188"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "Jason Sanders , Edward Kandrot, CUDA by Example: An Introduction to General-Purpose GPU Programming, Addison-Wesley Professional, 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1891996"
+        }, 
+        {
+            "ArticleName": "Edans Flavius de O. Sandes , Alba Cristina M. A. de Melo, Retrieving Smith-Waterman Alignments with Optimizations for Megabase Biological Sequences Using GPU, IEEE Transactions on Parallel and Distributed Systems, v.24 n.5, p.1009-1021, May 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2012.194", 
+            "DOIname": "10.1109/TPDS.2012.194", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2498925"
+        }, 
+        {
+            "ArticleName": "Maria A. Serrano , Alessandra Melani , Roberto Vargas , Andrea Marongiu , Marko Bertogna , Eduardo Qui\u00f1ones, Timing characterization of OpenMP4 tasking model, Proceedings of the 2015 International Conference on Compilers, Architecture and Synthesis for Embedded Systems, p.157-166, October 04-09, 2015, Amsterdam, The Netherlands", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830709"
+        }, 
+        {
+            "ArticleName": "Xulong Tang, Ashutosh Pattnaik, Huaipan Jiang, Onur Kayiran, Adwait Jog, Sreepathi Pai, Mohamed Ibrahim, Mahmut T. Kandemir, and Chita R. Das. 2017. Controlled Kernel Launch for Dynamic Parallelism in GPUs. In 2017 IEEE 23rd International Symposium on High Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "David Tarjan, Kevin Skadron, and Paulius Micikevicius. {n. d.}. The art of performance tuning for CUDA and manycore architectures. ({n. d.})."
+        }, 
+        {
+            "ArticleName": "Stanley Tzeng , Brandon Lloyd , John D. Owens, A GPU Task-Parallel Model with Dependency Resolution, Computer, v.45 n.8, p.34-41, August 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2012.255", 
+            "DOIname": "10.1109/MC.2012.255", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2780213"
+        }, 
+        {
+            "ArticleName": "Philippe Virouleau, Pierrick Brunet, Fran\u00e7ois Broquedis, Nathalie Furmento, Samuel Thibault, Olivier Aumage, and Thierry Gautier. 2014. Evaluation of OpenMP dependent tasks with the KASTORS benchmark suite. In International Workshop on OpenMP. Springer, 16--29."
+        }, 
+        {
+            "ArticleName": "Chao Wang, Junneng Zhang, Xi Li, Aili Wang, and Xuehai Zhou. 2016. Hardware Implementation on FPGA for Task-Level Parallel Dataflow Execution Engine. IEEE Transactions on Parallel and Distributed Systems 27, 8 (2016), 2303--2315."
+        }, 
+        {
+            "ArticleName": "Jin Wang , Norm Rubin , Albert Sidelnik , Sudhakar Yalamanchili, LaPerm: locality aware scheduler for dynamic parallelism on GPUs, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.57", 
+            "DOIname": "10.1109/ISCA.2016.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001199"
+        }, 
+        {
+            "ArticleName": "Jin Wang , Norm Rubin , Albert Sidelnik , Sudhakar Yalamanchili, Dynamic thread block launch: a lightweight execution mechanism to support irregular applications on GPUs, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750393", 
+            "DOIname": "10.1145/2749469.2750393", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750393"
+        }, 
+        {
+            "ArticleName": "Michael Wolfe, Loop skewing: the wavefront method revisited, International Journal of Parallel Programming, v.15 n.4, p.279-293, Oct. 1986", 
+            "DOIhref": "https://dx.doi.org/10.1007/BF01407876", 
+            "DOIname": "10.1007/BF01407876", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=32081"
+        }, 
+        {
+            "ArticleName": "Shucai Xiao and Wu-chun Feng. 2010. Inter-block GPU communication via fast barrier synchronization. In Parallel & Distributed Processing (IPDPS), 2010 IEEE International Symposium on. IEEE, 1--12."
+        }, 
+        {
+            "ArticleName": "Shengen Yan , Guoping Long , Yunquan Zhang, StreamScan: fast scan algorithms for GPUs without global barrier synchronization, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442539", 
+            "DOIname": "10.1145/2442516.2442539", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442539"
+        }, 
+        {
+            "ArticleName": "Yi Yang , Huiyang Zhou, CUDA-NP: realizing nested thread-level parallelism in GPGPU applications, ACM SIGPLAN Notices, v.49 n.8, August 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2692916.2555254", 
+            "DOIname": "10.1145/2692916.2555254", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555254"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "AmirAli Abdolrashidi"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Devashree Tripathy"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Mehmet Esat Belviranli"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Laxmi Narayan Bhuyan"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Daniel Wong"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123976&preflayout=flat"
+}

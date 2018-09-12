@@ -1,0 +1,78 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Kam-Fai Wong , Howard M. Williams, CLARE\u2014a Prolog database machine, Proceedings of the 1990 ACM SIGSMALL/PC symposium on Small systems, p.172-177, March 28-30, 1990, Crystal City, Virginia, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=99460"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 5, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 234, 
+        "CitationCount": 1
+    }, 
+    "Title": "A type driven hardware engine for Prolog clause retrieval over a large knowledge base", 
+    "Abstract": "Whereas existing Prolog systems are very effective at handling small knowledge bases, they are not very efficient at and often incapable of handling large sets of clauses. Large knowledge bases which may comprise millions of clauses and are shared by a number of users, may need to reside in secondary memory. In such cases exhaustive search is inordinately slow. Various approaches have been put forward for handling the problem, most of which involve coupled systems (loosely or tightly coupled). A Prolog data/knowledge based system which provides an integrated solution to the problem is being developed. An essential element in this system is the CLAuse Retrieval Engine, CLARE, which is a special purpose hardware engine designed to perform selective retrieval of data from disk in order to identify all potential clauses which will be required for full unification during a query. The engine consists of two separate hardware components, which together form a two-stage filtering configuration. This paper concentrates on the second stage filter which is concerned with partial test unification.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "Bocca, J., \"EDUCE A M&age of Convenience: Prolog and a Relational DBMS', Internal report KB-9, European Computer-Industry Research Centre, Munich, Sept.85."
+        }, 
+        {
+            "ArticleName": "Wong, K.F. & Williams, M.H. \"Partial Matching Hardware for Clause Retrieval in Large Prolog Databases\", Technical Report 88/2, Dept. of Computer Science, Heriot-Watt University, Edinburgh, Scotland, 1988."
+        }, 
+        {
+            "ArticleName": "Deyi Li, PROLOG Database System, John Wiley & Sons, Inc., New York, NY, 1984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=537888"
+        }, 
+        {
+            "ArticleName": "P. Bruce Berra , Soon Myoung Chung , Nabil I. Hachem, Computer Architecture for a Surrogate File to a Very Large Data/Knowledge Base, Computer, v.20 n.3, p.25-32, March 1987", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.1987.1663506", 
+            "DOIname": "10.1109/MC.1987.1663506", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=26436"
+        }, 
+        {
+            "ArticleName": "Warren, D.H.D., \"Logic Programming and Knowledge Bases\", Proceedings of the Islamorada Workshop on Large Scale Knowledge Base and Reasoning Systems, pp 69-72. Islamorada, Florida, February'85."
+        }, 
+        {
+            "ArticleName": "Williams,M.H,, Massey, P.A. & Crammond, J.A., \"Benchmarks for Prolog from a Database Viewpoint\", Proceedings of 2nd Alvey Workshop for SIGKME, ppCl-C8, Brunel University, England, 1987."
+        }, 
+        {
+            "ArticleName": "M. H. Williams , P. A. Massey , J. A. Crammond, Benchmarking Prolog for database applications, Prolog and databases: implementations and new directions, Halsted Press, New York, NY, 1989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=98295"
+        }, 
+        {
+            "ArticleName": "Williams, M.H., \"The Design of a Prolog Database Machine\", Proceedings of the 1st Workshop for SIGKME. ppLl-LS, Reading University, England, Jan'87."
+        }, 
+        {
+            "ArticleName": "Clocksin, W.F., \"Design and Simulation of a Sequential Prolog Machine\", New Generation Computing, vol. 3, pplOl-120, 1985."
+        }, 
+        {
+            "ArticleName": "Wong, K.F. \"Comment on A Comparison of Concatenate and Superimposed Code Word Surrogate Files For Very Large DatalKnowiedge Bases\", Technical Report 88/6, Dept. of CS, Heriot-Watt University, Edinburgh, Scotland, 1988."
+        }, 
+        {
+            "ArticleName": "Kotagiri Ramamohanarao , John Shepherd, A superimposed codeword indexing scheme for very large Prolog databases, Proceedings on Third international conference on logic programming, p.569-576, September 1986, London, United Kingdom", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=12114"
+        }, 
+        {
+            "ArticleName": "Wong, K.F. ~ M.H. Williams, \"Design Considerations for a Prolog Database Engine\", Proceedings of the 3rd International Conference on Data and Knowledge Bases, pplll-120, Jerusalem, Israel, 28-30 June'88."
+        }, 
+        {
+            "ArticleName": "Sun Microsystems, Inc., \"Writing Device Drivers for the Sun Workstations\", Sun Workstation Manual, February'86."
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices, Inc, \"Architectures Using the 2910A\", Bipolar Microprocessor and Logic Data Book, p(5)17S -177,1985."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Software Engineering Department, Unisys Ltd., Livingston, EH54 7AZ, Scotland", 
+            "Name": "K.-F. Wong"
+        }, 
+        {
+            "Affiliation": "Dept. of Computer Science, Heriot-Watt University, Edinburgh EHl2HJ, Scotland", 
+            "Name": "M. H. Williams"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74950&preflayout=flat"
+}

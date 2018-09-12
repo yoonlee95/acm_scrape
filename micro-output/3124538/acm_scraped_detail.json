@@ -1,0 +1,254 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 258, 
+        "Downloads_6Weeks": 16, 
+        "Downloads_cumulative": 258, 
+        "CitationCount": 0
+    }, 
+    "Title": "Constructing and characterizing covert channels on GPGPUs", 
+    "Abstract": "General Purpose Graphics Processing Units (GPGPUs) are present in most modern computing platforms. They are also increasingly integrated as a computational resource on clusters, data centers, and cloud infrastructure, making them possible targets for attacks. We present a first study of covert channel attacks on GPGPUs. GPGPU attacks offer a number of attractive properties relative to CPU covert channels. These channels also have characteristics different from their counterparts on CPUs. To enable the attack, we first reverse engineer the hardware block scheduler as well as the warp to warp scheduler to characterize how co-location is established. We exploit this information to manipulate the scheduling algorithms to create co-residency between the trojan and the spy. We study contention on different resources including caches, functional units and memory, and construct operational covert channels on all these resources. We also investigate approaches to increase the bandwidth of the channel including: (1) using synchronization to reduce the communication cycle and increase robustness of the channel; (2) exploiting the available parallelism on the GPU to increase the bandwidth; and (3) exploiting the scheduling algorithms to create exclusive co-location to prevent interference from other possible applications. We demonstrate operational versions of all channels on three different Nvidia GPGPUs, obtaining error-free bandwidth of over 4 Mbps, making it the fastest known microarchitectural covert channel under realistic conditions.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Jacob T. Adriaens , Katherine Compton , Nam Sung Kim , Michael J. Schulte, The case for GPGPU spatial multitasking, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6168946", 
+            "DOIname": "10.1109/HPCA.2012.6168946", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192674"
+        }, 
+        {
+            "ArticleName": "Paramvir Bahl , Ranveer Chandra , Thomas Moscibroda , Rohan Murty , Matt Welsh, White space networking with wi-fi like connectivity, ACM SIGCOMM Computer Communication Review, v.39 n.4, October 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1594977.1592573", 
+            "DOIname": "10.1145/1594977.1592573", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1592573"
+        }, 
+        {
+            "ArticleName": "Michela Becchi , Kittisak Sajjapongse , Ian Graves , Adam Procter , Vignesh Ravi , Srimat Chakradhar, A virtual memory based runtime to support multi-tenancy in clusters with GPUs, Proceedings of the 21st international symposium on High-Performance Parallel and Distributed Computing, June 18-22, 2012, Delft, The Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2287076.2287090", 
+            "DOIname": "10.1145/2287076.2287090", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2287090"
+        }, 
+        {
+            "ArticleName": "Andrea Di Biagio , Alessandro Barenghi , Giovanni Agosta , Gerardo Pelosi, Design of a parallel AES for graphics hardware using the CUDA framework, Proceedings of the 2009 IEEE International Symposium on Parallel&Distributed Processing, p.1-8, May 23-29, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2009.5161242", 
+            "DOIname": "10.1109/IPDPS.2009.5161242", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1587508"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Jie Chen , Guru Venkataramani, CC-Hunter: Uncovering Covert Timing Channels on Shared Processor Hardware, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.42", 
+            "DOIname": "10.1109/MICRO.2014.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742177"
+        }, 
+        {
+            "ArticleName": "Renan Correa Detomini, Renata Spolon Lobato, Roberta Spolon, and Marcos Antonio Cavenaghi. 2011. Using GPU to exploit parallelism on cryptography. In 6th Iberian Conference on Information Systems and Technologies (CISTI'11). IEEE, Chaves Portugal. http://ieeexplore.ieee.org/document/5974171"
+        }, 
+        {
+            "ArticleName": "Khaled M. Diab , M. Mustafa Rafique , Mohamed Hefeeda, Dynamic Sharing of GPUs in Cloud Systems, Proceedings of the 2013 IEEE 27th International Symposium on Parallel and Distributed Processing Workshops and PhD Forum, p.947-954, May 20-24, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPSW.2013.102", 
+            "DOIname": "10.1109/IPDPSW.2013.102", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2510885"
+        }, 
+        {
+            "ArticleName": "Leonid Domnitser , Aamer Jaleel , Jason Loew , Nael Abu-Ghazaleh , Dmitry Ponomarev, Non-monopolizable caches: Low-complexity mitigation of cache side channel attacks, ACM Transactions on Architecture and Code Optimization (TACO), v.8 n.4, p.1-21, January 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2086696.2086714", 
+            "DOIname": "10.1145/2086696.2086714", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2086714"
+        }, 
+        {
+            "ArticleName": "William Enck , Peter Gilbert , Seungyeop Han , Vasant Tendulkar , Byung-Gon Chun , Landon P. Cox , Jaeyeon Jung , Patrick McDaniel , Anmol N. Sheth, TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones, ACM Transactions on Computer Systems (TOCS), v.32 n.2, p.1-29, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2619091", 
+            "DOIname": "10.1145/2619091", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2619091"
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Dmitry Ponomarev , Nael Abu-Ghazaleh, Understanding and Mitigating Covert Channels Through Branch Predictors, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.1, p.1-23, April 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2870636", 
+            "DOIname": "10.1145/2870636", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2870636"
+        }, 
+        {
+            "ArticleName": "Daniel Gruss , Cl\u00e9mentine Maurice , Klaus Wagner , Stefan Mangard, Flush+Flush: A Fast and Stealthy Cache Attack, Proceedings of the 13th International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment, July 07-08, 2016, San Sebasti\u00e1n, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-40667-1_14", 
+            "DOIname": "10.1007/978-3-319-40667-1_14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2976976"
+        }, 
+        {
+            "ArticleName": "Casen Hunger, Mikhail Kazdagli, Ankit Rawat, Alex Dimakis, Sriram Vishwanath, and Mohit Tiwari. 2015. Understanding contention-based channels and using them for defense. In IEEE 21st International Symposium on High Performance Computer Architecture (HPCA'15). IEEE, Burlingame CA USA, 639--650."
+        }, 
+        {
+            "ArticleName": "Zhen Hang Jiang, Yunsi Fei, and David Kaeli. 2016. A complete key recovery timing attack on a GPU. In IEEE International Symposium on High Performance Computer Architecture (HPCA'16). IEEE, Barcelona Spain, 394--405."
+        }, 
+        {
+            "ArticleName": "Zhen Hang Jiang , Yunsi Fei , David Kaeli, A Novel Side-Channel Timing Attack on GPUs, Proceedings of the on Great Lakes Symposium on VLSI 2017, May 10-12, 2017, Banff, Alberta, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3060403.3060462", 
+            "DOIname": "10.1145/3060403.3060462", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3060462"
+        }, 
+        {
+            "ArticleName": "Sangho Lee , Youngsok Kim , Jangwoo Kim , Jong Kim, Stealing Webpages Rendered on Your Browser by Exploiting GPU Vulnerabilities, Proceedings of the 2014 IEEE Symposium on Security and Privacy, p.19-33, May 18-21, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2014.9", 
+            "DOIname": "10.1109/SP.2014.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2650787"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu, Qian Ge, Yuval Yarom, Frank Mckeen, Carlos Rozas, Gernot Heiser, and Ruby B. Lee. 2016. Catalyst: Defeating last-level cache side channel attacks in cloud computing. In IEEE International Symposium on High Performance Computer Architecture (HPCA'16). Barcelona, Spain, 406--418."
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Yuval Yarom , Qian Ge , Gernot Heiser , Ruby B. Lee, Last-Level Cache Side-Channel Attacks are Practical, Proceedings of the 2015 IEEE Symposium on Security and Privacy, p.605-622, May 17-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2015.43", 
+            "DOIname": "10.1109/SP.2015.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2867673"
+        }, 
+        {
+            "ArticleName": "Chao Luo , Yunsi Fei , Pei Luo , Saoni Mukherjee , David Kaeli, Side-channel power analysis of a GPU AES implementation, Proceedings of the 2015 33rd IEEE International Conference on Computer Design (ICCD), p.281-288, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCD.2015.7357115", 
+            "DOIname": "10.1109/ICCD.2015.7357115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2880950"
+        }, 
+        {
+            "ArticleName": "Robert Martin , John Demme , Simha Sethumadhavan, TimeWarp: rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337173"
+        }, 
+        {
+            "ArticleName": "Ramya Jayaram Masti , Devendra Rai , Aanjhan Ranganathan , Christian M\u00fcller , Lothar Thiele , Srdjan Capkun, Thermal covert channels on multi-core platforms, Proceedings of the 24th USENIX Conference on Security Symposium, p.865-880, August 12-14, 2015, Washington, D.C.", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2831198"
+        }, 
+        {
+            "ArticleName": "Cl\u00e9mentine Maurice, Christoph Neumann, Olivier Heen, and Aur\u00c3l'lien Francillon. 2014. Confidentiality Issues on a GPU in a Virtualized Environment. In International Conference on Financial Cryptography and Data Security. 119--135."
+        }, 
+        {
+            "ArticleName": "Cl\u00e9mentine Maurice, Manuel Weber, Micheal Schwarz, Lukas Giner, Daniel Gruss, Carlo Alberto Boano, Stefan Mangard, and Kay R\u00f6mer. 2017. Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud. In Network and Distributed System Security Symposium (NDSS'17). January."
+        }, 
+        {
+            "ArticleName": "Wen mei Hwu. 2011. GPU Computing Gems (1st. ed.). Elsevier."
+        }, 
+        {
+            "ArticleName": "Naoki Nishikawa , Keisuke Iwai , Takakazu Kurokawa, High-Performance Symmetric Block Ciphers on CUDA, Proceedings of the 2011 Second International Conference on Networking and Computing, p.221-227, November 30-December 02, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICNC.2011.40", 
+            "DOIname": "10.1109/ICNC.2011.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2118831"
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2017. GPU Cloud Computing. (2017). Retrieved August 20, 2017 from http://www.nvidia.com/object/gpu-cloud-computing.html"
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2017. Multi-Process Service. (2017). Retrieved March 2017 from https://docs.nvidia.com/deploy/pdf/CUDA_Multi_Process_Service_Overview.pdf"
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2017. The Vulkan API. (2017). Retrieved August 20, 2017 from https://developer.nvidia.com/Vulkan"
+        }, 
+        {
+            "ArticleName": "Lena E. Olson , Jason Power , Mark D. Hill , David A. Wood, Border control: sandboxing accelerators, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830819", 
+            "DOIname": "10.1145/2830772.2830819", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830819"
+        }, 
+        {
+            "ArticleName": "Lena E. Olson , Simha Sethumadhavan , Mark D. Hill, Security Implications of Third-Party Accelerators, IEEE Computer Architecture Letters, v.15 n.1, p.50-53, January 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2445337", 
+            "DOIname": "10.1109/LCA.2015.2445337", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2965103"
+        }, 
+        {
+            "ArticleName": "Antonio J. Pe\u00f1a , Carlos Rea\u00f1o , Federico Silla , Rafael Mayo , Enrique S. Quintana-Ort\u00ed , Jos\u00e9 Duato, A complete and efficient CUDA-sharing solution for HPC clusters, Parallel Computing, v.40 n.10, p.574-588, December 2014", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.parco.2014.09.011", 
+            "DOIname": "10.1016/j.parco.2014.09.011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2943616"
+        }, 
+        {
+            "ArticleName": "Colin Percival. 2005. Cache missing for fun and profit. In BSDCan."
+        }, 
+        {
+            "ArticleName": "Roberto Di Pietro, Flavio Lombardi, and Antonio Villani. 2016. CUDA leaks: Information Leakage in GPU Architecture. ACM Transactions on Embedded Computing Systems (TECS) 15, 1 (2016)."
+        }, 
+        {
+            "ArticleName": "Vignesh T. Ravi , Michela Becchi , Gagan Agrawal , Srimat Chakradhar, Supporting GPU sharing in cloud environments with a transparent runtime consolidation framework, Proceedings of the 20th international symposium on High performance distributed computing, June 08-11, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1996130.1996160", 
+            "DOIname": "10.1145/1996130.1996160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1996160"
+        }, 
+        {
+            "ArticleName": "Thomas Ristenpart , Eran Tromer , Hovav Shacham , Stefan Savage, Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds, Proceedings of the 16th ACM conference on Computer and communications security, November 09-13, 2009, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1653662.1653687", 
+            "DOIname": "10.1145/1653662.1653687", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1653687"
+        }, 
+        {
+            "ArticleName": "Ivan Tanasic , Isaac Gelado , Javier Cabezas , Alex Ramirez , Nacho Navarro , Mateo Valero, Enabling preemptive multiprogramming on GPUs, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665702"
+        }, 
+        {
+            "ArticleName": "Giorgos Vasiliadis , Elias Athanasopoulos , Michalis Polychronakis , Sotiris Ioannidis, PixelVault: Using GPUs for Securing Cryptographic Operations, Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security, November 03-07, 2014, Scottsdale, Arizona, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2660267.2660316", 
+            "DOIname": "10.1145/2660267.2660316", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660316"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, Covert and Side Channels Due to Processor Architecture, Proceedings of the 22nd Annual Computer Security Applications Conference, p.473-482, December 11-15, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ACSAC.2006.20", 
+            "DOIname": "10.1109/ACSAC.2006.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1191898"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, New cache designs for thwarting software cache-based side channel attacks, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250723", 
+            "DOIname": "10.1145/1250662.1250723", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250723"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, A novel cache architecture with enhanced performance and security, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.83-93, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771781", 
+            "DOIname": "10.1109/MICRO.2008.4771781", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521781"
+        }, 
+        {
+            "ArticleName": "Zhenning Wang , Jun Yang , Rami Melhem , Bruce Childers , Youtao Zhang , Minyi Guo, Simultaneous Multikernel: Fine-Grained Sharing of GPUs, IEEE Computer Architecture Letters, v.15 n.2, p.113-116, July 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2477405", 
+            "DOIname": "10.1109/LCA.2015.2477405", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3084621"
+        }, 
+        {
+            "ArticleName": "NVIDIA Whitepaper. 2012. VIDIA's Next Generation CUDA Compute Architecture: Kepler GK110. (2012)."
+        }, 
+        {
+            "ArticleName": "Henry Wong, M. M. Papadopoulou, Maryam Sadooghi-Alvandi, and Andreas Moshovos. 2010. Demystifying GPU microarchitecture through microbenchmarking. In IEEE International Symposium on Performance Analysis of Systems & Software (ISPASS'10)."
+        }, 
+        {
+            "ArticleName": "Qiumin Xu , Hyeran Jeon , Keunsoo Kim , Won Woo Ro , Murali Annavaram, Warped-slicer: efficient intra-SM slicing through dynamic resource partitioning for GPU multiprogramming, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.29", 
+            "DOIname": "10.1109/ISCA.2016.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001161"
+        }, 
+        {
+            "ArticleName": "Mengjia Yan, Yasser Shalabi, and Josep Tolrrellas. 2016. ReplayConfusion: Detecting Cache-based Covert Channel Attacks Using Record and Replay. In 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO'16). IEEE, Taipei Taiwan."
+        }, 
+        {
+            "ArticleName": "Zhiting Zhu , Sangman Kim , Yuri Rozhanski , Yige Hu , Emmett Witchel , Mark Silberstein, Understanding The Security of Discrete GPUs, Proceedings of the General Purpose GPUs, p.1-11, February 04-08, 2017, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3038228.3038233", 
+            "DOIname": "10.1145/3038228.3038233", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3038233"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "Hoda Naghibijouybari"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Khaled N. Khasawneh"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Nael Abu-Ghazaleh"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124538&preflayout=flat"
+}

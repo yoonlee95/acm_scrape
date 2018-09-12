@@ -1,0 +1,404 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Mohammad Sadrosadati , Amirhossein Mirhosseini , Seyed Borna Ehsani , Hamid Sarbazi-Azad , Mario Drumond , Babak Falsafi , Rachata Ausavarungnirun , Onur Mutlu, LTRF: Enabling High-Capacity Register Files for GPUs via Hardware/Software Cooperative Register Prefetching, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173211"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 395, 
+        "Downloads_6Weeks": 15, 
+        "Downloads_cumulative": 395, 
+        "CitationCount": 1
+    }, 
+    "Title": "Regless: just-in-time operand staging for GPUs", 
+    "Abstract": "The register file is one of the largest and most power-hungry structures in a Graphics Processing Unit (GPU), because massive multithreading requires all the register state for every active thread to be available. Previous approaches to making register accesses more efficient have optimized how registers are stored, but they must keep all values for active threads in a large, high-bandwidth structure. If operand storage is to be reduced further, there will not be enough capacity for every live value to be stored at the same time. Our insight is that computation graphs can be sliced into regions and operand storage can be allocated to these regions as they are encountered at run time, allowing a small operand staging unit to replace the register file. Most operand values have a short lifetime that is contained in one region, so their value does not need to persist in the staging unit past the end of that region. The small number of longer-lived operands can be stored in lower-bandwidth global memory, but the hardware must anticipate their use to fetch them early enough to avoid stalls. In RegLess, hardware uses compiler annotations to anticipate warps' operand usage at run time, allowing the register file to be replaced with an operand staging unit 25% of the size, saving 75% of register file energy and 11% of total GPU energy with no average performance loss.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Mohammad Abdel-Majeed , Murali Annavaram, Warped register file: A power efficient register file for GPGPUs, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.412-423, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522337", 
+            "DOIname": "10.1109/HPCA.2013.6522337", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495519"
+        }, 
+        {
+            "ArticleName": "Mohammad Abdel-Majeed , Waleed Dweik , Hyeran Jeon , Murali Annavaram, Warped-RE: Low-Cost Error Detection and Correction in GPUs, Proceedings of the 2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.331-342, June 22-25, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2015.55", 
+            "DOIname": "10.1109/DSN.2015.55", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2859945"
+        }, 
+        {
+            "ArticleName": "J. Anantpur and R. Govindarajan, \"Taming control divergence in gpus through control flow linearization,\" in International Conference on Compiler Construction. Springer, 2014, pp. 133--153."
+        }, 
+        {
+            "ArticleName": "Rachata Ausavarungnirun , Saugata Ghose , Onur Kayiran , Gabriel H. Loh , Chita R. Das , Mahmut T. Kandemir , Onur Mutlu, Exploiting Inter-Warp Heterogeneity to Improve GPGPU Performance, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.25-38, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.38", 
+            "DOIname": "10.1109/PACT.2015.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923776"
+        }, 
+        {
+            "ArticleName": "A. Bakhoda, G. L. Yuan, W. W. Fung, H. Wong, and T. M. Aamodt, \"Analyzing cuda workloads using a detailed gpu simulator,\" in Performance Analysis of Systems and Software, 2009. ISPASS 2009. IEEE International Symposium on. IEEE, 2009, pp. 163--174."
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "A. ElTantawy and T. M. Aamodt, \"Mimd synchronization on simt architectures,\" in Proceedings of the 49th annual IEEE/ACM International Symposium on Microarchitecture, 2016."
+        }, 
+        {
+            "ArticleName": "A. ElTantawy, J. W. Ma, M. O'Connor, and T. M. Aamodt, \"A scalable multi-path microarchitecture for efficient gpu control flow,\" in 2014 IEEE 20th International Symposium on High Performance Computer Architecture (HPCA). IEEE, 2014, pp. 248--259."
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Daniel R. Johnson , David Tarjan , Stephen W. Keckler , William J. Dally , Erik Lindholm , Kevin Skadron, Energy-efficient mechanisms for managing thread context in throughput processors, ACM SIGARCH Computer Architecture News, v.39 n.3, June 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024723.2000093", 
+            "DOIname": "10.1145/2024723.2000093", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000093"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Daniel R. Johnson , David Tarjan , Stephen W. Keckler , William J. Dally , Erik Lindholm , Kevin Skadron, A Hierarchical Thread Scheduler and Register File for Energy-Efficient Throughput Processors, ACM Transactions on Computer Systems (TOCS), v.30 n.2, p.1-38, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2166879.2166882", 
+            "DOIname": "10.1145/2166879.2166882", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2166882"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Stephen W. Keckler , William J. Dally, A compile-time managed multi-level register file hierarchy, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155675", 
+            "DOIname": "10.1145/2155620.2155675", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155675"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Stephen W. Keckler , Brucek Khailany , Ronny Krashinsky , William J. Dally, Unifying Primary Cache, Scratch, and Register File Memories in a Throughput Processor, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.96-106, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.18", 
+            "DOIname": "10.1109/MICRO.2012.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457489"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Bertrand A. Maher , Katherine E. Coons , Jeff Diamond , Paul Gratz , Mario Marino , Nitya Ranganathan , Behnam Robatmili , Aaron Smith , James Burrill , Stephen W. Keckler , Doug Burger , Kathryn S. McKinley, An evaluation of the TRIPS computer system, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508246", 
+            "DOIname": "10.1145/1508244.1508246", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508246"
+        }, 
+        {
+            "ArticleName": "Syed Zohaib Gilani , Nam Sung Kim , Michael J. Schulte, Power-efficient computing for compute-intensive GPGPU applications, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.330-341, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522330", 
+            "DOIname": "10.1109/HPCA.2013.6522330", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495478"
+        }, 
+        {
+            "ArticleName": "Nilanjan Goswami , Bingyi Cao , Tao Li, Power-performance co-optimization of throughput core architecture using resistive memory, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.342-353, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522331", 
+            "DOIname": "10.1109/HPCA.2013.6522331", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495479"
+        }, 
+        {
+            "ArticleName": "Chris Gregg , Jonathan Dorn , Kim Hazelwood , Kevin Skadron, Fine-grained resource sharing for concurrent GPGPU kernels, Proceedings of the 4th USENIX conference on Hot Topics in Parallelism, p.10-10, June 07-08, 2012, Berkeley, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2342798"
+        }, 
+        {
+            "ArticleName": "Kevin Hsieh , Eiman Ebrahimi , Gwangsun Kim , Niladrish Chatterjee , Mike O'Connor , Nandita Vijaykumar , Onur Mutlu , Stephen W. Keckler, Transparent offloading and mapping (TOM): enabling programmer-transparent near-data processing in GPU systems, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.27", 
+            "DOIname": "10.1109/ISCA.2016.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001159"
+        }, 
+        {
+            "ArticleName": "James A. Jablin , Thomas B. Jablin , Onur Mutlu , Maurice Herlihy, Warp-aware trace scheduling for GPUs, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628101", 
+            "DOIname": "10.1145/2628071.2628101", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628101"
+        }, 
+        {
+            "ArticleName": "Hyeran Jeon , Gokul Subramanian Ravi , Nam Sung Kim , Murali Annavaram, GPU register file virtualization, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830784", 
+            "DOIname": "10.1145/2830772.2830784", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830784"
+        }, 
+        {
+            "ArticleName": "N. Jing, S. Chen, S. Jiang, L. Jiang, C. Li, and X. Liang, \"Bank stealing for conflict mitigation in gpgpu register file,\" in Low Power Electronics and Design (ISLPED), 2015 IEEE/ACM International Symposium on. IEEE, 2015, pp. 55--60."
+        }, 
+        {
+            "ArticleName": "Naifeng Jing , Haopeng Liu , Yao Lu , Xiaoyao Liang, Compiler assisted dynamic register file in GPGPU, Proceedings of the 2013 International Symposium on Low Power Electronics and Design, September 04-06, 2013, Beijing, China", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2648673"
+        }, 
+        {
+            "ArticleName": "Naifeng Jing , Yao Shen , Yao Lu , Shrikanth Ganapathy , Zhigang Mao , Minyi Guo , Ramon Canal , Xiaoyao Liang, An energy-efficient and scalable eDRAM-based register file architecture for GPGPU, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485952", 
+            "DOIname": "10.1145/2508148.2485952", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485952"
+        }, 
+        {
+            "ArticleName": "N. Jing, J. Wang, F. Fan, W. Yu, L. Jiang, C. Li, and X. Liang, \"Cache-emulated register file: An integrated on-chip memory architecture for high performance gpgpus,\" in Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 2016, pp. 1--12."
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Nachiappan Chidambaram Nachiappan , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance, ACM SIGPLAN Notices, v.48 n.4, April 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499368.2451158", 
+            "DOIname": "10.1145/2499368.2451158", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451158"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Orchestrated scheduling and prefetching for GPGPUs, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485951", 
+            "DOIname": "10.1145/2508148.2485951", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485951"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Ashutosh Pattnaik , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Exploiting Core Criticality for Enhanced GPU Performance, Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science, June 14-18, 2016, Antibes Juan-les-Pins, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2896377.2901468", 
+            "DOIname": "10.1145/2896377.2901468", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901468"
+        }, 
+        {
+            "ArticleName": "Onur Kay\u0131ran , Adwait Jog , Mahmut Taylan Kandemir , Chita Ranjan Das, Neither more nor less: optimizing thread-level parallelism for GPGPUs, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523745"
+        }, 
+        {
+            "ArticleName": "Onur Kayiran , Adwait Jog , Ashutosh Pattnaik , Rachata Ausavarungnirun , Xulong Tang , Mahmut T. Kandemir , Gabriel H. Loh , Onur Mutlu , Chita R. Das, \u03bcC-States: Fine-grained GPU Datapath Power Management, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967941", 
+            "DOIname": "10.1145/2967938.2967941", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967941"
+        }, 
+        {
+            "ArticleName": "Stephen W. Keckler , William J. Dally , Brucek Khailany , Michael Garland , David Glasco, GPUs and the Future of Parallel Computing, IEEE Micro, v.31 n.5, p.7-17, September 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.89", 
+            "DOIname": "10.1109/MM.2011.89", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2068522"
+        }, 
+        {
+            "ArticleName": "Ji Kim , Christopher Torng , Shreesha Srinath , Derek Lockhart , Christopher Batten, Microarchitectural mechanisms to exploit value structure in SIMT architectures, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485934", 
+            "DOIname": "10.1145/2508148.2485934", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485934"
+        }, 
+        {
+            "ArticleName": "Sangpil Lee , Keunsoo Kim , Gunjae Koo , Hyeran Jeon , Won Woo Ro , Murali Annavaram, Warped-compression: enabling power efficient GPUs through register compression, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750417", 
+            "DOIname": "10.1145/2749469.2750417", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750417"
+        }, 
+        {
+            "ArticleName": "Shin-Ying Lee , Akhil Arunkumar , Carole-Jean Wu, CAWA: coordinated warp scheduling and cache prioritization for critical warp acceleration of GPGPU workloads, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750418", 
+            "DOIname": "10.1145/2749469.2750418", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750418"
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Tayler Hetherington , Ahmed ElTantawy , Syed Gilani , Nam Sung Kim , Tor M. Aamodt , Vijay Janapa Reddi, GPUWattch: enabling energy optimizations in GPGPUs, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485964", 
+            "DOIname": "10.1145/2508148.2485964", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485964"
+        }, 
+        {
+            "ArticleName": "J. Leng, Y. Zu, and V. J. Reddi, \"Gpu voltage noise: Characterization and hierarchical smoothing of spatial and temporal voltage noise interference in gpu architectures,\" in 2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA). IEEE, 2015, pp. 161--173."
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Yazhou Zu , Minsoo Rhu , Meeta Gupta , Vijay Janapa Reddi, GPUVolt: modeling and characterizing voltage noise in GPU architectures, Proceedings of the 2014 international symposium on Low power electronics and design, August 11-13, 2014, La Jolla, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2627369.2627605", 
+            "DOIname": "10.1145/2627369.2627605", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2627605"
+        }, 
+        {
+            "ArticleName": "Chao Li , Yi Yang , Zhen Lin , Huiyang Zhou, Automatic data placement into GPU on-chip memory resources, Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization, February 07-11, 2015, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738604"
+        }, 
+        {
+            "ArticleName": "D. Li, M. Rhu, D. R. Johnson, M. O'Connor, M. Erez, D. Burger, D. S. Fussell, and S. W. Redder, \"Priority-based cache allocation in throughput processors,\" in 2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA). IEEE, 2015, pp. 89--100."
+        }, 
+        {
+            "ArticleName": "Z. Li, J. Tan, and X. Fu, \"Hybrid cmos-tfet based register files for energy-efficient gpgpus,\" in Quality Electronic Design (ISQED), 2013 14th International Symposium on. IEEE, 2013, pp. 112--119."
+        }, 
+        {
+            "ArticleName": "Xiaoyao Liang , David Brooks, Mitigating the Impact of Process Variations on Processor Register Files and Execution Units, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.504-514, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.37", 
+            "DOIname": "10.1109/MICRO.2006.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194862"
+        }, 
+        {
+            "ArticleName": "Yuxi Liu , Zhibin Yu , Lieven Eeckhout , Vijay Janapa Reddi , Yingwei Luo , Xiaolin Wang , Zhenlin Wang , Chengzhong Xu, Barrier-Aware Warp Scheduling for Throughput Processors, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926267", 
+            "DOIname": "10.1145/2925426.2926267", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926267"
+        }, 
+        {
+            "ArticleName": "Z. Liu, S. Gilani, M. Annavaram, and N. S. Kim, \"G-scalar: Cost-effective generalized scalar execution architecture for power-efficient gpus,\" in IEEE Int. Symp. on High-Performance Computer Architecture (HPCA), 2017."
+        }, 
+        {
+            "ArticleName": "Mengjie Mao , Wujie Wen , Yaojun Zhang , Yiran Chen , Hai (Helen) Li, Exploration of GPGPU Register File Architecture Using Domain-wall-shift-write based Racetrack Memory, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593137", 
+            "DOIname": "10.1145/2593069.2593137", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593137"
+        }, 
+        {
+            "ArticleName": "Stephen Melvin , Yale Patt, Enhancing instruction scheduling with a block-structured ISA, International Journal of Parallel Programming, v.23 n.3, p.221-243, June 1995", 
+            "DOIhref": "https://dx.doi.org/10.1007/BF02577867", 
+            "DOIname": "10.1007/BF02577867", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=219164"
+        }, 
+        {
+            "ArticleName": "Majid Namaki-Shoushtari , Abbas Rahimi , Nikil Dutt , Puneet Gupta , Rajesh K. Gupta, ARGO: aging-aware GPGPU register file allocation, Proceedings of the Ninth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis, p.1-9, September 29-October 04, 2013, Montreal, Quebec, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555722"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Nvidia, \"Nvidia cuda programming guide,\" http://docs.nvidia.com/cuda/cuda-c-programming-guide, accessed: August 2017."
+        }, 
+        {
+            "ArticleName": "David W. Oehmke , Nathan L. Binkert , Trevor Mudge , Steven K. Reinhardt, How to Fake 1000 Registers, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.7-18, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.21", 
+            "DOIname": "10.1109/MICRO.2005.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100536"
+        }, 
+        {
+            "ArticleName": "Sreepathi Pai , Matthew J. Thazhuthaveetil , R. Govindarajan, Improving GPGPU concurrency with elastic kernels, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451160", 
+            "DOIname": "10.1145/2451116.2451160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451160"
+        }, 
+        {
+            "ArticleName": "Jason Jong Kyu Park , Yongjun Park , Scott Mahlke, ELF: maximizing memory-level parallelism for GPUs with coordinated warp and fetch scheduling, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2807591.2807598", 
+            "DOIname": "10.1145/2807591.2807598", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807598"
+        }, 
+        {
+            "ArticleName": "G. Pekhimenko, E. Bolotin, N. Vijaykumar, O. Mutlu, T. C. Mowry, and S. W. Keckler, \"A case for toggle-aware compression for gpu systems,\" in 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 2016, pp. 188--200."
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "Bharath Pichai , Lisa Hsu , Abhishek Bhattacharjee, Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces, ACM SIGARCH Computer Architecture News, v.42 n.1, March 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2654822.2541942", 
+            "DOIname": "10.1145/2654822.2541942", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541942"
+        }, 
+        {
+            "ArticleName": "Dmitry Ponomarev , Gurhan Kucuk , Oguz Ergin , Kanad Ghose, Reducing Datapath Energy through the Isolation of Short-Lived Operands, Proceedings of the 12th International Conference on Parallel Architectures and Compilation Techniques, p.258, September 27-October 01, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=943844"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, Maximizing SIMD resource utilization in GPGPUs with SIMD lane permutation, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485953", 
+            "DOIname": "10.1145/2508148.2485953", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485953"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Daniel R. Johnson , Mike O'Connor , Stephen W. Keckler, A variable warp size architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750410", 
+            "DOIname": "10.1145/2749469.2750410", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750410"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "Amir Roth, Physical Register Reference Counting, IEEE Computer Architecture Letters, v.7 n.1, p.9-12, January 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2007.15", 
+            "DOIname": "10.1109/L-CA.2007.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1383080"
+        }, 
+        {
+            "ArticleName": "Karthikeyan Sankaralingam , Ramadass Nagarajan , Haiming Liu , Changkyu Kim , Jaehyuk Huh , Doug Burger , Stephen W. Keckler , Charles R. Moore, Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture, Proceedings of the 30th annual international symposium on Computer architecture, June 09-11, 2003, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/859618.859667", 
+            "DOIname": "10.1145/859618.859667", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859667"
+        }, 
+        {
+            "ArticleName": "Mark Stephenson , Siva Kumar Sastry Hari , Yunsup Lee , Eiman Ebrahimi , Daniel R. Johnson , David Nellans , Mike O'Connor , Stephen W. Keckler, Flexible software profiling of GPU architectures, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750375", 
+            "DOIname": "10.1145/2749469.2750375", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750375"
+        }, 
+        {
+            "ArticleName": "Jingweijia Tan , Xin Fu, Mitigating the Susceptibility of GPGPUs Register File to Process Variations, Proceedings of the 2015 IEEE International Parallel and Distributed Processing Symposium, p.969-978, May 25-29, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2015.57", 
+            "DOIname": "10.1109/IPDPS.2015.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2864041"
+        }, 
+        {
+            "ArticleName": "Jingweijia Tan , Zhi Li , Xin Fu, Soft-error reliability and power co-optimization for GPGPUS register file using resistive memory, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2755837"
+        }, 
+        {
+            "ArticleName": "Jingweijia Tan , Shuaiwen Leon Song , Kaige Yan , Xin Fu , Andres Marquez , Darren Kerbyson, Combating the Reliability Challenge of GPU Register File at Low Supply Voltage, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967951", 
+            "DOIname": "10.1145/2967938.2967951", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967951"
+        }, 
+        {
+            "ArticleName": "N. Vijaykumar, K. Hsieh, G. Pekhimenko, S. Khan, A. Shrestha, S. Ghose, A. Jog, P. B. Gibbons, and O. Mutlu, \"Zorua: A holistic approach to resource virtualization in gpus,\" in Proceedings of the 49th annual IEEE/ACM International Symposium on Microarchitecture, 2016."
+        }, 
+        {
+            "ArticleName": "Nandita Vijaykumar , Gennady Pekhimenko , Adwait Jog , Abhishek Bhowmick , Rachata Ausavarungnirun , Chita Das , Mahmut Kandemir , Todd C. Mowry , Onur Mutlu, A case for core-assisted bottleneck acceleration in GPUs: enabling flexible data compression with assist warps, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750399", 
+            "DOIname": "10.1145/2749469.2750399", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750399"
+        }, 
+        {
+            "ArticleName": "S. Wang, Y. Liang, C. Zhang, X. Xie, G. Sun, Y. Liu, Y. Wang, and X. Li, \"Performance-centric register file design for gpus using racetrack memory,\" in 2016 21st Asia and South Pacific Design Automation Conference (ASP-DAC). IEEE, 2016, pp. 25--30."
+        }, 
+        {
+            "ArticleName": "Bo Wu , Guoyang Chen , Dong Li , Xipeng Shen , Jeffrey Vetter, Enabling and Exploiting Flexible Task Assignment on GPU through SM-Centric Program Transformations, Proceedings of the 29th ACM on International Conference on Supercomputing, June 08-11, 2015, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2751205.2751213", 
+            "DOIname": "10.1145/2751205.2751213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2751213"
+        }, 
+        {
+            "ArticleName": "Xiaolong Xie , Yun Liang , Xiuhong Li , Yudong Wu , Guangyu Sun , Tao Wang , Dongrui Fan, Enabling coordinated register allocation and thread-level parallelism optimization for GPUs, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830813", 
+            "DOIname": "10.1145/2830772.2830813", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830813"
+        }, 
+        {
+            "ArticleName": "Jun Yan , Wei Zhang, Exploiting virtual registers to reduce pressure on real registers, ACM Transactions on Architecture and Code Optimization (TACO), v.4 n.4, p.1-18, January 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1328195.1328198", 
+            "DOIname": "10.1145/1328195.1328198", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1328198"
+        }, 
+        {
+            "ArticleName": "Wing-kei S. Yu , Ruirui Huang , Sarah Q. Xu , Sung-En Wang , Edwin Kan , G. Edward Suh, SRAM-DRAM hybrid memory with applications to efficient register files in fine-grained multi-threading, ACM SIGARCH Computer Architecture News, v.39 n.3, June 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024723.2000094", 
+            "DOIname": "10.1145/2024723.2000094", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000094"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "John Kloosterman"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Jonathan Beaumont"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "D. Anoushe Jamshidi"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Jonathan Bailey"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Trevor Mudge"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Scott Mahlke"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123974&preflayout=flat"
+}

@@ -1,0 +1,249 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Manolis Kaliorakis , Athanasios Chatzidimitriou , George Papadimitriou , Dimitris Gizopoulos, Statistical Analysis of Multicore CPUs Operation in Scaled Voltage Conditions, IEEE Computer Architecture Letters, v.17 n.2, p.109-112, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3202961"
+        }, 
+        {
+            "ArticleName": "Georgios Karakonstantis , Dimitrios S. Nikolopoulos , Dimitris Gizopoulos , Pedro Trancoso , Yiannakis Sazeides , Christos D. Antonopoulos , Srikumar Venugopal , Shidhartha Das, Error-Resilient Server Ecosystems for Edge and Cloud Datacenters, Computer, v.50 n.12, p.78-81, December 2017", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3203298"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 235, 
+        "Downloads_6Weeks": 11, 
+        "Downloads_cumulative": 235, 
+        "CitationCount": 2
+    }, 
+    "Title": "Harnessing voltage margins for energy efficiency in multicore CPUs", 
+    "Abstract": "In this paper, we present the first automated system-level analysis of multicore CPUs based on ARMv8 64-bit architecture (8-core, 28nm X-Gene 2 micro-server by AppliedMicro) when pushed to operate in scaled voltage conditions. We report detailed system-level effects including SDCs, corrected/uncorrected errors and application/system crashes. Our study reveals large voltage margins (that can be harnessed for energy savings) and also large Vmin variation among the 8 cores of the CPU chip, among 3 different chips (a nominal rated and two sigma chips), and among different benchmarks. Apart from the Vmin analysis we propose a new composite metric (severity) that aggregates the behavior of cores when undervolted and can support system operation and design protection decisions. Our undervolting characterization findings are the first reported analysis for an enterprise class 64-bit ARMv8 platform and we highlight key differences with previous studies on x86 platforms. We utilize the results of the system characterization along with performance counters information to measure the accuracy of prediction models for the behavior of benchmarks running in particular cores. Finally, we discuss how the detailed characterization and the prediction results can be effectively used to support design and system software decisions to harness voltage margins for energy efficiency while preserving operation correctness. Our findings show that, on average, 19.4% energy saving can be achieved without compromising the performance, while with 25% performance reduction, the energy saving raises to 38.8%.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "F. Salehuddin, I. Ahmad, F.A. Hamid, A. Zaharim, A. Maheran, A. Hamid, P. S. Menon, H. A. Elgomati, and B. Y. Majlis. 2012. Optimization of process parameter variation in 45nm p-channel MOSFET using L18 Orthogonal Array. In Proceedings of IEEE International Conference on Semiconductor Electronic (ICSE '12). Kuala Lumpur, Malaysia, 219--223."
+        }, 
+        {
+            "ArticleName": "W. Schemmert, and G. Zimmer. 1974. Threshold-voltage sensitivity of ion- implanted MOS transistors due to process variations. Electronics Letters, vol. 10, no. 9, pp. 151--152, May."
+        }, 
+        {
+            "ArticleName": "Norman James, Phillip Restle, Joshua Friedrich, Bill Huott, and Bradley McCredie. 2007. Comparison of split-versus connected-core supplies in the POWER6 microprocessor. In Proceedings of the 2007 IEEE International Solid-State Circuits Conference (ISSCC `07). San Francisco, CA, USA, 298--604."
+        }, 
+        {
+            "ArticleName": "Vijay Janapa Reddi , Svilen Kanev , Wonyoung Kim , Simone Campanoni , Michael D. Smith , Gu-Yeon Wei , David Brooks, Voltage Smoothing: Characterizing and Mitigating Voltage Noise in Production Processors via Software-Guided Thread Scheduling, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.77-88, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.35", 
+            "DOIname": "10.1109/MICRO.2010.35", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935013"
+        }, 
+        {
+            "ArticleName": "Etienne Le Sueur , Gernot Heiser, Dynamic voltage and frequency scaling: the laws of diminishing returns, Proceedings of the 2010 international conference on Power aware computing and systems, p.1-8, October 03, 2010, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1924921"
+        }, 
+        {
+            "ArticleName": "Dan Ernst , Nam Sung Kim , Shidhartha Das , Sanjay Pant , Rajeev Rao , Toan Pham , Conrad Ziesler , David Blaauw , Todd Austin , Krisztian Flautner , Trevor Mudge, Razor: A Low-Power Pipeline Based on Circuit-Level Timing Speculation, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.7, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956571"
+        }, 
+        {
+            "ArticleName": "Yazhou Zu , Charles R. Lefurgy , Jingwen Leng , Matthew Halpern , Michael S. Floyd , Vijay Janapa Reddi, Adaptive guardband scheduling to improve system-level efficiency of the POWER7+, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830824", 
+            "DOIname": "10.1145/2830772.2830824", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830824"
+        }, 
+        {
+            "ArticleName": "Charles R. Lefurgy , Alan J. Drake , Michael S. Floyd , Malcolm S. Allen-Ware , Bishop Brock , Jose A. Tierno , John B. Carter, Active management of timing guardband to save energy in POWER7, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155622", 
+            "DOIname": "10.1145/2155620.2155622", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155622"
+        }, 
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Dynamic reduction of voltage margins by leveraging on-chip ECC in Itanium II processors, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485948", 
+            "DOIname": "10.1145/2485922.2485948", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485948"
+        }, 
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Using ECC Feedback to Guide Voltage Speculation in Low-Voltage Processors, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.54", 
+            "DOIname": "10.1109/MICRO.2014.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742186"
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Alper Buyuktosunoglu , Ramon Bertran , Pradip Bose , Vijay Janapa Reddi, Safe limits on voltage reduction efficiency in GPUs: a direct measurement approach, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830811", 
+            "DOIname": "10.1145/2830772.2830811", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830811"
+        }, 
+        {
+            "ArticleName": "The Linux Kernel Documentation (Parent Directory), Retrieved 2017 from https://www.kernel.org/doc/Documentation."
+        }, 
+        {
+            "ArticleName": "George Papadimitriou, Manolis Kaliorakis, Athanasios Chatzidimitriou, Dimitris Gizopoulos, Greg Favor, Kumar Sankaran and Shidhartha Das. 2017. A System-Level Voltage/Frequency Scaling Characterization Framework for Multicore CPUs. In 13th IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE `17). Boston, MA, USA."
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Reid J. Riedlinger, Rohit Bhatia, Larry Biro, Bill Bowhill, Eric Fetzer, Paul Gronowski, and Tom Grutkowski. 2011. A 32nm 3.1 Billion Transistor 12-Wide-Issue Itanium\u00ae Processor for Mission-Critical Servers\", In Proceedings of the 2011 IEEE International Solid-State Circuits Conference (ISSCC `11). San Francisco, CA, USA, 84--86."
+        }, 
+        {
+            "ArticleName": "Arijit Biswas, Niranjan Soundararajan, Shubhendu S. Mukherjee, and Sudhanva Gurumurthi. 2009. Quantized AVF: A means of capturing vulnerability variations over small windows of time. In IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE `09). Stanford University, CA, USA."
+        }, 
+        {
+            "ArticleName": "Vijay Janapa Reddi, Meeta S. Gupta, Glenn Holloway, Gu-Yeon Wei, Michael D. Smith, and David Brooks. 2009. Voltage emergency prediction: Using signatures to reduce operating margins. In Proceedings of the 15th International Conference on High-Performance Computer Architecture (HPCA `09), Raleigh, NC, USA 18--29."
+        }, 
+        {
+            "ArticleName": "Kristen R. Walcott , Greg Humphreys , Sudhanva Gurumurthi, Dynamic prediction of architectural vulnerability from microarchitectural state, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250726", 
+            "DOIname": "10.1145/1250662.1250726", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250726"
+        }, 
+        {
+            "ArticleName": "Fabian Pedregosa , Ga\u00ebl Varoquaux , Alexandre Gramfort , Vincent Michel , Bertrand Thirion , Olivier Grisel , Mathieu Blondel , Peter Prettenhofer , Ron Weiss , Vincent Dubourg , Jake Vanderplas , Alexandre Passos , David Cournapeau , Matthieu Brucher , Matthieu Perrot , \u00c9douard Duchesnay, Scikit-learn: Machine Learning in Python, The Journal of Machine Learning Research, 12, p.2825-2830, 2/1/2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2078195"
+        }, 
+        {
+            "ArticleName": "Perf: Linux Profiling with Performance Counters. Retrieved 2017 from https://perf.wiki.kernel.org/index.php/Main_Page."
+        }, 
+        {
+            "ArticleName": "Chris Wilkerson , Hongliang Gao , Alaa R. Alameldeen , Zeshan Chishti , Muhammad Khellah , Shih-Lien Lu, Trading off Cache Capacity for Reliability to Enable Low Voltage Operation, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.203-214, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.22", 
+            "DOIname": "10.1109/ISCA.2008.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382139"
+        }, 
+        {
+            "ArticleName": "Zeshan Chishti , Alaa R. Alameldeen , Chris Wilkerson , Wei Wu , Shih-Lien Lu, Improving cache lifetime reliability at ultra-low voltages, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669126", 
+            "DOIname": "10.1145/1669112.1669126", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669126"
+        }, 
+        {
+            "ArticleName": "Henry Duwe , Xun Jian , Daniel Petrisko , Rakesh Kumar, Rescuing uncorrectable fault patterns in on-chip memories through error pattern transformation, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.61", 
+            "DOIname": "10.1109/ISCA.2016.61", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001204"
+        }, 
+        {
+            "ArticleName": "Meeta Sharma Gupta , Krishna K. Rangan , Michael D. Smith , Gu-Yeon Wei , David Brooks, Towards a software approach to mitigate voltage emergencies, Proceedings of the 2007 international symposium on Low power electronics and design, August 27-29, 2007, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1283780.1283808", 
+            "DOIname": "10.1145/1283780.1283808", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1283808"
+        }, 
+        {
+            "ArticleName": "R. Franch, P. Restle, N. James, W. Huott, J. Friedrich, R. Dixon, S. Weitzel, K. Van Goor, and G. Salem. 2008. On-chip timing uncertainty measurements on IBM microprocessors. In Proceedings of the IEEE International Test Conference (ITC `08), Santa Clara, CA, USA, 1--7."
+        }, 
+        {
+            "ArticleName": "Phillip J. Restle, Robert L. Franch, Norman K. James, William V. Huott, Timothy M. Skergan, Steven C. Wilson, Nicole S. Schwartz, Joachim G. Clabes. 2004. Timing uncertainty measurements on the power5 microprocessor. In Proceedings of the 2004 IEEE International Solid-State Circuits Conference (ISSCC '04), San Francisco, CA, USA, 354--355."
+        }, 
+        {
+            "ArticleName": "Mahesh Ketkar , Eli Chiprout, A microarchitecture-based framework for pre- and post-silicon power delivery analysis, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669136", 
+            "DOIname": "10.1145/1669112.1669136", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669136"
+        }, 
+        {
+            "ArticleName": "Youngtaek Kim , Lizy Kurian John, Automated di/dt stressmark generation for microprocessor power delivery networks, Proceedings of the 17th IEEE/ACM international symposium on Low-power electronics and design, August 01-03, 2011, Fukuoka, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2016860"
+        }, 
+        {
+            "ArticleName": "Youngtaek Kim , Lizy Kurian John , Sanjay Pant , Srilatha Manne , Michael Schulte , W. Lloyd Bircher , Madhu S. Sibi Govindan, AUDIT: Stress Testing the Automatic Way, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.212-223, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.28", 
+            "DOIname": "10.1109/MICRO.2012.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457500"
+        }, 
+        {
+            "ArticleName": "Meeta S. Gupta , Vijay Janapa Reddi , Glenn Holloway , Gu-Yeon Wei , David M. Brooks, An event-guided approach to reducing voltage noise in processors, Proceedings of the Conference on Design, Automation and Test in Europe, April 20-24, 2009, Nice, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1874659"
+        }, 
+        {
+            "ArticleName": "Russ Joseph , David Brooks , Margaret Martonosi, Control Techniques to Eliminate Voltage Emergencies in High Performance Processors, Proceedings of the 9th International Symposium on High-Performance Computer Architecture, p.79, February 08-12, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822802"
+        }, 
+        {
+            "ArticleName": "Timothy N. Miller , Renji Thomas , Xiang Pan , Radu Teodorescu, VRSync: characterizing and eliminating synchronization-induced voltage emergencies in many-core processors, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337188"
+        }, 
+        {
+            "ArticleName": "Michael D. Powell , T. N. Vijaykumar, Pipeline muffling and a priori current ramping: architectural techniques to reduce high-frequency inductive noise, Proceedings of the 2003 international symposium on Low power electronics and design, August 25-27, 2003, Seoul, Korea", 
+            "DOIhref": "http://doi.acm.org/10.1145/871506.871562", 
+            "DOIname": "10.1145/871506.871562", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=871562"
+        }, 
+        {
+            "ArticleName": "Meeta S. Gupta, Krishna K. Rangan, Michael D. Smith, Gu-Yeon Wei, and David Brooks. 2008. DeCoR: A Delayed Commit and Rollback mechanism for handling inductive noise in processors. In Proceedings of the 2008 IEEE International Conference on High-Performance Computer Architecture (HPCA `08), Salt Lake City, UT, USA."
+        }, 
+        {
+            "ArticleName": "Bhargava Gopireddy, Choungki Song, Josep Torrellas, Nam Sung Kim, Aditya Agrawal, and Asit Mishra. 2016. ScalCore: Designing a core for voltage scalability. In Proceedings of the 2016 IEEE International Conference on High-Performance Computer Architecture (HPCA `16), Barcelona, Spain, 681--693."
+        }, 
+        {
+            "ArticleName": "George Papadimitriou, Manolis Kaliorakis, Athanasios Chatzidimitriou, Charalampos Magdalinos, Dimitris Gizopoulos. 2017. Voltage Margins Identification on Commercial x86-64 Multicore Microprocessors. In Proceedings of the 2017 IEEE 23rd International Symposium on On-Line Testing and Robust System Design (IOLTS `17). Thessaloniki, Greece, 51--56."
+        }, 
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Authenticache: harnessing cache ECC for system authentication, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830814", 
+            "DOIname": "10.1145/2830772.2830814", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830814"
+        }, 
+        {
+            "ArticleName": "Sriram Sundaram , Sriram Samabmurthy , Michael Austin , Aaron Grenat , Michael Golden , Stephen Kosonocky , Samuel Naffziger, Adaptive Voltage Frequency Scaling Using Critical Path Accumulator Implemented in 28nm CPU, Proceedings of the 2016 29th International Conference on VLSI Design and 2016 15th International Conference on Embedded Systems (VLSID), p.565-566, January 04-08, 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/VLSID.2016.106", 
+            "DOIname": "10.1109/VLSID.2016.106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2925167"
+        }, 
+        {
+            "ArticleName": "Paul N. Whatmough, Shidhartha Das, Zacharias Hadjilambrou, and David M. Bull. 2015. An all-digital power-delivery monitor for analysis of a 28nm dual-core ARM Cortex-A57 cluster. In Proceedings of the IEEE International Solid-State Circuits Conference (ISSCC `15), San Francisco, CA, USA, 262--264."
+        }, 
+        {
+            "ArticleName": "Paul N. Whatmough, Shidhartha Das, and David M. Bull. 2015. Analysis of adaptive clocking technique for resonant supply voltage noise mitigation. In Proceedings of the 2015 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED `15), Rome, Italy, 128--133."
+        }, 
+        {
+            "ArticleName": "Shidhartha Das, Paul Whatmough and David M. Bull. 2015. Modelling and characterization of the System-Level Power-Delivery Network for a Dual-Core ARM A57 Cluster in 28nm CMOS. In Proceedings of the 2015 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED `15), Rome, Italy, 146--151."
+        }, 
+        {
+            "ArticleName": "Paul Whatmough, Shidhartha Das and David M. Bull. 2017. Power Integrity Analysis of a 28 nm Dual-Core ARM Cortex-A57 Cluster Using an All-Digital Power Delivery Monitor. In Journal of Solid-State Circuits (JSSC '17). vol. 52, no. 6, pp. 1643 -- 1654, March."
+        }, 
+        {
+            "ArticleName": "Wenhao Jia , Kelly A. Shaw , Margaret Martonosi, Stargazer: Automated regression-based GPU design space exploration, Proceedings of the 2012 IEEE International Symposium on Performance Analysis of Systems & Software, p.2-13, April 01-03, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISPASS.2012.6189201", 
+            "DOIname": "10.1109/ISPASS.2012.6189201", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310983"
+        }, 
+        {
+            "ArticleName": "P. J. Joseph, Kapil Vaswani, Matthew J. Thazhuthaveetil. 2006. Construction and use of linear regression models for processor performance analysis. In Proceedings of the 12th International Conference on High-Performance Computer Architecture (HPCA '06). Austin, TX, USA, 99--108."
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David M. Brooks, Accurate and efficient regression modeling for microarchitectural performance and power prediction, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168881", 
+            "DOIname": "10.1145/1168857.1168881", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168881"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Athens, Greece", 
+            "Name": "George Papadimitriou"
+        }, 
+        {
+            "Affiliation": "University of Athens, Greece", 
+            "Name": "Manolis Kaliorakis"
+        }, 
+        {
+            "Affiliation": "University of Athens, Greece", 
+            "Name": "Athanasios Chatzidimitriou"
+        }, 
+        {
+            "Affiliation": "University of Athens, Greece", 
+            "Name": "Dimitris Gizopoulos"
+        }, 
+        {
+            "Affiliation": "Applied Micro Circuits Corporation Deutschland GmbH, Munich, Germany", 
+            "Name": "Peter Lawthers"
+        }, 
+        {
+            "Affiliation": "ARM Ltd., Cambridge, UK", 
+            "Name": "Shidhartha Das"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124537&preflayout=flat"
+}

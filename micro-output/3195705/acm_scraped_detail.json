@@ -1,0 +1,219 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 21, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 21, 
+        "CitationCount": 0
+    }, 
+    "Title": "Ti-states: processor power management in the temperature inversion region", 
+    "Abstract": "Temperature inversion is a transistor-level effect that can improve performance when temperature increases. It has largely been ignored in the past because it does not occur in the typical operating region of a processor, but temperature inversion is becoming increasing important in current and future technologies. In this paper, we study temperature inversion's implications on architecture design, and power and performance management. We present the first public comprehensive measurement-based analysis on the effects of temperature inversion on a real processor, using the AMD A10-8700P processor as our system under test. We show that the extra timing margin introduced by temperature inversion can provide more than 5% Vdd reduction benefit, and this improvement increases to more than 8% when operating in the near-threshold, low-voltage region. To harness this opportunity, we present Ti-states, a power management technique that sets the processor's voltage based on real-time silicon temperature to improve power efficiency. Ti-states lead to 6% to 12% measured power saving across a range of different temperatures compared to a fixed margin. As technology scales to FD-SOI and FinFET, we show there is an ideal operating temperature for various workloads to maximize the benefits of temperature inversion. The key is to counterbalance leakage power increase at higher temperatures with dynamic power reduction by the Ti-states. The projected optimal temperature is typically around 60\u00b0C and yields 8% to 9% chip power saving. The optimal high-temperature can be exploited to reduce design cost and runtime operating power for overall cooling. Our findings are important for power and thermal management in future chips and process technologies.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "C. Park, J. P. John, K. Klein, J. Teplik, J. Caravella, J. Whitfield, K. Papworth, and S. Cheng, \"Reversal of temperature dependence of integrated circuits operating at very low voltages,\" in International Electron Devices Meeting (IEDM), 1995."
+        }, 
+        {
+            "ArticleName": "A. Bellaouar, A. Fridi, M. Elmasry, and K. Itoh, \"Supply voltage scaling for temperature insensitive cmos circuit operation,\" IEEE Transactions on Circuits and Systems II: Analog and Digital signal processing, 1998."
+        }, 
+        {
+            "ArticleName": "Ali Dasdan , Ivan Hom, Handling inverted temperature dependence in static timing analysis, ACM Transactions on Design Automation of Electronic Systems (TODAES), v.11 n.2, p.306-324, April 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1142155.1142158", 
+            "DOIname": "10.1145/1142155.1142158", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1142158"
+        }, 
+        {
+            "ArticleName": "D. Wolpert and P. Ampadu, \"Temperature effects in semiconductors,\" in Managing Temperature Effects in Nanoscale Adaptive Systems. Springer, 2012."
+        }, 
+        {
+            "ArticleName": "W. Zhao and Y. Cao, \"New generation of predictive technology model for sub-45 nm early design exploration,\" IEEE Transactions on Electron Devices, 2006."
+        }, 
+        {
+            "ArticleName": "Woojoo Lee , Yanzhi Wang , Tiansong Cui , Shahin Nazarian , Massoud Pedram, Dynamic thermal management for FinFET-based circuits exploiting the temperature effect inversion phenomenon, Proceedings of the 2014 international symposium on Low power electronics and design, August 11-13, 2014, La Jolla, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2627369.2627608", 
+            "DOIname": "10.1145/2627369.2627608", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2627608"
+        }, 
+        {
+            "ArticleName": "Ermao Cai , Diana Marculescu, TEI-Turbo: Temperature Effect Inversion-Aware Turbo Boost for FinFET-Based Multi-Core Systems, Proceedings of the IEEE/ACM International Conference on Computer-Aided Design, p.500-507, November 02-06, 2015, Austin, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2840889"
+        }, 
+        {
+            "ArticleName": "B. Munger, D. Akeson, S. Arekapudi, T. Burd, H. R. Fair III, J. Farrell, D. Johnson, G. Krishnan, H. McIntyre, E. McLellan et al., \"Carrizo: A high performance, energy efficient 28 nm apu,\" Journal of Solid-State Circuits (JSSC), 2016."
+        }, 
+        {
+            "ArticleName": "Sriram Sundaram , Sriram Samabmurthy , Michael Austin , Aaron Grenat , Michael Golden , Stephen Kosonocky , Samuel Naffziger, Adaptive Voltage Frequency Scaling Using Critical Path Accumulator Implemented in 28nm CPU, Proceedings of the 2016 29th International Conference on VLSI Design and 2016 15th International Conference on Embedded Systems (VLSID), p.565-566, January 04-08, 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/VLSID.2016.106", 
+            "DOIname": "10.1109/VLSID.2016.106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2925167"
+        }, 
+        {
+            "ArticleName": "\"Ati tool.\" {Online}. Available: http://www.techpowerup.com/atitool/"
+        }, 
+        {
+            "ArticleName": "A. Grenat, S. Pant, R. Rachala, and S. Naffziger, \"Adaptive clocking system for improved power efficiency in a 28nm x86-64 microprocessor,\" in International Solid-State Circuits Conference (ISSCC), 2014."
+        }, 
+        {
+            "ArticleName": "K. Gillespie, H. R. Fair, C. Henrion, R. Jotwani, S. Kosonocky, R. S. Orefice, D. A. Priore, J. White, and K. Wilcox, \"Steamroller: An x86-64 core implemented in 28nm bulk cmos,\" in International Solid-State Circuits Conference (ISSCC), 2014."
+        }, 
+        {
+            "ArticleName": "Yazhou Zu , Charles R. Lefurgy , Jingwen Leng , Matthew Halpern , Michael S. Floyd , Vijay Janapa Reddi, Adaptive guardband scheduling to improve system-level efficiency of the POWER7+, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830824", 
+            "DOIname": "10.1145/2830772.2830824", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830824"
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Alper Buyuktosunoglu , Ramon Bertran , Pradip Bose , Vijay Janapa Reddi, Safe limits on voltage reduction efficiency in GPUs: a direct measurement approach, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830811", 
+            "DOIname": "10.1145/2830772.2830811", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830811"
+        }, 
+        {
+            "ArticleName": "N. James, P. Restle, J. Friedrich, B. Huott, and B. McCredie, \"Comparison of split-versus connected-core supplies in the power6 microprocessor,\" in International Solid-State Circuits Conference (ISSCC), 2007."
+        }, 
+        {
+            "ArticleName": "Vijay Janapa Reddi , Svilen Kanev , Wonyoung Kim , Simone Campanoni , Michael D. Smith , Gu-Yeon Wei , David Brooks, Voltage Smoothing: Characterizing and Mitigating Voltage Noise in Production Processors via Software-Guided Thread Scheduling, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.77-88, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.35", 
+            "DOIname": "10.1109/MICRO.2010.35", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935013"
+        }, 
+        {
+            "ArticleName": "\"Altera device model.\" {Online}. Available: https://www.altera.com/en_US/pdfs/literature/wp/wp-01139-timing-model.pdf"
+        }, 
+        {
+            "ArticleName": "Meeta S. Gupta , Vijay Janapa Reddi , Glenn Holloway , Gu-Yeon Wei , David M. Brooks, An event-guided approach to reducing voltage noise in processors, Proceedings of the Conference on Design, Automation and Test in Europe, April 20-24, 2009, Nice, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1874659"
+        }, 
+        {
+            "ArticleName": "V. J. Reddi, M. S. Gupta, G. Holloway, G.-Y. Wei, M. D. Smith, and D. Brooks, \"Voltage emergency prediction: Using signatures to reduce operating margins,\" in Proceedings of the International Symposium on High Performance Computer Architecture (HPCA), 2009."
+        }, 
+        {
+            "ArticleName": "J. Leng, Y. Zu, and V. J. Reddi, \"Gpu voltage noise: Characterization and hierarchical smoothing of spatial and temporal voltage noise interference in gpu architectures,\" in Proceedings of the International Symposium on High Performance Computer Architecture (HPCA), 2015."
+        }, 
+        {
+            "ArticleName": "Youngtaek Kim , Lizy Kurian John , Sanjay Pant , Srilatha Manne , Michael Schulte , W. Lloyd Bircher , Madhu S. Sibi Govindan, AUDIT: Stress Testing the Automatic Way, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.212-223, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.28", 
+            "DOIname": "10.1109/MICRO.2012.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457500"
+        }, 
+        {
+            "ArticleName": "Ramon Bertran , Alper Buyuktosunoglu , Pradip Bose , Timothy J. Slegel , Gerard Salem , Sean Carey , Richard F. Rizzolo , Thomas Strach, Voltage Noise in Multi-Core Processors: Empirical Characterization and Optimization Opportunities, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.12", 
+            "DOIname": "10.1109/MICRO.2014.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742193"
+        }, 
+        {
+            "ArticleName": "T. Webel, P. Lobo, R. Bertran, G. Salem, M. Allen-Ware, R. Rizzolo, S. Carey, T. Strach, A. Buyuktosunoglu, C. Lefurgy et al., \"Robust power management in the ibm z13,\" IBM Journal of Research and Development, 2015."
+        }, 
+        {
+            "ArticleName": "\"Intel vrm design guideline.\" {Online}. Available: http://www.intel.com/content/www/us/en/power-management/voltage-regulator-module-enterprise-voltage-regulator-down-11-1-guidelines.html"
+        }, 
+        {
+            "ArticleName": "Kevin Skadron , Mircea R. Stan , Karthik Sankaranarayanan , Wei Huang , Sivakumar Velusamy , David Tarjan, Temperature-aware microarchitecture: Modeling and implementation, ACM Transactions on Architecture and Code Optimization (TACO), v.1 n.1, p.94-125, March 2004", 
+            "DOIhref": "http://doi.acm.org/10.1145/980152.980157", 
+            "DOIname": "10.1145/980152.980157", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=980157"
+        }, 
+        {
+            "ArticleName": "Wei Huang , Shougata Ghosh , Siva Velusamy , Karthik Sankaranarayanan , Kevin Skadron , Mircea R. Stan, Hotspot: acompact thermal modeling methodology for early-stage VLSI design, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.14 n.5, p.501-513, May 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2006.876103", 
+            "DOIname": "10.1109/TVLSI.2006.876103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1962135"
+        }, 
+        {
+            "ArticleName": "Songchun Fan , Seyed Majid Zahedi , Benjamin C. Lee, The Computational Sprinting Game, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872383", 
+            "DOIname": "10.1145/2872362.2872383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872383"
+        }, 
+        {
+            "ArticleName": "\"Intel 22nm finfet.\" {Online}. Available: http://www.intel.com/content/www/us/en/silicon-innovations/intel-22nm-technology.html"
+        }, 
+        {
+            "ArticleName": "\"Samsung 14nm finfet.\" {Online}. Available: http://www.samsung.com/ semiconductor/foundry/process-technology/14nm/"
+        }, 
+        {
+            "ArticleName": "S.-Y. Wu, C. Y. Lin, M. Chiang, J. Liaw, J. Cheng, S. Yang, M. Liang, T. Miyashita, C. Tsai, B. Hsu et al., \"A 16nm finfet cmos technology for mobile soc and computing applications,\" in International Electron Devices Meeting (IEDM), 2013."
+        }, 
+        {
+            "ArticleName": "S. Natarajan, M. Agostinelli, S. Akbar, M. Bost, A. Bowonder, V. Chikarmane, S. Chouksey, A. Dasgupta, K. Fischer, Q. Fu et al., \"A 14nm logic technology featuring 2 nd-generation finfet, air-gapped interconnects, self-aligned double patterning and a 0.0588 \u03bc 2 sram cell size,\" in International Electron Devices Meeting (IEDM), 2014."
+        }, 
+        {
+            "ArticleName": "C.-H. Lin, B. Greene, S. Narasimha, J. Cai, A. Bryant, C. Radens, V. Narayanan, B. Linder, H. Ho, A. Aiyar et al., \"High performance 14nm soi finfet cmos technology with 0.0174\u03bc 2 embedded dram and 15 levels of cu metallization,\" in International Electron Devices Meeting (IEDM), 2014."
+        }, 
+        {
+            "ArticleName": "Q. Liu, B. DeSalvo, P. Morin, N. Loubet, S. Pilorget, F. Chafik, S. Maitrejean, E. Augendre, D. Chanemougame, S. Guillaumet et al., \"Fdsoi cmos devices featuring dual strained channel and thin box extendable to the 10nm node,\" in International Electron Devices Meeting, 2014."
+        }, 
+        {
+            "ArticleName": "\"Intel 22nm finfet details.\" {Online}. Available: http://download.intel.com/newsroom/Mts/22nm/p(ffs/22nm-details_presentation.pdf"
+        }, 
+        {
+            "ArticleName": "C. Auth, C. Allen, A. Blattner, D. Bergstrom, M. Brazier, M. Bost, M. Buehler, V. Chikarmane, T. Ghani, T. Glassman et al., \"A 22nm high performance and low-power cmos technology featuring fully-depleted tri-gate transistors, self-aligned contacts and high density mim capacitors,\" in International Symposium on VLSI Technology (VLSIT), 2012."
+        }, 
+        {
+            "ArticleName": "O. Faynot, F. Andrieu, O. Weber, C. Fenouillet-B\u00e9ranger, P. Perreau, J. Mazurier, T. Benoist, O. Rozeau, T. Poiroux, M. Vinet et al., \"Planar fully depleted soi technology: A powerful architecture for the 20nm node and beyond,\" in International Electron Devices Meeting (IEDM), 2010."
+        }, 
+        {
+            "ArticleName": "N. Planes, O. Weber, V. Barral, S. Haendler, D. Noblet, D. Croain, M. Bocat, P.-O. Sassoulas, X. Federspiel, A. Cros et al., \"28nm fdsoi technology platform for high-speed low-voltage digital applications,\" in International Symposium on VLSI Technology (VLSIT), 2012."
+        }, 
+        {
+            "ArticleName": "B. Pelloux-Prayer, M. Blagojevi\u0107, O. Thomas, A. Amara, A. Vladi-mirescu, B. Nikoli\u0107, G. Cesana, and P. Flatresse, \"Planar fully depleted soi technology: The convergence of high performance and low power towards multimedia mobile applications,\" in IEEE Faible Tension Faible Consommation (FTFC), 2012."
+        }, 
+        {
+            "ArticleName": "Y. Solaro, P. Fonteneau, C.-A. Legrand, D. Marin-Cudraz, J. Passieux, P. Guyader, L.-R. Clement, C. Fenouillet-Beranger, P. Ferrari, and S. Cristoloveanu, \"Innovative esd protections for utbb fd-soi technology,\" in International Electron Devices Meeting, 2013."
+        }, 
+        {
+            "ArticleName": "R. Rachala, S. Kosonocky, K. Heloue, R. Bochkar, A. Tula, M. Rodriguez, and E. Ergin, \"Design methodology for operating in near-threshold-computing (ntc) region,\" in Design Automation Conference (DAC), 2016."
+        }, 
+        {
+            "ArticleName": "Charles R. Lefurgy , Alan J. Drake , Michael S. Floyd , Malcolm S. Allen-Ware , Bishop Brock , Jose A. Tierno , John B. Carter, Active management of timing guardband to save energy in POWER7, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155622", 
+            "DOIname": "10.1145/2155620.2155622", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155622"
+        }, 
+        {
+            "ArticleName": "Wei Huang , Charles Lefurgy , William Kuk , Alper Buyuktosunoglu , Michael Floyd , Karthick Rajamani , Malcolm Allen-Ware , Bishop Brock, Accurate Fine-Grained Processor Power Proxies, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.224-234, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.29", 
+            "DOIname": "10.1109/MICRO.2012.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457501"
+        }, 
+        {
+            "ArticleName": "David Lo , Liqun Cheng , Rama Govindaraju , Luiz Andr\u00e9 Barroso , Christos Kozyrakis, Towards energy proportionality for large-scale latency-critical workloads, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665718"
+        }, 
+        {
+            "ArticleName": "Wei Huang , M. Allen-Ware , J. B. Carter , E. Elnozahy , H. Hamann , T. Keller , C. Lefurgy , Jian Li , K. Rajamani , J. Rubio, TAPO: Thermal-aware power optimization techniques for servers and data centers, Proceedings of the 2011 International Green Computing Conference and Workshops, p.1-8, July 25-28, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/IGCC.2011.6008610", 
+            "DOIname": "10.1109/IGCC.2011.6008610", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2193343"
+        }, 
+        {
+            "ArticleName": "K. Bowman, S. Raina, T. Bridges, D. Yingling, H. Nguyen, B. Appel, Y. Kolla, J. Jeong, F. Atallah, and D. Hansquine, \"A 16nm auto-calibrating dynamically adaptive clock distribution for maximizing supply-voltage-droop tolerance across a wide operating range,\" in International Solid-State Circuits Conference (ISSCC), 2015."
+        }, 
+        {
+            "ArticleName": "Arun Raghavan , Yixin Luo , Anuj Chandawalla , Marios Papaefthymiou , Kevin P. Pipe , Thomas F. Wenisch , Milo M. K. Martin, Computational sprinting, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169031", 
+            "DOIname": "10.1109/HPCA.2012.6169031", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192689"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The University of Texas at Austin", 
+            "Name": "Yazhou Zu"
+        }, 
+        {
+            "Affiliation": "Advanced Micro Devices, Inc.", 
+            "Name": "Wei Huang"
+        }, 
+        {
+            "Affiliation": "Advanced Micro Devices, Inc.", 
+            "Name": "Indrani Paul"
+        }, 
+        {
+            "Affiliation": "The University of Texas at Austin", 
+            "Name": "Vijay Janapa Reddi"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195705&preflayout=flat"
+}

@@ -1,0 +1,291 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 384, 
+        "Downloads_6Weeks": 21, 
+        "Downloads_cumulative": 384, 
+        "CitationCount": 0
+    }, 
+    "Title": "Beyond the socket: NUMA-aware GPUs", 
+    "Abstract": "GPUs achieve high throughput and power efficiency by employing many small single instruction multiple thread (SIMT) cores. To minimize scheduling logic and performance variance they utilize a uniform memory system and leverage strong data parallelism exposed via the programming model. With Moore's law slowing, for GPUs to continue scaling performance (which largely depends on SIMT core count) they are likely to embrace multi-socket designs where transistors are more readily available. However when moving to such designs, maintaining the illusion of a uniform memory system is increasingly difficult. In this work we investigate multi-socket non-uniform memory access (NUMA) GPU designs and show that significant changes are needed to both the GPU interconnect and cache architectures to achieve performance scalability. We show that application phase effects can be exploited allowing GPU sockets to dynamically optimize their individual interconnect and cache policies, minimizing the impact of NUMA effects. Our NUMA-aware GPU outperforms a single GPU by 1.5\u00d7, 2.3\u00d7, and 3.2\u00d7 while achieving 89%, 84%, and 76% of theoretical application scalability in 2, 4, and 8 sockets designs respectively. Implementable today, NUMA-aware multi-socket GPUs may be a promising candidate for scaling GPU performance beyond a single socket.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Neha Agarwal, David Nellans, Eiman Ebrahimi, Thomas F Wenisch, John Danskin, and Stephen W Keckler. 2016. Selective GPU Caches to Eliminate CPU-GPU HW Cache Coherence. In International Symposium on High Performance Computer Architecture (HPCA). IEEE."
+        }, 
+        {
+            "ArticleName": "AMD Inc. 2017. AMD's Infinity Fabric Detailed. http://wccftech.com/amds-infinity-fabric-detailed/. (2017). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Akhil Arunkumar , Evgeny Bolotin , Benjamin Cho , Ugljesa Milic , Eiman Ebrahimi , Oreste Villa , Aamer Jaleel , Carole-Jean Wu , David Nellans, MCM-GPU: Multi-Chip-Module GPUs for Continued Performance Scalability, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080231", 
+            "DOIname": "10.1145/3079856.3080231", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080231"
+        }, 
+        {
+            "ArticleName": "Tal Ben-Nun , Ely Levy , Amnon Barak , Eri Rubin, Memory access patterns: the missing piece of the multi-GPU puzzle, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2807591.2807611", 
+            "DOIname": "10.1145/2807591.2807611", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807611"
+        }, 
+        {
+            "ArticleName": "P. Bright. 2016. Moore's Law Really is Dead This Time. http://arstechnica.com/information-technology/2016/02/moores-law-really-is-dead-this-time. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Broadcom. 2017. PCI Express Switches. https://www.broadcom.com/products/pcie-switches-bridges/pcie-switches/. (2017). {Online; accessed 2017-07-10}."
+        }, 
+        {
+            "ArticleName": "Javier Cabezas , Llu\u00eds Vilanova , Isaac Gelado , Thomas B. Jablin , Nacho Navarro , Wen-mei W. Hwu, Automatic Parallelization of Kernels in Shared-Memory Multi-GPU Nodes, Proceedings of the 29th ACM on International Conference on Supercomputing, June 08-11, 2015, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2751205.2751218", 
+            "DOIname": "10.1145/2751205.2751218", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2751218"
+        }, 
+        {
+            "ArticleName": "Jichuan Chang , Gurindar S. Sohi, Cooperative cache partitioning for chip multiprocessors, Proceedings of the 21st annual international conference on Supercomputing, June 17-21, 2007, Seattle, Washington", 
+            "DOIhref": "http://doi.acm.org/10.1145/1274971.1275005", 
+            "DOIname": "10.1145/1274971.1275005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1275005"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "INTEL Corporation. 2004. Intel Xeon Processor with 533 MHz Front Side Bus at 2 GHz to 3.20 GHz. http://download.intel.com/support/processors/xeon/sb/25213506.pdf. (2004). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "INTEL Corporation. 2007. The Xeon X5365. http://ark.intel.com/products/30702/Intel-Xeon-Processor-X5365-8M-Cache-3_00-GHz-1333-MHz-FSB. (2007). {Online; accessed 2016-08-19}."
+        }, 
+        {
+            "ArticleName": "Jack Doweck , Wen-Fu Kao , Allen Kuan-yu Lu , Julius Mandelblat , Anirudha Rahatekar , Lihu Rappoport , Efraim Rotem , Ahmad Yasin , Adi Yoaz, Inside 6th-Generation Intel Core: New Microarchitecture Code-Named Skylake, IEEE Micro, v.37 n.2, p.52-62, March 2017", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2017.38", 
+            "DOIname": "10.1109/MM.2017.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3101386"
+        }, 
+        {
+            "ArticleName": "John L. Hennessy , David A. Patterson, Computer Architecture, Fifth Edition: A Quantitative Approach, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999263"
+        }, 
+        {
+            "ArticleName": "A. Herdrich, E. Verplanke, P. Autee, R. Illikkal, C. Gianos, R. Singhal, and R. Iyer. 2016. Cache QoS: From Concept to Reality in the Intel Xeon Processor E5-2600 v3 Product Family. HPCA (2016)."
+        }, 
+        {
+            "ArticleName": "HSA Fondation. 2016. HSA Platform System Architecture Specification 1.1. http://www.hsafoundation.com/?ddownload=5114. (2016). {Online; accessed 2017-13-06}."
+        }, 
+        {
+            "ArticleName": "SK Hynix. 2009. Hynix GDDR5 SGRAM Part H5GQ1H24AFR Datasheet Revision 1.0. https://www.skhynix.com/eolproducts.view.do?pronm=GDDR5+SDRAM&srnm=H5GQ1H24AFR&rk=26&rc=graphics. &rk=26&rc=graphics. &rc=graphics. &rk=26&rc=graphics. &rc=graphics. &rc=graphics. (2009). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "HyperTransport Consortium. 2010. HyperTransport 3.1 Specification. http://www.hypertransport.org/ht-3-1-link-spec. (2010). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "IBM Redbooks, IBM Zenterprise 196 Technical Guide, Vervante, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2132599"
+        }, 
+        {
+            "ArticleName": "IBM. 2012. IBM Power Systems Deep Dive. http://www-05.ibm.com/cz/events/febannouncement2012/pdf/power_architecture.pdf. (2012). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "AMD Inc. 2012. AMD Server Solutions Playbook. http://www.amd.com/Documents/AMD_Opteron_ServerPlaybook.pdf. (2012). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "INTEL Corporation. 2009. An Introduction to the Intel QuickPath Interconnect. http://www.intel.com/content/www/us/en/io/quickpath-technology/quick-path-interconnect-introduction-paper.html. (2009). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "A. Jaleel, W. Hasenplaugh, M. Qureshi, J. Sebot, Jr S. Steely, and J. Emer. 2008. Adaptive Insertion Policies for Managing Shared Caches. Proceedings of MICRO (Oct 2008)."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2015. High Bandwidth Memory(HBM) DRAM - JESD235. http://www.jedec.org/standards-documents/results/jesd235. (2015). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "KHRONOS GROUP. 2016. OpenCL 2.2 API Specification (Provisional). https://www.khronos.org/opencl/. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Jungwon Kim , Honggyu Kim , Joo Hwan Lee , Jaejin Lee, Achieving a single compute device image in OpenCL for multiple GPUs, ACM SIGPLAN Notices, v.46 n.8, August 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2038037.1941591", 
+            "DOIname": "10.1145/2038037.1941591", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941591"
+        }, 
+        {
+            "ArticleName": "Oak Ridge National Laboratory. 2013. Titan : The World's #1 Open Science Super Computer. https://www.olcf.ornl.gov/titan/. (2013). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Andrew Lavin. 2015. Fast Algorithms for Convolutional Neural Networks. http://arxiv.org/abs/1509.09308. (2015). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Lawerence Livermore National Laboratory. 2014. CORAL Benchmarks. https://asc.llnl.gov/CORAL-benchmarks/. (2014). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Lawerence Livermore National Laboratory. 2016. CORAL/Sierra. https://asc.llnl.gov/coral-info. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Janghaeng Lee , Mehrzad Samadi , Yongjun Park , Scott Mahlke, Transparent CPU-GPU collaboration for data-parallel kernels on heterogeneous systems, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523756"
+        }, 
+        {
+            "ArticleName": "D. Li, M. Rhu, D. R. Johnson, M. O'Connor, M. Erez, D. Burger, D. S. Fussell, and S. W. Keckler. 2015. Priority-Based Cache Allocation in Throughput Processors. HPCA (2015)."
+        }, 
+        {
+            "ArticleName": "Zhen Lin , Lars Nyland , Huiyang Zhou, Enabling efficient preemption for SIMT architectures with lightweight context switching, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 13-18, 2016, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3015007"
+        }, 
+        {
+            "ArticleName": "Benjamin Munger, David Akeson, Srikanth Arekapudi, Tom Burd, Harry R Fair, Jim Farrell, Dave Johnson, Guhan Krishnan, Hugh McIntyre, Edward McLellan, et al. 2016. Carrizo: A High Performance, Energy Efficient 28 nm APU. Journal of Solid-State Circuits (2016)."
+        }, 
+        {
+            "ArticleName": "NVIDIA. {n. d.}. NVIDIA cuDNN, GPU Accelerated Deep Learning. https://developer.nvidia.com/cudnn. ({n. d.}). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. {n. d.}. The World's First AI Supercomputer in a Box. http://www.nvidia.com/object/deep-learning-system.html. ({n. d.}). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2011. Multi-GPU Programming. http://www.nvidia.com/docs/IO/116711/sc11-multi-gpu.pdf. (2011). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2013. Unified Memory in CUDA 6. http://devblogs.nvidia.com/parallelforall/unified-memory-in-cuda-6/. (2013). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2014. Compute Unified Device Architecture. http://www.nvidia.com/object/cuda_home_new.html. (2014). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2014. NVIDIA Launches World's First High-Speed GPU Interconnect, Helping Pave the Way to Exascale Computing. http://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-high-speed-gpu/interconnect-helping-pave-theway-to-exascale-computing. (2014). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2015. CUDA C Programming Guild v7.0. http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html. (2015). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. Inside Pascal: NVIDIA's Newest Computing Platform. https://devblogs.nvidia.com/parallelforall/inside-pascal. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. MPI Solutions for GPUs. https://developer.nvidia.com/mpi-solutions-gpus. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. NVIDIA Tesla P100. https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2017. Scalable Link Interconnect. http://www.nvidia.in/object/sli-technology-overview-in.html. (2017). {Online; accessed 2017-07-10}."
+        }, 
+        {
+            "ArticleName": "M. A. O'Neil and M. Burtscher. 2014. Microarchitectural Performance Characterization of Irregular GPU Kernels. In International Symposium on Workload Characterization (IISWC)."
+        }, 
+        {
+            "ArticleName": "Jason Jong Kyu Park , Yongjun Park , Scott Mahlke, Chimera: Collaborative Preemption for Multitasking on a Shared GPU, ACM SIGARCH Computer Architecture News, v.43 n.1, March 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786763.2694346", 
+            "DOIname": "10.1145/2786763.2694346", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694346"
+        }, 
+        {
+            "ArticleName": "PCI-SIG. 2015. PCI Express Base Specification Revision 3.1a. https://members.pcisig.com/wg/PCI-SIG/document/download/8257. (2015). {Online; accessed 2017-07-10}."
+        }, 
+        {
+            "ArticleName": "Stephen Phillips. 2014. M7: Next Generation SPARC. In Hot Chips 26 Symposium (HCS). IEEE."
+        }, 
+        {
+            "ArticleName": "Jason Power , Arkaprava Basu , Junli Gu , Sooraj Puthoor , Bradford M. Beckmann , Mark D. Hill , Steven K. Reinhardt , David A. Wood, Heterogeneous system coherence for integrated CPU-GPU systems, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540747", 
+            "DOIname": "10.1145/2540708.2540747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540747"
+        }, 
+        {
+            "ArticleName": "Sooraj Puthoor , Ashwin M. Aji , Shuai Che , Mayank Daga , Wei Wu , Bradford M. Beckmann , Gregory Rodgers, Implementing directed acyclic graphs with the heterogeneous system architecture, Proceedings of the 9th Annual Workshop on General Purpose Processing using Graphics Processing Unit, March 12-12, 2016, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/2884045.2884052", 
+            "DOIname": "10.1145/2884045.2884052", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2884052"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Yale N. Patt, Utility-Based Cache Partitioning: A Low-Overhead, High-Performance, Runtime Mechanism to Partition Shared Caches, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.423-432, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.49", 
+            "DOIname": "10.1109/MICRO.2006.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194855"
+        }, 
+        {
+            "ArticleName": "Nauman Rafique , Won-Taek Lim , Mithuna Thottethodi, Architectural support for operating system-driven CMP cache management, Proceedings of the 15th international conference on Parallel architectures and compilation techniques, September 16-20, 2006, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1152154.1152160", 
+            "DOIname": "10.1145/1152154.1152160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1152160"
+        }, 
+        {
+            "ArticleName": "Karen Simonyan and Andrew Zisserman. 2014. Very Deep Convolutional Networks for Large-Scale Image Recognition. http://arxiv.org/abs/1409.1556. (2014). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Matthew D. Sinclair , Johnathan Alsop , Sarita V. Adve, Efficient GPU synchronization without scopes: saying no to complex consistency models, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830821", 
+            "DOIname": "10.1145/2830772.2830821", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830821"
+        }, 
+        {
+            "ArticleName": "Inderpreet Singh , Arrvindh Shriraman , Wilson W. L. Fung , Mike O'Connor , Tor M. Aamodt, Cache coherence for GPU architectures, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.578-590, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522351", 
+            "DOIname": "10.1109/HPCA.2013.6522351", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495501"
+        }, 
+        {
+            "ArticleName": "John R. Spence and Michael M. Yamamura. 1985. Clocked Tri-State Driver Circuit. https://www.google.com/patents/US4504745. (1985)."
+        }, 
+        {
+            "ArticleName": "Ivan Tanasic , Isaac Gelado , Javier Cabezas , Alex Ramirez , Nacho Navarro , Mateo Valero, Enabling preemptive multiprogramming on GPUs, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665702"
+        }, 
+        {
+            "ArticleName": "Mellanox Technologies. 2015. Switch-IB 2 EDR Switch Silicon - World's First Smart Switch. http://www.mellanox.com/related-docs/prod_silicon/PB_SwitchIB2_EDR_Switch_Silicon.pdf. (2015). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Mellanox Technologies. 2016. ConnectX-4 VPI Single and Dual Port QSFP28 Adapter Card User Manual. http://www.mellanox.com/related-docs/user_manuals/ConnectX-4_VPI_Single_and_Dual_QSFP28_Port_Adapter_Card_User_Manual.pdf. (2016). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Jouke Verbree, Erik Jan Marinissen, Philippe Roussel, and Dimitrios Velenis. 2010. On the Cost-Effectiveness of Matching Repositories of Pre-tested Wafers for Wafer-to-Wafer 3D Chip Stacking. In IEEE European Test Symposium."
+        }, 
+        {
+            "ArticleName": "C. G. Willard, A. Snell, and M. Feldman. 2015. HPC Application Support for GPU Computing. http://www.intersect360.com/industry/reports.php?id=131. (2015). {Online; accessed 2017-04-04}."
+        }, 
+        {
+            "ArticleName": "Amir Kavyan Ziabari , Jos\u00e9 L. Abell\u00e1n , Yenai Ma , Ajay Joshi , David Kaeli, Asymmetric NoC Architectures for GPU Systems, Proceedings of the 9th International Symposium on Networks-on-Chip, September 28-30, 2015, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786572.2786596", 
+            "DOIname": "10.1145/2786572.2786596", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2786596"
+        }, 
+        {
+            "ArticleName": "Amir Kavyan Ziabari , Yifan Sun , Yenai Ma , Dana Schaa , Jos\u00e9 L. Abell\u00e1n , Rafael Ubal , John Kim , Ajay Joshi , David Kaeli, UMH: A Hardware-Based Unified Memory Hierarchy for Systems with Multiple Discrete GPUs, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.4, p.1-25, December 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2996190", 
+            "DOIname": "10.1145/2996190", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2996190"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Barcelona Supercomputing Center (BSC) and Universitat Polit\u00e8cnica de Catalunya (UPC)", 
+            "Name": "Ugljesa Milic"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Oreste Villa"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Evgeny Bolotin"
+        }, 
+        {
+            "Affiliation": "Arizona State University", 
+            "Name": "Akhil Arunkumar"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Eiman Ebrahimi"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Aamer Jaleel"
+        }, 
+        {
+            "Affiliation": "Google", 
+            "Name": "Alex Ramirez"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "David Nellans"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124534&preflayout=flat"
+}

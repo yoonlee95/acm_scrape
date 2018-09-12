@@ -1,0 +1,254 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 0
+    }, 
+    "Title": "C3D: mitigating the NUMA bottleneck via coherent DRAM caches", 
+    "Abstract": "Massive datasets prevalent in scale-out, enterprise, and high-performance computing are driving a trend toward ever-larger memory capacities per node. To satisfy the memory demands and maximize performance per unit cost, today's commodity HPC and server nodes tend to feature multi-socket shared memory NUMA organizations. An important problem in these designs is the high latency of accessing memory on a remote socket that results in degraded performance in workloads with large shared data working sets. This work shows that emerging DRAM caches can help mitigate the NUMA bottleneck by filtering up to 98% of remote memory accesses. To be effective, these DRAM caches must be private to each socket to allow caching of remote memory, which comes with the challenge of ensuring coherence across multiple sockets and GBs of DRAM cache capacity. Moreover, the high access latency of DRAM caches, combined with high inter-socket communication latencies, can make hits to remote DRAM caches slower than main memory accesses. These features challenge existing coherence protocols optimized for on-chip caches with fast hits and modest storage capacity. Our solution to these challenges relies on two insights. First, keeping DRAM caches clean avoids the need to ever access a remote DRAM cache on a read. Second, a non-inclusive on-chip directory that avoids tracking blocks in the DRAM cache enables a light-weight protocol for guaranteeing coherence without the staggering directory costs. Our design, called Clean Coherent DRAM Caches (C3D), leverages these insights to improve performance by 6.4--50.7% in a quad-socket system versus a baseline without DRAM caches.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Mohammad Dashti , Alexandra Fedorova , Justin Funston , Fabien Gaud , Renaud Lachaize , Baptiste Lepers , Vivien Quema , Mark Roth, Traffic management: a holistic approach to memory placement on NUMA systems, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451157", 
+            "DOIname": "10.1145/2451116.2451157", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451157"
+        }, 
+        {
+            "ArticleName": "C. Williams, \"Intel gives Facebook the D - Xeons thrust web pages at the masses,\" 2015. http://www.theregister.co.uk/2015/03/10/facebook_open_compute_yosemite/."
+        }, 
+        {
+            "ArticleName": "Daniel Molka , Daniel Hackenberg , Robert Schone , Matthias S. Muller, Memory Performance and Cache Coherency Effects on an Intel Nehalem Multiprocessor System, Proceedings of the 2009 18th International Conference on Parallel Architectures and Compilation Techniques, p.261-270, September 12-16, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2009.22", 
+            "DOIname": "10.1109/PACT.2009.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1637764"
+        }, 
+        {
+            "ArticleName": "Daniel Hackenberg , Daniel Molka , Wolfgang E. Nagel, Comparing cache architectures and coherency protocols on x86-64 multicore SMP systems, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669165", 
+            "DOIname": "10.1145/1669112.1669165", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669165"
+        }, 
+        {
+            "ArticleName": "Intel, \"Intel Memory Latency Checker.\" https://software.intel.com/en-us/articles/intelr-memory-latency-checker."
+        }, 
+        {
+            "ArticleName": "J. Corbet, \"AutoNUMA: the other approach to NUMA scheduling,\" 2012. http://lwn.net/Articles/488709."
+        }, 
+        {
+            "ArticleName": "W. Bolosky , R. Fitzgerald , M. Scott, Simple but effective techniques for NUMA memory management, Proceedings of the twelfth ACM symposium on Operating systems principles, p.19-31, November 1989", 
+            "DOIhref": "http://doi.acm.org/10.1145/74850.74854", 
+            "DOIname": "10.1145/74850.74854", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=74854"
+        }, 
+        {
+            "ArticleName": "Erik Hagersten , Anders Landin , Seif Haridi, DDM: A Cache-Only Memory Architecture, Computer, v.25 n.9, p.44-54, September 1992", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.156381", 
+            "DOIname": "10.1109/2.156381", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=141718"
+        }, 
+        {
+            "ArticleName": "Pat Conway , Nathan Kalyanasundharam , Gregg Donley , Kevin Lepak , Bill Hughes, Cache Hierarchy and Memory Subsystem of the AMD Opteron Processor, IEEE Micro, v.30 n.2, p.16-29, March 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2010.31", 
+            "DOIname": "10.1109/MM.2010.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1804052"
+        }, 
+        {
+            "ArticleName": "Intel, \"Intel Xeon Processor E7 - 8800/4800/2800 Product Families.\" http://www.intel.co.uk/content/dam/www/public/us/en/documents/datasheets/xeon-e7-8800-4800-2800-families-vol-2-datasheet.pdf."
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh , Mark D. Hill, Efficiently enabling conventional block sizes for very large die-stacked DRAM caches, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155673", 
+            "DOIname": "10.1145/2155620.2155673", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155673"
+        }, 
+        {
+            "ArticleName": "A. Sodani, \"Knights landing intel xeon phi cpu: Path to parallelism with general purpose programming,\" 2016. Keynote at International Symposium on High-Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "David L. Dill, The Murphi Verification System, Proceedings of the 8th International Conference on Computer Aided Verification, p.390-393, August 03, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=735832"
+        }, 
+        {
+            "ArticleName": "Daniel J. Sorin , Mark D. Hill , David A. Wood, A Primer on Memory Consistency and Cache Coherence, Morgan & Claypool Publishers, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2028905"
+        }, 
+        {
+            "ArticleName": "Nikos Hardavellas , Michael Ferdman , Babak Falsafi , Anastasia Ailamaki, Reactive NUCA: near-optimal block placement and replication in distributed caches, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555779", 
+            "DOIname": "10.1145/1555754.1555779", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555779"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Gabe H. Loh, Fundamental Latency Trade-off in Architecting DRAM Caches: Outperforming Impractical SRAM-Tags with a Simple and Practical Design, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.235-246, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.30", 
+            "DOIname": "10.1109/MICRO.2012.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457502"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Peter S. Magnusson , Magnus Christensson , Jesper Eskilson , Daniel Forsgren , Gustav H\u00e5llberg , Johan H\u00f6gberg , Fredrik Larsson , Andreas Moestedt , Bengt Werner, Simics: A Full System Simulation Platform, Computer, v.35 n.2, p.50-58, February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.982916", 
+            "DOIname": "10.1109/2.982916", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621909"
+        }, 
+        {
+            "ArticleName": "Christian Bienia , Kai Li, Benchmarking modern multiprocessors, Princeton University, Princeton, NJ, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2125903"
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2150982", 
+            "DOIname": "10.1145/2150976.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Christian Bienia , Sanjeev Kumar , Jaswinder Pal Singh , Kai Li, The PARSEC benchmark suite: characterization and architectural implications, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454128", 
+            "DOIname": "10.1145/1454115.1454128", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454128"
+        }, 
+        {
+            "ArticleName": "Nagendra Gulur , Mahesh Mehendale , R. Manikantan , R. Govindarajan, Bi-Modal DRAM Cache: A Scalable and Effective Die-Stacked DRAM Cache, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.36", 
+            "DOIname": "10.1109/MICRO.2014.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742160"
+        }, 
+        {
+            "ArticleName": "Cheng-Chieh Huang , Vijay Nagarajan, ATCache: reducing DRAM cache latency via a small SRAM tag cache, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628089", 
+            "DOIname": "10.1145/2628071.2628089", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628089"
+        }, 
+        {
+            "ArticleName": "Djordje Jevdjic , Gabriel H. Loh , Cansu Kaynak , Babak Falsafi, Unison Cache: A Scalable and Effective Die-Stacked DRAM Cache, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.51", 
+            "DOIname": "10.1109/MICRO.2014.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742159"
+        }, 
+        {
+            "ArticleName": "Chiachen Chou , Aamer Jaleel , Moinuddin K. Qureshi, BEAR: techniques for mitigating bandwidth bloat in gigascale DRAM caches, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750387", 
+            "DOIname": "10.1145/2749469.2750387", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750387"
+        }, 
+        {
+            "ArticleName": "Jaewoong Sim , Gabriel H. Loh , Hyesoon Kim , Mike O'Connor , Mithuna Thottethodi, A Mostly-Clean DRAM Cache for Effective Hit Speculation and Self-Balancing Dispatch, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.247-257, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.31", 
+            "DOIname": "10.1109/MICRO.2012.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457503"
+        }, 
+        {
+            "ArticleName": "X. Jiang, N. Madan, L. Zhao, M. Upton, R. Iyer, S. Makineni, D. Newell, Y. Solihin, and R. Balasubramonian, \"CHOP: adaptive filter-based DRAM caching for CMP server platforms,\" in International Symposium on High-Performance Computer Architecture (HPCA), pp. 1--12, 2010."
+        }, 
+        {
+            "ArticleName": "Djordje Jevdjic , Stavros Volos , Babak Falsafi, Die-stacked DRAM caches for servers: hit ratio, latency, or bandwidth? have it all with footprint cache, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485957", 
+            "DOIname": "10.1145/2485922.2485957", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485957"
+        }, 
+        {
+            "ArticleName": "Yongjun Lee , Jongwon Kim , Hakbeom Jang , Hyunggyun Yang , Jangwoo Kim , Jinkyu Jeong , Jae W. Lee, A fully associative, tagless DRAM cache, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750383", 
+            "DOIname": "10.1145/2749469.2750383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750383"
+        }, 
+        {
+            "ArticleName": "A. Agarwal , R. Simoni , J. Hennessy , M. Horowitz, An evaluation of directory schemes for cache coherence, Proceedings of the 15th Annual International Symposium on Computer architecture, p.280-298, May 30-June 02, 1988, Honolulu, Hawaii, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=52432"
+        }, 
+        {
+            "ArticleName": "L. M. Censier , P. Feautrier, A New Solution to Coherence Problems in Multicache Systems, IEEE Transactions on Computers, v.27 n.12, p.1112-1118, December 1978", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1978.1675013", 
+            "DOIname": "10.1109/TC.1978.1675013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1312949"
+        }, 
+        {
+            "ArticleName": "Andreas Moshovos , Gokhan Memik , Alok Choudhary , Babak Falsafi, JETTY: Filtering Snoops for Reduced Energy Consumption in SMP Servers, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.85, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876432"
+        }, 
+        {
+            "ArticleName": "Andreas Moshovos, RegionScout: Exploiting Coarse Grain Sharing in Snoop-Based Coherence, Proceedings of the 32nd annual international symposium on Computer Architecture, p.234-245, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.42", 
+            "DOIname": "10.1109/ISCA.2005.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069990"
+        }, 
+        {
+            "ArticleName": "Jason F. Cantin , James E. Smith , Mikko H. Lipasti , Andreas Moshovos , Babak Falsafi, Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays, IEEE Micro, v.26 n.1, p.70-79, January 2006", 
+            "DOIhref": "https://dx.doi.org/2006-02-17 02:00:03.800", 
+            "DOIname": "2006-02-17 02:00:03.800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1116671"
+        }, 
+        {
+            "ArticleName": "A. Gupta, W. Weber, and T. C. Mowry, \"Reducing memory and traffic requirements for scalable directory-based cache coherence schemes,\" in International Conference on Parallel Processing. Volume 1: Architecture., pp. 312--321, 1990."
+        }, 
+        {
+            "ArticleName": "Jason Zebchuk , Babak Falsafi , Andreas Moshovos, Multi-grain coherence directories, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540739", 
+            "DOIname": "10.1145/2540708.2540739", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540739"
+        }, 
+        {
+            "ArticleName": "Jason Zebchuk , Vijayalakshmi Srinivasan , Moinuddin K. Qureshi , Andreas Moshovos, A tagless coherence directory, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669166", 
+            "DOIname": "10.1145/1669112.1669166", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669166"
+        }, 
+        {
+            "ArticleName": "A. Saulsbury , T. Wilkinson , J. Carter , A. Landin, An argument for simple COMA, Proceedings of the 1st IEEE Symposium on High-Performance Computer Architecture, p.276, January 22-25, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822623"
+        }, 
+        {
+            "ArticleName": "S. Basu , J. Torrellas, Enhancing Memory Use in Simple Coma: Multiplexed Simple Coma, Proceedings of the 4th International Symposium on High-Performance Computer Architecture, p.152, January 31-February 04, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822730"
+        }, 
+        {
+            "ArticleName": "Fredrik Dahlgren , Josep Torrellas, Cache-Only Memory Architectures, Computer, v.32 n.6, p.72-79, June 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.769448", 
+            "DOIname": "10.1109/2.769448", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621257"
+        }, 
+        {
+            "ArticleName": "Radhika Thekkath , Amit Pal Singh , Jaswinder Pal Singh , Susan John , John L. Hennessy, An Evaluation of a Commercial CC-NUMA Architecture: The CONVEX Exemplar SPP1200, Proceedings of the 11th International Symposium on Parallel Processing, p.8-17, April 01-05, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=661349"
+        }, 
+        {
+            "ArticleName": "David Culler , Jaswinder Pal Singh , Anoop Gupta, Parallel Computer Architecture: A Hardware/Software Approach, Morgan Kaufmann Publishers Inc., San Francisco, CA, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2821564"
+        }, 
+        {
+            "ArticleName": "Zheng Zhang , Josep Torrellas, Reducing Remote Conflict Misses: NUMA with Remote Cache versus COMA, Proceedings of the 3rd IEEE Symposium on High-Performance Computer Architecture, p.272, February 01-05, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822670"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Edinburgh", 
+            "Name": "Cheng-Chieh Huang"
+        }, 
+        {
+            "Affiliation": "University of Edinburgh", 
+            "Name": "Rakesh Kumar"
+        }, 
+        {
+            "Affiliation": "University of Edinburgh", 
+            "Name": "Marco Elver"
+        }, 
+        {
+            "Affiliation": "University of Edinburgh", 
+            "Name": "Boris Grot"
+        }, 
+        {
+            "Affiliation": "University of Edinburgh", 
+            "Name": "Vijay Nagarajan"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195681&preflayout=flat"
+}

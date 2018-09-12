@@ -1,0 +1,214 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "J. T. Yantchev , C. G. Huang , M. B. Josephs , I. M. Nedelchev, Low-latency asynchronous FIFO buffers, Proceedings of the 2nd Working Conference on Asynchronous Design Methodologies, p.24, May 30-31, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=785191"
+        }, 
+        {
+            "ArticleName": "George Michelogiannakis , Dionisios Pnevmatikatos , Manolis Katevenis, Approaching Ideal NoC Latency with Pre-Configured Routes, Proceedings of the First International Symposium on Networks-on-Chip, p.153-162, May 07-09, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1263062"
+        }, 
+        {
+            "ArticleName": "Chunming Qiao , Rami Melhem, Reducing Communication Latency with Path Multiplexing in Optically Interconnected Multiprocessor Systems, IEEE Transactions on Parallel and Distributed Systems, v.8 n.2, p.97-108, February 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=249513"
+        }, 
+        {
+            "ArticleName": "Chunming Qiao , R. Melhem, Reducing communication latency with path multiplexing: in optically interconnected multiprocessor systems, Proceedings of the 1st IEEE Symposium on High-Performance Computer Architecture, p.34, January 22-25, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822619"
+        }, 
+        {
+            "ArticleName": "Daeho Seo , Akif Ali , Won-Taek Lim , Nauman Rafique , Mithuna Thottethodi, Near-Optimal Worst-Case Throughput Routing for Two-Dimensional Mesh Networks, ACM SIGARCH Computer Architecture News, v.33 n.2, p.432-443, May 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070006"
+        }, 
+        {
+            "ArticleName": "D. J. Pritchard , D. A. Nicole, Cube Connected Mobius Ladders: An Inherently Deadlock-Free Fixed Degree Network, IEEE Transactions on Parallel and Distributed Systems, v.4 n.1, p.111-117, January 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629140"
+        }, 
+        {
+            "ArticleName": "Robert Cypher , Luis Gravano, Requirements for deadlock-free, adaptive packet routing, Proceedings of the eleventh annual ACM symposium on Principles of distributed computing, p.25-33, August 10-12, 1992, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=135425"
+        }, 
+        {
+            "ArticleName": "L. Schwiebert , D. N. Jayasimha, Optimal fully adaptive wormhole routing for meshes, Proceedings of the 1993 ACM/IEEE conference on Supercomputing, p.782-791, December 1993, Portland, Oregon, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=169835"
+        }, 
+        {
+            "ArticleName": "Jiazheng Zhou , Shen-En Liu , Yeh-Ching Chung, A hardware supported multicast scheme based on XY routing for 2-D mesh InfiniBand networks, The Journal of Supercomputing, v.59 n.2, p.901-919, February 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2088441"
+        }, 
+        {
+            "ArticleName": "X.L. Lin , P.K. Mckinley , A.H. Esfahanian, Adaptive Multicast Wormhole Routing in 2D Mesh Multicomputers, Journal of Parallel and Distributed Computing, v.28 n.1, p.19-31, July 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=211126"
+        }, 
+        {
+            "ArticleName": "Phil May , Santithorn Bunchua , D. Scott Wills, HiPER: A Compact Narrow Channel Router with Hop-by-Hop Error Correction, IEEE Transactions on Parallel and Distributed Systems, v.13 n.5, p.485-498, May 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=567190"
+        }, 
+        {
+            "ArticleName": "Swaminathan Ramany , Derek Eager, The interaction between virtual channel flow control and adaptive routing in wormhole networks, Proceedings of the 8th international conference on Supercomputing, p.136-145, July 11-15, 1994, Manchester, England", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=181327"
+        }, 
+        {
+            "ArticleName": "Liang Guang , Ethiopia Nigussie , Pekka Rantala , Jouni Isoaho , Hannu Tenhunen, Hierarchical agent monitoring design approach towards self-aware parallel systems-on-chip, ACM Transactions on Embedded Computing Systems (TECS), v.9 n.3, p.1-24, February 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1698783"
+        }, 
+        {
+            "ArticleName": "Robert Cypher , Luis Gravano, Storage-Efficient, Deadlock-Free Packet Routing Algorithms for Torus Networks, IEEE Transactions on Computers, v.43 n.12, p.1376-1385, December 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=191590"
+        }, 
+        {
+            "ArticleName": "Philip K. McKinley , Hong Xu , Lionel M. Ni , Abdol-Hossein Esfahanian, Unicast-Based Multicast Communication in Wormhole-Routed Networks, IEEE Transactions on Parallel and Distributed Systems, v.5 n.12, p.1252-1265, December 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=190758"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 Duato, A New Theory of Deadlock-Free Adaptive Routing in Wormhole Networks, IEEE Transactions on Parallel and Distributed Systems, v.4 n.12, p.1320-1331, December 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=173828"
+        }, 
+        {
+            "ArticleName": "D. N. Jayasimha , Loren Schwiebert , D. Manivannan , Jeff A. May, A foundation for designing deadlock-free routing algorithms in wormhole networks, Journal of the ACM (JACM), v.50 n.2, p.250-275, March 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=636869"
+        }, 
+        {
+            "ArticleName": "Patrick T. Gaughan , Sudhakar Yalamanchili, A Family of Fault-Tolerant Routing Protocols for Direct Multiprocessor Networks, IEEE Transactions on Parallel and Distributed Systems, v.6 n.5, p.482-497, May 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=205023"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 Duato, A Necessary and Sufficient Condition for Deadlock-Free Adaptive Routing in Wormhole Networks, IEEE Transactions on Parallel and Distributed Systems, v.6 n.10, p.1055-1067, October 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629385"
+        }, 
+        {
+            "ArticleName": "Liang Guang , Ethiopia Nigussie , Lauri Koskinen , Hannu Tenhunen, Autonomous DVFS on Supply Islands for Energy-Constrained NoC Communication, Proceedings of the 22nd International Conference on Architecture of Computing Systems, March 10-13, 2009, Delft, The Netherlands", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1530405"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 Duato, A Theory of Deadlock-Free Adaptive Multicast Routing in Wormhole Networks, IEEE Transactions on Parallel and Distributed Systems, v.6 n.9, p.976-987, September 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629378"
+        }, 
+        {
+            "ArticleName": "Loren Schwiebert , D.N. Jayasimha, A Necessary and Sufficient Condition for Deadlock-Free Wormhole Routing, Journal of Parallel and Distributed Computing, v.32 n.1, p.103-117, Jan. 10, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=237052"
+        }, 
+        {
+            "ArticleName": "Jose Duato, A Necessary and Sufficient Condition for Deadlock-Free Adaptive Routing in Wormhole Networks, Proceedings of the 1994 International Conference on Parallel Processing, p.142-149, August 15-19, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1261021"
+        }, 
+        {
+            "ArticleName": "NoC routing protocols - objective-based classification, Journal of Systems Architecture: the EUROMICRO Journal, v.66 n.C, p.14-32, May 2016", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2951362"
+        }, 
+        {
+            "ArticleName": "Patrick T. Gaughan , Binh V. Dao , Sudhakar Yalamanchili , David E. Schimmel, Distributed, Deadlock-Free Routing in Faulty, Pipelined, Direct Interconnection Networks, IEEE Transactions on Computers, v.45 n.6, p.651-665, June 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=232667"
+        }, 
+        {
+            "ArticleName": "Luis Gravano , Gustavo D. Pifarr\u00e9 , Pablo E. Berman , Jorge L. C. Sanz, Adaptive Deadlock- and Livelock-Free Routing with All Minimal Paths in Torus Networks, IEEE Transactions on Parallel and Distributed Systems, v.5 n.12, p.1233-1251, December 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=190754"
+        }, 
+        {
+            "ArticleName": "M. B. Hadim , I. Sakho, The Multi-Level Communication: Efficient Routing for Interconnection Networks, The Journal of Supercomputing, v.18 n.2, p.153-177, Feb. 1, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=370144"
+        }, 
+        {
+            "ArticleName": "Faizal Arya Samman , Thomas Hollstein , Manfred Glesner, Wormhole cut-through switching: Flit-level messages interleaving for virtual-channelless network-on-chip, Microprocessors & Microsystems, v.35 n.3, p.343-358, May, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1960029"
+        }, 
+        {
+            "ArticleName": "Zhigang Yu , Dong Xiang , Xinyu Wang, Balancing virtual channel utilization for deadlock-free routing in torus networks, The Journal of Supercomputing, v.71 n.8, p.3094-3115, August 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2812708"
+        }, 
+        {
+            "ArticleName": "Ambrose K. Laing , Robert Cypher, Deadlock-free routing in arbitrary networks via the flattest common supersequence method, Proceedings of the tenth annual ACM symposium on Parallel algorithms and architectures, p.55-66, June 28-July 02, 1998, Puerto Vallarta, Mexico", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=277671"
+        }, 
+        {
+            "ArticleName": "M. D. Grammatikakis , D. F. Hsu , M. Kraetzl, A journey into multicomputer routing algorithms, Proceedings of the First Aizu International Symposium on Parallel Algorithms/Architecture Synthesis, p.19, March 15-17, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=826064"
+        }, 
+        {
+            "ArticleName": "Zhigang Yu , Xinyu Wang , Kele Shen, Conditional forwarding: simple flow control to increase adaptivity for fully adaptive routing algorithms, The Journal of Supercomputing, v.72 n.2, p.639-653, February 2016", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2896613"
+        }, 
+        {
+            "ArticleName": "Prasant Mohapatra, Wormhole routing techniques for directly connected multicomputer systems, ACM Computing Surveys (CSUR), v.30 n.3, p.374-410, Sept. 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=292472"
+        }, 
+        {
+            "ArticleName": "J. Duato , T. M. Pinkston, A General Theory for Deadlock-Free Adaptive Routing Using a Mixed Set of Resources, IEEE Transactions on Parallel and Distributed Systems, v.12 n.12, p.1219-1235, December 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=506192"
+        }, 
+        {
+            "ArticleName": "Jose Duato , Sudhakar Yalamanchili , Lionel Ni, Interconnection Networks, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2821578"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 5, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 369, 
+        "CitationCount": 35
+    }, 
+    "Title": "High performance communications in processor networks", 
+    "Abstract": "In order to provide an arbitrary and fully dynamic connectivity in a network of processors, transport mechanisms must be implemented, which provide the propagation of data from processor to processor, based on addresses contained within a packet of data. Such data transport mechanisms must satisfy a number of requirements - deadlock and livelock freedom, good hot-spot performance, high throughput and low latency. This paper proposes a solution to these problems, which allows deadlock free, adaptive, high throughput packet routing to be implemented on networks of processors. Examples are given which illustrate the technique for 2-D array and toroidal networks. An implementation of this scheme on arrays of transputers is described. The scheme also serves as a basis for a very low latency routing strategy named the mad postman, a detailed implementation of which is described here as well.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "W. J. Dally , C. L. Seitz, Deadlock-free message routing in multiprocessor interconnection networks, IEEE Transactions on Computers, v.36 n.5, p.547-553, May 1987", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1987.1676939", 
+            "DOIname": "10.1109/TC.1987.1676939", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=33010"
+        }, 
+        {
+            "ArticleName": "Gelcmter D 1981 A DAG-Rased Algorithm fir Prevention of Store-and Forward Deadlock in Packet Networks, IEEE Trans Comp c-30 pp 709-715."
+        }, 
+        {
+            "ArticleName": "Roscoe AW 1987 Routing Messages Through Networks: An Exercise in Deadlock Avaidance, Oxford University Computing Laboratory Report."
+        }, 
+        {
+            "ArticleName": "Yantchev JT, Jesshope CR 1988 Adaptive, Low Latency, Deadfock- Free Packet Routing for Networks of Processors, to be published JEJ3 Proc."
+        }, 
+        {
+            "ArticleName": "C. Jesshope , P. Miller , J. Yantchev, Programming with active data, on Parcella '88: Fourth International Workshop on Parallel Processing by Cellular Automata and Arrays, p.111-129, September 1989, Berlin, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=67612"
+        }, 
+        {
+            "ArticleName": "Jesshope CR O'Gorman R. Stewart JM 1988 A Microprocessor Array, submitted to IEE Proc E."
+        }, 
+        {
+            "ArticleName": "Charles L. Seitz, The cosmic cube, Communications of the ACM, v.28 n.1, p.22-33, Jan. 1985", 
+            "DOIhref": "http://doi.acm.org/10.1145/2465.2467", 
+            "DOIname": "10.1145/2465.2467", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2467"
+        }, 
+        {
+            "ArticleName": "Kermani, Parviz. Kleinnxk L 1979 Virtual Cut-Through: A New Computer Communication Switching Technique. Computer Networks 3 pp 267-286."
+        }, 
+        {
+            "ArticleName": "D. Whobrey, A communications chip for multiprocessors, Proceedings of the conference on CONPAR 88, p.464-473, October 1989, UMIST, Manchester, United Kingdom", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=90619"
+        }, 
+        {
+            "ArticleName": "Roscoe AW, Dathi N 1986 Tke Pursuit of Deadlock Freedom, Oxford University Computing Labotatory Technical Monograph PRG- 57."
+        }, 
+        {
+            "ArticleName": "INMOS Ltd 1985 The Occam Programming Manual, Prentice .HaR International."
+        }, 
+        {
+            "ArticleName": "Miller T% Yantchev IT, Jesshope CR 1989 High Perfornsance Packet Routing Based on Systolic Arrays, Rot. Int. Ccmf. on Systolic Arrays 1989. Killarney, Ireland."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Dept. of Electronics and Computer Science, The University Southampton, England", 
+            "Name": "C. R. Jesshope"
+        }, 
+        {
+            "Affiliation": "Dept. of Electronics and Computer Science, The University Southampton, England", 
+            "Name": "P. R. Miller"
+        }, 
+        {
+            "Affiliation": "Dept. of Electronics and Computer Science, The University Southampton, England", 
+            "Name": "J. T. Yantchev"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74943&preflayout=flat"
+}

@@ -1,0 +1,312 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 31, 
+        "Downloads_6Weeks": 8, 
+        "Downloads_cumulative": 31, 
+        "CitationCount": 0
+    }, 
+    "Title": "Chameleon: versatile and practical near-DRAM acceleration architecture for large memory systems", 
+    "Abstract": "The performance of computer systems is often limited by the bandwidth of their memory channels, but further increasing the bandwidth is challenging under the stringent pin and power constraints of packages. To further increase performance under these constraints, various near-DRAM acceleration (NDA) architectures, which tightly integrate accelerators with DRAM devices using 3D/2.5D-stacking technology, have been proposed. However, they have not prevailed yet because they often rely on expensive HBM/HMC-like DRAM devices which also suffer from limited capacity, whereas the scalability of memory capacity is critical for some computing segments such as servers. In this paper, we first demonstrate that data buffers in a load-reduced DIMM (LRDIMM), which is originally developed to support large memory systems for servers, are supreme places to integrate near-DRAM accelerators. Second, we propose Chameleon, an NDA architecture that can be realized without relying on 3D/2.5D-stacking technology and seamlessly integrated with large memory systems for servers. Third, we explore three microarchitectures that abate constraints imposed by taking LRDIMM architecture for NDA. Our experiment demonstrates that a Chameleon-based system can offer 2.13X higher geo-mean performance while consuming 34% lower geo-mean data transfer energy than a system that integrates the same accelerator logic within the processor.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"CORAL Benchmark Codes.\" {Online}. Available: https://asc.llnl.gov/CORAL-benchmarks/"
+        }, 
+        {
+            "ArticleName": "\"Samsung DDR4 SDRAM.\" {Online}. Available: http://www.samsung.com/global/business/semiconductor/product/dram"
+        }, 
+        {
+            "ArticleName": "\"JEDEC Standard: DDR2 SDRAM Fully Buffered DIMM (FBDIMM) Design Specification,\" 2007."
+        }, 
+        {
+            "ArticleName": "\"JEDEC Standard: DDR4 SDRAM,\" 2012."
+        }, 
+        {
+            "ArticleName": "\"JEDEC Standard: DDR4 SDRAM Load Reduced DIMM (LRDIMM) Design Specification,\" 2014."
+        }, 
+        {
+            "ArticleName": "\"JEDEC Standard: Low Power Double Data Rate 4 (LPDDR4),\" 2014."
+        }, 
+        {
+            "ArticleName": "E. Azarkhish, D. Rossi, I. Loi, and L. Benini, \"A Logic-base Interconnect for Supporting Near Memory Computation in the Hybrid Memory Cube,\" in Workshop on Near-Data Processing, Dec 2014."
+        }, 
+        {
+            "ArticleName": "S.-J. Bae, Y.-S. Sohn, K. ll Park, K.-H. Kim, D.-H. Chung, J.-G. Kim, S.-H. Kim, M.-S. Park, J.-H. Lee, S.-Y. Bang, H.-K. Lee, I.-S. Park, J.-S. Kim, D.-H. Kim, H.-R. Kim, Y.-J. Shin, C.-G. Park, G.-S. Moon, K.-W. Yeom, K.-Y. Kim, J.-Y. Lee, H.-J. Yang, S.-J. Jang, J. S. Choi, Y.-H. Jun, and K. Kim, \"A 60nm 6Gb/s/pin GDDR5 Graphics DRAM with Multifaceted Clocking and ISI/SSN-Reduction Techniques,\" in IEEE International Solid-State Circuits Conference (ISSCC), Feb 2008."
+        }, 
+        {
+            "ArticleName": "Arkaprava Basu , Jayneel Gandhi , Jichuan Chang , Mark D. Hill , Michael M. Swift, Efficient virtual memory for big memory servers, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485943", 
+            "DOIname": "10.1145/2485922.2485943", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485943"
+        }, 
+        {
+            "ArticleName": "S. Borkar, \"Role of Interconnects in the Future of Computing,\" IEEE Journal of Lightwave Technology, vol. 31, no. 24, Dec 2013."
+        }, 
+        {
+            "ArticleName": "D. W. Chang, G.-s. Byun, H. Kim, M. Ahn, S. Ryu, N. Kim, and M. Schulte, \"Reevaluating the Latency Claims of 3D Stacked Memories,\" in IEEE Asia and South Pacific Design Automation Conference (ASP-DAC), Jan 2013."
+        }, 
+        {
+            "ArticleName": "Daniel W. Chang , Young Hoon Son , Jung Ho Ahn , Hoyoung Kim , Minwook Ahn , Michael J. Schulte , Nam Sung Kim, Dynamic bandwidth scaling for embedded DSPs with 3D-stacked DRAM and wide I/Os, Proceedings of the International Conference on Computer-Aided Design, November 18-21, 2013, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2561973"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "M. L. Chu, N. Jayasena, D. P. Jang, and M. Ignatowski, \"High-level Programming Model Abstractions for Processing in Memory,\" in Workshop on Near-Data Processing, Dec 2013."
+        }, 
+        {
+            "ArticleName": "Michael F. Deering , Stephen A. Schlapp , Michael G. Lavelle, FBRAM: a new form of memory optimized for 3D graphics, Proceedings of the 21st annual conference on Computer graphics and interactive techniques, p.167-174, July 1994", 
+            "DOIhref": "http://doi.acm.org/10.1145/192161.192194", 
+            "DOIname": "10.1145/192161.192194", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=192194"
+        }, 
+        {
+            "ArticleName": "P. Dlugosch, D. Brown, P. Glendenning, M. Leventhal, and H. Noyes, \"An Efficient and Scalable Semiconductor Architecture for Parallel Automata Processing,\" IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 25, no. 12, Dec 2014."
+        }, 
+        {
+            "ArticleName": "Jeff Draper , Jacqueline Chame , Mary Hall , Craig Steele , Tim Barrett , Jeff LaCoss , John Granacki , Jaewook Shin , Chun Chen , Chang Woo Kang , Ihn Kim , Gokhan Daglikoca, The architecture of the DIVA processing-in-memory chip, Proceedings of the 16th international conference on Supercomputing, June 22-26, 2002, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/514191.514197", 
+            "DOIname": "10.1145/514191.514197", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=514197"
+        }, 
+        {
+            "ArticleName": "Jaliya Ekanayake , Shrideep Pallickara , Geoffrey Fox, MapReduce for Data Intensive Scientific Analyses, Proceedings of the 2008 Fourth IEEE International Conference on eScience, p.277-284, December 07-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/eScience.2008.59", 
+            "DOIname": "10.1109/eScience.2008.59", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1488926"
+        }, 
+        {
+            "ArticleName": "D. G. Elliott, W. M. Snelgrove, and M. Stumm, \"Computational RAM: A Memory-SIMD Hybrid and its Application to DSP,\" in IEEE Custom Integrated Circuits Conference (CICC), May 1992."
+        }, 
+        {
+            "ArticleName": "A. Farmahini-Farahani, J. Ahn, K. Morrow, and N. S. Kim, \"NDA: Near-DRAM Acceleration Architecture Leveraging Commodity DRAM Devices and Standard Memory Modules,\" in HPCA, Feb 2015."
+        }, 
+        {
+            "ArticleName": "Brinda Ganesh , Aamer Jaleel , David Wang , Bruce Jacob, Fully-Buffered DIMM Memory Architectures: Understanding Mechanisms, Overheads and Scaling, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.109-120, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346190", 
+            "DOIname": "10.1109/HPCA.2007.346190", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318106"
+        }, 
+        {
+            "ArticleName": "Qing Guo , Xiaochen Guo , Ravi Patel , Engin Ipek , Eby G. Friedman, AC-DIMM: associative computing with STT-MRAM, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485939", 
+            "DOIname": "10.1145/2485922.2485939", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485939"
+        }, 
+        {
+            "ArticleName": "Qing Guo , Xiaochen Guo , Yuxin Bai , Engin \u0130pek, A resistive TCAM accelerator for data-intensive computing, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155660", 
+            "DOIname": "10.1145/2155620.2155660", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155660"
+        }, 
+        {
+            "ArticleName": "P. Hammarlund, A. Martinez, A. Bajwa, D. Hill, E. Hallnor, H. Jiang, M. Dixon, M. Derr, M. Hunsaker, R. Kumar, R. Osborne, R. Rajwar, R. Singhal, R. D'Sa, R. Chappell, S. Kaushik, S. Chennupaty, S. Jourdan, S. Gunther, T. Piazza, and T. Burton, \"Haswell: The Fourth-Generation Intel Core Processor,\" IEEE Micro, vol. 34, no. 2, Mar 2014."
+        }, 
+        {
+            "ArticleName": "R. Ho, K. Mai, and M. Horowitz, \"The Future of Wires,\" Proceedings of the IEEE, vol. 89, no. 4, Apr 2001."
+        }, 
+        {
+            "ArticleName": "Inphi, \"Introducing LRDIMM - A New Class of Memory Modules.\" {Online}. Available: https://www.inphi.com/products/whitepapers/Inphi_LRDIMM_whitepaper_Final.pdf"
+        }, 
+        {
+            "ArticleName": "Y.-C. Jang, H. Chung, Y. Choi, H. Park, J. Kim, S. Lim, J. Sunwoo, M.-S. Park, H.-S. Kim, S.-Y. Kim, Y.-S. Lee, W.-S. Kim, J.-B. Lee, J. Yoo, and C. Kim, \"BER Measurement of a 5.8-Gb/s/pin Unidirectional Differential I/O for DRAM Application with DIMM Channel,\" IEEE Journal of Solid-State Circuits, vol. 44, no. 11, Nov 2009."
+        }, 
+        {
+            "ArticleName": "FlexRAM: Toward an Advanced Intelligent Memory System, Proceedings of the 1999 IEEE International Conference on Computer Design, p.192, October 10-13, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=846721"
+        }, 
+        {
+            "ArticleName": "Stephen W. Keckler , William J. Dally , Brucek Khailany , Michael Garland , David Glasco, GPUs and the Future of Parallel Computing, IEEE Micro, v.31 n.5, p.7-17, September 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.89", 
+            "DOIname": "10.1109/MM.2011.89", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2068522"
+        }, 
+        {
+            "ArticleName": "Gwangsun Kim , John Kim , Jung Ho Ahn , Jaeha Kim, Memory-centric system interconnect design with hybrid memory cubes, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523744"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Michael Papamichael , Onur Mutlu , Mor Harchol-Balter, Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.65-76, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.51", 
+            "DOIname": "10.1109/MICRO.2010.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935012"
+        }, 
+        {
+            "ArticleName": "R. Landaverde, T. Zhang, A. Coskun, and M. Herbordt, \"An Investigation of Unified Memory Access Performance in CUDA,\" in IEEE High Performance Extreme Computing Conference (HPEC), Sep 2014."
+        }, 
+        {
+            "ArticleName": "D. U. Lee, K. W. Kim, K. W. Kim, H. Kim, J. Y. Kim, Y. J. Park, J. H. Kim, D. S. Kim, H. B. Park, J. W. Shin, J. H. Cho, K. H. Kwon, M. J. Kim, J. Lee, K. W. Park, B. Chung, and S. Hong, \"25.2 A 1.2V 8Gb 8-channel 128GB/s High-bandwidth Memory (HBM) Stacked DRAM with Effective Microbump I/O Test Methods Using 29nm Process and TSV,\" in IEEE International Solid-State Circuits Conference (ISSCC), Feb 2014."
+        }, 
+        {
+            "ArticleName": "D. Lee, Y. Kim, G. Pekhimenko, S. Khan, V. Seshadri, K. Chang, and O. Mutlu, \"Adaptive-latency DRAM: Optimizing DRAM Timing for the Common-case,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, The McPAT Framework for Multicore and Manycore Architectures: Simultaneously Modeling Power, Area, and Timing, ACM Transactions on Architecture and Code Optimization (TACO), v.10 n.1, p.1-29, April 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2445572.2445577", 
+            "DOIname": "10.1145/2445572.2445577", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2445577"
+        }, 
+        {
+            "ArticleName": "G. Loh, N. Jayasena, M. Oskin, M. Nutter, D. Roberts, M. Meswani, D. Zhang, and M. Ignatowski, \"A Processing in Memory Taxonomy and a Case for Studying Fixed-function PIM,\" in Workshop on Near-Data Processing, Dec 2013."
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh, 3D-Stacked Memory Architectures for Multi-core Processors, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.453-464, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.15", 
+            "DOIname": "10.1109/ISCA.2008.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382159"
+        }, 
+        {
+            "ArticleName": "D. Luebke, \"CUDA: Scalable Parallel Programming for High-performance Scientific Computing,\" in IEEE International Symposium on Biomedical Imaging: From Nano to Macro (ISBI), May 2008."
+        }, 
+        {
+            "ArticleName": "Ken Mai , Tim Paaske , Nuwan Jayasena , Ron Ho , William J. Dally , Mark Horowitz, Smart Memories: a modular reconfigurable architecture, Proceedings of the 27th annual international symposium on Computer architecture, p.161-171, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339673", 
+            "DOIname": "10.1145/339647.339673", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339673"
+        }, 
+        {
+            "ArticleName": "Krishna T. Malladi , Benjamin C. Lee , Frank A. Nothaft , Christos Kozyrakis , Karthika Periyathambi , Mark Horowitz, Towards energy-proportional datacenter memory with mobile DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337164"
+        }, 
+        {
+            "ArticleName": "B. Mei, S. Vernalde, D. Verkest, H. D. Man, and R. Lauwereins, \"ADRES: an architecture with tightly coupled VLIW processor and coarse-grained reconfigurable matrix,\" in Field Programmable Logic and Application, 13th International Conference, 2003."
+        }, 
+        {
+            "ArticleName": "Micron, \"Micron Z80A 4Gb DDR4 x8 Package DQ S-parameters,\" 2015. {Online}. Available: http://www.micron.com/media/documents/products/sim-model/dram/z80a_x8_dq_sparam.zip"
+        }, 
+        {
+            "ArticleName": "R. Oh, B. Lee, S.-W. Shin, W. Bae, H. Choi, I. Song, Y.-S. Lee, J.-H. Choi, C.-W. Kim, S.-J. Jang, and J. S. Choi, \"Design Technologies for a 1.2V 2.4Gb/s/pin High Capacity DDR4 SDRAM with TSVs,\" in IEEE Symposium on VLSI Circuits, Jun 2014."
+        }, 
+        {
+            "ArticleName": "Mark Oskin , Frederic T. Chong , Timothy Sherwood, Active pages: a computation model for intelligent memory, Proceedings of the 25th annual international symposium on Computer architecture, p.192-203, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.279387", 
+            "DOIname": "10.1145/279358.279387", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=279387"
+        }, 
+        {
+            "ArticleName": "Angshuman Parashar , Michael Pellauer , Michael Adler , Bushra Ahsan , Neal Crago , Daniel Lustig , Vladimir Pavlov , Antonia Zhai , Mohit Gambhir , Aamer Jaleel , Randy Allmon , Rachid Rayess , Stephen Maresh , Joel Emer, Triggered instructions: a control paradigm for spatially-programmed architectures, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485935", 
+            "DOIname": "10.1145/2485922.2485935", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485935"
+        }, 
+        {
+            "ArticleName": "Intelligent RAM (IRAM): the Industrial Setting, Applications, and Architectures, Proceedings of the 1997 International Conference on Computer Design (ICCD '97), p.2, October 12-15, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=846522"
+        }, 
+        {
+            "ArticleName": "David Patterson , Thomas Anderson , Neal Cardwell , Richard Fromm , Kimberly Keeton , Christoforos Kozyrakis , Randi Thomas , Katherine Yelick, A Case for Intelligent RAM, IEEE Micro, v.17 n.2, p.34-44, March 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.592312", 
+            "DOIname": "10.1109/40.592312", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624083"
+        }, 
+        {
+            "ArticleName": "J. T. Pawlowski, \"Hybrid Memory Cube,\" in Hot Chips, Aug 2011."
+        }, 
+        {
+            "ArticleName": "S. H. Pugsley, J. Jestes, R. Balasubramonian, V. Srinivasan, A. Buyuktosunoglu, A. Davis, and F. Li, \"Comparing Implementations of Near-Data Computing with In-Memory MapReduce Workloads,\" IEEE Micro, vol. 34, no. 4, Jul 2014."
+        }, 
+        {
+            "ArticleName": "S. H. Pugsley, J. Jestes, H. Zhang, R. Balasubramonian, V. Srinivasan, A. Buyuktosunoglu, A. Davis, and F. Li, \"Ndc: Analyzing the impact of 3d-stacked memory+ logic devices on mapreduce workloads,\" in ISPASS, 2014."
+        }, 
+        {
+            "ArticleName": "Richard Sampson , Ming Yang , Siyuan Wei , Chaitali Chakrabarti , Thomas F. Wenisch, Sonic Millip3De: A massively parallel 3D-stacked accelerator for 3D ultrasound, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.318-329, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522329", 
+            "DOIname": "10.1109/HPCA.2013.6522329", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495509"
+        }, 
+        {
+            "ArticleName": "Manu Awasthi, Rethinking Design Metrics for Datacenter DRAM, Proceedings of the 2015 International Symposium on Memory Systems, October 05-08, 2015, Washington DC, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818950.2818973", 
+            "DOIname": "10.1145/2818950.2818973", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818973"
+        }, 
+        {
+            "ArticleName": "J. E. Stone , D. Gohara , Guochun Shi, OpenCL: A Parallel Programming Standard for Heterogeneous Computing Systems, Computing in Science and Engineering, v.12 n.3, p.66-73, May 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MCSE.2010.69", 
+            "DOIname": "10.1109/MCSE.2010.69", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2220227"
+        }, 
+        {
+            "ArticleName": "J. A. Stratton, C. Rodrigues, I.-J. Sung, N. Obeid, L.-W. Chang, N. Anssari, G. D. Liu, and W.-M. Hwu, \"Parboil: A Revised Benchmark Suite for Scientific and Commercial Throughput Computing,\" Center for Reliable and High-Performance Computing, Mar 2012."
+        }, 
+        {
+            "ArticleName": "Sravanthi Kota Venkata , Ikkjin Ahn , Donghwan Jeon , Anshuman Gupta , Christopher Louie , Saturnino Garcia , Serge Belongie , Michael Bedford Taylor, SD-VBS: The San Diego Vision Benchmark Suite, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.55-64, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306794", 
+            "DOIname": "10.1109/IISWC.2009.5306794", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680783"
+        }, 
+        {
+            "ArticleName": "F. A. Ware and C. Hampel, \"Improving Power and Data Efficiency with Threaded Memory Modules,\" in IEEE International Conference on Computer Design (ICCD), Oct 2006."
+        }, 
+        {
+            "ArticleName": "Matthew A. Watkins , David H. Albonesi, ReMAP: A Reconfigurable Heterogeneous Multicore Architecture, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.497-508, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.15", 
+            "DOIname": "10.1109/MICRO.2010.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934993"
+        }, 
+        {
+            "ArticleName": "K. Wilcox, D. Akeson, H. Fair, J. Farrell, D. Johnson, G. Krishnan, H. Mclntyre, E. McLellan, S. Naffziger, R. Schreiber, S. Sundaram, and J. White, \"A 28nm x86 APU Optimized for Power and Area Efficiency,\" in IEEE International Solid-State Circuits Conference (ISSCC), Feb 2015."
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "Doe Hyun Yoon , Jichuan Chang , Naveen Muralimanohar , Parthasarathy Ranganathan, BOOM: enabling mobile memory based low-power server DIMMs, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337163"
+        }, 
+        {
+            "ArticleName": "Doe Hyun Yoon , Mattan Erez, Virtualized and flexible ECC for main memory, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736064", 
+            "DOIname": "10.1145/1736020.1736064", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736064"
+        }, 
+        {
+            "ArticleName": "Doe Hyun Yoon , Min Kyu Jeong , Mattan Erez, Adaptive granularity memory systems: a tradeoff between storage efficiency and throughput, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000100", 
+            "DOIname": "10.1145/2000064.2000100", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000100"
+        }, 
+        {
+            "ArticleName": "Dongping Zhang , Nuwan Jayasena , Alexander Lyashevsky , Joseph L. Greathouse , Lifan Xu , Michael Ignatowski, TOP-PIM: throughput-oriented programmable processing in memory, Proceedings of the 23rd international symposium on High-performance parallel and distributed computing, June 23-27, 2014, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2600212.2600213", 
+            "DOIname": "10.1145/2600212.2600213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2600213"
+        }, 
+        {
+            "ArticleName": "Hongzhong Zheng , Jiang Lin , Zhao Zhang , Eugene Gorbatov , Howard David , Zhichun Zhu, Mini-rank: Adaptive DRAM architecture for improving memory power efficiency, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.210-221, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771792", 
+            "DOIname": "10.1109/MICRO.2008.4771792", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521797"
+        }, 
+        {
+            "ArticleName": "Q. Zhu, B. Akin, H. E. Sumbul, F. Sadi, J. C. Hoe, L. Pileggi, and F. Franchetti, \"A 3D-stacked Logic-in-memory Accelerator for Application-Specific Data Intensive Computing,\" in IEEE International 3D Systems Integration Conference (3DIC), Oct 2013."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Hadi Asghari-Moghaddam"
+        }, 
+        {
+            "Affiliation": "Seoul National University", 
+            "Name": "Young Hoon Son"
+        }, 
+        {
+            "Affiliation": "Seoul National University", 
+            "Name": "Jung Ho Ahn"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Nam Sung Kim"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195699&preflayout=flat"
+}

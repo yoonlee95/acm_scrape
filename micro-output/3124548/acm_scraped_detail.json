@@ -1,0 +1,327 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Heba Saadeldeen , Zhaoxia Deng , Timothy Sherwood , Frederic T. Chong, Thermal-aware, heterogeneous materials for improved energy and reliability in 3D PCM architectures, Proceedings of the International Symposium on Memory Systems, October 02-05, 2017, Alexandria, Virginia", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3132407"
+        }, 
+        {
+            "ArticleName": "Shu Wang , Chi Li , Henry Hoffmann , Shan Lu , William Sentosa , Achmad Imam Kistijantoro, Understanding and Auto-Adjusting Performance-Sensitive Configurations, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173206"
+        }, 
+        {
+            "ArticleName": "Nikita Mishra , Connor Imes , John D. Lafferty , Henry Hoffmann, CALOREE: Learning Control for Predictable Latency and Low Energy, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173184"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 390, 
+        "Downloads_6Weeks": 21, 
+        "Downloads_cumulative": 390, 
+        "CitationCount": 3
+    }, 
+    "Title": "Memory cocktail therapy: a general learning-based framework to optimize dynamic tradeoffs in NVMs", 
+    "Abstract": "Non-volatile memories (NVMs) have attracted significant interest recently due to their high-density, low static power, and persistence. There are, however, several challenges associated with building practical systems from NVMs, including limited write endurance and long latencies. Researchers have proposed a variety of architectural techniques which can achieve different tradeoffs between lifetime, performance and energy efficiency; however, no individual technique can satisfy requirements for all applications and different objectives. Hence, we propose Memory Cocktail Therapy (MCT), a general, learning-based framework that adaptively chooses the best techniques for the current application and objectives. Specifically, MCT performs four procedures to adapt the techniques to various scenarios. First, MCT formulates a high-dimensional configuration space from all different combinations of techniques. Second, MCT selects primary features from the configuration space with lasso regularization. Third, MCT estimates lifetime, performance and energy consumption using lightweight online predictors (eg. quadratic regression and gradient boosting) and a small set of configurations guided by the selected features. Finally, given the estimation of all configurations, MCT selects the optimal configuration based on the user-defined objectives. As a proof of concept, we test MCT's ability to guarantee different lifetime targets and achieve 95% of maximum performance, while minimizing energy consumption. We find that MCT improves performance by 9.24% and reduces energy by 7.95% compared to the best static configuration. Moreover, the performance of MCT is 94.49% of the ideal configuration with only 5.3% more energy consumption.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Newsha Ardalani , Clint Lestourgeon , Karthikeyan Sankaralingam , Xiaojin Zhu, Cross-architecture performance prediction (XAPP) using CPU code to predict GPU performance, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830780", 
+            "DOIname": "10.1145/2830772.2830780", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830780"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Ramazan Bitirgen , Engin Ipek , Jose F. Martinez, Coordinated management of multiple interacting resources in chip multiprocessors: A machine learning approach, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.318-329, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771801", 
+            "DOIname": "10.1109/MICRO.2008.4771801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521805"
+        }, 
+        {
+            "ArticleName": "Zhaoxia Deng , Ariel Feldman , Stuart A. Kurtz , Frederic T. Chong, Lemonade from Lemons: Harnessing Device Wearout to Create Limited-Use Security Architectures, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080226", 
+            "DOIname": "10.1145/3079856.3080226", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080226"
+        }, 
+        {
+            "ArticleName": "Zhaoxia Deng , Lunkai Zhang , Diana Franklin , Frederic T. Chong, Herniated Hash Tables: Exploiting Multi-Level Phase Change Memory for In-Place Data Expansion, Proceedings of the 2015 International Symposium on Memory Systems, October 05-08, 2015, Washington DC, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818950.2818981", 
+            "DOIname": "10.1145/2818950.2818981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818981"
+        }, 
+        {
+            "ArticleName": "Xiangyu Dong , Cong Xu , Yuan Xie , Norman P. Jouppi, NVSim: A Circuit-Level Performance, Energy, and Area Model for Emerging Nonvolatile Memory, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.31 n.7, p.994-1007, July 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2012.2185930", 
+            "DOIname": "10.1109/TCAD.2012.2185930", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2702808"
+        }, 
+        {
+            "ArticleName": "Christophe Dubach , Timothy M. Jones , Edwin V. Bonilla , Michael F. P. O'Boyle, A Predictive Model for Dynamic Microarchitectural Adaptivity Control, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.485-496, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.14", 
+            "DOIname": "10.1109/MICRO.2010.14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934992"
+        }, 
+        {
+            "ArticleName": "Evelyn Duesterwald , Calin Cascaval , Sandhya Dwarkadas, Characterizing and Predicting Program Behavior and its Variability, Proceedings of the 12th International Conference on Parallel Architectures and Compilation Techniques, p.220, September 27-October 01, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=943853"
+        }, 
+        {
+            "ArticleName": "Eiman Ebrahimi , Chang Joo Lee , Onur Mutlu , Yale N. Patt, Fairness via source throttling: a configurable and high-performance fairness substrate for multi-core memory systems, ACM SIGPLAN Notices, v.45 n.3, March 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735971.1736058", 
+            "DOIname": "10.1145/1735971.1736058", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736058"
+        }, 
+        {
+            "ArticleName": "Jerome H. Friedman, Stochastic gradient boosting, Computational Statistics & Data Analysis, v.38 n.4, p.367-378, 28 February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1016/S0167-9473(01)00065-2", 
+            "DOIname": "10.1016/S0167-9473(01)00065-2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=635941"
+        }, 
+        {
+            "ArticleName": "Andy Georges , Dries Buytaert , Lieven Eeckhout , Koen De Bosschere, Method-level phase behavior in java workloads, ACM SIGPLAN Notices, v.39 n.10, October 2004", 
+            "DOIhref": "http://doi.acm.org/10.1145/1035292.1028999", 
+            "DOIname": "10.1145/1035292.1028999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1028999"
+        }, 
+        {
+            "ArticleName": "Dibakar Gope , Mikko H. Lipasti, Bias-Free Branch Predictor, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.32", 
+            "DOIname": "10.1109/MICRO.2014.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742208"
+        }, 
+        {
+            "ArticleName": "Edward Grochowski and Robert E Fontana Jr. 2012. Future technology challenges for NAND flash and HDD products. Flash Memory Summit (2012)."
+        }, 
+        {
+            "ArticleName": "Andrew Hay , Karin Strauss , Timothy Sherwood , Gabriel H. Loh , Doug Burger, Preventing PCM banks from seizing too much power, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155642", 
+            "DOIname": "10.1145/2155620.2155642", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155642"
+        }, 
+        {
+            "ArticleName": "Henry Hoffmann, JouleGuard: energy guarantees for approximate applications, Proceedings of the 25th Symposium on Operating Systems Principles, October 04-07, 2015, Monterey, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2815400.2815403", 
+            "DOIname": "10.1145/2815400.2815403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2815403"
+        }, 
+        {
+            "ArticleName": "Engin Ipek , Onur Mutlu , Jos\u00e9 F. Mart\u00ednez , Rich Caruana, Self-Optimizing Memory Controllers: A Reinforcement Learning Approach, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.39-50, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.21", 
+            "DOIname": "10.1109/ISCA.2008.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382172"
+        }, 
+        {
+            "ArticleName": "Aamer Jaleel. 2006. SPEC CPU 2006 Memory workload characterization, http://www.jaleels.org/ajaleel/. (2006)."
+        }, 
+        {
+            "ArticleName": "Jaeyong Jeong , Sangwook Shane Hahn , Sungjin Lee , Jihong Kim, Lifetime improvement of NAND flash-based storage systems using dynamic program and erase scaling, Proceedings of the 12th USENIX conference on File and Storage Technologies, February 17-20, 2014, Santa Clara, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591312"
+        }, 
+        {
+            "ArticleName": "Daniel A. Jim\u00e9nez , Calvin Lin, Dynamic Branch Prediction with Perceptrons, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.197, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876441"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David M. Brooks, Accurate and efficient regression modeling for microarchitectural performance and power prediction, ACM SIGOPS Operating Systems Review, v.40 n.5, December 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168917.1168881", 
+            "DOIname": "10.1145/1168917.1168881", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168881"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Engin Ipek , Onur Mutlu , Doug Burger, Architecting phase change memory as a scalable dram alternative, ACM SIGARCH Computer Architecture News, v.37 n.3, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555815.1555758", 
+            "DOIname": "10.1145/1555815.1555758", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555758"
+        }, 
+        {
+            "ArticleName": "Hsien-Hsin S. Lee , Gary S. Tyson , Matthew K. Farrens, Eager writeback - a technique for improving bandwidth utilization, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.11-21, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360132", 
+            "DOIname": "10.1145/360128.360132", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360132"
+        }, 
+        {
+            "ArticleName": "Bing Li , ShuChang Shan , Yu Hu , Xiaowei Li, Partial-SET: write speedup of PCM main memory, Proceedings of the conference on Design, Automation & Test in Europe, March 24-28, 2014, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616671"
+        }, 
+        {
+            "ArticleName": "Qingan Li , Lei Jiang , Youtao Zhang , Yanxiang He , Chun Jason Xue, Compiler directed write-mode selection for high performance low power volatile PCM, ACM SIGPLAN Notices, v.48 n.5, May 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499369.2465564", 
+            "DOIname": "10.1145/2499369.2465564", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465564"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Owen Y Loh and Horacio D Espinosa. 2012. Nanoelectromechanical contact switches. Nature nanotechnology 7, 5 (2012), 283--295."
+        }, 
+        {
+            "ArticleName": "Jo\u00e3o Mendes-Moreira , Carlos Soares , Al\u00edpio M\u00e1rio Jorge , Jorge Freire De Sousa, Ensemble approaches for regression: A survey, ACM Computing Surveys (CSUR), v.45 n.1, p.1-40, November 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2379776.2379786", 
+            "DOIname": "10.1145/2379776.2379786", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2379786"
+        }, 
+        {
+            "ArticleName": "Nikita Mishra, John D. Lafferty, and Henry Hoffmann. 2017. ESP: A Machine Learning Approach to Estimating Application Interference. To appear in proceedings of the 14th IEEE-International conference on Automatic Computing, 2017. A preprint available at: http://people.cs.uchicago.edu/~hankhoffmann/mishra-icac2017.pdf. (2017)."
+        }, 
+        {
+            "ArticleName": "Nikita Mishra , Huazhe Zhang , John D. Lafferty , Henry Hoffmann, A Probabilistic Graphical Model-based Approach for Minimizing Energy Under Performance Constraints, ACM SIGPLAN Notices, v.50 n.4, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2775054.2694373", 
+            "DOIname": "10.1145/2775054.2694373", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694373"
+        }, 
+        {
+            "ArticleName": "Prashant J Nair, Chiachen Chou, Bipin Rajendran, and Moinuddin K Qureshi. 2015. Reducing read latency of phase change memory via early read and turbo read. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. IEEE, 309--319."
+        }, 
+        {
+            "ArticleName": "Matt Poremba , Yuan Xie, NVMain: An Architectural-Level Main Memory Simulator for Emerging Non-volatile Memories, Proceedings of the 2012 IEEE Computer Society Annual Symposium on VLSI, p.392-397, August 19-21, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISVLSI.2012.82", 
+            "DOIname": "10.1109/ISVLSI.2012.82", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2376111"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Michele M. Franceschini , Ashish Jagmohan , Luis A. Lastras, PreSET: improving performance of phase change memories by exploiting asymmetry in write times, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337203", 
+            "DOIname": "10.1145/2366231.2337203", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337203"
+        }, 
+        {
+            "ArticleName": "Moinuddin K Qureshi, Michele M Franceschini, and Luis A Lastras-Montano. 2010. Improving read performance of phase change memories via write cancellation and write pausing. In High Performance Computer Architecture (HPCA), 2010 IEEE 16th International Symposium on. IEEE, 1--11."
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Aamer Jaleel , Yale N. Patt , Simon C. Steely , Joel Emer, Adaptive insertion policies for high performance caching, ACM SIGARCH Computer Architecture News, v.35 n.2, May 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273440.1250709", 
+            "DOIname": "10.1145/1273440.1250709", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250709"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , John Karidis , Michele Franceschini , Vijayalakshmi Srinivasan , Luis Lastras , Bulent Abali, Enhancing lifetime and security of PCM-based main memory with start-gap wear leveling, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669117", 
+            "DOIname": "10.1145/1669112.1669117", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669117"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Vijayalakshmi Srinivasan , Jude A. Rivers, Scalable high performance main memory system using phase-change memory technology, ACM SIGARCH Computer Architecture News, v.37 n.3, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555815.1555760", 
+            "DOIname": "10.1145/1555815.1555760", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555760"
+        }, 
+        {
+            "ArticleName": "Hebatallah Saadeldeen , Diana Franklin , Guoping Long , Charlotte Hill , Aisha Browne , Dmitri Strukov , Timothy Sherwood , Frederic T. Chong, Memristors for neural branch prediction: a case study in strict latency and write endurance challenges, Proceedings of the ACM International Conference on Computing Frontiers, May 14-16, 2013, Ischia, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2482767.2482801", 
+            "DOIname": "10.1145/2482767.2482801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2482801"
+        }, 
+        {
+            "ArticleName": "SanDisk. 2015. SanDisk and HP launch partnership to create memory-driven computing solutions. (2015). https://www.sandisk.com/about/media-center/press-releases/2015/sandisk-and-hp-launch-partnership."
+        }, 
+        {
+            "ArticleName": "Robert E. Schapire, The Strength of Weak Learnability, Machine Learning, v.5 n.2, p.197-227, Jun. 1990", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1022648800760", 
+            "DOIname": "10.1023/A:1022648800760", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=83645"
+        }, 
+        {
+            "ArticleName": "Stuart Schechter , Gabriel H. Loh , Karin Strauss , Doug Burger, Use ECP, not ECC, for hard failures in resistive memories, ACM SIGARCH Computer Architecture News, v.38 n.3, June 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1816038.1815980", 
+            "DOIname": "10.1145/1816038.1815980", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815980"
+        }, 
+        {
+            "ArticleName": "Xipeng Shen , Yutao Zhong , Chen Ding, Locality phase prediction, Proceedings of the 11th international conference on Architectural support for programming languages and operating systems, October 07-13, 2004, Boston, MA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1024393.1024414", 
+            "DOIname": "10.1145/1024393.1024414", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1024414"
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Brad Calder, Automatically characterizing large scale program behavior, ACM SIGARCH Computer Architecture News, v.30 n.5, December 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/635506.605403", 
+            "DOIname": "10.1145/635506.605403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605403"
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Suleyman Sair , Brad Calder, Phase tracking and prediction, ACM SIGARCH Computer Architecture News, v.31 n.2, May 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/871656.859657", 
+            "DOIname": "10.1145/871656.859657", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859657"
+        }, 
+        {
+            "ArticleName": "StatTrek.com. 2017. Coefficient of determination, http://stattrek.com/statistics/dictionary.aspx?definition=coefficient_of_determination. (2017)."
+        }, 
+        {
+            "ArticleName": "Guangyu Sun, Xiangyu Dong, Yuan Xie, Jian Li, and Yiran Chen. 2009. A novel architecture of the 3D stacked MRAM L2 cache for CMPs. In High Performance Computer Architecture, 2009. HPCA 2009. IEEE 15th International Symposium on. IEEE, 239--249."
+        }, 
+        {
+            "ArticleName": "Elvira Teran, Zhe Wang, and Daniel A Jim\u00e9nez. 2016. Perceptron learning for reuse prediction. In Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on. IEEE, 1--12."
+        }, 
+        {
+            "ArticleName": "Robert Tibshirani. 1996. Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society. Series B (Methodological) (1996), 267--288."
+        }, 
+        {
+            "ArticleName": "Rujia Wang, Youtao Zhang, and Jun Yang. 2016. ReadDuo: Constructing Reliable MLC Phase Change Memory through Fast and Robust Readout. In Dependable Systems and Networks (DSN), 2016 46th Annual IEEE/IFIP International Conference on. IEEE, 203--214."
+        }, 
+        {
+            "ArticleName": "Cong Xu, Dimin Niu, Naveen Muralimanohar, Rajeev Balasubramonian, Tao Zhang, Shimeng Yu, and Yuan Xie. 2015. Overcoming the challenges of cross-bar resistive memory architectures. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. IEEE, 476--488."
+        }, 
+        {
+            "ArticleName": "Cong Xu, Dimin Niu, N. Muralimanohar, R. Balasubramonian, Tao Zhang, Shimeng Yu, and Yuan Xie. 2015. Overcoming the challenges of crossbar resistive memory architectures. In High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. 476--488."
+        }, 
+        {
+            "ArticleName": "Lunkai Zhang , Brian Neely , Diana Franklin , Dmitri Strukov , Yuan Xie , Frederic T. Chong, Mellow writes: extending lifetime in resistive memories through selective slow write backs, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.52", 
+            "DOIname": "10.1109/ISCA.2016.52", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001192"
+        }, 
+        {
+            "ArticleName": "Lunkai Zhang , Dmitri Strukov , Hebatallah Saadeldeen , Dongrui Fan , Mingzhe Zhang , Diana Franklin, SpongeDirectory: flexible sparse directories utilizing multi-level memristors, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628081", 
+            "DOIname": "10.1145/2628071.2628081", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628081"
+        }, 
+        {
+            "ArticleName": "Mingzhe Zhang, Lunkai Zhang, Lei Jiang, Zhiyong Liu, and Frederic T Chong. 2017. Balancing Performance and Lifetime of MLC PCM by Using a Region Retention Monitor. In High Performance Computer Architecture (HPCA), 2017 IEEE International Symposium on. IEEE, 385--396."
+        }, 
+        {
+            "ArticleName": "Ping Zhou , Bo Zhao , Jun Yang , Youtao Zhang, A durable and energy efficient main memory using phase change memory technology, ACM SIGARCH Computer Architecture News, v.37 n.3, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555815.1555759", 
+            "DOIname": "10.1145/1555815.1555759", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555759"
+        }, 
+        {
+            "ArticleName": "Yanqi Zhou , Henry Hoffmann , David Wentzlaff, CASH: supporting IaaS customers with a sub-core configurable architecture, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.65", 
+            "DOIname": "10.1109/ISCA.2016.65", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001209"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "UC Santa Barbara", 
+            "Name": "Zhaoxia Deng"
+        }, 
+        {
+            "Affiliation": "University of Chicago", 
+            "Name": "Lunkai Zhang"
+        }, 
+        {
+            "Affiliation": "University of Chicago", 
+            "Name": "Nikita Mishra"
+        }, 
+        {
+            "Affiliation": "University of Chicago", 
+            "Name": "Henry Hoffmann"
+        }, 
+        {
+            "Affiliation": "University of Chicago", 
+            "Name": "Frederic T. Chong"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124548&preflayout=flat"
+}

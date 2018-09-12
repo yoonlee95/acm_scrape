@@ -1,0 +1,141 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Alessandro De Gloria , Paolo Faraboschi, Instruction-level parallelism in Prolog: analysis and architectural support, ACM SIGARCH Computer Architecture News, v.20 n.2, p.224-233, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=139730"
+        }, 
+        {
+            "ArticleName": "Bruce K. Holmer , Barton Sano , Michael Carlton , Peter Van Roy , Ralph Haygood , William R. Bush , Alvin M. Despain , Joan M. Pendleton , Tep Dobry, Fast Prolog with an extended general purpose architecture, ACM SIGARCH Computer Architecture News, v.18 n.2SI, p.282-291, June 1990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325154"
+        }, 
+        {
+            "ArticleName": "Reinhold Letz , Gernot Stenz, Model elimination and connection tableau procedures, Handbook of automated reasoning, Elsevier Science Publishers B. V., Amsterdam, The Netherlands, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=778537"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 8, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 246, 
+        "CitationCount": 3
+    }, 
+    "Title": "KCM: a knowledge crunching machine", 
+    "Abstract": "KCM (Knowledge Crunching Machine) is a high-performance back-end processor which, coupled to a UNIX* desk-top workstation, provides a powerful and user-friendly Prolog environment catering for both development and execution of significant Prolog applications. This paper gives a general overview of the architecture of KCM stressing some new features like a 64-bit tagged architecture, shallow backtracking and an original memory management unit. Some early benchmark results obtained on prototype machines are presented. They show that KCM, which runs at a peak speed of 833 Klips on list concatenation, compares favorably with other dedicated Prolog machines and available commercial systems running on fast general purpose processors.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "H. Benker. J. Noye. G. Watzlawik. ICM4. Technical report CA-25 ECRC, February, 1987."
+        }, 
+        {
+            "ArticleName": "Gaetano Borriello , Andrew R. Cherenson , Peter B. Danzig , Michael N. Nelson, RISCs vs. CISCs for Prolog: a case study, Proceedings of the second international conference on Architectual support for programming languages and operating systems, p.136-145, October 1987, Palo Alto, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/36206.36196", 
+            "DOIname": "10.1145/36206.36196", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=36196"
+        }, 
+        {
+            "ArticleName": "Tep Dobry. A Coprocessor for Al; LISP, Prolog and Data Bases. Proceedings of Spring Compcon' 87, IEEE Computer Society, February, 1987, pp. 396902."
+        }, 
+        {
+            "ArticleName": "T. P. Dobry , A. M. Despain , Y. N. Patt, Performance studies of a Prolog machine architecture, Proceedings of the 12th annual international symposium on Computer architecture, p.180-190, June 17-19, 1985, Boston, Massachusetts, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=327161"
+        }, 
+        {
+            "ArticleName": "John Gabriel, Tim Lindholm. E.L Lusk, R.A Chrerbeek. A Tutorial on the Warren Abstract Machine for Computational Logic. ANL-64-64, Argonne National Laboratory, June, 1985."
+        }, 
+        {
+            "ArticleName": "S. Habata, R. Nakaxaki, A Konagaya, A Atarashi and M. Umemura. Co-Operative High Performance Sequential Inference Machine: CHI. Proceedings of ICCD'87. New York, 1987."
+        }, 
+        {
+            "ArticleName": "Mark Hill , Susan Eggers , Jim Larus , George Taylor , Glenn Adams , B. K. Bose , Garth Gibson , Paul Hansen , Jon Keller , Shing Kong , Corinna Lee , Daebum Lee , Joan Pendleton , Scott Ritchie , David A. Wood , Ben Zorn , Paul Hilfinger , Dave Hodges , Randy Katz , John Ousterhout , Dave Patterson, Design Decisions in SPUR, Computer, v.19 n.11, p.8-22, November 1986", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.1986.1663096", 
+            "DOIname": "10.1109/MC.1986.1663096", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=9486"
+        }, 
+        {
+            "ArticleName": "M. Meier, P. Dufresne, A Herold, D. de Villeneuve. Sepia: An Extendible Prolog System. To appear in the proceedings of IFlP89."
+        }, 
+        {
+            "ArticleName": "S. Kawakita, M. Saito, Y. Hoshino, Y. Bandai, Y. Kobayashi. An Integrated Al Environment for Industrial Expert Systems. International Workshop on Al for Industrial Applications 1968, IEEE Computer Society, 1988, pp. 258-263."
+        }, 
+        {
+            "ArticleName": "K. Kurosawal S. Yamaguchil S. Abel' T. Bandoh. Instruction Architecture for a High Performance tntegrated Prolog Processor IPP. Proceedings of the 5th International Conference L Symposium on Logic Programming, Hitachi Research Lab., August, 1988, pp. 1507-1530."
+        }, 
+        {
+            "ArticleName": "Hiroshi Nakashima and Katsuto Nakajima. Hardware architecture of the sequential inference machine: PSI-II. Proceedings - 1987 Symposium on Logic Programming, IEEE Computer Society, September, 1987. pp. 104 - 113."
+        }, 
+        {
+            "ArticleName": "J. Noye. J.C. Syre, et al. ICM3: Design and evaluation of an Inference Crunching Machine. Database Machines and Knowledge Base Machines, October, 1967, pp. p. 3-l 6."
+        }, 
+        {
+            "ArticleName": "M. Meier. Shalbw Backtracking in Prolog Programs. Technical Report TR-LP. ECRC, February, 1987."
+        }, 
+        {
+            "ArticleName": "A. Pudner. DLM - A Powerful Al Computer For Embedded Expert Systems. Frontiers in Computing, December, 1987, pp. 187 - 201."
+        }, 
+        {
+            "ArticleName": "M.L Ross, K. Rammaohanarao. Paging strategy for Prolog based on dynamic virtual memory. TR 86/8, University of Melbourne, August, 1986."
+        }, 
+        {
+            "ArticleName": "Leon Sterling , Ehud Shapiro, The art of Prolog: advanced programming techniques, MIT Press, Cambridge, MA, 1986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=6686"
+        }, 
+        {
+            "ArticleName": "Evan lick Frwtiers in Logk Pmgmmming Architecture and Machine De&n. Volume I: Memory Petfonnance of Prolog Atchiteduros. Kluwer Academic Publishers, 1988."
+        }, 
+        {
+            "ArticleName": "Herve Touati and Alvin Despain. An empirical study of the Warren Abstract Machine. Proceedings - 1987 Symposium on Logii Programming, IEEE Computer Society, September, 1987, pp. 114 - 124."
+        }, 
+        {
+            "ArticleName": "David H.D. Warren. Implementing Prolog. 49 and 50, University of Edinburgh, May, 1977."
+        }, 
+        {
+            "ArticleName": "David H. D. Warren. An abstract prolog instruction set. tn309. SRI. October. 1983."
+        }, 
+        {
+            "ArticleName": "A. Yamamoto. M. Mitsui. M. Yokota, K. Nakajiama. The Program Characteristics in Logic Programming Language ESP. OKI Electric, 1966."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "H. Benker"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "J. M. Beacco"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "M. Dorochevsky"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "Th. Jeffr\u00e9"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "A. P\u00f6hlmann"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "J. Noy\u00e9"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "B. Poterie"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "J. C. Syre"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "O. Thibault"
+        }, 
+        {
+            "Affiliation": "ECRC, Arabellastr. 17,800O Muenchen 81, West Germany", 
+            "Name": "G. Watzlawik"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74947&preflayout=flat"
+}

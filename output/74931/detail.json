@@ -1,0 +1,346 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Lubomir Bic , Mayez Al-Mouhamed, The EM-4 under implicit parallelism, Proceedings of the 7th international conference on Supercomputing, p.21-26, July 19-23, 1993, Tokyo, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165946"
+        }, 
+        {
+            "ArticleName": "Shuichi Sakai , Kazuaki Okamoto , Hiroshi Matsuoka , Hideo Hirono , Yuetsu Kodama , Mitsuhisa Sato, Super-threading: architectural and software mechanisms for optimizing parallel computation, Proceedings of the 7th international conference on Supercomputing, p.251-260, July 19-23, 1993, Tokyo, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165976"
+        }, 
+        {
+            "ArticleName": "Sholin Kyo , Satoshi Sekiguchi , Mitsuhisa Sato, Data stream control optimization in dataflow architectures, Proceedings of the 7th international conference on Supercomputing, p.37-46, July 19-23, 1993, Tokyo, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165950"
+        }, 
+        {
+            "ArticleName": "Walid A. Najjar , Lucas Roh , A. P. Wim B\u00f6hm, The Initial Performance of a Bottom-Up Clustering Algorithm for Dataflow Graphs, Proceedings of the IFIP WG10.3. Working Conference on Architectures and Compilation Techniques for Fine and Medium Grain Parallelism, p.91-100, January 20-22, 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=714253"
+        }, 
+        {
+            "ArticleName": "M. Yasugi , Satoshi Matsuoka , Akinori Yonezawa, The Plan-Du Style Compilation Technique for Eager Data Transfer in Thread-Based Execution, Proceedings of the IFIP WG10.3 Working Conference on Parallel Architectures and Compilation Techniques, p.57-66, August 24-26, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=713817"
+        }, 
+        {
+            "ArticleName": "Ben Lee , A. R. Hurson, Dataflow Architectures and Multithreading, Computer, v.27 n.8, p.27-39, August 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=620032"
+        }, 
+        {
+            "ArticleName": "Masato Motomura , Toshiaki Inoue , Sunao Torii , Akihiko Konagaya, Ordered multithreading: a novel technique for exploiting thread-level parallelism, Proceedings of the IFIP WG10.3 working conference on Parallel architectures and compilation techniques, p.37-48, June 27-29, 1995, Limassol, Cyprus", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224678"
+        }, 
+        {
+            "ArticleName": "Andrew Sohn , Lingmian Kong , Mitsuhisa Sato, Progress Report on Porting Sisal to the EM-4 Multiprocessor, Proceedings of the IFIP WG10.3 Working Conference on Parallel Architectures and Compilation Techniques, p.351-354, August 24-26, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=713839"
+        }, 
+        {
+            "ArticleName": "Satoshi Amamiya , Makoto Amamiya , Ryuzo Hasegawa , Hiroshi Fujita, A continuation-based noninterruptible multithreading processor architecture, The Journal of Supercomputing, v.47 n.2, p.228-252, February 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1502540"
+        }, 
+        {
+            "ArticleName": "Lucas Roh , Walid A. Najjar , Bhanu Shankar , A. P. Wim B\u00f6hm, An Evaluation of Optimized Threaded Code Generation, Proceedings of the IFIP WG10.3 Working Conference on Parallel Architectures and Compilation Techniques, p.37-46, August 24-26, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=713812"
+        }, 
+        {
+            "ArticleName": "Yuetsu Kodama , Yasuhito Koumura , Mitsuhisa Sato , Hirohumi Sakane , Shuichi Sakai , Yoshinori Yamaguchi, EMC-Y: parallel processing element optimizing communication and computation, Proceedings of the 7th international conference on Supercomputing, p.167-174, July 19-23, 1993, Tokyo, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165967"
+        }, 
+        {
+            "ArticleName": "Bhanu Shankar , Lucas Roh , Wim B\u00f6hm , Walid Najjar, Control of loop parallelism in multithreaded code, Proceedings of the IFIP WG10.3 working conference on Parallel architectures and compilation techniques, p.131-139, June 27-29, 1995, Limassol, Cyprus", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224707"
+        }, 
+        {
+            "ArticleName": "Akinori Yonezawa , Satoshi Matsuoka , Masahiro Yasugi , Kenjiro Taura, Implementing Concurrent Object-Oriented Languages on Multicomputers, IEEE Parallel & Distributed Technology: Systems & Technology, v.1 n.2, p.49-61, May 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=613809"
+        }, 
+        {
+            "ArticleName": "Mitsuhisa Sato , Yuetsu Kodama , Shuichi Sakai , Yoshinori Yamaguchi, EM-C: Programming with Explicit Parallelism and Locality for EM-4 Multiprocessor, Proceedings of the IFIP WG10.3 Working Conference on Parallel Architectures and Compilation Techniques, p.3-14, August 24-26, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=713831"
+        }, 
+        {
+            "ArticleName": "Andrew Sohn , Chinhyun Kim , Mitsuhisa Sato, Multithreading with the EM-4 distributed-memory multiprocessor, Proceedings of the IFIP WG10.3 working conference on Parallel architectures and compilation techniques, p.27-36, June 27-29, 1995, Limassol, Cyprus", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224676"
+        }, 
+        {
+            "ArticleName": "Y. Kodama , S. Sakai , Y. Yamaguchi, Load balancing by function distribution on the EM-4 prototype, Proceedings of the 1991 ACM/IEEE conference on Supercomputing, p.522-531, November 18-22, 1991, Albuquerque, New Mexico, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=126091"
+        }, 
+        {
+            "ArticleName": "Andrew Petersen , Andrew Putnam , Martha Mercaldi , Andrew Schwerin , Susan Eggers , Steve Swanson , Mark Oskin, Reducing control overhead in dataflow architectures, Proceedings of the 15th international conference on Parallel architectures and compilation techniques, September 16-20, 2006, Seattle, Washington, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1152184"
+        }, 
+        {
+            "ArticleName": "Kei Hiraki , Toshio Shimada , Satoshi Sekiguchi, Empirical study of latency hiding on a fine-grain parallel processor, Proceedings of the 7th international conference on Supercomputing, p.220-229, July 19-23, 1993, Tokyo, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165972"
+        }, 
+        {
+            "ArticleName": "Yuetsu Kodama , Hirohumi Sakane , Mitsuhisa Sato , Hayato Yamana , Shuichi Sakai , Yoshinori Yamaguchi, The EM-X parallel computer: architecture and basic performance, ACM SIGARCH Computer Architecture News, v.23 n.2, p.14-23, May 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223987"
+        }, 
+        {
+            "ArticleName": "Eun Ha Rho , Sang Yong Han , Heung Hwan Kim , Dae Joon Hwang, Effects of data bundling in non-strict data structures, Proceedings of the IFIP WG10.3 working conference on Parallel architectures and compilation techniques, p.140-148, June 27-29, 1995, Limassol, Cyprus", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224709"
+        }, 
+        {
+            "ArticleName": "Muhammad Umar Farooq , Lizy K. John, Loop-Aware Instruction Scheduling with Dynamic Contention Tracking for Tiled Dataflow Architectures, Proceedings of the 18th International Conference on Compiler Construction: Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2009, p.190-203, March 22-29, 2009, York, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1532842"
+        }, 
+        {
+            "ArticleName": "T. Kawano , S. Kusakabe , R.-I. Taniguchi , M. Amamiya, Fine-grain multi-thread processor architecture for massively parallel processing, Proceedings of the 1st IEEE Symposium on High-Performance Computer Architecture, p.308, January 22-25, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822618"
+        }, 
+        {
+            "ArticleName": "Mitsuhisa Sato , Yuetsu Kodama , Shuichi Sakai , Yoshinori Yamaguchi , Yasuhito Koumura, Thread-based programming for the EM-4 hybrid dataflow machine, ACM SIGARCH Computer Architecture News, v.20 n.2, p.146-155, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=139712"
+        }, 
+        {
+            "ArticleName": "Andrew Sohn , Mitsuhisa Sato , Shuichi Sakai , Yuetsu Kodama , Yoshinori Yamaguchi, Nonnumeric search results on the EM-4 distributed-memory multiprocessor, Proceedings of the 1994 ACM/IEEE conference on Supercomputing, November 14-18, 1994, Washington, D.C.", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=602828"
+        }, 
+        {
+            "ArticleName": "Masahiro Yasugi , Satoshi Matsuoka , Akinori Yonezawa, ABCL/onEM-4: a new software/hardware architecture for object-oriented concurrent computing on an extended dataflow supercomputer, Proceedings of the 6th international conference on Supercomputing, p.93-103, July 19-24, 1992, Washington, D. C., United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143392"
+        }, 
+        {
+            "ArticleName": "Gregory M. Papadopoulos , Kenneth R. Traub, Multithreading: a revisionist view of dataflow architectures, ACM SIGARCH Computer Architecture News, v.19 n.3, p.342-351, May 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=115986"
+        }, 
+        {
+            "ArticleName": "Toshitsugu Yuba , Toshio Shimada , Yoshinori Yamaguchi , Kei Hiraki , Shuichi Sakai, Dataflow computer development in Japan, ACM SIGARCH Computer Architecture News, v.18 n.3b, p.140-147, Sept. 1990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255151"
+        }, 
+        {
+            "ArticleName": "M. Amamiya , T. Kawano , H. Tomiyasu , S. Kusakabe, A practical processor design for multithreading, Proceedings of the 6th Symposium on the Frontiers of Massively Parallel Computation, p.23, March 27-31, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=796700"
+        }, 
+        {
+            "ArticleName": "A. R. Hurson , Krishna M. Kavi , Behrooz Shirazi , Ben Lee, Cache Memories for Dataflow Systems, IEEE Parallel & Distributed Technology: Systems & Technology, v.4 n.4, p.50-64, December 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=613985"
+        }, 
+        {
+            "ArticleName": "Hayato Yamana , Mitsuhisa Sato , Yuetsu Kodama , Hirofumi Sakane , Shuichi Sakai , Yoshinori Yamaguchi, A macrotask-level unlimited speculative execution on multiprocessors, Proceedings of the 9th international conference on Supercomputing, p.328-337, July 03-07, 1995, Barcelona, Spain", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224620"
+        }, 
+        {
+            "ArticleName": "Satoshi Amamiya , Masaaki Izumi , Takanori Matsuzaki , Ryuzo Hasegawa , Makoto Amamiya, Fuce: the continuation-based multithreading processor, Proceedings of the 4th international conference on Computing frontiers, May 07-09, 2007, Ischia, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1242563"
+        }, 
+        {
+            "ArticleName": "Yulu Yang , Akira Funahashi , Akiya Jouraku , Hiroaki Nishi , Hideharu Amano , Toshinori Sueyoshi, Recursive Diagonal Torus: An Interconnection Network for Massively Parallel Computers, IEEE Transactions on Parallel and Distributed Systems, v.12 n.7, p.701-715, July 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=507296"
+        }, 
+        {
+            "ArticleName": "Walid A. Najjar , W. Marcus Miller , A. P. Wim B\u00f6hm, An analysis of loop latency in dataflow execution, ACM SIGARCH Computer Architecture News, v.20 n.2, p.352-360, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=140397"
+        }, 
+        {
+            "ArticleName": "Andrew Sohn , Yuetsu Kodama , Jui-Yuan Ku , Mitsuhisa Sato , Yoshinori Yamaguchi, Tolerating communication latency through dynamic thread invocation in a multithreaded architecture, Compiler optimizations for scalable parallel systems: languages, compilation techniques, and run time systems, Springer-Verlag New York, Inc., New York, NY, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=380481"
+        }, 
+        {
+            "ArticleName": "Makoto Amamiya , Hiroshi Tomiyasu , Rin-Ichiro Taniguchi , P\\'eter Kacsuk , Zsolt N\\'emeth, Multithreaded architecture for multimedia processing, Integrated Computer-Aided Engineering, v.7 n.1, p.19-37, January 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1275754"
+        }, 
+        {
+            "ArticleName": "Andrew Sohn , Yuetsu Kodama , Jui Ku , Mitsuhisa Sato , Hirofumi Sakane , Hayato Yamana , Shuichi Sakai , Yoshinori Yamaguchi, Fine-grain multithreading with the EM-X multiprocessor, Proceedings of the ninth annual ACM symposium on Parallel algorithms and architectures, p.189-198, June 23-25, 1997, Newport, Rhode Island, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=258511"
+        }, 
+        {
+            "ArticleName": "William Marcus Miller , Walid A. Najjar , A. P. Wim B\u00f6hm, A quantitative analysis of locality in dataflow programs, Proceedings of the 24th annual international symposium on Microarchitecture, p.12-18, September 1991, Albuquerque, New Mexico, Puerto Rico", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=123469"
+        }, 
+        {
+            "ArticleName": "Shigeru Kusakabe , Mitsuhiro Aono , Masaaki Izumi , Satoshi Amamiya , Yoshinari Nomura , Hideo Taniguchi , Makoto Amamiya, Scalability of continuation-based fine-grained multithreading in handling multiple I/O requests on FUCE, Proceedings of the 4th international conference on Computing frontiers, May 07-09, 2007, Ischia, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1242564"
+        }, 
+        {
+            "ArticleName": "David E. Culler , Klaus E. Schauser , Thorsten von Eicken, Two Fundamental Limits on Dataflow Multiprocessing, Proceedings of the IFIP WG10.3. Working Conference on Architectures and Compilation Techniques for Fine and Medium Grain Parallelism, p.153-164, January 20-22, 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=714362"
+        }, 
+        {
+            "ArticleName": "Eligiusz Wajda, SPIRE: streaming processing with instructions release element, ACM SIGARCH Computer Architecture News, v.20 n.1, p.45-54, March 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=130825"
+        }, 
+        {
+            "ArticleName": "Lucas Roh , Walid A. Najjar, Analysis of communications and overhead reduction in multithreaded execution, Proceedings of the IFIP WG10.3 working conference on Parallel architectures and compilation techniques, p.122-130, June 27-29, 1995, Limassol, Cyprus", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224704"
+        }, 
+        {
+            "ArticleName": "G. M. Papadopoulos , G. A. Boughton , R. Greiner , M. J. Beckerle, T: integrated building blocks for parallel computing, Proceedings of the 1993 ACM/IEEE conference on Supercomputing, p.624-635, December 1993, Portland, Oregon, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=169811"
+        }, 
+        {
+            "ArticleName": "Steven Swanson , Ken Michelson , Andrew Schwerin , Mark Oskin, WaveScalar, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.291, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956546"
+        }, 
+        {
+            "ArticleName": "Takeshi Horie , Kenichi Hayashi , Toshiyuki Shimizu , Hiroaki Ishihata, Improving AP1000 parallel computer performance with message communication, ACM SIGARCH Computer Architecture News, v.21 n.2, p.314-325, May 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165168"
+        }, 
+        {
+            "ArticleName": "J. P. Grossman , Jeffrey S. Kuskin , Joseph A. Bank , Michael Theobald , Ron O. Dror , Douglas J. Ierardi , Richard H. Larson , U. Ben Schafer , Brian Towles , Cliff Young , David E. Shaw, Hardware support for fine-grained event-driven computation in Anton 2, ACM SIGPLAN Notices, v.48 n.4, April 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451175"
+        }, 
+        {
+            "ArticleName": "A. P. W. B\u00f6hm , W. A. Najjar , B. Shankar , L. Roh, An evaluation of bottom-up and top-down thread generation techniques, Proceedings of the 26th annual international symposium on Microarchitecture, p.118-127, December 01-03, 1993, Austin, Texas, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255270"
+        }, 
+        {
+            "ArticleName": "A. P. W. B\u00f6hm , W. A. Najjar , B. Shankar , L. Roh, An evaluation of bottom-up and top-down thread generation techniques, Proceedings of the 26th annual international symposium on Microarchitecture, p.118-127, December 01-03, 1993, Austin, Texas, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255270"
+        }, 
+        {
+            "ArticleName": "David E. Culler , Anurag Sah , Klaus E. Schauser , Thorsten von Eicken , John Wawrzynek, Fine-grain parallelism with minimal hardware support: a compiler-controlled threaded abstract machine, ACM SIGARCH Computer Architecture News, v.19 n.2, p.164-175, Apr. 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=106990"
+        }, 
+        {
+            "ArticleName": "Gurindar S. Sohi, Amir Roth: Speculative Multithreaded Processors, Proceedings of the 7th International Conference on High Performance Computing, p.259-270, December 17-20, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=652901"
+        }, 
+        {
+            "ArticleName": "Jorge Luiz E. Silva , Joelmir Jos\u00e9 Lopes, A dynamic dataflow architecture using partial reconfigurable hardware as an option for multiple cores, WSEAS Transactions on Computers, v.9 n.5, p.429-444, May 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1852426"
+        }, 
+        {
+            "ArticleName": "Lucas Roh , Walid A. Najjar , A. P. Wim B\u00f6hm, Generation and quantitative evaluation of dataflow clusters, Proceedings of the conference on Functional programming languages and computer architecture, p.159-168, June 09-11, 1993, Copenhagen, Denmark", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165201"
+        }, 
+        {
+            "ArticleName": "Wei Siong Tan , H. Russ , Cecil O. Alford, GT-EP: a novel high-performance real-time architecture, ACM SIGARCH Computer Architecture News, v.19 n.3, p.13-21, May 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=115955"
+        }, 
+        {
+            "ArticleName": "R. S. Nikhil , G. M. Papadopoulos , Arvind, T: a multithreaded massively parallel architecture, ACM SIGARCH Computer Architecture News, v.20 n.2, p.156-167, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=139715"
+        }, 
+        {
+            "ArticleName": "Lucas Roh , Walid A. Najjar , A.P.Wim B\u00f6hm, Generation, Optimization, and Evaluation of Multithreaded Code, Journal of Parallel and Distributed Computing, v.32 n.2, p.188-204, Feb. 1, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=236652"
+        }, 
+        {
+            "ArticleName": "Klaus E. Schauser , David E. Culler , Seth C. Goldstein, Separation constraint partitioning: a new algorithm for partitioning non-strict programs into sequential threads, Proceedings of the 22nd ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.259-271, January 23-25, 1995, San Francisco, California, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=199511"
+        }, 
+        {
+            "ArticleName": "Martha Mercaldi , Steven Swanson , Andrew Petersen , Andrew Putnam , Andrew Schwerin , Mark Oskin , Susan J. Eggers, Instruction scheduling for a tiled dataflow architecture, ACM SIGOPS Operating Systems Review, v.40 n.5, December 2006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168876"
+        }, 
+        {
+            "ArticleName": "Ivan P. Radivojevic , Jayantha Herath, Executing DSP Applications in a Fine-Grained Dataflow Environment, IEEE Transactions on Software Engineering, v.17 n.10, p.1028-1041, October 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=126287"
+        }, 
+        {
+            "ArticleName": "Martha Mercaldi , Steven Swanson , Andrew Petersen , Andrew Putnam , Andrew Schwerin , Mark Oskin , Susan J. Eggers, Modeling instruction placement on a spatial architecture, Proceedings of the eighteenth annual ACM symposium on Parallelism in algorithms and architectures, July 30-August 02, 2006, Cambridge, Massachusetts, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1148137"
+        }, 
+        {
+            "ArticleName": "Bumyong Choi , Leo Porter , Dean M. Tullsen, Accurate branch prediction for short threads, ACM SIGARCH Computer Architecture News, v.36 n.1, March 2008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346298"
+        }, 
+        {
+            "ArticleName": "G.R. Gao, An Efficient Hybrid Dataflow Architecture Model, Journal of Parallel and Distributed Computing, v.19 n.4, p.293-307, Dec. 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=175039"
+        }, 
+        {
+            "ArticleName": "W. Marcus Miller , Walid A. Najjar , A. P. Wim B\u00f6hm, A model for dataflow based vector execution, Proceedings of the 8th international conference on Supercomputing, p.11-22, July 11-15, 1994, Manchester, England", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=181197"
+        }, 
+        {
+            "ArticleName": "Richard P. Martin , Amin M. Vahdat , David E. Culler , Thomas E. Anderson, Effects of communication latency, overhead, and bandwidth in a cluster architecture, ACM SIGARCH Computer Architecture News, v.25 n.2, p.85-97, May 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264146"
+        }, 
+        {
+            "ArticleName": "John Plevyak , Xingbin Zhang , Andrew A. Chien, Obtaining sequential efficiency for concurrent object-oriented languages, Proceedings of the 22nd ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.311-321, January 23-25, 1995, San Francisco, California, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=199524"
+        }, 
+        {
+            "ArticleName": "Vijay Karamcheti , John Plevyak , Andrew A. Chien, Runtime Mechanisms for Efficient Dynamic Multithreading, Journal of Parallel and Distributed Computing, v.37 n.1, p.21-40, Aug. 25, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=241173"
+        }, 
+        {
+            "ArticleName": "Wesley M. Johnston , J. R. Paul Hanna , Richard J. Millar, Advances in dataflow programming languages, ACM Computing Surveys (CSUR), v.36 n.1, p.1-34, March 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1013209"
+        }, 
+        {
+            "ArticleName": "Jurij Silc , Borut Robi\u010d , Theo Ungerer, Asynchrony in parallel computing: from dataflow to multithreading, Progress in computer research, Nova Science Publishers, Inc., Commack, NY, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=568127"
+        }, 
+        {
+            "ArticleName": "Asynchrony in parallel computing: from dataflow to multithreading, Progress in computer research, Nova Science Publishers, Inc., Commack, NY, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=506175"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 13, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 538, 
+        "CitationCount": 67
+    }, 
+    "Title": "An architecture of a dataflow single chip processor", 
+    "Abstract": "A highly parallel (more than a thousand) dataflow machine EM-4 is now under development. The EM-4 design principle is to construct a high performance computer using a compact architecture by overcoming several defects of dataflow machines. Constructing the EM-4, it is essential to fabricate a processing element (PE) on a single chip for reducing operation speed, system size, design complexity and cost. In the EM-4, the PE , called EMC-R, has been specially designed using a 50,000-gate gate array chip. This paper focuses on an architecture of the EMC-R. The distinctive features of it are: a strongly connected arc dataflow model; a direct matching scheme; a RISC-based design; a deadlock-free on-chip packet switch; and an integration of a packet-based circular pipeline and a register-based advanced control pipeline. These features are intensively examined, and the instruction set architecture and the configuration architecture which exploit them are described.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "M. Amamiya , M. Takesue , R. Hasegawa , H. Mikami, Implementation and evaluation of a list-processing-oriented data flow machine, Proceedings of the 13th annual international symposium on Computer architecture, p.10-19, June 02-05, 1986, Tokyo, Japan", 
+            "DOIhref": "http://doi.acm.org/10.1145/17407.17358", 
+            "DOIname": "10.1145/17407.17358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=17358"
+        }, 
+        {
+            "ArticleName": "Dertouzos Arvind , M.L. , R. A. Iannucci, A MULTIPROCESSOR EMULATION FACILITY, Massachusetts Institute of Technology, Cambridge, MA, 1983", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=889915"
+        }, 
+        {
+            "ArticleName": "Dennis,J.B., Lim,W.Y.P. and Ackerman,W.B.: The MIT Datatlow Engineering Model, Proc. IFIP Congress 83. 553560 (1983)."
+        }, 
+        {
+            "ArticleName": "J. R Gurd , C. C Kirkham , I. Watson, The Manchester prototype dataflow computer, Communications of the ACM, v.28 n.1, p.34-52, Jan. 1985", 
+            "DOIhref": "http://doi.acm.org/10.1145/2465.2468", 
+            "DOIname": "10.1145/2465.2468", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2468"
+        }, 
+        {
+            "ArticleName": "Hiraki, Sekiguti.S. artd Shimada,T.: System Architecture of a Datatlow Supercomputer. TENCON87, Seoul (1987)."
+        }, 
+        {
+            "ArticleName": "Otsuka,Y., Sakai,S. and Yuba,T.: Static Load Allocation in DataRow Machines, Pmt. of Technical Group on Computer Architecture, IECE Japan, CA.%-136, in Japanese (1986)."
+        }, 
+        {
+            "ArticleName": "Sakai,S., Yamaguchi,Y., Hiraki.IC. and YubaJ.: Introduction of a Strongly-Connected-Arc Model in a Data Driven Single Chip tissor EMC-R. Proc. Datallow Workshop 1987, EXE Japan, pp.231-238, in Japanese (1987)."
+        }, 
+        {
+            "ArticleName": "Shimada,T., Hiraki,K. Nishida,K. and Sekiguchi.S.: Evaluation of a Prototype Data Flow Processor of the SIGMA-l for Scientific Computations, Inf. Process. Leu.,l6, 3, pp.139-143 (1983)."
+        }, 
+        {
+            "ArticleName": "Yoshinori Yamaguchi , Kenji Toda , Toshitsugu Yuba, A performance evaluation of a Lisp-based data-driven machine (EM-3), Proceedings of the 10th annual international symposium on Computer architecture, p.363-369, June 13-17, 1983, Stockholm, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/800046.801675", 
+            "DOIname": "10.1145/800046.801675", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801675"
+        }, 
+        {
+            "ArticleName": "Yamaguchi,Y. SakaiS., An Architectural Design of a Highly Parallel Dataflow Machine, to appear in IFIP'89 (1989)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Electrotechnical Laboratory, l-l-4 Umezono, Tsukuba, Ibaraki 305. JAPAN", 
+            "Name": "S. Sakai"
+        }, 
+        {
+            "Affiliation": "Electrotechnical Laboratory, l-l-4 Umezono, Tsukuba, Ibaraki 305. JAPAN", 
+            "Name": "y. Yamaguchi"
+        }, 
+        {
+            "Affiliation": "Electrotechnical Laboratory, l-l-4 Umezono, Tsukuba, Ibaraki 305. JAPAN", 
+            "Name": "K. Hiraki"
+        }, 
+        {
+            "Affiliation": "Electrotechnical Laboratory, l-l-4 Umezono, Tsukuba, Ibaraki 305. JAPAN", 
+            "Name": "Y. Kodama"
+        }, 
+        {
+            "Affiliation": "Electrotechnical Laboratory, l-l-4 Umezono, Tsukuba, Ibaraki 305. JAPAN", 
+            "Name": "T. Yuba"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74931&preflayout=flat"
+}

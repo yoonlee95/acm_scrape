@@ -1,0 +1,367 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Haibo Zhang , Prasanna Venkatesh Rengasamy , Nachiappan Chidambaram Nachiappan , Shulin Zhao , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, FLOSS: FLOw sensitive scheduling on mobile platforms, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196052"
+        }, 
+        {
+            "ArticleName": "Orhan Kislal , Jagadish Kotra , Xulong Tang , Mahmut Taylan Kandemir , Myoungsoo Jung, Enhancing computation-to-core assignment with physical location information, Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 18-22, 2018, Philadelphia, PA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3192386"
+        }, 
+        {
+            "ArticleName": "Haibo Zhang , Prasanna Venkatesh Rengasamy , Shulin Zhao , Nachiappan Chidambaram Nachiappan , Anand Sivasubramaniam , Mahmut T. Kandemir , Ravi Iyer , Chita R. Das, Race-to-sleep + content caching + display caching: a recipe for energy-efficient video streaming on handhelds, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123948"
+        }, 
+        {
+            "ArticleName": "Amirali Boroumand , Saugata Ghose , Youngsok Kim , Rachata Ausavarungnirun , Eric Shiu , Rahul Thakur , Daehyun Kim , Aki Kuusela , Allan Knies , Parthasarathy Ranganathan , Onur Mutlu, Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173177"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 475, 
+        "Downloads_6Weeks": 19, 
+        "Downloads_cumulative": 475, 
+        "CitationCount": 4
+    }, 
+    "Title": "Data movement aware computation partitioning", 
+    "Abstract": "Data access costs dominate the execution times of most parallel applications and they are expected to be even more important in the future. To address this, recent research has focused on Near Data Processing (NDP) as a new paradigm that tries to bring computation to data, instead of bringing data to computation (which is the norm in conventional computing). This paper explores the potential of compiler support in exploiting NDP in the context of emerging manycore systems. To that end, we propose a novel compiler algorithm that partitions the computations in a given loop nest into subcomputations and schedules the resulting subcomputations on different cores with the goal of reducing the distance-to-data on the on-chip network. An important characteristic of our approach is that it exploits NDP while taking advantage of data locality. Our experiments with 12 multithreaded applications running on a state-of-the-art commercial manycore system indicate that the proposed compiler-based approach significantly reduces data movements on the on-chip network by taking advantage of NDP, and these benefits lead to an average execution time improvement of 18.4%.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Vignesh Adhinarayanan, Indrani Paul, Joseph L Greathouse, Wei Huang, Ashutosh Pattnaik, and Wu-chun Feng. 2016. Measuring and modeling on-chip interconnect power on real hardware. In Proceedings of the 2016 IEEE International Symposium on Workload Characterization (IISWC)."
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, PIM-enabled instructions: a low-overhead, locality-aware processing-in-memory architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750385", 
+            "DOIname": "10.1145/2749469.2750385", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750385"
+        }, 
+        {
+            "ArticleName": "Ashwin Mandayam Aji , Antonio J. Pe\u00f1a , Pavan Balaji , Wu-chun Feng, Automatic Command Queue Scheduling for Task-Parallel Workloads in OpenCL, Proceedings of the 2015 IEEE International Conference on Cluster Computing, p.42-51, September 08-11, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/CLUSTER.2015.15", 
+            "DOIname": "10.1109/CLUSTER.2015.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2859678"
+        }, 
+        {
+            "ArticleName": "C\u00e9dric Augonnet , Samuel Thibault , Raymond Namyst , Pierre-Andr\u00e9 Wacrenier, StarPU: a unified platform for task scheduling on heterogeneous multicore architectures, Concurrency and Computation: Practice & Experience, v.23 n.2, p.187-198, February 2011", 
+            "DOIhref": "https://dx.doi.org/10.1002/cpe.1631", 
+            "DOIname": "10.1002/cpe.1631", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1951454"
+        }, 
+        {
+            "ArticleName": "Erfan Azarkhish, Davide Rossi, Igor Loi, and Luca Benini. 2014. A Logic-base Interconnect for Supporting Near Memory Computation in the Hybrid Memory Cube. In Proceedings of the 2nd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "Rajeev Balasubramonian, Jichuan Chang, Troy Manning, Jaime H Moreno, Richard Murphy, Ravi Nair, and Steven Swanson. 2014. Near-data processing: Insights from a MICRO-46 Workshop. Micro, IEEE (2014)."
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Uday Bondhugula , Albert Hartono , J. Ramanujam , P. Sadayappan, A practical automatic polyhedral parallelizer and locality optimizer, Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 07-13, 2008, Tucson, AZ, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375581.1375595", 
+            "DOIname": "10.1145/1375581.1375595", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375595"
+        }, 
+        {
+            "ArticleName": "Amirali Boroumand, Saugata Ghose, Brandon Lucia, Kevin Hsieh, Krishna Malladi, Hongzhong Zheng, and Onur Mutlu. 2016. LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory. IEEE Computer Architecture Letters (2016)."
+        }, 
+        {
+            "ArticleName": "J. Carter , W. Hsieh , L. Stoller , M. Swanson , L. Zhang , E. Brunvand , A. Davis , C.-C. Kuo , R. Kuramkote , M. Parker , L. Schaelicke , T. Tateyama, Impulse: Building a Smarter Memory Controller, Proceedings of the 5th International Symposium on High Performance Computer Architecture, p.70, January 09-12, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822749"
+        }, 
+        {
+            "ArticleName": "Dhruba Chandra , Fei Guo , Seongbeom Kim , Yan Solihin, Predicting Inter-Thread Cache Contention on a Chip Multi-Processor Architecture, Proceedings of the 11th International Symposium on High-Performance Computer Architecture, p.340-351, February 12-16, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2005.27", 
+            "DOIname": "10.1109/HPCA.2005.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1043432"
+        }, 
+        {
+            "ArticleName": "Ping Chi , Shuangchen Li , Cong Xu , Tao Zhang , Jishen Zhao , Yongpan Liu , Yu Wang , Yuan Xie, PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.13", 
+            "DOIname": "10.1109/ISCA.2016.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001140"
+        }, 
+        {
+            "ArticleName": "Michael Chu , Rajiv Ravindran , Scott Mahlke, Data Access Partitioning for Fine-grain Parallelism on Multicore Architectures, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.369-380, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.11", 
+            "DOIname": "10.1109/MICRO.2007.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331732"
+        }, 
+        {
+            "ArticleName": "Reetuparna Das , Rachata Ausavarungnirun , Onur Mutlu , Akhilesh Kumar , Mani Azimi, Application-to-core mapping policies to reduce memory interference in multi-core systems, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370893", 
+            "DOIname": "10.1145/2370816.2370893", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370893"
+        }, 
+        {
+            "ArticleName": "Raja Das , Mustafa Uysal , Joel Saltz , Yuan-Shin Hwang, Communication optimizations for irregular scientific computations on distributed memory architectures, Journal of Parallel and Distributed Computing, v.22 n.3, p.462-478, Sept. 1994", 
+            "DOIhref": "https://dx.doi.org/10.1006/jpdc.1994.1104", 
+            "DOIname": "10.1006/jpdc.1994.1104", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=186538"
+        }, 
+        {
+            "ArticleName": "Mohammad Dashti , Alexandra Fedorova , Justin Funston , Fabien Gaud , Renaud Lachaize , Baptiste Lepers , Vivien Quema , Mark Roth, Traffic management: a holistic approach to memory placement on NUMA systems, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451157", 
+            "DOIname": "10.1145/2451116.2451157", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451157"
+        }, 
+        {
+            "ArticleName": "Wei Ding , Mahmut Kandemir , Praveen Yedlapalli , Yuanrui Zhang , Jithendra Srinivas, Locality-aware mapping and scheduling for multicores, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-12, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6495009", 
+            "DOIname": "10.1109/CGO.2013.6495009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495917"
+        }, 
+        {
+            "ArticleName": "Wei Ding , Xulong Tang , Mahmut Kandemir , Yuanrui Zhang , Emre Kultursay, Optimizing off-chip accesses in multicores, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2737989", 
+            "DOIname": "10.1145/2737924.2737989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2737989"
+        }, 
+        {
+            "ArticleName": "Yasuko Eckert, Nuwan Jayasena, and Gabriel H Loh. 2014. Thermal feasibility of die-stacked processing in memory. In Proceedings of the 2nd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "Maya Gokhale , Bill Holmes , Ken Iobst, Processing in Memory: The Terasys Massively Parallel PIM Array, Computer, v.28 n.4, p.23-31, April 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.375174", 
+            "DOIname": "10.1109/2.375174", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=620191"
+        }, 
+        {
+            "ArticleName": "Qi Guo, Nikolaos Alachiotis, Berkin Akin,Fazle Sadi, Guanglin Xu, Tze Meng Low, Larry Pileggi, James C Hoe, and Franz Franchetti. 2014. 3D-Stacked Memory-Side Acceleration: Accelerator and system design. In Proceedings of the 2nd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "Milad Hashemi , Khubaib , Eiman Ebrahimi , Onur Mutlu , Yale N. Patt, Accelerating dependent cache misses with an enhanced memory controller, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.46", 
+            "DOIname": "10.1109/ISCA.2016.46", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001184"
+        }, 
+        {
+            "ArticleName": "Michael A Heroux, Douglas W Doerfler, Paul S Crozier, James M Willenbring, H Carter Edwards, Alan Williams, Mahesh Rajan, Eric R Keiter, Heidi K Thornquist, and Robert W Numrich. 2009. Improving Performance via Mini-applications. Sandia National Laboratories, Tech. Rep. (2009)."
+        }, 
+        {
+            "ArticleName": "Kevin Hsieh , Eiman Ebrahimi , Gwangsun Kim , Niladrish Chatterjee , Mike O'Connor , Nandita Vijaykumar , Onur Mutlu , Stephen W. Keckler, Transparent offloading and mapping (TOM): enabling programmer-transparent near-data processing in GPU systems, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.27", 
+            "DOIname": "10.1109/ISCA.2016.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001159"
+        }, 
+        {
+            "ArticleName": "A. S. Huang , G. Slavenburg , J. P. Shen, Speculative disambiguation: a compilation technique for dynamic memory disambiguation, Proceedings of the 21st annual international symposium on Computer architecture, p.200-210, April 18-21, 1994, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/191995.192012", 
+            "DOIname": "10.1145/191995.192012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=192012"
+        }, 
+        {
+            "ArticleName": "Nuwan Jayasena, Dong Ping Zhang, Amin Farmahini-Farahani, and Mike Ignatowski. 2015. Realizing the Full Potential of Heterogeneity through Processing in Memory. In Proceedings of the 3rd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "James Jeffers , James Reinders , Avinash Sodani, Intel Xeon Phi Processor High Performance Programming: Knights Landing Edition 2nd Edition, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2016", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3050856"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 A. Joao , M. Aater Suleman , Onur Mutlu , Yale N. Patt, Bottleneck identification and scheduling in multithreaded applications, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151001", 
+            "DOIname": "10.1145/2150976.2151001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151001"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Tuba Kesten , Ashutosh Pattnaik , Evgeny Bolotin , Niladrish Chatterjee , Stephen W. Keckler , Mahmut T. Kandemir , Chita R. Das, Anatomy of GPU Memory System for Multi-Application Execution, Proceedings of the 2015 International Symposium on Memory Systems, October 05-08, 2015, Washington DC, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818950.2818979", 
+            "DOIname": "10.1145/2818950.2818979", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818979"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Ashutosh Pattnaik , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Exploiting Core Criticality for Enhanced GPU Performance, Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science, June 14-18, 2016, Antibes Juan-les-Pins, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2896377.2901468", 
+            "DOIname": "10.1145/2896377.2901468", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901468"
+        }, 
+        {
+            "ArticleName": "Mahmut Kandemir , Hui Zhao , Xulong Tang , Mustafa Karakoy, Memory Row Reuse Distance and its Role in Optimizing Application Performance, Proceedings of the 2015 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems, June 15-19, 2015, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2745844.2745867", 
+            "DOIname": "10.1145/2745844.2745867", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2745867"
+        }, 
+        {
+            "ArticleName": "Onur Kayiran , Adwait Jog , Ashutosh Pattnaik , Rachata Ausavarungnirun , Xulong Tang , Mahmut T. Kandemir , Gabriel H. Loh , Onur Mutlu , Chita R. Das, \u03bcC-States: Fine-grained GPU Datapath Power Management, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967941", 
+            "DOIname": "10.1145/2967938.2967941", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967941"
+        }, 
+        {
+            "ArticleName": "Changkyu Kim , Doug Burger , Stephen W. Keckler, An adaptive, non-uniform cache structure for wire-delay dominated on-chip caches, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605420", 
+            "DOIname": "10.1145/605397.605420", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605420"
+        }, 
+        {
+            "ArticleName": "Gwangsun Kim, John Kim, Jung Ho Ahn, and Yongkee Kwon. 2014. Memory Network: Enabling Technology for Scalable Near-Data Computing. In Proceedings of the 2nd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim, Dongsu Han, Onur Mutlu, and Mor Harchol-Balter. 2010. ATLAS: A Scalable and High-performance Scheduling Algorithm for Multiple Memory Controllers. In Proceedings of the 16th International Symposium on High Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "Orhan Kislal, Jagadish Kotra, Xulong Tang, Mahmut Taylan Kandemir, and Myoungsoo Jung. 2017. POSTER: Location-Aware Computation Mapping for Manycore Processors.. In Proceedings of the 2017 International Conference on Parallel Architectures and Compilation."
+        }, 
+        {
+            "ArticleName": "Induprakas Kodukula , Nawaaz Ahmed , Keshav Pingali, Data-centric multi-level blocking, Proceedings of the ACM SIGPLAN 1997 conference on Programming language design and implementation, p.346-357, June 16-18, 1997, Las Vegas, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/258915.258946", 
+            "DOIname": "10.1145/258915.258946", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=258946"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Shuangchen Li, Dimin Niu, Krishna T. Malladi, Hongzhong Zheng, Bob Brennan, and Yuan Xie. 2017. DRISA: A DRAM-based Reconfigurable In-Situ Accelerator. In Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Wei Li, COMPILING FOR NUMA PARALLEL MACHINES, Cornell University, Ithaca, NY, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=866749"
+        }, 
+        {
+            "ArticleName": "Amy W. Lim , Gerald I. Cheong , Monica S. Lam, An affine partitioning algorithm to maximize parallelism and minimize communication, Proceedings of the 13th international conference on Supercomputing, p.228-237, June 20-25, 1999, Rhodes, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/305138.305197", 
+            "DOIname": "10.1145/305138.305197", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=305197"
+        }, 
+        {
+            "ArticleName": "G. Lipovski , C. Yu, The Dynamic Associative Access Memory Chip and Its Application to SIMD Processing and Full-Text Database Retrieval, Proceedings of the 1999 IEEE International Workshop on Memory Technology, Design, and Testing, p.24, August 09-10, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825093"
+        }, 
+        {
+            "ArticleName": "Gu Liu , Hong An , Wenting Han , Xiaoqiang Li , Tao Sun , Wei Zhou , Xuechao Wei , Xulong Tang, FlexBFS: a parallelism-aware implementation of breadth-first search on GPU, Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming, February 25-29, 2012, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145816.2145853", 
+            "DOIname": "10.1145/2145816.2145853", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145853"
+        }, 
+        {
+            "ArticleName": "Jun Liu , Jagadish Kotra , Wei Ding , Mahmut Kandemir, Network footprint reduction through data access and computation placement in NoC-based manycores, Proceedings of the 52nd Annual Design Automation Conference, p.1-6, June 07-11, 2015, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2744769.2744876", 
+            "DOIname": "10.1145/2744769.2744876", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2744876"
+        }, 
+        {
+            "ArticleName": "Lei Liu , Zehan Cui , Mingjie Xing , Yungang Bao , Mingyu Chen , Chengyong Wu, A software memory partition approach for eliminating bank-level interference in multicore systems, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370869", 
+            "DOIname": "10.1145/2370816.2370869", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370869"
+        }, 
+        {
+            "ArticleName": "Henrik L\u00f6f , Sverker Holmgren, affinity-on-next-touch: increasing the performance of an industrial PDE solver on a cc-NUMA system, Proceedings of the 19th annual international conference on Supercomputing, June 20-22, 2005, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/1088149.1088201", 
+            "DOIname": "10.1145/1088149.1088201", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1088201"
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh, 3D-Stacked Memory Architectures for Multi-core Processors, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.453-464, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.15", 
+            "DOIname": "10.1109/ISCA.2008.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382159"
+        }, 
+        {
+            "ArticleName": "Qingda Lu , Christophe Alias , Uday Bondhugula , Thomas Henretty , Sriram Krishnamoorthy , J. Ramanujam , Atanas Rountev , P. Sadayappan , Yongjian Chen , Haibo Lin , Tin-fook Ngai, Data Layout Transformation for Enhancing Data Locality on NUCA Chip Multiprocessors, Proceedings of the 2009 18th International Conference on Parallel Architectures and Compilation Techniques, p.348-357, September 12-16, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2009.36", 
+            "DOIname": "10.1109/PACT.2009.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1637728"
+        }, 
+        {
+            "ArticleName": "Dror E. Maydan , John L. Hennessy , Monica S. Lam, Efficient and exact data dependence analysis, Proceedings of the ACM SIGPLAN 1991 conference on Programming language design and implementation, p.1-14, June 24-28, 1991, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/113445.113447", 
+            "DOIname": "10.1145/113445.113447", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=113447"
+        }, 
+        {
+            "ArticleName": "S.P Midkiff and D.A. Padua. 1991. A comparison of four synchronization optimization techniques. In Proceedings 20th International Conference Parallel Processing 1991."
+        }, 
+        {
+            "ArticleName": "Nachiappan Chidambaram Nachiappan , Haibo Zhang , Jihyun Ryoo , Niranjan Soundararajan , Anand Sivasubramaniam , Mahmut T. Kandemir , Ravi Iyer , Chita R. Das, VIP: virtualizing IP chains on handheld platforms, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750382", 
+            "DOIname": "10.1145/2749469.2750382", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750382"
+        }, 
+        {
+            "ArticleName": "Ashutosh Pattnaik , Xulong Tang , Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Chita R. Das, Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967940", 
+            "DOIname": "10.1145/2967938.2967940", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967940"
+        }, 
+        {
+            "ArticleName": "Prasanna Venkatesh Rengasamy, Haibo Zhang, Nachiappan Chidhambaram Nachiappan, Shulin Zhao, Anand Sivasubramaniam, Mahmut Kandemir, and Chita R. Das. 2017. Characterizing Diverse Handheld apps for Customized Hardware Acceleration. In Proceedings of 2017 IEEE International Symposium on Workload Characterization (IISWC)."
+        }, 
+        {
+            "ArticleName": "Erik Riedel, Christos Faloutsos, and David Nagle. 2000. Active disk architecture for databases. Technical Report. DTIC Document."
+        }, 
+        {
+            "ArticleName": "Akbar Shrifi, Wei Ding, Diana Guttman, Hui Zhao, Xulong Tang, Mahmut Kandemir, and Chita Das. 2017. DEMM: a Dynamic Energy-saving mechanism for Multicore Memories. In Proceedings of the 25th IEEE International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems."
+        }, 
+        {
+            "ArticleName": "Avinash Sodani , Roger Gramunt , Jesus Corbal , Ho-Seop Kim , Krishna Vinod , Sundaram Chinthamani , Steven Hutsell , Rajat Agarwal , Yen-Chen Liu, Knights Landing: Second-Generation Intel Xeon Phi Product, IEEE Micro, v.36 n.2, p.34-46, March 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2016.25", 
+            "DOIname": "10.1109/MM.2016.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2927563"
+        }, 
+        {
+            "ArticleName": "Xulong Tang, Hong An, Gongjin Sun, and Dongrui Fan. 2013. A Video Coding Benchmark Suite for Evaluation of Processor Capability. In SNPD."
+        }, 
+        {
+            "ArticleName": "Xulong Tang, Mahmut Kandemir, Praveen Yedlapalli, and Jagadish Kotra. 2016. Improving Bank-Level Parallelism for Irregular Applications. In Proceedings of the 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Xulong Tang, Ashutosh Pattnaik, Huaipan Jiang, Onur Kayiran, Adwait Jog, Sreepathi Pai, Mohamed Ibrahim, Mahmut Kandemir, and Chita Das. 2017. Controlled Kernel Launch for Dynamic Parallelism in GPUs. In Proceedings of the 23rd International Symposium on High-Performance Computer Architecture."
+        }, 
+        {
+            "ArticleName": "Prashanth Thinakaran, Jashwant Raj Gunasekaran, Bikash Sharma, Mahmut Taylan Kandemir, and Chita R Das. 2017. Phoenix: A Constraint-Aware Scheduler for Heterogeneous Datacenters. In Proceedings of the 37th International Conference on Distributed Computing Systems (ICDCS)."
+        }, 
+        {
+            "ArticleName": "Shyamkumar Thoziyoor , Jung Ho Ahn , Matteo Monchiero , Jay B. Brockman , Norman P. Jouppi, A Comprehensive Memory Modeling Tool and Its Application to the Design and Analysis of Future Memory Hierarchies, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.51-62, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.16", 
+            "DOIname": "10.1109/ISCA.2008.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382127"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "Lifan Xu, Dong Ping Zhang, and Nuwan Jayasena. 2015. Scaling Deep Learning on Multiple In-Memory Processors. In Proceedings of the 3rd Workshop on Near-Data Processing."
+        }, 
+        {
+            "ArticleName": "Haibo Zhang , Prasanna Venkatesh Rengasamy , Shulin Zhao , Nachiappan Chidambaram Nachiappan , Anand Sivasubramaniam , Mahmut T. Kandemir , Ravi Iyer , Chita R. Das, Race-to-sleep + content caching + display caching: a recipe for energy-efficient video streaming on handhelds, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/3123939.3123948", 
+            "DOIname": "10.1145/3123939.3123948", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123948"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Xulong Tang"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Orhan Kislal"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Mahmut Kandemir"
+        }, 
+        {
+            "Affiliation": "TOBB University of Economics and Technology, TURKEY", 
+            "Name": "Mustafa Karakoy"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123954&preflayout=flat"
+}

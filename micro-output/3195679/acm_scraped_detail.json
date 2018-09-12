@@ -1,0 +1,319 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 9, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 9, 
+        "CitationCount": 0
+    }, 
+    "Title": "Exploiting semantic commutativity in hardware speculation", 
+    "Abstract": "Hardware speculative execution schemes such as hardware transactional memory (HTM) enjoy low run-time overheads but suffer from limited concurrency because they rely on reads and writes to detect conflicts. By contrast, software speculation schemes can exploit semantic knowledge of concurrent operations to reduce conflicts. In particular, they often exploit that many operations on shared data, like insertions into sets, are semantically commutative: they produce semantically equivalent results when reordered. However, software techniques often incur unacceptable run-time overheads. To solve this dichotomy, we present CommTM, an HTM that exploits semantic commutativity. CommTM extends the coherence protocol and conflict detection scheme to support user-defined commutative operations. Multiple cores can perform commutative operations to the same data concurrently and without conflicts. CommTM preserves transactional guarantees and can be applied to arbitrary HTMs. CommTM scales on many operations that serialize in conventional HTMs, like set insertions, reference counting, and top-K insertions, and retains the low overhead of HTMs. As a result, at 128 cores, CommTM outperforms a conventional eager-lazy HTM by up to 3.4X and reduces or eliminates aborts.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Atul Adya , Barbara H. Liskov, Weak consistency: a generalized theory and optimistic implementations for distributed transactions, Massachusetts Institute of Technology, Cambridge, MA, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=930194"
+        }, 
+        {
+            "ArticleName": "Anant Agarwal , Ricardo Bianchini , David Chaiken , Kirk L. Johnson , David Kranz , John Kubiatowicz , Beng-Hong Lim , Kenneth Mackenzie , Donald Yeung, The MIT Alewife machine: architecture and performance, Proceedings of the 22nd annual international symposium on Computer architecture, p.2-13, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223985", 
+            "DOIname": "10.1145/223982.223985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223985"
+        }, 
+        {
+            "ArticleName": "Alaa R. Alameldeen , David A. Wood, IPC Considered Harmful for Multiprocessor Workloads, IEEE Micro, v.26 n.4, p.8-17, July 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2006.73", 
+            "DOIname": "10.1109/MM.2006.73", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1159081"
+        }, 
+        {
+            "ArticleName": "C. Scott Ananian , Krste Asanovic , Bradley C. Kuszmaul , Charles E. Leiserson , Sean Lie, Unbounded Transactional Memory, Proceedings of the 11th International Symposium on High-Performance Computer Architecture, p.316-327, February 12-16, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2005.41", 
+            "DOIname": "10.1109/HPCA.2005.41", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1043430"
+        }, 
+        {
+            "ArticleName": "Utku Aydonat , Tarek S. Abdelrahman, Hardware Support for Relaxed Concurrency Control in Transactional Memory, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.15-26, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.25", 
+            "DOIname": "10.1109/MICRO.2010.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935008"
+        }, 
+        {
+            "ArticleName": "Peter Bailis , Alan Fekete , Michael J. Franklin , Ali Ghodsi , Joseph M. Hellerstein , Ion Stoica, Coordination avoidance in database systems, Proceedings of the VLDB Endowment, v.8 n.3, p.185-196, November 2014", 
+            "DOIhref": "https://dx.doi.org/10.14778/2735508.2735509", 
+            "DOIname": "10.14778/2735508.2735509", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2735509"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Colin Blundell , Arun Raghavan , Milo M.K. Martin, RETCON: transactional repair without replay, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815995", 
+            "DOIname": "10.1145/1815961.1815995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815995"
+        }, 
+        {
+            "ArticleName": "Jayaram Bobba , Kevin E. Moore , Haris Volos , Luke Yen , Mark D. Hill , Michael M. Swift , David A. Wood, Performance pathologies in hardware transactional memory, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250674", 
+            "DOIname": "10.1145/1250662.1250674", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250674"
+        }, 
+        {
+            "ArticleName": "Calin Cascaval , Colin Blundell , Maged Michael , Harold W. Cain , Peng Wu , Stefanie Chiras , Siddhartha Chatterjee, Software Transactional Memory: Why Is It Only a Research Toy?, Queue, v.6 n.5, September 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454456.1454466", 
+            "DOIname": "10.1145/1454456.1454466", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454466"
+        }, 
+        {
+            "ArticleName": "Luis Ceze , James Tuck , Josep Torrellas , Calin Cascaval, Bulk Disambiguation of Speculative Threads in Multiprocessors, Proceedings of the 33rd annual international symposium on Computer Architecture, p.227-238, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.13", 
+            "DOIname": "10.1109/ISCA.2006.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136506"
+        }, 
+        {
+            "ArticleName": "Hassan Chafi , Jared Casper , Brian D. Carlstrom , Austen McDonald , Chi Cao Minh , Woongki Baek , Christos Kozyrakis , Kunle Olukotun, A Scalable, Non-blocking Approach to Transactional Memory, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.97-108, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346189", 
+            "DOIname": "10.1109/HPCA.2007.346189", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318105"
+        }, 
+        {
+            "ArticleName": "Austin T. Clements , M. Frans Kaashoek , Nickolai Zeldovich , Robert T. Morris , Eddie Kohler, The scalable commutativity rule: designing scalable software for multicore processors, Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles, November 03-06, 2013, Farminton, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2517349.2522712", 
+            "DOIname": "10.1145/2517349.2522712", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2522712"
+        }, 
+        {
+            "ArticleName": "C. Click, \"Azul's experiences with hardware transactional memory,\" in Transactional Memory Workshop, 2009."
+        }, 
+        {
+            "ArticleName": "William James Dally , Brian Patrick Towles, Principles and Practices of Interconnection Networks, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2821589"
+        }, 
+        {
+            "ArticleName": "Timothy A. Davis , Yifan Hu, The university of Florida sparse matrix collection, ACM Transactions on Mathematical Software (TOMS), v.38 n.1, p.1-25, November 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2049662.2049663", 
+            "DOIname": "10.1145/2049662.2049663", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2049663"
+        }, 
+        {
+            "ArticleName": "Joseph Devietti , Brandon Lucia , Luis Ceze , Mark Oskin, DMP: deterministic shared memory multiprocessing, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508255", 
+            "DOIname": "10.1145/1508244.1508255", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508255"
+        }, 
+        {
+            "ArticleName": "Lance Hammond , Mark Willey , Kunle Olukotun, Data speculation support for a chip multiprocessor, Proceedings of the eighth international conference on Architectural support for programming languages and operating systems, p.58-69, October 02-07, 1998, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/291069.291020", 
+            "DOIname": "10.1145/291069.291020", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=291020"
+        }, 
+        {
+            "ArticleName": "Lance Hammond , Vicky Wong , Mike Chen , Brian D. Carlstrom , John D. Davis , Ben Hertzberg , Manohar K. Prabhu , Honggo Wijaya , Christos Kozyrakis , Kunle Olukotun, Transactional Memory Coherence and Consistency, Proceedings of the 31st annual international symposium on Computer architecture, p.102, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006711"
+        }, 
+        {
+            "ArticleName": "Maurice Herlihy , Eric Koskinen, Transactional boosting: a methodology for highly-concurrent transactional objects, Proceedings of the 13th ACM SIGPLAN Symposium on Principles and practice of parallel programming, February 20-23, 2008, Salt Lake City, UT, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1345206.1345237", 
+            "DOIname": "10.1145/1345206.1345237", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1345237"
+        }, 
+        {
+            "ArticleName": "Mark D. Hill, Is transactional memory an oxymoron?, Proceedings of the VLDB Endowment, v.1 n.1, August 2008", 
+            "DOIhref": "https://dx.doi.org/10.14778/1453856.1453858", 
+            "DOIname": "10.14778/1453856.1453858", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1453858"
+        }, 
+        {
+            "ArticleName": "G. Hinton, D. Sager, M. Upton, D. Boggs et al., \"The microarchitecture of the Pentium\u00ae 4 processor,\" in Intel Technology Journal, 2001."
+        }, 
+        {
+            "ArticleName": "Syed Ali Raza Jafri , Gwendolyn Voskuilen , T. N. Vijaykumar, Wait-n-GoTM: improving HTM performance by serializing cyclic dependencies, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451173", 
+            "DOIname": "10.1145/2451116.2451173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451173"
+        }, 
+        {
+            "ArticleName": "Mark C. Jeffrey , Suvinay Subramanian , Cong Yan , Joel Emer , Daniel Sanchez, A scalable architecture for ordered parallelism, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830777", 
+            "DOIname": "10.1145/2830772.2830777", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830777"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni , Donald Nguyen , Dimitrios Prountzos , Xin Sui , Keshav Pingali, Exploiting the commutativity lattice, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993562", 
+            "DOIname": "10.1145/1993498.1993562", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993562"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni , Keshav Pingali , Bruce Walter , Ganesh Ramanarayanan , Kavita Bala , L. Paul Chew, Optimistic parallelism requires abstractions, Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 10-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250734.1250759", 
+            "DOIname": "10.1145/1250734.1250759", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250759"
+        }, 
+        {
+            "ArticleName": "Heiner Litz , David Cheriton , Amin Firoozshahian , Omid Azizi , John P. Stevenson, SI-TM: reducing transactional memory abort rates through snapshot isolation, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541952", 
+            "DOIname": "10.1145/2541940.2541952", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541952"
+        }, 
+        {
+            "ArticleName": "K. Mackenzie , J. Kubiatowicz , M. Frank , W Lee , V Lee , A. Agarwal , M. Kaashoek, Exploiting Two-Case Delivery for Fast Protected Messaging, Proceedings of the 4th International Symposium on High-Performance Computer Architecture, p.231, January 31-February 04, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822708"
+        }, 
+        {
+            "ArticleName": "C. C. Minh, J. Chung, C. Kozyrakis, and K. Olukotun, \"STAMP: Stanford transactional applications for multi-processing,\" in IISWC, 2008."
+        }, 
+        {
+            "ArticleName": "K. Moore, J. Bobba, M. Moravan, M. D. Hill, and D. A. Wood, \"LogTM: log-based transactional memory.\" in HPCA-12, 2006."
+        }, 
+        {
+            "ArticleName": "Michelle J. Moravan , Jayaram Bobba , Kevin E. Moore , Luke Yen , Mark D. Hill , Ben Liblit , Michael M. Swift , David A. Wood, Supporting nested transactional memory in logTM, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168902", 
+            "DOIname": "10.1145/1168857.1168902", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168902"
+        }, 
+        {
+            "ArticleName": "J. E. B. Moss, \"Open nested transactions: Semantics and support,\" in WMPI, 2006."
+        }, 
+        {
+            "ArticleName": "Shubhendu S. Mukherjee , Peter Bannon , Steven Lang , Aaron Spink , David Webb, The Alpha 21364 Network Architecture, Proceedings of the The Ninth Symposium on High Performance Interconnects, p.113, August 22-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876330"
+        }, 
+        {
+            "ArticleName": "Neha Narula , Cody Cutler , Eddie Kohler , Robert Morris, Phase reconciliation for contended in-memory transactions, Proceedings of the 11th USENIX conference on Operating Systems Design and Implementation, October 06-08, 2014, Broomfield, CO", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685088"
+        }, 
+        {
+            "ArticleName": "Li-Shiuan Peh , William J. Dally, A Delay Model and Speculative Architecture for Pipelined Routers, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.255, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876446"
+        }, 
+        {
+            "ArticleName": "Prakash Prabhu , Soumyadeep Ghosh , Yun Zhang , Nick P. Johnson , David I. August, Commutative set: a language extension for implicit parallel programming, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993500", 
+            "DOIname": "10.1145/1993498.1993500", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993500"
+        }, 
+        {
+            "ArticleName": "Xuehai Qian , Wonsun Ahn , Josep Torrellas, ScalableBulk: Scalable Cache Coherence for Atomic Blocks in a Lazy Environment, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.447-458, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.29", 
+            "DOIname": "10.1109/MICRO.2010.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934989"
+        }, 
+        {
+            "ArticleName": "Xuehai Qian , Benjamin Sahelices , Josep Torrellas, OmniOrder: directory-based conflict serialization of transactions, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665734"
+        }, 
+        {
+            "ArticleName": "Hany E. Ramadan , Christopher J. Rossbach , Emmett Witchel, Dependence-aware transactional memory for increased concurrency, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.246-257, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771795", 
+            "DOIname": "10.1109/MICRO.2008.4771795", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521799"
+        }, 
+        {
+            "ArticleName": "Rodolfo F. Resende , Divyakant Agrawal , Amr El Abbadi, Semantic locking in object-oriented database systems, Proceedings of the ninth annual conference on Object-oriented programming systems, language, and applications, p.388-402, October 23-28, 1994, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/191080.191144", 
+            "DOIname": "10.1145/191080.191144", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=191144"
+        }, 
+        {
+            "ArticleName": "Martin C. Rinard , Pedro C. Diniz, Commutativity analysis: a new analysis framework for parallelizing compilers, Proceedings of the ACM SIGPLAN 1996 conference on Programming language design and implementation, p.54-67, May 21-24, 1996, Philadelphia, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/231379.231390", 
+            "DOIname": "10.1145/231379.231390", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=231390"
+        }, 
+        {
+            "ArticleName": "Wenjia Ruan , Trilok Vyas , Yujie Liu , Michael Spear, Transactionalizing legacy code: an experience report using GCC and Memcached, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541960", 
+            "DOIname": "10.1145/2541940.2541960", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541960"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, ZSim: fast and accurate microarchitectural simulation of thousand-core systems, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485963", 
+            "DOIname": "10.1145/2485922.2485963", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485963"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Richard M. Yoo , Christos Kozyrakis, Flexible architectural support for fine-grain scheduling, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736055", 
+            "DOIname": "10.1145/1736020.1736055", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736055"
+        }, 
+        {
+            "ArticleName": "Smruti R. Sarangi , Wei Liu, Josep Torrellas , Yuanyuan Zhou, ReSlice: Selective Re-Execution of Long-Retired Misspeculated Instructions Using Forward Slicing, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.257-270, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.28", 
+            "DOIname": "10.1109/MICRO.2005.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100555"
+        }, 
+        {
+            "ArticleName": "K. S. Shim, M. Lis, M. H. Cho, I. Lebedev, and S. Devadas, \"Design tradeoffs for simplicity and efficient verification in the Execution Migration Machine,\" in ICCD, 2013."
+        }, 
+        {
+            "ArticleName": "Julian Shun , Guy E. Blelloch , Jeremy T. Fineman , Phillip B. Gibbons, Reducing contention through priority updates, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442554", 
+            "DOIname": "10.1145/2442516.2442554", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442554"
+        }, 
+        {
+            "ArticleName": "T. Skare and C. Kozyrakis, \"Early release: Friend or foe?\" in WTW, 2006."
+        }, 
+        {
+            "ArticleName": "Gurindar S. Sohi , Scott E. Breach , T. N. Vijaykumar, Multiscalar processors, Proceedings of the 22nd annual international symposium on Computer architecture, p.414-425, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.224451", 
+            "DOIname": "10.1145/223982.224451", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224451"
+        }, 
+        {
+            "ArticleName": "Thorsten von Eicken , David E. Culler , Seth Copen Goldstein , Klaus Erik Schauser, Active messages: a mechanism for integrated communication and computation, Proceedings of the 19th annual international symposium on Computer architecture, p.256-266, May 19-21, 1992, Queensland, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/139669.140382", 
+            "DOIname": "10.1145/139669.140382", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=140382"
+        }, 
+        {
+            "ArticleName": "W. E. Weihl, Commutativity-Based Concurrency Control for Abstract Data Types, IEEE Transactions on Computers, v.37 n.12, p.1488-1505, December 1988", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.9728", 
+            "DOIname": "10.1109/12.9728", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=54026"
+        }, 
+        {
+            "ArticleName": "Henry Wong , Anne Bracy , Ethan Schuchman , Tor M. Aamodt , Jamison D. Collins , Perry H. Wang , Gautham Chinya , Ankur Khandelwal Groen , Hong Jiang , Hong Wang, Pangaea: a tightly-coupled IA32 heterogeneous chip multiprocessor, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454125", 
+            "DOIname": "10.1145/1454115.1454125", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454125"
+        }, 
+        {
+            "ArticleName": "Richard M. Yoo , Christopher J. Hughes , Konrad Lai , Ravi Rajwar, Performance evaluation of Intel\u00ae transactional synchronization extensions for high-performance computing, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 17-21, 2013, Denver, Colorado", 
+            "DOIhref": "http://doi.acm.org/10.1145/2503210.2503232", 
+            "DOIname": "10.1145/2503210.2503232", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2503232"
+        }, 
+        {
+            "ArticleName": "Guowei Zhang , Webb Horn , Daniel Sanchez, Exploiting commutativity to reduce the cost of updates to shared data in cache-coherent systems, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830774", 
+            "DOIname": "10.1145/2830772.2830774", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830774"
+        }, 
+        {
+            "ArticleName": "C. Zilles and L. Baugh, \"Extending hardware transactional memory to support non-busy waiting and non-transactional actions,\" in TRANSACT, 2006."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Guowei Zhang"
+        }, 
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Virginia Chiu"
+        }, 
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Daniel Sanchez"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195679&preflayout=flat"
+}

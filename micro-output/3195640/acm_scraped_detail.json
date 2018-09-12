@@ -1,0 +1,166 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 17, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 17, 
+        "CitationCount": 0
+    }, 
+    "Title": "Dictionary sharing: an efficient cache compression scheme for compressed caches", 
+    "Abstract": "The effectiveness of a compressed cache depends on three features: i) the compression scheme, ii) the compaction scheme, and iii) the cache layout of the compressed cache. Skewed compressed cache (SCC) and yet another compressed cache (YACC) are two recently proposed compressed cache layouts that feature minimal storage and latency overheads, while achieving comparable performance over more complex compressed cache layouts. Both SCC and YACC use compression techniques to compress individual cache blocks, and then a compaction technique to compact multiple contiguous compressed blocks into a single data entry. The primary attribute used by these techniques for compaction is the compression factor of the cache blocks, and in this process, they waste cache space. In this paper, we propose dictionary sharing (DISH), a dictionary based cache compression scheme that reduces this wastage. DISH compresses a cache block by keeping in mind that the block is a potential candidate for the compaction process. DISH encodes a cache block with a dictionary that stores the distinct 4-byte chunks of a cache block and the dictionary is shared among multiple neighboring cache blocks. The simple encoding scheme of DISH also provides a single cycle decompression latency and it does not change the cache layout of compressed caches. Compressed cache layouts that use DISH outperforms the compression schemes, such as BDI and CPACK+Z, in terms of compression ratio (from 1.7X to 2.3X), system performance (from 7.2% to 14.3%), and energy efficiency (from 6% to 16%).", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Somayeh Sardashti , David A. Wood, Decoupled compressed cache: exploiting spatial locality for energy-optimized compressed caching, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540715", 
+            "DOIname": "10.1145/2540708.2540715", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540715"
+        }, 
+        {
+            "ArticleName": "Somayeh Sardashti , Andr\u00e9 Seznec , David A. Wood, Skewed Compressed Caches, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.41", 
+            "DOIname": "10.1109/MICRO.2014.41", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742189"
+        }, 
+        {
+            "ArticleName": "Somayeh Sardashti , Andre Seznec , David A. Wood, Yet Another Compressed Cache: A Low-Cost Yet Effective Compressed Cache, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.3, p.1-25, September 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2976740", 
+            "DOIname": "10.1145/2976740", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2976740"
+        }, 
+        {
+            "ArticleName": "Masab Ahmad , Farrukh Hijaz , Qingchuan Shi , Omer Khan, CRONO: A Benchmark Suite for Multithreaded Graph Algorithms Executing on Futuristic Multicores, Proceedings of the 2015 IEEE International Symposium on Workload Characterization, p.44-55, October 04-06, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2015.11", 
+            "DOIname": "10.1109/IISWC.2015.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2863739"
+        }, 
+        {
+            "ArticleName": "Cloyce D. Spradling, SPEC CPU2006 benchmark tools, ACM SIGARCH Computer Architecture News, v.35 n.1, March 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1241601.1241625", 
+            "DOIname": "10.1145/1241601.1241625", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1241625"
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "Xi Chen , Lei Yang , Robert P. Dick , Li Shang , Haris Lekatsas, C-pack: a high-performance microprocessor cache compression algorithm, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.18 n.8, p.1196-1208, August 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2009.2020989", 
+            "DOIname": "10.1109/TVLSI.2009.2020989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1945585"
+        }, 
+        {
+            "ArticleName": "Aamer Jaleel , William Hasenplaugh , Moinuddin Qureshi , Julien Sebot , Simon Steely, Jr. , Joel Emer, Adaptive insertion policies for managing shared caches, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454145", 
+            "DOIname": "10.1145/1454115.1454145", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454145"
+        }, 
+        {
+            "ArticleName": "Aamer Jaleel , Kevin B. Theobald , Simon C. Steely, Jr. , Joel Emer, High performance cache replacement using re-reference interval prediction (RRIP), Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815971", 
+            "DOIname": "10.1145/1815961.1815971", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815971"
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar and R. Balasubramonian, \"CACTI 6.0: A tool to understand large caches.\""
+        }, 
+        {
+            "ArticleName": "Santhosh Srinath , Onur Mutlu , Hyesoon Kim , Yale N. Patt, Feedback Directed Prefetching: Improving the Performance and Bandwidth-Efficiency of Hardware Prefetchers, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.63-74, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346185", 
+            "DOIname": "10.1109/HPCA.2007.346185", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318101"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, Vantage: scalable and efficient fine-grain cache partitioning, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000073", 
+            "DOIname": "10.1145/2000064.2000073", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000073"
+        }, 
+        {
+            "ArticleName": "R Manikantan , Kaushik Rajan , R Govindarajan, Probabilistic shared cache management (PriSM), Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337208"
+        }, 
+        {
+            "ArticleName": "David Kadjo , Jinchun Kim , Prabal Sharma , Reena Panda , Paul Gratz , Daniel Jimenez, B-Fetch: Branch Prediction Directed Prefetching for Chip-Multiprocessors, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.29", 
+            "DOIname": "10.1109/MICRO.2014.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742218"
+        }, 
+        {
+            "ArticleName": "Allan Snavely , Dean M. Tullsen, Symbiotic jobscheduling for a simultaneous multithreaded processor, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.234-244, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379244", 
+            "DOIname": "10.1145/378993.379244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379244"
+        }, 
+        {
+            "ArticleName": "Julien Dusser , Thomas Piquet , Andr\u00e9 Seznec, Zero-content augmented caches, Proceedings of the 23rd international conference on Supercomputing, June 08-12, 2009, Yorktown Heights, NY, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1542275.1542288", 
+            "DOIname": "10.1145/1542275.1542288", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1542288"
+        }, 
+        {
+            "ArticleName": "Magnus Ekman , Per Stenstrom, A Robust Main-Memory Compression Scheme, Proceedings of the 32nd annual international symposium on Computer Architecture, p.74-85, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.6", 
+            "DOIname": "10.1109/ISCA.2005.6", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069978"
+        }, 
+        {
+            "ArticleName": "Alaa R. Alameldeen , David A. Wood, Adaptive Cache Compression for High-Performance Processors, Proceedings of the 31st annual international symposium on Computer architecture, p.212, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006719"
+        }, 
+        {
+            "ArticleName": "Angelos Arelakis , Per Stenstrom, SC2: a statistical compression cache scheme, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665696"
+        }, 
+        {
+            "ArticleName": "Angelos Arelakis , Fredrik Dahlgren , Per Stenstrom, HyComp: a hybrid cache compression method for selection of data-type-specific compression methods, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830823", 
+            "DOIname": "10.1145/2830772.2830823", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830823"
+        }, 
+        {
+            "ArticleName": "Jun Yang , Youtao Zhang , Rajiv Gupta, Frequent value compression in data caches, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.258-265, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360154", 
+            "DOIname": "10.1145/360128.360154", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360154"
+        }, 
+        {
+            "ArticleName": "A. R. Alameldeen and D. A. Wood, \"Frequent pattern compression: A significance-based compression scheme for 12 caches.,\" in Technical Report 1500, Computer Sciences Department, University of Wisconsin-Madison, 2004."
+        }, 
+        {
+            "ArticleName": "Yingying Tian , Samira M. Khan , Daniel A. Jim\u00e9nez , Gabriel H. Loh, Last-level cache deduplication, Proceedings of the 28th ACM international conference on Supercomputing, June 10-13, 2014, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/2597652.2597655", 
+            "DOIname": "10.1145/2597652.2597655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2597655"
+        }, 
+        {
+            "ArticleName": "Seungcheol Baek , Hyung Gyu Lee , Chrysostomos Nicopoulos , Junghee Lee , Jongman Kim, ECM: Effective Capacity Maximizer for high-performance compressed caching, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.131-142, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522313", 
+            "DOIname": "10.1109/HPCA.2013.6522313", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495502"
+        }, 
+        {
+            "ArticleName": "G. Pekhimenko, T. Huberty, R. Cai, O. Mutlu, P. B. Gibbons, M. A. Kozuch, and T. C. Mowry, \"Exploiting compressed block size as an indicator of future reuse,\" in High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on, pp. 51--63, Feb 2015."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "INRIA, Rennes, France", 
+            "Name": "Biswabandan Panda"
+        }, 
+        {
+            "Affiliation": "INRIA, Rennes, France", 
+            "Name": "Andr\u00e9 Seznec"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195640&preflayout=flat"
+}

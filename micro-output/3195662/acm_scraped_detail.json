@@ -1,0 +1,290 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Jinyang Li , Qingwei Guo , Fang Su , Zhe Yuan , Jinshan Yue , Jingtong Hu , Huazhong Yang , Yongpan Liu, CNN-based pattern recognition on nonvolatile IoT platform for smart ultraviolet monitoring, Proceedings of the 36th International Conference on Computer-Aided Design, p.888-893, November 13-16, 2017, Irvine, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3199822"
+        }, 
+        {
+            "ArticleName": "Chien-Yu Lin , Bo-Cheng Lai, Supporting compressed-sparse activations and weights on SIMD-like accelerator for sparse convolutional neural networks, Proceedings of the 23rd Asia and South Pacific Design Automation Conference, January 22-25, 2018, Jeju, Republic of Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3201630"
+        }, 
+        {
+            "ArticleName": "Sayeh Sharify , Alberto Delmas Lascorz , Kevin Siu , Patrick Judd , Andreas Moshovos, Loom: exploiting weight and activation precisions to accelerate convolutional neural networks, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196072"
+        }, 
+        {
+            "ArticleName": "Hyoukjun Kwon , Ananda Samajdar , Tushar Krishna, MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173176"
+        }, 
+        {
+            "ArticleName": "Liqiang Lu , Yun Liang, SpWA: an efficient sparse winograd convolutional neural networks accelerator on FPGAs, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196120"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu, Accelerator-centric deep learning systems for enhanced scalability, energy-efficiency, and programmability, Proceedings of the 23rd Asia and South Pacific Design Automation Conference, January 22-25, 2018, Jeju, Republic of Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3201732"
+        }, 
+        {
+            "ArticleName": "Yu Ji , Youhui Zhang , Wenguang Chen , Yuan Xie, Bridge the Gap between Neural Networks and Neuromorphic Hardware with a Neural Network Compiler, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173205"
+        }, 
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 106, 
+        "Downloads_6Weeks": 44, 
+        "Downloads_cumulative": 106, 
+        "CitationCount": 8
+    }, 
+    "Title": "Cambricon-x: an accelerator for sparse neural networks", 
+    "Abstract": "Neural networks (NNs) have been demonstrated to be useful in a broad range of applications such as image recognition, automatic translation and advertisement recommendation. State-of-the-art NNs are known to be both computationally and memory intensive, due to the ever-increasing deep structure, i.e., multiple layers with massive neurons and connections (i.e., synapses). Sparse neural networks have emerged as an effective solution to reduce the amount of computation and memory required. Though existing NN accelerators are able to efficiently process dense and regular networks, they cannot benefit from the reduction of synaptic weights. In this paper, we propose a novel accelerator, Cambricon-X, to exploit the sparsity and irregularity of NN models for increased efficiency. The proposed accelerator features a PE-based architecture consisting of multiple Processing Elements (PE). An Indexing Module (IM) efficiently selects and transfers needed neurons to connected PEs with reduced bandwidth requirement, while each PE stores irregular and compressed synapses for local computation in an asynchronous fashion. With 16 PEs, our accelerator is able to achieve at most 544 GOP/s in a small form factor (6.38 mm2 and 954 mW at 65 nm). Experimental results over a number of representative sparse networks show that our accelerator achieves, on average, 7.23x speedup and 6.43x energy saving against the state-of-the-art NN accelerator.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Rehan Hameed , Wajahat Qadeer , Megan Wachs , Omid Azizi , Alex Solomatnikov , Benjamin C. Lee , Stephen Richardson , Christos Kozyrakis , Mark Horowitz, Understanding sources of inefficiency in general-purpose chips, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815968", 
+            "DOIname": "10.1145/1815961.1815968", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815968"
+        }, 
+        {
+            "ArticleName": "Olivier Temam, A defect-tolerant accelerator for emerging high-performance applications, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337200"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.449-460, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.48", 
+            "DOIname": "10.1109/MICRO.2012.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457519"
+        }, 
+        {
+            "ArticleName": "K. Fan, S. Mahlke, and A. Arbor, \"Bridging the Computation Gap Between Programmable Processors and Hardwired Accelerators,\" in Proceedings of the IEEE 15th International Symposium on High Performance Computer Architecture (HPCA), pp. 313--322, 2009."
+        }, 
+        {
+            "ArticleName": "Ganesh Venkatesh , Jack Sampson , Nathan Goulding-Hotta , Sravanthi Kota Venkata , Michael Bedford Taylor , Steven Swanson, QsCores: trading dark silicon for scalable energy efficiency with quasi-specific cores, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155640", 
+            "DOIname": "10.1145/2155620.2155640", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155640"
+        }, 
+        {
+            "ArticleName": "S. Yehia, S. Girbal, H. Berry, and O. Temam, \"Reconciling specialization and flexibility through compound circuits,\" in Proceedings of the IEEE 15th International Symposium on High Performance Computer Architecture (HPCA), pp. 277--288, 2009."
+        }, 
+        {
+            "ArticleName": "G. Dahl, T. Sainath, and G. Hinton, \"Improving deep neural networks for LVCSR using rectified linear units and dropout,\" in Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 8609--8613, 2013."
+        }, 
+        {
+            "ArticleName": "Volodymyr Mnih , Geoffrey Hinton, Learning to label aerial images from noisy data, Proceedings of the 29th International Coference on International Conference on Machine Learning, p.203-210, June 26-July 01, 2012, Edinburgh, Scotland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3042603"
+        }, 
+        {
+            "ArticleName": "Po-Sen Huang , Xiaodong He , Jianfeng Gao , Li Deng , Alex Acero , Larry Heck, Learning deep structured semantic models for web search using clickthrough data, Proceedings of the 22nd ACM international conference on Information & Knowledge Management, October 27-November 01, 2013, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2505515.2505665", 
+            "DOIname": "10.1145/2505515.2505665", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2505665"
+        }, 
+        {
+            "ArticleName": "B. Liang and P. Dubey, \"Recognition, Mining and Synthesis,\" Intel Technology Journal, vol. 09, no. 02, 2005."
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "H. Esmaeilzadeh, P. Saeedi, B. Araabi, C. Lucas, and S. Fakhraie, \"Neural Network Stream Processing Core (NnSP) for Embedded Systems,\" in Proceedings of 2006 IEEE International Symposium on Circuits and Systems (ISCS), pp. 2773--2776, 2006."
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "Quoc V. Le , Marc'Aurelio Ranzato , Rajat Monga , Matthieu Devin , Kai Chen , Greg S. Corrado , Jeff Dean , Andrew Y. Ng, Building high-level features using large scale unsupervised learning, Proceedings of the 29th International Coference on International Conference on Machine Learning, p.507-514, June 26-July 01, 2012, Edinburgh, Scotland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3042641"
+        }, 
+        {
+            "ArticleName": "Adam Coates , Brody Huval , Tao Wang , David J. Wu , Andrew Y. Ng , Bryan Catanzaro, Deep learning with COTS HPC systems, Proceedings of the 30th International Conference on International Conference on Machine Learning, June 16-21, 2013, Atlanta, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3043086"
+        }, 
+        {
+            "ArticleName": "Nitish Srivastava , Geoffrey Hinton , Alex Krizhevsky , Ilya Sutskever , Ruslan Salakhutdinov, Dropout: a simple way to prevent neural networks from overfitting, The Journal of Machine Learning Research, v.15 n.1, p.1929-1958, January 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2670313"
+        }, 
+        {
+            "ArticleName": "Marc'Aurelio Ranzato , Christopher Poultney , Sumit Chopra , Yann LeCun, Efficient learning of sparse representations with an energy-based model, Proceedings of the 19th International Conference on Neural Information Processing Systems, p.1137-1144, December 04-07, 2006, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2976599"
+        }, 
+        {
+            "ArticleName": "Marc' Aurelio Ranzato , Y-Lan Boureau , Yann LeCun, Sparse feature learning for deep belief networks, Proceedings of the 20th International Conference on Neural Information Processing Systems, p.1185-1192, December 03-06, 2007, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2981711"
+        }, 
+        {
+            "ArticleName": "Honglak Lee , Chaitanya Ekanadham , Andrew Y. Ng, Sparse deep belief net model for visual area V2, Proceedings of the 20th International Conference on Neural Information Processing Systems, p.873-880, December 03-06, 2007, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2981672"
+        }, 
+        {
+            "ArticleName": "Honglak Lee , Alexis Battle , Rajat Raina , Andrew Y. Ng, Efficient sparse coding algorithms, Proceedings of the 19th International Conference on Neural Information Processing Systems, p.801-808, December 04-07, 2006, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2976557"
+        }, 
+        {
+            "ArticleName": "Song Han , Jeff Pool , John Tran , William J. Dally, Learning both weights and connections for efficient neural networks, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1135-1143, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969366"
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"The nvidia cuda sparse matrix library (cusparse),\"."
+        }, 
+        {
+            "ArticleName": "Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, \"Gradient-Based Learning Applied to Document Recognition,\" Proceedings of the IEEE, vol. 86, no. 11, pp. 2278--2324, 1998."
+        }, 
+        {
+            "ArticleName": "K. Simonyan and A. Zisserman, \"Very deep convolutional networks for large-scale image recognition,\" CoRR, vol. abs/1409.1556, 2014."
+        }, 
+        {
+            "ArticleName": "Iain S. Duff , Michael A. Heroux , Roldan Pozo, An overview of the sparse basic linear algebra subprograms: The new standard from the BLAS technical forum, ACM Transactions on Mathematical Software (TOMS), v.28 n.2, p.239-267, June 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/567806.567810", 
+            "DOIname": "10.1145/567806.567810", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=567810"
+        }, 
+        {
+            "ArticleName": "K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun, \"What is the best multi-stage architecture for object recognition?,\" in Proceedings of 2009 IEEE 12th International Conference on Computer Vision (ICCV), pp. 2146--2153, 2009."
+        }, 
+        {
+            "ArticleName": "B. a. Olshausen and D. J. Field, \"Emergence of simple-cell receptive field properties by learning a sparse code for natural images,\" Nature, vol. 381, no. 6583, pp. 607--609, 1996."
+        }, 
+        {
+            "ArticleName": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, \"Caffe: Convolutional architecture for fast feature embedding,\" arXiv preprint arXiv:1408.5093, 2014."
+        }, 
+        {
+            "ArticleName": "A. Rafique, G. A. Constantinides, and N. Kapre, \"Communication optimization of iterative sparse matrix-vector multiply on GPUs and FP-GAs,\" IEEE Transactions on Parallel and Distributed Systems, vol. 26, no. 1, pp. 24--34, 2015."
+        }, 
+        {
+            "ArticleName": "Z. Du, A. Lingamneni, Y. Chen, K. Palem, O. Temam, and C. Wu, \"Leveraging the error resilience of machine-learning applications for designing highly energy efficient accelerators,\" in Proceedings of 2014 19th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 201--206, 2014."
+        }, 
+        {
+            "ArticleName": "Charles E. Leiserson, Fat-trees: universal networks for hardware-efficient supercomputing, IEEE Transactions on Computers, v.34 n.10, p.892-901, Oct. 1985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=4495"
+        }, 
+        {
+            "ArticleName": "A. Krizhevsky, \"cuda-convnet: High-performance c++/cuda implementation of convolutional neural networks.\""
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar , Rajeev Balasubramonian , Norm Jouppi, Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.3-14, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.30", 
+            "DOIname": "10.1109/MICRO.2007.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331704"
+        }, 
+        {
+            "ArticleName": "Google Inc., \"Tensorflow: an open source software library for machine intelligence,\" 2015."
+        }, 
+        {
+            "ArticleName": "A. W. Savich , M. Moussa , S. Areibi, The Impact of Arithmetic Representation on Implementing MLP-BP on FPGAs: A Study, IEEE Transactions on Neural Networks, v.18 n.1, p.240-252, January 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/TNN.2006.883002", 
+            "DOIname": "10.1109/TNN.2006.883002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2327805"
+        }, 
+        {
+            "ArticleName": "Rafael Gadea Giron\u00e9s , Rafael Gadea Giron\u00e9s , Ricardo Colom Palero , Joaqu\u00edn Cerd\u00e1 Boluda , Joaqu\u00edn Cerd\u00e1 Boluda , Angel Sebastia Cort\u00e9s, FPGA Implementation of a Pipelined On-Line Backpropagation, Journal of VLSI Signal Processing Systems, v.40 n.2, p.189-213, June 2005", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11265-005-4961-3", 
+            "DOIname": "10.1007/s11265-005-4961-3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1057234"
+        }, 
+        {
+            "ArticleName": "Ernesto Ordo\u00f1ez-Cardenas , Rene de J. Romero-Troncoso, Mlp neural network and on-line backpropagation learning implementation in a low-cost fpga, Proceedings of the 18th ACM Great Lakes symposium on VLSI, May 04-06, 2008, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1366110.1366188", 
+            "DOIname": "10.1145/1366110.1366188", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1366188"
+        }, 
+        {
+            "ArticleName": "Murugan Sankaradas , Venkata Jakkula , Srihari Cadambi , Srimat Chakradhar , Igor Durdanovic , Eric Cosatto , Hans Peter Graf, A Massively Parallel Coprocessor for Convolutional Neural Networks, Proceedings of the 2009 20th IEEE International Conference on Application-specific Systems, Architectures and Processors, p.53-60, July 07-09, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ASAP.2009.25", 
+            "DOIname": "10.1109/ASAP.2009.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1602618"
+        }, 
+        {
+            "ArticleName": "C. Poulet, J. Y. Han, and Y. Lecun, \"CNP: An FPGA-based processor for Convolutional Networks,\" in Proceedings of the International Conference on Field Programmable Logic and Applications (FPL), pp. 32--37, 2009."
+        }, 
+        {
+            "ArticleName": "P. Sermanet and Y. LeCun, \"Traffic sign recognition with multi-scale Convolutional Networks,\" in Proceedings of the International Joint Conference on Neural Networks (IJCNN), pp. 2809--2813, 2011."
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Shijin Zhang , Shaoli Liu , Zidong Du , Tao Luo , Yuan Gao , Junjie Liu , Dongsheng Wang , Chengyong Wu , Ninghui Sun , Yunji Chen , Olivier Temam, A Small-Footprint Accelerator for Large-Scale Neural Networks, ACM Transactions on Computer Systems (TOCS), v.33 n.2, p.1-27, June 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2701417", 
+            "DOIname": "10.1145/2701417", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2701417"
+        }, 
+        {
+            "ArticleName": "C. Farabet, B. Martini, B. Corda, P. Akselrod, E. Culurciello, and Y. LeCun, \"NeuFlow: A runtime reconfigurable dataflow processor for vision,\" in Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pp. 109--116, 2011."
+        }, 
+        {
+            "ArticleName": "Srimat Chakradhar , Murugan Sankaradas , Venkata Jakkula , Srihari Cadambi, A dynamically configurable coprocessor for convolutional neural networks, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815993", 
+            "DOIname": "10.1145/1815961.1815993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815993"
+        }, 
+        {
+            "ArticleName": "Vinayak Gokhale , Jonghoon Jin , Aysegul Dundar , Berin Martini , Eugenio Culurciello, A 240 G-ops/s Mobile Coprocessor for Deep Neural Networks, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition Workshops, p.696-701, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPRW.2014.106", 
+            "DOIname": "10.1109/CVPRW.2014.106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2679649"
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China and University of Chinese Academy of Sciences, Beijing, China", 
+            "Name": "Shijin Zhang"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China", 
+            "Name": "Zidong Du"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China and University of Chinese Academy of Sciences, Beijing, China", 
+            "Name": "Lei Zhang"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China and University of Chinese Academy of Sciences, Beijing, China", 
+            "Name": "Huiying Lan"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China", 
+            "Name": "Shaoli Liu"
+        }, 
+        {
+            "Affiliation": "Institute of Automation, CAS, Beijing, China", 
+            "Name": "Ling Li"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China", 
+            "Name": "Qi Guo"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China and Cambricon Technologies Co., Ltd., China", 
+            "Name": "Tianshi Chen"
+        }, 
+        {
+            "Affiliation": "Institute of Computing Technology, CAS, Beijing, China", 
+            "Name": "Yunji Chen"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195662&preflayout=flat"
+}

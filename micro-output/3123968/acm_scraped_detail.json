@@ -1,0 +1,301 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 453, 
+        "Downloads_6Weeks": 16, 
+        "Downloads_cumulative": 453, 
+        "CitationCount": 0
+    }, 
+    "Title": "GPUpd: a fast and scalable multi-GPU architecture using cooperative projection and distribution", 
+    "Abstract": "Graphics Processing Unit (GPU) vendors have been scaling single-GPU architectures to satisfy the ever-increasing user demands for faster graphics processing. However, as it gets extremely difficult to further scale single-GPU architectures, the vendors are aiming to achieve the scaled performance by simultaneously using multiple GPUs connected with newly developed, fast inter-GPU networks (e.g., NVIDIA NVLink, AMD XDMA). With fast inter-GPU networks, it is now promising to employ split frame rendering (SFR) which improves both frame rate and single-frame latency by assigning disjoint regions of a frame to different GPUs. Unfortunately, the scalability of current SFR implementations is seriously limited as they suffer from a large amount of redundant computation among GPUs. This paper proposes GPUpd, a novel multi-GPU architecture for fast and scalable SFR. With small hardware extensions, GPUpd introduces a new graphics pipeline stage called Cooperative Projection & Distribution (C-PD) where all GPUs cooperatively project 3D objects to 2D screen and efficiently redistribute the objects to their corresponding GPUs. C-PD not only eliminates the redundant computation among GPUs, but also incurs minimal inter-GPU network traffic by transferring object IDs instead of mid-pipeline outcomes between GPUs. To further reduce the redistribution overheads, GPUpd minimizes inter-GPU synchronizations by implementing batching and runahead-execution of draw commands. Our detailed cycle-level simulations with 8 real-world game traces show that GPUpd achieves a geomean speedup of 4.98X in single-frame latency with 16 GPUs, whereas the current SFR implementations achieve only 3.07X geomean speedup which saturates on 4 or more GPUs.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "{n. d.}. AMD CrossFire guide for Direct3D\u00ae 11 applications. ({n. d.}). https://gpuopen-librariesandsdks.github.io/doc/AMD-CrossFire-guide-for-Direct3D11-applications.pdf"
+        }, 
+        {
+            "ArticleName": "{n. d.}. apitrace. ({n. d.}). http://apitrace.github.io/"
+        }, 
+        {
+            "ArticleName": "{n. d.}. Direct3D 12 Graphics. ({n. d.}). https://msdn.microsoft.com/en-us/library/windows/desktop/dn903821(v=vs.85).aspx"
+        }, 
+        {
+            "ArticleName": "{n. d.}. glmark2. ({n. d.}). https://github.com/glmark2/glmark2"
+        }, 
+        {
+            "ArticleName": "{n. d.}. NVIDIA Nsight. ({n. d.}). http://www.nvidia.com/object/nsight.html"
+        }, 
+        {
+            "ArticleName": "2011. SLI Best Practices. (2011). http://developer.download.nvidia.com/whitepapers/2011/SLI_Best_Practices_2011_Feb.pdf"
+        }, 
+        {
+            "ArticleName": "2015. Adreno Hardware Tutorial 3: Tile Based Rendering. (2015). https://www.youtube.com/watch?v=SeySx0TkluE"
+        }, 
+        {
+            "ArticleName": "2015. Modernizing multi-GPU gaming with XDMA. (2015). https://community.amd.com/community/gaming/blog/2015/05/11/modernizing-multi-gpu-gaming-with-xdma"
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices, Inc. 2008. R600-Family Instruction Set Architecture. (2008). http://developer.amd.com/wordpress/media/2012/10/r600isa.pdf"
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices, Inc. 2012. AMD's Graphics Core Next Technology. (2012). https://www.amd.com/Documents/GCN_Architecture_whitepaper.pdf"
+        }, 
+        {
+            "ArticleName": "Kurt Akeley, Reality Engine graphics, Proceedings of the 20th annual conference on Computer graphics and interactive techniques, p.109-116, August 02-06, 1993, Anaheim, CA", 
+            "DOIhref": "http://doi.acm.org/10.1145/166117.166131", 
+            "DOIname": "10.1145/166117.166131", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=166131"
+        }, 
+        {
+            "ArticleName": "Bruce Anderson , Andy Stewart , Rob MacAulay , Turner Whitted, Accommodating memory latency in a low-cost rasterizer, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.97-101, August 03-04, 1997, Los Angeles, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/258694.258725", 
+            "DOIname": "10.1145/258694.258725", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=258725"
+        }, 
+        {
+            "ArticleName": "Jos\u00e9-Mar\u00eda Arnau , Joan-Manuel Parcerisa , Polychronis Xekalakis, Boosting mobile GPU performance with a decoupled access/execute fragment processor, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337169"
+        }, 
+        {
+            "ArticleName": "Jose-Maria Arnau , Joan-Manuel Parcerisa , Polychronis Xekalakis, Parallel frame rendering: trading responsiveness for energy on a mobile GPU, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523736"
+        }, 
+        {
+            "ArticleName": "Jose-Maria Arnau , Joan-Manuel Parcerisa , Polychronis Xekalakis, Eliminating redundant fragment shader executions on a mobile GPU via hardware memoization, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665748"
+        }, 
+        {
+            "ArticleName": "Akhil Arunkumar , Evgeny Bolotin , Benjamin Cho , Ugljesa Milic , Eiman Ebrahimi , Oreste Villa , Aamer Jaleel , Carole-Jean Wu , David Nellans, MCM-GPU: Multi-Chip-Module GPUs for Continued Performance Scalability, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080231", 
+            "DOIname": "10.1145/3079856.3080231", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080231"
+        }, 
+        {
+            "ArticleName": "Steve Burke. 2016. GTX 1060 \"SLI\" Benchmark - Outperforms GTX 1080 with Explicit Multi-GPU. (2016). http://www.gamersnexus.net/guides/2519-gtx-1060-sli-benchmark-in-ashes-multi-gpu"
+        }, 
+        {
+            "ArticleName": "Hessed Choi. 2016. Bifrost - The GPU architecture for next five billion. (2016). https://www.arm.com/files/pdf/20160628_A04_ATF_Korea_Hessed_Choi.pdf"
+        }, 
+        {
+            "ArticleName": "Petrik Clarberg, Robert Toth, Jon Hasselgren, Jim Nilsson, and Tomas Akenine-M\u00f6ller. 2014. AMFS: Adaptive Multi-Frequency Shading for Future Graphics Processors. In Proc. 41st International Conference on Computer Graphics and Interactive Techniques (SIGGRAPH)."
+        }, 
+        {
+            "ArticleName": "Michael Cox , Narendra Bhandari , Michael Shantz, Multi-level texture caching for 3D graphics hardware, Proceedings of the 25th annual international symposium on Computer architecture, p.86-97, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.279372", 
+            "DOIname": "10.1145/279358.279372", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=279372"
+        }, 
+        {
+            "ArticleName": "Enrique de Lucas , Pedro Marcuello , Joan-Manuel Parcerisa , Antonio Gonz\u00e1lez, Ultra-low power render-based collision detection for CPU/GPU systems, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830783", 
+            "DOIname": "10.1145/2830772.2830783", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830783"
+        }, 
+        {
+            "ArticleName": "Victor Moya del Barrio, Carlos Gonz\u00e1lez, Jordi Roca, Agust\u00edn Fern\u00e1ndez, and Roger Espasa. 2006. ATTILA: A Cycle-Level Execution-Driven Simulator for Modern GPU Architectures. In Proc. IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)."
+        }, 
+        {
+            "ArticleName": "Michael Doggett, Texture Caches, IEEE Micro, v.32 n.3, p.136-141, May 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2012.44", 
+            "DOIname": "10.1109/MM.2012.44", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2311813"
+        }, 
+        {
+            "ArticleName": "Stefan Eilemann , Maxim Makhinya , Renato Pajarola, Equalizer: A Scalable Parallel Rendering Framework, IEEE Transactions on Visualization and Computer Graphics, v.15 n.3, p.436-452, May 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVCG.2008.104", 
+            "DOIname": "10.1109/TVCG.2008.104", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1515684"
+        }, 
+        {
+            "ArticleName": "Matthew Eldridge , Homan Igehy , Pat Hanrahan, Pomegranate: a fully scalable graphics architecture, Proceedings of the 27th annual conference on Computer graphics and interactive techniques, p.443-454, July 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/344779.344981", 
+            "DOIname": "10.1145/344779.344981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=344981"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "John Eyles , Steven Molnar , John Poulton , Trey Greer , Anselmo Lastra , Nick England , Lee Westover, PixelFlow: the realization, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.57-68, August 03-04, 1997, Los Angeles, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/258694.258714", 
+            "DOIname": "10.1145/258694.258714", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=258714"
+        }, 
+        {
+            "ArticleName": "Henry Fuchs , John Poulton , John Eyles , Trey Greer , Jack Goldfeather , David Ellsworth , Steve Molnar , Greg Turk , Brice Tebbs , Laura Israel, Pixel-planes 5: a heterogeneous multiprocessor graphics system using processor-enhanced memories, Proceedings of the 16th annual conference on Computer graphics and interactive techniques, p.79-88, July 1989", 
+            "DOIhref": "http://doi.acm.org/10.1145/74333.74341", 
+            "DOIname": "10.1145/74333.74341", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=74341"
+        }, 
+        {
+            "ArticleName": "Ziyad S. Hakura , Anoop Gupta, The design and analysis of a cache architecture for texture mapping, Proceedings of the 24th annual international symposium on Computer architecture, p.108-120, June 01-04, 1997, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/264107.264152", 
+            "DOIname": "10.1145/264107.264152", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264152"
+        }, 
+        {
+            "ArticleName": "Peter Harris. 2014. The Mali GPU: An Abstract Machine, Part 2 - Tile-based Rendering. (2014). https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-2---tile-based-rendering"
+        }, 
+        {
+            "ArticleName": "Greg Humphreys , Ian Buck , Matthew Eldridge , Pat Hanrahan, Distributed rendering for scalable displays, Proceedings of the 2000 ACM/IEEE conference on Supercomputing, p.30-es, November 04-10, 2000, Dallas, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=370400"
+        }, 
+        {
+            "ArticleName": "Greg Humphreys , Matthew Eldridge , Ian Buck , Gordan Stoll , Matthew Everett , Pat Hanrahan, WireGL: a scalable graphics system for clusters, Proceedings of the 28th annual conference on Computer graphics and interactive techniques, p.129-140, August 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/383259.383272", 
+            "DOIname": "10.1145/383259.383272", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=383272"
+        }, 
+        {
+            "ArticleName": "Greg Humphreys , Mike Houston , Ren Ng , Randall Frank , Sean Ahern , Peter D. Kirchner , James T. Klosowski, Chromium: a stream-processing framework for interactive rendering on clusters, Proceedings of the 29th annual conference on Computer graphics and interactive techniques, July 23-26, 2002, San Antonio, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/566570.566639", 
+            "DOIname": "10.1145/566570.566639", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=566639"
+        }, 
+        {
+            "ArticleName": "Homan Igehy , Matthew Eldridge , Kekoa Proudfoot, Prefetching in a texture cache architecture, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.133-ff., August 31-September 01, 1998, Lisbon, Portugal", 
+            "DOIhref": "http://doi.acm.org/10.1145/285305.285321", 
+            "DOIname": "10.1145/285305.285321", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=285321"
+        }, 
+        {
+            "ArticleName": "Mark J. Kilgard, Realizing OpenGL: two implementations of one architecture, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.45-55, August 03-04, 1997, Los Angeles, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/258694.258711", 
+            "DOIname": "10.1145/258694.258711", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=258711"
+        }, 
+        {
+            "ArticleName": "Christoph Kubisch. 2015. Life of a triangle - NVIDIA's logical pipeline. (2015). https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline"
+        }, 
+        {
+            "ArticleName": "Samuli Laine , Tero Karras, High-performance software rasterization on GPUs, Proceedings of the ACM SIGGRAPH Symposium on High Performance Graphics, August 05-07, 2011, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2018323.2018337", 
+            "DOIname": "10.1145/2018323.2018337", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2018337"
+        }, 
+        {
+            "ArticleName": "Jeremy Laird. 2016. NVIDIA GTX 1080: A Big Leap, But Not Quite A 4K Slayer. (2016). https://www.rockpapershotgun.com/2016/07/14/gtx-1080-4k-performance/"
+        }, 
+        {
+            "ArticleName": "Erik Lindholm , John Nickolls , Stuart Oberman , John Montrym, NVIDIA Tesla: A Unified Graphics and Computing Architecture, IEEE Micro, v.28 n.2, p.39-55, March 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.31", 
+            "DOIname": "10.1109/MM.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373197"
+        }, 
+        {
+            "ArticleName": "David Luebke , Greg Humphreys, How GPUs Work, Computer, v.40 n.2, p.96-100, February 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2007.59", 
+            "DOIname": "10.1109/MC.2007.59", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251701"
+        }, 
+        {
+            "ArticleName": "Microsoft Corporation. {n. d.}. Graphics Pipeline. ({n. d.}). https://msdn.microsoft.com/en-us/library/windows/desktop/ff476882(v=vs.85).aspx"
+        }, 
+        {
+            "ArticleName": "David Mitchelson. 2017. NVIDIA GTX 1080 Ti Review. (2017). https://www.vortez.net/articles_pages/nvidia_gtx_1080_ti_review,2.html"
+        }, 
+        {
+            "ArticleName": "Steven Molnar , Michael Cox , David Ellsworth , Henry Fuchs, A Sorting Classification of Parallel Rendering, IEEE Computer Graphics and Applications, v.14 n.4, p.23-32, July 1994", 
+            "DOIhref": "https://dx.doi.org/10.1109/38.291528", 
+            "DOIname": "10.1109/38.291528", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=182469"
+        }, 
+        {
+            "ArticleName": "Jordi Roca Monfort , Mark Grossman, Scaling of 3D game engine workloads on modern multi-GPU systems, Proceedings of the Conference on High Performance Graphics 2009, August 01-03, 2009, New Orleans, Louisiana", 
+            "DOIhref": "http://doi.acm.org/10.1145/1572769.1572776", 
+            "DOIname": "10.1145/1572769.1572776", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1572776"
+        }, 
+        {
+            "ArticleName": "Victor Moya , Carlos Gonz\u00e1lez , Jordi Roca , Agust\u00edn Fern\u00e1ndez , Roger Espasa, A single (unified) shader GPU microarchitecture for embedded systems, Proceedings of the First international conference on High Performance Embedded Architectures and Compilers, November 17-January 18, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1007/11587514_19", 
+            "DOIname": "10.1007/11587514_19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2129352"
+        }, 
+        {
+            "ArticleName": "Victor Moya , Carlos Gonzalez , Jordi Roca , Agustin Fernandez , Roger Espasa, Shader Performance Analysis on a Modern GPU Architecture, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.355-364, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.30", 
+            "DOIname": "10.1109/MICRO.2005.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100562"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2014. NVIDIA\u00ae NVLink\u2122 High-Speed Interconnect: Application Performance. (2014). http://info.nvidianews.com/rs/nvidia/images/NVIDIA%20NVLink%20High-Speed%20Interconnect%20Application%20Performance%20Brief.pdf"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2016. NVIDIA Announces Financial Results for the Fourth Quarter and Fiscal 2016. (2016). http://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-the-fourth-quarter-and-fiscal-2016"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corporation. 2016. NVIDIA GeForce GTX 1080. (2016). http://international.download.nvidia.com/geforce-com/international/pdfs/GeForce_GTX_1080_Whitepaper_FINAL.pdf"
+        }, 
+        {
+            "ArticleName": "Martin Randall, Talisman: Multimedia for the PC, IEEE Micro, v.17 n.2, p.11-19, March 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.592307", 
+            "DOIname": "10.1109/40.592307", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624080"
+        }, 
+        {
+            "ArticleName": "Ashu Rege. {n. d.}. An Introduction to Modern GPU Architecture. ({n. d.}). http://download.nvidia.com/developer/cuda/seminar/TDCI_Arch.pdf"
+        }, 
+        {
+            "ArticleName": "Jordi Roca, Victor Moya, Carlos Gonz\u00e1lez, Chema Sol\u00eds, and Agust\u00edn Fern\u00e1ndez. 2006. Workload Characterization of 3D Games. In Proc. IEEE International Symposium on Workload Characterization (IISWC)."
+        }, 
+        {
+            "ArticleName": "Mark Segal and Kurt Akeley. 2017. The OpenGL\u00ae Graphics System: A Specification (Version 4.5 (Core Profile) - June 29, 2017). (2017). https://khronos.org/registry/OpenGL/specs/gl/glspec45.core.pdf"
+        }, 
+        {
+            "ArticleName": "Larry Seiler , Doug Carmean , Eric Sprangle , Tom Forsyth , Michael Abrash , Pradeep Dubey , Stephen Junkins , Adam Lake , Jeremy Sugerman , Robert Cavin , Roger Espasa , Ed Grochowski , Toni Juan , Pat Hanrahan, Larrabee: a many-core x86 architecture for visual computing, ACM SIGGRAPH 2008 papers, August 11-15, 2008, Los Angeles, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1399504.1360617", 
+            "DOIname": "10.1145/1399504.1360617", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1360617"
+        }, 
+        {
+            "ArticleName": "B. V. N. Silpa , Anjul Patney , Tushar Krishna , Preeti Ranjan Panda , G. S. Visweswaran, Texture filter memory: a power-efficient and scalable texture memory architecture for mobile graphics processors, Proceedings of the 2008 IEEE/ACM International Conference on Computer-Aided Design, November 10-13, 2008, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1509581"
+        }, 
+        {
+            "ArticleName": "Ryan Smith. 2013. The AMD Radeon R9 290X Review. (2013). http://www.anandtech.com/show/7457/the-radeon-r9-290x-review"
+        }, 
+        {
+            "ArticleName": "Rys Sommefeldt. 2015. A look at the PowerVR graphics architecture: Tile-based rendering. (2015). https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/"
+        }, 
+        {
+            "ArticleName": "Jay Torborg , James T. Kajiya, Talisman: commodity realtime 3D graphics for the PC, Proceedings of the 23rd annual conference on Computer graphics and interactive techniques, p.353-363, August 1996", 
+            "DOIhref": "http://doi.acm.org/10.1145/237170.237274", 
+            "DOIname": "10.1145/237170.237274", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=237274"
+        }, 
+        {
+            "ArticleName": "Chenhao Xie, Shuaiwen Leon Song, and Jing Wang. 2017. Processing-in-Memory Enabled Graphics Processors for 3D Rendering. In Proc. 23rd IEEE Symposium on High Performance Computer Architecture (HPCA)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Seoul National University", 
+            "Name": "Youngsok Kim"
+        }, 
+        {
+            "Affiliation": "POSTECH", 
+            "Name": "Jae-Eon Jo"
+        }, 
+        {
+            "Affiliation": "POSTECH", 
+            "Name": "Hanhwi Jang"
+        }, 
+        {
+            "Affiliation": "POSTECH", 
+            "Name": "Minsoo Rhu"
+        }, 
+        {
+            "Affiliation": "POSTECH", 
+            "Name": "Hanjun Kim"
+        }, 
+        {
+            "Affiliation": "Seoul National University", 
+            "Name": "Jangwoo Kim"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123968&preflayout=flat"
+}

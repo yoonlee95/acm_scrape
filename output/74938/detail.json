@@ -1,0 +1,108 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Hsing-Lung Chen , Nian-Feng Tzeng, On-Line Task Migration in Hypercubes Through Double Disjoint Paths, IEEE Transactions on Computers, v.46 n.3, p.379-384, March 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=249841"
+        }, 
+        {
+            "ArticleName": "J. E. Jang , S. W. Choi , W. K. Cho, A new approach to processor allocation and task migration in an N-cube multiprocessor, Proceedings of the 1989 ACM/IEEE conference on Supercomputing, p.314-325, November 12-17, 1989, Reno, Nevada, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=76297"
+        }, 
+        {
+            "ArticleName": "Debendra Das Sharma , Dhiraj K. Pradhan, Processor Allocation in Hypercube Multicomputers: Fast and Efficient Strategies for Cubic and Noncubic Allocation, IEEE Transactions on Parallel and Distributed Systems, v.6 n.10, p.1108-1122, October 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629389"
+        }, 
+        {
+            "ArticleName": "Pen-Nan Lee , Ravinder P. Reddy , Yiwei Chen, Allocation strategies for Ada tasks on hypercube multi-processors, Proceedings of the conference on TRI-ADA '90, p.354-361, December 03-06, 1990, Baltimore, Maryland, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255555"
+        }, 
+        {
+            "ArticleName": "Jai Eun Jang, An optimal fault-tolerant broadcasting algorithm for a hypercube multiprocessor, Proceedings of the 1990 ACM annual conference on Cooperation, p.96-102, February 20-22, 1990, Washington, D.C., United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=100363"
+        }, 
+        {
+            "ArticleName": "P. J. Chuang , N. F. Tzeng, Allocating Precise Submeshes in Mesh Connected Systems, IEEE Transactions on Parallel and Distributed Systems, v.5 n.2, p.211-217, February 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629262"
+        }, 
+        {
+            "ArticleName": "Po-Jen Chuang , Nian-Feng Tzeng, A Fast Recognition-Complete Processor Allocation Strategy for Hypercube Computers, IEEE Transactions on Computers, v.41 n.4, p.467-479, April 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=136388"
+        }, 
+        {
+            "ArticleName": "Po-Jen Chuang , Nian-Feng Tzeng, Dynamic processor allocation in hypercube computers, ACM SIGARCH Computer Architecture News, v.18 n.3a, p.40-49, June 1990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325110"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 9, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 461, 
+        "CitationCount": 8
+    }, 
+    "Title": "Task migration in hypercube multiprocessors", 
+    "Abstract": "Allocation and deallocation of subcubes usually result in a fragmented hypercube where even if a sufficient number of hypercube nodes are available, they do not form a subcube large enough to execute an incoming task. As the fragmentation in conventional memory allocation can be handled by memory compaction, the fragmentation problem in a hypercube can be solved by task migration, i.e., relocating tasks within the hypercube to remove the fragmentation. The procedure for task migration closely depends on the subcube allocation strategy used, since active tasks must be relocated in such a way that the availability of subcubes can be detected by that allocation strategy.\nIn this paper, we develop a task migration strategy for the subcube allocation policy based on the binary reflected Gray code. A goal configuration (of destination subcubes) without fragmentation is determined first. Then, the node-mapping between the source and destination subcubes is derived. Finally, a routing procedure to achieve shortest deadlock-free paths for relocating tasks is developed.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "T F Chan , Y Saad, Multigrid algorithms on the hypercube multiprocessor, IEEE Transactions on Computers, v.35 n.11, p.969-977, Nov. 1986", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1986.1676698", 
+            "DOIname": "10.1109/TC.1986.1676698", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=14883"
+        }, 
+        {
+            "ArticleName": "Youcef Saad , Martin H. Schultz, Topological Properties of Hypercubes, IEEE Transactions on Computers, v.37 n.7, p.867-872, July 1988", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.2234", 
+            "DOIname": "10.1109/12.2234", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=48700"
+        }, 
+        {
+            "ArticleName": "M.-S. Chen , K. G. Shin, Processor allocation in an N-cube multiprocessor using gray codes, IEEE Transactions on Computers, v.36 n.12, p.1396-1407, Dec. 1987", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1987.5009493", 
+            "DOIname": "10.1109/TC.1987.5009493", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=40939"
+        }, 
+        {
+            "ArticleName": "M.-S. Chen , K. G. Shin, On relaxed squashed embedding of graphs into a hypercube, SIAM Journal on Computing, v.18 n.6, p.1226-1244, Dec. 1989", 
+            "DOIhref": "https://dx.doi.org/10.1137/0218081", 
+            "DOIname": "10.1137/0218081", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=76081"
+        }, 
+        {
+            "ArticleName": "Charles L. Seitz, The cosmic cube, Communications of the ACM, v.28 n.1, p.22-33, Jan. 1985", 
+            "DOIhref": "http://doi.acm.org/10.1145/2465.2467", 
+            "DOIname": "10.1145/2465.2467", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2467"
+        }, 
+        {
+            "ArticleName": "N. Corp., NCUBE/ten: an overview, Nov. 1985."
+        }, 
+        {
+            "ArticleName": "Kenneth C. Knowlton, A fast storage allocator, Communications of the ACM, v.8 n.10, p.623-624, Oct. 1965", 
+            "DOIhref": "http://doi.acm.org/10.1145/365628.365655", 
+            "DOIname": "10.1145/365628.365655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=365655"
+        }, 
+        {
+            "ArticleName": "F. Harary, Graph Theory. Addison-Wesley, Mass. 1969."
+        }, 
+        {
+            "ArticleName": "Donald E. Knuth, The art of computer programming, volume 1 (3rd ed.): fundamental algorithms, Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=260999"
+        }, 
+        {
+            "ArticleName": "Edward M. Reingold , Jurg Nievergelt , Narsingh Deo, Combinatorial Algorithms: Theory and Practice, Prentice Hall College Div, 1977", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1096489"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "IBM Thomas J. Watson Research Center, P.O. Box 704, Yorktown Heights, New York", 
+            "Name": "M.-S. Chen"
+        }, 
+        {
+            "Affiliation": "Real-Time Computing Laboratory, Department of Electrical Engineering and Computer Science, The University of Michigan, Ann Arbor, Michigan", 
+            "Name": "K. G. Shin"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74938&preflayout=flat"
+}

@@ -1,0 +1,168 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 0
+    }, 
+    "Title": "Extrinsic and intrinsic text cloning", 
+    "Abstract": "Text Cloning occurs when a processor is storing in its shared caches the same text multiple times. There are several causes of Text Cloning and we classify them either as Extrinsic or Intrinsic. Extrinsic Text Cloning can happen due to user and software practices, or middleware policies, which result into making multiple copies of a binary and concurrently executing the multiple copies on the same processor. Intrinsic Text Cloning can happen when an instruction cache is Virtually Indexed/Virtually Tagged. A simultaneous multithreaded processor, that employs such cache, will map different processes of the same binary to different instruction cache space due to their distinct process identifier. Text cloning can be wasteful to performance, especially for simultaneous multithreaded processors, because concurrent processes compete for cache space to store the same instruction blocks. Experimental results on simultaneous multithreaded processors indicate that the performance overhead of this type of undesirable cloning is significant.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "Enabling Grids for E-sciencE, http://www.eu-egee.org/"
+        }, 
+        {
+            "ArticleName": "KVM: Kernel Based Virtual Machine, http://www.linux-kvm.org/"
+        }, 
+        {
+            "ArticleName": "ARM: Cortex-A8 Technical Reference Manual (2007)"
+        }, 
+        {
+            "ArticleName": "Bradford M. Beckmann , David A. Wood, Managing Wire Delay in Large Chip-Multiprocessor Caches, Proceedings of the 37th annual IEEE/ACM International Symposium on Microarchitecture, p.319-330, December 04-08, 2004, Portland, Oregon", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2004.21", 
+            "DOIname": "10.1109/MICRO.2004.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1038954"
+        }, 
+        {
+            "ArticleName": "\u00c1rp\u00e1d Besz\u00e9des , Rudolf Ferenc , Tibor Gyim\u00f3thy , Andr\u00e9 Dolenc , Konsta Karsisto, Survey of code-size reduction methods, ACM Computing Surveys (CSUR), v.35 n.3, p.223-267, September 2003", 
+            "DOIhref": "http://doi.acm.org/10.1145/937503.937504", 
+            "DOIname": "10.1145/937503.937504", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=937504"
+        }, 
+        {
+            "ArticleName": "Susmit Biswas , Diana Franklin , Alan Savage , Ryan Dixon , Timothy Sherwood , Frederic T. Chong, Multi-execution: multicore caching for data-similar executions, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555777", 
+            "DOIname": "10.1145/1555754.1555777", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555777"
+        }, 
+        {
+            "ArticleName": "Casazza, J.: First the tick, now the tock: Intelmicroarchitecture (nehalem). Intel Corporation"
+        }, 
+        {
+            "ArticleName": "Zeshan Chishti , Michael D. Powell , T. N. Vijaykumar, Optimizing Replication, Communication, and Capacity Allocation in CMPs, ACM SIGARCH Computer Architecture News, v.33 n.2, p.357-368, May 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1080695.1070001", 
+            "DOIname": "10.1145/1080695.1070001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070001"
+        }, 
+        {
+            "ArticleName": "Keith D. Cooper , Nathaniel McIntosh, Enhanced code compression for embedded RISC processors, Proceedings of the ACM SIGPLAN 1999 conference on Programming language design and implementation, p.139-149, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/301618.301655", 
+            "DOIname": "10.1145/301618.301655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=301655"
+        }, 
+        {
+            "ArticleName": "Saumya K. Debray , William Evans , Robert Muth , Bjorn De Sutter, Compiler techniques for code compaction, ACM Transactions on Programming Languages and Systems (TOPLAS), v.22 n.2, p.378-415, March 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/349214.349233", 
+            "DOIname": "10.1145/349214.349233", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=349233"
+        }, 
+        {
+            "ArticleName": "Ian Foster , Carl Kesselman , Steven Tuecke, The Anatomy of the Grid: Enabling Scalable Virtual Organizations, International Journal of High Performance Computing Applications, v.15 n.3, p.200-222, August 2001", 
+            "DOIhref": "https://dx.doi.org/10.1177/109434200101500302", 
+            "DOIname": "10.1177/109434200101500302", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1080667"
+        }, 
+        {
+            "ArticleName": "Stavros Harizopoulos , Anastassia Ailamaki, Improving instruction cache performance in OLTP, ACM Transactions on Database Systems (TODS), v.31 n.3, p.887-920, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1166074.1166079", 
+            "DOIname": "10.1145/1166074.1166079", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1166079"
+        }, 
+        {
+            "ArticleName": "Marios Kleanthous , Yiannakis Sazeides, CATCH: a mechanism for dynamically detecting Cache-Content-Duplication and its application to instruction caches, Proceedings of the conference on Design, automation and test in Europe, March 10-14, 2008, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1403375.1403720", 
+            "DOIname": "10.1145/1403375.1403720", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1403720"
+        }, 
+        {
+            "ArticleName": "David Koufaty , Deborah T. Marr, Hyperthreading Technology in the Netburst Microarchitecture, IEEE Micro, v.23 n.2, p.56-65, March 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1196115", 
+            "DOIname": "10.1109/MM.2003.1196115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=776719"
+        }, 
+        {
+            "ArticleName": "Charles Lefurgy , Peter Bird , I-Cheng Chen , Trevor Mudge, Improving code density using compression techniques, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.194-203, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266819"
+        }, 
+        {
+            "ArticleName": "Cecchi Marco , Capannini Fabio , Dorigo Alvise , Ghiselli Antonia , Giacomini Francesco , Maraschini Alessandro , Marzolla Moreno , Monforte Salvatore , Pacini Fabrizio , Petronzio Luca , Prelz Francesco, The gLite Workload Management System, Proceedings of the 4th International Conference on Advances in Grid and Pervasive Computing, May 04-08, 2009, Geneva, Switzerland", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-01671-4_24", 
+            "DOIname": "10.1007/978-3-642-01671-4_24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1538097"
+        }, 
+        {
+            "ArticleName": "Fayez Mohamood , Mrinmoy Ghosh , Hsien-Hsin S. Lee, DLL-conscious instruction fetch optimization for SMT processors, Journal of Systems Architecture: the EUROMICRO Journal, v.54 n.12, p.1089-1100, December, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.sysarc.2008.04.014", 
+            "DOIname": "10.1016/j.sysarc.2008.04.014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454901"
+        }, 
+        {
+            "ArticleName": "Sager, D., Group, D. P., Corp, I.: The microarchitecture of the pentium 4 processor. Intel Technology Journal (2001)"
+        }, 
+        {
+            "ArticleName": "Services, A. W.: Amazon elastic compute cloud: User guide. Tech. Rep. API Version 2009-11-30 (2010)"
+        }, 
+        {
+            "ArticleName": "Shah, M., Barreh, J., Brooks, J., Golla, R., Grohoski, G., Gura, N., Hetherington, R., Jordan, P., Luttrell, M., Olson, C., Saha, B., Sheahan, D., Spracklen, L., Wynn, A.: Ultrasparc t2: A highly-threaded, power-efficient, sparc soc. In: A-SSCC 2007 (November 2007)"
+        }, 
+        {
+            "ArticleName": "Anahita Shayesteh , Glenn Reinman , Norman Jouppi , Suleyman Sair , Tim Sherwood, Dynamically configurable shared CMP helper engines for improved performance, ACM SIGARCH Computer Architecture News, v.33 n.4, November 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1105734.1105744", 
+            "DOIname": "10.1145/1105734.1105744", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105744"
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Brad Calder, Automatically characterizing large scale program behavior, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605403", 
+            "DOIname": "10.1145/605397.605403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605403"
+        }, 
+        {
+            "ArticleName": "Balaram Sinharoy, POWER7 multi-core processor design, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669114", 
+            "DOIname": "10.1145/1669112.1669114", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669114"
+        }, 
+        {
+            "ArticleName": "Alan Jay Smith, Cache Memories, ACM Computing Surveys (CSUR), v.14 n.3, p.473-530, Sept. 1982", 
+            "DOIhref": "http://doi.acm.org/10.1145/356887.356892", 
+            "DOIname": "10.1145/356887.356892", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=356892"
+        }, 
+        {
+            "ArticleName": "Allan Snavely , Dean M. Tullsen, Symbiotic jobscheduling for a simultaneous multithreaded processor, ACM SIGOPS Operating Systems Review, v.34 n.5, p.234-244, Dec. 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/384264.379244", 
+            "DOIname": "10.1145/384264.379244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379244"
+        }, 
+        {
+            "ArticleName": "Tullsen, D. M.: Simulation and modeling of a simultaneous multithreading processor. In: Int. CMG Conference (1996)"
+        }, 
+        {
+            "ArticleName": "Dean M. Tullsen , Susan J. Eggers , Henry M. Levy, Simultaneous multithreading: maximizing on-chip parallelism, Proceedings of the 22nd annual international symposium on Computer architecture, p.392-403, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.224449", 
+            "DOIname": "10.1145/223982.224449", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224449"
+        }, 
+        {
+            "ArticleName": "Yamamoto, W., Serrano, M., Talcott, A., Wood, R., Nemirosky, M.: Performance estimation of multistreamed, superscalar processors. In: Twenty-Seventh Hawaii Internation Conference on 1994"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Department of Computer Science, University of Cyprus, Nicosia, Cyprus", 
+            "Name": "Marios Kleanthous"
+        }, 
+        {
+            "Affiliation": "Department of Computer Science, University of Cyprus, Nicosia, Cyprus", 
+            "Name": "Yiannakis Sazeides"
+        }, 
+        {
+            "Affiliation": "Department of Computer Science, University of Cyprus, Nicosia, Cyprus", 
+            "Name": "Marios D. Dikaiakos"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185901&preflayout=flat"
+}

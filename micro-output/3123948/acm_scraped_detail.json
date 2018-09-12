@@ -1,0 +1,488 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Haibo Zhang , Prasanna Venkatesh Rengasamy , Nachiappan Chidambaram Nachiappan , Shulin Zhao , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, FLOSS: FLOw sensitive scheduling on mobile platforms, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196052"
+        }, 
+        {
+            "ArticleName": "Xulong Tang , Orhan Kislal , Mahmut Kandemir , Mustafa Karakoy, Data movement aware computation partitioning, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123954"
+        }, 
+        {
+            "ArticleName": "Orhan Kislal , Jagadish Kotra , Xulong Tang , Mahmut Taylan Kandemir , Myoungsoo Jung, Enhancing computation-to-core assignment with physical location information, Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 18-22, 2018, Philadelphia, PA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3192386"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 321, 
+        "Downloads_6Weeks": 16, 
+        "Downloads_cumulative": 321, 
+        "CitationCount": 3
+    }, 
+    "Title": "Race-to-sleep + content caching + display caching: a recipe for energy-efficient video streaming on handhelds", 
+    "Abstract": "Video streaming has become the most common application in handhelds and this trend is expected to grow in future to account for about 75% of all mobile data traffic by 2021. Thus, optimizing the performance and energy consumption of video processing in mobile devices is critical for sustaining the handheld market growth. In this paper, we propose three complementary techniques, race-to-sleep, content caching and display caching, to minimize the energy consumption of the video processing flows. Unlike the state-of-the-art frame-by-frame processing of a video decoder, the first scheme, race-to-sleep, uses two approaches, called batching of frames and frequency boosting to prolong its sleep state for saving energy, while avoiding any frame drops. The second scheme, content caching, exploits the content similarity of smaller video blocks, called macroblocks, to design a novel cache organization for reducing the memory pressure. The third scheme, in turn, takes advantage of content similarity at the display controller to facilitate display caching further improving energy efficiency. We integrate these three schemes for developing an end-to-end video processing framework and evaluate our design on a comprehensive mobile system design platform with a variety of video processing workloads. Our evaluations show that the proposed three techniques complement each other in improving performance by avoiding frame drops and reducing the energy consumption of video streaming applications by 21%, on average, compared to the current baseline design.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "4K SAMPLES. 2012. Puppies Bath in 4K. https://goo.gl/sbq8AD. (2012). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "4K SAMPLES. 2015. Honey Bees 96fps In 4K (ULTRA HD). https://goo.gl/u0pTz9. (2015). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "4K SAMPLES. 2017. 4K Gaming Montage. https://goo.gl/qJExOF. (2017). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "Susanne Albers , Antonios Antoniadis, Race to idle: New algorithms for speed scaling with a sleep state, ACM Transactions on Algorithms (TALG), v.10 n.2, p.1-31, February 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2556953", 
+            "DOIname": "10.1145/2556953", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2556953"
+        }, 
+        {
+            "ArticleName": "AMD. 2016. RADEON: Dissecting the Polaris Architecture. AMD Whitepaper (2016)."
+        }, 
+        {
+            "ArticleName": "Pablo Ameigeiras, Juan J. Ramos-Munoz, Jorge Navarro-Ortiz, and J.M. Lopez-Soler. 2012. Analysis and modelling of YouTube traffic. Transactions on Emerging Telecommunications Technologies (2012)."
+        }, 
+        {
+            "ArticleName": "Antonios Antoniadis , Chien-Chung Huang , Sebastian Ott, A fully polynomial-time approximation scheme for speed scaling with sleep state, Proceedings of the twenty-sixth annual ACM-SIAM symposium on Discrete algorithms, p.1102-1113, January 04-06, 2015, San Diego, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2722203"
+        }, 
+        {
+            "ArticleName": "ARM. 2016. ARM Frame Buffer Compression. https://goo.gl/ETnZTF. (2016)."
+        }, 
+        {
+            "ArticleName": "ARM. 2016. Transaction Elimination. https://goo.gl/91cDSG. (2016)."
+        }, 
+        {
+            "ArticleName": "ARM. 2017. big LITTLE Technology. https://www.arm.com/products/processors/technologies/biglittleprocessing.php. (2017)."
+        }, 
+        {
+            "ArticleName": "ARM. 2017. NEON. https://www.arm.com/products/processors/technologies/neon.php. (2017)."
+        }, 
+        {
+            "ArticleName": "Arnaldo Azevedo , Ben Juurlink, An efficient software cache for H.264 motion compensation, Proceedings of the 11th international conference on System-on-chip, p.147-150, October 05-07, 2009, Tampere, Finland", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736560"
+        }, 
+        {
+            "ArticleName": "Peter Bailis , Vijay Janapa Reddi , Sanjay Gandhi , David Brooks , Margo Seltzer, Dimetrodon: processor-level preventive thermal management via idle cycle injection, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024745", 
+            "DOIname": "10.1145/2024724.2024745", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024745"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "James H Burrows. 1995. Secure Hash Standard. Technical Report. DTIC Document."
+        }, 
+        {
+            "ArticleName": "Aaron Carroll , Gernot Heiser, An analysis of power consumption in a smartphone, Proceedings of the 2010 USENIX conference on USENIX annual technical conference, p.21-21, June 23-25, 2010, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855861"
+        }, 
+        {
+            "ArticleName": "Tung-Chien Chen, Yu-Wen Huang, and Liang-Gee Chen. 2004. Analysis and Design of Macroblock Pipelining for H.264/AVC VLSI Architecture. In Proceedings of 2004 IEEE International Symposium on Circuits and Systems (IEEE Cat. No.04CH37512). II-273--6 Vol.2."
+        }, 
+        {
+            "ArticleName": "X. Chen, Peilin Liu, Jiayi Zhu, Dajiang Zhou, and S. Goto. 2009. Block-pipelining Cache for Motion Compensation in High Definition H.264/AVC Video Decoder. In Proceedings of 2009 IEEE International Symposium on Circuits and Systems (ISCAS). 1069--1072."
+        }, 
+        {
+            "ArticleName": "Nachiappan Chidambaram Nachiappan , Praveen Yedlapalli , Niranjan Soundararajan , Mahmut Taylan Kandemir , Anand Sivasubramaniam , Chita R. Das, GemDroid: a framework to evaluate mobile platforms, The 2014 ACM international conference on Measurement and modeling of computer systems, June 16-20, 2014, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2591971.2591973", 
+            "DOIname": "10.1145/2591971.2591973", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591973"
+        }, 
+        {
+            "ArticleName": "Christopher Nolan. 2014. Interstellar Movie - Official Trailer. https://goo.gl/I4bpGF. (2014). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "Tzu-Der Chuang , Lo-Mei Chang , Tsai-Wei Chiu , Yi-Hau Chen , Liang-Gee Chen, Bandwidth-efficient cache-based motion compensation architecture with DRAM-friendly data access control, Proceedings of the 2009 IEEE International Conference on Acoustics, Speech and Signal Processing, p.2009-2012, April 19-24, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICASSP.2009.4960007", 
+            "DOIname": "10.1109/ICASSP.2009.4960007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1583413"
+        }, 
+        {
+            "ArticleName": "CISCO. 2017. Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2016 - 2021 White Paper. \"http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/mobile-white-paper-c11-520862.html\". (2017)."
+        }, 
+        {
+            "ArticleName": "L. Codrescu, W. Anderson, S. Venkumanhanti, M. Zeng, E. Plondke, C. Koob, A. Ingle, C. Tabony, and R. Maule. 2014. Hexagon DSP: An Architecture Optimized for Mobile Multimedia and Communications. IEEE Micro (2014), 34--43."
+        }, 
+        {
+            "ArticleName": "Anup Das , Geoff V. Merrett , Bashir M. Al-Hashimi, The slowdown or race-to-idle question: workload-aware energy optimization of SMT multicore platforms under process variation, Proceedings of the 2016 Conference on Design, Automation & Test in Europe, March 14-18, 2016, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2971932"
+        }, 
+        {
+            "ArticleName": "David Fincher. 2014. Gone Girl Official 2 (2014) Ben Affleck, Rosamund Pike HD. https://goo.gl/EBHqmQ. (2014). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "K.C. Dyke. 2013. Method for Reducing Framebuffer Memory Accesses. (2013). http://www.google.tl/patents/US8358314 US Patent 8,358,314."
+        }, 
+        {
+            "ArticleName": "FFmpeg. 2016. A Complete, Cross-platform Solution to Record, Convert and Stream Audio and Video. \"https://ffmpeg.org/\". (2016)."
+        }, 
+        {
+            "ArticleName": "Nadeem Firasta, Mark Buxton, Paula Jinbo, Kaveh Nasri, and Shihjong Kuo. 2008. Intel AVX: New frontiers in performance improvements and energy efficiency. Intel white paper (2008)."
+        }, 
+        {
+            "ArticleName": "Google. 2016. BoardConfig.mk. https://android.googlesource.com/device/google/marlin/+/android-7.1.1_r6/marlin/BoardConfig.mk. (2016)."
+        }, 
+        {
+            "ArticleName": "Google. 2016. FramebufferSurface.cpp. https://android.googlesource.com/platform/frameworks/native/+/android-7.1.1_r28/services/surfaceflinger/DisplayHardware/FramebufferSurface.cpp. (2016)."
+        }, 
+        {
+            "ArticleName": "Google. 2016. SurfaceFlinger and Hardware Composer. https://source.android.com/devices/graphics/arch-sf-hwc.html. (2016)."
+        }, 
+        {
+            "ArticleName": "Google. 2017. Android Gralloc Framebuffer. \"https://goo.gl/TMuNFU\". (2017)."
+        }, 
+        {
+            "ArticleName": "Google. 2017. YouTube for Press. \"https://www.youtube.com/yt/about/press/\". (2017)."
+        }, 
+        {
+            "ArticleName": "MyungJoo Ham , Inki Dae , Chanwoo Choi, LPD: low power display mechanism for mobile and wearable devices, Proceedings of the 2015 USENIX Conference on Usenix Annual Technical Conference, p.587-598, July 08-10, 2015, Santa Clara, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2813812"
+        }, 
+        {
+            "ArticleName": "Kyungtae Han , Zhen Fang , Paul Diefenbaugh , Richard Forand , Ravi R. Iyer , Donald Newell, Using checksum to reduce power consumption of display systems for low-motion content, Proceedings of the 2009 IEEE international conference on Computer design, October 04-07, 2009, Lake Tahoe, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1792366"
+        }, 
+        {
+            "ArticleName": "Kyungtae Han , Alexander W. Min , Nithyananda S. Jeganathan , Paul S. Diefenbaugh, A hybrid display frame buffer architecture for energy efficient display subsystems, Proceedings of the 2013 International Symposium on Low Power Electronics and Design, September 04-06, 2013, Beijing, China", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2648751"
+        }, 
+        {
+            "ArticleName": "P.F. Holland, H.G.R. Thirunageswaram, and J.J. Irwin. 2016. Display Pipe Line Buffer Sharing. (2016). https://www.google.com/patents/US20160086298 US Patent App. 14/493,755."
+        }, 
+        {
+            "ArticleName": "C. T. Huang, M. Tikekar, C. Juvekar, V. Sze, and A. Chandrakasan. 2013. A 249Mpixel/s HEVC Video-decoder Chip for Quad Full HD Applications. In 2013 IEEE International Solid-State Circuits Conference Digest of Technical Papers. 162--163."
+        }, 
+        {
+            "ArticleName": "Aamer Jaleel. 2010. Memory Characterization of Workloads Using Instrumentation-driven Simulation. Web Copy: http://www.jaleels.org/ajaleel/workload (2010)."
+        }, 
+        {
+            "ArticleName": "Min Kyu Jeong , Mattan Erez , Chander Sudanthi , Nigel Paver, A QoS-aware memory controller for dynamically balancing GPU and CPU bandwidth use in an MPSoC, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228513", 
+            "DOIname": "10.1145/2228360.2228513", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228513"
+        }, 
+        {
+            "ArticleName": "G. Jin, J. S. Jung, and H. J. Lee. 2007. An Efficient Pipelined Architecture for H.264/AVC Intra Frame Processing. In Proceedings of 2007 IEEE International Symposium on Circuits and Systems. 1605--1608."
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Tuba Kesten , Ashutosh Pattnaik , Evgeny Bolotin , Niladrish Chatterjee , Stephen W. Keckler , Mahmut T. Kandemir , Chita R. Das, Anatomy of GPU Memory System for Multi-Application Execution, Proceedings of the 2015 International Symposium on Memory Systems, October 05-08, 2015, Washington DC, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818950.2818979", 
+            "DOIname": "10.1145/2818950.2818979", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818979"
+        }, 
+        {
+            "ArticleName": "C. C. Ju, T. M. Liu, K. B. Lee, Y. C. Chang, H. L. Chou, C. M. Wang, T. H. Wu, H. M. Lin, Y. H. Huang, C. Y. Cheng, T. A. Lin, C. C. Chen, Y. K. Lin, M. H. Chiu, W. C. Li, S. J. Wang, Y. C. Lai, P. Chao, C. D. Chien, M. J. Hu, P. H. Wang, Y. C. Huang, S. H. Chuang, L. F. Chen, H. Y. Lin, M. L. Wu, and C. H. Chen. 2016. A 0.5 nJ/Pixel 4 K H.265/HEVC Codec LSI for Multi-Format Smartphone Applications. IEEE Journal of Solid-State Circuits (2016)."
+        }, 
+        {
+            "ArticleName": "The Imagine Stream Processor, Proceedings of the 2002 IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD'02), p.282, September 16-18, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=846937"
+        }, 
+        {
+            "ArticleName": "Onur Kayiran , Adwait Jog , Ashutosh Pattnaik , Rachata Ausavarungnirun , Xulong Tang , Mahmut T. Kandemir , Gabriel H. Loh , Onur Mutlu , Chita R. Das, \u03bcC-States: Fine-grained GPU Datapath Power Management, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967941", 
+            "DOIname": "10.1145/2967938.2967941", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967941"
+        }, 
+        {
+            "ArticleName": "Ju-Hyun Kim , Gyoung-Hwan Hyun , Hyuk-Jae Lee, Cache Organizations for H.264/AVC Motion Compensation, Proceedings of the 13th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications, p.534-541, August 21-24, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/RTCSA.2007.74", 
+            "DOIname": "10.1109/RTCSA.2007.74", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1307322"
+        }, 
+        {
+            "ArticleName": "Marios Kleanthous , Yiannakis Sazeides, CATCH: A mechanism for dynamically detecting cache-content-duplication in instruction caches, ACM Transactions on Architecture and Code Optimization (TACO), v.8 n.3, p.1-27, October 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2019608.2019610", 
+            "DOIname": "10.1145/2019608.2019610", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2019610"
+        }, 
+        {
+            "ArticleName": "Jagadish B. Kotra , Narges Shahidi , Zeshan A. Chishti , Mahmut T. Kandemir, Hardware-Software Co-design to Mitigate DRAM Refresh Overheads: A Case for Refresh-Aware Process Scheduling, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037724", 
+            "DOIname": "10.1145/3037697.3037724", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037724"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Paul McKenney. 2012. A big.LITTLE scheduler update. https://lwn.net/Articles/501501/. (2012)."
+        }, 
+        {
+            "ArticleName": "Hongyu Miao , Felix Xiaozhu Lin, Tell Your Graphics Stack That the Display Is Circular, Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications, February 23-24, 2016, St. Augustine, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2873587.2873603", 
+            "DOIname": "10.1145/2873587.2873603", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2873603"
+        }, 
+        {
+            "ArticleName": "MICRON. 2014. Production Data Sheet: 8Gb, 16Gb: 253-Ball, Dual-Channel 2C0F Mobile LPDDR3 SDRAM (pdf). \"https://www.micron.com/resource-details/75340edb-6b8e-4c43-968a-2323d5127aa6\". (2014)."
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Jorge Albericio , Andreas Moshovos , Natalie Enright Jerger, Doppelg\u00e4nger: a cache for approximate computing, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830790", 
+            "DOIname": "10.1145/2830772.2830790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830790"
+        }, 
+        {
+            "ArticleName": "Thomas Moscibroda , Onur Mutlu, Memory performance attacks: denial of memory service in multi-core systems, Proceedings of 16th USENIX Security Symposium on USENIX Security Symposium, p.1-18, August 06-10, 2007, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1362921"
+        }, 
+        {
+            "ArticleName": "D. Mukherjee, J. Bankoski, A. Grange, J. Han, J. Koleszar, P. Wilkins, Y. Xu, and R. Bultje. 2013. The Latest Open-source Video Codec VP9 - An Overview and Preliminary Results. In 2013 Picture Coding Symposium (PCS)."
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar, Rajeev Balasubramonian, and Norman P Jouppi. 2009. CACTI 6.0: A Tool to Model Large Caches. HP Laboratories (2009)."
+        }, 
+        {
+            "ArticleName": "N. C. Nachiappan, P. Yedlapalli, N. Soundararajan, A. Sivasubramaniam, M. T. Kandemir, R. Iyer, and C. R. Das. 2015. Domain Knowledge Based Energy Management in Handhelds. In Proceedings of 2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA). 150--160."
+        }, 
+        {
+            "ArticleName": "Nachiappan Chidambaram Nachiappan , Haibo Zhang , Jihyun Ryoo , Niranjan Soundararajan , Anand Sivasubramaniam , Mahmut T. Kandemir , Ravi Iyer , Chita R. Das, VIP: virtualizing IP chains on handheld platforms, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750382", 
+            "DOIname": "10.1145/2749469.2750382", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750382"
+        }, 
+        {
+            "ArticleName": "NASA. 2015. Ultra High Definition Video from the International Space Station. https://archive.org/details/NASA-Ultra-High-Definition. (2015). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "Neill Blomkamp. 2013. Elysium 2013 2160p 1 Minute Sample Footage. https://goo.gl/E6QJ0V. (2013). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "Nvidia. 2016. NVIDIA GeDorce GTX 1080. Nvidia Whitepaper (2016)."
+        }, 
+        {
+            "ArticleName": "Ashutosh Pattnaik , Xulong Tang , Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Chita R. Das, Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967940", 
+            "DOIname": "10.1145/2967938.2967940", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967940"
+        }, 
+        {
+            "ArticleName": "Indrani Paul , Srilatha Manne , Manish Arora , W. Lloyd Bircher , Sudhakar Yalamanchili, Cooperative boosting: needy versus greedy power management, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485947", 
+            "DOIname": "10.1145/2485922.2485947", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485947"
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "W. W. Peterson and D. T. Brown. 1961. Cyclic Codes for Error Detection. Proceedings of the IRE (1961)."
+        }, 
+        {
+            "ArticleName": "Erwan Raffin , Erwan Nogues , Wassim Hamidouche , Seppo Tomperi , Maxime Pelcat , Daniel Menard, Low power HEVC software decoder for mobile devices, Journal of Real-Time Image Processing, v.12 n.2, p.495-507, August 2016", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11554-015-0512-8", 
+            "DOIname": "10.1007/s11554-015-0512-8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2984984"
+        }, 
+        {
+            "ArticleName": "Arun Raghavan , Laurel Emurian , Lei Shao , Marios Papaefthymiou , Kevin P. Pipe , Thomas F. Wenisch , Milo M.K. Martin, Computational sprinting on a hardware/software testbed, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451135", 
+            "DOIname": "10.1145/2451116.2451135", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451135"
+        }, 
+        {
+            "ArticleName": "Arun Raghavan , Yixin Luo , Anuj Chandawalla , Marios Papaefthymiou , Kevin P. Pipe , Thomas F. Wenisch , Milo M. K. Martin, Computational sprinting, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169031", 
+            "DOIname": "10.1109/HPCA.2012.6169031", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192689"
+        }, 
+        {
+            "ArticleName": "J. Rasmusson, T. Akenine-M\u00f6ller, J. Hasselgren, and J. Munkberg. 2011. Frame Buffer Compression and Decompression Method for Graphics Rendering. (2011). https://www.google.com/patents/US8031937 US Patent 8,031,937."
+        }, 
+        {
+            "ArticleName": "Prasanna Venkatesh Rengasamy and Madhu Mutyam. 2014. Using Packet Information for Efficient Communication in NoCs. In Networks-on-Chip (NoCS), 2014 Eighth IEEE/ACM International Symposium on. 143--150."
+        }, 
+        {
+            "ArticleName": "Prasanna Venkatesh Rengasamy , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, Exploiting Staleness for Approximating Loads on CMPs, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.343-354, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.27", 
+            "DOIname": "10.1109/PACT.2015.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923803"
+        }, 
+        {
+            "ArticleName": "Prasanna Venkatesh Rengasamy, Haibo Zhang, Nachiappan Chidhambaram Nachiappan, Shulin Zhao, Anand Sivasubramaniam, Mahmut Kandemir, and Chita R. Das. 2017. Characterizing Diverse Handheld apps for Customized Hardware Acceleration. In Proceedings of 2017 IEEE International Symposium on Workload Characterization (IISWC)."
+        }, 
+        {
+            "ArticleName": "R. Rivest, The MD5 Message-Digest Algorithm, RFC Editor, 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=RFC1321"
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, ACM SIGARCH Computer Architecture News, v.28 n.2, p.128-138, May 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/342001.339668", 
+            "DOIname": "10.1145/342001.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "Paul Rosenfeld , Elliott Cooper-Balis , Bruce Jacob, DRAMSim2: A Cycle Accurate Memory System Simulator, IEEE Computer Architecture Letters, v.10 n.1, p.16-19, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2011.4", 
+            "DOIname": "10.1109/L-CA.2011.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999216"
+        }, 
+        {
+            "ArticleName": "Sam Mendes. 2012. Skyfall 4K (UHD). https://goo.gl/LgnZ15. (2012). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "SES Astra. 2016. SES Astra UHD Test 2160p UHDTV Free 4K Sample Footage. https://goo.gl/S7i4nN. (2016). Accessed: 2017-03-15."
+        }, 
+        {
+            "ArticleName": "Hojun Shim , Naehyuck Chang , Massoud Pedram, A compressed frame buffer to reduce display power consumption in mobile systems, Proceedings of the 2004 Asia and South Pacific Design Automation Conference, January 27-30, 2004, Yokohama, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1015309"
+        }, 
+        {
+            "ArticleName": "Akbar Shrifi, Wei Ding, Diana Guttman, Hui Zhao, Xulong Tang, Mahmut Kandemir, and Chita Das. 2017. DEMM: A Dynamic Energy-saving Mechanism for Multicore Memories. In Proceedings of 2017 IEEE 25th International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS)."
+        }, 
+        {
+            "ArticleName": "Gary J. Sullivan , Jens-Rainer Ohm , Woo-Jin Han , Thomas Wiegand, Overview of the High Efficiency Video Coding (HEVC) Standard, IEEE Transactions on Circuits and Systems for Video Technology, v.22 n.12, p.1649-1668, December 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCSVT.2012.2221191", 
+            "DOIname": "10.1109/TCSVT.2012.2221191", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2709221"
+        }, 
+        {
+            "ArticleName": "K. Swaminathan, J. Kotra, H. Liu, J. Sampson, M. Kandemir, and V. Narayanan. 2015. Thermal-Aware Application Scheduling on Device-Heterogeneous Embedded Architectures. In 2015 28th International Conference on VLSI Design. 221--226."
+        }, 
+        {
+            "ArticleName": "Xulong Tang, Hong An, Gongjin Sun, and Dongrui Fan. 2013. A Video Coding Benchmark Suite for Evaluation of Processor Capability. In Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD). 101--116."
+        }, 
+        {
+            "ArticleName": "Xulong Tang , Orhan Kislal , Mahmut Kandemir , Mustafa Karakoy, Data movement aware computation partitioning, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/3123939.3123954", 
+            "DOIname": "10.1145/3123939.3123954", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123954"
+        }, 
+        {
+            "ArticleName": "P. Thinakaran, J. R. Gunasekaran, B. Sharma, M. T. Kandemir, and C. R. Das. 2017. Phoenix: A Constraint-Aware Scheduler for Heterogeneous Datacenters. In 2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS). 977--987."
+        }, 
+        {
+            "ArticleName": "Andrea Tilli , Andrea Bartolini , Matteo Cacciari , Luca Benini, Don't burn your mobile!: safe computational re-sprinting via model predictive control, Proceedings of the eighth IEEE/ACM/IFIP international conference on Hardware/software codesign and system synthesis, October 07-12, 2012, Tampere, Finland", 
+            "DOIhref": "http://doi.acm.org/10.1145/2380445.2380504", 
+            "DOIname": "10.1145/2380445.2380504", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2380504"
+        }, 
+        {
+            "ArticleName": "Tang-Hsun Tu , Chih-Wen Hsueh, Batch-Pipelining for H.264 Decoding on Multicore Systems, Proceedings of the 2010 Data Compression Conference, p.553, March 24-26, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/DCC.2010.57", 
+            "DOIname": "10.1109/DCC.2010.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1796688"
+        }, 
+        {
+            "ArticleName": "Hiroyuki Usui , Lavanya Subramanian , Kevin Kai-Wei Chang , Onur Mutlu, DASH: Deadline-Aware High-Performance Memory Scheduler for Heterogeneous Systems with Hardware Accelerators, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.4, p.1-28, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2847255", 
+            "DOIname": "10.1145/2847255", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2847255"
+        }, 
+        {
+            "ArticleName": "Geert Uytterhoeve. 2001. The Frame Buffer Device. https://www.kernel.org/doc/Documentation/fb/framebuffer.txt. (2001)."
+        }, 
+        {
+            "ArticleName": "T. Wiegand , G. J. Sullivan , G. Bjontegaard , A. Luthra, Overview of the H.264/AVC video coding standard, IEEE Transactions on Circuits and Systems for Video Technology, v.13 n.7, p.560-576, July 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCSVT.2003.815165", 
+            "DOIname": "10.1109/TCSVT.2003.815165", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2323484"
+        }, 
+        {
+            "ArticleName": "J. K. Wolf and D. Chun. 1994. The Single Burst Error Detection Performance of Binary Cyclic Codes. IEEE Transactions on Communications (1994), 11--13."
+        }, 
+        {
+            "ArticleName": "Jun Yang , Rajiv Gupta, Energy efficient frequent value data cache design, Proceedings of the 35th annual ACM/IEEE international symposium on Microarchitecture, November 18-22, 2002, Istanbul, Turkey", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=774883"
+        }, 
+        {
+            "ArticleName": "Praveen Yedlapalli , Nachiappan Chidambaram Nachiappan , Niranjan Soundararajan , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, Short-Circuiting Memory Traffic in Handheld Platforms, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.60", 
+            "DOIname": "10.1109/MICRO.2014.60", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742172"
+        }, 
+        {
+            "ArticleName": "Seyed Majid Zahedi , Songchun Fan , Matthew Faw , Elijah Cole , Benjamin C. Lee, Computational Sprinting: Architecture, Dynamics, and Strategies, ACM Transactions on Computer Systems (TOCS), v.34 n.4, p.1-26, January 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3014428", 
+            "DOIname": "10.1145/3014428", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3014428"
+        }, 
+        {
+            "ArticleName": "R. Zahir. 2012. Medfield smartphone SOC Intel Atom Z2460 processor. In 2012 IEEE Hot Chips 24 Symposium (HCS). 1--20."
+        }, 
+        {
+            "ArticleName": "Rumi Zahir, Mark Ewert, and Hari Seshadri. 2013. The Medfield Smartphone: Intel Architecture in a Handheld Form Factor. IEEE Micro (2013)."
+        }, 
+        {
+            "ArticleName": "J. Zhan, M. Poremba, Y. Xu, and Y. Xie. 2014. NoD: Leveraging delta compression for end-to-end memory access in NoC based multicores. In Proceedings of 2014 19th Asia and South Pacific Design Automation Conference (ASP-DAC). 586--591."
+        }, 
+        {
+            "ArticleName": "Haibo Zhang , Wenting Han , Feng Li , Songtao He , Yichao Cheng , Hong An , Zhitao Chen, A Criticality-Aware DVFS Runtime Utility for Optimizing Power Efficiency of Multithreaded Applications, Proceedings of the 2014 IEEE International Parallel & Distributed Processing Symposium Workshops, p.841-848, May 19-23, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPSW.2014.96", 
+            "DOIname": "10.1109/IPDPSW.2014.96", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2673080"
+        }, 
+        {
+            "ArticleName": "Youtao Zhang , Jun Yang , Rajiv Gupta, Frequent value locality and value-centric data cache design, ACM SIGPLAN Notices, v.35 n.11, p.150-159, Nov. 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/356989.357003", 
+            "DOIname": "10.1145/356989.357003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357003"
+        }, 
+        {
+            "ArticleName": "D. Zhou, S. Wang, H. Sun, J. Zhou, J. Zhu, Y. Zhao, J. Zhou, S. Zhang, S. Kimura, T. Yoshimura, and S. Goto. 2016. 14.7 A 4Gpixel/s 8/10b H.265/HEVC Video Decoder Chip for 8K Ultra HD Applications. In Proceedings of 2016 IEEE International Solid-State Circuits Conference (ISSCC)."
+        }, 
+        {
+            "ArticleName": "D. Zhou, J. Zhou, X. He, J. Zhu, J. Kong, P. Liu, and S. Goto. 2011. A530 Mpixels/s 4096x2160 60fps H.264/AVC High Profile Video Decoder Chip. IEEE Journal of Solid-State Circuits (2011), 777--788."
+        }, 
+        {
+            "ArticleName": "Yuhao Zhu , Vijay Janapa Reddi, High-performance and energy-efficient mobile web browsing on big/little systems, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.13-24, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522303", 
+            "DOIname": "10.1109/HPCA.2013.6522303", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495486"
+        }, 
+        {
+            "ArticleName": "Yuhao Zhu , Vijay Janapa Reddi, Optimizing General-Purpose CPUs for Energy-Efficient Mobile Web Computing, ACM Transactions on Computer Systems (TOCS), v.35 n.1, p.1-31, July 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3041024", 
+            "DOIname": "10.1145/3041024", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3041024"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Haibo Zhang"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Prasanna Venkatesh Rengasamy"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Shulin Zhao"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Nachiappan Chidambaram Nachiappan"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Anand Sivasubramaniam"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Mahmut T. Kandemir"
+        }, 
+        {
+            "Affiliation": "Intel", 
+            "Name": "Ravi Iyer"
+        }, 
+        {
+            "Affiliation": "The Pennsylvania State University", 
+            "Name": "Chita R. Das"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123948&preflayout=flat"
+}

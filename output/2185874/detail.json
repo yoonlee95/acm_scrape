@@ -1,0 +1,46 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 0
+    }, 
+    "Title": "Parallelization strategy for CELL TV", 
+    "Abstract": "Consumer electronics devices are moving forward to utilize multi-core processors. We have developed a series of unique applications for TV based on Cell Broadband EngineTM (Cell/B.E.). This paper introduces such applications realized by the capability of the multi-core processor, and shares the strategy we took to exploit its potential.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "CELL TV, http://tacp.toshiba.com/promopage/celltvbk2A.html"
+        }, 
+        {
+            "ArticleName": "Seiji Maeda , Shigehiro Asano , Tomofumi Shimada , Koichi Awazu , Haruyuki Tago, A Real-Time Software Platform for the Cell Processor, IEEE Micro, v.25 n.5, p.20-29, September 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2005.79", 
+            "DOIname": "10.1109/MM.2005.79", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100921"
+        }, 
+        {
+            "ArticleName": "Motohiro T, et al.: Molatomium: Parallel Programming Model in Practice. In: HotPar 2010 (to appear)"
+        }, 
+        {
+            "ArticleName": "Takashi, I., et al.: Reconstruction-based Super-resolution Using Self-congruency of Images. IEICE technical report. Image engineering. 107. 380, 135-140 (2007)"
+        }, 
+        {
+            "ArticleName": "Munshi, A.: OpenCL: Parallel computing on the GPU and CPU. In: ACM SIGGRAPH, Tutorial (2008)"
+        }, 
+        {
+            "ArticleName": "NVIDIA.: NVIDIA CUDA Compute Unified Device Architecture Programming Guide (2007), http://www.nvidia.com/cuda"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Toshiba Corporation, Japan", 
+            "Name": "Motohiro Takayama"
+        }, 
+        {
+            "Affiliation": "Toshiba Corporation, Japan", 
+            "Name": "Ryuji Sakai"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185874&preflayout=flat"
+}

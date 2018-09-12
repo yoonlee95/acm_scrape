@@ -1,0 +1,431 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 1131, 
+        "Downloads_6Weeks": 81, 
+        "Downloads_cumulative": 1131, 
+        "CitationCount": 0
+    }, 
+    "Title": "DRISA: a DRAM-based Reconfigurable In-Situ Accelerator", 
+    "Abstract": "Data movement between the processing units and the memory in traditional von Neumann architecture is creating the \"memory wall\" problem. To bridge the gap, two approaches, the memory-rich processor (more on-chip memory) and the compute-capable memory (processing-in-memory) have been studied. However, the first one has strong computing capability but limited memory capacity/bandwidth, whereas the second one is the exact the opposite. To address the challenge, we propose DRISA, a DRAM-based Reconfigurable In-Situ Accelerator architecture, to provide both powerful computing capability and large memory capacity/bandwidth. DRISA is primarily composed of DRAM memory arrays, in which every memory bitline can perform bitwise Boolean logic operations (such as NOR). DRISA can be reconfigured to compute various functions with the combination of the functionally complete Boolean logic operations and the proposed hierarchical internal data movement designs.We further optimize DRISA to achieve high performance by simultaneously activating multiple rows and subarrays to provide massive parallelism, unblocking the internal data movement bottlenecks, and optimizing activation latency and energy. We explore four design options and present a comprehensive case study to demonstrate significant acceleration of convolutional neural networks. The experimental results show that DRISA can achieve 8.8x speedup and 1.2x better energy efficiency compared with ASICs, and 7.7x speedup and 15x better energy efficiency over GPUs with integer operations.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "2015. IC Cost and Price Model, Revision 1506, IC Knowledge LLC. (2015). http://www.icknowledge.com/"
+        }, 
+        {
+            "ArticleName": "2016. 8Gb B-die DDR4 SDRAM. (2016). http://ww.samsung.corn/semiconductor/global/file/product/2016/06/DS_K4A8G085WB-B_Rev1_61-0.pdf"
+        }, 
+        {
+            "ArticleName": "2016. NVIDIA TITAN X (pascal). (2016). http://www.geforce.com/hardware/10series/titan-x-pascal"
+        }, 
+        {
+            "ArticleName": "2017. Design Compiler, Synopsys Inc. (2017)."
+        }, 
+        {
+            "ArticleName": "2017. Intel Instruction Set Architecture Extensions. (2017). https://software.intel.com/en-us/intel-isa-extensions"
+        }, 
+        {
+            "ArticleName": "2017. Micron Automata Processor. (2017). https://www.micronautomata.com/"
+        }, 
+        {
+            "ArticleName": "2017. NVIDIA cuDNN. (2017). https://developer.nvidia.com/cudnn"
+        }, 
+        {
+            "ArticleName": "2017. NVIDIA System Management Interface. (2017). https://developer.nvidia.com/nvidia-system-management-interface"
+        }, 
+        {
+            "ArticleName": "2017. Torch 7. (2017). http://torch.ch/"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungpack Hong , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, A scalable processing-in-memory accelerator for parallel graph processing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750386", 
+            "DOIname": "10.1145/2749469.2750386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750386"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Kiyoung Choi, AIM: Energy-Efficient Aggregation Inside the Memory Hierarchy, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.4, p.1-24, December 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2994149", 
+            "DOIname": "10.1145/2994149", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2994149"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, PIM-enabled instructions: a low-overhead, locality-aware processing-in-memory architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750385", 
+            "DOIname": "10.1145/2749469.2750385", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750385"
+        }, 
+        {
+            "ArticleName": "A. Akerib, O. AGAM, E. Ehrman, and M. Meyassed. 2014. Using storage cells to perform computation, (dec 2014). US Patent 8,908,465."
+        }, 
+        {
+            "ArticleName": "Avidan Akerib and Eli Ehrman. 2014. In-memory computational device, (nov 2014). US Patent App. 14/555,638."
+        }, 
+        {
+            "ArticleName": "A. Akerib and E. Ehrman. 2015. Non-volatile in-memory computing device, (may 2015). US Patent App. 14/588,419."
+        }, 
+        {
+            "ArticleName": "Berkin Akin , Franz Franchetti , James C. Hoe, Data reorganization in memory using 3D-stacked DRAM, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750397", 
+            "DOIname": "10.1145/2749469.2750397", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750397"
+        }, 
+        {
+            "ArticleName": "Hadi Asghari-Moghaddam, Young Hoon Son, Jung Ho Ahn, and Nam Sung Kim. 2016. Chameleon: Versatile and practical near-DRAM acceleration architecture for large memory systems. In International Symposium on Microarchitecture (MICRO)}. ACM, 1--13."
+        }, 
+        {
+            "ArticleName": "Rajeev Balasubramonian, Jichuan Chang, Troy Manning, Jaime H Moreno, Richard Murphy, Ravi Nair, and Steven Swanson. 2014. Near-Data Processing: Insights from a MICRO-46 Workshop. In Micro, IEEE, Vol. 34. IEEE, 36--42."
+        }, 
+        {
+            "ArticleName": "Mahdi Nazm Bojnordi and Engin Ipek. 2016. Memristive Boltzmann machine: A hardware accelerator for combinatorial optimization and deep learning. In International Symposium on High Performance Computer Architecture (HPCA). IEEE, 1--13."
+        }, 
+        {
+            "ArticleName": "Amirali Boroumand, Saugata Ghose, Brandon Lucia, Kevin Hsieh, Krishna Malladi, Hongzhong Zheng, and Onur Mutlu. 2016. LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory. Computer Architecture Letters (2016), 1--1."
+        }, 
+        {
+            "ArticleName": "Kevin Chen and Lior Pachter. 2005. Bio informatics for whole-genome shotgun sequencing of microbial communities. PLoS Comput Biol 1, 2 (2005), e24."
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Ping Chi , Shuangchen Li , Cong Xu , Tao Zhang , Jishen Zhao , Yongpan Liu , Yu Wang , Yuan Xie, PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.13", 
+            "DOIname": "10.1109/ISCA.2016.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001140"
+        }, 
+        {
+            "ArticleName": "Matthieu Courbariaux and Yoshua Bengio. 2016. BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1. arXiv: 1602.02830 (2016)."
+        }, 
+        {
+            "ArticleName": "Matthieu Courbariaux , Yoshua Bengio , Jean-Pierre David, BinaryConnect: training deep neural networks with binary weights during propagations, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.3123-3131, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969588"
+        }, 
+        {
+            "ArticleName": "Bill Dally. 2015. The Path to Exascale. http://images.nvidia.com/events/sc15/pdfs/SC5102-path-exascale-computing.pdf. (2015)."
+        }, 
+        {
+            "ArticleName": "Paul Dlugosch, Dave Brown, Paul Glendenning, Michael Leventhal, and Harold Noyes. 2014. An efficient and scalable semiconductor architecture for parallel automata processing. In Parallel and Distributed Systems, IEEE Transactions on. IEEE, 99."
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Steve K. Esser, Alexander Andreopoulos, Rathinakumar Appuswamy, Pallab Datta, Davis Barch, Arnon Amir, John Arthur, Andrew Cassidy, Myron Flickner, Paul Merolla, Shyamal Chandra, Nicola Basilico, Stefano Carpin, Tom Zimmerman, Frank Zee, Rodrigo Alvarez-Icaza, Jeffrey A. Kusnitz, Theodore M. Wong, William P. Risk, Emmett McQuinn, Tapan K. Nayak, Raghavendra Singh, and Dharmendra S. Modha. 2013. Cognitive computing systems: Algorithms and applications for networks of neurosynaptic cores. In International Joint Conference on Neural Networks (IJCNN). IEEE, 1--10."
+        }, 
+        {
+            "ArticleName": "A Farmahini-Farahani, Jung Ho Ahn, K Morrow, and Nam Sung Kim. 2015. NDA: Near-DRAM acceleration architecture leveraging commodity DRAM devices and standard memory modules. In International Symposium on High Performance Computer Architecture (HPCA). 283--295."
+        }, 
+        {
+            "ArticleName": "G. Fredeman, D. W. Plass, A. Mathews, J. Viraraghavan, K. Reyer, T. J. Knips, T. Miller, E. L. Gerhard, D. Kannambadi, C. Paone, D. Lee, D. J. Rainey, M. Sperling, M. Whalen, S. Burns, R. R. Tummuru, H. Ho, A. Cestero, N. Arnold, B. A. Khan, T. Kirihata, and S. S. Iyer. 2016. A 14 nm 1.1 Mb Embedded DRAM Macro With 1 ns Access. IEEE Journal of Solid-State Circuits 51, 1 (jan 2016), 230--239."
+        }, 
+        {
+            "ArticleName": "Mingyu Gao , Grant Ayers , Christos Kozyrakis, Practical Near-Data Processing for In-Memory Analytics Frameworks, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.113-124, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.22", 
+            "DOIname": "10.1109/PACT.2015.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923783"
+        }, 
+        {
+            "ArticleName": "Mingyu Gao , Christina Delimitrou , Dimin Niu , Krishna T. Malladi , Hongzhong Zheng , Bob Brennan , Christos Kozyrakis, DRAF: a low-power DRAM-based reconfigurable acceleration fabric, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.51", 
+            "DOIname": "10.1109/ISCA.2016.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001191"
+        }, 
+        {
+            "ArticleName": "Mingyu Gao and Christos Kozyrakis. 2016. HRL: Efficient and flexible reconfigurable logic for near-data processing. In International Symposium on High Performance Computer Architecture (HPCA). IEEE, 126--137."
+        }, 
+        {
+            "ArticleName": "Qing Guo , Xiaochen Guo , Ravi Patel , Engin Ipek , Eby G. Friedman, AC-DIMM: associative computing with STT-MRAM, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485939", 
+            "DOIname": "10.1145/2485922.2485939", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485939"
+        }, 
+        {
+            "ArticleName": "Qi Guo , Tze-Meng Low , Nikolaos Alachiotis , Berkin Akin , Larry Pileggi , James C. Hoe , Franz Franchetti, Enabling portable energy efficiency with memory accelerated library, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830788", 
+            "DOIname": "10.1145/2830772.2830788", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830788"
+        }, 
+        {
+            "ArticleName": "Linley Gwennap. 2015. Skylake speedshifts to next gear. Microprocessor Report 29, 9 (2015), 6--10."
+        }, 
+        {
+            "ArticleName": "Fatih Hamzaoglu, Umut Arslan, Nabhendra Bisnik, Swaroop Ghosh, Manoj B. Lai, Nick Lindert, Mesut Meterelliyoz, Randy B. Osborne, Joodong Park, Shigeki Tomishima, Yih Wang, and Kevin Zhang. 2014. 13.1 A 1Gb 2GHz embedded DRAM in 22nm tri-gate CMOS technology. In International Solid-State Circuits Conference Digest of Technical Papers (ISSCC). IEEE, 230--231."
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "Song Han, Huizi Mao, and William J. Dally. 2015. Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding. arXiv: 1510.00149 (2015)."
+        }, 
+        {
+            "ArticleName": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Deep Residual Learning for Image Recognition. arXiv: 1512.03385 (2015)."
+        }, 
+        {
+            "ArticleName": "Byungchul Hong , Gwangsun Kim , Jung Ho Ahn , Yongkee Kwon , Hongsik Kim , John Kim, Accelerating Linked-list Traversal Through Near-Data Processing, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967958", 
+            "DOIname": "10.1145/2967938.2967958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967958"
+        }, 
+        {
+            "ArticleName": "Wei Huang , Shougata Ghosh , Siva Velusamy , Karthik Sankaranarayanan , Kevin Skadron , Mircea R. Stan, Hotspot: acompact thermal modeling methodology for early-stage VLSI design, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.14 n.5, p.501-513, May 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2006.876103", 
+            "DOIname": "10.1109/TVLSI.2006.876103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1962135"
+        }, 
+        {
+            "ArticleName": "Itay Hubara, Matthieu Courbariaux, Daniel Soudry, Ran El-Yaniv, and Yoshua Bengio. 2016. Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations. arXiv: 1609.07061 (2016)."
+        }, 
+        {
+            "ArticleName": "Sergey Ioffe and Christian Szegedy. 2015. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. arXiv: 1502.03167 (2015)."
+        }, 
+        {
+            "ArticleName": "Jinho Lee , Jung Ho Ahn , Kiyoung Choi, Buffered compares: excavating the hidden parallelism inside DRAM architectures with lightweight logic, Proceedings of the 2016 Conference on Design, Automation & Test in Europe, March 14-18, 2016, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2972099"
+        }, 
+        {
+            "ArticleName": "Jan Van Lunteren. 2016. Programmable Near-Memory Acceleration on ConTutto. In OpenPower Summit."
+        }, 
+        {
+            "ArticleName": "Y. Ji, Y. Zhang, S. Li, P. Chi, C. Jiang, P. Qu, Y. Xie, and W. Chen. 2016. NEUTRAMS: Neural network transformation and co-design under neuromorphic hardware constraints. In Annual IEEE/ACM International Symposium on Microarchitecture (MICRO). 1--13."
+        }, 
+        {
+            "ArticleName": "Sung-Mo (Steve) Kang , Yusuf Leblebici, CMOS Digital Integrated Circuits Analysis & Design, McGraw-Hill, Inc., New York, NY, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1593785"
+        }, 
+        {
+            "ArticleName": "Ke Chen , Sheng Li , Naveen Muralimanohar , Jung Ho Ahn , Jay B. Brockman , Norman P. Jouppi, CACTI-3DD: architecture-level modeling for 3D die-stacked DRAM main memory, Proceedings of the Conference on Design, Automation and Test in Europe, March 12-16, 2012, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2492719"
+        }, 
+        {
+            "ArticleName": "Brent Keeth , R. Jacob Baker , Brian Johnson , Feng Lin, DRAM Circuit Design: Fundamental and High-Speed Topics, Wiley-IEEE Press, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1557425"
+        }, 
+        {
+            "ArticleName": "Saugata Ghose Kevin Hsieh, Samira Khan, Nandita Vijaykumar, Kevin K. Chang, Amirali Boroumand and Onur Mutlu. 2016. Accelerating Pointer Chasing in 3D-Stacked Memory: Challenges, Mechanisms, Evaluation. In International Conference on Computer Design (ICCD)."
+        }, 
+        {
+            "ArticleName": "Duckhwan Kim , Jaeha Kung , Sek Chai , Sudhakar Yalamanchili , Saibal Mukhopadhyay, Neurocube: a programmable digital neuromorphic architecture with high-density 3D memory, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.41", 
+            "DOIname": "10.1109/ISCA.2016.41", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001178"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "Yong-Bin Kim , Tom W. Chen, Assessing merged DRAM/logic technology, Integration, the VLSI Journal, v.27 n.2, p.179-194, July 1999", 
+            "DOIhref": "https://dx.doi.org/10.1016/S0167-9260(99)00006-1", 
+            "DOIname": "10.1016/S0167-9260(99)00006-1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=326104"
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. 2015. Deep learning. Nature 521, 7553 (2015), 436--444."
+        }, 
+        {
+            "ArticleName": "Dong Uk Lee, Kyung Whan Kim, Kwan Weon Kim, Hongjung Kim, Ju Young Kim, Young Jun Park, Jae Hwan Kim, Dae Suk Kim, Heat Bit Park, Jin Wook Shin, Jang Hwan Cho, Ki Hun Kwon, Min Jeong Kim, Jaejin Lee, Kun Woo Park, Byongtae Chung, and Sungjoo Hong. 2014. A 1.2V 8Gb 8-channel 128GB/s high-bandwidth memory (HBM) stacked DRAM with effective microbump I/O test methods using 29nm process and TSV. In International Solid-State Circuits Conference Digest of Technical Papers (ISSCC). 432--433."
+        }, 
+        {
+            "ArticleName": "Fengfu Li and Bin Liu. 2016. Ternary Weight Networks. arXiv: 1605.04711 (2016)."
+        }, 
+        {
+            "ArticleName": "Shuangchen Li , Cong Xu , Qiaosha Zou , Jishen Zhao , Yu Lu , Yuan Xie, Pinatubo: a processing-in-memory architecture for bulk bitwise operations in emerging non-volatile memories, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2898064", 
+            "DOIname": "10.1145/2897937.2898064", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2898064"
+        }, 
+        {
+            "ArticleName": "Shaoli Liu , Zidong Du , Jinhua Tao , Dong Han , Tao Luo , Yuan Xie , Yunji Chen , Tianshi Chen, Cambricon: an instruction set architecture for neural networks, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.42", 
+            "DOIname": "10.1109/ISCA.2016.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001179"
+        }, 
+        {
+            "ArticleName": "Paul Merolla, John Arthur, Filipp Akopyan, Nabil Imam, Rajit Manohar, and Dharmendra S. Modha. 2011. A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm. In Custom Integrated Circuits Conference (CICC). IEEE, 1--4."
+        }, 
+        {
+            "ArticleName": "Paul A Merolla, John V Arthur, Rodrigo Alvarez-Icaza, Andrew S Cassidy, Jun Sawada, Filipp Akopyan, Bryan L Jackson, Nabil Imam, Chen Guo, Yutaka Nakamura, Bernard Brezzo, Ivan Vo, Steven K Esser, Rathinakumar Appuswamy, Brian Taba, Arnon Amir, Myron D Flickner, William P Risk, Rajit Manohar, and Dharmendra S Modha. 2014. A million spiking-neuron integrated circuit with a scalable communication network and interface. Science 345, 6197 (2014), 668--673."
+        }, 
+        {
+            "ArticleName": "Mu-Tien Chang , Paul Rosenfeld , Shih-Lien Lu , Bruce Jacob, Technology comparison for large last-level caches (L3Cs): Low-leakage SRAM, low write-energy STT-RAM, and refresh-optimized eDRAM, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.143-154, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522314", 
+            "DOIname": "10.1109/HPCA.2013.6522314", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495476"
+        }, 
+        {
+            "ArticleName": "Norman P Muralimanohar, Naveen and Balasubramonian, Rajeev and Jouppi. 2009. CACTI 6.0: A tool to model large caches. HP Lab. (2009), 22--31."
+        }, 
+        {
+            "ArticleName": "Prashant J. Nair , Dae-Hyun Kim , Moinuddin K. Qureshi, ArchShield: architectural framework for assisting DRAM scaling by tolerating high error rates, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485929", 
+            "DOIname": "10.1145/2485922.2485929", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485929"
+        }, 
+        {
+            "ArticleName": "R Nair, S F Antao, C Bertolli, P Bose, J R Brunheroto, T Chen, C Cher, C H A Costa, J Evangelinos, B M Fleischer, T W Fox, D S Gallo, L Grinberg, J A Gunnels, A C Jacob, P Jacob, H M Jacobson, T Karkhanis, C Kim, J H Moreno, J K O'Brien, M Ohmacht, Y Park, D A Prener, B S Rosenburg, K D Ryu, O Sallenave, M J Serrano, P D M Siegl, K Sugavanam, and Z Sura. 2015. Active Memory Cube: A processing-in-memory architecture for exascale systems. IBM Journal of Research and Development 59, 2/3 (mar 2015), 17:1--17:14."
+        }, 
+        {
+            "ArticleName": "David Harris Neil Weste. 2006. CMOS VLSI Design: A Circuits And Systems Perspective, 3/E. Pearson."
+        }, 
+        {
+            "ArticleName": "Joachim Ott, Zhouhan Lin, Ying Zhang, Shih-Chii Liu, and Yoshua Bengio. 2016. Recurrent Neural Networks With Limited Numerical Precision. arXiv: 1608.06902 (2016)."
+        }, 
+        {
+            "ArticleName": "J. M. Park, Y. S. Hwang, S. W. Kim, S. Y. Han, J. S. Park, J. Kim, J. W. Seo, B. S. Kim, S. H. Shin, C. H. Cho, S. W. Nam, H. S. Hong, K. P. Lee, G. Y. Jin, and E. S. Jung. 2015. 20nm DRAM: A new beginning of another revolution. In 2015 IEEE International Electron Devices Meeting (IEDM). 26.5.1--26.5.4."
+        }, 
+        {
+            "ArticleName": "David Patterson , Thomas Anderson , Neal Cardwell , Richard Fromm , Kimberly Keeton , Christoforos Kozyrakis , Randi Thomas , Katherine Yelick, A Case for Intelligent RAM, IEEE Micro, v.17 n.2, p.34-44, March 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.592312", 
+            "DOIname": "10.1109/40.592312", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624083"
+        }, 
+        {
+            "ArticleName": "David A. Patterson , John L. Hennessy, Computer Organization and Design, Fifth Edition: The Hardware/Software Interface, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2568134"
+        }, 
+        {
+            "ArticleName": "Ashutosh Pattnaik , Xulong Tang , Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Chita R. Das, Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967940", 
+            "DOIname": "10.1145/2967938.2967940", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967940"
+        }, 
+        {
+            "ArticleName": "J Thomas Pawlowski. 2011. Hybrid memory cube (HMC). In Hot Chips, Vol. 23."
+        }, 
+        {
+            "ArticleName": "Seth H. Pugsley, Jeffrey Jestes, Rajeev Balasubramonian, Vijayalakshmi Srinivasan, Alper Buyuktosunoglu, Al Davis, and Feifei Li. 2014. Comparing Implementations of Near-Data Computing with In-Memory MapReduce Workloads. In Micro, IEEE, Vol. 34. IEEE, 44--52."
+        }, 
+        {
+            "ArticleName": "Seth H Pugsley, Jeffrey Jestes, Huihui Zhang, Rajeev Balasubramonian, Vijayalakshmi Srinivasan, A Buyuktosunoglu, A Davis, and F Li. 2014. NDC: Analyzing the Impact of 3D-Stacked Memory+ Logic Devices on MapReduce Workloads. In International Symposium on Performance Analysis of Systems and Software (ISPASS)."
+        }, 
+        {
+            "ArticleName": "Mohammad Rastegari, Vicente Ordonez, Joseph Redmon, and Ali Farhadi. 2016. XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks. arXiv: 1603.05279 (2016)."
+        }, 
+        {
+            "ArticleName": "Olga Russakovsky , Jia Deng , Hao Su , Jonathan Krause , Sanjeev Satheesh , Sean Ma , Zhiheng Huang , Andrej Karpathy , Aditya Khosla , Michael Bernstein , Alexander C. Berg , Li Fei-Fei, ImageNet Large Scale Visual Recognition Challenge, International Journal of Computer Vision, v.115 n.3, p.211-252, December 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11263-015-0816-y", 
+            "DOIname": "10.1007/s11263-015-0816-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2846559"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri. 2016. Simple DRAM and Virtual Memory Abstractions to Enable Highly Efficient Memory Systems. arXiv: 1605.06483 (2016)."
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Kevin Hsieh , Amirali Boroumand , Donghyuk Lee , Michael A. Kozuch , Onur Mutlu , Phillip B. Gibbons , Todd C. Mowry, Fast Bulk Bitwise AND and OR in DRAM, IEEE Computer Architecture Letters, v.14 n.2, p.127-131, July 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2434872", 
+            "DOIname": "10.1109/LCA.2015.2434872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2878683"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Yoongu Kim , Chris Fallin , Donghyuk Lee , Rachata Ausavarungnirun , Gennady Pekhimenko , Yixin Luo , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, RowClone: fast and energy-efficient in-DRAM bulk data copy and initialization, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540725", 
+            "DOIname": "10.1145/2540708.2540725", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540725"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri, Donghyuk Lee, Thomas Mullins, Hasan Hassan, Amirali Boroumand, Jeremie Kim, Michael A. Kozuch, Onur Mutlu, Phillip B. Gibbons, and Todd C. Mowry. 2016. Buddy-RAM: Improving the Performance and Efficiency of Bulk Bitwise Operations Using DRAM. arXiv: 1611.09988 (2016)."
+        }, 
+        {
+            "ArticleName": "Hardik Sharma, Jongse Park, Divya Mahajan, Emmanuel Amaro, Joon Kyung Kim, Chenkai Shao, Asit Mishra, and Hadi Esmaeilzadeh. 2016. From High-Level Deep Neural Models to FPGAs. In International Symposium on Microarchitecture (MICRO). IEEE."
+        }, 
+        {
+            "ArticleName": "George Sideris. 1973. INTEL 1103-MOS memory taht defied cores. ELECTRONICS 46, 9 (1973), 108--113."
+        }, 
+        {
+            "ArticleName": "Karen Simonyan and Andrew Zisserman. 2014. Very Deep Convolutional Networks for Large-Scale Image Recognition. arXiv: 1409.1556 (2014)."
+        }, 
+        {
+            "ArticleName": "Young Hoon Son , O. Seongil , Yuhwan Ro , Jae W. Lee , Jung Ho Ahn, Reducing memory access latency with asymmetric DRAM bank organizations, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485955", 
+            "DOIname": "10.1145/2485922.2485955", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485955"
+        }, 
+        {
+            "ArticleName": "Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott E. Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich. 2014. Going Deeper with Convolutions. arXiv: 1409.4842 (2014)."
+        }, 
+        {
+            "ArticleName": "Pedro Trancoso, Moving to memoryland: in-memory computation for existing applications, Proceedings of the 12th ACM International Conference on Computing Frontiers, p.1-6, May 18-21, 2015, Ischia, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2742854.2742874", 
+            "DOIname": "10.1145/2742854.2742874", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742874"
+        }, 
+        {
+            "ArticleName": "G. Venkatesh, E. Nurvitadhi, and D. Marr. 2016. Accelerating Deep Convolutional Networks using low-precision and sparsity. arXiv: 1610.00324 (2016)."
+        }, 
+        {
+            "ArticleName": "Oreste Villa , Daniel R. Johnson , Mike O'Connor , Evgeny Bolotin , David Nellans , Justin Luitjens , Nikolai Sakharnykh , Peng Wang , Paulius Micikevicius , Anthony Scudiero , Stephen W. Keckler , William J. Dally, Scaling the power wall: a path to exascale, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.73", 
+            "DOIname": "10.1109/SC.2014.73", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683684"
+        }, 
+        {
+            "ArticleName": "Thomas Vogelsang, Understanding the Energy Consumption of Dynamic Random Access Memories, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.363-374, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.42", 
+            "DOIname": "10.1109/MICRO.2010.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934982"
+        }, 
+        {
+            "ArticleName": "Ren Wu, Shengen Yan, Yi Shan, Qingqing Dang, and Gang Sun. 2015. Deep Image: Scaling up Image Recognition. arXiv: 1501.02876 (2015)."
+        }, 
+        {
+            "ArticleName": "Mahmut Kandemir Mustafa Karakoy Xulong Tang, Orhan Kislal. 2018. Data Movement Aware Computation Partitioning. In International Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Yasuko Eckert Nuwan Jayasena and Gabriel Loh. 2014. Thermal Feasibility of Die-Stacked Processing in Memory. In WoNDP: 2nd Workshop on Near-Data Processing, International Symposium on Microarchitecture. IEEE."
+        }, 
+        {
+            "ArticleName": "Dongping Zhang , Nuwan Jayasena , Alexander Lyashevsky , Joseph L. Greathouse , Lifan Xu , Michael Ignatowski, TOP-PIM: throughput-oriented programmable processing in memory, Proceedings of the 23rd international symposium on High-performance parallel and distributed computing, June 23-27, 2014, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2600212.2600213", 
+            "DOIname": "10.1145/2600212.2600213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2600213"
+        }, 
+        {
+            "ArticleName": "Tao Zhang , Ke Chen , Cong Xu , Guangyu Sun , Tao Wang , Yuan Xie, Half-DRAM: a high-bandwidth and low-power DRAM architecture from the rethinking of fine-grained activation, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665724"
+        }, 
+        {
+            "ArticleName": "Shuchang Zhou, Zekun Ni, Xinyu Zhou, He Wen, Yuxin Wu, and Yuheng Zou. 2016. DoReFa-Net: Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients. arXiv: 1606.06160 (2016)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "Shuangchen Li"
+        }, 
+        {
+            "Affiliation": "Samsung Semiconductor Inc.", 
+            "Name": "Dimin Niu"
+        }, 
+        {
+            "Affiliation": "Samsung Semiconductor Inc.", 
+            "Name": "Krishna T. Malladi"
+        }, 
+        {
+            "Affiliation": "Samsung Semiconductor Inc.", 
+            "Name": "Hongzhong Zheng"
+        }, 
+        {
+            "Affiliation": "Samsung Semiconductor Inc.", 
+            "Name": "Bob Brennan"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Yuan Xie"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123977&preflayout=flat"
+}

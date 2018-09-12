@@ -1,0 +1,584 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Xinyu Liu , Zhaohua Zhang , Boran Hou , Rebecca J. Stones , Gang Wang , Xiaoguang Liu, Index Compression for BitFunnel Query Processing, The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval, July 08-12, 2018, Ann Arbor, MI, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3210086"
+        }, 
+        {
+            "ArticleName": "Quan Deng , Lei Jiang , Youtao Zhang , Minxuan Zhang , Jun Yang, DrAcc: a DRAM based accelerator for accurate CNN inference, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196029"
+        }, 
+        {
+            "ArticleName": "Anup Das , Hasan Hassan , Onur Mutlu, VRL-DRAM: improving DRAM performance via variable refresh latency, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196136"
+        }, 
+        {
+            "ArticleName": "Samira Khan , Chris Wilkerson , Zhe Wang , Alaa R. Alameldeen , Donghyuk Lee , Onur Mutlu, Detecting and mitigating data-dependent DRAM failures by exploiting current memory content, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123945"
+        }, 
+        {
+            "ArticleName": "Amirali Boroumand , Saugata Ghose , Youngsok Kim , Rachata Ausavarungnirun , Eric Shiu , Rahul Thakur , Daehyun Kim , Aki Kuusela , Allan Knies , Parthasarathy Ranganathan , Onur Mutlu, Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173177"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 530, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 530, 
+        "CitationCount": 5
+    }, 
+    "Title": "Ambit: in-memory accelerator for bulk bitwise operations using commodity DRAM technology", 
+    "Abstract": "Many important applications trigger bulk bitwise operations, i.e., bitwise operations on large bit vectors. In fact, recent works design techniques that exploit fast bulk bitwise operations to accelerate databases (bitmap indices, BitWeaving) and web search (BitFunnel). Unfortunately, in existing architectures, the throughput of bulk bitwise operations is limited by the memory bandwidth available to the processing unit (e.g., CPU, GPU, FPGA, processing-in-memory). To overcome this bottleneck, we propose Ambit, an Accelerator-in-Memory for bulk bitwise operations. Unlike prior works, Ambit exploits the analog operation of DRAM technology to perform bitwise operations completely inside DRAM, thereby exploiting the full internal DRAM bandwidth. Ambit consists of two components. First, simultaneous activation of three DRAM rows that share the same set of sense amplifiers enables the system to perform bitwise AND and OR operations. Second, with modest changes to the sense amplifier, the system can use the inverters present inside the sense amplifier to perform bitwise NOT operations. With these two components, Ambit can perform any bulk bitwise operation efficiently inside DRAM. Ambit largely exploits existing DRAM structure, and hence incurs low cost on top of commodity DRAM designs (1% of DRAM chip area). Importantly, Ambit uses the modern DRAM interface without any changes, and therefore it can be directly plugged onto the memory bus. Our extensive circuit simulations show that Ambit works as expected even in the presence of significant process variation. Averaged across seven bulk bitwise operations, Ambit improves performance by 32X and reduces energy consumption by 35X compared to state-of-the-art systems. When integrated with Hybrid Memory Cube (HMC), a 3D-stacked DRAM with a logic layer, Ambit improves performance of bulk bitwise operations by 9.7X compared to processing in the logic layer of the HMC. Ambit improves the performance of three real-world data-intensive applications, 1) database bitmap indices, 2) BitWeaving, a technique to accelerate database scans, and 3) bit-vector-based implementation of sets, by 3X-7X compared to a state-of-the-art baseline using SIMD optimizations. We describe four other applications that can benefit from Ambit, including a recent technique proposed to speed up web search. We believe that large performance and energy improvements provided by Ambit can enable other applications to use bulk bitwise operations.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Belly Card Engineering. https://tech.bellycard.com/."
+        }, 
+        {
+            "ArticleName": "bitmapist. https://github.com/Doist/bitmapist."
+        }, 
+        {
+            "ArticleName": "FastBit: An Efficient Compressed Bitmap Index Technology. https://sdm.lbl.gov/fastbit/."
+        }, 
+        {
+            "ArticleName": "GeForce GTX 745. http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-745-oem/specifications."
+        }, 
+        {
+            "ArticleName": "High Bandwidth Memory DRAM. http://www.jedec.org/standards-documents/docs/jesd235."
+        }, 
+        {
+            "ArticleName": "Hybrid Memory Cube Specification 2.0. http://www.hybridmemorycube.org/files/SiteDownloads/HMC-30G-VSR_HMCC_Specification_Rev2.0_Public.pdf."
+        }, 
+        {
+            "ArticleName": "6th Generation Intel Core Processor Family Datasheet. http://www.intel.com/content/www/us/en/processors/core/desktop-6th-gen-core-family-datasheet-vol-1.html."
+        }, 
+        {
+            "ArticleName": "Using Bitmap Indexes in Data Warehouses. https://docs.oracle.com/cd/B28359_01/server.111/b28313/indexes.htm."
+        }, 
+        {
+            "ArticleName": "Predictive Technology Model. http://ptm.asu.edu/."
+        }, 
+        {
+            "ArticleName": "Redis - bitmaps. http://redis.io/topics/data-types-intro."
+        }, 
+        {
+            "ArticleName": "rlite. https://github.com/seppo0010/rlite."
+        }, 
+        {
+            "ArticleName": "Spool. http://www.getspool.com/."
+        }, 
+        {
+            "ArticleName": "std::set, std::bitset. http://en.cppreference.com/w/cpp/."
+        }, 
+        {
+            "ArticleName": "DRAM Power Model. https://www.rambus.com/energy/, 2010."
+        }, 
+        {
+            "ArticleName": "S. Aga, S. Jeloka, A. Subramaniyan, S. Narayanasamy D. Blaauw, and R. Das. Compute Caches. In HPCA, 2017."
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungpack Hong , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, A scalable processing-in-memory accelerator for parallel graph processing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750386", 
+            "DOIname": "10.1145/2749469.2750386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750386"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, PIM-enabled instructions: a low-overhead, locality-aware processing-in-memory architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750385", 
+            "DOIname": "10.1145/2749469.2750385", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750385"
+        }, 
+        {
+            "ArticleName": "A. Akerib, O. Agam, E. Ehrman, and M. Meyassed. Using Storage Cells to Perform Computation. US Patent 8908465, 2014."
+        }, 
+        {
+            "ArticleName": "A. Akerib and E. Ehrman. In-memory Computational Device. US Patent 9653166, 2015."
+        }, 
+        {
+            "ArticleName": "M. Alser, H. Hassan, H. Xin, O. Ergin, O. Mutlu, and C. Alkan. GateKeeper: A New Hardware Architecture for Accelerating Pre-Alignment in DNA Short Read Mapping. Bioinformatics, 2017."
+        }, 
+        {
+            "ArticleName": "G. Benson, Y. Hernandez, and J. Loving. A Bit-Parallel, General Integer-Scoring Sequence Alignment Algorithm. In CPM, 2013."
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Burton H. Bloom, Space/time trade-offs in hash coding with allowable errors, Communications of the ACM, v.13 n.7, p.422-426, July 1970", 
+            "DOIhref": "http://doi.acm.org/10.1145/362686.362692", 
+            "DOIname": "10.1145/362686.362692", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=362692"
+        }, 
+        {
+            "ArticleName": "A. Boroumand, S. Ghose, B. Lucia, K. Hsieh, K. Malladi, H. Zheng, and O. Mutlu. LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory. IEEE CAL, 2017."
+        }, 
+        {
+            "ArticleName": "A. Boroumand, S. Ghose, M. Patel, H. Hassan, B. Lucia, N. Hajinazar, K. Hsieh, K. T. Malladi, H. Zheng, and O. Mutlu. LazyPIM: Efficient Support for Cache Coherence in Processing-in-Memory Architectures. arXiv preprint arXiv:1706.03162, 2017."
+        }, 
+        {
+            "ArticleName": "Chee-Yong Chan , Yannis E. Ioannidis, Bitmap index design and evaluation, Proceedings of the 1998 ACM SIGMOD international conference on Management of data, p.355-366, June 01-04, 1998, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/276304.276336", 
+            "DOIname": "10.1145/276304.276336", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=276336"
+        }, 
+        {
+            "ArticleName": "K. K. Chang, D. Lee, Z. Chisti, A. R. Alameldeen, C. Wilkerson, Y. Kim, and O. Mutlu. Improving DRAM Performance by Parallelizing Refreshes with Accesses. In HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Kevin K. Chang , Abhijith Kashyap , Hasan Hassan , Saugata Ghose , Kevin Hsieh , Donghyuk Lee , Tianshi Li , Gennady Pekhimenko , Samira Khan , Onur Mutlu, Understanding Latency Variation in Modern DRAM Chips: Experimental Characterization, Analysis, and Optimization, Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science, June 14-18, 2016, Antibes Juan-les-Pins, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2896377.2901453", 
+            "DOIname": "10.1145/2896377.2901453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901453"
+        }, 
+        {
+            "ArticleName": "K. K. Chang, P. J. Nair, D. Lee, S. Ghose, M. K. Qureshi, and O. Mutlu. Low-cost Inter-linked Subarrays (LISA): Enabling Fast Inter-subarray Data Movement in DRAM. In HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Kevin K. Chang , Abdullah Giray Ya\u011fl\u0131k\u00e7\u0131 , Saugata Ghose , Aditya Agrawal , Niladrish Chatterjee , Abhijith Kashyap , Donghyuk Lee , Mike O'Connor , Hasan Hassan , Onur Mutlu, Understanding Reduced-Voltage Operation in Modern DRAM Devices: Experimental Characterization, Analysis, and Mechanisms, Proceedings of the 2017 ACM SIGMETRICS / International Conference on Measurement and Modeling of Computer Systems, June 05-09, 2017, Urbana-Champaign, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3078505.3078590", 
+            "DOIname": "10.1145/3078505.3078590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3078590"
+        }, 
+        {
+            "ArticleName": "Jonathan Corbet , Alessandro Rubini , Greg Kroah-Hartman, Linux Device Drivers, 3rd Edition, O'Reilly Media, Inc., 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1209083"
+        }, 
+        {
+            "ArticleName": "D. Denir, I. AbdelRahman, L. He, and Y. Gao. Audience Insights Query Engine. https://www.facebook.com/business/news/audience-insights."
+        }, 
+        {
+            "ArticleName": "P. Dlugosch, D. Brown, P. Glendenning, M. Leventhal, and H. Noyes. An Efficient and Scalable Semiconductor Architecture for Parallel Automata Processing. IEEE TPDS, 2014."
+        }, 
+        {
+            "ArticleName": "Jeff Draper , Jacqueline Chame , Mary Hall , Craig Steele , Tim Barrett , Jeff LaCoss , John Granacki , Jaewook Shin , Chun Chen , Chang Woo Kang , Ihn Kim , Gokhan Daglikoca, The architecture of the DIVA processing-in-memory chip, Proceedings of the 16th international conference on Supercomputing, June 22-26, 2002, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/514191.514197", 
+            "DOIname": "10.1145/514191.514197", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=514197"
+        }, 
+        {
+            "ArticleName": "Duncan Elliott , Michael Stumm , W. Martin Snelgrove , Christian Cojocaru , Robert McKenzie, Computational RAM: Implementing Processors in Memory, IEEE Design & Test, v.16 n.1, p.32-41, January 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/54.748803", 
+            "DOIname": "10.1109/54.748803", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=622878"
+        }, 
+        {
+            "ArticleName": "C. F. Falconer, C. P. Mozak, and A. J. Normal. Suppressing Power Supply Noise Using Data Scrambling in Double Data Rate Memory Systems. US Patent 8503678, 2009."
+        }, 
+        {
+            "ArticleName": "A. Farmahini-Farahani, J. H. Ahn, K. Morrow, and N. S. Kim. NDA: Near-DRAM Acceleration Architecture Leveraging Commodity DRAM Devices and Standard Memory Modules. In HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Basilio B. Fraguela , Jose Renau , Paul Feautrier , David Padua , Josep Torrellas, Programming the FlexRAM parallel intelligent memory system, Proceedings of the ninth ACM SIGPLAN symposium on Principles and practice of parallel programming, June 11-13, 2003, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/781498.781505", 
+            "DOIname": "10.1145/781498.781505", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781505"
+        }, 
+        {
+            "ArticleName": "Maya Gokhale , Bill Holmes , Ken Iobst, Processing in Memory: The Terasys Massively Parallel PIM Array, Computer, v.28 n.4, p.23-31, April 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.375174", 
+            "DOIname": "10.1109/2.375174", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=620191"
+        }, 
+        {
+            "ArticleName": "Bob Goodwin , Michael Hopcroft , Dan Luu , Alex Clemmer , Mihaela Curmei , Sameh Elnikety , Yuxiong He, BitFunnel: Revisiting Signatures for Search, Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval, August 07-11, 2017, Shinjuku, Tokyo, Japan", 
+            "DOIhref": "http://doi.acm.org/10.1145/3077136.3080789", 
+            "DOIname": "10.1145/3077136.3080789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080789"
+        }, 
+        {
+            "ArticleName": "Leo J. Guibas , Robert Sedgewick, A dichromatic framework for balanced trees, Proceedings of the 19th Annual Symposium on Foundations of Computer Science, p.8-21, October 16-18, 1978", 
+            "DOIhref": "https://dx.doi.org/10.1109/SFCS.1978.3", 
+            "DOIname": "10.1109/SFCS.1978.3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382565"
+        }, 
+        {
+            "ArticleName": "Q. Guo, N. Alachiotis, B. Akin, F. Sadi, G. Xu, T. M. Low, L. Pileggi, J. C. Hoe, and F. Franchetti. 3D-stacked Memory-side Acceleration: Accelerator and System Design. In WoNDP, 2013."
+        }, 
+        {
+            "ArticleName": "R. W. Hamming. Error Detecting and Error Correcting Codes. BSTJ, 1950."
+        }, 
+        {
+            "ArticleName": "J.-W. Han, C.-S. Park, D.-H. Ryu, and E.-S. Kim. Optical Image Encryption Based on XOR Operations. SPIE OE, 1999."
+        }, 
+        {
+            "ArticleName": "H. Hassan, G. Pekhimenko, N. Vijaykumar, V. Seshadri, D. Lee, O. Ergin, and O. Mutlu. ChargeCache: Reducing DRAM Latency by Exploiting Row Access Locality. In HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "H. Hassan, N. Vijaykumar, S. Khan, S. Ghose, K. Chang, G. Pekhimenko, D. Lee, O. Ergin, and O. Mutlu. SoftMC: A Flexible and Practical Open-source Infrastructure for Enabling Experimental DRAM Studies. In HPCA, 2017."
+        }, 
+        {
+            "ArticleName": "Kevin Hsieh , Eiman Ebrahimi , Gwangsun Kim , Niladrish Chatterjee , Mike O'Connor , Nandita Vijaykumar , Onur Mutlu , Stephen W. Keckler, Transparent offloading and mapping (TOM): enabling programmer-transparent near-data processing in GPU systems, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.27", 
+            "DOIname": "10.1109/ISCA.2016.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001159"
+        }, 
+        {
+            "ArticleName": "K. Hsieh, S. Khan, N. Vijaykumar, K. K. Chang, A. Boroumand, S. Ghose, and O. Mutlu. Accelerating Pointer Chasing in 3D-stacked Memory: Challenges, Mechanisms, Evaluation. In ICCD, 2016."
+        }, 
+        {
+            "ArticleName": "Intel. Intel Instruction Set Architecture Extensions. https://software.intel.com/en-us/intel-isa-extensions."
+        }, 
+        {
+            "ArticleName": "K. Itoh. VLSI Memory Chip Design, volume 5. Springer Science & Business Media, 2013."
+        }, 
+        {
+            "ArticleName": "J. Jeddeloh and B. Keeth. Hybrid Memory Cube: New DRAM Architecture Increases Density and Performance. In VLSIT, 2012."
+        }, 
+        {
+            "ArticleName": "JEDEC. DDR3 SDRAM Standard, JESD79-3D. http://www.jedec.org/sites/default/files/docs/JESD79-3D.pdf, 2009."
+        }, 
+        {
+            "ArticleName": "H. Kang and S. Hong. One-Transistor Type DRAM. US Patent 7701751, 2009."
+        }, 
+        {
+            "ArticleName": "M. Kang, M.-S. Keel, N. R. Shanbhag, S. Eilert, and K. Curewitz. An Energy-efficient VLSI Architecture for Pattern Recognition via Deep Embedding of Computation in SRAM. In ICASSP, 2014."
+        }, 
+        {
+            "ArticleName": "U. Kang, H.-s. Yu, C. Park, H. Zheng, J. Halbert, K. Bains, S. Jang, and J. S. Choi. Co-architecting Controllers and DRAM to Enhance DRAM Process Scaling. In The Memory Forum, 2014."
+        }, 
+        {
+            "ArticleName": "Y. Kang, W. Huang, S.-M. Yoo, D. Keen, Z. Ge, V. Lam, P. Pattnaik, and J. Torrellas. FlexRAM: Toward an Advanced Intelligent Memory System. In ICCD, 1999."
+        }, 
+        {
+            "ArticleName": "Brent Keeth , R. Jacob Baker , Brian Johnson , Feng Lin, DRAM Circuit Design: Fundamental and High-Speed Topics, Wiley-IEEE Press, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1557425"
+        }, 
+        {
+            "ArticleName": "J. S. Kim, D. Senol, H. Xin, D. Lee, S. Ghose, M. Alser, H. Hassan, O. Ergin, C. Alkan, and O. Mutlu. GRIM-filter: Fast Seed Filtering in Read Mapping Using Emerging Memory Technologies. arXiv preprint arXiv:1708.04329, 2017."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Weikun Yang , Onur Mutlu, Ramulator: A Fast and Extensible DRAM Simulator, IEEE Computer Architecture Letters, v.15 n.1, p.45-49, January 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2414456", 
+            "DOIname": "10.1109/LCA.2015.2414456", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2965092"
+        }, 
+        {
+            "ArticleName": "Donald E. Knuth, The Art of Computer Programming, Volume 4, Fascicle 1: Bitwise Tricks & Techniques; Binary Decision Diagrams, Addison-Wesley Professional, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1593023"
+        }, 
+        {
+            "ArticleName": "Peter M. Kogge, EXECUBE-A New Architecture for Scaleable MPPs, Proceedings of the 1994 International Conference on Parallel Processing, p.77-84, August 15-19, 1994", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.1994.108", 
+            "DOIname": "10.1109/ICPP.1994.108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1261010"
+        }, 
+        {
+            "ArticleName": "Shahar Kvatinsky , Avinoam Kolodny , Uri C. Weiser , Eby G. Friedman, Memristor-based IMPLY logic design procedure, Proceedings of the 2011 IEEE 29th International Conference on Computer Design, p.142-147, October 09-12, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCD.2011.6081389", 
+            "DOIname": "10.1109/ICCD.2011.6081389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2118357"
+        }, 
+        {
+            "ArticleName": "S. Kvatinsky, D. Belousov, S. Liman, G. Satat, N. Wald, E. G. Friedman, A. Kolodny, and U. C. Weiser. MAGIC ---Memristor-Aided Logic. IEEE TCAS II: Express Briefs, 2014."
+        }, 
+        {
+            "ArticleName": "S. Kvatinsky, G. Satat, N. Wald, E. G. Friedman, A. Kolodny, and U. C. Weiser. Memristor-Based Material Implication (IMPLY) Logic: Design Principles and Methodologies. IEEE TVLSI, 2014."
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Engin Ipek , Onur Mutlu , Doug Burger, Architecting phase change memory as a scalable dram alternative, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555758", 
+            "DOIname": "10.1145/1555754.1555758", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555758"
+        }, 
+        {
+            "ArticleName": "D. Lee, Y. Kim, G. Pekhimenko, S. Khan, V. Seshadri, K. K. Chang, and O. Mutlu. Adaptive-Latency DRAM: Optimizing DRAM Timing for the Common-case. In HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Yoongu Kim , Vivek Seshadri , Jamie Liu , Lavanya Subramanian , Onur Mutlu, Tiered-latency DRAM: A low latency and low cost DRAM architecture, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.615-626, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522354", 
+            "DOIname": "10.1109/HPCA.2013.6522354", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495482"
+        }, 
+        {
+            "ArticleName": "D. Lee, F. Hormozdiari, H. Xin, F. Hach, O. Mutlu, and C. Alkan. Fast and Accurate Mapping of Complete Genomics Reads. Methods, 2015."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Saugata Ghose , Gennady Pekhimenko , Samira Khan , Onur Mutlu, Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.4, p.1-29, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2832911", 
+            "DOIname": "10.1145/2832911", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2832911"
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Samira Khan , Lavanya Subramanian , Saugata Ghose , Rachata Ausavarungnirun , Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu, Design-Induced Latency Variation in Modern DRAM Chips: Characterization, Analysis, and Latency Reduction Mechanisms, Proceedings of the 2017 ACM SIGMETRICS / International Conference on Measurement and Modeling of Computer Systems, June 05-09, 2017, Urbana-Champaign, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3078505.3078533", 
+            "DOIname": "10.1145/3078505.3078533", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3078533"
+        }, 
+        {
+            "ArticleName": "Yifat Levy , Jehoshua Bruck , Yuval Cassuto , Eby G. Friedman , Avinoam Kolodny , Eitan Yaakobi , Shahar Kvatinsky, Logic operations in memory using a memristive Akers array, Microelectronics Journal, v.45 n.11, p.1429-1437, November 2014", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.mejo.2014.06.006", 
+            "DOIname": "10.1016/j.mejo.2014.06.006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2943216"
+        }, 
+        {
+            "ArticleName": "Heng Li , Richard Durbin, Fast and accurate long-read alignment with Burrows\u2013Wheeler transform, Bioinformatics, v.26 n.5, p.589-595, March 2010", 
+            "DOIhref": "https://dx.doi.org/10.1093/bioinformatics/btp698", 
+            "DOIname": "10.1093/bioinformatics/btp698", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1741825"
+        }, 
+        {
+            "ArticleName": "Shuangchen Li , Cong Xu , Qiaosha Zou , Jishen Zhao , Yu Lu , Yuan Xie, Pinatubo: a processing-in-memory architecture for bulk bitwise operations in emerging non-volatile memories, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2898064", 
+            "DOIname": "10.1145/2897937.2898064", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2898064"
+        }, 
+        {
+            "ArticleName": "Yinan Li , Jignesh M. Patel, BitWeaving: fast scans for main memory data processing, Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data, June 22-27, 2013, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463676.2465322", 
+            "DOIname": "10.1145/2463676.2465322", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465322"
+        }, 
+        {
+            "ArticleName": "Yinan Li , Jignesh M. Patel, WideTable: an accelerator for analytical data processing, Proceedings of the VLDB Endowment, v.7 n.10, p.907-918, June 2014", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732951.2732965", 
+            "DOIname": "10.14778/2732951.2732965", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732965"
+        }, 
+        {
+            "ArticleName": "Erik Lindholm , John Nickolls , Stuart Oberman , John Montrym, NVIDIA Tesla: A Unified Graphics and Computing Architecture, IEEE Micro, v.28 n.2, p.39-55, March 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.31", 
+            "DOIname": "10.1109/MM.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373197"
+        }, 
+        {
+            "ArticleName": "Jamie Liu , Ben Jaiyen , Richard Veras , Onur Mutlu, RAIDR: Retention-Aware Intelligent DRAM Refresh, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337161"
+        }, 
+        {
+            "ArticleName": "Jamie Liu , Ben Jaiyen , Yoongu Kim , Chris Wilkerson , Onur Mutlu, An experimental study of data retention behavior in modern DRAM devices: implications for retention time profiling mechanisms, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485928", 
+            "DOIname": "10.1145/2485922.2485928", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485928"
+        }, 
+        {
+            "ArticleName": "Zhiyu Liu , Irina Calciu , Maurice Herlihy , Onur Mutlu, Concurrent Data Structures for Near-Memory Computing, Proceedings of the 29th ACM Symposium on Parallelism in Algorithms and Architectures, July 24-26, 2017, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3087556.3087582", 
+            "DOIname": "10.1145/3087556.3087582", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3087582"
+        }, 
+        {
+            "ArticleName": "Shih-Lien Lu , Ying-Chen Lin , Chia-Lin Yang, Improving DRAM latency with dynamic asymmetric subarray, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830827", 
+            "DOIname": "10.1145/2830772.2830827", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830827"
+        }, 
+        {
+            "ArticleName": "R. E. Lyons , W. Vanderkulk, The use of triple-modular redundancy to improve computer reliability, IBM Journal of Research and Development, v.6 n.2, p.200-209, April 1962", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.62.0200", 
+            "DOIname": "10.1147/rd.62.0200", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1661984"
+        }, 
+        {
+            "ArticleName": "S. A. Manavski. CUDA Compatible GPU as an Efficient Hardware Accelerator for AES Cryptography. In ICSPC, 2007."
+        }, 
+        {
+            "ArticleName": "Gene Myers, A fast bit-vector algorithm for approximate string matching based on dynamic programming, Journal of the ACM (JACM), v.46 n.3, p.395-415, May 1999", 
+            "DOIhref": "http://doi.acm.org/10.1145/316542.316550", 
+            "DOIname": "10.1145/316542.316550", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=316550"
+        }, 
+        {
+            "ArticleName": "Elizabeth O'Neil , Patrick O'Neil , Kesheng Wu, Bitmap Index Design Choices and Their Performance Implications, Proceedings of the 11th International Database Engineering and Applications Symposium, p.72-84, September 06-08, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/IDEAS.2007.19", 
+            "DOIname": "10.1109/IDEAS.2007.19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1306564"
+        }, 
+        {
+            "ArticleName": "Mark Oskin , Frederic T. Chong , Timothy Sherwood, Active pages: a computation model for intelligent memory, Proceedings of the 25th annual international symposium on Computer architecture, p.192-203, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.279387", 
+            "DOIname": "10.1145/279358.279387", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=279387"
+        }, 
+        {
+            "ArticleName": "Minesh Patel , Jeremie S. Kim , Onur Mutlu, The Reach Profiler (REAPER): Enabling the Mitigation of DRAM Retention Failures via Profiling at Aggressive Conditions, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080242", 
+            "DOIname": "10.1145/3079856.3080242", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080242"
+        }, 
+        {
+            "ArticleName": "David Patterson , Thomas Anderson , Neal Cardwell , Richard Fromm , Kimberly Keeton , Christoforos Kozyrakis , Randi Thomas , Katherine Yelick, A Case for Intelligent RAM, IEEE Micro, v.17 n.2, p.34-44, March 1997", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.592312", 
+            "DOIname": "10.1109/40.592312", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624083"
+        }, 
+        {
+            "ArticleName": "Ashutosh Pattnaik , Xulong Tang , Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Chita R. Das, Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967940", 
+            "DOIname": "10.1145/2967938.2967940", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967940"
+        }, 
+        {
+            "ArticleName": "Alex Peleg , Uri Weiser, MMX Technology Extension to the Intel Architecture, IEEE Micro, v.16 n.4, p.42-50, August 1996", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.526924", 
+            "DOIname": "10.1109/40.526924", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624024"
+        }, 
+        {
+            "ArticleName": "K. R. Rasmussen, J. Stoye, and E. W. Myers. Efficient Q-gram Filters for Finding All \u03b5-matches Over a Given Length. JCB, 2006."
+        }, 
+        {
+            "ArticleName": "P. J. Restle, J. W. Park, and B. F. Lloyd. DRAM Variable Retention Time. In IEDM, 1992."
+        }, 
+        {
+            "ArticleName": "R. L. Rivest, L. Adleman, and M. L. Dertouzos. On Data Banks and Privacy Homomorphisms. FSC, 1978."
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, Proceedings of the 27th annual international symposium on Computer architecture, p.128-138, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339668", 
+            "DOIname": "10.1145/339647.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "S. M. Rumble, P. Lacroute, A. V. Dalca, M. Fiume, A. Sidow, and M. Brudno. SHRiMP: Accurate Mapping of Short Color-space Reads. PLOS Computational Biology, 2009."
+        }, 
+        {
+            "ArticleName": "V. Seshadri and O. Mutlu. Simple Operations in Memory to Reduce Data Movement, ADCOM, Chapter 5. Elsevier, 2017."
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Yoongu Kim , Chris Fallin , Donghyuk Lee , Rachata Ausavarungnirun , Gennady Pekhimenko , Yixin Luo , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, RowClone: fast and energy-efficient in-DRAM bulk data copy and initialization, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540725", 
+            "DOIname": "10.1145/2540708.2540725", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540725"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Abhishek Bhowmick , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, The dirty-block index, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665697"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Kevin Hsieh , Amirali Boroumand , Donghyuk Lee , Michael A. Kozuch , Onur Mutlu , Phillip B. Gibbons , Todd C. Mowry, Fast Bulk Bitwise AND and OR in DRAM, IEEE Computer Architecture Letters, v.14 n.2, p.127-131, July 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2434872", 
+            "DOIname": "10.1109/LCA.2015.2434872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2878683"
+        }, 
+        {
+            "ArticleName": "Vivek Seshadri , Thomas Mullins , Amirali Boroumand , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Gather-scatter DRAM: in-DRAM address translation to improve the spatial locality of non-unit strided accesses, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830820", 
+            "DOIname": "10.1145/2830772.2830820", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830820"
+        }, 
+        {
+            "ArticleName": "V. Seshadri, D. Lee, T. Mullins, H. Hassan, A. Boroumand, J. Kim, M. A. Kozuch, O. Mutlu, P. B. Gibbons, and T. C. Mowry. Buddy-RAM: Improving the Performance and Efficiency of Bulk Bitwise Operations Using DRAM. arXiv preprint arXiv:1611.09988, 2016."
+        }, 
+        {
+            "ArticleName": "Ali Shafiee , Anirban Nag , Naveen Muralimanohar , Rajeev Balasubramonian , John Paul Strachan , Miao Hu , R. Stanley Williams , Vivek Srikumar, ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.12", 
+            "DOIname": "10.1109/ISCA.2016.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001139"
+        }, 
+        {
+            "ArticleName": "D. E. Shaw, S. Stolfo, H. Ibrahim, B. K. Hillyer, J. Andrews, and G. Wiederhold. The NON-VON Database Machine: An Overview. http://hdl.handle.net/10022/AC:P:11530, 1981."
+        }, 
+        {
+            "ArticleName": "R. Sikorski. Boolean Algebras, volume 2. Springer, 1969."
+        }, 
+        {
+            "ArticleName": "Harold S. Stone, A Logic-in-Memory Computer, IEEE Transactions on Computers, v.19 n.1, p.73-78, January 1970", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1970.5008902", 
+            "DOIname": "10.1109/TC.1970.5008902", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1638836"
+        }, 
+        {
+            "ArticleName": "Arun Subramaniyan , Reetuparna Das, Parallel Automata Processor, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080207", 
+            "DOIname": "10.1145/3079856.3080207", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080207"
+        }, 
+        {
+            "ArticleName": "P. Tuyls , H. D. Hollmann , J. H. Lint , L. Tolhuizen, XOR-based Visual Cryptography Schemes, Designs, Codes and Cryptography, v.37 n.1, p.169-186, October 2005", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10623-004-3816-4", 
+            "DOIname": "10.1007/s10623-004-3816-4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1081038"
+        }, 
+        {
+            "ArticleName": "Henry S. Warren, Hacker's Delight, Addison-Wesley Professional, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2462741"
+        }, 
+        {
+            "ArticleName": "D. Weese, A.-K. Emde, T. Rausch, A. D\u00f6ring, and K. Reinert. RazerS - fast Read Mapping with Sensitivity Control. Genome research, 2009."
+        }, 
+        {
+            "ArticleName": "T. Willhalm, I. Oukid, I. Muller, and F. Faerber. Vectorizing Database Column Scans with Complex Predicates. In ADMS, 2013."
+        }, 
+        {
+            "ArticleName": "Kesheng Wu , Ekow J. Otoo , Arie Shoshani, Compressing Bitmap Indexes for Faster Search Operations, Proceedings of the 14th International Conference on Scientific and Statistical Database Management, p.99-108, July 24-26, 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/SSDM.2002.1029710", 
+            "DOIname": "10.1109/SSDM.2002.1029710", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=695932"
+        }, 
+        {
+            "ArticleName": "H. Xin, D. Lee, F. Hormozdiari, S. Yedkar, O. Mutlu, and C. Alkan. Accelerating Read Mapping with FastHASH. BMC Genomics, 2013."
+        }, 
+        {
+            "ArticleName": "H. Xin, J. Greth, J. Emmons, G. Pekhimenko, C. Kingsford, C. Alkan, and O. Mutlu. Shifted Hamming Distance: A Fast and Accurate SIMD-friendly Filter to Accelerate Alignment Verification in Read Mapping. Bioinformatics, 2015."
+        }, 
+        {
+            "ArticleName": "D. S. Yaney, C. Y. Lu, R. A. Kohler, M. J. Kelly, and J. T. Nelson. A Meta-stable Leakage Phenomenon in DRAM Charge Storage - Variable Hold Time. In IEDM, 1987."
+        }, 
+        {
+            "ArticleName": "Dongping Zhang , Nuwan Jayasena , Alexander Lyashevsky , Joseph L. Greathouse , Lifan Xu , Michael Ignatowski, TOP-PIM: throughput-oriented programmable processing in memory, Proceedings of the 23rd international symposium on High-performance parallel and distributed computing, June 23-27, 2014, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2600212.2600213", 
+            "DOIname": "10.1145/2600212.2600213", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2600213"
+        }, 
+        {
+            "ArticleName": "Tao Zhang , Ke Chen , Cong Xu , Guangyu Sun , Tao Wang , Yuan Xie, Half-DRAM: a high-bandwidth and low-power DRAM architecture from the rethinking of fine-grained activation, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665724"
+        }, 
+        {
+            "ArticleName": "W. Zhao and Y. Cao. New Generation of Predictive Technology Model for Sub-45 nm Early Design Exploration. IEEE TED, 2006."
+        }, 
+        {
+            "ArticleName": "W. K. Zuravleff and T. Robinson. Controller for a Synchronous DRAM that Maximizes Throughput by Allowing Memory Requests and Commands to be Issued Out of Order. US Patent 5630096, 1997."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Microsoft Research India and Carnegie Mellon University", 
+            "Name": "Vivek Seshadri"
+        }, 
+        {
+            "Affiliation": "NVIDIA Research and Carnegie Mellon University", 
+            "Name": "Donghyuk Lee"
+        }, 
+        {
+            "Affiliation": "Intel and Carnegie Mellon University", 
+            "Name": "Thomas Mullins"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich", 
+            "Name": "Hasan Hassan"
+        }, 
+        {
+            "Affiliation": "Carnegie Mellon University", 
+            "Name": "Amirali Boroumand"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich and Carnegie Mellon University", 
+            "Name": "Jeremie Kim"
+        }, 
+        {
+            "Affiliation": "Intel", 
+            "Name": "Michael A. Kozuch"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich and Carnegie Mellon University", 
+            "Name": "Onur Mutlu"
+        }, 
+        {
+            "Affiliation": "Carnegie Mellon University", 
+            "Name": "Phillip B. Gibbons"
+        }, 
+        {
+            "Affiliation": "Carnegie Mellon University", 
+            "Name": "Todd C. Mowry"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124544&preflayout=flat"
+}

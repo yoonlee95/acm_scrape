@@ -1,0 +1,291 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Samuel Rogers , Hamed Tabkhi, Locality aware memory assignment and tiling, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196070"
+        }, 
+        {
+            "ArticleName": "Hsueh-Chun Fu , Po-Han Wang , Chia-Lin Yang, Active forwarding: eliminate IOMMU address translation for accelerator-rich architectures, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3195984"
+        }, 
+        {
+            "ArticleName": "Felipe da Rosa , Vitor Bandeira , Ricardo Reis , Luciano Ost, Extensive evaluation of programming models and ISAs impact on multicore soft error reliability, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196050"
+        }, 
+        {
+            "ArticleName": "Dimitrios Mbakoyiannis , Othon Tomoutzoglou , George Kornaros, Energy-Performance Considerations for Data Offloading to FPGA-Based Accelerators Over PCIe, ACM Transactions on Architecture and Code Optimization (TACO), v.15 n.1, p.1-24, April 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3180263"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 15, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 15, 
+        "CitationCount": 4
+    }, 
+    "Title": "Co-designing accelerators and SoC interfaces using gem5-aladdin", 
+    "Abstract": "Increasing demand for power-efficient, high-performance computing has spurred a growing number and diversity of hardware accelerators in mobile and server Systems on Chip (SoCs). This paper makes the case that the co-design of the accelerator microarchitecture with the system in which it belongs is critical to balanced, efficient accelerator microarchitectures. We find that data movement and coherence management for accelerators are significant yet often unaccounted components of total accelerator runtime, resulting in misleading performance predictions and inefficient accelerator designs. To explore the design space of accelerator-system co-design, we develop gem5-Aladdin, an SoC simulator that captures dynamic interactions between accelerators and the SoC platform, and validate it to within 6% against real hardware. Our co-design studies show that the optimal energy-delay-product (EDP) of an accelerator microarchitecture can improve by up to 7.4X when system-level effects are considered compared to optimizing accelerators in isolation.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Y. S. Shao and D. Brooks, \"Research Infrastructures for Hardware Accelerators,\" Synthesis Lectures on Computer Architecture, 2015."
+        }, 
+        {
+            "ArticleName": "Y.-H. Chen, T. Krishna, J. Emer, and V. Sze, \"Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks,\" in ISSCC, 2016."
+        }, 
+        {
+            "ArticleName": "Wajahat Qadeer , Rehan Hameed , Ofer Shacham , Preethi Venkatesan , Christos Kozyrakis , Mark A. Horowitz, Convolution engine: balancing efficiency & flexibility in specialized computing, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485925", 
+            "DOIname": "10.1145/2485922.2485925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485925"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "Ikuo Magaki , Moein Khazraee , Luis Vega Gutierrez , Michael Bedford Taylor, ASIC clouds: specializing the datacenter, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.25", 
+            "DOIname": "10.1109/ISCA.2016.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001156"
+        }, 
+        {
+            "ArticleName": "J. Stuecheli, \"POWER8 Processor,\" in HotChips, 2013."
+        }, 
+        {
+            "ArticleName": "D. Bryant, \"Disrupting the Data Center to Create the Digital Services Economy,\" Intel Announcement, 2014."
+        }, 
+        {
+            "ArticleName": "Stephen Neuendorffer , Fernando Martinez-Vallina, Building zynq\u00ae accelerators with Vivado\u00ae high level synthesis, Proceedings of the ACM/SIGDA international symposium on Field programmable gate arrays, February 11-13, 2013, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2435264.2435266", 
+            "DOIname": "10.1145/2435264.2435266", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2435266"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Trevor E. Carlson , Wim Heirman , Lieven Eeckhout, Sniper: exploring the level of abstraction for scalable and accurate parallel multi-core simulation, Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis, November 12-18, 2011, Seattle, Washington", 
+            "DOIhref": "http://doi.acm.org/10.1145/2063384.2063454", 
+            "DOIname": "10.1145/2063384.2063454", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2063454"
+        }, 
+        {
+            "ArticleName": "Svilen Kanev , Gu-Yeon Wei , David Brooks, XIOSim: power-performance modeling of mobile x86 cores, Proceedings of the 2012 ACM/IEEE international symposium on Low power electronics and design, July 30-August 01, 2012, Redondo Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2333660.2333722", 
+            "DOIname": "10.1145/2333660.2333722", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2333722"
+        }, 
+        {
+            "ArticleName": "Yakun Sophia Shao , Brandon Reagen , Gu-Yeon Wei , David Brooks, Aladdin: a Pre-RTL, power-performance accelerator simulator enabling large design space exploration of customized architectures, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665689"
+        }, 
+        {
+            "ArticleName": "Jason Cong , Zhenman Fang , Michael Gill , Glenn Reinman, PARADE: A Cycle-Accurate Full-System Simulation Platform for Accelerator-Rich Architectural Design and Exploration, Proceedings of the IEEE/ACM International Conference on Computer-Aided Design, p.380-387, November 02-06, 2015, Austin, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2840873"
+        }, 
+        {
+            "ArticleName": "Ganesh Venkatesh , Jack Sampson , Nathan Goulding , Saturnino Garcia , Vladyslav Bryksin , Jose Lugo-Martinez , Steven Swanson , Michael Bedford Taylor, Conservation cores: reducing the energy of mature computations, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736044", 
+            "DOIname": "10.1145/1736020.1736044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736044"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , Peter A. Milder , James C. Hoe , Ken Mai, Single-Chip Heterogeneous Computing: Does the Future Include Custom Logic, FPGAs, and GPGPUs?, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.225-236, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.36", 
+            "DOIname": "10.1109/MICRO.2010.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935024"
+        }, 
+        {
+            "ArticleName": "Lisa Wu , Raymond J. Barker , Martha A. Kim , Kenneth A. Ross, Navigating big data with high-throughput, energy-efficient data partitioning, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485944", 
+            "DOIname": "10.1145/2485922.2485944", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485944"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , David Meisner , Ali G. Saidi , Parthasarathy Ranganathan , Thomas F. Wenisch, Thin servers with smart pipes: designing SoC accelerators for memcached, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485926", 
+            "DOIname": "10.1145/2485922.2485926", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485926"
+        }, 
+        {
+            "ArticleName": "Rehan Hameed , Wajahat Qadeer , Megan Wachs , Omid Azizi , Alex Solomatnikov , Benjamin C. Lee , Stephen Richardson , Christos Kozyrakis , Mark Horowitz, Understanding sources of inefficiency in general-purpose chips, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815968", 
+            "DOIname": "10.1145/1815961.1815968", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815968"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.449-460, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.48", 
+            "DOIname": "10.1109/MICRO.2012.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457519"
+        }, 
+        {
+            "ArticleName": "Anil Krishna , Timothy Heil , Nicholas Lindberg , Farnaz Toussi , Steven VanderWiel, Hardware acceleration in the IBM PowerEN processor: architecture and performance, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370872", 
+            "DOIname": "10.1145/2370816.2370872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370872"
+        }, 
+        {
+            "ArticleName": "\"TI OMAP Applications Processors.\""
+        }, 
+        {
+            "ArticleName": "B. Blaner , B. Abali , B. M. Bass , S. Chari , R. Kalla , S. Kunkel , K. Lauricella , R. Leavens , J. J. Reilly , P. A. Sandon, IBM POWER7+ processor on-chip accelerators for cryptography and active memory expansion, IBM Journal of Research and Development, v.57 n.6, p.3-3, November/December 2013", 
+            "DOIhref": "https://dx.doi.org/10.1147/JRD.2013.2280090", 
+            "DOIname": "10.1147/JRD.2013.2280090", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2600672"
+        }, 
+        {
+            "ArticleName": "Praveen Yedlapalli , Nachiappan Chidambaram Nachiappan , Niranjan Soundararajan , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, Short-Circuiting Memory Traffic in Handheld Platforms, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.60", 
+            "DOIname": "10.1109/MICRO.2014.60", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742172"
+        }, 
+        {
+            "ArticleName": "B. Reagen, R. Adolf, Y. S. Shao, G.-Y. Wei, and D. Brooks, \"Mach-Suite: Benchmarks for Accelerator Design and Customized Architectures,\" in IISWC, 2014."
+        }, 
+        {
+            "ArticleName": "Y. S. Shao and D. Brooks, \"ISA-Independent Workload Characterization and its Implications for Specialized Architectures,\" in ISPASS, 2013."
+        }, 
+        {
+            "ArticleName": "A. Gutierrez, J. Pusdesris, R. G. Dreslinski, T. Mudge, C. Sudanthi, C. D. Emmons, M. Hayenga, and N. Paver, \"Sources of Error in Full-System Simulation,\" in ISPASS, 2014."
+        }, 
+        {
+            "ArticleName": "Michael Kistler , Michael Perrone , Fabrizio Petrini, Cell Multiprocessor Communication Network: Built for Speed, IEEE Micro, v.26 n.3, p.10-23, May 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2006.49", 
+            "DOIname": "10.1109/MM.2006.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1159067"
+        }, 
+        {
+            "ArticleName": "Daniel Lustig , Margaret Martonosi, Reducing GPU offload latency via fine-grained CPU-GPU synchronization, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.354-365, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522332", 
+            "DOIname": "10.1109/HPCA.2013.6522332", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495512"
+        }, 
+        {
+            "ArticleName": "Mingxing Tan , Bin Liu , Steve Dai , Zhiru Zhang, Multithreaded pipeline synthesis for data-parallel kernels, Proceedings of the 2014 IEEE/ACM International Conference on Computer-Aided Design, November 03-06, 2014, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2691510"
+        }, 
+        {
+            "ArticleName": "J. Huthmann, J. Oppermann, and A. Koch, \"Automatic High-Level Synthesis of Multi-Threaded Hardware Accelerators,\" in FPL, 2014."
+        }, 
+        {
+            "ArticleName": "Doug Burger , James R. Goodman , Alain K\u00e4gi, Memory bandwidth limitations of future microprocessors, Proceedings of the 23rd annual international symposium on Computer architecture, p.78-89, May 22-24, 1996, Philadelphia, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/232973.232983", 
+            "DOIname": "10.1145/232973.232983", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=232983"
+        }, 
+        {
+            "ArticleName": "A. Farmahini-Farahani, J. H. Ahn, K. Morrow, and N. S. Kim, \"NDA: Near-DRAM acceleration architecture leveraging commodity DRAM devices and standard memory modules,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "M. Harris, \"Unified Memory in CUDA 6,\" 2013."
+        }, 
+        {
+            "ArticleName": "Jason Power , Arkaprava Basu , Junli Gu , Sooraj Puthoor , Bradford M. Beckmann , Mark D. Hill , Steven K. Reinhardt , David A. Wood, Heterogeneous system coherence for integrated CPU-GPU systems, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540747", 
+            "DOIname": "10.1145/2540708.2540747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540747"
+        }, 
+        {
+            "ArticleName": "J. Power, M. D. Hill, and D. A. Wood, \"Supporting x86-64 address translation for 100s of gpu lanes,\" in HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Bharath Pichai , Lisa Hsu , Abhishek Bhattacharjee, Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces, ACM SIGARCH Computer Architecture News, v.42 n.1, March 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2654822.2541942", 
+            "DOIname": "10.1145/2654822.2541942", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541942"
+        }, 
+        {
+            "ArticleName": "Rakesh Komuravelli , Matthew D. Sinclair , Johnathan Alsop , Muhammad Huzaifa , Maria Kotsifakou , Prakalp Srivastava , Sarita V. Adve , Vikram S. Adve, Stash: have your scratchpad and cache it too, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750374", 
+            "DOIname": "10.1145/2749469.2750374", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750374"
+        }, 
+        {
+            "ArticleName": "Michael J. Lyons , Mark Hempstead , Gu-Yeon Wei , David Brooks, The accelerator store: A shared memory framework for accelerator-based systems, ACM Transactions on Architecture and Code Optimization (TACO), v.8 n.4, p.1-22, January 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2086696.2086727", 
+            "DOIname": "10.1145/2086696.2086727", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2086727"
+        }, 
+        {
+            "ArticleName": "M. Lyons, G.-Y. Wei, and D. Brooks, \"Multi-accelerator system development with the shrinkfit acceleration framework,\" in ICCD, 2014."
+        }, 
+        {
+            "ArticleName": "Carlos Flores Fajardo , Zhen Fang , Ravi Iyer , German Fabila Garcia , Seung Eun Lee , Li Zhao, Buffer-integrated-Cache: a cost-effective SRAM architecture for handheld and embedded platforms, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024938", 
+            "DOIname": "10.1145/2024724.2024938", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024938"
+        }, 
+        {
+            "ArticleName": "Y. S. Shao, S. Xi, V. Srinivasan, G.-Y. Wei, and D. Brooks, \"Toward Cache-Friendly Hardware Accelerators,\" in Sensors and Cloud Architectures Workshop (HPCA), 2015."
+        }, 
+        {
+            "ArticleName": "Tae Jun Ham , Juan L. Arag\u00f3n , Margaret Martonosi, DeSC: decoupled supply-compute communication management for heterogeneous architectures, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830800", 
+            "DOIname": "10.1145/2830772.2830800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830800"
+        }, 
+        {
+            "ArticleName": "T. Chen , R. Raghavan , J. N. Dale , E. Iwata, Cell broadband engine architecture and its first implementation: a performance view, IBM Journal of Research and Development, v.51 n.5, p.559-572, September 2007", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.515.0559", 
+            "DOIname": "10.1147/rd.515.0559", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1345065"
+        }, 
+        {
+            "ArticleName": "Snehasish Kumar , Arrvindh Shriraman , Naveen Vedula, Fusion: design tradeoffs in coherent cache hierarchies for accelerators, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750421", 
+            "DOIname": "10.1145/2749469.2750421", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750421"
+        }, 
+        {
+            "ArticleName": "John H. Kelm , Daniel R. Johnson , William Tuohy , Steven S. Lumetta , Sanjay J. Patel, Cohesion: a hybrid memory model for accelerators, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1816019", 
+            "DOIname": "10.1145/1815961.1816019", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1816019"
+        }, 
+        {
+            "ArticleName": "Lena E. Olson , Jason Power , Mark D. Hill , David A. Wood, Border control: sandboxing accelerators, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830819", 
+            "DOIname": "10.1145/2830772.2830819", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830819"
+        }, 
+        {
+            "ArticleName": "J. Power, J. Hestness, M. Orr, M. Hill, and D. Wood, \"gem5-gpu: A Heterogeneous CPU-GPU Simulator,\" Computer Architecture Letters, 2014."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "NVIDIA Research", 
+            "Name": "Yakun Sophia Shao"
+        }, 
+        {
+            "Affiliation": "Harvard University", 
+            "Name": "Sam (Likun) Xi"
+        }, 
+        {
+            "Affiliation": "IBM Research", 
+            "Name": "Vijayalakshmi Srinivasan"
+        }, 
+        {
+            "Affiliation": "Harvard University", 
+            "Name": "Gu-Yeon Wei"
+        }, 
+        {
+            "Affiliation": "Harvard University", 
+            "Name": "David Brooks"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195697&preflayout=flat"
+}

@@ -1,0 +1,143 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Xinhan Lin , Shouyi Yin , Fengbin Tu , Leibo Liu , Xiangyu Li , Shaojun Wei, LCP: a layer clusters paralleling mapping method for accelerating inception and residual networks on FPGA, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196067"
+        }, 
+        {
+            "ArticleName": "Yuanhui Ni , Keni Qiu , Weiwen Chen , Lixue Xia , Yu Wang, Low power driven loop tiling for RRAM crossbar-based CNN, Proceedings of the 33rd Annual ACM Symposium on Applied Computing, April 09-13, 2018, Pau, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3167174"
+        }, 
+        {
+            "ArticleName": "Jeff Zhang , Kartheek Rangineni , Zahra Ghodsi , Siddharth Garg, Thundervolt: enabling aggressive voltage underscaling and timing error resilience for energy efficient deep learning accelerators, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196129"
+        }, 
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }, 
+        {
+            "ArticleName": "Hyoukjun Kwon , Ananda Samajdar , Tushar Krishna, MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173176"
+        }, 
+        {
+            "ArticleName": "Hyoukjun Kwon , Ananda Samajdar , Tushar Krishna, MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173176"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 85, 
+        "Downloads_6Weeks": 37, 
+        "Downloads_cumulative": 85, 
+        "CitationCount": 6
+    }, 
+    "Title": "Fused-layer CNN accelerators", 
+    "Abstract": "Deep convolutional neural networks (CNNs) are rapidly becoming the dominant approach to computer vision and a major component of many other pervasive machine learning tasks, such as speech recognition, natural language processing, and fraud detection. As a result, accelerators for efficiently evaluating CNNs are rapidly growing in popularity. The conventional approaches to designing such CNN accelerators is to focus on creating accelerators to iteratively process the CNN layers. However, by processing each layer to completion, the accelerator designs must use off-chip memory to store intermediate data between layers, because the intermediate data are too large to fit on chip. In this work, we observe that a previously unexplored dimension exists in the design space of CNN accelerators that focuses on the dataflow across convolutional layers. We find that we are able to fuse the processing of multiple CNN layers by modifying the order in which the input data are brought on chip, enabling caching of intermediate data between the evaluation of adjacent CNN layers. We demonstrate the effectiveness of our approach by constructing a fused-layer CNN accelerator for the first five convolutional layers of the VGGNet-E network and comparing it to the state-of-the-art accelerator implemented on a Xilinx Virtex-7 FPGA. We find that, by using 362KB of on-chip storage, our fused-layer accelerator minimizes off-chip feature map data transfer, reducing the total transfer by 95%, from 77MB down to 3.6MB per image.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Srimat Chakradhar , Murugan Sankaradas , Venkata Jakkula , Srihari Cadambi, A dynamically configurable coprocessor for convolutional neural networks, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815993", 
+            "DOIname": "10.1145/1815961.1815993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815993"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "S. Chetlur, C. Woolley, P. Vandermersch, J. Cohen, J. Tran, B. Catanzaro, and E. Shelhamer, \"cuDNN: Efficient primitives for deep learning,\" CoRR, 2014."
+        }, 
+        {
+            "ArticleName": "R. Collobert, K. Kavukcuoglu, and C. Farabet, \"Torch7: A Matlab-like environment for machine learning,\" in Proceedings of BigLearn, NIPS Workshop, 2011."
+        }, 
+        {
+            "ArticleName": "C. Farabet, B. Martini, B. Corda, P. Akselrod, E. Culurciello, and Y. LeCun, \"Neuflow: A runtime reconfigurable dataflow processor for vision,\" in Proceedings of the Embedded Computer Vision Workshop, 2011."
+        }, 
+        {
+            "ArticleName": "C. Farabet, C. Poulet, Y. Han, J., and Y. LeCun, \"CNP: An FPGA-based processor for convolutional networks,\" in Proceedings of the 2009 International Conference on Field Programmable Logic and Applications. IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Johann Hauswald , Yiping Kang , Michael A. Laurenzano , Quan Chen , Cheng Li , Trevor Mudge , Ronald G. Dreslinski , Jason Mars , Lingjia Tang, DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2749472", 
+            "DOIname": "10.1145/2749469.2749472", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749472"
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "Daofu Liu , Tianshi Chen , Shaoli Liu , Jinhong Zhou , Shengyuan Zhou , Olivier Teman , Xiaobing Feng , Xuehai Zhou , Yunji Chen, PuDianNao: A Polyvalent Machine Learning Accelerator, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694358", 
+            "DOIname": "10.1145/2694344.2694358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694358"
+        }, 
+        {
+            "ArticleName": "M. Peemen, A. Setio, B. Mesman, and H. Corporaal, \"Memory-centric accelerator design for convolutional neural networks,\" in Proceedings of the 31st International Conference on Computer Design (ICCD). IEEE, 2013."
+        }, 
+        {
+            "ArticleName": "Maurice Peemen , Bart Mesman , Henk Corporaal, Efficiency optimization of trainable feature extractors for a consumer platform, Proceedings of the 13th international conference on Advanced concepts for intelligent vision systems, August 22-25, 2011, Ghent, Belgium", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2034277"
+        }, 
+        {
+            "ArticleName": "Maurice Peemen , Bart Mesman , Henk Corporaal, Inter-tile reuse optimization applied to bandwidth constrained embedded accelerators, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2755790"
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Wajahat Qadeer , Rehan Hameed , Ofer Shacham , Preethi Venkatesan , Christos Kozyrakis , Mark A. Horowitz, Convolution engine: balancing efficiency & flexibility in specialized computing, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485925", 
+            "DOIname": "10.1145/2485922.2485925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485925"
+        }, 
+        {
+            "ArticleName": "Olga Russakovsky , Jia Deng , Hao Su , Jonathan Krause , Sanjeev Satheesh , Sean Ma , Zhiheng Huang , Andrej Karpathy , Aditya Khosla , Michael Bernstein , Alexander C. Berg , Li Fei-Fei, ImageNet Large Scale Visual Recognition Challenge, International Journal of Computer Vision, v.115 n.3, p.211-252, December 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11263-015-0816-y", 
+            "DOIname": "10.1007/s11263-015-0816-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2846559"
+        }, 
+        {
+            "ArticleName": "Murugan Sankaradas , Venkata Jakkula , Srihari Cadambi , Srimat Chakradhar , Igor Durdanovic , Eric Cosatto , Hans Peter Graf, A Massively Parallel Coprocessor for Convolutional Neural Networks, Proceedings of the 2009 20th IEEE International Conference on Application-specific Systems, Architectures and Processors, p.53-60, July 07-09, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ASAP.2009.25", 
+            "DOIname": "10.1109/ASAP.2009.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1602618"
+        }, 
+        {
+            "ArticleName": "K. Simonyan and A. Zisserman, \"Very deep convolutional networks for large-scale image recognition,\" in Proceedings of the International Conference on Learning Representations, 2014."
+        }, 
+        {
+            "ArticleName": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, \"Going deeper with convolutions,\" in Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015."
+        }, 
+        {
+            "ArticleName": "Chen Zhang , Peng Li , Guangyu Sun , Yijin Guan , Bingjun Xiao , Jason Cong, Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks, Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2015, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2684746.2689060", 
+            "DOIname": "10.1145/2684746.2689060", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2689060"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Stony Brook University", 
+            "Name": "Manoj Alwani"
+        }, 
+        {
+            "Affiliation": "Stony Brook University", 
+            "Name": "Han Chen"
+        }, 
+        {
+            "Affiliation": "Stony Brook University", 
+            "Name": "Michael Ferdman"
+        }, 
+        {
+            "Affiliation": "Stony Brook University", 
+            "Name": "Peter Milder"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195664&preflayout=flat"
+}

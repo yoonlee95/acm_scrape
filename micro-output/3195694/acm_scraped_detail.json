@@ -1,0 +1,205 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "George Charitopoulos , Charalampos Vatsolakis , Grigorios Chrysos , Dionisios N. Pnevmatikatos, A decoupled access-execute architecture for reconfigurable accelerators, Proceedings of the 15th ACM International Conference on Computing Frontiers, May 08-10, 2018, Ischia, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3203267"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 20, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 20, 
+        "CitationCount": 1
+    }, 
+    "Title": "Efficient data supply for hardware accelerators with prefetching and access/execute decoupling", 
+    "Abstract": "This paper presents an architecture framework to easily design hardware accelerators that can effectively tolerate long and variable memory latency using prefetching and access/execute decoupling. Hardware accelerators are becoming increasingly popular in modern computing systems as a promising approach to achieve higher performance and energy efficiency when technology scaling is slowing down. However, today's high-performance accelerators require significant manual efforts to design, in large part due to the need to carefully orchestrate data transfers between external memory and an accelerator. Instead, the proposed framework utilizes automated program analysis along with High-Level Synthesis (HLS) tools to enable prefetching and access/execute decoupling with minimal manual efforts. The framework adds tags to accelerator memory accesses so that hardware prefetching can effectively preload data for accesses with regular patterns. To handle irregular memory accesses, the framework generates an accelerator with decoupled access/execute architecture using program slicing. Experimental results show that the proposed optimizations can significantly improve performance of HLS-generated accelerators (average speedup of 2.28x across eight accelerators) and often reduce energy consumption (average of 15%).", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"Qualcomm Snapdragon 820 Product Brief,\" https://www.qualcomm.com/documents/snapdragon-820-processor-product-brief."
+        }, 
+        {
+            "ArticleName": "Lisa Wu , Raymond J. Barker , Martha A. Kim , Kenneth A. Ross, Navigating big data with high-throughput, energy-efficient data partitioning, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485944", 
+            "DOIname": "10.1145/2485922.2485944", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485944"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , John D. Davis , Jaewon Lee, LINQits: big data on little clients, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485945", 
+            "DOIname": "10.1145/2485922.2485945", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485945"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , David Meisner , Ali G. Saidi , Parthasarathy Ranganathan , Thomas F. Wenisch, Thin servers with smart pipes: designing SoC accelerators for memcached, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485926", 
+            "DOIname": "10.1145/2485922.2485926", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485926"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Tao Chen , Alexander Rucker , G. Edward Suh, Execution time prediction for energy-efficient hardware accelerators, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830798", 
+            "DOIname": "10.1145/2830772.2830798", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830798"
+        }, 
+        {
+            "ArticleName": "\"VP9 Video Hardware RTLs,\" http://www.webmproject.org/hardware/vp9/."
+        }, 
+        {
+            "ArticleName": "Yakun Sophia Shao , Brandon Reagen , Gu-Yeon Wei , David Brooks, Aladdin: a Pre-RTL, power-performance accelerator simulator enabling large design space exploration of customized architectures, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665689"
+        }, 
+        {
+            "ArticleName": "B. Reagen, R. Adolf, Y. S. Shao, G. Wei, and D. M. Brooks, \"MachSuite: Benchmarks for Accelerator Design and Customized Architectures,\" in Proceedings of the International Symposium on Workload Characterization (IISWC), 2014."
+        }, 
+        {
+            "ArticleName": "Michael Adler , Kermin E. Fleming , Angshuman Parashar , Michael Pellauer , Joel Emer, Leap scratchpads: automatic memory and cache management for reconfigurable logic, Proceedings of the 19th ACM/SIGDA international symposium on Field programmable gate arrays, February 27-March 01, 2011, Monterey, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950413.1950421", 
+            "DOIname": "10.1145/1950413.1950421", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950421"
+        }, 
+        {
+            "ArticleName": "Jean-Loup Baer , Tien-Fu Chen, An effective on-chip preloading scheme to reduce data access penalty, Proceedings of the 1991 ACM/IEEE conference on Supercomputing, p.176-186, November 18-22, 1991, Albuquerque, New Mexico, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/125826.125932", 
+            "DOIname": "10.1145/125826.125932", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=125932"
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , James E. Smith, Data Cache Prefetching Using a Global History Buffer, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.96, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10030", 
+            "DOIname": "10.1109/HPCA.2004.10030", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072460"
+        }, 
+        {
+            "ArticleName": "Stephen Somogyi , Thomas F. Wenisch , Anastassia Ailamaki , Babak Falsafi , Andreas Moshovos, Spatial Memory Streaming, Proceedings of the 33rd annual international symposium on Computer Architecture, p.252-263, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.38", 
+            "DOIname": "10.1109/ISCA.2006.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136508"
+        }, 
+        {
+            "ArticleName": "Todd C. Mowry , Monica S. Lam , Anoop Gupta, Design and evaluation of a compiler algorithm for prefetching, Proceedings of the fifth international conference on Architectural support for programming languages and operating systems, p.62-73, October 12-15, 1992, Boston, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/143365.143488", 
+            "DOIname": "10.1145/143365.143488", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143488"
+        }, 
+        {
+            "ArticleName": "Jamison D. Collins , Hong Wang , Dean M. Tullsen , Christopher Hughes , Yong-Fong Lee , Dan Lavery , John P. Shen, Speculative precomputation: long-range prefetching of delinquent loads, Proceedings of the 28th annual international symposium on Computer architecture, p.14-25, June 30-July 04, 2001, G\u00f6teborg, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/379240.379248", 
+            "DOIname": "10.1145/379240.379248", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379248"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Jared Stark , Chris Wilkerson , Yale N. Patt, Runahead Execution: An Alternative to Very Large Instruction Windows for Out-of-Order Processors, Proceedings of the 9th International Symposium on High-Performance Computer Architecture, p.129, February 08-12, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822823"
+        }, 
+        {
+            "ArticleName": "James E. Smith, Decoupled access/execute computer architectures, Proceedings of the 9th annual symposium on Computer Architecture, p.112-119, April 26-29, 1982, Austin, Texas, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801719"
+        }, 
+        {
+            "ArticleName": "Tae Jun Ham , Juan L. Arag\u00f3n , Margaret Martonosi, DeSC: decoupled supply-compute communication management for heterogeneous architectures, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830800", 
+            "DOIname": "10.1145/2830772.2830800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830800"
+        }, 
+        {
+            "ArticleName": "Chen-Han Ho , Sung Jin Kim , Karthikeyan Sankaralingam, Efficient execution of memory access phases using dataflow specialization, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750390", 
+            "DOIname": "10.1145/2749469.2750390", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750390"
+        }, 
+        {
+            "ArticleName": "Steve Dai , Mingxing Tan , Kecheng Hao , Zhiru Zhang, Flushing-Enabled Loop Pipelining for High-Level Synthesis, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593143", 
+            "DOIname": "10.1145/2593069.2593143", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593143"
+        }, 
+        {
+            "ArticleName": "Mark Weiser, Program slicing, Proceedings of the 5th international conference on Software engineering, p.439-449, March 09-12, 1981, San Diego, California, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=802557"
+        }, 
+        {
+            "ArticleName": "Derek Lockhart , Gary Zibrat , Christopher Batten, PyMTL: A Unified Framework for Vertically Integrated Computer Architecture Research, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.50", 
+            "DOIname": "10.1109/MICRO.2014.50", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742183"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "\"Verilator,\" http://www.veripool.org/wiki/verilator."
+        }, 
+        {
+            "ArticleName": "Ganesh Venkatesh , Jack Sampson , Nathan Goulding , Saturnino Garcia , Vladyslav Bryksin , Jose Lugo-Martinez , Steven Swanson , Michael Bedford Taylor, Conservation cores: reducing the energy of mature computations, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736044", 
+            "DOIname": "10.1145/1736020.1736044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736044"
+        }, 
+        {
+            "ArticleName": "Venkatraman Govindaraju , Chen-Han Ho , Karthikeyan Sankaralingam, Dynamically Specialized Datapaths for energy efficient computing, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.503-514, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014884"
+        }, 
+        {
+            "ArticleName": "G. P. Jones , N. P. Topham, A comparison of data prefetching on an access decoupled and superscalar machine, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.65-70, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266807"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , James C. Hoe , Ken Mai, CoRAM: an in-fabric memory architecture for FPGA-based computing, Proceedings of the 19th ACM/SIGDA international symposium on Field programmable gate arrays, February 27-March 01, 2011, Monterey, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950413.1950435", 
+            "DOIname": "10.1145/1950413.1950435", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950435"
+        }, 
+        {
+            "ArticleName": "H. Yang, K. Fleming, M. Adler, and J. S. Emer, \"Optimizing Under Abstraction: Using Prefetching to Improve FPGA Performance,\" in Proceedings of the 23rd International Conference on Field programmable Logic and Applications (FPL), 2013, pp. 1--8."
+        }, 
+        {
+            "ArticleName": "A. Putnam, D. Bennett, E. Dellinger, J. Mason, P. Sundararajan, and S. J. Eggers, \"CHiMPS: A C-level Compilation Flow for Hybrid CPU-FPGA Architectures,\" in Proceedings of the International Conference on Field Programmable Logic and Applications (FPL), 2008, pp. 173--178."
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Susan Eggers , Dave Bennett , Eric Dellinger , Jeff Mason , Henry Styles , Prasanna Sundararajan , Ralph Wittig, Performance and power of cache-based reconfigurable computing, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555804", 
+            "DOIname": "10.1145/1555754.1555804", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555804"
+        }, 
+        {
+            "ArticleName": "Mingxing Tan , Bin Liu , Steve Dai , Zhiru Zhang, Multithreaded pipeline synthesis for data-parallel kernels, Proceedings of the 2014 IEEE/ACM International Conference on Computer-Aided Design, November 03-06, 2014, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2691510"
+        }, 
+        {
+            "ArticleName": "Guilherme Ottoni , Ram Rangan , Adam Stoler , David I. August, Automatic Thread Extraction with Decoupled Software Pipelining, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.105-118, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.13", 
+            "DOIname": "10.1109/MICRO.2005.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100543"
+        }, 
+        {
+            "ArticleName": "S. Cheng and J. Wawrzynek, \"Architectural Synthesis of Computational Pipelines with Decoupled Memory Access,\" in Proceedings of the International Conference on Field-Programmable Technology (FPT), 2014, pp. 83--90."
+        }, 
+        {
+            "ArticleName": "Feng Liu , Soumyadeep Ghosh , Nick P. Johnson , David I. August, CGPA: Coarse-Grained Pipelined Accelerators, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593105", 
+            "DOIname": "10.1145/2593069.2593105", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593105"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Tao Chen"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "G. Edward Suh"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195694&preflayout=flat"
+}

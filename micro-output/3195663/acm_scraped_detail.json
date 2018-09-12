@@ -1,0 +1,325 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Anup Das , Akash Kumar, Dataflow-Based Mapping of Spiking Neural Networks on Neuromorphic Hardware, Proceedings of the 2018 on Great Lakes Symposium on VLSI, May 23-25, 2018, Chicago, IL, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3194627"
+        }, 
+        {
+            "ArticleName": "Yu Ji , Youhui Zhang , Wenguang Chen , Yuan Xie, Bridge the Gap between Neural Networks and Neuromorphic Hardware with a Neural Network Compiler, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173205"
+        }, 
+        {
+            "ArticleName": "Hyoukjun Kwon , Ananda Samajdar , Tushar Krishna, MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173176"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 27, 
+        "Downloads_6Weeks": 11, 
+        "Downloads_cumulative": 27, 
+        "CitationCount": 3
+    }, 
+    "Title": "NEUTRAMS: neural network transformation and co-design under neuromorphic hardware constraints", 
+    "Abstract": "With the recent reincarnations of neuromorphic computing comes the promise of a new computing paradigm, with a focus on the design and fabrication of neuromorphic chips. A key challenge in design, however, is that programming such chips is difficult. This paper proposes a systematic methodology with a set of tools to address this challenge. The proposed toolset is called NEUTRAMS (<u>Neu</u>ral network <u>Tra</u>nsformation, <u>M</u>apping and <u>S</u>imulation), and includes three key components: a neural network (NN) transformation algorithm, a configurable clock-driven simulator of neuromorphic chips and an optimized runtime tool that maps NNs onto the target hardware for better resource utilization. To address the challenges of hardware constraints on implementing NN models (such as the maximum fan-in/fan-out of a single neuron, limited precision, and various neuron models), the transformation algorithm divides an existing NN into a set of simple network units and retrains each unit iteratively, to transform the original one into its counterpart under such constraints. It can support both spiking neural networks (SNNs) and traditional artificial neural networks (ANNs), including convolutional neural networks (CNNs) and multilayer perceptrons (MLPs) and recurrent neural networks (RNNs). With the combination of these tools, we have explored the hardware/software co-design space of the correlation between network error-rates and hardware constraints and consumptions. Doing so provides insights which can support the design of future neuromorphic architectures. The usefulness of such a toolset has been demonstrated with two different designs: a real Complementary Metal-Oxide-Semiconductor (CMOS) neuromorphic chip for both SNNs and ANNs and a processing-in-memory architecture design for ANNs.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "National Academy of Engineering, \"Reverse-engineer the brain,\" 2012."
+        }, 
+        {
+            "ArticleName": "W. G. amd H. Sprekeler and G. Deco, \"Theory and simulation in neuroscience,\" Science, vol. 338, no. 6103, pp. 60--65, 2012."
+        }, 
+        {
+            "ArticleName": "H. Markram, \"The blue brain project,\" Nature Reviews Neuroscience, vol. 7, no. 2, pp. 153--160, 2006."
+        }, 
+        {
+            "ArticleName": "P. A. Merolla, J. V. Arthur, R. Alvarez-Icaza, A. S. Cassidy, J. Sawada, F. Akopyan, B. L. Jackson, N. Imam, C. Guo, Y. Nakamura, B. Brezzo, I. Vo, S. K. Esser, R. Appuswamy, B. Taba, A. Amir, M. D. Flickner, W. P. Risk, R. Manohar, and D. S. Modha, \"A million spiking-neuron integrated circuit with a scalable communication network and interface,\" Science, vol. 345, no. 6197, pp. 668--673, 2014."
+        }, 
+        {
+            "ArticleName": "Steve B. Furber , David R. Lester , Luis A. Plana , Jim D. Garside , Eustace Painkras , Steve Temple , Andrew D. Brown, Overview of the SpiNNaker System Architecture, IEEE Transactions on Computers, v.62 n.12, p.2454-2467, December 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2012.142", 
+            "DOIname": "10.1109/TC.2012.142", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2553567"
+        }, 
+        {
+            "ArticleName": "B. V. Benjamin, P. Gao, E. McQuinn, S. Choudhary, A. R. Chandrasekaran, J. M. Bussat, R. Alvarez-Icaza, J. V. Arthur, P. A. Merolla, and K. Boahen, \"Neurogrid: A mixed-analog-digital multichip system for large-scale neural simulations,\" Proceedings of the IEEE, vol. 102, pp. 699--716, May 2014."
+        }, 
+        {
+            "ArticleName": "Karsten Wendt , Matthias Ehrlich , Ren\u00e9 Sch\u00fcffny, A graph theoretical approach for a multistep mapping software for the FACETS project, Proceedings of the 2nd WSEAS International Conference on Computer Engineering and Applications, p.189-194, January 25-27, 2008, Acapulco, Mexico", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373969"
+        }, 
+        {
+            "ArticleName": "Snaider Carrillo , Jim Harkin , Liam J. McDaid , Fearghal Morgan , Sandeep Pande , Seamus Cawley , Brian McGinley, Scalable Hierarchical Network-on-Chip Architecture for Spiking Neural Network Hardware Implementations, IEEE Transactions on Parallel and Distributed Systems, v.24 n.12, p.2451-2461, December 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2012.289", 
+            "DOIname": "10.1109/TPDS.2012.289", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2553660"
+        }, 
+        {
+            "ArticleName": "Daofu Liu , Tianshi Chen , Shaoli Liu , Jinhong Zhou , Shengyuan Zhou , Olivier Teman , Xiaobing Feng , Xuehai Zhou , Yunji Chen, PuDianNao: A Polyvalent Machine Learning Accelerator, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694358", 
+            "DOIname": "10.1145/2694344.2694358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694358"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Y. H. Chen, T. Krishna, J. Emer, and V. Sze, \"14.5 eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks,\" in 2016 IEEE International Solid-State Circuits Conference (ISSCC), pp. 262--263, Jan 2016."
+        }, 
+        {
+            "ArticleName": "M. Prezioso, F. Merrikh-Bayat, B. D. Hoskins, G. C. Adam, K. K. Likharev, and D. B. Strukov, \"Training and operation of an integrated neuromorphic network based on metal-oxide memristors,\" Nature, vol. 24, no. 521, pp. 61--64, 2015."
+        }, 
+        {
+            "ArticleName": "Boxun Li , Yi Shan , Miao Hu , Yu Wang , Yiran Chen , Huazhong Yang, Memristor-based approximated computation, Proceedings of the 2013 International Symposium on Low Power Electronics and Design, September 04-06, 2013, Beijing, China", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2648729"
+        }, 
+        {
+            "ArticleName": "Greg Snider , Rick Amerson , Dick Carter , Hisham Abdalla , Muhammad Shakeel Qureshi , Jasmin Leveille , Massimiliano Versace , Heather Ames , Sean Patrick , Benjamin Chandler , Anatoli Gorchetchnikov , Ennio Mingolla, From Synapses to Circuitry: Using Memristive Memory to Explore the Electronic Brain, Computer, v.44 n.2, p.21-28, February 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2011.48", 
+            "DOIname": "10.1109/MC.2011.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1957448"
+        }, 
+        {
+            "ArticleName": "S. Yu, Y. Wu, R. Jeyasingh, D. Kuzum, and H. S. P. Wong, \"An electronic synapse device based on metal oxide resistive switching memory for neuromorphic computation,\" IEEE Transactions on Electron Devices, vol. 58, pp. 2729--2737, Aug 2011."
+        }, 
+        {
+            "ArticleName": "Miao Hu , Hai Li , Qing Wu , Garrett S. Rose, Hardware realization of BSB recall function using memristor crossbar arrays, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228448", 
+            "DOIname": "10.1145/2228360.2228448", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228448"
+        }, 
+        {
+            "ArticleName": "Yongtae Kim , Yong Zhang , Peng Li, A Reconfigurable Digital Neuromorphic Processor with Memristive Synaptic Crossbar for Cognitive Computing, ACM Journal on Emerging Technologies in Computing Systems (JETC), v.11 n.4, April 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2700234", 
+            "DOIname": "10.1145/2700234", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2700234"
+        }, 
+        {
+            "ArticleName": "M. Hu, H. Li, Y. Chen, Q. Wu, and G. S. Rose, \"Bsb training scheme implementation on memristor-based circuit,\" in Computational Intelligence for Security and Defense Applications (CISDA), 2013 IEEE Symposium on, pp. 80--87, April 2013."
+        }, 
+        {
+            "ArticleName": "Beiye Liu , Miao Hu , Hai Li , Zhi-Hong Mao , Yiran Chen , Tingwen Huang , Wei Zhang, Digital-assisted noise-eliminating training for memristor crossbar-based analog neuromorphic computing engine, Proceedings of the 50th Annual Design Automation Conference, May 29-June 07, 2013, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463209.2488741", 
+            "DOIname": "10.1145/2463209.2488741", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2488741"
+        }, 
+        {
+            "ArticleName": "Beiye Liu , Hai Li , Yiran Chen , Xin Li , Tingwen Huang , Qing Wu , Mark Barnell, Reduction and IR-drop compensations techniques for reliable neuromorphic computing systems, Proceedings of the 2014 IEEE/ACM International Conference on Computer-Aided Design, November 03-06, 2014, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2691377"
+        }, 
+        {
+            "ArticleName": "L. Shi, J. Pei, N. Deng, D. Wang, L. Deng, Y. Wang, Y. Zhang, F. Chen, M. Zhao, S. Song, F. Zeng, G. Li, H. Li, and C. Ma, \"Development of a neuromorphic computing system,\" in 2015 IEEE International Electron Devices Meeting (IEDM), pp. 4.3.1--4.3.4, Dec 2015."
+        }, 
+        {
+            "ArticleName": "P. Chi, S. Li, C. Xu, T. Zhang, J. Zhao, Y. Wang, Y. Liu, and Y. Xie, \"Processing-in-memory in reram-based main memory,\" in 2016 Intl. Symopsium on Computer Architecture, also as SEAL-Lab Technical Report - No.2015-001."
+        }, 
+        {
+            "ArticleName": "Zidong Du , Daniel D. Ben-Dayan Rubin , Yunji Chen , Liqiang He , Tianshi Chen , Lei Zhang , Chengyong Wu , Olivier Temam, Neuromorphic accelerators: a comparison between neuroscience and machine-learning approaches, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830789", 
+            "DOIname": "10.1145/2830772.2830789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830789"
+        }, 
+        {
+            "ArticleName": "S. K. Esser, A. Andreopoulos, R. Appuswamy, P. Datta, D. Barch, A. Amir, J. Arthur, A. Cassidy, M. Flickner, P. Merolla, S. Chandra, N. Basilico, S. Carpin, T. Zimmerman, F. Zee, R. Alvarez-Icaza, J. A. Kusnitz, T. M. Wong, W. P. Risk, E. McQuinn, T. K. Nayak, R. Singh, and D. S. Modha, \"Cognitive computing systems: Algorithms and applications for networks of neurosynaptic cores,\" in Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1--10, Aug 2013."
+        }, 
+        {
+            "ArticleName": "A. Amir, P. Datta, W. P. Risk, A. S. Cassidy, J. A. Kusnitz, S. K. Esser, A. Andreopoulos, T. M. Wong, M. Flickner, R. Alvarez-Icaza, E. McQuinn, B. Shaw, N. Pass, and D. S. Modha, \"Cognitive computing programming paradigm: A corelet language for composing networks of neurosynaptic cores,\" in Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1--10, Aug 2013."
+        }, 
+        {
+            "ArticleName": "F. Akopyan, J. Sawada, A. Cassidy, R. Alvarez-Icaza, J. Arthur, P. Merolla, N. Imam, Y. Nakamura, P. Datta, G. J. Nam, B. Taba, M. Beakes, B. Brezzo, J. B. Kuang, R. Manohar, W. P. Risk, B. Jackson, and D. S. Modha, \"Truenorth: Design and tool flow of a 65 mw 1 million neuron programmable neurosynaptic chip,\" IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 34, pp. 1537--1557, Oct 2015."
+        }, 
+        {
+            "ArticleName": "P. Merolla, J. Arthur, R. Alvarez, J. M. Bussat, and K. Boahen, \"A multicast tree router for multichip neuromorphic systems,\" IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 61, pp. 820--833, March 2014."
+        }, 
+        {
+            "ArticleName": "Chris Eliasmith , Charles H. Anderson, Neural Engineering (Computational Neuroscience Series): Computational, Representation, and Dynamics in Neurobiological Systems, MIT Press, Cambridge, MA, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=862917"
+        }, 
+        {
+            "ArticleName": "Bart L. M. Happel , Jacob M. J. Murre, 1994 Special Issue: Design and evolution of modular neural network architectures, Neural Networks, v.7 n.6-7, p.985-1004, 1994", 
+            "DOIhref": "https://dx.doi.org/10.1016/S0893-6080(05)80155-8", 
+            "DOIname": "10.1016/S0893-6080(05)80155-8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=187810"
+        }, 
+        {
+            "ArticleName": "X. Jin, PARALLEL SIMULATION OF NEURAL NETWORKS ON SPINNAKER UNIVERSAL NEUROMORPHIC HARDWAR. Ph.D. thesis. University of Manchester, 2010."
+        }, 
+        {
+            "ArticleName": "M. L. Hines and N. T. Carnevale, \"Neuron: a tool for neuroscientists,\" Neuroscientist, vol. 7, no. 2, pp. 123--135, 2001."
+        }, 
+        {
+            "ArticleName": "T. C. Stewart, B. Tripp, and C. Eliasmith, \"Python scripting in the nengo simulator,\" Frontiers in Neuroinformatics, vol. 3, no. 7, 2008."
+        }, 
+        {
+            "ArticleName": "M. Stimberg, D. F. M. Goodman, V. Benichoux, and R. Brette, \"Equation-oriented specification of neural models for simulations,\" Frontiers in Neuroinformatics, vol. 8, no. 6, 2014."
+        }, 
+        {
+            "ArticleName": "Jayram Moorkanikara Nageswaran , Nikil Dutt , Jeffrey L. Krichmar , Alex Nicolau , Alexander V. Veidenbaum, 2009 Special Issue: A configurable simulation environment for the efficient simulation of large-scale spiking neural networks on graphics processors, Neural Networks, v.22 n.5-6, p.791-800, July, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.neunet.2009.06.028", 
+            "DOIname": "10.1016/j.neunet.2009.06.028", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1594470"
+        }, 
+        {
+            "ArticleName": "H. Paugam-Moisy and S. Bohte, Handbook of Natural Computing, ch. Computing with Spiking Neuron Networks, pp. 335--376. Berlin, Heidelberg: Springer Berlin Heidelberg, 2012."
+        }, 
+        {
+            "ArticleName": "John J. Wade , Liam J. McDaid , Jose A. Santos , Heather M. Sayers, SWAT: a spiking neural network training algorithm for classification problems, IEEE Transactions on Neural Networks, v.21 n.11, p.1817-1830, November 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/TNN.2010.2074212", 
+            "DOIname": "10.1109/TNN.2010.2074212", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1922645"
+        }, 
+        {
+            "ArticleName": "N. G. Pavlidis, O. K. Tasoulis, V. P. Plagianakos, G. Nikiforidis, and M. N. Vrahatis, \"Spiking neural network training using evolutionary algorithms,\" in Neural Networks, 2005. IJCNN '05. Proceedings. 2005 IEEE International Joint Conference on, vol. 4, pp. 2190--2194 vol. 4, July 2005."
+        }, 
+        {
+            "ArticleName": "Yan Xu , Xiaoqin Zeng , Shuiming Zhong, A new supervised learning algorithm for spiking neurons, Neural Computation, v.25 n.6, p.1472-1511, June 2013", 
+            "DOIhref": "https://dx.doi.org/10.1162/NECO_a_00450", 
+            "DOIname": "10.1162/NECO_a_00450", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2483942"
+        }, 
+        {
+            "ArticleName": "Yongqiang Cao , Yang Chen , Deepak Khosla, Spiking Deep Convolutional Neural Networks for Energy-Efficient Object Recognition, International Journal of Computer Vision, v.113 n.1, p.54-66, May 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11263-014-0788-3", 
+            "DOIname": "10.1007/s11263-014-0788-3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2776961"
+        }, 
+        {
+            "ArticleName": "P. Merolla, J. Arthur, F. Akopyan, N. Imam, R. Manohar, and D. S. Modha, \"A digital neurosynaptic core using embedded crossbar memory with 45pj per spike in 45nm,\" in Custom Integrated Circuits Conference (CICC), 2011 IEEE, pp. 1--4, Sept 2011."
+        }, 
+        {
+            "ArticleName": "Yongqiang Cao , Stephen Grossberg, Stereopsis and 3D surface perception by spiking neurons in laminar cortical circuits: A method for converting neural rate models into spiking models, Neural Networks, 26, p.75-98, February, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.neunet.2011.10.010", 
+            "DOIname": "10.1016/j.neunet.2011.10.010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2110069"
+        }, 
+        {
+            "ArticleName": "F. Folowosele, R. J. Vogelstein, and R. Etienne-Cummings, \"Towards a cortical prosthesis: Implementing a spike-based hmax model of visual object recognition in silico,\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol. 1, pp. 516--525, Dec 2011."
+        }, 
+        {
+            "ArticleName": "Jose-Antonio Perez-Carrasco , Carmen Serrano , Begona Acha , Teresa Serrano-Gotarredona , Bernabe Linares-Barranco, Spike-Based Convolutional Network for Real-Time Processing, Proceedings of the 2010 20th International Conference on Pattern Recognition, p.3085-3088, August 23-26, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPR.2010.756", 
+            "DOIname": "10.1109/ICPR.2010.756", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1905398"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, IEEE Micro, v.33 n.3, p.16-27, May 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2013.28", 
+            "DOIname": "10.1109/MM.2013.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2516413"
+        }, 
+        {
+            "ArticleName": "Ren\u00e9e St. Amant , Amir Yazdanbakhsh , Jongse Park , Bradley Thwaites , Hadi Esmaeilzadeh , Arjang Hassibi , Luis Ceze , Doug Burger, General-purpose code acceleration with limited-precision analog computation, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665746"
+        }, 
+        {
+            "ArticleName": "T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, and M. Oskin, \"Snnap: Approximate computing on programmable socs via neural acceleration,\" in High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on, pp. 603--614, Feb 2015."
+        }, 
+        {
+            "ArticleName": "Atif Hashmi , Andrew Nere , James Jamal Thomas , Mikko Lipasti, A case for neuromorphic ISAs, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950385", 
+            "DOIname": "10.1145/1950365.1950385", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950385"
+        }, 
+        {
+            "ArticleName": "A. P. Davison, D. Bruderle, J. Kremkow, E. Muller, D. Pecevski, L. Perrinet, and P. Yger, \"Pynn: a common interface for neuronal network simulators,\" Frontiers in Neuroinformatics, vol. 2, no. 11, 2009."
+        }, 
+        {
+            "ArticleName": "S. Gupta, A. Agrawal, K. Gopalakrishnan, and P. Narayanan, \"Deep learning with limited numerical precision,\" CoRR, vol. abs/1502.02551, 2015."
+        }, 
+        {
+            "ArticleName": "M. Courbariaux, Y. Bengio, and J. David, \"Low precision arithmetic for deep learning,\" CoRR, vol. abs/1412.7024, 2014."
+        }, 
+        {
+            "ArticleName": "Z. Lin, M. Courbariaux, R. Memisevic, and Y. Bengio, \"Neural networks with few multiplications,\" CoRR, vol. abs/1510.03009, 2015."
+        }, 
+        {
+            "ArticleName": "S. Pande, F. Morgan, G. Smit, T. Bruintjes, J. Rutgers, B. McGinley, S. Cawley, J. Harkin, and L. McDaid, \"Fixed latency on-chip interconnect for hardware spiking neural network architectures,\" Parallel Computing, vol. 39, no. 9, pp. 357 -- 371, 2013. Novel On-Chip Parallel Architectures and Software Support."
+        }, 
+        {
+            "ArticleName": "T. M. Taha, R. Hasan, C. Yakopcic, and M. R. McLean, \"Exploring the design space of specialized multicore neural processors,\" in Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1--8, Aug 2013."
+        }, 
+        {
+            "ArticleName": "R. Paz , F. Gomez-Rodriguez , M. A. Rodriguez , A. Linares-Barranco , G. Jimenez , A. Civit, Test infrastructure for address-event-representation communications, Proceedings of the 8th international conference on Artificial Neural Networks: computational Intelligence and Bioinspired Systems, June 08-10, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1007/11494669_64", 
+            "DOIname": "10.1007/11494669_64", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2152604"
+        }, 
+        {
+            "ArticleName": "V. Catania, A. Mineo, S. Monteleone, M. Palesi, and D. Patti, \"Noxim: An open, extensible and cycle-accurate network on chip simulator,\" in Application-specific Systems, Architectures and Processors (ASAP), 2015 IEEE 26th International Conference on, pp. 162--163, July 2015."
+        }, 
+        {
+            "ArticleName": "Matthew Poremba , Tao Zhang , Yuan Xie, NVMain 2.0: A User-Friendly Memory Simulator to Model (Non-)Volatile Memory Systems, IEEE Computer Architecture Letters, v.14 n.2, p.140-143, July 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2402435", 
+            "DOIname": "10.1109/LCA.2015.2402435", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2878679"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar , Rajeev Balasubramonian , Norm Jouppi, Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.3-14, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.30", 
+            "DOIname": "10.1109/MICRO.2007.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331704"
+        }, 
+        {
+            "ArticleName": "Y. LeCun, C. Cortes, and C. J. Burges, \"The mnist database of handwritten digits,\" 1998."
+        }, 
+        {
+            "ArticleName": "W.-h. Zhang, A. Chen, M. J. Rasch, and S. Wu, \"Decentralized multisensory information integration in neural systems,\" The Journal of Neuroscience, vol. 36, no. 2, pp. 532--547, 2016."
+        }, 
+        {
+            "ArticleName": "T. C. Stewart, X. Choo, and C. Eliasmith, \"Dynamic behaviour of a spiking model of action selection in the basal ganglia,\" in Proceedings of the 10th international conference on cognitive modeling, pp. 235--40, Citeseer, 2010."
+        }, 
+        {
+            "ArticleName": "K. Simonyan and A. Zisserman, \"Very deep convolutional networks for large-scale image recognition,\" CoRR, vol. abs/1409.1556, 2014."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Tsinghua University, PR.China", 
+            "Name": "Yu Ji"
+        }, 
+        {
+            "Affiliation": "Tsinghua University, PR.China", 
+            "Name": "YouHui Zhang"
+        }, 
+        {
+            "Affiliation": "University of California at Santa Barbara", 
+            "Name": "ShuangChen Li"
+        }, 
+        {
+            "Affiliation": "University of California at Santa Barbara", 
+            "Name": "Ping Chi"
+        }, 
+        {
+            "Affiliation": "Tsinghua University, PR.China", 
+            "Name": "CiHang Jiang"
+        }, 
+        {
+            "Affiliation": "Tsinghua University, PR.China", 
+            "Name": "Peng Qu"
+        }, 
+        {
+            "Affiliation": "University of California at Santa Barbara", 
+            "Name": "Yuan Xie"
+        }, 
+        {
+            "Affiliation": "Tsinghua University, PR.China", 
+            "Name": "WenGuang Chen"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195663&preflayout=flat"
+}

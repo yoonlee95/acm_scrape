@@ -4,6 +4,7 @@ import json
 import os
 import urllib
 import threading
+import re
 
 def download_file(path, download_url):
 
@@ -17,7 +18,7 @@ def download_file(path, download_url):
     driver.get("https://dl.acm.org/"+download_url)
     for file in os.listdir(path):
         if file.endswith(".pdf"):
-            print file
+            #print file
             os.rename(os.path.join(path, file), path+"/paper.pdf")
 
 
@@ -37,10 +38,15 @@ def init_webdriver():
   return driver
 
 def get_abstract(soup):
-    abstract_text = soup.find("div", id="abstract")
+    l = soup.find_all("div", style="display:inline")
+    #print l[0].text
+    #abstract_text = soup.find("div", id="abstract")
+    abstract_text =  l[0].text
     if abstract_text is not None:
-        return abstract_text.getText()
+        return abstract_text
+        #return abstract_text.getText().e
     else:
+        print "failed to extract abstract ---->", soup.find("div", id="divmain").find("div").find("h1")
         return ""
 def get_bibilometers(soup):
     bibilometers = {}
@@ -51,6 +57,7 @@ def get_bibilometers(soup):
     bibilometers["Downloads_cumulative"] = int(bibilometer_lines[2].split(":")[1].replace(',',''))
     bibilometers["Downloads_12Months"] = int(bibilometer_lines[3].split(":")[1].replace(',',''))
     bibilometers["Downloads_6Weeks"] = int(bibilometer_lines[4].split(":")[1].replace(',',''))
+
     return bibilometers
 
 def get_authors(soup):
@@ -108,22 +115,30 @@ def get_cited_by(soup):
 
 def get_published_year(soup):
     year_tag = soup.find("div", id="divmain").find("td", class_="small-text").parent.parent.parent.find_all("td")[1]
-    return int(year_tag.getText().split(" ")[0])
+    #print year_tag
+    y = re.sub('[^0-9]','', year_tag.getText())
+    #return int(year_tag.getText().split(" ")[1])
+    return int(y)
+    
 
 def get_title(soup):
-    title_tag = soup.find("div", id="divmain").find("div").find("h1")
-    return title_tag.string.strip()
+    title_tag = soup.find("div", id="divmain").find("div").find("h1").text.encode('utf-8')
+    print soup.find("div", id="divmain").find("div").find("h1")
+    if title_tag is not None:
+        #return title_tag.string.strip()
+        return title_tag
+    else:
+         print "failed to extract title ---->", soup.find("div", id="divmain").find("div").find("h1")
 def get_pdf_link(soup):
     links = soup.find("div", id="divmain").find_all("a", title="FullText PDF")
     if(len(links) == 1):
-        print links[0]['href']
+        #print links[0]['href']
         return links[0]['href']
     return None
-
 def get_article_detail(driver, html):
   detail = {}
 
-  print "https://dl.acm.org/"+html+"&preflayout=flat"
+  #print "https://dl.acm.org/"+html+"&preflayout=flat"
   driver.get("https://dl.acm.org/"+html+"&preflayout=flat")
   driver.implicitly_wait(1)
   soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -150,7 +165,7 @@ def get_article_detail(driver, html):
       json.dump(detail, outfile, indent=4)
 
 article_list = {}
-article_list_file_name = 'micro.json'
+article_list_file_name = 'micro2016-17-test.json'
 with open(article_list_file_name, 'r') as f:
     article_list = json.load(f)
 
@@ -160,5 +175,5 @@ for conf, articles in article_list.iteritems():
     print conf
     for article in articles:
         get_article_detail(Driver, article)
-        break
-    break
+        #break
+#break

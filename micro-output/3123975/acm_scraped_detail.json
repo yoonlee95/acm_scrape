@@ -1,0 +1,570 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Rachata Ausavarungnirun , Vance Miller , Joshua Landgraf , Saugata Ghose , Jayneel Gandhi , Adwait Jog , Christopher J. Rossbach , Onur Mutlu, MASK: Redesigning the GPU Memory Hierarchy to Support Multi-Application Concurrency, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173169"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 336, 
+        "Downloads_6Weeks": 21, 
+        "Downloads_cumulative": 336, 
+        "CitationCount": 1
+    }, 
+    "Title": "Mosaic: a GPU memory manager with application-transparent support for multiple page sizes", 
+    "Abstract": "Contemporary discrete GPUs support rich memory management features such as virtual memory and demand paging. These features simplify GPU programming by providing a virtual address space abstraction similar to CPUs and eliminating manual memory management, but they introduce high performance overheads during (1) address translation and (2) page faults. A GPU relies on high degrees of thread-level parallelism (TLP) to hide memory latency. Address translation can undermine TLP, as a single miss in the translation lookaside buffer (TLB) invokes an expensive serialized page table walk that often stalls multiple threads. Demand paging can also undermine TLP, as multiple threads often stall while they wait for an expensive data transfer over the system I/O (e.g., PCIe) bus when the GPU demands a page. In modern GPUs, we face a trade-off on how the page size used for memory management affects address translation and demand paging. The address translation overhead is lower when we employ a larger page size (e.g., 2MB large pages, compared with conventional 4KB base pages), which increases TLB coverage and thus reduces TLB misses. Conversely, the demand paging overhead is lower when we employ a smaller page size, which decreases the system I/O bus transfer latency. Support for multiple page sizes can help relax the page size trade-off so that address translation and demand paging optimizations work together synergistically. However, existing page coalescing (i.e., merging base pages into a large page) and splintering (i.e., splitting a large page into base pages) policies require costly base page migrations that undermine the benefits multiple page sizes provide. In this paper, we observe that GPGPU applications present an opportunity to support multiple page sizes without costly data migration, as the applications perform most of their memory allocation en masse (i.e., they allocate a large number of base pages at once). We show that this en masse allocation allows us to create intelligent memory allocation policies which ensure that base pages that are contiguous in virtual memory are allocated to contiguous physical memory pages. As a result, coalescing and splintering operations no longer need to migrate base pages. We introduce Mosaic, a GPU memory manager that provides application-transparent support for multiple page sizes. Mosaic uses base pages to transfer data over the system I/O bus, and allocates physical memory in a way that (1) preserves base page contiguity and (2) ensures that a large page frame contains pages from only a single memory protection domain. We take advantage of this allocation strategy to design a novel in-place page size selection mechanism that avoids data migration. This mechanism allows the TLB to use large pages, reducing address translation overhead. During data transfer, this mechanism enables the GPU to transfer only the base pages that are needed by the application over the system I/O bus, keeping demand paging overhead low. Our evaluations show that Mosaic reduces address translation overheads while efficiently achieving the benefits of demand paging, compared to a contemporary GPU that uses only a 4KB page size. Relative to a state-of-the-art GPU memory manager, Mosaic improves the performance of homogeneous and heterogeneous multi-application workloads by 55.5% and 29.7% on average, respectively, coming within 6.8% and 15.4% of the performance of an ideal TLB where all TLB requests are hits.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "A. Abrevaya, \"Linux Transparent Huge Pages, JEMalloc and NuoDB,\" 2014."
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices, Inc., \"OpenCL: The Future of Accelerated Application Performance Is Now,\" https://www.amd.com/Documents/FirePro_OpenCL_Whitepaper.pdf."
+        }, 
+        {
+            "ArticleName": "N. Agarwal, D. Nellans, M. O'Connor, S. W. Keckler, and T. F. Wenisch, \"Unlocking Bandwidth for GPUs in CC-NUMA Systems,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Jeongseob Ahn , Seongwook Jin , Jaehyuk Huh, Revisiting hardware-assisted page walks for virtualized systems, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337214", 
+            "DOIname": "10.1145/2366231.2337214", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337214"
+        }, 
+        {
+            "ArticleName": "Jeongseob Ahn , Seongwook Jin , Jaehyuk Huh, Fast Two-Level Address Translation for Virtualized Systems, IEEE Transactions on Computers, v.64 n.12, p.3461-3474, December 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2015.2401022", 
+            "DOIname": "10.1109/TC.2015.2401022", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2881819"
+        }, 
+        {
+            "ArticleName": "Apple Inc., \"Huge Page Support in Mac OS X,\" http://blog.couchbase.com/often-overlooked-linux-os-tweaks, 2014."
+        }, 
+        {
+            "ArticleName": "ARM Holdings, \"ARM Cortex-A Series,\" http://infocenter.arm.com/help/topic/com.arm.doc.den0024a/DEN0024A_v8_architecture_PG.pdf, 2015."
+        }, 
+        {
+            "ArticleName": "R. Ausavarungnirun, \"Techniques for Shared Resource Management in Systems with Throughput Processors,\" Ph.D. dissertation, Carnegie Mellon Univ., 2017."
+        }, 
+        {
+            "ArticleName": "Rachata Ausavarungnirun , Kevin Kai-Wei Chang , Lavanya Subramanian , Gabriel H. Loh , Onur Mutlu, Staged memory scheduling: achieving high performance and scalability in heterogeneous systems, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337207"
+        }, 
+        {
+            "ArticleName": "Rachata Ausavarungnirun , Saugata Ghose , Onur Kayiran , Gabriel H. Loh , Chita R. Das , Mahmut T. Kandemir , Onur Mutlu, Exploiting Inter-Warp Heterogeneity to Improve GPGPU Performance, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.25-38, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.38", 
+            "DOIname": "10.1109/PACT.2015.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923776"
+        }, 
+        {
+            "ArticleName": "R. Ausavarungnirun, J. Landgraf, V. Miller, S. Ghose, J. Gandhi, C. J. Rossbach, and O. Mutlu, \"Mosaic: A GPU Memory Manager with Application-Transparent Support for Multiple Page Sizes,\" Carnegie Mellon Univ., SAFARI Research Group, Tech. Rep. TR-2017--003, 2017."
+        }, 
+        {
+            "ArticleName": "A. Bakhoda, G. Yuan, W. Fung, H. Wong, and T. Aamodt, \"Analyzing CUDA Workloads Using a Detailed GPU Simulator,\" in ISPASS, 2009."
+        }, 
+        {
+            "ArticleName": "Thomas W. Barr , Alan L. Cox , Scott Rixner, Translation caching: skip, don't walk (the page table), Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815970", 
+            "DOIname": "10.1145/1815961.1815970", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815970"
+        }, 
+        {
+            "ArticleName": "Thomas W. Barr , Alan L. Cox , Scott Rixner, SpecTLB: a mechanism for speculative address translation, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000101", 
+            "DOIname": "10.1145/2000064.2000101", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000101"
+        }, 
+        {
+            "ArticleName": "Arkaprava Basu , Jayneel Gandhi , Jichuan Chang , Mark D. Hill , Michael M. Swift, Efficient virtual memory for big memory servers, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485943", 
+            "DOIname": "10.1145/2485922.2485943", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485943"
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee, Large-reach memory management unit caches, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540741", 
+            "DOIname": "10.1145/2540708.2540741", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540741"
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee , Daniel Lustig , Margaret Martonosi, Shared last-level TLBs for chip multiprocessors, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.62-63, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014896"
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee , Margaret Martonosi, Characterizing the TLB Behavior of Emerging Parallel Workloads on Chip Multiprocessors, Proceedings of the 2009 18th International Conference on Parallel Architectures and Compilation Techniques, p.29-40, September 12-16, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2009.26", 
+            "DOIname": "10.1109/PACT.2009.26", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1637745"
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee , Margaret Martonosi, Inter-core cooperative TLB for chip multiprocessors, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736060", 
+            "DOIname": "10.1145/1736020.1736060", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736060"
+        }, 
+        {
+            "ArticleName": "Bryan Catanzaro , Michael Garland , Kurt Keutzer, Copperhead: compiling an embedded data parallel language, Proceedings of the 16th ACM symposium on Principles and practice of parallel programming, February 12-16, 2011, San Antonio, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1941553.1941562", 
+            "DOIname": "10.1145/1941553.1941562", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941562"
+        }, 
+        {
+            "ArticleName": "K. K. Chang, P. J. Nair, D. Lee, S. Ghose, M. K. Qureshi, and O. Mutlu, \"Low-Cost Inter-Linked Subarrays (LISA): Enabling Fast Inter-Subarray Data Movement in DRAM,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "J. Cong, Z. Fang, Y. Hao, and G. Reinman, \"Supporting Address Translation for Accelerator-Centric Architectures,\" in HPCA, 2017."
+        }, 
+        {
+            "ArticleName": "J. Corbet, \"Transparent Hugepages,\" https://lwn.net/Articles/359158/, 2009."
+        }, 
+        {
+            "ArticleName": "Couchbase, Inc., \"Often Overlooked Linux OS Tweaks,\" http://blog.couchbase.com/often-overlooked-linux-os-tweaks, 2014."
+        }, 
+        {
+            "ArticleName": "Guilherme Cox , Abhishek Bhattacharjee, Efficient Address Translation for Architectures with Multiple Page Sizes, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037704", 
+            "DOIname": "10.1145/3037697.3037704", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037704"
+        }, 
+        {
+            "ArticleName": "Anthony Danalis , Gabriel Marin , Collin McCurdy , Jeremy S. Meredith , Philip C. Roth , Kyle Spafford , Vinod Tipparaju , Jeffrey S. Vetter, The Scalable Heterogeneous Computing (SHOC) benchmark suite, Proceedings of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units, March 14-14, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735688.1735702", 
+            "DOIname": "10.1145/1735688.1735702", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1735702"
+        }, 
+        {
+            "ArticleName": "Reetuparna Das , Onur Mutlu , Thomas Moscibroda , Chita R. Das, Application-aware prioritization mechanisms for on-chip networks, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669150", 
+            "DOIname": "10.1145/1669112.1669150", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669150"
+        }, 
+        {
+            "ArticleName": "Reetuparna Das , Onur Mutlu , Thomas Moscibroda , Chita R. Das, A\u00e9rgia: exploiting packet latency slack in on-chip networks, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815976", 
+            "DOIname": "10.1145/1815961.1815976", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815976"
+        }, 
+        {
+            "ArticleName": "Y. Du, M. Zhou, B. R. Childers, D. Moss\u00e9, and R. Melhem, \"Supporting Superpages in Non-Contiguous Physical Memory,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Stijn Eyerman , Lieven Eeckhout, System-Level Performance Metrics for Multiprogram Workloads, IEEE Micro, v.28 n.3, p.42-53, May 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.44", 
+            "DOIname": "10.1109/MM.2008.44", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1436100"
+        }, 
+        {
+            "ArticleName": "Stijn Eyerman , Lieven Eeckhout, Restating the Case for Weighted-IPC Metrics to Evaluate Multiprogram Workload Performance, IEEE Computer Architecture Letters, v.13 n.2, p.93-96, July 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2013.9", 
+            "DOIname": "10.1109/L-CA.2013.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2776845"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Ivan Sham , George Yuan , Tor M. Aamodt, Dynamic Warp Formation and Scheduling for Efficient GPU Control Flow, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.407-420, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.12", 
+            "DOIname": "10.1109/MICRO.2007.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331735"
+        }, 
+        {
+            "ArticleName": "Jayneel Gandhi , Arkaprava Basu , Mark D. Hill , Michael M. Swift, Efficient Memory Virtualization: Reducing Dimensionality of Nested Page Walks, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.37", 
+            "DOIname": "10.1109/MICRO.2014.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742173"
+        }, 
+        {
+            "ArticleName": "Jayneel Gandhi , Mark D. Hill , Michael M. Swift, Agile paging: exceeding the best of nested and shadow paging, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.67", 
+            "DOIname": "10.1109/ISCA.2016.67", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001212"
+        }, 
+        {
+            "ArticleName": "Fabien Gaud , Baptiste Lepers , Jeremie Decouchant , Justin Funston , Alexandra Fedorova , Vivien Qu\u00e9ma, Large pages may be harmful on NUMA systems, Proceedings of the 2014 USENIX conference on USENIX Annual Technical Conference, June 19-20, 2014, Philadelphia, PA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2643659"
+        }, 
+        {
+            "ArticleName": "David Gay , Alex Aiken, Memory management with explicit regions, Proceedings of the ACM SIGPLAN 1998 conference on Programming language design and implementation, p.313-323, June 17-19, 1998, Montreal, Quebec, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/277650.277748", 
+            "DOIname": "10.1145/277650.277748", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=277748"
+        }, 
+        {
+            "ArticleName": "M. Gorman, \"Huge Pages Part 2 (Interfaces),\" https://lwn.net/Articles/375096/, 2010."
+        }, 
+        {
+            "ArticleName": "Mel Gorman , Patrick Healy, Supporting superpage allocation without additional hardware support, Proceedings of the 7th international symposium on Memory management, June 07-08, 2008, Tucson, AZ, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375634.1375641", 
+            "DOIname": "10.1145/1375634.1375641", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375641"
+        }, 
+        {
+            "ArticleName": "M. Gorman and P. Healy, \"Performance Characteristics of Explicit Superpage Support,\" in WIOSCA, 2010."
+        }, 
+        {
+            "ArticleName": "Intel Corp., \"Introduction to Intel\u00ae Architecture,\" http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-introduction-basics-paper.pdf, 2014."
+        }, 
+        {
+            "ArticleName": "Intel Corp., \"Intel\u00ae 64 and IA-32 Architectures Optimization Reference Manual,\" https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-optimization-manual.pdf, 2016."
+        }, 
+        {
+            "ArticleName": "Intel Corp., \"6th Generation Intel\u00ae Core\u2122 Processor Family Datasheet, Vol. 1,\" http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/desktop-6th-gen-core-family-datasheet-vol-1.pdf, 2017."
+        }, 
+        {
+            "ArticleName": "A. Jog, \"Design and Analysis of Scheduling Techniques for Throughput Processors,\" Ph.D. dissertation, Pennsylvania State Univ., 2015."
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Tuba Kesten , Ashutosh Pattnaik , Evgeny Bolotin , Niladrish Chatterjee , Stephen W. Keckler , Mahmut T. Kandemir , Chita R. Das, Anatomy of GPU Memory System for Multi-Application Execution, Proceedings of the 2015 International Symposium on Memory Systems, October 05-08, 2015, Washington DC, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818950.2818979", 
+            "DOIname": "10.1145/2818950.2818979", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818979"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Orchestrated scheduling and prefetching for GPGPUs, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485951", 
+            "DOIname": "10.1145/2485922.2485951", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485951"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Nachiappan Chidambaram Nachiappan , Asit K. Mishra , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451158", 
+            "DOIname": "10.1145/2451116.2451158", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451158"
+        }, 
+        {
+            "ArticleName": "Adwait Jog , Onur Kayiran , Ashutosh Pattnaik , Mahmut T. Kandemir , Onur Mutlu , Ravishankar Iyer , Chita R. Das, Exploiting Core Criticality for Enhanced GPU Performance, Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science, June 14-18, 2016, Antibes Juan-les-Pins, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/2896377.2901468", 
+            "DOIname": "10.1145/2896377.2901468", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901468"
+        }, 
+        {
+            "ArticleName": "Gokul B. Kandiraju , Anand Sivasubramaniam, Going the distance for TLB prefetching: an application-driven study, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545237"
+        }, 
+        {
+            "ArticleName": "Vasileios Karakostas , Jayneel Gandhi , Furkan Ayar , Adri\u00e1n Cristal , Mark D. Hill , Kathryn S. McKinley , Mario Nemirovsky , Michael M. Swift , Osman \u00dcnsal, Redundant memory mappings for fast access to large memories, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2749471", 
+            "DOIname": "10.1145/2749469.2749471", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749471"
+        }, 
+        {
+            "ArticleName": "V. Karakostas, J. Gandhi, A. Cristal, M. D. Hill, K. S. McKinley, M. Nemirovsky, M. M. Swift, and O. Unsal, \"Energy-Efficient Address Translation,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Ian Karlin , Abhinav Bhatele , Jeff Keasler , Bradford L. Chamberlain , Jonathan Cohen , Zachary Devito , Riyaz Haque , Dan Laney , Edward Luke , Felix Wang , David Richards , Martin Schulz , Charles H. Still, Exploring Traditional and Emerging Parallel Programming Models Using a Proxy Application, Proceedings of the 2013 IEEE 27th International Symposium on Parallel and Distributed Processing, p.919-932, May 20-24, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2013.115", 
+            "DOIname": "10.1109/IPDPS.2013.115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2511433"
+        }, 
+        {
+            "ArticleName": "I. Karlin, J. Keasler, and R. Neely, \"LULESH 2.0 Updates and Changes,\" Lawrence Livermore National Lab, Tech. Rep. LLNL-TR-641973, 2013."
+        }, 
+        {
+            "ArticleName": "O. Kay\u0131ran, N. Chidambaram, A. Jog, R. Ausavarungnirun, M. Kandemir, G. Loh, O. Mutlu, and C. Das, \"Managing GPU Concurrency in Heterogeneous Architectures,\" in MICRO, 2014."
+        }, 
+        {
+            "ArticleName": "Khronos OpenCL Working Group, \"The OpenCL Specification,\" http://www.khronos.org/registry/cl/specs/opencl-1.0.29.pdf, 2008."
+        }, 
+        {
+            "ArticleName": "Y. Kim, D. Han, O. Mutlu, and M. Harchol-Balter, \"ATLAS: A Scalable and High-Performance Scheduling Algorithm for Multiple Memory Controllers,\" in HPCA, 2010."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Michael Papamichael , Onur Mutlu , Mor Harchol-Balter, Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.65-76, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.51", 
+            "DOIname": "10.1109/MICRO.2010.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935012"
+        }, 
+        {
+            "ArticleName": "David Kroft, Lockup-free instruction fetch/prefetch cache organization, Proceedings of the 8th annual symposium on Computer Architecture, p.81-87, May 12-14, 1981, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801868"
+        }, 
+        {
+            "ArticleName": "Youngjin Kwon , Hangchen Yu , Simon Peter , Christopher J. Rossbach , Emmett Witchel, Coordinated and efficient huge page management with ingens, Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation, November 02-04, 2016, Savannah, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026931"
+        }, 
+        {
+            "ArticleName": "G. Kyriazis, \"Heterogeneous System Architecture: A Technical Review,\" https://developer.amd.com/wordpress/media/2012/10/hsa10.pdf, Advanced Micro Devices, Inc., 2012."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Lavanya Subramanian , Rachata Ausavarungnirun , Jongmoo Choi , Onur Mutlu, Decoupled Direct Memory Access: Isolating CPU and IO Traffic by Leveraging a Dual-Data-Port DRAM, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.174-187, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.51", 
+            "DOIname": "10.1109/PACT.2015.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923788"
+        }, 
+        {
+            "ArticleName": "Janghaeng Lee , Mehrzad Samadi , Scott Mahlke, VAST: the illusion of a large memory space for GPUs, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628075", 
+            "DOIname": "10.1145/2628071.2628075", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628075"
+        }, 
+        {
+            "ArticleName": "Erik Lindholm , John Nickolls , Stuart Oberman , John Montrym, NVIDIA Tesla: A Unified Graphics and Computing Architecture, IEEE Micro, v.28 n.2, p.39-55, March 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.31", 
+            "DOIname": "10.1109/MM.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373197"
+        }, 
+        {
+            "ArticleName": "Daniel Lustig , Abhishek Bhattacharjee , Margaret Martonosi, TLB Improvements for Chip Multiprocessors: Inter-Core Cooperative Prefetchers and Shared Last-Level TLBs, ACM Transactions on Architecture and Code Optimization (TACO), v.10 n.1, p.1-38, April 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2445572.2445574", 
+            "DOIname": "10.1145/2445572.2445574", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2445574"
+        }, 
+        {
+            "ArticleName": "Mark Mumy, \"SAP IQ and Linux Hugepages/Transparent Hugepages,\" http://scn.sap.com/people/markmumy/blog/2014/05/22/sap-iq-and-linux-hugepagestransparent-hugepages, SAP SE, 2014."
+        }, 
+        {
+            "ArticleName": "Xinxin Mei , Xiaowen Chu, Dissecting GPU Memory Hierarchy Through Microbenchmarking, IEEE Transactions on Parallel and Distributed Systems, v.28 n.1, p.72-86, January 2017", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2016.2549523", 
+            "DOIname": "10.1109/TPDS.2016.2549523", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3028945"
+        }, 
+        {
+            "ArticleName": "Timothy Merrifield , H. Reza Taheri, Performance Implications of Extended Page Tables on Virtualized x86 Processors, Proceedings of the12th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments, April 02-03, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2892242.2892258", 
+            "DOIname": "10.1145/2892242.2892258", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2892258"
+        }, 
+        {
+            "ArticleName": "Microsoft Corp., Large-Page Support in Windows, https://msdn.microsoft.com/en-us/library/windows/desktop/aa366720(v=vs.85).aspx."
+        }, 
+        {
+            "ArticleName": "MongoDB, Inc., \"Disable Transparent Huge Pages (THP),\" 2017."
+        }, 
+        {
+            "ArticleName": "Sai Prashanth Muralidhara , Lavanya Subramanian , Onur Mutlu , Mahmut Kandemir , Thomas Moscibroda, Reducing memory interference in multicore systems via application-aware memory channel partitioning, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155664", 
+            "DOIname": "10.1145/2155620.2155664", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155664"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Stall-Time Fair Memory Access Scheduling for Chip Multiprocessors, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.146-160, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.40", 
+            "DOIname": "10.1109/MICRO.2007.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331715"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.63-74, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.7", 
+            "DOIname": "10.1109/ISCA.2008.7", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382128"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Juan Navarro , Sitaram Iyer , Peter Druschel , Alan Cox, Practical, transparent operating system support for superpages, Proceedings of the 5th symposium on Operating systems design and implementationCopyright restrictions prevent ACM from being able to make the PDFs for this conference available for downloading, December 09-11, 2002, Boston, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1060299"
+        }, 
+        {
+            "ArticleName": "Khanh Nguyen , Lu Fang , Guoqing Xu , Brian Demsky , Shan Lu , Sanazsadat Alamian , Onur Mutlu, Yak: a high-performance big-data-friendly garbage collector, Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation, November 02-04, 2016, Savannah, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026905"
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"CUDA C/C++ SDK Code Samples,\" http://developer.nvidia.com/cuda-cc-sdk-code-samples, 2011."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA's Next Generation CUDA Compute Architecture: Fermi,\" http://www.nvidia.com/content/pdf/fermi_white_papers/nvidia_fermi_compute_architecture_whitepaper.pdf, 2011."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA's Next Generation CUDA Compute Architecture: Kepler GK110,\" http://www.nvidia.com/content/PDF/kepler/NVIDIA-Kepler-GK110-Architecture-Whitepaper.pdf, 2012."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA GeForce GTX 750 Ti,\" http://international.download.nvidia.com/geforce-com/international/pdfs/GeForce-GTX-750-Ti-Whitepaper.pdf, 2014."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"CUDA C Programming Guide,\" http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html, 2015."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA RISC-V Story,\" https://riscv.org/wp-content/uploads/2016/07/Tue1100_Nvidia_RISCV_Story_V2.pdf, 2016."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA Tesla P100,\" https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf, 2016."
+        }, 
+        {
+            "ArticleName": "NVIDIA Corp., \"NVIDIA GeForce GTX 1080,\" https://international.download.nvidia.com/geforce-com/international/pdfs/GeForce_GTX_1080_Whitepaper_FINAL.pdf, 2017."
+        }, 
+        {
+            "ArticleName": "M.-M. Papadopoulou, X. Tong, A. Seznec, and A. Moshovos, \"Prediction-Based Superpage-Friendly TLB Designs,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "PCI-SIG, \"PCI Express Base Specification Revision 3.1a,\" 2015."
+        }, 
+        {
+            "ArticleName": "G. Pekhimenko, E. Bolotin, N. Vijaykumar, O. Mutlu, T. C. Mowry, and S. W. Keckler, \"A Case for Toggle-aware Compression for GPU Systems,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Peter Zaitsev, \"Why TokuDB Hates Transparent HugePages,\" https://www.percona.com/blog/2014/07/23/why-tokudb-hates-transparent-hugepages/,Percona LLC, 2014."
+        }, 
+        {
+            "ArticleName": "B. Pham, A. Bhattacharjee, Y. Eckert, and G. H. Loh, \"Increasing TLB Reach by Exploiting Clustering in Page Translations,\" in HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Binh Pham , Viswanathan Vaidyanathan , Aamer Jaleel , Abhishek Bhattacharjee, CoLT: Coalesced Large-Reach TLBs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.258-269, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.32", 
+            "DOIname": "10.1109/MICRO.2012.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457504"
+        }, 
+        {
+            "ArticleName": "Binh Pham , J\u00e1n Vesel\u00fd , Gabriel H. Loh , Abhishek Bhattacharjee, Large pages and lightweight memory management in virtualized environments: can you have it both ways?, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830773", 
+            "DOIname": "10.1145/2830772.2830773", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830773"
+        }, 
+        {
+            "ArticleName": "Bharath Pichai , Lisa Hsu , Abhishek Bhattacharjee, Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541942", 
+            "DOIname": "10.1145/2541940.2541942", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541942"
+        }, 
+        {
+            "ArticleName": "J. Power, M. D. Hill, and D. A. Wood, \"Supporting x86--64 Address Translation for 100s of GPU Lanes,\" in HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Redis Labs, \"Redis Latency Problems Troubleshooting,\" http://redis.io/topics/latency."
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, Proceedings of the 27th annual international symposium on Computer architecture, p.128-138, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339668", 
+            "DOIname": "10.1145/339647.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "T. G. Rogers, \"Locality and Scheduling in the Massively Multithreaded Era,\" Ph.D. dissertation, Univ. of British Columbia, 2015."
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "Christopher J. Rossbach , Yuan Yu , Jon Currey , Jean-Philippe Martin , Dennis Fetterly, Dandelion: a compiler and runtime for heterogeneous systems, Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles, November 03-06, 2013, Farminton, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2517349.2522715", 
+            "DOIname": "10.1145/2517349.2522715", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2522715"
+        }, 
+        {
+            "ArticleName": "SAFARI Research Group, \"Mosaic - GitHub Repository,\" https://github.com/CMU-SAFARI/Mosaic/."
+        }, 
+        {
+            "ArticleName": "SAFARI Research Group, \"SAFARI Software Tools - GitHub Repository,\" https://github.com/CMU-SAFARI/."
+        }, 
+        {
+            "ArticleName": "Ashley Saulsbury , Fredrik Dahlgren , Per Stenstr\u00f6m, Recency-based TLB preloading, Proceedings of the 27th annual international symposium on Computer architecture, p.117-127, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339666", 
+            "DOIname": "10.1145/339647.339666", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339666"
+        }, 
+        {
+            "ArticleName": "V. Seshadri, Y. Kim, C. Fallin, D. Lee, R. Ausavarungnirun, G. Pekhimenko, Y. Luo, O. Mutlu, P. B. Gibbons, M. A. Kozuch, and T. C. Mowry, \"RowClone: Fast and Energy-Efficient In-DRAM Bulk Data Copy and Initialization,\" in ISCA, 2013."
+        }, 
+        {
+            "ArticleName": "V. Seshadri and O. Mutlu, \"Simple Operations in Memory to Reduce Data Movement,\" in Advances in Computers, 2017."
+        }, 
+        {
+            "ArticleName": "Tom Shanley, Pentium Pro Processor System Architecture, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=548363"
+        }, 
+        {
+            "ArticleName": "R. L. Sites and R. T. Witek, ALPHA Architecture Reference Manual. Boston, Oxford, Melbourne: Digital Press, 1998."
+        }, 
+        {
+            "ArticleName": "B. Smith, \"Architecture and Applications of the HEP Multiprocessor Computer System,\" SPIE, 1981."
+        }, 
+        {
+            "ArticleName": "B. J. Smith, \"A Pipelined, Shared Resource MIMD Computer,\" in ICPP, 1978."
+        }, 
+        {
+            "ArticleName": "Splunk Inc., \"Transparent Huge Memory Pages and Splunk Performance,\" http://docs.splunk.com/Documentation/Splunk/6.1.3/ReleaseNotes/SplunkandTHP, 2013."
+        }, 
+        {
+            "ArticleName": "Shekhar Srikantaiah , Mahmut Kandemir, Synergistic TLBs for High Performance Address Translation in Chip Multiprocessors, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.313-324, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.26", 
+            "DOIname": "10.1109/MICRO.2010.26", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934978"
+        }, 
+        {
+            "ArticleName": "J. A. Stratton, C. Rodrigues, I. J. Sung, N. Obeid, L. W. Chang, N. Anssari, G. D. Liu, and W. W. Hwu, \"Parboil: A Revised Benchmark Suite for Scientific and Commercial Throughput Computing,\" Univ. of Illinois at Urbana-Champaign, IMPACT Research Group, Tech. Rep. IMPACT-12--01, 2012."
+        }, 
+        {
+            "ArticleName": "Arvind K. Sujeeth , Kevin J. Brown , Hyoukjoong Lee , Tiark Rompf , Hassan Chafi , Martin Odersky , Kunle Olukotun, Delite: A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages, ACM Transactions on Embedded Computing Systems (TECS), v.13 n.4s, p.1-25, July 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2584665", 
+            "DOIname": "10.1145/2584665", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2584665"
+        }, 
+        {
+            "ArticleName": "Madhusudhan Talluri , Mark D. Hill, Surpassing the TLB performance of superpages with less operating system support, Proceedings of the sixth international conference on Architectural support for programming languages and operating systems, p.171-182, October 05-07, 1994, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/195473.195531", 
+            "DOIname": "10.1145/195473.195531", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=195531"
+        }, 
+        {
+            "ArticleName": "James E. Thornton, Parallel operation in the control data 6600, Proceedings of the October 27-29, 1964, fall joint computer conference, part II: very high speed computer systems, October 27-29, 1964, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1464039.1464045", 
+            "DOIname": "10.1145/1464039.1464045", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1464045"
+        }, 
+        {
+            "ArticleName": "J. E. Thornton, Design of a Computer\u2014The Control Data 6600, Scott Foresman & Co, 1970", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1102018"
+        }, 
+        {
+            "ArticleName": "J. Vesely, A. Basu, M. Oskin, G. H. Loh, and A. Bhattacharjee, \"Observations and Opportunities in Architecting Shared Virtual Memory for Heterogeneous Systems,\" in ISPASS, 2016."
+        }, 
+        {
+            "ArticleName": "N. Vijaykumar, K. Hsieh, G. Pekhimenko, S. Khan, A. Shrestha, S. Ghose, A. Jog, P. B. Gibbons, and O. Mutlu, \"Zorua: A Holistic Approach to Resource Virtualization in GPUs,\" in MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Nandita Vijaykumar , Gennady Pekhimenko , Adwait Jog , Abhishek Bhowmick , Rachata Ausavarungnirun , Chita Das , Mahmut Kandemir , Todd C. Mowry , Onur Mutlu, A case for core-assisted bottleneck acceleration in GPUs: enabling flexible data compression with assist warps, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750399", 
+            "DOIname": "10.1145/2749469.2750399", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750399"
+        }, 
+        {
+            "ArticleName": "VoltDB, Inc., \"VoltDB Documentation: Configure Memory Management,\" https://docs.voltdb.com/AdminGuide/adminmemmgt.php."
+        }, 
+        {
+            "ArticleName": "T. Zheng, D. Nellans, A. Zulfiqar, M. Stephenson, and S. W. Keckler, \"Towards High Performance Paged Memory for GPUs,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "W. K. Zuravleff and T. Robinson, \"Controller for a Synchronous DRAM That Maximizes Throughput by Allowing Memory Requests and Commands to Be Issued Out of Order,\" US Patent No. 5,630,096, 1997."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Carnegie Mellon University", 
+            "Name": "Rachata Ausavarungnirun"
+        }, 
+        {
+            "Affiliation": "University of Texas at Austin", 
+            "Name": "Joshua Landgraf"
+        }, 
+        {
+            "Affiliation": "University of Texas at Austin", 
+            "Name": "Vance Miller"
+        }, 
+        {
+            "Affiliation": "Carnegie Mellon University", 
+            "Name": "Saugata Ghose"
+        }, 
+        {
+            "Affiliation": "VMware Research", 
+            "Name": "Jayneel Gandhi"
+        }, 
+        {
+            "Affiliation": "University of Texas at Austin and VMware Research", 
+            "Name": "Christopher J. Rossbach"
+        }, 
+        {
+            "Affiliation": "ETH Z\u00fcrich and Carnegie Mellon University", 
+            "Name": "Onur Mutlu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123975&preflayout=flat"
+}

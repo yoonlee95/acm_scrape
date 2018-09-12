@@ -1,0 +1,103 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Sanghyeok Kim , Sungyoung Park , Youngjae Kim , Siri Kim , Kwonyong Lee, VNF-EQ: dynamic placement of virtual network functions for energy efficiency and QoS guarantee in NFV, Cluster Computing, v.20 n.3, p.2107-2117, September 2017", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3136090"
+        }, 
+        {
+            "ArticleName": "S Suresh , S Sakthivel, System modeling and evaluation on factors influencing power and performance management of cloud load balancing algorithms, Journal of Web Engineering, v.15 n.5-6, p.484-500, November 2016", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3177224"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 2
+    }, 
+    "Title": "KnightShift: shifting the I/O burden in datacenters to management processor for energy efficiency", 
+    "Abstract": "Data center energy costs are growing concern. Many datacenters use direct-attached-storage architecture where data is distributed across disks attached to several servers. In this organization even if a server is not utilized it can not be turned off since each server carries a fraction of the permanent state needed to complete a request. Operating servers at low utilization is very inefficient due to the lack of energy proportionality. In this research we propose to use out-of-band management processor, typically used for remotely managing a server, to satisfy I/O requests from a remote server. By handling requests with limited processing needs, the management processor takes the load off the primary server thereby allowing the primary server to sleep when not actively being used; we call this approach KnightShift. We describe how existing management processors can be modified to handle KnightShift responsibility. We use several production datacenter traces to evaluate the energy impact of KnightShift and show that energy consumption can be reduced by 2.6X by allowing management processors to handle only those requests that demand less than 5% of the primary CPU utilization.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "Anagnostopoulou, V., Biswas, S., Savage, A., Bianchini, R., Yang, T., Chong, F. T.: Energy conservation in datacenters through cluster memory management and barely-alive memory servers"
+        }, 
+        {
+            "ArticleName": "David G. Andersen , Jason Franklin , Michael Kaminsky , Amar Phanishayee , Lawrence Tan , Vijay Vasudevan, FAWN: a fast array of wimpy nodes, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629577", 
+            "DOIname": "10.1145/1629575.1629577", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629577"
+        }, 
+        {
+            "ArticleName": "Murali Annavaram , Ed Grochowski , John Shen, Mitigating Amdahl's Law through EPI Throttling, Proceedings of the 32nd annual international symposium on Computer Architecture, p.298-309, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.36", 
+            "DOIname": "10.1109/ISCA.2005.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069995"
+        }, 
+        {
+            "ArticleName": "Luiz Andr\u00e9 Barroso , Urs H\u00f6lzle, The Case for Energy-Proportional Computing, Computer, v.40 n.12, p.33-37, December 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2007.443", 
+            "DOIname": "10.1109/MC.2007.443", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1339894"
+        }, 
+        {
+            "ArticleName": "Byung-Gon Chun , Gianluca Iannaccone , Giuseppe Iannaccone , Randy Katz , Gunho Lee , Luca Niccolini, An energy case for hybrid datacenters, ACM SIGOPS Operating Systems Review, v.44 n.1, January 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1740390.1740408", 
+            "DOIname": "10.1145/1740390.1740408", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1740408"
+        }, 
+        {
+            "ArticleName": "http://download.intel.com/design/servers/ipmi/IPMIv2_0rev1_0.pdf Ipmi v2.0 specifications document revision 1.0 (retrieved, April 2010)", 
+            "ArticleHref": "http://dl.acm.org/http://download.intel.com/design/servers/ipmi/IPMIv2_0rev1_0.pdf"
+        }, 
+        {
+            "ArticleName": "http://h18000.www1.hp.com/products/servers/management/ilo/: Hp integrated lights-out (ilo) standard (retrieved, April 2010)", 
+            "ArticleHref": "http://dl.acm.org/http://h18000.www1.hp.com/products/servers/management/ilo/:"
+        }, 
+        {
+            "ArticleName": "http://publib.boulder.ibm.com/infocenter/sonasic/sonas1ic/index.jsp? topic=/com.ibm.sonas.doc/imm_iug.html Integrated management module user's guide (retrieved April 2010)", 
+            "ArticleHref": "http://dl.acm.org/https://publib.boulder.ibm.com/infocenter/sonasic/sonas1ic/index.jsp?"
+        }, 
+        {
+            "ArticleName": "http://www.spec.org/web2009 Specweb2009 (retrieved, April 2010)", 
+            "ArticleHref": "http://dl.acm.org/https://www.spec.org/web2009"
+        }, 
+        {
+            "ArticleName": "A. Kumar, Active Platform Management Demystified: Unleashing the Power of Intel VPro (TM) Technology, Intel Press, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1795527"
+        }, 
+        {
+            "ArticleName": "David Meisner , Brian T. Gold , Thomas F. Wenisch, PowerNap: eliminating server idle power, ACM SIGPLAN Notices, v.44 n.3, March 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508284.1508269", 
+            "DOIname": "10.1145/1508284.1508269", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508269"
+        }, 
+        {
+            "ArticleName": "Parthasarathy Ranganathan , Phil Leech , David Irwin , Jeffrey Chase, Ensemble-level Power Management for Dense Blade Servers, ACM SIGARCH Computer Architecture News, v.34 n.2, p.66-77, May 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1150019.1136492", 
+            "DOIname": "10.1145/1150019.1136492", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136492"
+        }, 
+        {
+            "ArticleName": "Xiaobo Fan , Wolf-Dietrich Weber , Luiz Andre Barroso, Power provisioning for a warehouse-sized computer, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250665", 
+            "DOIname": "10.1145/1250662.1250665", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250665"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Electrical Engineering Department, University of Southern California", 
+            "Name": "Sabyasachi Ghosh"
+        }, 
+        {
+            "Affiliation": "Electrical Engineering Department, University of Southern California", 
+            "Name": "Mark Redekopp"
+        }, 
+        {
+            "Affiliation": "Electrical Engineering Department, University of Southern California", 
+            "Name": "Murali Annavaram"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185890&preflayout=flat"
+}

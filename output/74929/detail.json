@@ -1,0 +1,139 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Toshiaki Tarui , Takayuki Nakagawa , Noriyasu Ido , Machiko Asaie , Mamoru Sugie, Evaluation of the lock mechanism in a snooping cache, Proceedings of the 6th international conference on Supercomputing, p.53-62, July 19-24, 1992, Washington, D. C., United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143384"
+        }, 
+        {
+            "ArticleName": "Evan Tick, Comparing Two Parallel Logic-Programming Architectures, IEEE Software, v.6 n.4, p.71-80, July 1989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624856"
+        }, 
+        {
+            "ArticleName": "Feipei Lai , Chyuan-Yow Wu , Tai-Ming Parng, A memory management unit and cache controller for the MARS system, Proceedings of the 23rd annual workshop and symposium on Microprogramming and microarchitecture, p.200-208, November 27-29, 1990, Orlando, Florida, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=255276"
+        }, 
+        {
+            "ArticleName": "Kazuhiro Fuchi , Robert Kowalski , Koichi Furukawa , Kazunori Ueda , Ken Kahn , Takashi Chikayama , Evan Tick, Launching the new era, Communications of the ACM, v.36 n.3, p.49-100, March 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=153541"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 7, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 362, 
+        "CitationCount": 4
+    }, 
+    "Title": "Design and performance of a coherent cache for parallel logic programming architectures", 
+    "Abstract": "This paper describes the design and performance of a tightly-coupled shared-memory coherent cache optimized for the execution of parallel logic programming architectures. The cache utilizes a copy-back write-allocation protocol having five states and a hardware lock mechanism. Optimizations for logic programming are introduced in four software-controlled memory access commands: direct-write, exclusive-read, read-purge, and read-invalidate. In this paper we describe these operations and present simulated measurements showing their performance advantage for an architecture of the committed-choice language KL1. The cache optimizations also improve the performance of non-committed-choice languages, such as OR-parallel Prolog. A version of the cache design described here is currently being implemented for ICOT's Parallel Inference Machine (PIM).\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "James Archibald , Jean-Loup Baer, Cache coherence protocols: evaluation using a multiprocessor simulation model, ACM Transactions on Computer Systems (TOCS), v.4 n.4, p.273-298, Nov. 1986", 
+            "DOIhref": "http://doi.acm.org/10.1145/6513.6514", 
+            "DOIname": "10.1145/6513.6514", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=6514"
+        }, 
+        {
+            "ArticleName": "P. Bitar , A. M. Despain, Multiprocessor cache synchronization: issues, innovations, evolution, Proceedings of the 13th annual international symposium on Computer architecture, p.424-433, June 02-05, 1986, Tokyo, Japan", 
+            "DOIhref": "http://doi.acm.org/10.1145/17407.17405", 
+            "DOIname": "10.1145/17407.17405", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=17405"
+        }, 
+        {
+            "ArticleName": "T. Chikayama et. al. Overview of the Parallel Inference Machine Operating System PIMOS. In Znt. Conf. on 5th Gen. Camp. Sys., Tokyo, November 1988."
+        }, 
+        {
+            "ArticleName": "S. J. Eggers , R. H. Katz, A characterization of sharing in parallel programs and its application to coherency protocol evaluation, Proceedings of the 15th Annual International Symposium on Computer architecture, p.373-382, May 30-June 02, 1988, Honolulu, Hawaii, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=52442"
+        }, 
+        {
+            "ArticleName": "James R. Goodman, Using cache memory to reduce processor-memory traffic, Proceedings of the 10th annual international symposium on Computer architecture, p.124-131, June 13-17, 1983, Stockholm, Sweden", 
+            "DOIhref": "http://doi.acm.org/10.1145/800046.801647", 
+            "DOIname": "10.1145/800046.801647", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801647"
+        }, 
+        {
+            "ArticleName": "A. Goto et. al. Overview of the Parallel Inference Machine Architecture PIM. In Int. Conf. on 5th Gen. Comp. Sys., Tokyo, November 1988."
+        }, 
+        {
+            "ArticleName": "R. H. Katz , S. J. Eggers , D. A. Wood , C. L. Perkins , R. G. Sheldon, Implementing a cache consistency protocol, Proceedings of the 12th annual international symposium on Computer architecture, p.276-283, June 17-19, 1985, Boston, Massachusetts, United States", 
+            "DOIhref": "http://doi.acm.org/10.1145/327010.327237", 
+            "DOIname": "10.1145/327010.327237", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=327237"
+        }, 
+        {
+            "ArticleName": "Y. Kimura and T. Chikayama. An Abstract KLl Machine and its Instruction Set. In ht. Symp. on Logic Pmg., pages 468-477, August 1987."
+        }, 
+        {
+            "ArticleName": "E. Lusk et. al. The Aurora Or-Parallel Prolog System. In ht. Conf. on 5th Gen. Comp. Sys., Tokyo, November 1988."
+        }, 
+        {
+            "ArticleName": "A. Matsumoto et. al. Locally Parallel Cache Design Based on KLl Memory Access Characteristics. Technical Report 327, ICOT, 1987."
+        }, 
+        {
+            "ArticleName": "H. Nakashima and K. Nakajima. Hardware Architecture of the Sequential Inference Machine: PSI-II. In Int. Symp. on Logic Prog., pages 104-113, August 1987."
+        }, 
+        {
+            "ArticleName": "K. Nishida et. al. Evaluation of the Effect of Incremental Garbage Collection by MRB on FGHC Parallel Execution Performance. Technical Report 394, ICOT, 1988."
+        }, 
+        {
+            "ArticleName": "Mark S. Papamarcos , Janak H. Patel, A low-overhead coherence solution for multiprocessors with private cache memories, Proceedings of the 11th annual international symposium on Computer architecture, p.348-354, January 1984", 
+            "DOIhref": "http://doi.acm.org/10.1145/800015.808204", 
+            "DOIname": "10.1145/800015.808204", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=808204"
+        }, 
+        {
+            "ArticleName": "M. Sato et al. KLl Execution Model for PIM Cluster with Shared Memory. In 4th Int. Conf. on Logic Pmg., pages 338-355. MIT Press, May 1987."
+        }, 
+        {
+            "ArticleName": "Sequent Computer Systems, Inc. Sequent Guide to Parallel Pmgmmming, 1987."
+        }, 
+        {
+            "ArticleName": "Alan Jay Smith, Cache Memories, ACM Computing Surveys (CSUR), v.14 n.3, p.473-530, Sept. 1982", 
+            "DOIhref": "http://doi.acm.org/10.1145/356887.356892", 
+            "DOIname": "10.1145/356887.356892", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=356892"
+        }, 
+        {
+            "ArticleName": "Charles P. Thacker , Lawrence C. Stewart , Edwin H. Satterthwaite, Jr., Firefly: A Multiprocessor Workstation, IEEE Transactions on Computers, v.37 n.8, p.909-920, August 1988", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.2243", 
+            "DOIname": "10.1109/12.2243", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=48708"
+        }, 
+        {
+            "ArticleName": "P. Sweazey , A. J. Smith, A class of compatible cache consistency protocols and their support by the IEEE futurebus, Proceedings of the 13th annual international symposium on Computer architecture, p.414-423, June 02-05, 1986, Tokyo, Japan", 
+            "DOIhref": "http://doi.acm.org/10.1145/17407.17404", 
+            "DOIname": "10.1145/17407.17404", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=17404"
+        }, 
+        {
+            "ArticleName": "E. Tick, Data buffer performance for sequential Prolog architectures, Proceedings of the 15th Annual International Symposium on Computer architecture, p.434-442, May 30-June 02, 1988, Honolulu, Hawaii, United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=52448"
+        }, 
+        {
+            "ArticleName": "E. Tick. Performance of Parallel Logic Programming Architectures. Technical Report TR.-421, ICOT, September 1988."
+        }, 
+        {
+            "ArticleName": "K. Ueda, Guarded horn clauses, Concurrent Prolog, MIT Press, Cambridge, MA, 1988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=57376"
+        }, 
+        {
+            "ArticleName": "D. H. D. Warren. .4n Abstract Prolog Instruction Set. Technical Report 309, SRI International, 1983."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Institute for New Generation Computer Technology (ECOT)", 
+            "Name": "A. Goto"
+        }, 
+        {
+            "Affiliation": "Mitsubishi Electric Corporation, MIEL, 5-l-l Ofuna, Kamakura-city, Kanagawa", 
+            "Name": "A. Matsumoto"
+        }, 
+        {
+            "Affiliation": "University of Tokyo, RCAST, 4-61 Komaba, Megurcku, Tokyo", 
+            "Name": "E. Tick"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74929&preflayout=flat"
+}

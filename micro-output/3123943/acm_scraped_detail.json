@@ -1,0 +1,308 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Edward Richter , Spencer Valancius , Josiah Mcclanahan , John Mixter , Ali Akoglu, Balancing the learning ability and memory demand of a perceptron-based dynamically trainable neural network, The Journal of Supercomputing, v.74 n.7, p.3211-3235, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3239149"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 270, 
+        "Downloads_6Weeks": 7, 
+        "Downloads_cumulative": 270, 
+        "CitationCount": 1
+    }, 
+    "Title": "Using branch predictors to predict brain activity in brain-machine implants", 
+    "Abstract": "A key problem with implantable brain-machine interfaces is that they need extreme energy efficiency. One way of lowering energy consumption is to use the low power modes available on the processors embedded in these devices. We present a technique to predict when neuronal activity of interest is likely to occur so that the processor can run at nominal operating frequency at those times, and be placed in low power modes otherwise. To achieve this, we discover that branch predictors can also predict brain activity. We perform brain surgeries on awake and anesthetized mice, and evaluate the ability of several branch predictors to predict neuronal activity in the cerebellum. We find that perceptron branch predictors can predict cerebellar activity with accuracies as high as 85%. Consequently, we co-opt branch predictors to dictate when to transition between low power and normal operating modes, saving as much as 59% of processor energy.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "{n. d.}. Cerebellum Image. Life Science Databases/Wikimedia Commons ({n. d.})."
+        }, 
+        {
+            "ArticleName": "{n. d.}. Utah array. http://churchlandlab.neuroscience.columbia.edu/images/utahArray.jpg ({n. d.})."
+        }, 
+        {
+            "ArticleName": "{n. d.}. Utah array plugged. http://prometheus.med.utah.edu/bwjones/wp-content/uploads/iblog/Implant1.jpg ({n. d.})."
+        }, 
+        {
+            "ArticleName": "Manor Alwani, Han Chen, Michael Ferdman, and Peter Milner. 2016. Fused-Layer CNN Accelerators. Int'l Symp. on Microarch. (2016)."
+        }, 
+        {
+            "ArticleName": "Renee St. Amant , Daniel A. Jimenez , Doug Burger, Low-power, high-performance analog neural branch prediction, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.447-458, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771812", 
+            "DOIname": "10.1109/MICRO.2008.4771812", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521824"
+        }, 
+        {
+            "ArticleName": "Gian Nicola Angotzi, Fabio Boi, Stefano Zordan, Andrea Bonfanti, and Alessandro Vato. 2014. A Programmable Closed-Loop Recording and Stimulating Wireless System for Behaving Small Laboratory Animals. Scie. Reps. 4, 5963 (2014)."
+        }, 
+        {
+            "ArticleName": "M Aravind and Suresh Babu. 2015. Embedded Implementation of Brain Comp. Interface Concept Using FPGA. Int'l Jnl. of Science and Research (2015)."
+        }, 
+        {
+            "ArticleName": "Amirali Baniasadi and Andreas Moshovos. 2002. Branch Predictor Prediction: A Power-Aware Branch Predictor for High-Perf. Processors. ICCD (2002)."
+        }, 
+        {
+            "ArticleName": "Boris Barbour. {n. d.}. Equipe Cervelet. http://www.ibens.ens.fr ({n. d.})."
+        }, 
+        {
+            "ArticleName": "Abhishek Bhattacharjee , Margaret Martonosi, Thread criticality predictors for dynamic performance, power, and resource management in chip multiprocessors, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555792", 
+            "DOIname": "10.1145/1555754.1555792", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555792"
+        }, 
+        {
+            "ArticleName": "Michael Bielawski and Helen Bondurant. 2015. Psychosis Following a Stroke to the Cerebellum and Midbrain: A Case Report. Cerebellum and Ataxias (2015)."
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Yu-Hsin Chen, Tushar Krishna, Joel Emer, and Vivienne Sze. 2016. 14.5 Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks. Int'l Solid State Circuits Conf. (2016)."
+        }, 
+        {
+            "ArticleName": "Steven Cooreman. 2016. Power-Saving Tips When Rapid Prototyping ARM Cortex-M MCUs. http://electronicdesign.com/power/power-saving-tips-when-rapid-prototyping-arm-cortex-m-mcus (2016)."
+        }, 
+        {
+            "ArticleName": "Qingyuan Deng , David Meisner , Abhishek Bhattacharjee , Thomas F. Wenisch , Ricardo Bianchini, CoScale: Coordinating CPU and Memory System DVFS in Server Systems, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.143-154, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.22", 
+            "DOIname": "10.1109/MICRO.2012.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457494"
+        }, 
+        {
+            "ArticleName": "Qingyuan Deng , David Meisner , Abhishek Bhattacharjee , Thomas F. Wenisch , Ricardo Bianchini, MultiScale: memory system DVFS with multiple memory controllers, Proceedings of the 2012 ACM/IEEE international symposium on Low power electronics and design, July 30-August 01, 2012, Redondo Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2333660.2333727", 
+            "DOIname": "10.1145/2333660.2333727", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2333727"
+        }, 
+        {
+            "ArticleName": "Qingyuan Deng , David Meisner , Luiz Ramos , Thomas F. Wenisch , Ricardo Bianchini, MemScale: active low-power modes for main memory, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950392", 
+            "DOIname": "10.1145/1950365.1950392", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950392"
+        }, 
+        {
+            "ArticleName": "Alessandro Stamatto Ferreira, Leonardo Cunha de Miranda, Erica Cunha de Miranda, and Sarah Gomes Sakamoto. 2013. A Survey of Interactive Sys. Based on Brain-Comp. Interfaces. SBC Jnl. on 3D Interactive Sys. 4, 1 (2013)."
+        }, 
+        {
+            "ArticleName": "Volker Gauck and Dieter Jaeger. 2000. The Control of Rate and Timing of Spikes in the Deep Cerebellar Nuclei by Inhibition. Jnl. of Neuro. 20, 8 (2000)."
+        }, 
+        {
+            "ArticleName": "Bernhard Graimann, Brendan Allison, and Gert Pfurtscheller. 2010. Brain-Comp. Interfaces: A Gentle Introduction. The Frontiers Collection (2010)."
+        }, 
+        {
+            "ArticleName": "Atif Hashmi , Hugues Berry , Olivier Temam , Mikko Lipasti, Automatic abstraction and fault tolerance in cortical microachitectures, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000066", 
+            "DOIname": "10.1145/2000064.2000066", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000066"
+        }, 
+        {
+            "ArticleName": "Sebastian Herbert , Diana Marculescu, Analysis of dynamic voltage/frequency scaling in chip-multiprocessors, Proceedings of the 2007 international symposium on Low power electronics and design, August 27-29, 2007, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1283780.1283790", 
+            "DOIname": "10.1145/1283780.1283790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1283790"
+        }, 
+        {
+            "ArticleName": "Masayuki Hirata, Kojiro Matsushita, Takafumi Suzuki, Takeshi Yoshida, Fumihiro Sato, Shayne Morris, Takufumi Yanagisawa, Tetsu Goto, Mitsuo Kawato, and Toshiki Yoshimine. 2014. A Fully-Implantable Wireless System for Human Brain-Machine Interfaces Using Brain Surface Electrodes: W-HERBS. IEEE Trans. on Comm. E94-B, 9 (2014)."
+        }, 
+        {
+            "ArticleName": "Daniel A. Jim\u00e9nez, Fast Path-Based Neural Branch Prediction, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.243, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956562"
+        }, 
+        {
+            "ArticleName": "Daniel A. Jimenez, Piecewise Linear Branch Prediction, Proceedings of the 32nd annual international symposium on Computer Architecture, p.382-393, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.40", 
+            "DOIname": "10.1109/ISCA.2005.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1070002"
+        }, 
+        {
+            "ArticleName": "Daniel A. Jim\u00e9nez , Calvin Lin, Dynamic Branch Prediction with Perceptrons, Proceedings of the 7th International Symposium on High-Performance Computer Architecture, p.197, January 20-24, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876441"
+        }, 
+        {
+            "ArticleName": "Daniel Jimenez and Calvin Lin. 2002. Neural Methods for Dynamic Branch Prediction. ACM Trans. on Arch. and Code Optimization (2002)."
+        }, 
+        {
+            "ArticleName": "Alok Joshi, Vahab Youssofzadeh, Vinith Vemana, T McGinnity, Girijesh Prasad, and KongFatt Wong-Lin. 2017. An Integrated Modelling Framework for Neural Circuits with Multiple Neuromodulators. Jnl. of the Royal Soc. Interface (2017)."
+        }, 
+        {
+            "ArticleName": "G Kaloshi, V Alikaj, A Rroji, G Vreto, and M Petrela. 2013. Visual and Auditory Hallucinations Revealing Cerebellar Extraventricular Neurocytoma: Uncommon Presentation for Uncommon Tumor in Uncommon Location. General Hostpial Psychiatry 35, 6 (2013)."
+        }, 
+        {
+            "ArticleName": "Stefanos Kaxiras , Margaret Martonosi, Computer Architecture Techniques for Power-Efficiency, Morgan and Claypool Publishers, 2008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1481659"
+        }, 
+        {
+            "ArticleName": "Ryan Kelly, Matthew Smith, Jason Samonds, Adam Kohn, A Bonds, J Movshon, and Tai Lee. 2007. Comparison of Recordings from Microelectrode Arrays and Single Electrodes in the Visual Cortex. Jnl. of Neuro. 27, 2 (2007)."
+        }, 
+        {
+            "ArticleName": "P Kohler, C Linsmeier, J Thelin, M Bengtsson, H Jorntell, M Garwicz, J Schouenborg, and L Wallman. 2009. Flexible Multi-Electrode Brain-Machine Interface for Recording in the Cerebellum. IEEE Eng. Medicine Biology Soc. 536, 8 (2009)."
+        }, 
+        {
+            "ArticleName": "Ki Yong Kwon, Seif Eldawatly, and Karim Oweiss. 2012. NeuroQuest: A Comprehensive Analysis Tool for Extracellular Neural Ensemble Recording. Jnl. of Neuro. Methods 204, 1 (2012)."
+        }, 
+        {
+            "ArticleName": "Charles Lefurgy , Karthick Rajamani , Freeman Rawson , Wes Felter , Michael Kistler , Tom W. Keller, Energy Management for Commercial Servers, Computer, v.36 n.12, p.39-48, December 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2003.1250880", 
+            "DOIname": "10.1109/MC.2003.1250880", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=957972"
+        }, 
+        {
+            "ArticleName": "Jian Li , Jose F. Martinez , Michael C. Huang, The Thrifty Barrier: Energy-Aware Synchronization in Shared-Memory Multiprocessors, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.14, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10018", 
+            "DOIname": "10.1109/HPCA.2004.10018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072453"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Daofu Liu , Tianshi Chen , Shaoli Liu , Jinhong Zhou , Shengyuan Zhou , Olivier Teman , Xiaobing Feng , Xuehai Zhou , Yunji Chen, PuDianNao: A Polyvalent Machine Learning Accelerator, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694358", 
+            "DOIname": "10.1145/2694344.2694358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694358"
+        }, 
+        {
+            "ArticleName": "Xilin Liu, Basheer Subei, Milin Zhang, Andrew Richardson, Timothy Lucas, and Jan Van der Spiegel. 2014. The PennBMBI: A General Purpose Wireless Brain-Machine-Brain Interface System for Unrestrained Animals. IEEE Int'l Symp. on Circuits and Sys. (2014)."
+        }, 
+        {
+            "ArticleName": "N Matsumi, K Matsumoto, N Mishima, E Moriyama, T Furuta, A Nishimoto, and K Taguchi. 1993. Thermal Damage Threshold of Brain Tissue - Histological Study of Heated Normal Monkey Brains. Neurol Med Chir (1993)."
+        }, 
+        {
+            "ArticleName": "Scott McFarling. 1993. Combining Branch Predictors. Tech. Rep. TN-36m, Digital Western Lab (1993)."
+        }, 
+        {
+            "ArticleName": "David Meisner , Brian T. Gold , Thomas F. Wenisch, PowerNap: eliminating server idle power, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508269", 
+            "DOIname": "10.1145/1508244.1508269", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508269"
+        }, 
+        {
+            "ArticleName": "David Meisner , Christopher M. Sadler , Luiz Andr\u00e9 Barroso , Wolf-Dietrich Weber , Thomas F. Wenisch, Power management of online data-intensive services, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000103", 
+            "DOIname": "10.1145/2000064.2000103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000103"
+        }, 
+        {
+            "ArticleName": "David Meisner , Thomas F. Wenisch, DreamWeaver: architectural support for deep sleep, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151009", 
+            "DOIname": "10.1145/2150976.2151009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151009"
+        }, 
+        {
+            "ArticleName": "Jorge Mercado, Javier Herrera, Arturo de Jesus Plansza, and Josefina Guiterrez. 2016. Embedded EEG Recording Module with Active Electrodes for Motor Imagery Brain-Comp. Interface. IEEE Latin America Trans. 75 (2016)."
+        }, 
+        {
+            "ArticleName": "Corinne Mestais, Guillaume Charvet, Fabien Sauter-Starace, Michael Foerster, David Ratel, and Alim Louis Bernabid. 2014. WIMAGINE: Wireless 64-Channel ECoG Recording Implant for Long Term Clinical Applications. IEEE Trans. on Neural Sys. and Rehab. Eng. 23, 1 (2014)."
+        }, 
+        {
+            "ArticleName": "Gregory Mone, Sensors on the brain, Communications of the ACM, v.60 n.4, April 2017", 
+            "DOIhref": "http://doi.acm.org/10.1145/3048380", 
+            "DOIname": "10.1145/3048380", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3048380"
+        }, 
+        {
+            "ArticleName": "Christian Muhl, Brendan Allison, Anton Nijholt, and Guillaume Chanel. 2014. A Survey of Affective Brain Comp. Interfaces: Principles, State-of-the-Art, and Challenges. Brain-Comp. Interfaces 1, 2 (2014)."
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar, Rajeev Balasubramonian, and Norman Jouppi. 2007. CACTI 6.0: A Tool to Model Large Caches. Int'l Symp. on Microarch. (2007)."
+        }, 
+        {
+            "ArticleName": "Andrew Nere , Atif Hashmi , Mikko Lipasti , Giulio Tononi, Bridging the semantic gap: Emulating biological neuronal behaviors with simple digital neurons, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.472-483, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522342", 
+            "DOIname": "10.1109/HPCA.2013.6522342", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495472"
+        }, 
+        {
+            "ArticleName": "TKT Nguyen, Zaneta Navratilova, Henrique Cabral, Ling Wang, Georges Gielen, FP Battaglia, and Carmen Bartic. 2014. Closed-Loop Optical Neural Stimulation Based on a 32-Channel Low-Noise Recording System with Online Spike Sorting. Jnl. of Neural Eng. 11, 4 (2014)."
+        }, 
+        {
+            "ArticleName": "C Nordhausen, E Maynard, and R Normann. 1996. Single Unit Recording Capabilities of a 100 Microelectrode Array. Brain Res (1996)."
+        }, 
+        {
+            "ArticleName": "Open Ephys Wiki. 2015. Possible Projects and Future Development. https://open-ephys.atlassian.net/wiki/ (2015)."
+        }, 
+        {
+            "ArticleName": "Ilker Ozden, Megan Sullivan, Megan Lee, and Samuel Wang. 2009. Reliable Coding Emerges from Coactivation of Climbing Fibers in Microbands of Cerebellar Purkinje Neurons. Jnl. of Neuro. 29, 34 (2009)."
+        }, 
+        {
+            "ArticleName": "A Palumbo, F Amato, B Calabrese, M Cannataro, G Cocorullo, A Gambardella, P Guzzi, M Lanuzza, M Sturniolo, P Veltri, and P Vizza. 2015. An Embedded System for EEG Acquisition and Processing for Brain Comp. Interface Applications. Wearable and Autonomous Bio. Dev. and Sys. for Smart Environments 75 (2015)."
+        }, 
+        {
+            "ArticleName": "Dharmesh Parikh , Kevin Skadron , Yan Zhang , Marco Barcella , Mircea R. Stan, Power Issues Related to Branch Prediction, Proceedings of the 8th International Symposium on High-Performance Computer Architecture, p.233, February 02-06, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=876461"
+        }, 
+        {
+            "ArticleName": "Hernan Picard, Isabelle Amado, Sabine Mouchet-Mages, Jean-Pierre Olie, and Marie-Odile Krebs. 2008. The Role of the Cerebellum in Schizophrenia: An Update of Clinical, Cognitive, and Functional Evidences. Schizo. Bull. 34, 1 (2008)."
+        }, 
+        {
+            "ArticleName": "Steve Ramirez, Xu Liu, Pei-Ann Lin, Junghyup Suh, Michael Pignatelli, Roger Redondo, Tomas Ryan, and Susomo Tonegawa. 2013. Creating a False Memory in the Hippocampus. Science 341, 6144 (2013)."
+        }, 
+        {
+            "ArticleName": "Hernan Rey, Carlos Padreira, and Rodrigo Quiroga. 2015. Past, Present, and Future of Spike Sorting Techniques. Elsevier Review (2015)."
+        }, 
+        {
+            "ArticleName": "B Rosin, M Slovik, R Mitelman, M Rivlin-Etzion, S Haber, Z Israel, E Vaadia, and H Bergman. 2011. Closed-Loop Deep Brain Stimulation is Superior in Ameliorating Parkinsioniasm. Neuron 72, 2 (2011)."
+        }, 
+        {
+            "ArticleName": "James E. Smith, A study of branch prediction strategies, Proceedings of the 8th annual symposium on Computer Architecture, p.135-148, May 12-14, 1981, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=801871"
+        }, 
+        {
+            "ArticleName": "James E. Smith, Efficient digital neurons for large scale cortical architectures, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665707"
+        }, 
+        {
+            "ArticleName": "ST Microelectronics. 2016. Ultra-low-power ARM Cortex-M4 32-bit datasheet. http://www.st.com/content/ccc/resource/technical/document/datasheet/ (2016)."
+        }, 
+        {
+            "ArticleName": "Ian Stevenson and Konrad Kording. 2011. How Advances in Neural Recording Affect Data Analysis. Nature Neuro. 14 (2011)."
+        }, 
+        {
+            "ArticleName": "Yi Su, Sudhamayee Routhu, Kee Moon, Sung Lee, WooSub Youm, and Yusuf Ozturk. 2016. A Wireless 32-Channel Implantable Bidirectional Brain Machine Interface. Sens. 16, 1582 (2016)."
+        }, 
+        {
+            "ArticleName": "M Sullivan, A Nimmerjahn, D Sarkisov, F Helmchen, and SS-H Wang. 2005. In Vivo Calcium Imaging of Circuit Activity in Cerebellar Cortex. Jnl. of Neurophys. 94 (2005)."
+        }, 
+        {
+            "ArticleName": "S Suner, M Fellows, C Vargas-Irwin, G Nakata, and J Donoghue. 2005. Reliability of Signals From a Chronically Implanted, Silicon-Based Electrode Array in Non-Human Primate Primary Motor Cortex. IEEE Trans. on Neural Sys. and Rehab. Eng. (2005)."
+        }, 
+        {
+            "ArticleName": "D Tank, M Sugimori, J Connor, and R Llinas. 1998. Spatially Resolved Calcium Dynamics of Mammalian Purkinje Cells in Cerebellar Slice. Science 242 (1998)."
+        }, 
+        {
+            "ArticleName": "Elvira Teran, Zhe Wang, and Daniel Jimenez. 2016. Perceptron Learning for Reuse Prediction. Int'l Symp. on Microarch. (2016)."
+        }, 
+        {
+            "ArticleName": "Patrick Wolf. 2008. Thermal Considerations for the Des. of an Implanted Cortical Brain-Machine Interface (BMI). Indwelling Neural Implants: Strategies for Contending with the In Vivo Environment (2008)."
+        }, 
+        {
+            "ArticleName": "Pavel Yarmolenko, Eui Jung Moon, Chelsea Landon, Ashley Manzoor, Daryl Hochman, Benjamin Viglianti, and Mark Dewhirst. 2013. Thresholds for Thermal Damage to Normal Tissue: An Update. Int'l Jnl. of Hyperthermia (2013)."
+        }, 
+        {
+            "ArticleName": "Tse-Yu Yeh , Yale N. Patt, Two-level adaptive training branch prediction, Proceedings of the 24th annual international symposium on Microarchitecture, p.51-61, September 1991, Albuquerque, New Mexico, Puerto Rico", 
+            "DOIhref": "http://doi.acm.org/10.1145/123465.123475", 
+            "DOIname": "10.1145/123465.123475", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=123475"
+        }, 
+        {
+            "ArticleName": "Stavros Zanos, Andrew Richardson, Larry Shupe, Frank Miles, and Eberhard Fetz. 2011. The Neurochip-2: An Autonomous Head-Fixed Comp. for Recording and Stimulating in Freely Behaving Monkeys. IEEE Trans. on Neural Sys. and Rehab. Eng. 19, 4 (2011)."
+        }, 
+        {
+            "ArticleName": "C De Zeeuw, J Simpson, C Hoogenraad, N Galjart, S Koekkoek, and T Ruigrok. 1998. Microcircuitry and the Function of the Inferior Olive. Trends in Neuro. 21, 9 (1998)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Rutgers University and Princeton University", 
+            "Name": "Abhishek Bhattacharjee"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123943&preflayout=flat"
+}

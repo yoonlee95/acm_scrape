@@ -1,0 +1,254 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Zacharias Hadjilambrou , Shidhartha Das , Marco A. Antoniades , Yiannakis Sazeides, Sensing CPU Voltage Noise Through Electromagnetic Emanations, IEEE Computer Architecture Letters, v.17 n.1, p.68-71, January 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3202987"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 18, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 18, 
+        "CitationCount": 1
+    }, 
+    "Title": "Spectral profiling: observer-effect-free profiling by monitoring EM emanations", 
+    "Abstract": "This paper presents Spectral Profiling, a new method for profiling program execution without instrumenting or otherwise affecting the profiled system. Spectral Profiling monitors EM emanations unintentionally produced by the profiled system, looking for spectral \"spikes\" produced by periodic program activity (e.g. loops). This allows Spectral Profiling to determine which parts of the program have executed at what time. By analyzing the frequency and shape of the spectral \"spike\", Spectral Profiling can obtain additional information such as the per-iteration execution time of a loop. The key advantage of Spectral Profiling is that it can monitor a system as-is, without program instrumentation, system activity, etc. associated with the profiling itself, i.e. it completely eliminates the \"Observer's Effect\" and allows profiling of programs whose execution is performance-dependent and/or programs that run on even the simplest embedded systems that have no resources or support for profiling. We evaluate the effectiveness of Spectral Profiling by applying it to several benchmarks from MiBench suite on a real system, and also on a cycle-accurate simulator. Our results confirm that Spectral Profiling yields useful information about the runtime behavior of a program, allowing Spectral Profiling to be used for profiling in systems where profiling infrastructure is not available, or where profiling overheads may perturb the results too much (\"Observer's Effect\").", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "John Demme , Simha Sethumadhavan, Rapid identification of architectural bottlenecks via precise event counting, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000107", 
+            "DOIname": "10.1145/2000064.2000107", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000107"
+        }, 
+        {
+            "ArticleName": "Tipp Moseley , Daniel A. Connors , Dirk Grunwald , Ramesh Peri, Identifying potential parallelism via loop-centric profiling, Proceedings of the 4th international conference on Computing frontiers, May 07-09, 2007, Ischia, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/1242531.1242554", 
+            "DOIname": "10.1145/1242531.1242554", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1242554"
+        }, 
+        {
+            "ArticleName": "Alain Ketterlin , Philippe Clauss, Profiling Data-Dependence to Assist Parallelization: Framework, Scope, and Optimization, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.437-448, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.47", 
+            "DOIname": "10.1109/MICRO.2012.47", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457518"
+        }, 
+        {
+            "ArticleName": "Yukinori Sato , Yasushi Inoguchi , Tadao Nakamura, On-the-fly detection of precise loop nests across procedures on a dynamic binary translation system, Proceedings of the 8th ACM International Conference on Computing Frontiers, May 03-05, 2011, Ischia, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2016604.2016634", 
+            "DOIname": "10.1145/2016604.2016634", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2016634"
+        }, 
+        {
+            "ArticleName": "Qin Zhao , Ioana Cutcutache , Weng-Fai Wong, Pipa: pipelined profiling and analysis on multi-core systems, Proceedings of the 6th annual IEEE/ACM international symposium on Code generation and optimization, April 05-09, 2008, Boston, MA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1356058.1356083", 
+            "DOIname": "10.1145/1356058.1356083", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1356083"
+        }, 
+        {
+            "ArticleName": "Steven Wallace , Kim Hazelwood, SuperPin: Parallelizing Dynamic Instrumentation for Real-Time Performance, Proceedings of the International Symposium on Code Generation and Optimization, p.209-220, March 11-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2007.37", 
+            "DOIname": "10.1109/CGO.2007.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1252542"
+        }, 
+        {
+            "ArticleName": "Jennifer M. Anderson , Lance M. Berc , Jeffrey Dean , Sanjay Ghemawat , Monika R. Henzinger , Shun-Tak A. Leung , Richard L. Sites , Mark T. Vandevoorde , Carl A. Waldspurger , William E. Weihl, Continuous profiling: where have all the cycles gone?, ACM Transactions on Computer Systems (TOCS), v.15 n.4, p.357-390, Nov. 1997", 
+            "DOIhref": "http://doi.acm.org/10.1145/265924.265925", 
+            "DOIname": "10.1145/265924.265925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=265925"
+        }, 
+        {
+            "ArticleName": "Intel-Corporation, \"Intel vtune amplifier.\" https://software.intel.com/en-us/intel-vtune-amplifier-xe/details, accessed April 2, 2016."
+        }, 
+        {
+            "ArticleName": "Xi Yang , Stephen M. Blackburn , Kathryn S. McKinley, Computer performance microscopy with Shim, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750401", 
+            "DOIname": "10.1145/2749469.2750401", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750401"
+        }, 
+        {
+            "ArticleName": "Susan L. Graham , Peter B. Kessler , Marshall K. Mckusick, Gprof: A call graph execution profiler, Proceedings of the 1982 SIGPLAN symposium on Compiler construction, p.120-126, June 23-25, 1982, Boston, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/800230.806987", 
+            "DOIname": "10.1145/800230.806987", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=806987"
+        }, 
+        {
+            "ArticleName": "Intel-Corporation, \"Precise-event-based-sampling on intel processors.\" http://www.intel.com/content/dam/doc/manual/64-ia-32-architectures-optimization-manual.pdf, accessed April 2, 2016."
+        }, 
+        {
+            "ArticleName": "Intel-Corporation, \"Intel performance counter monitor.\" https://software.intel.com/en-us/articles/intel-performance-counter-monitor, accessed April 2, 2016."
+        }, 
+        {
+            "ArticleName": "Linux, \"Linux kernel profiling with perf.\" https://perf.wiki.kernel.org/index.php/Main_Page, accessed April 3, 2016."
+        }, 
+        {
+            "ArticleName": "ARM, \"Arm performance monitor unit.\" http://infocenter.arm.com/help/ index.jsp?topic=/com.arm.doc.ddi0388f/Bcgddibf.html, accessed April 2, 2016."
+        }, 
+        {
+            "ArticleName": "Harold Joseph Highland, Random bits & bytes: Electromagnetic radiation revisited, Computers and Security, v.5 n.2, p.85-93, June 1986", 
+            "DOIhref": "https://dx.doi.org/10.1016/0167-4048(86)90125-2", 
+            "DOIname": "10.1016/0167-4048(86)90125-2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=6304"
+        }, 
+        {
+            "ArticleName": "Dakshi Agrawal , Bruce Archambeault , Josyula R. Rao , Pankaj Rohatgi, The EM Side-Channel(s), Revised Papers from the 4th International Workshop on Cryptographic Hardware and Embedded Systems, p.29-45, August 13-15, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=752713"
+        }, 
+        {
+            "ArticleName": "A. Zaji\u0107 and M. Prvulovic, \"Experimental demonstration of electro-magnetic information leakage from modern processor-memory systems,\" IEEE Transactions on Electromagnetic Compatibility, vol. 56, no. 4, pp. 885--893, 2014."
+        }, 
+        {
+            "ArticleName": "Karine Gandolfi , Christophe Mourtel , Francis Olivier, Electromagnetic Analysis: Concrete Results, Proceedings of the Third International Workshop on Cryptographic Hardware and Embedded Systems, p.251-261, May 14-16, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=752700"
+        }, 
+        {
+            "ArticleName": "M. G. Khun, \"Compromising emanations: eavesdropping risks of computer displays,\" The complete unofficial TEMPEST web page: http://www.eskimo.com/~joelm/tempest.html, 2003."
+        }, 
+        {
+            "ArticleName": "H. Sekiguchi and S. Seto, \"Measurement of radiated computer rgb signals,\" Progress in Electromagnetic Research C, pp. 1--12, 2009."
+        }, 
+        {
+            "ArticleName": "Y. Suzuki and Y. Akiyama, \"Jamming technique to prevent information leakage caused by unintentional emissions of pc video signals,\" in Electromagnetic Compatibility (EMC), 2010 IEEE International Symposium on, pp. 132--137, 2010."
+        }, 
+        {
+            "ArticleName": "M. G. Kuhn, \"Compromising emanations of led tv sets,\" IEEE Transactions on Electromagnetic Compatibility, pp. 564--570, 2013."
+        }, 
+        {
+            "ArticleName": "T. Plos, M. Hutter, and C. Herbst, \"Enhancing side-channel analysis with low-cost shielding techniques,\" in Proceedings of Austrochip, 2008."
+        }, 
+        {
+            "ArticleName": "F. Poucheret, L. Barthe, P. Benoit, L. Torres, P. Maurine, and M. Robert, \"Spatial EM jamming: A countermeasure against EM Analysis?,\" in Proceedings of the 18th IEEE/IFIP VLSI System on Chip Conference (VLSI-SoC), pp. 105--110, 2010."
+        }, 
+        {
+            "ArticleName": "Hidema Tanaka, Information leakage via electromagnetic emanations and evaluation of tempest countermeasures, Proceedings of the 3rd international conference on Information systems security, December 16-20, 2007, Delhi, India", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1779292"
+        }, 
+        {
+            "ArticleName": "Y. ichi Hayashi, N. Homma, T. Mizuki, H. Shimada, T. Aoki, H. Sone, L. Sauvage, and J.-L. Danger, \"Efficient evaluation of em radiation associated with information leakage from cryptographic devices,\" IEEE Transactions on Electromagnetic Compatibility, vol. 55, no. 3, pp. 555--563, 2013."
+        }, 
+        {
+            "ArticleName": "H. Sekiguchi and S. Seto, \"Study on maximum receivable distance for radiated emission of information technology equipment causing information leakage,\" IEEE Transactions on Electromagnetic Compatibility, vol. 55, no. 3, pp. 547--554, 2013."
+        }, 
+        {
+            "ArticleName": "Y. ichi Hayashi, N. Homma, T. Mizuki, T. Aoki, H. Sone, L. Sauvage, and J.-L. Danger, \"Analysis of electromagnetic information leakage from cryptographic devices with different physical structures,\" IEEE Transactions on Electromagnetic Compatibility, vol. 55, no. 3, pp. 571--580, 2013."
+        }, 
+        {
+            "ArticleName": "S. Clark, H. Mustafa, B. Ransford, J. Sorber, K. Fu, and W. Xu, \"Current events: Identifying webpages by tapping the electrical outlet,\" in Computer Security- ESORICS 2013 (J. Crampton, S. Jajodia, and K. Mayes, eds.), vol. 8134 of Lecture Notes in Computer Science, pp. 700--717, Springer Berlin Heidelberg, 2013."
+        }, 
+        {
+            "ArticleName": "Carlos R. Aguayo Gonz\u00e1lez , Jeffrey H. Reed, Power fingerprinting in SDR integrity assessment for security and regulatory compliance, Analog Integrated Circuits and Signal Processing, v.69 n.2-3, p.307-327, December 2011", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10470-011-9777-4", 
+            "DOIname": "10.1007/s10470-011-9777-4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2044158"
+        }, 
+        {
+            "ArticleName": "Shane S. Clark , Benjamin Ransford , Amir Rahmati , Shane Guineau , Jacob Sorber , Kevin Fu , Wenyuan Xu, WattsUpDoc: power side channels to nonintrusively discover untargeted malware on embedded medical devices, Proceedings of the 2013 USENIX conference on Safety, Security, Privacy and Interoperability of Health Information Technologies, p.9-9, August 12, 2013, Washington, DC", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2696532"
+        }, 
+        {
+            "ArticleName": "Robert Callan , Alenka Zaji\u0107 , Milos Prvulovic, A Practical Methodology for Measuring the Side-Channel Signal Available to the Attacker for Instruction-Level Events, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.39", 
+            "DOIname": "10.1109/MICRO.2014.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742179"
+        }, 
+        {
+            "ArticleName": "R. Callan, N. Basta, A. Zajic, and M. Prvulovic, \"A new approach for measuring electromagnetic side-channel energy available to the attacker in modern processor-memory systems,\" in Proceedings of the 9th European Conference on Antennas and Propagation (EuCAP), 2015."
+        }, 
+        {
+            "ArticleName": "Robert Callan , Alenka Zaji\u0107 , Milos Prvulovic, FASE: finding amplitude-modulated side-channel emanations, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750394", 
+            "DOIname": "10.1145/2749469.2750394", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750394"
+        }, 
+        {
+            "ArticleName": "R. Callan, N. Popovic, A. Daruna, E. Pollmann, A. Zajic, and M. Prvulovic, \"Comparison of electromagnetic side-channel energy available to the attacker from different computer systems,\" in Proceedings of the 2015 IEEE International Symposium on Electromagnetic Compatibility (EMC), 2015."
+        }, 
+        {
+            "ArticleName": "Robert Callan , Farnaz Behrang , Alenka Zajic , Milos Prvulovic , Alessandro Orso, Zero-overhead profiling via EM emanations, Proceedings of the 25th International Symposium on Software Testing and Analysis, July 18-20, 2016, Saarbr\u00fccken, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/2931037.2931065", 
+            "DOIname": "10.1145/2931037.2931065", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2931065"
+        }, 
+        {
+            "ArticleName": "M. R. Guthaus , J. S. Ringenberg , D. Ernst , T. M. Austin , T. Mudge , R. B. Brown, MiBench: A free, commercially representative embedded benchmark suite, Proceedings of the Workload Characterization, 2001. WWC-4. 2001 IEEE International Workshop, p.3-14, December 02-02, 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/WWC.2001.15", 
+            "DOIname": "10.1109/WWC.2001.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1128563"
+        }, 
+        {
+            "ArticleName": "Ervin Sejdi\u0107 , Igor Djurovi\u0107 , Jin Jiang, Time--frequency feature representation using energy concentration: An overview of recent advances, Digital Signal Processing, v.19 n.1, p.153-183, January, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.dsp.2007.12.004", 
+            "DOIname": "10.1016/j.dsp.2007.12.004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1465790"
+        }, 
+        {
+            "ArticleName": "Olimex, \"A13-olinuxino-micro user manual.\" https://www.olimex.com/Products/OLinuXino/A13/A13-OLinuXino- MICRO/open-source-hardware, accessed April 3, 2016."
+        }, 
+        {
+            "ArticleName": "ARM, \"Arm cortex a8 processor manual.\" https://www.arm.com/products/processors/cortex-a/cortex-a8.php, accessed April 3, 2016."
+        }, 
+        {
+            "ArticleName": "J. Renau, B. Fraguela, J. Tuck, W. Liu, M. Prvulovic, L. Ceze, S. Sarangi, P. Sack, K. Strauss, and P. Montesinos, \"SESC simulator,\" January 2005. http://sesc.sourceforge.net."
+        }, 
+        {
+            "ArticleName": "AARONIA, \"Datasheet: Rf near field probe set dc to 9ghz.\" http://www.aaronia.com/Datasheets/Antennas/RF-Near-Field-Probe-Set.pdf, accessed April 6, 2016."
+        }, 
+        {
+            "ArticleName": "G. Paoloni, \"White paper: How to benchmark code execution times on intel ia-32 and ia-64 instruction set architectures,\" tech. rep., Intel Corporation, September 2010."
+        }, 
+        {
+            "ArticleName": "G. Reinman and N. Jouppi, \"Cacti 2.0: An integrated cache timing and power model,\" Technical Report, 2000."
+        }, 
+        {
+            "ArticleName": "David Brooks , Vivek Tiwari , Margaret Martonosi, Wattch: a framework for architectural-level power analysis and optimizations, Proceedings of the 27th annual international symposium on Computer architecture, p.83-94, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339657", 
+            "DOIname": "10.1145/339647.339657", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339657"
+        }, 
+        {
+            "ArticleName": "Saumya Debray , William Evans, Profile-guided code compression, Proceedings of the ACM SIGPLAN 2002 conference on Programming language design and implementation, June 17-19, 2002, Berlin, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/512529.512542", 
+            "DOIname": "10.1145/512529.512542", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=512542"
+        }, 
+        {
+            "ArticleName": "Trishul M. Chilimbi , Ben Liblit , Krishna Mehra , Aditya V. Nori , Kapil Vaswani, HOLMES: Effective statistical debugging via efficient path profiling, Proceedings of the 31st International Conference on Software Engineering, p.34-44, May 16-24, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICSE.2009.5070506", 
+            "DOIname": "10.1109/ICSE.2009.5070506", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555020"
+        }, 
+        {
+            "ArticleName": "Michael D. Ernst , Jake Cockrell , William G. Griswold , David Notkin, Dynamically discovering likely program invariants to support program evolution, Proceedings of the 21st international conference on Software engineering, p.213-224, May 16-22, 1999, Los Angeles, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/302405.302467", 
+            "DOIname": "10.1145/302405.302467", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=302467"
+        }, 
+        {
+            "ArticleName": "Thomas Ball , James R. Larus, Efficient path profiling, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.46-57, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243857"
+        }, 
+        {
+            "ArticleName": "Rahul Joshi , Michael D. Bond , Craig Zilles, Targeted Path Profiling: Lower Overhead Path Profiling for Staged Dynamic Optimization Systems, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.239, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977660"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Nader Sehatbakhsh"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Alireza Nazari"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Alenka Zajic"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Milos Prvulovic"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195710&preflayout=flat"
+}

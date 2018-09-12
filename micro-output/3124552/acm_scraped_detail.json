@@ -1,0 +1,432 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Caiwen Ding , Ao Ren , Geng Yuan , Xiaolong Ma , Jiayu Li , Ning Liu , Bo Yuan , Yanzhi Wang, Structured Weight Matrices-Based Hardware Accelerators in Deep Neural Networks: FPGAs and ASICs, Proceedings of the 2018 on Great Lakes Symposium on VLSI, May 23-25, 2018, Chicago, IL, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3194625"
+        }, 
+        {
+            "ArticleName": "Shuo Wang , Zhe Li , Caiwen Ding , Bo Yuan , Qinru Qiu , Yanzhi Wang , Yun Liang, C-LSTM: Enabling Efficient LSTM using Structured Compression Techniques on FPGAs, Proceedings of the 2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 25-27, 2018, Monterey, CALIFORNIA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3174253"
+        }, 
+        {
+            "ArticleName": "Ji Wang , Jianguo Zhang , Weidong Bao , Xiaomin Zhu , Bokai Cao , Philip S. Yu, Not Just Privacy: Improving Performance of Private Deep Learning in Mobile Cloud, Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, August 19-23, 2018, London, United Kingdom", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3220106"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 750, 
+        "Downloads_6Weeks": 56, 
+        "Downloads_cumulative": 750, 
+        "CitationCount": 3
+    }, 
+    "Title": "CirCNN: accelerating and compressing deep neural networks using block-circulant weight matrices", 
+    "Abstract": "Large-scale deep neural networks (DNNs) are both compute and memory intensive. As the size of DNNs continues to grow, it is critical to improve the energy efficiency and performance while maintaining accuracy. For DNNs, the model size is an important factor affecting performance, scalability and energy efficiency. Weight pruning achieves good compression ratios but suffers from three drawbacks: 1) the irregular network structure after pruning, which affects performance and throughput; 2) the increased training complexity; and 3) the lack of rigirous guarantee of compression ratio and inference accuracy. To overcome these limitations, this paper proposes CirCNN, a principled approach to represent weights and process neural networks using block-circulant matrices. CirCNN utilizes the Fast Fourier Transform (FFT)-based fast multiplication, simultaneously reducing the computational complexity (both in inference and training) from O(n2) to O(n log n) and the storage complexity from O(n2) to O(n), with negligible accuracy loss. Compared to other approaches, CirCNN is distinct due to its mathematical rigor: the DNNs based on CirCNN can converge to the same \"effectiveness\" as DNNs without compression. We propose the CirCNN architecture, a universal DNN inference engine that can be implemented in various hardware/software platforms with configurable network architecture (e.g., layer type, size, scales, etc.). In CirCNN architecture: 1) Due to the recursive property, FFT can be used as the key computing kernel, which ensures universal and small-footprint implementations. 2) The compressed but regular network structure avoids the pitfalls of the network pruning and facilitates high performance and throughput with highly pipelined and parallel design. To demonstrate the performance and energy efficiency, we test CirCNN in FPGA, ASIC and embedded processors. Our results show that CirCNN architecture achieves very high energy efficiency and performance with a small hardware footprint. Based on the FPGA implementation and ASIC synthesis results, CirCNN achieves 6 - 102X energy efficiency improvements compared with the best state-of-the-art results.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, \"Imagenet: A large-scale hierarchical image database,\" in Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on, pp. 248--255, IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Yaniv Taigman , Ming Yang , Marc'Aurelio Ranzato , Lior Wolf, DeepFace: Closing the Gap to Human-Level Performance in Face Verification, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, p.1701-1708, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPR.2014.220", 
+            "DOIname": "10.1109/CVPR.2014.220", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2680208"
+        }, 
+        {
+            "ArticleName": "B. Huval, T. Wang, S. Tandon, J. Kiske, W. Song, J. Pazhayampallil, M. Andriluka, P. Rajpurkar, T. Migimatsu, R. Cheng-Yue, et al., \"An empirical evaluation of deep learning on highway driving,\" arXiv preprint arXiv:1504.01716, 2015."
+        }, 
+        {
+            "ArticleName": "Ronan Collobert , Jason Weston, A unified architecture for natural language processing: deep neural networks with multitask learning, Proceedings of the 25th international conference on Machine learning, p.160-167, July 05-09, 2008, Helsinki, Finland", 
+            "DOIhref": "http://doi.acm.org/10.1145/1390156.1390177", 
+            "DOIname": "10.1145/1390156.1390177", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1390177"
+        }, 
+        {
+            "ArticleName": "R. Burbidge, M. Trotter, B. Buxton, and S. Holden, \"Drug design by machine learning: support vector machines for pharmaceutical data analysis,\" Computers & chemistry, vol. 26, no. 1, pp. 5--14, 2001."
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "A. Karpathy and L. Fei-Fei, \"Deep visual-semantic alignments for generating image descriptions,\" in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 3128--3137, 2015."
+        }, 
+        {
+            "ArticleName": "B. Catanzaro, \"Deep learning with cots hpc systems,\" 2013."
+        }, 
+        {
+            "ArticleName": "K. Simonyan and A. Zisserman, \"Very deep convolutional networks for large-scale image recognition,\" arXiv preprint arXiv:1409.1556, 2014."
+        }, 
+        {
+            "ArticleName": "Q. V. Le, \"Building high-level features using large scale unsupervised learning,\" in Acoustics, Speech and Signal Processing (ICASSP), 2013 IEEE International Conference on, pp. 8595--8598, IEEE, 2013."
+        }, 
+        {
+            "ArticleName": "Jurgen Schmidhuber, Multi-column deep neural networks for image classification, Proceedings of the 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), p.3642-3649, June 16-21, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2354694"
+        }, 
+        {
+            "ArticleName": "J\u00fcrgen Schmidhuber, Deep learning in neural networks, Neural Networks, v.61 n.C, p.85-117, January 2015", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.neunet.2014.09.003", 
+            "DOIname": "10.1016/j.neunet.2014.09.003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2947734"
+        }, 
+        {
+            "ArticleName": "Naveen Suda , Vikas Chandra , Ganesh Dasika , Abinash Mohanty , Yufei Ma , Sarma Vrudhula , Jae-sun Seo , Yu Cao, Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks, Proceedings of the 2016 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 21-23, 2016, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2847263.2847276", 
+            "DOIname": "10.1145/2847263.2847276", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2847276"
+        }, 
+        {
+            "ArticleName": "Jiantao Qiu , Jie Wang , Song Yao , Kaiyuan Guo , Boxun Li , Erjin Zhou , Jincheng Yu , Tianqi Tang , Ningyi Xu , Sen Song , Yu Wang , Huazhong Yang, Going Deeper with Embedded FPGA Platform for Convolutional Neural Network, Proceedings of the 2016 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 21-23, 2016, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2847263.2847265", 
+            "DOIname": "10.1145/2847263.2847265", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2847265"
+        }, 
+        {
+            "ArticleName": "Chen Zhang , Zhenman Fang , Peipei Zhou , Peichen Pan , Jason Cong, Caffeine: towards uniformed representation and acceleration for deep convolutional neural networks, Proceedings of the 35th International Conference on Computer-Aided Design, p.1-8, November 07-10, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2966986.2967011", 
+            "DOIname": "10.1145/2966986.2967011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967011"
+        }, 
+        {
+            "ArticleName": "Chen Zhang , Di Wu , Jiayu Sun , Guangyu Sun , Guojie Luo , Jason Cong, Energy-Efficient CNN Implementation on a Deeply Pipelined FPGA Cluster, Proceedings of the 2016 International Symposium on Low Power Electronics and Design, August 08-10, 2016, San Francisco Airport, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2934583.2934644", 
+            "DOIname": "10.1145/2934583.2934644", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2934644"
+        }, 
+        {
+            "ArticleName": "D. Mahajan, J. Park, E. Amaro, H. Sharma, A. Yazdanbakhsh, J. K. Kim, and H. Esmaeilzadeh, \"Tabla: A unified template-based framework for accelerating statistical machine learning,\" in High Performance Computer Architecture (HPCA), 2016 IEEE International Symposium on, pp. 14--26, IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "Ritchie Zhao , Weinan Song , Wentao Zhang , Tianwei Xing , Jeng-Hau Lin , Mani Srivastava , Rajesh Gupta , Zhiru Zhang, Accelerating Binarized Convolutional Neural Networks with Software-Programmable FPGAs, Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2017, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3020078.3021741", 
+            "DOIname": "10.1145/3020078.3021741", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3021741"
+        }, 
+        {
+            "ArticleName": "Yaman Umuroglu , Nicholas J. Fraser , Giulio Gambardella , Michaela Blott , Philip Leong , Magnus Jahre , Kees Vissers, FINN: A Framework for Fast, Scalable Binarized Neural Network Inference, Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2017, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3020078.3021744", 
+            "DOIname": "10.1145/3020078.3021744", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3021744"
+        }, 
+        {
+            "ArticleName": "Song Han , Junlong Kang , Huizi Mao , Yiming Hu , Xin Li , Yubin Li , Dongliang Xie , Hong Luo , Song Yao , Yu Wang , Huazhong Yang , William (Bill) J. Dally, ESE: Efficient Speech Recognition Engine with Sparse LSTM on FPGA, Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2017, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3020078.3021745", 
+            "DOIname": "10.1145/3020078.3021745", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3021745"
+        }, 
+        {
+            "ArticleName": "http://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-\\computing-looks-like-1326915.", 
+            "ArticleHref": "http://dl.acm.org/http://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-\\computing-looks-like-1326915."
+        }, 
+        {
+            "ArticleName": "https://www.sdxcentral.com/articles/news/intels-deep-learning-chips-will-arrive-2017/2016/11/."
+        }, 
+        {
+            "ArticleName": "Y.-H. Chen, T. Krishna, J. S. Emer, and V. Sze, \"Eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks,\" IEEE Journal of Solid-State Circuits, vol. 52, no. 1, pp. 127--138, 2017."
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, ACM SIGPLAN Notices, v.49 n.4, April 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2644865.2541967", 
+            "DOIname": "10.1145/2644865.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "G. Desoli, N. Chawla, T. Boesch, S.-p. Singh, E. Guidetti, F. De Ambroggi, T. Majo, P. Zambotti, M. Ayodhyawasi, H. Singh, et al., \"14.1 a 2.9 tops/w deep convolutional neural network soc in fd-soi 28nm for intelligent embedded systems,\" in Solid-State Circuits Conference (ISSCC), 2017 IEEE International, pp. 238--239, IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "B. Moons, R. Uytterhoeven, W. Dehaene, and M. Verhelst, \"14.5 envision: A 0.26-to-10tops/w subword-parallel dynamic-voltage-accuracy-frequency-scalable convolutional neural network processor in 28nm fdsoi,\" in Solid-State Circuits Conference (ISSCC), 2017 IEEE International, pp. 246--247, IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "J. Sim, J. Park, M. Kim, D. Bae, Y. Choi, and L. Kim, \"A 1.42 tops/w deep convolutional neural network recognition processor for intelligent iot systems,\" in 2016 IEEE ISSCC, IEEE solid-state circuits society, 2016."
+        }, 
+        {
+            "ArticleName": "P. N. Whatmough, S. K. Lee, H. Lee, S. Rama, D. Brooks, and G.-Y. Wei, \"14.3 a 28nm soc with a 1.2 ghz 568nj/prediction sparse deep-neural-network engine with> 0.1 timing error rate tolerance for iot applications,\" in Solid-State Circuits Conference (ISSCC), 2017 IEEE International, pp. 242--243, IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "S. Bang, J. Wang, Z. Li, C. Gao, Y. Kim, Q. Dong, Y.-P. Chen, L. Fick, X. Sun, R. Dreslinski, et al., \"14.7 a 288\u03bcw programmable deep-learning processor with 270kb on-chip weight storage using non-uniform memory hierarchy for mobile intelligence,\" in Solid-State Circuits Conference (ISSCC), 2017 IEEE International, pp. 250--251, IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "Song Han , Jeff Pool , John Tran , William J. Dally, Learning both weights and connections for efficient neural networks, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1135-1143, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969366"
+        }, 
+        {
+            "ArticleName": "S. Han, H. Mao, and W. J. Dally, \"Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding,\" arXiv preprint arXiv.1510.00149, 2015."
+        }, 
+        {
+            "ArticleName": "J. Wu, C. Leng, Y. Wang, Q. Hu, and J. Chen, \"Quantized convolutional neural networks for mobile devices,\" in Computer Vision and Pattern Recognition, 2016. CVPR 2016. IEEE Conference on, 2016."
+        }, 
+        {
+            "ArticleName": "Darryl D. Lin , Sachin S. Talathi , V. Sreekanth Annapureddy, Fixed point quantization of deep convolutional networks, Proceedings of the 33rd International Conference on International Conference on Machine Learning, June 19-24, 2016, New York, NY, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3045690"
+        }, 
+        {
+            "ArticleName": "M. Jaderberg, A. Vedaldi, and A. Zisserman, \"Speeding up convolutional neural networks with low rank expansions,\" arXiv preprint arXiv.1405.3866, 2014."
+        }, 
+        {
+            "ArticleName": "C. Tai, T. Xiao, Y. Zhang, X. Wang, et al., \"Convolutional neural networks with low-rank regularization,\" arXiv preprint arXiv:1511.06067, 2015."
+        }, 
+        {
+            "ArticleName": "Jiecao Yu , Andrew Lukefahr , David Palframan , Ganesh Dasika , Reetuparna Das , Scott Mahlke, Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080215", 
+            "DOIname": "10.1145/3079856.3080215", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080215"
+        }, 
+        {
+            "ArticleName": "V. Pan, Structured matrices and polynomials: unified superfast algorithms. Springer Science & Business Media, 2012."
+        }, 
+        {
+            "ArticleName": "https://drive.google.com/open?id=0B19XkzlgXlwAYjVjWClKc2xSRm8."
+        }, 
+        {
+            "ArticleName": "L. Zhao, S. Liao, Y. Wang, J. Tang, and B. Yuan, \"Theoretical properties for neural networks with weight matrices of low displacement rank,\" arXiv preprint arXiv.1703.00144, 2017."
+        }, 
+        {
+            "ArticleName": "Honglak Lee , Roger Grosse , Rajesh Ranganath , Andrew Y. Ng, Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations, Proceedings of the 26th Annual International Conference on Machine Learning, p.609-616, June 14-18, 2009, Montreal, Quebec, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1553374.1553453", 
+            "DOIname": "10.1145/1553374.1553453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1553453"
+        }, 
+        {
+            "ArticleName": "Andrej Karpathy , George Toderici , Sanketh Shetty , Thomas Leung , Rahul Sukthankar , Li Fei-Fei, Large-Scale Video Classification with Convolutional Neural Networks, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, p.1725-1732, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPR.2014.223", 
+            "DOIname": "10.1109/CVPR.2014.223", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2680211"
+        }, 
+        {
+            "ArticleName": "D. Yu and L. Deng, \"Deep learning and its applications to signal and information processing {exploratory dsp},\" IEEE Signal Processing Magazine, vol. 28, no. 1, pp. 145--154, 2011."
+        }, 
+        {
+            "ArticleName": "Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, \"Gradient-based learning applied to document recognition,\" Proceedings of the IEEE, vol. 86, no. 11, pp. 2278--2324, 1998."
+        }, 
+        {
+            "ArticleName": "J. Xue, J. Li, and Y. Gong, \"Restructuring of deep neural network acoustic models with singular value decomposition.\" in Interspeech, pp. 2365--2369, 2013."
+        }, 
+        {
+            "ArticleName": "Beiye Liu , Wei Wen , Yiran Chen , Xin Li , Chi-Ruo Wu , Tsung-Yi Ho, EDA Challenges for Memristor-Crossbar based Neuromorphic Computing, Proceedings of the 25th edition on Great Lakes Symposium on VLSI, May 20-22, 2015, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2742060.2743754", 
+            "DOIname": "10.1145/2742060.2743754", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2743754"
+        }, 
+        {
+            "ArticleName": "Jaeyong Chung , Taehwan Shin, Simplifying deep neural networks for neuromorphic architectures, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2898092", 
+            "DOIname": "10.1145/2897937.2898092", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2898092"
+        }, 
+        {
+            "ArticleName": "K. Hwang and W. Sung, \"Fixed-point feedforward deep neural network design using weights+ 1, 0, and- 1,\" in Signal Processing Systems (SiPS), 2014 IEEE Workshop on, pp. 1--6, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "M. Mathieu, M. Henaff, and Y. LeCun, \"Fast training of convolutional networks through ffts,\" arXiv preprint arXiv.1312.5851, 2013."
+        }, 
+        {
+            "ArticleName": "K. He, X. Zhang, S. Ren, and J. Sun, \"Deep residual learning for image recognition,\" in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 770--778, 2016."
+        }, 
+        {
+            "ArticleName": "Yu Cheng , Felix X. Yu , Rogerio S. Feris , Sanjiv Kumar , Alok Choudhary , Shi-Fu Chang, An Exploration of Parameter Redundancy in Deep Networks with Circulant Projections, Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV), p.2857-2865, December 07-13, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCV.2015.327", 
+            "DOIname": "10.1109/ICCV.2015.327", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2920058"
+        }, 
+        {
+            "ArticleName": "Dario Bini , Victor Y. Pan, Polynomial and matrix computations (vol. 1): fundamental algorithms, Birkhauser Verlag, Basel, Switzerland, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=184671"
+        }, 
+        {
+            "ArticleName": "Yangqing Jia , Evan Shelhamer , Jeff Donahue , Sergey Karayev , Jonathan Long , Ross Girshick , Sergio Guadarrama , Trevor Darrell, Caffe: Convolutional Architecture for Fast Feature Embedding, Proceedings of the 22nd ACM international conference on Multimedia, November 03-07, 2014, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2647868.2654889", 
+            "DOIname": "10.1145/2647868.2654889", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2654889"
+        }, 
+        {
+            "ArticleName": "Andrea Vedaldi , Karel Lenc, MatConvNet: Convolutional Neural Networks for MATLAB, Proceedings of the 23rd ACM international conference on Multimedia, October 26-30, 2015, Brisbane, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/2733373.2807412", 
+            "DOIname": "10.1145/2733373.2807412", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807412"
+        }, 
+        {
+            "ArticleName": "L. Narici and E. Beckenstein, \"The hahn-banach theorem: the life and times,\" Topology and its Applications, vol. 77, no. 2, pp. 193--211, 1997."
+        }, 
+        {
+            "ArticleName": "Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng, \"Reading digits in natural images with unsupervised feature learning,\" in NIPS workshop on deep learning and unsupervised feature learning, vol. 2011, p. 5, 2011."
+        }, 
+        {
+            "ArticleName": "A. Krizhevsky and G. Hinton, \"Learning multiple layers of features from tiny images,\" 2009."
+        }, 
+        {
+            "ArticleName": "A. Coates, H. Lee, and A. Y. Ng, \"An analysis of single-layer networks in unsupervised feature learning,\" Ann Arbor, vol. 1001, no. 48109, p. 2, 2010."
+        }, 
+        {
+            "ArticleName": "L. Deng, \"The mnist database of handwritten digit images for machine learning research {best of the web},\" IEEE Signal Processing Magazine, vol. 29, no. 6, pp. 141--142, 2012."
+        }, 
+        {
+            "ArticleName": "S. A. Salehi, R. Amirfattahi, and K. K. Parhi, \"Pipelined architectures for real-valued fft and hermitian-symmetric ifft with real datapaths,\" IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 60, no. 8, pp. 507--511, 2013."
+        }, 
+        {
+            "ArticleName": "Y.-N. Chang and K. K. Parhi, \"An efficient pipelined fft architecture,\" IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing, vol. 50, no. 6, pp. 322--325, 2003."
+        }, 
+        {
+            "ArticleName": "C. Cheng and K. K. Parhi, \"High-throughput vlsi architecture for fft computation,\" IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 54, no. 10, pp. 863--867, 2007."
+        }, 
+        {
+            "ArticleName": "M. Garrido, K. K. Parhi, and J. Grajal, \"A pipelined fft architecture for real-valued signals,\" IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 56, no. 12, pp. 2634--2643, 2009."
+        }, 
+        {
+            "ArticleName": "M. Ayinala, Y. Lao, and K. K. Parhi, \"An in-place fft architecture for real-valued signals,\" IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 60, no. 10, pp. 652--656, 2013."
+        }, 
+        {
+            "ArticleName": "M. Ayinala and K. K. Parhi, \"Fft architectures for real-valued signals based on radix-$2{3}$ and radix-$2{4}$ algorithms,\" IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 60, no. 9, pp. 2422--2430, 2013."
+        }, 
+        {
+            "ArticleName": "Alan V. Oppenheim , Ronald W. Schafer , John R. Buck, Discrete-time signal processing (2nd ed.), Prentice-Hall, Inc., Upper Saddle River, NJ, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=294797"
+        }, 
+        {
+            "ArticleName": "Altera, \"Fft mega-core function user guide,\" Altera, San Jose, Calif USA, 2010."
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. M. Aamodt, and A. Moshovos, \"Stripes: Bit-serial deep neural network computing,\" in Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on, pp. 1--12, IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "https://www.altera.com/products/fpga/stratix-series/stratix-10/overview.html."
+        }, 
+        {
+            "ArticleName": "https://www.xilinx.com/products/silicon-devices/fpga/virtex-7.html."
+        }, 
+        {
+            "ArticleName": "Weixun Wang , Prabhat Mishra , Sanjay Ranka, Dynamic cache reconfiguration and partitioning for energy optimization in real-time multi-core systems, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024935", 
+            "DOIname": "10.1145/2024724.2024935", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024935"
+        }, 
+        {
+            "ArticleName": "Ann Gordon-Ross , Jeremy Lau , Brad Calder, Phase-based cache reconfiguration for a highly-configurable two-level cache hierarchy, Proceedings of the 18th ACM Great Lakes symposium on VLSI, May 04-06, 2008, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1366110.1366200", 
+            "DOIname": "10.1145/1366110.1366200", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1366200"
+        }, 
+        {
+            "ArticleName": "Norman P. Jouppi, Improving direct-mapped cache performance by the addition of a small fully-associative cache prefetch buffers, 25 years of the international symposia on Computer architecture (selected papers), p.388-397, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/285930.285998", 
+            "DOIname": "10.1145/285930.285998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=285998"
+        }, 
+        {
+            "ArticleName": "James Dundas , Trevor Mudge, Improving data cache performance by pre-executing instructions under a cache miss, Proceedings of the 11th international conference on Supercomputing, p.68-75, July 07-11, 1997, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/263580.263597", 
+            "DOIname": "10.1145/263580.263597", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=263597"
+        }, 
+        {
+            "ArticleName": "Neil Weste , David Harris, CMOS VLSI Design: A Circuits and Systems Perspective, Addison-Wesley Publishing Company, 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1841628"
+        }, 
+        {
+            "ArticleName": "S. K. Esser, P. A. Merolla, J. V. Arthur, A.S. Cassidy, R. Appuswamy, A. Andreopoulos, D. J. Berg, J. L. McKinstry, T. Melano, D. R. Barch, et al., \"Convolutional networks for fast, energy-efficient neuromorphic computing,\" Proceedings of the National Academy of Sciences, p. 201604850, 2016."
+        }, 
+        {
+            "ArticleName": "Steve K. Esser , Rathinakumar Appuswamy , Paul A. Merolla , John V. Arthur , Dharmendra S. Modha, Backpropagation for energy-efficient neuromorphic computing, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1117-1125, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969364"
+        }, 
+        {
+            "ArticleName": "http://www.nangate.com/?page_id=22.", 
+            "ArticleHref": "http://dl.acm.org/http://www.nangate.com/?page_id=22."
+        }, 
+        {
+            "ArticleName": "http://quid.hpl.hp.com:9081/cacti/.", 
+            "ArticleHref": "http://dl.acm.org/http://quid.hpl.hp.com:9081/cacti/."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Caiwen Ding"
+        }, 
+        {
+            "Affiliation": "City University of New York", 
+            "Name": "Siyu Liao"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Yanzhi Wang"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Zhe Li"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Ning Liu"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Youwei Zhuo"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Chao Wang"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Xuehai Qian"
+        }, 
+        {
+            "Affiliation": "California State University Fullerton", 
+            "Name": "Yu Bai"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Geng Yuan"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Xiaolong Ma"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Yipeng Zhang"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Jian Tang"
+        }, 
+        {
+            "Affiliation": "Syracuse University", 
+            "Name": "Qinru Qiu"
+        }, 
+        {
+            "Affiliation": "Northeastern University", 
+            "Name": "Xue Lin"
+        }, 
+        {
+            "Affiliation": "City University of New York", 
+            "Name": "Bo Yuan"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124552&preflayout=flat"
+}

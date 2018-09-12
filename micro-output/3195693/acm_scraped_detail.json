@@ -1,0 +1,126 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Shiqi Lian , Yinhe Han , Xiaoming Chen , Ying Wang , Hang Xiao, Dadu-P: a scalable accelerator for robot motion planning in a dynamic environment, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196020"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 1
+    }, 
+    "Title": "The microarchitecture of a real-time robot motion planning accelerator", 
+    "Abstract": "We have developed a hardware accelerator for motion planning, a critical operation in robotics. In this paper, we present the microarchitecture of our accelerator and describe a prototype implementation on an FPGA. We experimentally show that the accelerator improves performance by three orders of magnitude and improves power consumption by more than one order of magnitude. These gains are achieved through careful hardware/software co-design. We modify conventional motion planning algorithms to aggressively precompute collision data, as well as implement a microarchitecture that leverages the parallelism present in the problem.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Xingyu Liu , Yangdong Deng, Fast Radix: A Scalable Hardware Accelerator for Parallel Radix Sort, Proceedings of the 2014 12th International Conference on Frontiers of Information Technology, p.214-219, December 17-19, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/FIT.2014.48", 
+            "DOIname": "10.1109/FIT.2014.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2861293"
+        }, 
+        {
+            "ArticleName": "David E. Shaw , Martin M. Deneroff , Ron O. Dror , Jeffrey S. Kuskin , Richard H. Larson , John K. Salmon , Cliff Young , Brannon Batson , Kevin J. Bowers , Jack C. Chao , Michael P. Eastwood , Joseph Gagliardo , J. P. Grossman , C. Richard Ho , Douglas J. Ierardi , Istv\u00e1n Kolossv\u00e1ry , John L. Klepeis , Timothy Layman , Christine McLeavey , Mark A. Moraes , Rolf Mueller , Edward C. Priest , Yibing Shan , Jochen Spengler , Michael Theobald , Brian Towles , Stanley C. Wang, Anton, a special-purpose machine for molecular dynamics simulation, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250664", 
+            "DOIname": "10.1145/1250662.1250664", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250664"
+        }, 
+        {
+            "ArticleName": "Jia Pan , Dinesh Manocha, GPU-based parallel collision detection for fast motion planning, International Journal of Robotics Research, v.31 n.2, p.187-200, February 2012", 
+            "DOIhref": "https://dx.doi.org/10.1177/0278364911429335", 
+            "DOIname": "10.1177/0278364911429335", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2133424"
+        }, 
+        {
+            "ArticleName": "Jia Pan , Christian Lauterbach , Dinesh Manocha, g-Planner: real-time motion planning and global navigation using GPUs, Proceedings of the Twenty-Fourth AAAI Conference on Artificial Intelligence, p.1245-1251, July 11-15, 2010, Atlanta, Georgia", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2898805"
+        }, 
+        {
+            "ArticleName": "J. Bialkowski, S. Karaman, and E. Frazzoli, \"Massively parallelizing the RRT and the RRT*,\" in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011."
+        }, 
+        {
+            "ArticleName": "S. Murray, W. Floyd-Jones, Y. Qi, D. Sorin, and G. Konidaris, \"Robot motion planning on a chip,\" in Robotics: Science and Systems, June 2016."
+        }, 
+        {
+            "ArticleName": "T. Lozano-Perez, Spatial Planning: A Configuration Space Approach, IEEE Transactions on Computers, v.32 n.2, p.108-120, February 1983", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1983.1676196", 
+            "DOIname": "10.1109/TC.1983.1676196", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1309766"
+        }, 
+        {
+            "ArticleName": "L. E. Kavraki, P. Svestka, J.-C. Latombe, and M. H. Overmars, \"Probabilistic roadmaps for path planning in high-dimensional configuration spaces,\" IEEE Transactions on Robotics and Automation, vol. 12, no. 4, pp. 566--580, 1996."
+        }, 
+        {
+            "ArticleName": "N. M. Amato and L. K. Dale, \"Probabilistic roadmap methods are embarrassingly parallel,\" in Proceedings of the IEEE International Conference on Robotics and Automation, pp. 688--694, 1999."
+        }, 
+        {
+            "ArticleName": "C. Ericson, Real-Time Collision Detection. CRC Press, 2004."
+        }, 
+        {
+            "ArticleName": "P. Leven and S. Hutchinson, \"A framework for real-time path planning in changing environments,\" The International Journal of Robotics Research, vol. 21, no. 12, pp. 999--1030, 2002."
+        }, 
+        {
+            "ArticleName": "J. Stuecheli, B. Blaner, C. Johns, and M. Siegel, \"CAPI: A coherent accelerator processor interface,\" IBM Journal of Research and Development, vol. 59, no. 1, pp. 7--1, 2015."
+        }, 
+        {
+            "ArticleName": "K. Hauser, \"Robust contact generation for robot simulation with unstructured meshes,\" in Proceedings of the International Symposium on Robotics Research, 2013."
+        }, 
+        {
+            "ArticleName": "D. Nieuwenhuisen and M. H. Overmars, \"Useful cycles in probabilistic roadmap graphs,\" in Proceedings of the IEEE International Conference on Robotics and Automation, vol. 1, pp. 446--452, 2004."
+        }, 
+        {
+            "ArticleName": "Robert King Brayton , Alberto L. Sangiovanni-Vincentelli , Curtis T. McMullen , Gary D. Hachtel, Logic Minimization Algorithms for VLSI Synthesis, Kluwer Academic Publishers, Norwell, MA, 1984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=577427"
+        }, 
+        {
+            "ArticleName": "R. Rudell, \"Multiple-valued logic minimization for PLA synthesis,\" Tech. Rep. UCB/ERL M86/65, EECS Department, University of California, Berkeley, 1986."
+        }, 
+        {
+            "ArticleName": "T. Wiedemeyer, \"IAI Kinect2.\" https://github.com/code-iai/iai_kinect2, 2014 -- 2015. Accessed June 12, 2015."
+        }, 
+        {
+            "ArticleName": "S. Niekum, \"ar_track_alvar.\" http://wiki.ros.org/ar_track_alvar, 2011 -- 2015."
+        }, 
+        {
+            "ArticleName": "N. Atay and B. Bayazit, \"A motion planning processor on reconfigurable hardware,\" in Proceedings of the IEEE International Conference on Robotics and Automation, pp. 125--132, 2006."
+        }, 
+        {
+            "ArticleName": "K. Hauser, \"Lazy collision checking in asymptotically-optimal motion planning,\" in Proceedings of the IEEE International Conference on Robotics and Automation, pp. 2951--2957, 2015."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Duke University", 
+            "Name": "Sean Murray"
+        }, 
+        {
+            "Affiliation": "Duke University", 
+            "Name": "William Floyd-Jones"
+        }, 
+        {
+            "Affiliation": "Duke University", 
+            "Name": "Ying Qi"
+        }, 
+        {
+            "Affiliation": "Duke University", 
+            "Name": "George Konidaris"
+        }, 
+        {
+            "Affiliation": "Duke University", 
+            "Name": "Daniel J. Sorin"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195693&preflayout=flat"
+}

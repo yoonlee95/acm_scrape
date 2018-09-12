@@ -1,0 +1,121 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 455, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 455, 
+        "CitationCount": 0
+    }, 
+    "Title": "Contutto: a novel FPGA-based prototyping platform enabling innovation in the memory subsystem of a server class processor", 
+    "Abstract": "We demonstrate the use of an FPGA as a memory buffer in a POWER8\u00ae system, creating a novel prototyping platform that enables innovation in the memory subsystem of POWER-based servers. Our platform, called ConTutto, is pin-compatible with POWER8 buffered memory DIMMs and plugs into a memory slot of a standard POWER8 processor system, running at aggregate memory channel speeds of 35 GB/s per link. ConTutto, which means \"with everything\", is a platform to experiment with different memory technologies, such as STT-MRAM and NAND Flash, in an end-to-end system context. Enablement of STT-MRAM and NVDIMM using ConTutto shows up to 12.5x lower latency and 7.5x higher bandwidth compared to the respective technologies when attached to the PCIe bus. Moreover, due to the unique attach-point of the FPGA between the processor and system memory, ConTutto provides a means for in-line acceleration of certain computations on-route to memory, and enables sensitivity analysis for memory latency while running real applications. To the best of our knowledge, ConTutto is the first ever FPGA platform on the memory bus of a server class processor.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Fabrice Bellard, QEMU, a fast and portable dynamic translator, Proceedings of the annual conference on USENIX Annual Technical Conference, p.41-41, April 10-15, 2005, Anaheim, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1247401"
+        }, 
+        {
+            "ArticleName": "Peter S. Magnusson , Magnus Christensson , Jesper Eskilson , Daniel Forsgren , Gustav H\u00e5llberg , Johan H\u00f6gberg , Fredrik Larsson , Andreas Moestedt , Bengt Werner, Simics: A Full System Simulation Platform, Computer, v.35 n.2, p.50-58, February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.982916", 
+            "DOIname": "10.1109/2.982916", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621909"
+        }, 
+        {
+            "ArticleName": "Sameh Asaad , Ralph Bellofatto , Bernard Brezzo , Chuck Haymes , Mohit Kapur , Benjamin Parker , Thomas Roewer , Proshanta Saha , Todd Takken , Jos\u00e9 Tierno, A cycle-accurate, cycle-reproducible multi-FPGA system for accelerating multi-core processor simulation, Proceedings of the ACM/SIGDA international symposium on Field Programmable Gate Arrays, February 22-24, 2012, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145694.2145720", 
+            "DOIname": "10.1145/2145694.2145720", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145720"
+        }, 
+        {
+            "ArticleName": "Qigang Wang , Rolf Kassa , Wenbo Shen , Nelson Ijih , Bhushan Chitlur , Michael Konow , Dong Liu , Arthur Sheiman , Prabhat Gupta, An FPGA Based Hybrid Processor Emulation Platform, Proceedings of the 2010 International Conference on Field Programmable Logic and Applications, p.25-30, August 31-September 02, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/FPL.2010.16", 
+            "DOIname": "10.1109/FPL.2010.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1933746"
+        }, 
+        {
+            "ArticleName": "W. J. Starke, J. Stuecheli, D. M. Daly, J. S. Dodson, F. Auernhammer, P. M. Sagmeister, G. L. Guthrie, C. F. Marino, M. Siegel, and B. Blaner, \"The cache and memory subsystems of the IBM POWER8 processor\", IBM Journal of Research and Development, Volume: 59 Issue: 1, Jan.-Feb. 2015"
+        }, 
+        {
+            "ArticleName": "\"POWER8 Memory Buffer User's Manual\" 22 April 2014 Version 1.1"
+        }, 
+        {
+            "ArticleName": "A. B. Caldeira, B. Grabowski, V. Haug, M. Kahle, A. Laidlaw, C. Diniz, M. M, Sanchez, and S. Y. Sung, \"IBM Power Systems S814 and S824 Technical Overview and Introduction\", IBM Redbook REDP-5097--00, August 2014, http://www.redbooks.ibm.com/abstracts/redp5097.html"
+        }, 
+        {
+            "ArticleName": "SRC Computers Inc. Colorado Springs, CO, SRC MAP Architecture"
+        }, 
+        {
+            "ArticleName": "\"DDR3 SDRAM High-Performance Controller MegaCore Functions\" https://www.altera.com/products/intellectual-property/ip/memory-interfaces-and-controllers/m-alt-hpddr3.html"
+        }, 
+        {
+            "ArticleName": "\"Persistent Memory Programming\" http://pmem.io"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , Jichuan Chang , Trevor Mudge , Parthasarathy Ranganathan , Steven K. Reinhardt , Thomas F. Wenisch, Disaggregated memory for expansion and sharing in blade servers, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555789", 
+            "DOIname": "10.1145/1555754.1555789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555789"
+        }, 
+        {
+            "ArticleName": "B. Abali, R. J. Eickemeyer, H. Franke, C. S. Li, and M. A. Taubenblatt, \"Disaggregated and optically interconnected memory: when will it be cost effective\", arXiv:1503.01416 {cs.DC}"
+        }, 
+        {
+            "ArticleName": "T. Hady, \"Wicked Fast Storage and Beyond\", 7th Annual Non-Volatile Memories Workshop, March 6--8, 2016"
+        }, 
+        {
+            "ArticleName": "T. V. Hulett, \"All MRAM NVMe SSD - It is Fast!\", Flash Memory Summit, August 8--11, 2016"
+        }, 
+        {
+            "ArticleName": "\"General Parallel File System\", https://www.ibm.com/support/knowledgecenter/en/SSFKCN/gpfs_welcome.html"
+        }, 
+        {
+            "ArticleName": "J. Axbeo, \"Flexible I/O Tester\", https://github.com/axboe/fio"
+        }, 
+        {
+            "ArticleName": "Heiner Giefers , Raphael Polig , Christoph Hagleitner, Accelerating arithmetic kernels with coherent attached FPGA coprocessors, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2757062"
+        }, 
+        {
+            "ArticleName": "\"Zynq: All Programmable SoC with Hardware and Software Programmability\", https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "IBM T. J. Watson Research Center", 
+            "Name": "Bharat Sukhwani"
+        }, 
+        {
+            "Affiliation": "IBM T. J. Watson Research Center", 
+            "Name": "Thomas Roewer"
+        }, 
+        {
+            "Affiliation": "IBM T. J. Watson Research Center", 
+            "Name": "Charles L. Haymes"
+        }, 
+        {
+            "Affiliation": "IBM T. J. Watson Research Center", 
+            "Name": "Kyu-Hyoun Kim"
+        }, 
+        {
+            "Affiliation": "IBM", 
+            "Name": "Adam J. McPadden"
+        }, 
+        {
+            "Affiliation": "IBM", 
+            "Name": "Daniel M. Dreps"
+        }, 
+        {
+            "Affiliation": "IBM", 
+            "Name": "Dean Sanner"
+        }, 
+        {
+            "Affiliation": "IBM Research", 
+            "Name": "Jan Van Lunteren"
+        }, 
+        {
+            "Affiliation": "IBM T. J. Watson Research Center", 
+            "Name": "Sameh Asaad"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124535&preflayout=flat"
+}

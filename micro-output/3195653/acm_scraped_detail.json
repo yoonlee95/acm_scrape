@@ -1,0 +1,250 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 0
+    }, 
+    "Title": "Efficient kernel synthesis for performance portable programming", 
+    "Abstract": "The diversity of microarchitecture designs in heterogeneous computing systems allows programs to achieve high performance and energy efficiency, but results in substantial software re-development cost for each type or generation of hardware. To mitigate this cost, a performance portable programming system is required. One fundamental difference between architectures that makes performance portability challenging is the hierarchical organization of their computing elements. To address this challenge, we introduce TANGRAM, a kernel synthesis framework that composes architecture-neutral computations and composition rules into high-performance kernels customized for different architectural hierarchies. TANGRAM is based on an extensible architectural model that can be used to specify a variety of architectures. This model is coupled with a generic design space exploration and composition algorithm that can generate multiple composition plans for any specified architecture. A custom code generator then compiles these plans for the target architecture while performing various optimizations such as data placement and tuning. We show that code synthesized by TANGRAM for different types and generations of devices achieves no less than 70% of the performance of highly optimized vendor libraries such as Intel MKL and NVIDIA CUBLAS/CUSPARSE.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "N. Rotem, \"Intel OpenCL implicit vectorization module,\" 2011."
+        }, 
+        {
+            "ArticleName": "Jayanth Gummaraju , Laurent Morichetti , Michael Houston , Ben Sander , Benedict R. Gaster , Bixia Zheng, Twin peaks: a software platform for heterogeneous computing on general-purpose and graphics processors, Proceedings of the 19th international conference on Parallel architectures and compilation techniques, September 11-15, 2010, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/1854273.1854302", 
+            "DOIname": "10.1145/1854273.1854302", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1854302"
+        }, 
+        {
+            "ArticleName": "Ralf Karrenberg , Sebastian Hack, Improving performance of OpenCL on CPUs, Proceedings of the 21st international conference on Compiler Construction, March 24-April 01, 2012, Tallinn, Estonia", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-28652-0_1", 
+            "DOIname": "10.1007/978-3-642-28652-0_1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2259232"
+        }, 
+        {
+            "ArticleName": "Pekka J\u00e4\u00e4skel\u00e4inen , Carlos S\u00e1nchez Lama , Erik Schnetter , Kalle Raiskila , Jarmo Takala , Heikki Berg, pocl: A Performance-Portable OpenCL Implementation, International Journal of Parallel Programming, v.43 n.5, p.752-785, October 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10766-014-0320-y", 
+            "DOIname": "10.1007/s10766-014-0320-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2812652"
+        }, 
+        {
+            "ArticleName": "Hee-Seok Kim , Izzat El Hajj , John Stratton , Steven Lumetta , Wen-Mei Hwu, Locality-centric thread scheduling for bulk-synchronous programming models on CPU architectures, Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization, February 07-11, 2015, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738632"
+        }, 
+        {
+            "ArticleName": "Guoyang Chen , Bo Wu , Dong Li , Xipeng Shen, PORPLE: An Extensible Optimizer for Portable Data Placement on GPU, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.20", 
+            "DOIname": "10.1109/MICRO.2014.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742165"
+        }, 
+        {
+            "ArticleName": "Byunghyun Jang , Dana Schaa , Perhaad Mistry , David Kaeli, Exploiting Memory Access Patterns to Improve Memory Performance in Data-Parallel Architectures, IEEE Transactions on Parallel and Distributed Systems, v.22 n.1, p.105-118, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2010.107", 
+            "DOIname": "10.1109/TPDS.2010.107", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1920189"
+        }, 
+        {
+            "ArticleName": "R. C. Whaley, A. Petitet, and J. J. Dongarra, \"Automated empirical optimizations of software and the atlas project,\" Parallel Computing, vol. 27, no. 1, pp. 3--35, 2001."
+        }, 
+        {
+            "ArticleName": "Markus P\u00fcschel , Jos\u00e9 M. F. Moura , Bryan Singer , Jianxin Xiong , Jeremy Johnson , David Padua , Manuela Veloso , Robert W. Johnson, Spiral: A Generator for Platform-Adapted Libraries of Signal Processing Algorithms, International Journal of High Performance Computing Applications, v.18 n.1, p.21-45, February 2004", 
+            "DOIhref": "https://dx.doi.org/10.1177/1094342004041291", 
+            "DOIname": "10.1177/1094342004041291", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1080687"
+        }, 
+        {
+            "ArticleName": "D. Merrill, M. Garland, and A. Grimshaw, \"Policy-based tuning for performance portability and library co-optimization,\" in Innovative Parallel Computing, pp. 1--10, 2012."
+        }, 
+        {
+            "ArticleName": "Jonathan Ragan-Kelley , Connelly Barnes , Andrew Adams , Sylvain Paris , Fr\u00e9do Durand , Saman Amarasinghe, Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines, ACM SIGPLAN Notices, v.48 n.6, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2499370.2462176", 
+            "DOIname": "10.1145/2499370.2462176", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2462176"
+        }, 
+        {
+            "ArticleName": "G. E. Blelloch, \"NESL: A nested data-parallel language.(version 3.1),\" tech. rep., DTIC Document, 1995."
+        }, 
+        {
+            "ArticleName": "Kayvon Fatahalian , Daniel Reiter Horn , Timothy J. Knight , Larkhoon Leem , Mike Houston , Ji Young Park , Mattan Erez , Manman Ren , Alex Aiken , William J. Dally , Pat Hanrahan, Sequoia: programming the memory hierarchy, Proceedings of the 2006 ACM/IEEE conference on Supercomputing, November 11-17, 2006, Tampa, Florida", 
+            "DOIhref": "http://doi.acm.org/10.1145/1188455.1188543", 
+            "DOIname": "10.1145/1188455.1188543", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1188543"
+        }, 
+        {
+            "ArticleName": "Jason Ansel , Cy Chan , Yee Lok Wong , Marek Olszewski , Qin Zhao , Alan Edelman , Saman Amarasinghe, PetaBricks: a language and compiler for algorithmic choice, Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 15-21, 2009, Dublin, Ireland", 
+            "DOIhref": "http://doi.acm.org/10.1145/1542476.1542481", 
+            "DOIname": "10.1145/1542476.1542481", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1542481"
+        }, 
+        {
+            "ArticleName": "Sungpack Hong , Sang Kyun Kim , Tayo Oguntebi , Kunle Olukotun, Accelerating CUDA graph algorithms at maximum warp, ACM SIGPLAN Notices, v.46 n.8, August 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2038037.1941590", 
+            "DOIname": "10.1145/2038037.1941590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941590"
+        }, 
+        {
+            "ArticleName": "Izzat El Hajj , Juan G\u00f3mez-Luna , Cheng Li , Li-Wen Chang , Dejan Milojicic , Wen-mei Hwu, KLAP: kernel launch aggregation and promotion for optimizing dynamic parallelism, The 49th Annual IEEE/ACM International Symposium on Microarchitecture, October 15-19, 2016, Taipei, Taiwan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3195654"
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"CUDA C best practices guide v. 7.0,\" 2015."
+        }, 
+        {
+            "ArticleName": "Li-Wen Chang , Hee-Seok Kim , Wen-mei W. Hwu, DySel: Lightweight Dynamic Selection for Kernel-based Data-parallel Programming Model, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872373", 
+            "DOIname": "10.1145/2872362.2872373", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872373"
+        }, 
+        {
+            "ArticleName": "\"The Matrix Market.\" http://math.nist.gov/MatrixMarket/."
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "N. Bell and J. Hoberock, \"Thrust: A productivity-oriented library for CUDA,\" GPU Computing Gems Jade Edition, p. 359, 2011."
+        }, 
+        {
+            "ArticleName": "\"Intel Math Kernel Library.\" http://software.intel.com/en-us/articles/intel-mkl/."
+        }, 
+        {
+            "ArticleName": "NVIDIA, CUBLAS Library User Guide. NVIDIA, v7.0 ed., Oct. 2015."
+        }, 
+        {
+            "ArticleName": "NVIDIA, CUDA CUSPARSE Library, Aug. 2015."
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Yuri Dotsenko , Naga K. Govindaraju , Peter-Pike Sloan , Charles Boyd , John Manferdelli, Fast scan algorithms on graphics processors, Proceedings of the 22nd annual international conference on Supercomputing, June 07-12, 2008, Island of Kos, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375527.1375559", 
+            "DOIname": "10.1145/1375527.1375559", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375559"
+        }, 
+        {
+            "ArticleName": "Shengen Yan , Guoping Long , Yunquan Zhang, StreamScan: fast scan algorithms for GPUs without global barrier synchronization, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442539", 
+            "DOIname": "10.1145/2442516.2442539", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442539"
+        }, 
+        {
+            "ArticleName": "Juan Gomez Luna , Li-Wen Chang , I-Jui Sung , Wen-Mei Hwu , Nicolas Guil, In-Place Data Sliding Algorithms for Many-Core Architectures, Proceedings of the 2015 44th International Conference on Parallel Processing (ICPP), p.210-219, September 01-04, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2015.30", 
+            "DOIname": "10.1109/ICPP.2015.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2881063"
+        }, 
+        {
+            "ArticleName": "Junjie Lai , Andre Seznec, Performance upper bound analysis and optimization of SGEMM on Fermi and Kepler GPUs, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-10, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6494986", 
+            "DOIname": "10.1109/CGO.2013.6494986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495909"
+        }, 
+        {
+            "ArticleName": "N. Bell and M. Garland, \"Efficient sparse matrix-vector multiplication on CUDA,\" NVIDIA Technical Report NVR-2008-004, NVIDIA Corporation, 2008."
+        }, 
+        {
+            "ArticleName": "Anthony Danalis , Gabriel Marin , Collin McCurdy , Jeremy S. Meredith , Philip C. Roth , Kyle Spafford , Vinod Tipparaju , Jeffrey S. Vetter, The Scalable Heterogeneous Computing (SHOC) benchmark suite, Proceedings of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units, March 14-14, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735688.1735702", 
+            "DOIname": "10.1145/1735688.1735702", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1735702"
+        }, 
+        {
+            "ArticleName": "Joseph L. Greathouse , Mayank Daga, Efficient sparse matrix-vector multiplication on GPUs using the CSR storage format, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.68", 
+            "DOIname": "10.1109/SC.2014.68", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683678"
+        }, 
+        {
+            "ArticleName": "Saurav Muralidharan , Michael Garland , Bryan Catanzaro , Albert Sidelnik , Mary Hall, A collection-oriented programming model for performance portability, Proceedings of the 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, February 07-11, 2015, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2688500.2688537", 
+            "DOIname": "10.1145/2688500.2688537", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2688537"
+        }, 
+        {
+            "ArticleName": "Michel Steuwer , Christian Fensch , Sam Lindley , Christophe Dubach, Generating performance portable code using rewrite rules: from high-level functional expressions to high-performance OpenCL code, Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming, August 31-September 02, 2015, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2784731.2784754", 
+            "DOIname": "10.1145/2784731.2784754", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2784754"
+        }, 
+        {
+            "ArticleName": "Siegfried Benkner , Sabri Pllana , Jesper Larsson Traff , Philippas Tsigas , Uwe Dolinsky , Cedric Augonnet , Beverly Bachmayer , Christoph Kessler , David Moloney , Vitaly Osipov, PEPPHER: Efficient and Productive Usage of Hybrid Computing Systems, IEEE Micro, v.31 n.5, p.28-41, September 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.67", 
+            "DOIname": "10.1109/MM.2011.67", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2068524"
+        }, 
+        {
+            "ArticleName": "Usman Dastgeer , Lu Li , Christoph Kessler, The PEPPHER Composition Tool: Performance-Aware Dynamic Composition of Applications for GPU-Based Systems, Proceedings of the 2012 SC Companion: High Performance Computing, Networking Storage and Analysis, p.711-720, November 10-16, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.Companion.2012.97", 
+            "DOIname": "10.1109/SC.Companion.2012.97", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2477105"
+        }, 
+        {
+            "ArticleName": "HyoukJoong Lee , Kevin J. Brown , Arvind K. Sujeeth , Tiark Rompf , Kunle Olukotun, Locality-Aware Mapping of Nested Parallel Patterns on GPUs, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.23", 
+            "DOIname": "10.1109/MICRO.2014.23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742163"
+        }, 
+        {
+            "ArticleName": "C. Chen, J. Chame, and M. Hall, \"CHiLL: A framework for composing high-level loop transformations,\" tech. rep., 2008."
+        }, 
+        {
+            "ArticleName": "Kazushige Goto , Robert A. van de Geijn, Anatomy of high-performance matrix multiplication, ACM Transactions on Mathematical Software (TOMS), v.34 n.3, p.1-25, May 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1356052.1356053", 
+            "DOIname": "10.1145/1356052.1356053", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1356053"
+        }, 
+        {
+            "ArticleName": "D. Merrill, \"CUB:kernel-level software reuse and library design,\" in GPU Technology Conference Presentation, 2013."
+        }, 
+        {
+            "ArticleName": "Arvind K. Sujeeth , Kevin J. Brown , Hyoukjoong Lee , Tiark Rompf , Hassan Chafi , Martin Odersky , Kunle Olukotun, Delite: A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages, ACM Transactions on Embedded Computing Systems (TECS), v.13 n.4s, p.1-25, July 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2584665", 
+            "DOIname": "10.1145/2584665", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2584665"
+        }, 
+        {
+            "ArticleName": "Tiark Rompf , Martin Odersky, Lightweight modular staging: a pragmatic approach to runtime code generation and compiled DSLs, Proceedings of the ninth international conference on Generative programming and component engineering, October 10-13, 2010, Eindhoven, The Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/1868294.1868314", 
+            "DOIname": "10.1145/1868294.1868314", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1868314"
+        }, 
+        {
+            "ArticleName": "Phitchaya Mangpo Phothilimthana , Jason Ansel , Jonathan Ragan-Kelley , Saman Amarasinghe, Portable performance on heterogeneous architectures, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451162", 
+            "DOIname": "10.1145/2451116.2451162", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451162"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Li-Wen Chang"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Izzat El Hajj"
+        }, 
+        {
+            "Affiliation": "Huawei America Research Lab", 
+            "Name": "Christopher Rodrigues"
+        }, 
+        {
+            "Affiliation": "Universidad de C\u00f3rdoba", 
+            "Name": "Juan G\u00f3mez-Luna"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Wen-mei Hwu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195653&preflayout=flat"
+}

@@ -1,0 +1,260 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Hamza Omar , Qingchuan Shi , Masab Ahmad , Halit Dogan , Omer Khan, Declarative Resilience: A Holistic Soft-Error Resilient Multicore Architecture that Trades off Program Accuracy for Efficiency, ACM Transactions on Embedded Computing Systems (TECS), v.17 n.4, p.1-27, August 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3210559"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 16, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 16, 
+        "CitationCount": 1
+    }, 
+    "Title": "Approxilyzer: towards a systematic framework for instruction-level approximate computing and its application to hardware resiliency", 
+    "Abstract": "Approximate computing environments trade off computational accuracy for improvements in performance, energy, and resiliency cost. For widespread adoption of approximate computing, a fundamental requirement is to understand how perturbations to a computation affect the outcome of the execution in terms of its output quality. This paper presents a framework for approximate computing, called Approxilyzer, that quantifies the quality impact of a single-bit error in all dynamic instructions of an execution with high accuracy (95% on average). We demonstrate two uses of Approxilyzer. First, we show how Approxilyzer can be used to quantitatively tune output quality vs. resiliency vs. overhead to enable ultra-low cost resiliency solutions (with a single bit error model). For example, we show that Approxilyzer determines that a very small loss in output quality (1%) can yield large resiliency overhead reduction (up to 55%) for 99% resiliency coverage. Second, we show how Approxilyzer can be used to provide a first-order estimate of the approximation potential of general-purpose programs. It does so in an automated way while requiring minimal user input and no program modifications. This enables programmers or other tools to focus on the promising subset of approximable instructions for further analysis.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "I. Akturk, K. Khatamifard, and U. R. Karpuzcu, \"On quantification of accuracy loss in approximate computing,\" in Workshop on Duplicating, Deconstructing and Debunking (WDDD), 2015."
+        }, 
+        {
+            "ArticleName": "Woongki Baek , Trishul M. Chilimbi, Green: a framework for supporting energy-conscious programming using controlled approximation, Proceedings of the 31st ACM SIGPLAN Conference on Programming Language Design and Implementation, June 05-10, 2010, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1806596.1806620", 
+            "DOIname": "10.1145/1806596.1806620", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1806620"
+        }, 
+        {
+            "ArticleName": "C. Bienia and K. Li, \"PARSEC 2.0: A New Benchmark Suite for Chip-Multiprocessors,\" in Proc. of 5th Workshop on Modeling, Benchmarking and Simulation, 2009."
+        }, 
+        {
+            "ArticleName": "Shekhar Borkar, Designing Reliable Systems from Unreliable Components: The Challenges of Transistor Variability and Degradation, IEEE Micro, v.25 n.6, p.10-16, November 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2005.110", 
+            "DOIname": "10.1109/MM.2005.110", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1108285"
+        }, 
+        {
+            "ArticleName": "Brett Boston , Adrian Sampson , Dan Grossman , Luis Ceze, Probability type inference for flexible approximate programming, Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 25-30, 2015, Pittsburgh, PA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2814270.2814301", 
+            "DOIname": "10.1145/2814270.2814301", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2814301"
+        }, 
+        {
+            "ArticleName": "Michael Carbin , Sasa Misailovic , Martin C. Rinard, Verifying quantitative reliability for programs that execute on unreliable hardware, Proceedings of the 2013 ACM SIGPLAN international conference on Object oriented programming systems languages & applications, October 29-31, 2013, Indianapolis, Indiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2509136.2509546", 
+            "DOIname": "10.1145/2509136.2509546", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2509546"
+        }, 
+        {
+            "ArticleName": "Martin Dimitrov , Huiyang Zhou, Unified Architectural Support for Soft-Error Protection or Software Bug Detection, Proceedings of the 16th International Conference on Parallel Architecture and Compilation Techniques, p.73-82, September 15-19, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2007.76", 
+            "DOIname": "10.1109/PACT.2007.76", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1299113"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.449-460, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.48", 
+            "DOIname": "10.1109/MICRO.2012.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457519"
+        }, 
+        {
+            "ArticleName": "O. Goloubeva , M. Rebaudengo , M. Sonza Reorda , M. Violante, Soft-Error Detection Using Control Flow Assertions, Proceedings of the 18th IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems, p.581, November 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=951989"
+        }, 
+        {
+            "ArticleName": "J. Han and M. Orshansky, \"Approximate computing: An emerging paradigm for energy-efficient design.\" in Proc. of IEEE European Test Symposium, 2013."
+        }, 
+        {
+            "ArticleName": "Siva Kumar Sastry Hari , Sarita V. Adve , Helia Naeimi, Low-cost program-level detectors for reducing silent data corruptions, Proceedings of the 2012 42nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), p.1-12, June 25-28, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2355132"
+        }, 
+        {
+            "ArticleName": "Siva Kumar Sastry Hari , Sarita V. Adve , Helia Naeimi , Pradeep Ramachandran, Relyzer: exploiting application-level fault equivalence to analyze application resiliency to transient faults, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2150990", 
+            "DOIname": "10.1145/2150976.2150990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150990"
+        }, 
+        {
+            "ArticleName": "Siva Kumar Sastry Hari , Man-Lap Li , Pradeep Ramachandran , Byn Choi , Sarita V. Adve, mSWAT: low-cost hardware fault detection and diagnosis for multicore systems, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669129", 
+            "DOIname": "10.1145/1669112.1669129", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669129"
+        }, 
+        {
+            "ArticleName": "A. B. Kahng, S. Kang, R. Kumar, and J. Sartori, \"Designing a processor from the ground up to allow voltage/reliability tradeoffs,\" in Proc. of International Symposium on High Performance Computer Architecture, 2010."
+        }, 
+        {
+            "ArticleName": "Daya Shanker Khudia , Scott Mahlke, Harnessing Soft Computations for Low-Budget Fault Tolerance, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.33", 
+            "DOIname": "10.1109/MICRO.2014.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742187"
+        }, 
+        {
+            "ArticleName": "Daya S. Khudia , Babak Zamirai , Mehrzad Samadi , Scott Mahlke, Rumba: an online quality management system for approximate computing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750371", 
+            "DOIname": "10.1145/2749469.2750371", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750371"
+        }, 
+        {
+            "ArticleName": "Ignacio Laguna , Martin Schulz , David F. Richards , Jon Calhoun , Luke Olson, IPAS: intelligent protection against silent output corruption in scientific applications, Proceedings of the 2016 International Symposium on Code Generation and Optimization, March 12-18, 2016, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/2854038.2854059", 
+            "DOIname": "10.1145/2854038.2854059", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2854059"
+        }, 
+        {
+            "ArticleName": "Man-Lap Li , Pradeep Ramachandran , Swarup Kumar Sahoo , Sarita V. Adve , Vikram S. Adve , Yuanyuan Zhou, Understanding the propagation of hard errors to software and implications for resilient system design, Proceedings of the 13th international conference on Architectural support for programming languages and operating systems, March 01-05, 2008, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1346281.1346315", 
+            "DOIname": "10.1145/1346281.1346315", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346315"
+        }, 
+        {
+            "ArticleName": "Song Liu , Karthik Pattabiraman , Thomas Moscibroda , Benjamin G. Zorn, Flikker: saving DRAM refresh-power through critical data partitioning, ACM SIGPLAN Notices, v.46 n.3, March 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961296.1950391", 
+            "DOIname": "10.1145/1961296.1950391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950391"
+        }, 
+        {
+            "ArticleName": "Divya Mahajan , Amir Yazdanbakhsh , Jongse Park , Bradley Thwaites , Hadi Esmaeilzadeh, Towards statistical guarantees in controlling quality tradeoffs for approximate acceleration, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.16", 
+            "DOIname": "10.1109/ISCA.2016.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001144"
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Bradford M. Beckmann , Michael R. Marty , Min Xu , Alaa R. Alameldeen , Kevin E. Moore , Mark D. Hill , David A. Wood, Multifacet's general execution-driven multiprocessor simulator (GEMS) toolset, ACM SIGARCH Computer Architecture News, v.33 n.4, November 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1105734.1105747", 
+            "DOIname": "10.1145/1105734.1105747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105747"
+        }, 
+        {
+            "ArticleName": "Sasa Misailovic , Michael Carbin , Sara Achour , Zichao Qi , Martin C. Rinard, Chisel: reliability- and accuracy-aware optimization of approximate computational kernels, Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications, October 20-24, 2014, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2660193.2660231", 
+            "DOIname": "10.1145/2660193.2660231", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660231"
+        }, 
+        {
+            "ArticleName": "Jongse Park , Emmanuel Amaro , Divya Mahajan , Bradley Thwaites , Hadi Esmaeilzadeh, AxGames: Towards Crowdsourcing Quality Target Determination in Approximate Computing, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872376", 
+            "DOIname": "10.1145/2872362.2872376", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872376"
+        }, 
+        {
+            "ArticleName": "Jongse Park , Hadi Esmaeilzadeh , Xin Zhang , Mayur Naik , William Harris, FlexJava: language support for safe and modular approximate programming, Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering, August 30-September 04, 2015, Bergamo, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786805.2786807", 
+            "DOIname": "10.1145/2786805.2786807", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2786807"
+        }, 
+        {
+            "ArticleName": "J. Park, X. Zhang, K. Ni, H. Esmaeilzadeh, and M. Naik, \"Expax: A framework for automating approximate programming,\" in Technical Report, Georgia Institute of Technology, 2014."
+        }, 
+        {
+            "ArticleName": "K. Pattabiraman , G. P. Saggese , D. Chen , Z. Kalbarczyk , R. K. Iyer, Dynamic Derivation of Application-Specific Error Detectors and their Implementation in Hardware, Proceedings of the Sixth European Dependable Computing Conference, p.97-108, October 18-20, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/EDCC.2006.9", 
+            "DOIname": "10.1109/EDCC.2006.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1170304"
+        }, 
+        {
+            "ArticleName": "Martin Rinard, Probabilistic accuracy bounds for fault-tolerant computations that discard tasks, Proceedings of the 20th annual international conference on Supercomputing, June 28-July 01, 2006, Cairns, Queensland, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/1183401.1183447", 
+            "DOIname": "10.1145/1183401.1183447", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1183447"
+        }, 
+        {
+            "ArticleName": "Mohamed M. Sabry , Georgios Karakonstantis , David Atienza , Andreas Burg, Design of energy efficient and dependable health monitoring systems under unreliable nanometer technologies, Proceedings of the 7th International Conference on Body Area Networks, February 24-26, 2012, Oslo, Norway", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442706"
+        }, 
+        {
+            "ArticleName": "S. Sahoo, M.-L. Li, P. Ramchandran, S. V. Adve, V. Adve, and Y. Zhou, \"Using Likely Program Invariants to Detect Hardware Errors,\" in Proc. of International Conference on Dependable Systems and Networks, 2008."
+        }, 
+        {
+            "ArticleName": "F. Sala, C. Schoeny, and L. Dolecek, \"Approximate and noisy computing: Connections to the information-theory world,\" in Workshop on Approximate Computing Across the Stack (WAX), 2016."
+        }, 
+        {
+            "ArticleName": "Mehrzad Samadi , Janghaeng Lee , D. Anoushe Jamshidi , Amir Hormati , Scott Mahlke, SAGE: self-tuning approximation for graphics engines, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540711", 
+            "DOIname": "10.1145/2540708.2540711", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540711"
+        }, 
+        {
+            "ArticleName": "A. Sampson, A. Baixo, B. Ransford, T. Moreau, J. Yip, L. Ceze, and M. Oskin, \"Accept: A programmer-guided compiler framework for practical approximate computing,\" in Technical Report UW-CSE-15-01-01, University of Washington, 2015."
+        }, 
+        {
+            "ArticleName": "Adrian Sampson , Werner Dietl , Emily Fortuna , Danushen Gnanapragasam , Luis Ceze , Dan Grossman, EnerJ: approximate data types for safe and general low-power computation, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993518", 
+            "DOIname": "10.1145/1993498.1993518", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993518"
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Jorge Albericio , Andreas Moshovos , Natalie Enright Jerger, Doppelg\u00e4nger: a cache for approximate computing, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830790", 
+            "DOIname": "10.1145/2830772.2830790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830790"
+        }, 
+        {
+            "ArticleName": "John Sartori , Rakesh Kumar, Architecting processors to allow voltage/reliability tradeoffs, Proceedings of the 14th international conference on Compilers, architectures and synthesis for embedded systems, October 09-14, 2011, Taipei, Taiwan", 
+            "DOIhref": "http://doi.acm.org/10.1145/2038698.2038718", 
+            "DOIname": "10.1145/2038698.2038718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2038718"
+        }, 
+        {
+            "ArticleName": "John Sartori , Rakesh Kumar, Branch and Data Herding: Reducing Control and Memory Divergence for Error-Tolerant GPU Applications, IEEE Transactions on Multimedia, v.15 n.2, p.279-290, February 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TMM.2012.2232647", 
+            "DOIname": "10.1109/TMM.2012.2232647", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2719430"
+        }, 
+        {
+            "ArticleName": "Stelios Sidiroglou-Douskos , Sasa Misailovic , Henry Hoffmann , Martin Rinard, Managing performance vs. accuracy trade-offs with loop perforation, Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering, September 05-09, 2011, Szeged, Hungary", 
+            "DOIhref": "http://doi.acm.org/10.1145/2025113.2025133", 
+            "DOIname": "10.1145/2025113.2025133", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2025133"
+        }, 
+        {
+            "ArticleName": "Xin Sui , Andrew Lenharth , Donald S. Fussell , Keshav Pingali, Proactive Control of Approximate Programs, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872402", 
+            "DOIname": "10.1145/2872362.2872402", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872402"
+        }, 
+        {
+            "ArticleName": "Anna Thomas , Karthik Pattabiraman, Error detector placement for soft computation, Proceedings of the 2013 43rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), p.1-12, June 24-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2013.6575353", 
+            "DOIname": "10.1109/DSN.2013.6575353", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2515157"
+        }, 
+        {
+            "ArticleName": "R. Venkatagiri, A. Mahmoud, and S. Adve, \"Towards more precision in approximate computing,\" in Workshop on Approximate Computing Across the Stack (WAX), 2016."
+        }, 
+        {
+            "ArticleName": "Virtutech, \"Simics Full System Simulator,\" Website, 2006, http://www.simics net."
+        }, 
+        {
+            "ArticleName": "Nicholas J. Wang , Sanjay J. Patel, ReStore: Symptom-Based Soft Error Detection in Microprocessors, IEEE Transactions on Dependable and Secure Computing, v.3 n.3, p.188-201, July 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TDSC.2006.40", 
+            "DOIname": "10.1109/TDSC.2006.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1159373"
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Radha Venkatagiri"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Abdulrahman Mahmoud"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Siva Kumar Sastry Hari"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Sarita V. Adve"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195689&preflayout=flat"
+}

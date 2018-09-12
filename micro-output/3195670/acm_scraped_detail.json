@@ -1,0 +1,222 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 0
+    }, 
+    "Title": "Improving energy efficiency of DRAM by exploiting half page row access", 
+    "Abstract": "DRAM energy is an important component to optimize in modern computing systems. One outstanding source of DRAM energy is the energy to fetch data stored on cells to the row buffer, which occurs during two DRAM operations, row activate and refresh. This work exploits previously proposed half page row access, modifying the wordline connections within a bank to halve the number of cells fetched to the row buffer, to save energy in both cases. To accomplish this, we first change the data wire connections in the sub-array to reduce the cost of row buffer overfetch in multi-core systems which yields a 12% energy savings on average and a slight performance improvement in quad-core systems. We also propose charge recycling refresh, which reuses charge left over from a prior half page refresh to refresh another half page. Our charge recycling scheme is capable of reducing both auto- and self-refresh energy, saving more than 15% of refresh energy at 85\u00b0C, and provides even shorter refresh cycle time. Finally, we propose a refresh scheduling scheme that can dynamically adjust the number of charge recycled half pages, which can save up to 30% of refresh energy at 85\u00b0C.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Krishna T. Malladi , Benjamin C. Lee , Frank A. Nothaft , Christos Kozyrakis , Karthika Periyathambi , Mark Horowitz, Towards energy-proportional datacenter memory with mobile DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337164"
+        }, 
+        {
+            "ArticleName": "Dimitris Kaseridis , Jeffrey Stuecheli , Lizy Kurian John, Minimalist open-page: a DRAM page-mode scheduling policy for the many-core era, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155624", 
+            "DOIname": "10.1145/2155620.2155624", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155624"
+        }, 
+        {
+            "ArticleName": "Jung Ho Ahn , Jacob Leverich , Robert Schreiber , Norman P. Jouppi, Multicore DIMM: an Energy Efficient Memory Module with Independently Controlled DRAMs, IEEE Computer Architecture Letters, v.8 n.1, p.5-8, January 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2008.13", 
+            "DOIname": "10.1109/L-CA.2008.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1591932"
+        }, 
+        {
+            "ArticleName": "Jung Ho Ahn , Norman P. Jouppi , Christos Kozyrakis , Jacob Leverich , Robert S. Schreiber, Improving System Energy Efficiency with Memory Rank Subsetting, ACM Transactions on Architecture and Code Optimization (TACO), v.9 n.1, p.1-28, March 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2133382.2133386", 
+            "DOIname": "10.1145/2133382.2133386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2133386"
+        }, 
+        {
+            "ArticleName": "Marc A. Viredaz , Deborah A. Wallach, Power Evaluation of a Handheld Computer, IEEE Micro, v.23 n.1, p.66-74, January 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1179900", 
+            "DOIname": "10.1109/MM.2003.1179900", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=642607"
+        }, 
+        {
+            "ArticleName": "K. Koo, S. Ok, Y. Kang, S. Kim, C. Song, H. Lee, H. Kim, Y. Kim, J. Lee, S. Oak, Y. Lee, J. Lee, J. Lee, H. Lee, J. Jang, J. Jung, B. Choi, Y. Kim, Y. Hur, Y. Kim, B. Chung, and Y. Kim, \"A 1.2V 38nm 2.4Gb/s/pin 2Gb DDR4 SDRAM with bank group and half-page architecture,\" in Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2012 IEEE International, Feb 2012, pp. 40--41."
+        }, 
+        {
+            "ArticleName": "Donghyuk Lee , Yoongu Kim , Vivek Seshadri , Jamie Liu , Lavanya Subramanian , Onur Mutlu, Tiered-latency DRAM: A low latency and low cost DRAM architecture, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.615-626, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522354", 
+            "DOIname": "10.1109/HPCA.2013.6522354", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495482"
+        }, 
+        {
+            "ArticleName": "Aniruddha N. Udipi , Naveen Muralimanohar , Niladrish Chatterjee , Rajeev Balasubramonian , Al Davis , Norman P. Jouppi, Rethinking DRAM design and organization for energy-constrained multi-cores, ACM SIGARCH Computer Architecture News, v.38 n.3, June 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1816038.1815983", 
+            "DOIname": "10.1145/1816038.1815983", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815983"
+        }, 
+        {
+            "ArticleName": "Brent Keeth , R. Jacob Baker , Brian Johnson , Feng Lin, DRAM Circuit Design: Fundamental and High-Speed Topics, Wiley-IEEE Press, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1557425"
+        }, 
+        {
+            "ArticleName": "K.-N. Lim, W.-J. Jang, H.-S. Won, K.-Y. Lee, H. Kim, D.-W. Kim, M.-H. Cho, S.-L. Kim, J.-H. Kang, K.-W. Park, and B.-T. Jeong, \"A 1.2V 23nm 6F2 4Gb DDR3 SDRAM with local-bitline sense amplifier, hybrid LIO sense amplifier and dummy-less array architecture,\" in Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2012 IEEE International, Feb 2012, pp. 42--44."
+        }, 
+        {
+            "ArticleName": "Y. Moon, Y.-H. Cho, H.-B. Lee, B.-H. Jeong, S.-H. Hyun, B.-C. Kim, I.-C. Jeong, S.-Y. Seo, J.-H. Shin, S.-W. Choi, H.-S. Song, J.-H. Choi, K.-H. Kyung, Y.-H. Jun, and K. Kim, \"1.2V 1.6Gb/s 56nm 6F2 4Gb DDR3 SDRAM with hybrid-I/O sense amplifier and segmented sub-array architecture,\" in Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2009 IEEE International, Feb 2009, pp. 128--129,129a."
+        }, 
+        {
+            "ArticleName": "Micron, \"4Gb DDR4 SDRAM datasheet,\" https://www.micron.com/products/datasheets/5a6630ef-7182-4c35-85d3-3a61cc797c24."
+        }, 
+        {
+            "ArticleName": "JEDEC Solid State Technology Association, \"DDR3 SDRAM Standard JESD79-3F,\" July 2012."
+        }, 
+        {
+            "ArticleName": "JEDEC Solid State Technology Association, \"DDR4 SDRAM Standard JESD79-4A,\" November 2013."
+        }, 
+        {
+            "ArticleName": "Tao Zhang , Ke Chen , Cong Xu , Guangyu Sun , Tao Wang , Yuan Xie, Half-DRAM: a high-bandwidth and low-power DRAM architecture from the rethinking of fine-grained activation, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665724"
+        }, 
+        {
+            "ArticleName": "Micron tech. note, \"TN-47-10: DDR2 posted CAS# additive latency introduction,\" http://application-notes.digchip.com/024/24-19971.pdf."
+        }, 
+        {
+            "ArticleName": "S. Kang, \"Semiconductor memory device with sense amplifier driver having multiplied output lines,\" Feb. 21 2006, uS Patent 7,002,862. {Online}. Available: https://www.google.com/patents/US7002862"
+        }, 
+        {
+            "ArticleName": "J. C. Gealow, \"Impact of processing technology on dram sense amplifier design,\" Ph.D. dissertation, Massachusetts Institute of Technology, June 1990."
+        }, 
+        {
+            "ArticleName": "T. Kawahara, Y. Kawajiri, M. Horiguchi, T. Akiba, G. Kitsukawa, T. Kure, and M. Aoki, \"A charge recycle refresh for Gb-scale DRAM's in file applications,\" Solid-State Circuits, IEEE Journal of, vol. 29, no. 6, pp. 715--722, Jun 1994."
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337202", 
+            "DOIname": "10.1145/2366231.2337202", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "Thomas Vogelsang, Understanding the Energy Consumption of Dynamic Random Access Memories, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.363-374, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.42", 
+            "DOIname": "10.1109/MICRO.2010.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934982"
+        }, 
+        {
+            "ArticleName": "W. Zhao and Y. Cao, \"New generation of predictive technology model for sub-45 nm early design exploration,\" Electron Devices, IEEE Transactions on, vol. 53, no. 11, pp. 2816--2823, 2006."
+        }, 
+        {
+            "ArticleName": "Y. Choi, \"Under the hood: DRAM architectures: 8F2 vs. 6F2,\" http://www.eetimes.com/document.asp?doc_id=1281208."
+        }, 
+        {
+            "ArticleName": "Micron, \"DDR3L-RS: Reducing DRAM power consumption in standby,\" https://www.micron.com/about/blogs/2013/january/ddr3l-rs-reducing-dram-power-consumption-in-standby."
+        }, 
+        {
+            "ArticleName": "JEDEC Solid State Technology Association, \"LPDDR4 SDRAM Standard JESD209-4A,\" November 2015."
+        }, 
+        {
+            "ArticleName": "R. Singhal, \"Inside Intel next generation Nehalem microarchitecture,\" in Hot Chips, vol. 20, 2008."
+        }, 
+        {
+            "ArticleName": "Samsung, \"4Gb D-die DDR4 SDRAM datasheet rev. 1.7,\" http://www.samsung.com/semiconductor/global/file/product/2016/03/DS_K4A4G085WD-B_Rev17-0.pdf, Dec. 2015."
+        }, 
+        {
+            "ArticleName": "H. Oh, J.-Y. Kim, J. Kim, S. Park, D. Kim, S. Kim, D. Woo, Y. Lee, G. Ha, J. Park, N. Kang, H. Kim, Y. Hwang, B. Kim, D. Kim, Y. Cho, J. Choi, B. Lee, S. Kim, M. Cho, Y. Kim, J. Choi, D. Shin, M. Shim, W. Choi, G. Lee, Y. Park, W. Lee, and B.-I. Ryu, \"High-density low-power-operating DRAM device adopting 6F2 cell scheme with novel S-RCAT structure on 80nm feature size and beyond,\" in Solid-State Device Research Conference, 2005. ESSDERC 2005. Proceedings of 35th European, Sept 2005, pp. 177--180."
+        }, 
+        {
+            "ArticleName": "N. Chatterjee, R. Balasubramonian, M. Shevgoor, S. Pugsley, A. Udipi, A. Shafiee, K. Sudan, M. Awasthi, and Z. Chishti, \"USIMM: The Utah simulated memory module,\" University of Utah, Tech. Rep, 2012."
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, Proceedings of the 27th annual international symposium on Computer architecture, p.128-138, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339668", 
+            "DOIname": "10.1145/339647.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "Micron Technology, Inc., \"DDR4_Power_Calc.XLSM,\" https://www.micron.com/~/media/documents/products/power-calculator/ddr4_power_calc.xlsm, Version 1, Oct. 1, 2014."
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Trevor E. Carlson , Wim Heirman , Stijn Eyerman , Ibrahim Hur , Lieven Eeckhout, An Evaluation of High-Level Mechanistic Core Models, ACM Transactions on Architecture and Code Optimization (TACO), v.11 n.3, p.1-25, October 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2629677", 
+            "DOIname": "10.1145/2629677", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2629677"
+        }, 
+        {
+            "ArticleName": "Allan Snavely , Dean M. Tullsen, Symbiotic jobscheduling for a simultaneous multithreaded processor, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.234-244, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379244", 
+            "DOIname": "10.1145/378993.379244", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379244"
+        }, 
+        {
+            "ArticleName": "Samsung, \"8Gb B-die DDR4 SDRAM datasheet rev. 1.11,\" http://www.samsung.com/semiconductor/global/file/product/2016/03/DS_K4A8G085WB-B_Rev16-0.pdf, Dec. 2015."
+        }, 
+        {
+            "ArticleName": "R. Venkatesan, S. Herr, and E. Rotenberg, \"Retention-aware placement in DRAM (RAPID): software methods for quasi-non-volatile DRAM,\" in High-Performance Computer Architecture, 2006. The Twelfth International Symposium on, Feb 2006, pp. 155--165."
+        }, 
+        {
+            "ArticleName": "Seungjae Baek , Sangyeun Cho , Rami Melhem, Refresh Now and Then, IEEE Transactions on Computers, v.63 n.12, p.3114-3126, December 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2013.164", 
+            "DOIname": "10.1109/TC.2013.164", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2770358"
+        }, 
+        {
+            "ArticleName": "Jamie Liu , Ben Jaiyen , Richard Veras , Onur Mutlu, RAIDR: Retention-Aware Intelligent DRAM Refresh, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337161"
+        }, 
+        {
+            "ArticleName": "Young-Ho Gong , Sung Woo Chung, Exploiting Refresh Effect of DRAM Read Operations: A Practical Approach to Low-Power Refresh, IEEE Transactions on Computers, v.65 n.5, p.1507-1517, May 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2015.2448079", 
+            "DOIname": "10.1109/TC.2015.2448079", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2925338"
+        }, 
+        {
+            "ArticleName": "Ishwar Bhati , Zeshan Chishti , Shih-Lien Lu , Bruce Jacob, Flexible auto-refresh: enabling scalable and energy-efficient DRAM refresh reductions, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750408", 
+            "DOIname": "10.1145/2749469.2750408", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750408"
+        }, 
+        {
+            "ArticleName": "D. Yaney, C. Lu, R. Kohler, M. Kelly, and J. Nelson, \"A meta-stable leakage phenomenon in DRAM charge storage - variable hold time,\" in Electron Devices Meeting, 1987 International, Dec 1987, pp. 336--339."
+        }, 
+        {
+            "ArticleName": "P. Restle, J. Park, and B. Lloyd, \"DRAM variable retention time,\" in Electron Devices Meeting, 1992. IEDM '92. Technical Digest., International, Dec 1992, pp. 807--810."
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Dae-Hyun Kim , Samira Khan , Prashant J. Nair , Onur Mutlu, AVATAR: A Variable-Retention-Time (VRT) Aware Refresh for DRAM Systems, Proceedings of the 2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.427-437, June 22-25, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2015.58", 
+            "DOIname": "10.1109/DSN.2015.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2859953"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Ross Daly , Jeremie Kim , Chris Fallin , Ji Hye Lee , Donghyuk Lee , Chris Wilkerson , Konrad Lai , Onur Mutlu, Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665726"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Stanford University", 
+            "Name": "Heonjae Ha"
+        }, 
+        {
+            "Affiliation": "Stanford University and Movidius", 
+            "Name": "Ardavan Pedram"
+        }, 
+        {
+            "Affiliation": "Stanford University", 
+            "Name": "Stephen Richardson"
+        }, 
+        {
+            "Affiliation": "Technion - Israel Institute of Technology", 
+            "Name": "Shahar Kvatinsky"
+        }, 
+        {
+            "Affiliation": "Stanford University", 
+            "Name": "Mark Horowitz"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195670&preflayout=flat"
+}

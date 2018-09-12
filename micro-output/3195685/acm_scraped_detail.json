@@ -1,0 +1,266 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 0
+    }, 
+    "Title": "Replayconfusion: detecting cache-based covert channel attacks using record and replay", 
+    "Abstract": "Cache-based covert channel attacks use highly-tuned shared-cache conflict misses to pass information from a trojan to a spy process. Detecting such attacks is very challenging. State of the art detection mechanisms do not consider the general characteristics of such attacks and, instead, focus on specific communication protocols. As a result, they fail to detect attacks using different protocols and, hence, have limited coverage. In this paper, we make the following observation about these attacks: not only are the malicious accesses highly tuned to the mapping of addresses to the caches; they also follow a distinctive cadence as bits are being received. Changing the mapping of addresses to the caches substantially disrupts the conflict miss patterns, but retains the cadence. This is in contrast to benign programs. Based on this observation, we propose a novel, high-coverage approach to detect cache-based covert channel attacks. It is called ReplayConfusion, and is based on Record and deterministic Replay (RnR). After a program's execution is recorded, it is deterministically replayed using a different mapping of addresses to the caches. We then analyze the difference between the cache miss rate timelines of the two runs. If the difference function is both sizable and exhibits a periodic pattern, it indicates that there is an attack. This paper also introduces a new taxonomy of cache-based covert channel attacks, and shows that ReplayConfusion uncovers examples from all the categories. Finally, ReplayConfusion only needs simple hardware.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Butler W. Lampson, A note on the confinement problem, Communications of the ACM, v.16 n.10, p.613-615, Oct. 1973", 
+            "DOIhref": "http://doi.acm.org/10.1145/362375.362389", 
+            "DOIname": "10.1145/362375.362389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=362389"
+        }, 
+        {
+            "ArticleName": "Serdar Cabuk , Carla E. Brodley , Clay Shields, IP covert timing channels: design and detection, Proceedings of the 11th ACM conference on Computer and communications security, October 25-29, 2004, Washington DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1030083.1030108", 
+            "DOIname": "10.1145/1030083.1030108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1030108"
+        }, 
+        {
+            "ArticleName": "Steven Gianvecchio , Haining Wang , Duminda Wijesekera , Sushil Jajodia, Model-Based Covert Timing Channels: Automated Modeling and Evasion, Proceedings of the 11th international symposium on Recent Advances in Intrusion Detection, September 15-17, 2008, Cambridge, MA, USA", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-87403-4_12", 
+            "DOIname": "10.1007/978-3-540-87403-4_12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1433022"
+        }, 
+        {
+            "ArticleName": "Gaurav Shah , Andres Molina , Matt Blaze, Keyboards and covert channels, Proceedings of the 15th conference on USENIX Security Symposium, July 31-August 04, 2006, Vancouver, B.C., Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1267341"
+        }, 
+        {
+            "ArticleName": "Thomas Ristenpart , Eran Tromer , Hovav Shacham , Stefan Savage, Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds, Proceedings of the 16th ACM conference on Computer and communications security, November 09-13, 2009, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1653662.1653687", 
+            "DOIname": "10.1145/1653662.1653687", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1653687"
+        }, 
+        {
+            "ArticleName": "C. Percival, \"Cache missing for fun and profit,\" 2005."
+        }, 
+        {
+            "ArticleName": "Cl\u00e9mentine Maurice , Christoph Neumann , Olivier Heen , Aur\u00e9lien Francillon, C5: Cross-Cores Cache Covert Channel, Proceedings of the 12th International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment, July 09-10, 2015, Milan, Italy", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-20550-2_3", 
+            "DOIname": "10.1007/978-3-319-20550-2_3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2990856"
+        }, 
+        {
+            "ArticleName": "Zhenyu Wu , Zhang Xu , Haining Wang, Whispers in the hyper-space: high-speed covert channel attacks in the cloud, Proceedings of the 21st USENIX conference on Security symposium, p.9-9, August 08-10, 2012, Bellevue, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362802"
+        }, 
+        {
+            "ArticleName": "Yunjing Xu , Michael Bailey , Farnam Jahanian , Kaustubh Joshi , Matti Hiltunen , Richard Schlichting, An exploration of L2 cache covert channels in virtualized environments, Proceedings of the 3rd ACM workshop on Cloud computing security workshop, October 21-21, 2011, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2046660.2046670", 
+            "DOIname": "10.1145/2046660.2046670", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2046670"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Yuval Yarom , Qian Ge , Gernot Heiser , Ruby B. Lee, Last-Level Cache Side-Channel Attacks are Practical, Proceedings of the 2015 IEEE Symposium on Security and Privacy, p.605-622, May 17-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2015.43", 
+            "DOIname": "10.1109/SP.2015.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2867673"
+        }, 
+        {
+            "ArticleName": "C. Hunger, M. Kazdagli, A. Rawat, A. Dimakis, S. Vishwanath, and M. Tiwari, \"Understanding contention-based channels and using them for defense,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "Taesoo Kim , Marcus Peinado , Gloria Mainar-Ruiz, STEALTHMEM: system-level protection against cache-based side channel attacks in the cloud, Proceedings of the 21st USENIX conference on Security symposium, p.11-11, August 08-10, 2012, Bellevue, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362804"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, New cache designs for thwarting software cache-based side channel attacks, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250723", 
+            "DOIname": "10.1145/1250662.1250723", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250723"
+        }, 
+        {
+            "ArticleName": "Robert Martin , John Demme , Simha Sethumadhavan, TimeWarp: rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337173"
+        }, 
+        {
+            "ArticleName": "Wei-Ming Hu, Reducing Timing Channels with Fuzzy Time, Journal of Computer Security, v.1 n.3-4, p.233-254, May 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2699810"
+        }, 
+        {
+            "ArticleName": "F. Liu, Q. Ge, Y. Yarom, F. Mckeen, C. Rozas, G. Heiser, and R. B. Lee, \"CATalyst: Defeating last-level cache side channel attacks in cloud computing,\" in HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Yao Wang , Andrew Ferraiuolo , Danfeng Zhang , Andrew C. Myers , G. Edward Suh, SecDCP: secure dynamic cache partitioning for efficient timing channel protection, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2898086", 
+            "DOIname": "10.1145/2897937.2898086", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2898086"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Ruby B. Lee, Random Fill Cache Architecture, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.28", 
+            "DOIname": "10.1109/MICRO.2014.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742176"
+        }, 
+        {
+            "ArticleName": "Jie Chen , Guru Venkataramani, CC-Hunter: Uncovering Covert Timing Channels on Shared Processor Hardware, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.42", 
+            "DOIname": "10.1109/MICRO.2014.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742177"
+        }, 
+        {
+            "ArticleName": "Michael Neve , Jean-Pierre Seifert, Advances on access-driven cache attacks on AES, Proceedings of the 13th international conference on Selected areas in cryptography, August 17-18, 2006, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1756531"
+        }, 
+        {
+            "ArticleName": "Dag Arne Osvik , Adi Shamir , Eran Tromer, Cache attacks and countermeasures: the case of AES, Proceedings of the 2006 The Cryptographers' Track at the RSA conference on Topics in Cryptology, February 13-17, 2006, San Jose, CA", 
+            "DOIhref": "https://dx.doi.org/10.1007/11605805_1", 
+            "DOIname": "10.1007/11605805_1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2117741"
+        }, 
+        {
+            "ArticleName": "Cl\u00e9mentine Maurice , Nicolas Scouarnec , Christoph Neumann , Olivier Heen , Aur\u00e9lien Francillon, Reverse Engineering Intel Last-Level Cache Complex Addressing Using Performance Counters, Proceedings of the 18th International Symposium on Research in Attacks, Intrusions, and Defenses, November 02-04, 2015, Kyoto, Japan", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-26362-5_3", 
+            "DOIname": "10.1007/978-3-319-26362-5_3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2939211"
+        }, 
+        {
+            "ArticleName": "Y. Yarom, Q. Ge, F. Liu, R. B. Lee, and G. Heiser, \"Mapping the Intel last-level cache,\" Cryptology ePrint Archive, Tech. Rep., 2015."
+        }, 
+        {
+            "ArticleName": "Gorka Irazoqui , Thomas Eisenbarth , Berk Sunar, Systematic Reverse Engineering of Cache Slice Selection in Intel Processors, Proceedings of the 2015 Euromicro Conference on Digital System Design, p.629-636, August 26-28, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSD.2015.56", 
+            "DOIname": "10.1109/DSD.2015.56", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2860454"
+        }, 
+        {
+            "ArticleName": "M. Chiappetta, E. Savas, and C. Yilmaz, \"Real time detection of cache-based side-channel attacks using hardware performance counters,\" Cryptology ePrint Archive, Tech. Rep., 2015."
+        }, 
+        {
+            "ArticleName": "Mathias Payer, HexPADS: A Platform to Detect \"Stealth\" Attacks, Proceedings of the 8th International Symposium on Engineering Secure Software and Systems, p.138-154, April 06-08, 2016, London, UK", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-30806-7_9", 
+            "DOIname": "10.1007/978-3-319-30806-7_9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2990919"
+        }, 
+        {
+            "ArticleName": "Gilles Pokam , Klaus Danne , Cristiano Pereira , Rolf Kassa , Tim Kranich , Shiliang Hu , Justin Gottschlich , Nima Honarmand , Nathan Dautenhahn , Samuel T. King , Josep Torrellas, QuickRec: prototyping an intel architecture extension for record and replay of multithreaded programs, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485977", 
+            "DOIname": "10.1145/2485922.2485977", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485977"
+        }, 
+        {
+            "ArticleName": "Pablo Montesinos , Matthew Hicks , Samuel T. King , Josep Torrellas, Capo: a software-hardware interface for practical deterministic multiprocessor replay, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508254", 
+            "DOIname": "10.1145/1508244.1508254", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508254"
+        }, 
+        {
+            "ArticleName": "A. Burtsev, \"Xen deterministic time-travel (XenTT).\""
+        }, 
+        {
+            "ArticleName": "Anton Burtsev , David Johnson , Mike Hibler , Eric Eide , John Regehr, Abstractions for Practical Virtual Machine Replay, Proceedings of the12th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments, April 02-03, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2892242.2892257", 
+            "DOIname": "10.1145/2892242.2892257", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2892257"
+        }, 
+        {
+            "ArticleName": "Gautam Altekar , Ion Stoica, ODR: output-deterministic replay for multicore debugging, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629594", 
+            "DOIname": "10.1145/1629575.1629594", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629594"
+        }, 
+        {
+            "ArticleName": "Soyeon Park , Yuanyuan Zhou , Weiwei Xiong , Zuoning Yin , Rini Kaushik , Kyu H. Lee , Shan Lu, PRES: probabilistic replay with execution sketching on multiprocessors, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629593", 
+            "DOIname": "10.1145/1629575.1629593", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629593"
+        }, 
+        {
+            "ArticleName": "George W. Dunlap , Samuel T. King , Sukru Cinar , Murtaza A. Basrai , Peter M. Chen, ReVirt: enabling intrusion analysis through virtual-machine logging and replay, Proceedings of the 5th symposium on Operating systems design and implementationCopyright restrictions prevent ACM from being able to make the PDFs for this conference available for downloading, December 09-11, 2002, Boston, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1060309"
+        }, 
+        {
+            "ArticleName": "Ashlesha Joshi , Samuel T. King , George W. Dunlap , Peter M. Chen, Detecting past and present intrusions through vulnerability-specific predicates, Proceedings of the twentieth ACM symposium on Operating systems principles, October 23-26, 2005, Brighton, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/1095810.1095820", 
+            "DOIname": "10.1145/1095810.1095820", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1095820"
+        }, 
+        {
+            "ArticleName": "Edmund B. Nightingale , Daniel Peek , Peter M. Chen , Jason Flinn, Parallelizing security checks on commodity hardware, Proceedings of the 13th international conference on Architectural support for programming languages and operating systems, March 01-05, 2008, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1346281.1346321", 
+            "DOIname": "10.1145/1346281.1346321", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346321"
+        }, 
+        {
+            "ArticleName": "Georgios Portokalidis , Philip Homburg , Kostas Anagnostakis , Herbert Bos, Paranoid Android: versatile protection for smartphones, Proceedings of the 26th Annual Computer Security Applications Conference, December 06-10, 2010, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1920261.1920313", 
+            "DOIname": "10.1145/1920261.1920313", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1920313"
+        }, 
+        {
+            "ArticleName": "Saman Zonouz , Amir Houmansadr , Robin Berthier , Nikita Borisov , William Sanders, Secloud: A cloud-based comprehensive and lightweight security solution for smartphones, Computers and Security, 37, p.215-227, September, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.cose.2013.02.002", 
+            "DOIname": "10.1016/j.cose.2013.02.002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2622777"
+        }, 
+        {
+            "ArticleName": "Ang Chen , W. Brad Moore , Hanjun Xiao , Andreas Haeberlen , Linh Thi Xuan Phan , Micah Sherr , Wenchao Zhou, Detecting covert timing channels with time-deterministic replay, Proceedings of the 11th USENIX conference on Operating Systems Design and Implementation, October 06-08, 2014, Broomfield, CO", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685091"
+        }, 
+        {
+            "ArticleName": "Piet M. T. Broersen, Automatic Autocorrelation and Spectral Analysis, Springer-Verlag, Berlin, Heidelberg, 2006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1197729"
+        }, 
+        {
+            "ArticleName": "Nima Honarmand , Nathan Dautenhahn , Josep Torrellas , Samuel T. King , Gilles Pokam , Cristiano Pereira, Cyrus: unintrusive application-level record-replay for replay parallelism, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451138", 
+            "DOIname": "10.1145/2451116.2451138", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451138"
+        }, 
+        {
+            "ArticleName": "Pablo Montesinos , Luis Ceze , Josep Torrellas, DeLorean: Recording and Deterministically Replaying Shared-Memory Multiprocessor Execution Ef?ciently, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.289-300, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.36", 
+            "DOIname": "10.1109/ISCA.2008.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382146"
+        }, 
+        {
+            "ArticleName": "Avadh Patel , Furat Afram , Shunfei Chen , Kanad Ghose, MARSS: a full system simulator for multicore x86 CPUs, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024954", 
+            "DOIname": "10.1145/2024724.2024954", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024954"
+        }, 
+        {
+            "ArticleName": "Djellel Eddine Difallah , Andrew Pavlo , Carlo Curino , Philippe Cudre-Mauroux, OLTP-Bench: an extensible testbed for benchmarking relational databases, Proceedings of the VLDB Endowment, v.7 n.4, p.277-288, December 2013", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732240.2732246", 
+            "DOIname": "10.14778/2732240.2732246", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732246"
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "J. D. McCalpin, \"Memory bandwidth and machine balance in current high performance computers,\" TCCA, 1995."
+        }, 
+        {
+            "ArticleName": "Himanshu Raj , Ripal Nathuji , Abhishek Singh , Paul England, Resource management for isolation enhanced cloud services, Proceedings of the 2009 ACM workshop on Cloud computing security, November 13-13, 2009, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1655008.1655019", 
+            "DOIname": "10.1145/1655008.1655019", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1655019"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois, Urbana-Champaign", 
+            "Name": "Mengjia Yan"
+        }, 
+        {
+            "Affiliation": "University of Illinois, Urbana-Champaign", 
+            "Name": "Yasser Shalabi"
+        }, 
+        {
+            "Affiliation": "University of Illinois, Urbana-Champaign", 
+            "Name": "Josep Torrellas"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195685&preflayout=flat"
+}

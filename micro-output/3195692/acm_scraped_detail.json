@@ -1,0 +1,214 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Andreas Becher , Stefan Wildermann , J\u00fcrgen Teich, Optimistic regular expression matching on FPGAs for near-data processing, Proceedings of the 14th International Workshop on Data Management on New Hardware, p.1-3, June 11-11, 2018, Houston, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3211926"
+        }, 
+        {
+            "ArticleName": "Shuyi Pei , Jing Yang , Qing Yang, REGISTOR: A Platform for Unstructured Data Processing Inside SSD Storage, Proceedings of the 11th ACM International Systems and Storage Conference, June 04-07, 2018, Haifa, Israel", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3211900"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 16, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 16, 
+        "CitationCount": 2
+    }, 
+    "Title": "HARE: hardware accelerator for regular expressions", 
+    "Abstract": "Rapidly processing text data is critical for many technical and business applications. Traditional software-based tools for processing large text corpora use memory bandwidth inefficiently due to software overheads and thus fall far short of peak scan rates possible on modern memory systems. Prior hardware designs generally target I/O rather than memory bandwidth. In this paper, we present HARE, a hardware accelerator for matching regular expressions against large in-memory logs. HARE comprises a stall-free hardware pipeline that scans input data at a fixed rate, examining multiple characters from a single input stream in parallel in a single accelerator clock cycle. We describe a 1GHz 32-character-wide HARE design targeting ASIC implementation that processes data at 32 GB/s---matching modern memory bandwidths. This ASIC design outperforms software solutions by as much as two orders of magnitude. We further demonstrate a scaled-down FPGA proof-of-concept that operates at 100MHz with 4-wide parallelism (400 MB/s). Even at this reduced rate, the prototype outperforms grep by 1.5--20x on commonly used regular expressions.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"Helios Regular Expression Processor.\" {Online}. Available: http://titanicsystems.com/Products/Regular-eXpression-Processor-(RXP)"
+        }, 
+        {
+            "ArticleName": "\"Intel and Micron Produce Breakthrough Memory Technology.\" {Online}. Available: https://newsroom.intel.com/news-releases/intel-and-micron-produce-breakthrough-memory-technology/"
+        }, 
+        {
+            "ArticleName": "\"Regular expression library.\" {Online}. Available: http://regexlib.com/"
+        }, 
+        {
+            "ArticleName": "\"Snort.\" {Online}. Available: http://snort.org/"
+        }, 
+        {
+            "ArticleName": "\"Structuring Unstructured Data.\" {Online}. Available: www.forbes.com/2007/04/04/teradata-solution-software-biz-logistics-cx_rm_0405data.html/"
+        }, 
+        {
+            "ArticleName": "Alfred V. Aho, Algorithms for finding patterns in strings, Handbook of theoretical computer science (vol. A): algorithms and complexity, MIT Press, Cambridge, MA, 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=114877"
+        }, 
+        {
+            "ArticleName": "Alfred V. Aho , Margaret J. Corasick, Efficient string matching: an aid to bibliographic search, Communications of the ACM, v.18 n.6, p.333-340, June 1975", 
+            "DOIhref": "http://doi.acm.org/10.1145/360825.360855", 
+            "DOIname": "10.1145/360825.360855", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360855"
+        }, 
+        {
+            "ArticleName": "Krste Asanovic , Rastislav Bodik , James Demmel , Tony Keaveny , Kurt Keutzer , John Kubiatowicz , Nelson Morgan , David Patterson , Koushik Sen , John Wawrzynek , David Wessel , Katherine Yelick, A view of the parallel computing landscape, Communications of the ACM, v.52 n.10, October 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1562764.1562783", 
+            "DOIname": "10.1145/1562764.1562783", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1562783"
+        }, 
+        {
+            "ArticleName": "M. Becchi, M. Franklin, and P. Crowley, \"A workload for evaluating deep packet inspection architectures,\" in IEEE International Symposium on Workload Characterization, 2008."
+        }, 
+        {
+            "ArticleName": "J. Bispo, I. Sourdis, J. M. P. Cardoso, and S. Vassiliadis, \"Regular expression matching for reconfigurable packet inspection,\" in IEEE International Conference on Field Programmable Technology, 2006."
+        }, 
+        {
+            "ArticleName": "Robert D. Cameron , Dan Lin, Architectural support for SWAR text processing with parallel bit streams: the inductive doubling principle, Proceedings of the 14th international conference on Architectural support for programming languages and operating systems, March 07-11, 2009, Washington, DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508244.1508283", 
+            "DOIname": "10.1145/1508244.1508283", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508283"
+        }, 
+        {
+            "ArticleName": "Robert D. Cameron , Thomas C. Shermer , Arrvindh Shriraman , Kenneth S. Herdy , Dan Lin , Benjamin R. Hull , Meng Lin, Bitwise data parallelism in regular expression matching, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628079", 
+            "DOIname": "10.1145/2628071.2628079", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628079"
+        }, 
+        {
+            "ArticleName": "P. Dlugosch, D. Brown, P. Glendenning, M. Leventhal, and H. Noyes, \"An efficient and scalable semiconductor architecture for parallel automata processing,\" IEEE Transactions on Parallel and Distributed Systems, vol. 25, no. 12, pp. 3088--3098, 2014."
+        }, 
+        {
+            "ArticleName": "Yuanwei Fang , Tung T. Hoang , Michela Becchi , Andrew A. Chien, Fast support for unstructured data processing: the unified automata processor, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830809", 
+            "DOIname": "10.1145/2830772.2830809", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830809"
+        }, 
+        {
+            "ArticleName": "H. Franke, C. Johnson, and J. Brown, \"The ibm power edge of network processor,\" 2010."
+        }, 
+        {
+            "ArticleName": "E. Hatcher and O. Gospodnetic, \"Lucene in action,\" 2004."
+        }, 
+        {
+            "ArticleName": "Jan Holub , Stanislav \u0160tekr, On Parallel Implementations of Deterministic Finite Automata, Proceedings of the 14th International Conference on Implementation and Application of Automata, July 14-17, 2009, Sydney, Australia", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-02979-0_9", 
+            "DOIname": "10.1007/978-3-642-02979-0_9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1577708"
+        }, 
+        {
+            "ArticleName": "John E. Hopcroft , Jeffrey D. Ullman, Formal languages and their relation to automata, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 1969", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1095702"
+        }, 
+        {
+            "ArticleName": "N. Hua, H. Song, and T. Lakshman, \"Variable-stride multi-pattern matching for scalable deep packet inspection,\" in INFOCOM 2009, IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Dan Lin , Nigel Medforth , Kenneth S. Herdy , Arrvindh Shriraman , Rob Cameron, Parabix: Boosting the efficiency of text processing on commodity processors, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169041", 
+            "DOIname": "10.1109/HPCA.2012.6169041", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192656"
+        }, 
+        {
+            "ArticleName": "Jan Van Lunteren , Christoph Hagleitner , Timothy Heil , Giora Biran , Uzi Shvadron , Kubilay Atasu, Designing a Programmable Wire-Speed Regular-Expression Matching Accelerator, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.461-472, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.49", 
+            "DOIname": "10.1109/MICRO.2012.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457520"
+        }, 
+        {
+            "ArticleName": "Stefan Manegold , Martin L. Kersten , Peter Boncz, Database architecture evolution: mammals flourished long before dinosaurs became extinct, Proceedings of the VLDB Endowment, v.2 n.2, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.14778/1687553.1687618", 
+            "DOIname": "10.14778/1687553.1687618", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1687618"
+        }, 
+        {
+            "ArticleName": "S. Memeti and S. Pllana, \"Parem: A novel approach for parallel regular expression matching,\" CoRR, 2014."
+        }, 
+        {
+            "ArticleName": "Abhishek Mitra , Walid Najjar , Laxmi Bhuyan, Compiling PCRE to FPGA for accelerating SNORT IDS, Proceedings of the 3rd ACM/IEEE Symposium on Architecture for networking and communications systems, December 03-04, 2007, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1323548.1323571", 
+            "DOIname": "10.1145/1323548.1323571", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1323571"
+        }, 
+        {
+            "ArticleName": "Todd Mytkowicz , Madanlal Musuvathi , Wolfram Schulte, Data-parallel finite-state machines, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541988", 
+            "DOIname": "10.1145/2541940.2541988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541988"
+        }, 
+        {
+            "ArticleName": "M. E. Richard L. Villars, Carl W. Olofson, Big Data: What It Is and Why You Should Care. IDC, 2011."
+        }, 
+        {
+            "ArticleName": "Valentina Salapura , Tejas Karkhanis , Priya Nagpurkar , Jose Moreira, Accelerating business analytics applications, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-10, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169044", 
+            "DOIname": "10.1109/HPCA.2012.6169044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192659"
+        }, 
+        {
+            "ArticleName": "Reetinder Sidhu , Viktor K. Prasanna, Fast Regular Expression Matching Using FPGAs, Proceedings of the the 9th Annual IEEE Symposium on Field-Programmable Custom Computing Machines, p.227-238, April 29-May 02, 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2001.22", 
+            "DOIname": "10.1109/FCCM.2001.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1058885"
+        }, 
+        {
+            "ArticleName": "Michael Sipser, Introduction to the Theory of Computation, International Thomson Publishing, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=524279"
+        }, 
+        {
+            "ArticleName": "Michael Stonebraker , Lawrence A. Rowe, The design of POSTGRES, Proceedings of the 1986 ACM SIGMOD international conference on Management of data, p.340-355, May 28-30, 1986, Washington, D.C., USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/16894.16888", 
+            "DOIname": "10.1145/16894.16888", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=16888"
+        }, 
+        {
+            "ArticleName": "M. Stonebraker and A. Weisberg, \"The voltdb main memory dbms.\" IEEE Data Eng. Bull., 2013."
+        }, 
+        {
+            "ArticleName": "Lin Tan , Timothy Sherwood, A High Throughput String Matching Architecture for Intrusion Detection and Prevention, Proceedings of the 32nd annual international symposium on Computer Architecture, p.112-122, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.5", 
+            "DOIname": "10.1109/ISCA.2005.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069981"
+        }, 
+        {
+            "ArticleName": "P. Tandon, F. M. Sleiman, M. Cafarella, and T. F. Wenisch, \"Hawk: Hardware support for unstructured log processing,\" in International Conference on Data Engineering, 2016."
+        }, 
+        {
+            "ArticleName": "J. van Lunteren, \"High-performance pattern-matching for intrusion detection,\" in 25th IEEE International Conference on Computer Communications, 2006."
+        }, 
+        {
+            "ArticleName": "Hao Wang , Shi Pu , Gabe Knezek , Jyh-Charn Liu, MIN-MAX: A Counter-Based Algorithm for Regular Expression Matching, IEEE Transactions on Parallel and Distributed Systems, v.24 n.1, p.92-103, January 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2012.116", 
+            "DOIname": "10.1109/TPDS.2012.116", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2420803"
+        }, 
+        {
+            "ArticleName": "Yi-Hua Yang , Viktor Prasanna, High-Performance and Compact Architecture for Regular Expression Matching on FPGA, IEEE Transactions on Computers, v.61 n.7, p.1013-1025, July 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2011.129", 
+            "DOIname": "10.1109/TC.2011.129", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2311736"
+        }, 
+        {
+            "ArticleName": "Yi-Hua E. Yang , Weirong Jiang , Viktor K. Prasanna, Compact architecture for high-throughput regular expression matching on FPGA, Proceedings of the 4th ACM/IEEE Symposium on Architectures for Networking and Communications Systems, November 06-07, 2008, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1477942.1477948", 
+            "DOIname": "10.1145/1477942.1477948", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1477948"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Vaibhav Gogte"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Aasheesh Kolli"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Michael J. Cafarella"
+        }, 
+        {
+            "Affiliation": "University of Wisconsin-Madison", 
+            "Name": "Loris D'Antoni"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Thomas F. Wenisch"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195692&preflayout=flat"
+}

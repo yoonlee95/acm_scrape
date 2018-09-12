@@ -1,0 +1,209 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Hyeonuk Sim , Saken Kenzhegulov , Jongeun Lee, DPS: dynamic precision scaling for stochastic computing-based deep neural networks, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196028"
+        }, 
+        {
+            "ArticleName": "Sayeh Sharify , Alberto Delmas Lascorz , Kevin Siu , Patrick Judd , Andreas Moshovos, Loom: exploiting weight and activation precisions to accelerate convolutional neural networks, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196072"
+        }, 
+        {
+            "ArticleName": "Kiseok Kwon , Alon Amid , Amir Gholami , Bichen Wu , Krste Asanovic , Kurt Keutzer, Co-design of deep neural nets and neural net accelerators for embedded vision applications, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3199849"
+        }, 
+        {
+            "ArticleName": "Min Soo Kim , Alberto A. Del Barrio , Rom\u00e1n Hermida , Nader Bagherzadeh, Low-power implementation of mitchell's approximate logarithmic multiplication for convolutional neural networks, Proceedings of the 23rd Asia and South Pacific Design Automation Conference, January 22-25, 2018, Jeju, Republic of Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3201750"
+        }, 
+        {
+            "ArticleName": "Yu Ji , Youhui Zhang , Wenguang Chen , Yuan Xie, Bridge the Gap between Neural Networks and Neuromorphic Hardware with a Neural Network Compiler, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173205"
+        }, 
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 19, 
+        "Downloads_6Weeks": 7, 
+        "Downloads_cumulative": 19, 
+        "CitationCount": 6
+    }, 
+    "Title": "Stripes: bit-serial deep neural network computing", 
+    "Abstract": "Motivated by the variance in the numerical precision requirements of Deep Neural Networks (DNNs) [1], [2], Stripes (STR), a hardware accelerator is presented whose execution time scales almost proportionally with the length of the numerical representation used. STR relies on bit-serial compute units and on the parallelism that is naturally present within DNNs to improve performance and energy with no accuracy loss. In addition, STR provides a new degree of adaptivity enabling on-the-fly trade-offs among accuracy, performance, and energy. Experimental measurements over a set of DNNs for image classification show that STR improves performance over a state-of-the-art accelerator [3] from 1.30x to 4.51x and by 1.92x on average with no accuracy loss. STR is 57% more energy efficient than the baseline at a cost of 32% additional area. Additionally, by enabling configurable, per-layer and per-bit precision control, STR allows the user to trade accuracy for further speedup and energy efficiency.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. Aamodt, N. E. Jerger, R. Urtasun, and A. Moshovos, \"Reduced-Precision Strategies for Bounded Memory in Deep Neural Nets, arXiv:1511.05236v4 {cs.LG},\" arXiv.org, 2015."
+        }, 
+        {
+            "ArticleName": "S. Anwar, K. Hwang, and W. Sung, \"Fixed point optimization of deep convolutional neural networks for object recognition,\" in 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Apr. 2015, pp. 1131--1135."
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Ross Girshick , Jeff Donahue , Trevor Darrell , Jitendra Malik, Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, p.580-587, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPR.2014.81", 
+            "DOIname": "10.1109/CVPR.2014.81", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2679851"
+        }, 
+        {
+            "ArticleName": "A. Y. Hannun, C. Case, J. Casper, B. C. Catanzaro, G. Diamos, E. Elsen, R. Prenger, S. Satheesh, S. Sengupta, A. Coates, and A. Y. Ng, \"Deep speech: Scaling up end-to-end speech recognition,\" CoRR, vol. abs/1412.5567, 2014."
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "AMD, \"AMD GRAPHICS CORES NEXT (GCN). Whitepaper.\" \"https://www.amd.com/Documents/GCN_Architecture_whitepaper.pdf\", 2012."
+        }, 
+        {
+            "ArticleName": "I. Buck, \"NVIDIA's Next-Gen Pascal GPU Architecture to Provide 10X Speedup for Deep Learning Apps,\" \"http://blogs.nvidia.com/blog/2015/03/17/pascal/\", 2015."
+        }, 
+        {
+            "ArticleName": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, \"Caffe: Convolutional architecture for fast feature embedding,\" arXiv preprint arXiv:1408.5093, 2014."
+        }, 
+        {
+            "ArticleName": "S. Gupta, A. Agrawal, K. Gopalakrishnan, and P. Narayanan, \"Deep learning with limited numerical precision,\" CoRR, vol. abs/1502.02551, 2015."
+        }, 
+        {
+            "ArticleName": "M. Courbariaux, Y. Bengio, and J. David, \"Low precision arithmetic for deep learning,\" CoRR, vol. abs/1412.7024, 2014."
+        }, 
+        {
+            "ArticleName": "Alex Peleg , Uri Weiser, MMX Technology Extension to the Intel Architecture, IEEE Micro, v.16 n.4, p.42-50, August 1996", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.526924", 
+            "DOIname": "10.1109/40.526924", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624024"
+        }, 
+        {
+            "ArticleName": "P. Judd, J. Albericio, T. Hetherington, T. Aamodt, N. Enright Jerger, and A. Moshovos, \"Proteus: Exploiting numerical precision variability in deep neural networks,\" in Workshop On Approximate Computing (WAPCO), 2016."
+        }, 
+        {
+            "ArticleName": "S. White, \"Applications of distributed arithmetic to digital signal processing: a tutorial review,\" IEEE ASSP Magazine, vol. 6, no. 3, pp. 4--19, Jul. 1989."
+        }, 
+        {
+            "ArticleName": "K. He, X. Zhang, S. Ren, and J. Sun, \"Deep Residual Learning for Image Recognition,\" arXiv:1512.03385 {cs}, Dec. 2015, arXiv:1512.03385. {Online}. Available: http://arxiv.org/abs/1512.03385"
+        }, 
+        {
+            "ArticleName": "Dimitri Tan , Albert Danysh , Michael Liebelt, Multiple-Precision Fixed-Point Vector Multiply-Accumulator Using Shared Segmentation, Proceedings of the 16th IEEE Symposium on Computer Arithmetic (ARITH-16'03), p.12, June 15-18, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=786620"
+        }, 
+        {
+            "ArticleName": "Libo Huang , Sheng Ma , Li Shen , Zhiying Wang , Nong Xiao, Low-Cost Binary128 Floating-Point FMA Unit Design with SIMD Support, IEEE Transactions on Computers, v.61 n.5, p.745-751, May 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2011.77", 
+            "DOIname": "10.1109/TC.2011.77", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2196955"
+        }, 
+        {
+            "ArticleName": "Y. Jia, \"Caffe model zoo,\" https://github.com/BVLC/caffe/wiki/Model-Zoo, 2015."
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Synopsys, \"Design Compiler,\" http://www.synopsys.com/Tools/Implementation/RTLSynthesis/DesignCompiler/Pages."
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar and R. Balasubramonian, \"Cacti 6.0: A tool to understand large caches.\""
+        }, 
+        {
+            "ArticleName": "Matt Poremba , Sparsh Mittal , Dong Li , Jeffrey S. Vetter , Yuan Xie, DESTINY: a tool for modeling emerging 3D NVM and eDRAM caches, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2757168"
+        }, 
+        {
+            "ArticleName": "W. D. Hillis, \"The connection machine,\" Thesis, Massachusetts Institute of Technology, 1985, 00682. {Online}. Available: http://dspace.mit.edu/handle/1721.1/14719"
+        }, 
+        {
+            "ArticleName": "A. Sinha and A. Chandrakasan, \"Energy efficient filtering using adaptive precision and variable voltage,\" in ASIC/SOC Conference, 1999. Proceedings. Twelfth Annual IEEE International, 1999, pp. 327--331."
+        }, 
+        {
+            "ArticleName": "T. Xanthopoulos and A. Chandrakasan, \"A low-power DCT core using adaptive bitwidth and arithmetic activity exploiting signal correlations and quantization,\" IEEE Journal of Solid-State Circuits, vol. 35, no. 5, pp. 740--750, May 2000."
+        }, 
+        {
+            "ArticleName": "Tam\u00e1s Szab\u00f3 , L\u00f6rinc Antoni , G\u00e1bor Horv\u00e1th , B\u00e9la Feh\u00e9r, A Full-Parallel Digital Implementation for Pre-Trained NNs, Proceedings of the IEEE-INNS-ENNS International Joint Conference on Neural Networks (IJCNN'00)-Volume 2, p.2049, July 24-27, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=853978"
+        }, 
+        {
+            "ArticleName": "V. Salapura, \"Neural networks using bit stream arithmetic: a space efficient implementation,\" in, 1994 IEEE International Symposium on Circuits and Systems, 1994. ISCAS '94, vol. 6, May 1994, pp. 475--478 vol.6."
+        }, 
+        {
+            "ArticleName": "Jongsun Park , Jung Hwan Choi , Kaushik Roy, Dynamic bit-width adaptation in DCT: an approach to trade off image quality and computation energy, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.18 n.5, p.787-793, May 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2009.2016839", 
+            "DOIname": "10.1109/TVLSI.2009.2016839", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1890856"
+        }, 
+        {
+            "ArticleName": "J. Kim, K. Hwang, and W. Sung, \"X1000 real-time phoneme recognition VLSI using feed-forward deep neural networks,\" in 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), May 2014, pp. 7510--7514."
+        }, 
+        {
+            "ArticleName": "Daofu Liu , Tianshi Chen , Shaoli Liu , Jinhong Zhou , Shengyuan Zhou , Olivier Teman , Xiaobing Feng , Xuehai Zhou , Yunji Chen, PuDianNao: A Polyvalent Machine Learning Accelerator, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694358", 
+            "DOIname": "10.1145/2694344.2694358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694358"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Chen, Yu-Hsin and Krishna, Tushar and Emer, Joel and Sze, Vivienne, \"Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks,\" in IEEE International Solid-State Circuits Conference, ISSCC 2016, Digest of Technical Papers, 2016, pp. 262--263."
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "S. Han, H. Mao, and W. J. Dally, \"Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding,\" arXiv:1510.00149 {cs}, Oct. 2015, arXiv: 1510.00149. {Online}. Available: http://arxiv.org/abs/1510.00149"
+        }, 
+        {
+            "ArticleName": "L. Cavigelli and L. Benini, \"A 803 gop/s/w convolutional network accelerator,\" 2016."
+        }, 
+        {
+            "ArticleName": "K. Hwang and W. Sung, \"Fixed-point feedforward deep neural network design using weights #x002b;1, 0, and #x2212;1,\" in 2014 IEEE Workshop on Signal Processing Systems (SiPS), Oct. 2014, pp. 1--6."
+        }, 
+        {
+            "ArticleName": "M. Courbariaux, Y. Bengio, and J.-P. David, \"BinaryConnect: Training Deep Neural Networks with binary weights during propagations,\" ArXiv e-prints, Nov. 2015."
+        }, 
+        {
+            "ArticleName": "Z. Lin, M. Courbariaux, R. Memisevic, and Y. Bengio, \"Neural Networks with Few Multiplications,\" arXiv:1510.03009 {cs}, Oct. 2015, arXiv: 1510.03009."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Patrick Judd"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Jorge Albericio"
+        }, 
+        {
+            "Affiliation": "University of British Columbia", 
+            "Name": "Tayler Hetherington"
+        }, 
+        {
+            "Affiliation": "University of British Columbia", 
+            "Name": "Tor M. Aamodt"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Andreas Moshovos"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195661&preflayout=flat"
+}

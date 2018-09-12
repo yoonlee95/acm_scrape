@@ -1,0 +1,187 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Shih-Chieh Lin , Yunqi Zhang , Chang-Hong Hsu , Matt Skach , Md E. Haque , Lingjia Tang , Jason Mars, The Architectural Implications of Autonomous Driving: Constraints and Acceleration, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173191"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 12, 
+        "Downloads_6Weeks": 2, 
+        "Downloads_cumulative": 12, 
+        "CitationCount": 1
+    }, 
+    "Title": "An ultra low-power hardware accelerator for automatic speech recognition", 
+    "Abstract": "Automatic Speech Recognition (ASR) is becoming increasingly ubiquitous, especially in the mobile segment. Fast and accurate ASR comes at a high energy cost which is not affordable for the tiny power budget of mobile devices. Hardware acceleration can reduce power consumption of ASR systems, while delivering high-performance. In this paper, we present an accelerator for large-vocabulary, speaker-independent, continuous speech recognition. It focuses on the Viterbi search algorithm, that represents the main bottleneck in an ASR system. The proposed design includes innovative techniques to improve the memory subsystem, since memory is identified as the main bottleneck for performance and power in the design of these accelerators. We propose a prefetching scheme tailored to the needs of an ASR system that hides main memory latency for a large fraction of the memory accesses with a negligible impact on area. In addition, we introduce a novel bandwidth saving technique that removes 20% of the off-chip memory accesses issued during the Viterbi search. The proposed design outperforms software implementations running on the CPU by orders of magnitude and achieves 1.7x speedup over a highly optimized CUDA implementation running on a high-end Geforce GTX 980 GPU, while reducing by two orders of magnitude (287x) the energy required to convert the speech into text.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Johann Hauswald , Yiping Kang , Michael A. Laurenzano , Quan Chen , Cheng Li , Trevor Mudge , Ronald G. Dreslinski , Jason Mars , Lingjia Tang, DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2749472", 
+            "DOIname": "10.1145/2749469.2749472", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749472"
+        }, 
+        {
+            "ArticleName": "J. Choi, K. You, and W. Sung, \"An fpga implementation of speech recognition with weighted finite state transducers,\" in Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on, March 2010, pp. 1602--1605."
+        }, 
+        {
+            "ArticleName": "Jeffrey R. Johnston , Rob A. Rutenbar, A High-Rate, Low-Power, ASIC Speech Decoder Using Finite State Transducers, Proceedings of the 2012 IEEE 23rd International Conference on Application-Specific Systems, Architectures and Processors, p.77-85, July 09-11, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ASAP.2012.25", 
+            "DOIname": "10.1109/ASAP.2012.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2408830"
+        }, 
+        {
+            "ArticleName": "M. Price, J. Glass, and A. P. Chandrakasan, \"A 6 mw, 5,000-word real-time speech recognizer using wfst models,\" IEEE Journal of Solid-State Circuits, vol. 50, no. 1, pp. 102--112, Jan 2015."
+        }, 
+        {
+            "ArticleName": "Google Now, https://en.wikipedia.org/wiki/Google_Now."
+        }, 
+        {
+            "ArticleName": "Apple Siri, https://en.wikipedia.org/wiki/Siri."
+        }, 
+        {
+            "ArticleName": "Microsoft Cortana, https://en.wikipedia.org/wiki/Cortana_%28software%29."
+        }, 
+        {
+            "ArticleName": "\"IBM Watson Speech to Text,\" http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html."
+        }, 
+        {
+            "ArticleName": "D. Povey, A. Ghoshal, G. Boulianne, L. Burget, O. Glembek, N. Goel, M. Hannemann, P. Motlicek, Y. Qian, P. Schwarz, J. Silovsky, G. Stemmer, and K. Vesely, \"The kaldi speech recognition toolkit,\" in IEEE 2011 Workshop on Automatic Speech Recognition and Understanding. IEEE Signal Processing Society, Dec. 2011, iEEE Catalog No.: CFP11SRW-USB."
+        }, 
+        {
+            "ArticleName": "K. You, J. Chong, Y. Yi, E. Gonina, C. J. Hughes, Y. K. Chen, W. Sung, and K. Keutzer, \"Parallel scalability in speech recognition,\" IEEE Signal Processing Magazine, vol. 26, no. 6, pp. 124--135, November 2009."
+        }, 
+        {
+            "ArticleName": "J. Chong, E. Gonina, Y. Yi, and K. Keutzer, \"A fully data parallel wfstbased large vocabulary continuous speech recognition on a graphics processing unit,\" in in 10th Annual Conference of the International Speech Communication Association (InterSpeech, 2009."
+        }, 
+        {
+            "ArticleName": "J. Chong, E. Gonina, and K. Keutzer, \"Efficient automatic speech recognition on the gpu,\" Chapter in GPU Computing Gems Emerald Edition, Morgan Kaufmann, vol. 1, 2011."
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Adam Louis Janin , Nelson Morgan, Speech recognition on vector architectures, University of California at Berkeley, Berkeley, CA, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1087961"
+        }, 
+        {
+            "ArticleName": "A. Lumsdaine, D. Gregor, B. Hendrickson, and J. Berry, \"Challenges in parallel graph processing,\" Parallel Processing Letters, vol. 17, no. 01, pp. 5--20, 2007."
+        }, 
+        {
+            "ArticleName": "R. Vergin, D. O'Shaughnessy, and A. Farhat, \"Generalized mel frequency cepstral coefficients for large-vocabulary speaker-independent continuous-speech recognition,\" Speech and Audio Processing, IEEE Transactions on, vol. 7, no. 5, pp. 525--532, Sep 1999."
+        }, 
+        {
+            "ArticleName": "L. Bahl, R. Bakis, P. Cohen, A. Cole, F. Jelinek, B. Lewis, and R. Mercer, \"Further results on the recognition of a continuously read natural corpus,\" in Acoustics, Speech, and Signal Processing, IEEE International Conference on ICASSP '80., vol. 5, Apr 1980, pp. 872--875."
+        }, 
+        {
+            "ArticleName": "Mehryar Mohri , Fernando Pereira , Michael Riley, Weighted finite-state transducers in speech recognition, Computer Speech and Language, v.16 n.1, p.69-88, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1006/csla.2001.0184", 
+            "DOIname": "10.1006/csla.2001.0184", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2826918"
+        }, 
+        {
+            "ArticleName": "X. Lingyun and D. Limin, \"Efficient viterbi beam search algorithm using dynamic pruning,\" in Signal Processing, 2004. Proceedings. ICSP '04. 2004 7th International Conference on, vol. 1, Aug 2004, pp. 699--702 vol.1."
+        }, 
+        {
+            "ArticleName": "S. Kanthak, H. Ney, M. Riley, and M. Mohri, \"A comparison of two lvr search optimization techniques,\" in IN PROC. INT. CONF. SPOKEN LANGUAGE PROCESSING, 2002, pp. 1309--1312."
+        }, 
+        {
+            "ArticleName": "Kyle J. Nesbit , James E. Smith, Data Cache Prefetching Using a Global History Buffer, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.96, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10030", 
+            "DOIname": "10.1109/HPCA.2004.10030", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072460"
+        }, 
+        {
+            "ArticleName": "John W. C. Fu , Janak H. Patel , Bob L. Janssens, Stride directed prefetching in scalar processors, Proceedings of the 25th annual international symposium on Microarchitecture, p.102-110, December 01-04, 1992, Portland, Oregon, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=145006"
+        }, 
+        {
+            "ArticleName": "James E. Smith, Decoupled access/execute computer architectures, ACM Transactions on Computer Systems (TOCS), v.2 n.4, p.289-308, Nov. 1984", 
+            "DOIhref": "http://doi.acm.org/10.1145/357401.357403", 
+            "DOIname": "10.1145/357401.357403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357403"
+        }, 
+        {
+            "ArticleName": "Homan Igehy , Matthew Eldridge , Kekoa Proudfoot, Prefetching in a texture cache architecture, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.133-ff., August 31-September 01, 1998, Lisbon, Portugal", 
+            "DOIhref": "http://doi.acm.org/10.1145/285305.285321", 
+            "DOIname": "10.1145/285305.285321", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=285321"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "S. Li, J. H. Ahn, J. B. Brockman, and N. P. Jouppi, \"McPAT 1.0: An Integrated Power, Area, and Timing Modeling Framework for Multicore Architectures,\" Tech. Rep."
+        }, 
+        {
+            "ArticleName": "V. Panayotov, G. Chen, D. Povey, and S. Khudanpur, \"Librispeech: An asr corpus based on public domain audio books,\" in Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on, April 2015, pp. 5206--5210."
+        }, 
+        {
+            "ArticleName": "Vincent M. Weaver , Matt Johnson , Kiran Kasichayanula , James Ralph , Piotr Luszczek , Dan Terpstra , Shirley Moore, Measuring Energy and Power with PAPI, Proceedings of the 2012 41st International Conference on Parallel Processing Workshops, p.262-268, September 10-13, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPPW.2012.39", 
+            "DOIname": "10.1109/ICPPW.2012.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2410475"
+        }, 
+        {
+            "ArticleName": "J. Chong, E. Gonina, and K. Keutzer, \"Efficient automatic speech recognition on the gpu,\" Chapter in GPU Computing Gems Emerald Edition, Morgan Kaufmann, 2011."
+        }, 
+        {
+            "ArticleName": "NVIDIA Visual Profiler, https://developer.nvidia.com/nvidia-visual-profiler."
+        }, 
+        {
+            "ArticleName": "GeForce 900 series, https://en.wikipedia.org/wiki/GeForce_900_series."
+        }, 
+        {
+            "ArticleName": "Kisun You , Jungwook Choi , Wonyong Sung, Flexible and Expandable Speech Recognition Hardware with Weighted Finite State Transducers, Journal of Signal Processing Systems, v.66 n.3, p.235-244, March 2012", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11265-011-0587-9", 
+            "DOIname": "10.1007/s11265-011-0587-9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2159271"
+        }, 
+        {
+            "ArticleName": "Edward C. Lin , Rob A. Rutenbar, A multi-fpga 10x-real-time high-speed search engine for a 5000-word vocabulary speech recognizer, Proceedings of the ACM/SIGDA international symposium on Field programmable gate arrays, February 22-24, 2009, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1508128.1508141", 
+            "DOIname": "10.1145/1508128.1508141", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1508141"
+        }, 
+        {
+            "ArticleName": "P. J. Bourke, \"A low-power hardware architecture for speech recognition search,\" Ph.D. dissertation, Carnegie Mellon University, 2011."
+        }, 
+        {
+            "ArticleName": "Binu Mathew , Al Davis , Zhen Fang, A low-power accelerator for the SPHINX 3 speech recognition system, Proceedings of the 2003 international conference on Compilers, architecture and synthesis for embedded systems, October 30-November 01, 2003, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/951710.951739", 
+            "DOIname": "10.1145/951710.951739", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=951739"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Universitat Politecnica de Catalunya", 
+            "Name": "Reza Yazdani"
+        }, 
+        {
+            "Affiliation": "Universitat Politecnica de Catalunya", 
+            "Name": "Albert Segura"
+        }, 
+        {
+            "Affiliation": "Universitat Politecnica de Catalunya", 
+            "Name": "Jose-Maria Arnau"
+        }, 
+        {
+            "Affiliation": "Universitat Politecnica de Catalunya", 
+            "Name": "Antonio Gonzalez"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195696&preflayout=flat"
+}

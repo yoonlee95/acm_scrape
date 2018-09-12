@@ -1,0 +1,293 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 171, 
+        "Downloads_6Weeks": 11, 
+        "Downloads_cumulative": 171, 
+        "CitationCount": 0
+    }, 
+    "Title": "Xylem: enhancing vertical thermal conduction in 3D processor-memory stacks", 
+    "Abstract": "In upcoming architectures that stack processor and DRAM dies, temperatures are higher because of the increased transistor density and the high inter-layer thermal resistance. However, past research has underestimated the extent of the thermal bottleneck. Recent experimental work shows that the Die-to-Die (D2D) layers hinder effective heat transfer, likely leading to the capping of core frequencies. To address this problem, in this paper, we first show how to create pillars of high thermal conduction from the processor die to the heat sink. We do this by aligning and shorting dummy D2D \u03bcbumps with thermal TSVs (TTSVs). This lowers processor temperatures substantially. We then improve application performance by boosting the processor frequency until we consume the available thermal headroom. Finally, these aligned and shorted dummy \u03bcbump-TTSV sites create die regions of higher vertical thermal conduction. Hence, we propose to leverage them with three new architectural techniques: conductivity-aware thread placement, frequency boosting, and thread migration. We evaluate our scheme, called Xylem, using simulations of an 8-core processor at 2.4 GHz and 8 DRAM dies on top. \u03bcBump-TTSV alignment and shorting in a generic and in a customized Xylem design enable an average increase in processor frequency of 400 MHz and 720 MHz, respectively, at an area overhead of 0.63% and 0.81%, and without exceeding acceptable temperatures. This improves average application performance by 11% and 18%, respectively. Moreover, applying Xylem's conductivity-aware techniques enables further gains.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Krit Athikulwongse , Ashutosh Chakraborty , Jae-Seok Yang , David Z. Pan , Sung Kyu Lim, Stress-driven 3D-IC placement with TSV keep-out zone and regularity study, Proceedings of the International Conference on Computer-Aided Design, November 07-11, 2010, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2133571"
+        }, 
+        {
+            "ArticleName": "K. Banerjee, S. J. Souri, P. Kapur, and K. C. Saraswat. 2001. 3-D ICs: A Novel Chip Design for Improving Deep-Submicrometer Interconnect Performance and Systems-on-Chip Integration. Proc. IEEE (May 2001)."
+        }, 
+        {
+            "ArticleName": "Bryan Black , Murali Annavaram , Ned Brekelbaum , John DeVale , Lei Jiang , Gabriel H. Loh , Don McCaule , Pat Morrow , Donald W. Nelson , Daniel Pantuso , Paul Reed , Jeff Rupley , Sadasivan Shankar , John Shen , Clair Webb, Die Stacking (3D) Microarchitecture, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.469-479, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.18", 
+            "DOIname": "10.1109/MICRO.2006.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194860"
+        }, 
+        {
+            "ArticleName": "Shekhar Borkar, 3D integration for energy efficient system design, Proceedings of the 48th Design Automation Conference, June 05-10, 2011, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024724.2024774", 
+            "DOIname": "10.1145/2024724.2024774", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024774"
+        }, 
+        {
+            "ArticleName": "Erh-Hao Chen, Tzu-Chien Hsu, Cha-Hsin Lin, Pei-Jer Tzeng, Chung-Chih Wang, Shang-Chun Chen, Jui-Chin Chen, Chien-Chou Chen, Yu-Chen Hsin, Po-Chih Chang, Yiu-Hsiang Chang, Shin-Chiang Chen, Yu ming Lin, Sue-Chen Liao, and Tzu-Kun Ku. 2013. Fine-pitch Backside Via-last TSV Process with Optimization on Temporary Glue and Bonding Conditions. In IEEE Electronic Components and Technology Conference."
+        }, 
+        {
+            "ArticleName": "K.N. Chen and C.S. Tan. 2011. Integration Schemes and Enabling Technologies for Three-Dimensional Integrated Circuits. IET Computers & Digital Techniques (May 2011)."
+        }, 
+        {
+            "ArticleName": "Yibo Chen , Eren Kursun , Dave Motschman , Charles Johnson , Yuan Xie, Analysis and mitigation of lateral thermal blockage effect of through-silicon-via in 3D IC designs, Proceedings of the 17th IEEE/ACM international symposium on Low-power electronics and design, August 01-03, 2011, Fukuoka, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2016896"
+        }, 
+        {
+            "ArticleName": "T. Y. Chiang, S. J. Souri, C. H. Chui, and K.C. Saraswat. 2001. Thermal Analysis of Heterogeneous 3D ICs with Various Integration Scenarios. In International Electron Devices Meeting."
+        }, 
+        {
+            "ArticleName": "E. G. Colgan, P. Andry, B. Dang, J. H. Magerlein, J. Maria, R. J. Polastre, and J. Wakil. 2012. Measurement of Microbump Thermal Resistance in 3D Chip Stacks. In IEEE Semiconductor Thermal Measurement and Management Symposium."
+        }, 
+        {
+            "ArticleName": "E. G. Colgan, R. J. Polastre, J. Knickerbocker, J. Wakil, J. Gambino, and K. Tallman. 2013. Measurement of Back End of Line Thermal Resistance for 3D Chip Stacks. In IEEE Semiconductor Thermal Measurement and Management Symposium."
+        }, 
+        {
+            "ArticleName": "E. G. Colgan and J. Wakil. 2013. Measured Thermal Resistance of Microbumps in 3D Chip Stacks. (March 2013). http://www.electronics-cooling.com/2013/03/measured-thermal-resistance-of-microbumps-in-3d-chip-stacks/"
+        }, 
+        {
+            "ArticleName": "J. Cong , Yan Zhang, Thermal via planning for 3-D ICs, Proceedings of the 2005 IEEE/ACM International conference on Computer-aided design, p.745-752, November 06-10, 2005, San Jose, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1129707"
+        }, 
+        {
+            "ArticleName": "DDR2 SDRAM Standard. 2009. http://www.jedec.org/standards-documents/docs/jesd-79-2e. (2009)."
+        }, 
+        {
+            "ArticleName": "DDR3 SDRAM Standard. 2012. http://www.jedec.org/standards-documents/docs/jesd-79-3d. (2012)."
+        }, 
+        {
+            "ArticleName": "Ronald Dreslinski , David Fick , Bharan Giridhar , Gyouho Kim , Sangwon Seo , Matthew Fojtik , Sudhir Satpathy , Yoonmyung Lee , Daeyeon Kim , Nurrachman Liu , Michael Wieckowski , Gregory Chen , Dennis Sylvester , David Blaauw , Trevor Mudge, Centip3De: A 64-Core, 3D Stacked Near-Threshold System, IEEE Micro, v.33 n.2, p.8-16, March 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2013.4", 
+            "DOIname": "10.1109/MM.2013.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2498658"
+        }, 
+        {
+            "ArticleName": "P. Emma, A. Buyuktosunoglu, M. Healy, K. Kailas, V. Puente, R. Yu, A. Hartstein, P. Bose, and J. Moreno. 2014. 3D Stacking of High-Performance Processors. In IEEE International Symposium on High-Performance Computer Architecture."
+        }, 
+        {
+            "ArticleName": "G. G. Faust, R. Zhang, K. Skadron, M.R. Stan, and B.H. Meyer. 2012. ArchFP: Rapid Prototyping of pre-RTL Floorplans. In IEEE International Conference on VLSI and System-on-Chip. http://lava.cs.virginia.edu/archfp/"
+        }, 
+        {
+            "ArticleName": "Kunal Ganeshpure , Sandip Kundu, Reducing Temperature Variation in 3D Integrated Circuits Using Heat Pipes, Proceedings of the 2012 IEEE Computer Society Annual Symposium on VLSI, p.45-50, August 19-21, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISVLSI.2012.16", 
+            "DOIname": "10.1109/ISVLSI.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2376136"
+        }, 
+        {
+            "ArticleName": "Mrinmoy Ghosh , Hsien-Hsin S. Lee, Smart Refresh: An Enhanced Memory Controller Design for Reducing Energy in Conventional and 3D Die-Stacked DRAMs, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.134-145, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.38", 
+            "DOIname": "10.1109/MICRO.2007.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331714"
+        }, 
+        {
+            "ArticleName": "R. Golla and P. Jordan. 2011. T4: A Highly Threaded Server-on-a-Chip with Native Support for Heterogeneous Computing. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "Mohamed Gomaa , Michael D. Powell , T. N. Vijaykumar, Heat-and-run: leveraging SMT and CMP to manage power density through the operating system, Proceedings of the 11th international conference on Architectural support for programming languages and operating systems, October 07-13, 2004, Boston, MA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1024393.1024424", 
+            "DOIname": "10.1145/1024393.1024424", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1024424"
+        }, 
+        {
+            "ArticleName": "Brent Goplen , Sachin Sapatnekar, Thermal via placement in 3D ICs, Proceedings of the 2005 international symposium on Physical design, April 03-06, 2005, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1055137.1055171", 
+            "DOIname": "10.1145/1055137.1055171", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1055171"
+        }, 
+        {
+            "ArticleName": "B. Goplen , S. S. Sapatnekar, Placement of thermal vias in 3-D ICs using various thermal objectives, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.25 n.4, p.692-709, November 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2006.870069", 
+            "DOIname": "10.1109/TCAD.2006.870069", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2301367"
+        }, 
+        {
+            "ArticleName": "Seongmoo Heo , Kenneth Barr , Krste Asanovi\u0107, Reducing power density through activity migration, Proceedings of the 2003 international symposium on Low power electronics and design, August 25-27, 2003, Seoul, Korea", 
+            "DOIhref": "http://doi.acm.org/10.1145/871506.871561", 
+            "DOIname": "10.1145/871506.871561", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=871561"
+        }, 
+        {
+            "ArticleName": "High Bandwidth Memory (HBM) Standard. 2013. http://www.jedec.org/standards-documents/results/jesd235. (2013)."
+        }, 
+        {
+            "ArticleName": "Wei Huang , Shougata Ghosh , Siva Velusamy , Karthik Sankaranarayanan , Kevin Skadron , Mircea R. Stan, Hotspot: acompact thermal modeling methodology for early-stage VLSI design, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.14 n.5, p.501-513, May 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TVLSI.2006.876103", 
+            "DOIname": "10.1109/TVLSI.2006.876103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1962135"
+        }, 
+        {
+            "ArticleName": "Hybrid Memory Cube Consortium. 2012. http://hybridmemorycube.org/. (2012)."
+        }, 
+        {
+            "ArticleName": "International Technology Roadmap for Semiconductors (ITRS). 2012. http://www.itrs2.net. (2012)."
+        }, 
+        {
+            "ArticleName": "S. C. Johnson. 2009. Via first, middle, last, or after? 3D Packaging Newsletter on 3D IC, TSV, WLP & Embedded Technologies (Dec. 2009). http://www.i-micronews.com/upload%5Cnewsletter%5C3DNov09.pdf"
+        }, 
+        {
+            "ArticleName": "R. Kalla. 2009. POWER7: IBM's Next Generation POWER Microprocessor. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "S. Kikuchi, M. Suwada, H. Onuki, Y. Iwakiri, and N. Nakamura. 2015. Thermal Characterization and Modeling of BEOL for 3D Integration. In IEEE CPMT Symposium Japan."
+        }, 
+        {
+            "ArticleName": "D. H. Kim, K. Athikulwongse, M. Healy, M. Hossain, M. Jung, I. Khorosh, G. Kumar, Y.-J. Lee, D. Lewis, T.-W. Lin, C. Liu, S. Panth, M. Pathak, M. Ren, G. Shen, T. Song, D. H. Woo, X. Zhao, J. Kim, H. Choi, G. Loh, H. H. Lee, and S. K. Lim. 2012. 3D-MAPS: 3D Massively Parallel Processor with Stacked Memory. In IEEE International Solid-State Circuits Conference."
+        }, 
+        {
+            "ArticleName": "Jung-Sik Kim, Chi Sung Oh, Hocheol Lee, Donghyuk Lee, Hyong-Ryol Hwang, Sooman Hwang, Byongwook Na, Joungwook Moon, Jin-Guk Kim, Hanna Park, Jang-Woo Ryu, Kiwon Park, Sang-Kyu Kang, So-Young Kim, Hoyoung Kim, Jong-Min Bang, Hyunyoon Cho, Minsoo Jang, Cheolmin Han, Jung-Bae Lee, Kyehyun Kyung, Joo-Sun Choi, and Young-Hyun Jun. 2011. A 1.2V 12.8GB/s 2Gb Mobile Wide-I/O DRAM with 4x128 I/Os Using TSV-Based Stacking. In IEEE International Solid-State Circuits Conference."
+        }, 
+        {
+            "ArticleName": "Mitsumasa Koyanagi , Hiroyuki Kurino , Kang Wook Lee , Katsuyuki Sakuma , Nobuaki Miyakawa , Hikotaro Itani, Future System-on-Silicon LSI Chips, IEEE Micro, v.18 n.4, p.17-22, July 1998", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.710867", 
+            "DOIname": "10.1109/40.710867", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624196"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh, 3D-Stacked Memory Architectures for Multi-core Processors, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.453-464, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.15", 
+            "DOIname": "10.1109/ISCA.2008.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382159"
+        }, 
+        {
+            "ArticleName": "Gian Luca Loi , Banit Agrawal , Navin Srivastava , Sheng-Chih Lin , Timothy Sherwood , Kaustav Banerjee, A thermally-aware performance analysis of vertically integrated (3-D) processor-memory hierarchy, Proceedings of the 43rd annual Design Automation Conference, July 24-28, 2006, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1146909.1147160", 
+            "DOIname": "10.1145/1146909.1147160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1147160"
+        }, 
+        {
+            "ArticleName": "Low Power DDR3 SDRAM Standard. 2013. http://www.jedec.org/standards-documents/results/jesd209-3. (2013)."
+        }, 
+        {
+            "ArticleName": "K. Matsumoto, S. Ibaraki, K. Sakuma, K. Sueoka, H. Kikuchi, Y. Orii, and F. Yamada. 2010. Thermal Resistance Evaluation of a Three-dimensional (3D) Chip Stack. In Electronics Packaging Technology Conference."
+        }, 
+        {
+            "ArticleName": "S. Melamed, K. Kikuchi, and M. Aoyagi. 2015. Sensitivity of the Thermal Profile of Bump-Bonded 3D Systems to Inter-Die Bonding Layer Properties. In IEEE CPMT Symposium Japan."
+        }, 
+        {
+            "ArticleName": "Jie Meng , Katsutoshi Kawakami , Ayse K. Coskun, Optimizing energy efficiency of 3-D multicore systems with stacked DRAM under power and thermal constraints, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228477", 
+            "DOIname": "10.1145/2228360.2228477", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228477"
+        }, 
+        {
+            "ArticleName": "Chrysostomos Nicopoulos, Thermal characterization of cloud workloads on a power-efficient server-on-chip, Proceedings of the 2012 IEEE 30th International Conference on Computer Design (ICCD 2012), p.175-182, September 30-October 03, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCD.2012.6378637", 
+            "DOIname": "10.1109/ICCD.2012.6378637", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2417628"
+        }, 
+        {
+            "ArticleName": "N. Nakamura, Y. Iwakiri, H. Onuki, M. Suwada, and S. Kikuchi. 2015. Thermal Modeling and Experimental Study of 3D Stack Package with Hot Spot Consideration. In IEEE Electronic Components and Technology Conference."
+        }, 
+        {
+            "ArticleName": "Vassilios Gerousis, Physical design implementation for 3D IC: methodology and tools, Proceedings of the 19th international symposium on Physical design, March 14-17, 2010, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735023.1735042", 
+            "DOIname": "10.1145/1735023.1735042", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1735042"
+        }, 
+        {
+            "ArticleName": "H. Oprins, V. Cherman, T. Webers, A. Salahouelhadj, S. W. Kim, Lan Peng, G. Van der Plas, and E. Beyne. 2016. Thermal Characterization of the Inter-Die Thermal Resistance of Hybrid Cu/Dielectric Wafer-to-Wafer Bonding. In IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems."
+        }, 
+        {
+            "ArticleName": "H. Oprins, B. Vandevelde, M. Badaroglu, M. Gonzalez, G. Van der Plas, and E. Beyne. 2013. Numerical Comparison of the Thermal Performance of 3D Stacking and Si Interposer Based Packaging Concepts. In IEEE Electronic Components and Technology Conference."
+        }, 
+        {
+            "ArticleName": "Kiran Puttaswamy , Gabriel H. Loh, Thermal Herding: Microarchitecture Techniques for Controlling Hotspots in High-Performance 3D-Integrated Processors, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.193-204, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346197", 
+            "DOIname": "10.1109/HPCA.2007.346197", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318114"
+        }, 
+        {
+            "ArticleName": "Kiran Puttaswamy , Gabriel H. Loh, Thermal analysis of a 3D die-stacked high-performance microprocessor, Proceedings of the 16th ACM Great Lakes symposium on VLSI, April 30-May 01, 2006, Philadelphia, PA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1127908.1127915", 
+            "DOIname": "10.1145/1127908.1127915", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1127915"
+        }, 
+        {
+            "ArticleName": "Jose Renau, Basilio Fraguela, James Tuck, Wei Liu, Milos Prvulovic, Luis Ceze, Smruti Sarangi, Paul Sack, Karin Strauss, and Pablo Montesinos. 2005. SESC simulator. (Jan. 2005). http://sesc.sourceforge.net"
+        }, 
+        {
+            "ArticleName": "Paul Rosenfeld , Elliott Cooper-Balis , Bruce Jacob, DRAMSim2: A Cycle Accurate Memory System Simulator, IEEE Computer Architecture Letters, v.10 n.1, p.16-19, January 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2011.4", 
+            "DOIname": "10.1109/L-CA.2011.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999216"
+        }, 
+        {
+            "ArticleName": "Efraim Rotem , Alon Naveh , Avinash Ananthakrishnan , Eliezer Weissmann , Doron Rajwan, Power-Management Architecture of the Intel Microarchitecture Code-Named Sandy Bridge, IEEE Micro, v.32 n.2, p.20-27, March 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2012.12", 
+            "DOIname": "10.1109/MM.2012.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2196996"
+        }, 
+        {
+            "ArticleName": "E.C. Samson, S.V. Machiroutu, J.-Y. Chang, I. Santos, J. Hermerding, A. Dani, R. Prasher, and D.W.Song. 2005. Interface Material Selection and a Thermal Management Technique in Second-Generation Platforms Built on Intel Centrino Mobile Technology. In Intel Technology Journal."
+        }, 
+        {
+            "ArticleName": "Manjunath Shevgoor , Jung-Sik Kim , Niladrish Chatterjee , Rajeev Balasubramonian , Al Davis , Aniruddha N. Udipi, Quantifying the relationship between the power delivery network and architectural policies in a 3D-stacked memory device, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540726", 
+            "DOIname": "10.1145/2540708.2540726", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540726"
+        }, 
+        {
+            "ArticleName": "S.G. Singh and C. S. Tan. 2009. Impact of Thermal Through Silicon Via (TTSV) on the Temperature Profile of Multi-Layer 3-D Device Stack. In International Conference on 3D System Integration."
+        }, 
+        {
+            "ArticleName": "D. Skarlatos, R. Thomas, A. Agrawal, S. Qin, R. Pilawa-Podgurski, U. R. Karpuzcu, R. Teodorescu, N. S. Kim, and J. Torrellas. 2016. Snatch: Opportunistically Reassigning Power Allocation between Processor and Memory in 3D Stacks. In IEEE International Conference on Microarchitecture."
+        }, 
+        {
+            "ArticleName": "J. Stuecheli. 2013. Next Generation POWER microprocessor. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "S. Turullols and R. Sivaramakrishnan. 2012. SPARC T5: 16-core CMT Processor with Glueless 1-Hop Scaling to 8-Sockets. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "S. Undy. 2011. Poulson: An 8 Core 32 nm Next Generation Intel Itanium Processor. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "G. Van der Plas, P. Limaye, A. Mercha, H. Oprins, C. Torregiani, S. Thijs, D. Linten, M. Stucchi, K. Guruprasad, D. Velenis, D. Shinichi, V. Cherman, B. Vandevelde, V. Simons, I. De Wolf, R. Labie, D. Perry, S. Bronckers, N. Minas, M. Cupac, W. Ruythooren, J. Van Olmen, A. Phommahaxay, M. de Potter de ten Broeck, A. Opdebeeck, M. Rakowski, B. De Wachter, M. Dehan, M. Nelis, R. Agarwal, W. Dehaene, Y. Travaly, P. Marchal, and E. Beyne. 2010. Design Issues and Considerations for Low-Cost 3D TSV IC Technology. In IEEE International Solid-State Circuits Conference."
+        }, 
+        {
+            "ArticleName": "S. White. 2011. High Performance Power-Efficient x86-64 Server & Desktop Processors: using Bulldozer core. In Hot Chips: A Symposium on High Performance Chips."
+        }, 
+        {
+            "ArticleName": "Wide I/O 2 Standard. 2014. http://www.jedec.org/standards-documents/results/jesd229-2. (2014)."
+        }, 
+        {
+            "ArticleName": "Wide I/O SDR Standard. 2011. http://www.jedec.org/standards-documents/results/jesd229. (2011)."
+        }, 
+        {
+            "ArticleName": "D. Zhao, H. Homayoun, and A.V. Veidenbaum. 2013. Temperature Aware Thread Migration in 3D Architecture with Stacked DRAM. In International Symposium on Quality Electronic Design."
+        }, 
+        {
+            "ArticleName": "Xiuyi Zhou , Yi Xu , Yu Du , Youtao Zhang , Jun Yang, Thermal Management for 3D Processors via Task Scheduling, Proceedings of the 2008 37th International Conference on Parallel Processing, p.115-122, September 09-11, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2008.51", 
+            "DOIname": "10.1109/ICPP.2008.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1442499"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Aditya Agrawal"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Josep Torrellas"
+        }, 
+        {
+            "Affiliation": "Nvidia Corporation", 
+            "Name": "Sachin Idgunji"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124547&preflayout=flat"
+}

@@ -1,0 +1,173 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 186, 
+        "Downloads_6Weeks": 5, 
+        "Downloads_cumulative": 186, 
+        "CitationCount": 0
+    }, 
+    "Title": "Improving the effectiveness of searching for isomorphic chains in superword level parallelism", 
+    "Abstract": "Most high-performance microprocessors come equipped with general-purpose Single Instruction Multiple Data (SIMD) execution engines to enhance performance. Compilers use auto-vectorization techniques to identify vector parallelism and generate SIMD code so that applications can enjoy the performance benefits provided by SIMD units. Superword Level Parallelism (SLP), one such vectorization technique, forms vector operations by merging isomorphic instructions into a vector operation and linking many such operations into long isomorphic chains. However, effective grouping of isomorphic instructions remains a key challenge for SLP algorithms. In this work, we describe a new hierarchical approach for SLP. We decouple the selection of isomorphic chains and arrange them in a hierarchy of choices at the local and global levels. First, we form small local chains from a set of preferred patterns and rank them. Next, we form long global chains from the local chains using a few simple heuristics. Hierarchy allows us to balance the grouping choices of individual instructions more effectively within the context of larger local and global chains, thereby finding better opportunities for vectorization. We implement our algorithm in LLVM, and we compare it against prior work and the current SLP implementation in LLVM. A set of applications that benefit from vectorization are taken from the NAS Parallel Benchmarks and SPEC CPU 2006 suite to compare our approach and prior techniques. We demonstrate that our new algorithm finds better isomorphic chains. Our new approach achieves an 8.6% speedup, on average, compared to non-vectorized code and 2.5% speedup, on average, over LLVM-SLP. In the best case, the BT application has 11% fewer total dynamic instructions and achieves a 10.9% speedup over LLVM-SLP.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "J. R. Allen , Ken Kennedy , Carrie Porterfield , Joe Warren, Conversion of control dependence to data dependence, Proceedings of the 10th ACM SIGACT-SIGPLAN symposium on Principles of programming languages, p.177-189, January 24-26, 1983, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/567067.567085", 
+            "DOIname": "10.1145/567067.567085", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=567085"
+        }, 
+        {
+            "ArticleName": "Andrew Anderson , Avinash Malik , David Gregg, Automatic Vectorization of Interleaved Data Revisited, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.4, p.1-25, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2838735", 
+            "DOIname": "10.1145/2838735", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2838735"
+        }, 
+        {
+            "ArticleName": "Sara S. Baghsorkhi , Nalini Vasudevan , Youfeng Wu, FlexVec: auto-vectorization for irregular loops, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908111", 
+            "DOIname": "10.1145/2908080.2908111", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908111"
+        }, 
+        {
+            "ArticleName": "Rajkishore Barik , Jisheng Zhao , Vivek Sarkar, Efficient Selection of Vector Instructions Using Dynamic Programming, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.201-212, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.38", 
+            "DOIname": "10.1109/MICRO.2010.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935022"
+        }, 
+        {
+            "ArticleName": "John Bruno , Ravi Sethi, Code Generation for a One-Register Machine, Journal of the ACM (JACM), v.23 n.3, p.502-510, July 1976", 
+            "DOIhref": "http://doi.acm.org/10.1145/321958.321971", 
+            "DOIname": "10.1145/321958.321971", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=321971"
+        }, 
+        {
+            "ArticleName": "Ian Cutress. 2016. ARM Announces ARM v8-A with Scalable Vector Extensions: Aiming for HPC and Data Center. (Aug. 2016). http://www.anandtech.com/show/10586"
+        }, 
+        {
+            "ArticleName": "Liza Fireman , Erez Petrank , Ayal Zaks, New algorithms for SIMD alignment, Proceedings of the 16th international conference on Compiler construction, March 26-30, 2007, Braga, Portugal", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1759939"
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Seonggun Kim , Hwansoo Han, Efficient SIMD code generation for irregular kernels, Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming, February 25-29, 2012, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2145816.2145824", 
+            "DOIname": "10.1145/2145816.2145824", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2145824"
+        }, 
+        {
+            "ArticleName": "Samuel Larsen , Saman Amarasinghe, Exploiting superword level parallelism with multimedia instruction sets, Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation, p.145-156, June 18-21, 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/349299.349320", 
+            "DOIname": "10.1145/349299.349320", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=349320"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "Daniel M. Lavery , Wen-mei W. Hwu, Modulo scheduling of loops in control-intensive non-numeric programs, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.126-137, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243879"
+        }, 
+        {
+            "ArticleName": "Jun Liu , Yuanrui Zhang , Ohyoung Jang , Wei Ding , Mahmut Kandemir, A compiler framework for extracting superword level parallelism, Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 11-16, 2012, Beijing, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2254064.2254106", 
+            "DOIname": "10.1145/2254064.2254106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2254106"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Saeed Maleki , Yaoqing Gao , Maria J. Garzar\u00e1n , Tommy Wong , David A. Padua, An Evaluation of Vectorizing Compilers, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.372-382, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.68", 
+            "DOIname": "10.1109/PACT.2011.68", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121464"
+        }, 
+        {
+            "ArticleName": "Dorit Nuzman , Ira Rosen , Ayal Zaks, Auto-vectorization of interleaved data for SIMD, Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 11-14, 2006, Ottawa, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1133981.1133997", 
+            "DOIname": "10.1145/1133981.1133997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1133997"
+        }, 
+        {
+            "ArticleName": "David A. Padua , Michael J. Wolfe, Advanced compiler optimizations for supercomputers, Communications of the ACM, v.29 n.12, p.1184-1201, Dec. 1986", 
+            "DOIhref": "http://doi.acm.org/10.1145/7902.7904", 
+            "DOIname": "10.1145/7902.7904", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=7904"
+        }, 
+        {
+            "ArticleName": "Vasileios Porpodas , Timothy M. Jones, Throttling Automatic Vectorization: When Less is More, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.432-444, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.32", 
+            "DOIname": "10.1109/PACT.2015.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923810"
+        }, 
+        {
+            "ArticleName": "Vasileios Porpodas , Alberto Magni , Timothy M. Jones, PSLP: padded SLP automatic vectorization, Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization, February 07-11, 2015, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738625"
+        }, 
+        {
+            "ArticleName": "James Reinders. 2013. AVX-512 instructions. Intel Corporation. (July 2013)."
+        }, 
+        {
+            "ArticleName": "Gang Ren , Peng Wu , David Padua, Optimizing data permutations for SIMD devices, Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 11-14, 2006, Ottawa, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1133981.1133996", 
+            "DOIname": "10.1145/1133981.1133996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1133996"
+        }, 
+        {
+            "ArticleName": "Thomas Schaub , Simon Moll , Ralf Karrenberg , Sebastian Hack, The Impact of the SIMD Width on Control-Flow and Memory Divergence, ACM Transactions on Architecture and Code Optimization (TACO), v.11 n.4, p.1-25, January 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2687355", 
+            "DOIname": "10.1145/2687355", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2687355"
+        }, 
+        {
+            "ArticleName": "Sangmin Seo , Gangwon Jo , Jaejin Lee, Performance characterization of the NAS Parallel Benchmarks in OpenCL, Proceedings of the 2011 IEEE International Symposium on Workload Characterization, p.137-148, November 06-08, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2011.6114174", 
+            "DOIname": "10.1109/IISWC.2011.6114174", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2358063"
+        }, 
+        {
+            "ArticleName": "Jaewook Shin , Mary Hall , Jacqueline Chame, Superword-Level Parallelism in the Presence of Control Flow, Proceedings of the international symposium on Code generation and optimization, p.165-175, March 20-23, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2005.33", 
+            "DOIname": "10.1109/CGO.2005.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1048983"
+        }, 
+        {
+            "ArticleName": "Peng Wu , Alexandre E. Eichenberger , Amy Wang, Efficient SIMD Code Generation for Runtime Alignment and Length Conversion, Proceedings of the international symposium on Code generation and optimization, p.153-164, March 20-23, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2005.18", 
+            "DOIname": "10.1109/CGO.2005.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1048985"
+        }, 
+        {
+            "ArticleName": "Hao Zhou , Jingling Xue, A Compiler Approach for Exploiting Partial SIMD Parallelism, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.1, p.1-26, April 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2886101", 
+            "DOIname": "10.1145/2886101", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2886101"
+        }, 
+        {
+            "ArticleName": "Hao Zhou , Jingling Xue, Exploiting mixed SIMD parallelism by reducing data reorganization overhead, Proceedings of the 2016 International Symposium on Code Generation and Optimization, March 12-18, 2016, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/2854038.2854054", 
+            "DOIname": "10.1145/2854038.2854054", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2854054"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Joonmoo Huh"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "James Tuck"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124554&preflayout=flat"
+}

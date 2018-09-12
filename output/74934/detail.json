@@ -1,0 +1,111 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Antonio Gonz\u00e1lez , Carlos Aliagas , Mateo Valero, A data cache with multiple caching strategies tuned to different types of locality, Proceedings of the 9th international conference on Supercomputing, p.338-347, July 03-07, 1995, Barcelona, Spain", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224622"
+        }, 
+        {
+            "ArticleName": "Jae Young Lee , Hee Yong Youn, PSIM: Periodically Shifted Interleaved Memory System, Proceedings of the 1994 International Conference on Parallel Processing, p.220-223, August 15-19, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1261033"
+        }, 
+        {
+            "ArticleName": "Antonio Gonz\u00e1lez , Carlos Aliagas , Mateo Valero, A data cache with multiple caching strategies tuned to different types of locality, ACM International Conference on Supercomputing 25th Anniversary Volume, June 10-13, 2014, Munich, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2667170"
+        }, 
+        {
+            "ArticleName": "Zhiyong Liu , Xiaobo Li , Jia-Huai You, On storage schemes for parallel array access, Proceedings of the 6th international conference on Supercomputing, p.282-291, July 19-24, 1992, Washington, D. C., United States", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=143421"
+        }, 
+        {
+            "ArticleName": "D. T. Harper, III, Block, Multistride Vector, and FFT Accesses in Parallel Memory Systems, IEEE Transactions on Parallel and Distributed Systems, v.2 n.1, p.43-51, January 1991", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629020"
+        }, 
+        {
+            "ArticleName": "Antonio Gonz\u00e1lez , Mateo Valero , Nigel Topham , Joan M. Parcerisa, Eliminating cache conflict misses through XOR-based placement functions, Proceedings of the 11th international conference on Supercomputing, p.76-83, July 07-11, 1997, Vienna, Austria", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=263599"
+        }, 
+        {
+            "ArticleName": "Z.Y. Liu , X.B. Li, XOR Storage Schemes for Frequently Used Data Patterns, Journal of Parallel and Distributed Computing, v.25 n.2, p.162-173, March 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=213108"
+        }, 
+        {
+            "ArticleName": "D. T. Harper, III, Increased Memory Performance During Vector Accesses Through the Use of Linear Address Transformations, IEEE Transactions on Computers, v.41 n.2, p.227-230, February 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=131050"
+        }, 
+        {
+            "ArticleName": "K. Kim , V. K. Prasanna, Latin Squares for Parallel Array Access, IEEE Transactions on Parallel and Distributed Systems, v.4 n.4, p.361-370, April 1993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=629162"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 6, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 270, 
+        "CitationCount": 9
+    }, 
+    "Title": "A dynamic storage scheme for conflict-free vector access", 
+    "Abstract": "Previous investigations into data storage schemes have focused on finding a storage scheme that permits conflict-free access for a set of frequently encountered access patterns. This paper considers an alternative approach. Rather than forcing a single storage scheme to be used for all access patterns, conflict-free accesses of any constant stride can be made by selecting a storage scheme for each vector based on the accessing patterns used with that vector.\nBy factoring the stride into two components, one a power of 2 and the other relatively prime to 2, a storage scheme can be synthesized which allows conflict-free access to the vector using the specified stride. All such schemes are based on a variation of the row rotation mechanism proposed by Budnik and Kuck[1]. Each storage scheme is based on two parameters, one describes the type of rotation to perform and the other describes the amount of memory to be rotated as a single block. Hardware required to implement this storage scheme is efficient.\nThe performance of the memory under access strides other than the stride used to specify the storage scheme is also considered. This models a vector being accessed with multiple strides, in particular the row/column access of a matrix, and situations when the stride can not be determined prior to initializing the vector. Simulation results show that if a single buffer is added to each memory port then the average performance of the dynamic scheme surpasses that of the interleaved scheme for arbitrary stride accesses.\nFor dynamic storage schemes to be effective, the compiler must be able to detect information about the stride of vector accesses. In general, this is within the capabilities of current vectorizing compilers. Dynamic storage schemes also may allow more flexibility in program transformation performed by vectorizing compilers during optimization.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "P. Buduik and D. Kuck. \"The organization and use of parallel memories,\" IEEE Trans. Computers, vol. C-20, no. 12, pp. 1566- 1569, December 1971."
+        }, 
+        {
+            "ArticleName": "D. Lawrie. \"Access and alignment of data in an array processor,\" HZEE Trans. Computers, vol. C-24. no. 12, pp. 1145-1155, December 1975."
+        }, 
+        {
+            "ArticleName": "K. Batcher, \"The multldlmensional access memory in STARAN.\" IEEE Trans. Computers, vol. C-26, pp. 174-177, February 1977."
+        }, 
+        {
+            "ArticleName": "R. Swanson, \"Interconnections for parallel memories to unscramble p-ordered vectors,\" IEEE Trans. Computers, vol. C-23, pp. 1105- 1115, November 1974."
+        }, 
+        {
+            "ArticleName": "Wilfried Oed , O. Lange, On the effective bandwidth of interleaved memories in vector processor systems, IEEE Transactions on Computers, v.34 n.10, p.949-957, Oct. 1985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=4502"
+        }, 
+        {
+            "ArticleName": "H. Shaplm, \"Theoretical limitations on the efficient use of parallel memories,\" IEEE Trans. Computers, vol. C-27, no. 5. pp. 421- 428, May 1978."
+        }, 
+        {
+            "ArticleName": "H. Wijshoff and I. van Leeuwen, \"The structure of periodic storage schemes for parallel memories,\" IEEE Trans. Computers, vol. C- 34, no. 6. pp. 501-505, June 1985."
+        }, 
+        {
+            "ArticleName": "A. G. Wijshoff , J. Van Leeuwen, On linear skewing schemes and d-ordered vectors, IEEE Transactions on Computers, v.36 n.2, p.233-239, Feb. 1987", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1987.1676887", 
+            "DOIname": "10.1109/TC.1987.1676887", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=32381"
+        }, 
+        {
+            "ArticleName": "D. Lawrie and C. Vera, \"The prime memory system for array access,\" IEEE Trans. Computers, vol. C-31, no. 5, pp. 435-442, May 1982."
+        }, 
+        {
+            "ArticleName": "D. T. Harper, III , J. R. Jump, Vector access performance in parallel memories using skewed storage scheme, IEEE Transactions on Computers, v.36 n.12, p.1440-1449, Dec. 1987", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1987.5009496", 
+            "DOIname": "10.1109/TC.1987.5009496", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=40942"
+        }, 
+        {
+            "ArticleName": "A. Ranade. \"Interconnection networks and parallel memory organizations for array processing:\" Int. Conf. on Parallel. Proc., pp. 4147, August 1985."
+        }, 
+        {
+            "ArticleName": "A. Norton and E. Melton, \"A class of boolean linear transformations for conflict-free power-of-two stride access,\" fnt. Proc on Parallel. Proc., pp. 247-254, 1987."
+        }, 
+        {
+            "ArticleName": "Wayne R. Cowell , Christopher P. Thompson, Transforming FORTRAN DO loops to improve performance on vector architectures, ACM Transactions on Mathematical Software (TOMS), v.12 n.4, p.324-353, Dec. 1986", 
+            "DOIhref": "http://doi.acm.org/10.1145/22721.24035", 
+            "DOIname": "10.1145/22721.24035", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=24035"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Erik Jonsson School of Engineering and Computer Science, The University of Texas at Dallas, Mall Stop MP-32, Richardson, Texas", 
+            "Name": "D. T. Harper"
+        }, 
+        {
+            "Affiliation": "Erik Jonsson School of Engineering and Computer Science, The University of Texas at Dallas, Mall Stop MP-32, Richardson, Texas", 
+            "Name": "D. A. Linebarger"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74934&preflayout=flat"
+}

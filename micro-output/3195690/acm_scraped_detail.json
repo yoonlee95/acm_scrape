@@ -1,0 +1,284 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Thierry Moreau , Joshua San Miguel , Mark Wyse , James Bornholt , Armin Alaghi , Luis Ceze , Natalie Enright Jerger , Adrian Sampson, A Taxonomy of General Purpose Approximate Computing Techniques, IEEE Embedded Systems Letters, v.10 n.1, p.2-5, March 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3195774"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 12, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 12, 
+        "CitationCount": 1
+    }, 
+    "Title": "The bunker cache for spatio-value approximation", 
+    "Abstract": "The cost of moving and storing data is still a fundamental concern for computer architects. Inefficient handling of data can be attributed to conventional architectures being oblivious to the nature of the values that these data bits carry. We observe the phenomenon of spatio-value similarity, where data elements that are approximately similar in value exhibit spatial regularity in memory. This is inherent to 1) the data values of real-world applications, and 2) the way we store data structures in memory. We propose the Bunker Cache, a design that maps similar data to the same cache storage location based solely on their memory address, sacrificing some application quality loss for greater efficiency. The Bunker Cache enables performance gains (ranging from 1.08X to 1.19X) via reduced cache misses and energy savings (ranging from 1.18X to 1.39X) via reduced off-chip memory accesses and lower cache storage requirements. The Bunker Cache requires only modest changes to cache indexing hardware, integrating easily into commodity systems.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"UltraSPARC T2 supplement to the Ultra- SPARC architecture 2007,\" Sun Microsystems, Tech. Report, 2007."
+        }, 
+        {
+            "ArticleName": "Alaa R. Alameldeen , David A. Wood, Adaptive Cache Compression for High-Performance Processors, Proceedings of the 31st annual international symposium on Computer architecture, p.212, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006719"
+        }, 
+        {
+            "ArticleName": "Woongki Baek , Trishul M. Chilimbi, Green: a framework for supporting energy-conscious programming using controlled approximation, Proceedings of the 31st ACM SIGPLAN Conference on Programming Language Design and Implementation, June 05-10, 2010, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1806596.1806620", 
+            "DOIname": "10.1145/1806596.1806620", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1806620"
+        }, 
+        {
+            "ArticleName": "K. Barker et al., PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual, Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013, http://hpc.pnnl.gov/projects/PERFECT/."
+        }, 
+        {
+            "ArticleName": "James Bornholt , Todd Mytkowicz , Kathryn S. McKinley, Uncertain<T>: a first-order type for uncertain data, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541958", 
+            "DOIname": "10.1145/2541940.2541958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541958"
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Benjamin G. Zorn, Improving context-based load value prediction (instruction-level parallelism), University of Colorado at Boulder, Boulder, CO, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=931416"
+        }, 
+        {
+            "ArticleName": "M. Burtscher and B. G. Zorn, \"Load value prediction using prediction outcome histories,\" University of Colorado, CS Department Technical Report CU-CS-873-98, 1998."
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Benjamin G. Zorn, Exploring Last n Value Prediction, Proceedings of the 1999 International Conference on Parallel Architectures and Compilation Techniques, p.66, October 12-16, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825757"
+        }, 
+        {
+            "ArticleName": "Brad Calder , Glenn Reinman , Dean M. Tullsen, Selective value prediction, Proceedings of the 26th annual international symposium on Computer architecture, p.64-74, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300985", 
+            "DOIname": "10.1145/300979.300985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300985"
+        }, 
+        {
+            "ArticleName": "Vinay K. Chippa , Srimat T. Chakradhar , Kaushik Roy , Anand Raghunathan, Analysis and characterization of inherent application resilience for approximate computing, Proceedings of the 50th Annual Design Automation Conference, May 29-June 07, 2013, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463209.2488873", 
+            "DOIname": "10.1145/2463209.2488873", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2488873"
+        }, 
+        {
+            "ArticleName": "Pat Conway , Nathan Kalyanasundharam , Gregg Donley , Kevin Lepak , Bill Hughes, Cache Hierarchy and Memory Subsystem of the AMD Opteron Processor, IEEE Micro, v.30 n.2, p.16-29, March 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2010.31", 
+            "DOIname": "10.1109/MM.2010.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1804052"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Architecture support for disciplined approximate programming, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151008", 
+            "DOIname": "10.1145/2150976.2151008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151008"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.449-460, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.48", 
+            "DOIname": "10.1109/MICRO.2012.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457519"
+        }, 
+        {
+            "ArticleName": "Kriszti\u00e1n Flautner , Nam Sung Kim , Steve Martin , David Blaauw , Trevor Mudge, Drowsy caches: simple techniques for reducing leakage power, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545232"
+        }, 
+        {
+            "ArticleName": "F. Gabbay, \"Speculative execution based on value prediction,\" Technion - Israel Institute of Technology, EE Department Technical Report 1080, 1996."
+        }, 
+        {
+            "ArticleName": "Jayesh Gaur , Mainak Chaudhuri , Sreenivas Subramoney, Bypass and insertion algorithms for exclusive last-level caches, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000075", 
+            "DOIname": "10.1145/2000064.2000075", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000075"
+        }, 
+        {
+            "ArticleName": "J. Han and M. Orshansky, \"Approximate computing: an emerging paradigm for energy-efficient design,\" in Proc. European Test Symposium, 2013."
+        }, 
+        {
+            "ArticleName": "Song Han , Jeff Pool , John Tran , William J. Dally, Learning both weights and connections for efficient neural networks, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1135-1143, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969366"
+        }, 
+        {
+            "ArticleName": "D. Kadjo et al., \"Power gating with block migration in chip-multiprocessor last-level caches,\" in ICCD, 2013."
+        }, 
+        {
+            "ArticleName": "Mazen Kharbutli , Keith Irwin , Yan Solihin , Jaejin Lee, Using Prime Numbers for Cache Indexing to Eliminate Conflict Misses, Proceedings of the 10th International Symposium on High Performance Computer Architecture, p.288, February 14-18, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2004.10015", 
+            "DOIname": "10.1109/HPCA.2004.10015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1072477"
+        }, 
+        {
+            "ArticleName": "Daya S. Khudia , Babak Zamirai , Mehrzad Samadi , Scott Mahlke, Rumba: an online quality management system for approximate computing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750371", 
+            "DOIname": "10.1145/2749469.2750371", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750371"
+        }, 
+        {
+            "ArticleName": "Mikko H. Lipasti , Christopher B. Wilkerson , John Paul Shen, Value locality and load value prediction, Proceedings of the seventh international conference on Architectural support for programming languages and operating systems, p.138-147, October 01-04, 1996, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/237090.237173", 
+            "DOIname": "10.1145/237090.237173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=237173"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Harold W. Cain , Mark D. Hill , Mikko H. Lipasti, Correctly implementing value prediction in microprocessors that support multithreading or multiprocessing, Proceedings of the 34th annual ACM/IEEE international symposium on Microarchitecture, December 01-05, 2001, Austin, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=564039"
+        }, 
+        {
+            "ArticleName": "T. Moreau et al., \"SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration,\" in HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar et al., \"CACTI 6.0: A Tool to Model Large Caches,\" Technical Report HPL-2009-85, HP Labs, 2009."
+        }, 
+        {
+            "ArticleName": "T. Nakra , R. Gupta , M. L. Soffa, Global Context-Based Value Prediction, Proceedings of the 5th International Symposium on High Performance Computer Architecture, p.4, January 09-12, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822759"
+        }, 
+        {
+            "ArticleName": "N. Neelakantam et al., \"FeS2: a full-system execution-driven simulator for x86,\" poster presented at ASPLOS, 2008."
+        }, 
+        {
+            "ArticleName": "Rasmus Pagh , Flemming Friche Rodler, Cuckoo hashing, Journal of Algorithms, v.51 n.2, p.122-144, May 2004", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.jalgor.2003.12.002", 
+            "DOIname": "10.1016/j.jalgor.2003.12.002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006426"
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "Arthur Perais , Andr\u00e9 Seznec, EOLE: paving the way for an effective implementation of value prediction, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665742"
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec, \"Practical data value speculation for future high-end processors,\" in HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Mehrzad Samadi , Janghaeng Lee , D. Anoushe Jamshidi , Amir Hormati , Scott Mahlke, SAGE: self-tuning approximation for graphics engines, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540711", 
+            "DOIname": "10.1145/2540708.2540711", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540711"
+        }, 
+        {
+            "ArticleName": "Adrian Sampson , Werner Dietl , Emily Fortuna , Danushen Gnanapragasam , Luis Ceze , Dan Grossman, EnerJ: approximate data types for safe and general low-power computation, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993518", 
+            "DOIname": "10.1145/1993498.1993518", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993518"
+        }, 
+        {
+            "ArticleName": "Adrian Sampson , Jacob Nelson , Karin Strauss , Luis Ceze, Approximate storage in solid-state memories, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540712", 
+            "DOIname": "10.1145/2540708.2540712", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540712"
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Jorge Albericio , Andreas Moshovos , Natalie Enright Jerger, Doppelg\u00e4nger: a cache for approximate computing, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830790", 
+            "DOIname": "10.1145/2830772.2830790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830790"
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Mario Badr , Natalie Enright Jerger, Load Value Approximation, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.22", 
+            "DOIname": "10.1109/MICRO.2014.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742169"
+        }, 
+        {
+            "ArticleName": "J. San Miguel and N. Enright Jerger, \"Load value approximation: Approaching the ideal memory access latency,\" in Workshop on Approximate Computing Across the System Stack, 2014."
+        }, 
+        {
+            "ArticleName": "Joshua San Miguel , Natalie Enright Jerger, The anytime automaton, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.54", 
+            "DOIname": "10.1109/ISCA.2016.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001195"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, The ZCache: Decoupling Ways and Associativity, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.187-198, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.20", 
+            "DOIname": "10.1109/MICRO.2010.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935021"
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides , James E. Smith, The predictability of data values, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.248-258, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266824"
+        }, 
+        {
+            "ArticleName": "Resit Sendag , Peng-fei Chuang , David J. Lilja, Address Correlation: Exceeding the Limits of Locality, IEEE Computer Architecture Letters, v.2 n.1, p.3-3, January 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/L-CA.2003.3", 
+            "DOIname": "10.1109/L-CA.2003.3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1115816"
+        }, 
+        {
+            "ArticleName": "Andr\u00e9 Seznec, A case for two-way skewed-associative caches, Proceedings of the 20th annual international symposium on computer architecture, p.169-178, May 16-19, 1993, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/165123.165152", 
+            "DOIname": "10.1145/165123.165152", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=165152"
+        }, 
+        {
+            "ArticleName": "M. Sutherland et al., \"Texture cache approximation on GPUs,\" in WAX, 2015."
+        }, 
+        {
+            "ArticleName": "Bradley Thwaites , Gennady Pekhimenko , Hadi Esmaeilzadeh , Amir Yazdanbakhsh , Onur Mutlu , Jongse Park , Girish Mururu , Todd Mowry, Rollback-free value prediction with approximate loads, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628110", 
+            "DOIname": "10.1145/2628071.2628110", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628110"
+        }, 
+        {
+            "ArticleName": "Yingying Tian , Samira M. Khan , Daniel A. Jim\u00e9nez , Gabriel H. Loh, Last-level cache deduplication, Proceedings of the 28th ACM international conference on Supercomputing, June 10-13, 2014, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/2597652.2597655", 
+            "DOIname": "10.1145/2597652.2597655", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2597655"
+        }, 
+        {
+            "ArticleName": "Amir Yazdanbakhsh , Gennady Pekhimenko , Bradley Thwaites , Hadi Esmaeilzadeh , Onur Mutlu , Todd C. Mowry, RFVP: Rollback-Free Value Prediction with Safe-to-Approximate Loads, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.4, p.1-26, January 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2836168", 
+            "DOIname": "10.1145/2836168", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2836168"
+        }, 
+        {
+            "ArticleName": "Jason Zebchuk , Vijayalakshmi Srinivasan , Moinuddin K. Qureshi , Andreas Moshovos, A tagless coherence directory, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669166", 
+            "DOIname": "10.1145/1669112.1669166", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669166"
+        }, 
+        {
+            "ArticleName": "Youtao Zhang , Jun Yang , Rajiv Gupta, Frequent value locality and value-centric data cache design, ACM SIGOPS Operating Systems Review, v.34 n.5, p.150-159, Dec. 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/384264.379235", 
+            "DOIname": "10.1145/384264.379235", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379235"
+        }, 
+        {
+            "ArticleName": "Hongzhou Zhao , Arrvindh Shriraman , Sandhya Dwarkadas , Vijayalakshmi Srinivasan, SPATL: Honey, I Shrunk the Coherence Directory, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.33-44, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.10", 
+            "DOIname": "10.1109/PACT.2011.10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121482"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Joshua San Miguel"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Jorge Albericio"
+        }, 
+        {
+            "Affiliation": "University of Toronto", 
+            "Name": "Natalie Enright Jerger"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Aamer Jaleel"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195690&preflayout=flat"
+}

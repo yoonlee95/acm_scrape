@@ -1,0 +1,369 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 212, 
+        "Downloads_6Weeks": 6, 
+        "Downloads_cumulative": 212, 
+        "CitationCount": 0
+    }, 
+    "Title": "Using intra-core loop-task accelerators to improve the productivity and performance of task-based parallel programs", 
+    "Abstract": "Task-based parallel programming frameworks offer compelling productivity and performance benefits for modern chip multi-processors (CMPs). At the same time, CMPs also provide packed-SIMD units to exploit fine-grain data parallelism. Two fundamental challenges make using packed-SIMD units with task-parallel programs particularly difficult: (1) the intra-core parallel abstraction gap; and (2) inefficient execution of irregular tasks. To address these challenges, we propose augmenting CMPs with intra-core loop-task accelerators (LTAs). We introduce a lightweight hint in the instruction set to elegantly encode loop-task execution and an LTA microarchitectural template that can be configured at design time for different amounts of spatial/temporal decoupling to efficiently execute both regular and irregular loop tasks. Compared to an in-order CMP baseline, CMP+LTA results in an average speedup of 4.2X (1.8X area normalized) and similar energy efficiency. Compared to an out-of-order CMP baseline, CMP+LTA results in an average speedup of 2.3X (1.5X area normalized) and also improves energy efficiency by 3.2X. Our work suggests augmenting CMPs with lightweight LTAs can improve performance and efficiency on both regular and irregular loop-task parallel programs with minimal software changes.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Umut A. Acar , Arthur Chargueraud , Mike Rainey, Scheduling parallel programs by work stealing with private deques, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442538", 
+            "DOIname": "10.1145/2442516.2442538", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442538"
+        }, 
+        {
+            "ArticleName": "Kunal Agrawal , Charles E. Leiserson , Yuxiong He , Wen Jing Hsu, Adaptive work-stealing with parallelism feedback, ACM Transactions on Computer Systems (TOCS), v.26 n.3, p.1-32, September 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1394441.1394443", 
+            "DOIname": "10.1145/1394441.1394443", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1394443"
+        }, 
+        {
+            "ArticleName": "R. Allen , S. Johnson, Compiling C for vectorization, parallelization, and inline expansion, Proceedings of the ACM SIGPLAN 1988 conference on Programming language design and implementation, p.241-249, June 20-24, 1988, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/53990.54014", 
+            "DOIname": "10.1145/53990.54014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=54014"
+        }, 
+        {
+            "ArticleName": "Krste Asanovic, David A. Patterson, and Christopher Celio. 2015. The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor. Technical Report. UCB/EECS-2015--167."
+        }, 
+        {
+            "ArticleName": "Eduard Ayguad\u00e9 , Nawal Copty , Alejandro Duran , Jay Hoeflinger , Yuan Lin , Federico Massaioli , Xavier Teruel , Priya Unnikrishnan , Guansong Zhang, The Design of OpenMP Tasks, IEEE Transactions on Parallel and Distributed Systems, v.20 n.3, p.404-418, March 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2008.105", 
+            "DOIname": "10.1109/TPDS.2008.105", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1512430"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "J. Bolaria. 2012. Xeon Phi Targets Supercomputers. Microprocessor Report (Sep 2012)."
+        }, 
+        {
+            "ArticleName": "Alexander Branover , Denis Foley , Maurice Steinman, AMD Fusion APU: Llano, IEEE Micro, v.32 n.2, p.28-37, March 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2012.2", 
+            "DOIname": "10.1109/MM.2012.2", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2196997"
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Rupesh Nasre , Keshav Pingali, A quantitative study of irregular programs on GPUs, Proceedings of the 2012 IEEE International Symposium on Workload Characterization (IISWC), p.141-151, November 04-06, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2012.6402918", 
+            "DOIname": "10.1109/IISWC.2012.6402918", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2474126"
+        }, 
+        {
+            "ArticleName": "Colin Campbell , Ralph Johnson , Ade Miller , Stephen Toub, Parallel Programming with Microsoft .NET: Design Patterns for Decomposition and Coordination on Multicore Architectures, Microsoft Press, 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1942894"
+        }, 
+        {
+            "ArticleName": "Loyd Case. 2015. MIPS Broadens Reach with New Cores. Microprocessor Report (Dec 2015)."
+        }, 
+        {
+            "ArticleName": "David Chase , Yossi Lev, Dynamic circular work-stealing deque, Proceedings of the seventeenth annual ACM symposium on Parallelism in algorithms and architectures, July 18-20, 2005, Las Vegas, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1073970.1073974", 
+            "DOIname": "10.1145/1073970.1073974", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1073974"
+        }, 
+        {
+            "ArticleName": "Peter Clarke. 2013. How ARM's Cortex-A7 Beats the A15. EE Times (Jul 2013). http://www.eetimes.com/author.asp?section_id=36&doc_id=1318968."
+        }, 
+        {
+            "ArticleName": "Sylvian Collange. 2011. Stack-less SIMT Reconvergence at Low Cost. Technical Report HAL-00622654. ARENAIRE."
+        }, 
+        {
+            "ArticleName": "Intel SPMD Program Compiler. 2015. DesignWare ARC Processor Cores. Online Webpage. (2015). https://ispc.github.io."
+        }, 
+        {
+            "ArticleName": "Gilberto Contreras and Margaret Martonosi. 2008. Characterizing and Improving the Performance of Intel Threading Building Blocks. Int'l Symp. on Workload Characterization (IISWC) (Sep 2008)."
+        }, 
+        {
+            "ArticleName": "Brett W. Coon and John Erik Lindholm. 2008. System and Method for Managing Divergent Threads in a SIMD Architecture. US Patent 7353369. (Apr 2008)."
+        }, 
+        {
+            "ArticleName": "Gregory Diamos , Benjamin Ashbaugh , Subramaniam Maiyuran , Andrew Kerr , Haicheng Wu , Sudhakar Yalamanchili, SIMD re-convergence at thread frontiers, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155676", 
+            "DOIname": "10.1145/2155620.2155676", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155676"
+        }, 
+        {
+            "ArticleName": "Neil G. Dickson , Kamran Karimi , Firas Hamze, Importance of explicit vectorization for CPU and GPU software performance, Journal of Computational Physics, v.230 n.13, p.5383-5398, June, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.jcp.2011.03.041", 
+            "DOIname": "10.1016/j.jcp.2011.03.041", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1975225"
+        }, 
+        {
+            "ArticleName": "James Dinan , D. Brian Larkins , P. Sadayappan , Sriram Krishnamoorthy , Jarek Nieplocha, Scalable work stealing, Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis, November 14-20, 2009, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/1654059.1654113", 
+            "DOIname": "10.1145/1654059.1654113", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1654113"
+        }, 
+        {
+            "ArticleName": "Roger Espasa , Federico Ardanaz , Joel Emer , Stephen Felix , Julio Gago , Roger Gramunt , Isaac Hernandez , Toni Juan , Geoff Lowney , Matthew Mattina , Andr\u00e9 Seznec, Tarantula: a vector extension to the alpha architecture, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545247"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Tor M. Aamodt, Thread block compaction for efficient SIMT control flow, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.25-36, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014893"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Ivan Sham , George Yuan , Tor M. Aamodt, Dynamic warp formation: Efficient MIMD control flow on SIMD graphics hardware, ACM Transactions on Architecture and Code Optimization (TACO), v.6 n.2, p.1-37, June 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1543753.1543756", 
+            "DOIname": "10.1145/1543753.1543756", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1543756"
+        }, 
+        {
+            "ArticleName": "Venkatraman Govindaraju , Tony Nowatzki , Karthikeyan Sankaralingam, Breaking SIMD shackles with an exposed flexible microarchitecture and the access execute PDG, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523767"
+        }, 
+        {
+            "ArticleName": "Kshitij Gupta, Jeff A. Stuart, and John D. Owens. 2012. A Study of Persistent Threads Style GPU Programming for GPGPU Workloads. Innovative Parallel Computing (InPar) (2012)."
+        }, 
+        {
+            "ArticleName": "Linley Gwennap. 2015. Cortex-A35 Extends Low End. Microprocessor Report (Nov 2015)."
+        }, 
+        {
+            "ArticleName": "Linley Gwennap. 2015. Cortex-A57 is Most Efficient CPU. Microprocessor Report (Feb 2015)."
+        }, 
+        {
+            "ArticleName": "Sungpack Hong , Sang Kyun Kim , Tayo Oguntebi , Kunle Olukotun, Accelerating CUDA graph algorithms at maximum warp, Proceedings of the 16th ACM symposium on Principles and practice of parallel programming, February 12-16, 2011, San Antonio, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1941553.1941590", 
+            "DOIname": "10.1145/1941553.1941590", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941590"
+        }, 
+        {
+            "ArticleName": "Intel. 2013. Intel Cilk Plus Language Extension Specification, Version 1.2. Intel Reference Manual. (Sep 2013). https://www.cilkplus.org/sites/default/files/open_specifications/Intel_Cilk_plus_lang_spec_1.2.htm."
+        }, 
+        {
+            "ArticleName": "Intel. 2015. Intel Threading Building Blocks. Online Webpage. (2015). https://software.intel.com/en-us/intel-tbb."
+        }, 
+        {
+            "ArticleName": "David Kanter. 2015. Knights Landing Reshapes HPC. (Sep 2015)."
+        }, 
+        {
+            "ArticleName": "Stephen W. Keckler , William J. Dally , Brucek Khailany , Michael Garland , David Glasco, GPUs and the Future of Parallel Computing, IEEE Micro, v.31 n.5, p.7-17, September 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.89", 
+            "DOIname": "10.1109/MM.2011.89", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2068522"
+        }, 
+        {
+            "ArticleName": "Ji Kim , Christopher Torng , Shreesha Srinath , Derek Lockhart , Christopher Batten, Microarchitectural mechanisms to exploit value structure in SIMT architectures, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485934", 
+            "DOIname": "10.1145/2485922.2485934", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485934"
+        }, 
+        {
+            "ArticleName": "Ronny Krashinsky , Christopher Batten , Mark Hampton , Steve Gerding , Brian Pharris , Jared Casper , Krste Asanovic, The Vector-Thread Architecture, Proceedings of the 31st annual international symposium on Computer architecture, p.52, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006736"
+        }, 
+        {
+            "ArticleName": "Rakesh Kumar , Keith I. Farkas , Norman P. Jouppi , Parthasarathy Ranganathan , Dean M. Tullsen, Single-ISA Heterogeneous Multi-Core Architectures: The Potential for Processor Power Reduction, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.81, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956569"
+        }, 
+        {
+            "ArticleName": "Doug Lea, A Java fork/join framework, Proceedings of the ACM 2000 conference on Java Grande, p.36-43, June 03-04, 2000, San Francisco, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/337449.337465", 
+            "DOIname": "10.1145/337449.337465", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=337465"
+        }, 
+        {
+            "ArticleName": "I-Ting Angelina Lee , Aamir Shafi , Charles E. Leiserson, Memory-mapping support for reducer hyperobjects, Proceedings of the twenty-fourth annual ACM symposium on Parallelism in algorithms and architectures, June 25-27, 2012, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2312005.2312056", 
+            "DOIname": "10.1145/2312005.2312056", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2312056"
+        }, 
+        {
+            "ArticleName": "Victor W. Lee , Changkyu Kim , Jatin Chhugani , Michael Deisher , Daehyun Kim , Anthony D. Nguyen , Nadathur Satish , Mikhail Smelyanskiy , Srinivas Chennupaty , Per Hammarlund , Ronak Singhal , Pradeep Dubey, Debunking the 100X GPU vs. CPU myth: an evaluation of throughput computing on CPU and GPU, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1816021", 
+            "DOIname": "10.1145/1815961.1816021", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1816021"
+        }, 
+        {
+            "ArticleName": "Yunsup Lee , Rimas Avizienis , Alex Bishara , Richard Xia , Derek Lockhart , Christopher Batten , Krste Asanovi\u0107, Exploring the tradeoffs between programmability and efficiency in data-parallel accelerators, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000080", 
+            "DOIname": "10.1145/2000064.2000080", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000080"
+        }, 
+        {
+            "ArticleName": "Daan Leijen , Wolfram Schulte , Sebastian Burckhardt, The design of a task parallel library, Proceedings of the 24th ACM SIGPLAN conference on Object oriented programming systems languages and applications, October 25-29, 2009, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1640089.1640106", 
+            "DOIname": "10.1145/1640089.1640106", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1640106"
+        }, 
+        {
+            "ArticleName": "Charles E. Leiserson, The Cilk++ concurrency platform, Proceedings of the 46th Annual Design Automation Conference, July 26-31, 2009, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629911.1630048", 
+            "DOIname": "10.1145/1629911.1630048", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1630048"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Erik Lindholm , John Nickolls , Stuart Oberman , John Montrym, NVIDIA Tesla: A Unified Graphics and Computing Architecture, IEEE Micro, v.28 n.2, p.39-55, March 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.31", 
+            "DOIname": "10.1109/MM.2008.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1373197"
+        }, 
+        {
+            "ArticleName": "Samuel Liu, John Erik Lindholm, Ming Y Siu, Brett W. Coon, and Stuart F. Oberman. 2010. Operand Collector Architecture. US Patent US7834881 B2. (Nov 2010)."
+        }, 
+        {
+            "ArticleName": "Derek Lockhart , Gary Zibrat , Christopher Batten, PyMTL: A Unified Framework for Vertically Integrated Computer Architecture Research, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.50", 
+            "DOIname": "10.1109/MICRO.2014.50", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742183"
+        }, 
+        {
+            "ArticleName": "C. Loeffler, A. Ligtenberg, and G. S. Moschytz. 1989. Practical Fast 1-D DCT Algorithms with 11 Multiplications. Int'l Conf. on Acoustics Speech and Signal Processing (May 1989)."
+        }, 
+        {
+            "ArticleName": "Lijuan Luo , Martin Wong , Wen-mei Hwu, An effective GPU implementation of breadth-first search, Proceedings of the 47th Design Automation Conference, June 13-18, 2010, Anaheim, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1837274.1837289", 
+            "DOIname": "10.1145/1837274.1837289", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1837289"
+        }, 
+        {
+            "ArticleName": "Saeed Maleki , Yaoqing Gao , Maria J. Garzar\u00e1n , Tommy Wong , David A. Padua, An Evaluation of Vectorizing Compilers, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.372-382, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.68", 
+            "DOIname": "10.1109/PACT.2011.68", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121464"
+        }, 
+        {
+            "ArticleName": "Matt Martineau, James Price, Simon McIntosh-Smith, and Wayne Gaudin. 2016. Pragmatic Performance Portability with OpenMP 4.x. Int'l Workshop on OpenMP (Sep 2016)."
+        }, 
+        {
+            "ArticleName": "Alberto J. Martinez, Atiq A. Bajwa, David L. Hill, Erik Hallnor, Hong Jiang, Martin Dixon, Michael Derr, Mikal Hunsaker, Rajesh Kumar, Randy B. Osborne, Ravi Rajwar, Ronak Singhal, Reynold D'Sa, Robert Chappell, Shiv Kaushik, Srinivas Chennupaty, Stephan Jourdan, Steve Gunther, Tom Piazza, and Ted D. Kanter Burton. 2014. Haswell: The Fourth-Generation Intel Core Processor. IEEE Micro 34, 2 (Mar/Apr 2014), 6--20."
+        }, 
+        {
+            "ArticleName": "Simon Mcintosh-Smith , Michael Boulton , Dan Curran , James Price, On the Performance Portability of Structured Grid Codes on Many-Core Computer Architectures, Proceedings of the 29th International Conference on Supercomputing, June 22-26, 2014, Leipzig, Germany", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-319-07518-1_4", 
+            "DOIname": "10.1007/978-3-319-07518-1_4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2769889"
+        }, 
+        {
+            "ArticleName": "Jiayuan Meng , David Tarjan , Kevin Skadron, Dynamic warp subdivision for integrated branch and memory divergence tolerance, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815992", 
+            "DOIname": "10.1145/1815961.1815992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815992"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar, Rajeev Balasubramonian, and Norman P. Jouppi. 2009. CACTI 6.0: A Tool to Model Large Caches. (2009)."
+        }, 
+        {
+            "ArticleName": "Rupesh Nasre , Martin Burtscher , Keshav Pingali, Morph algorithms on GPUs, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442531", 
+            "DOIname": "10.1145/2442516.2442531", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442531"
+        }, 
+        {
+            "ArticleName": "OpenCL. 2011. OpenCL Specification, v1.2. Khronos Working Group. (2011). http://www.khronos.org/registry/cl/specs/opencl-1.2.pdf."
+        }, 
+        {
+            "ArticleName": "OpenMP. 2013. OpenMP Application Program Interface, Version 4.0. OpenMP Architecture Review Board. (Jul 2013). http://www.openmp.org/mp-documents/OpenMP4.0.0.pdf."
+        }, 
+        {
+            "ArticleName": "Oracle. 2015. Java API: ForkJoinPool. Online API Documentation. (2015). http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ForkJoinPool.html."
+        }, 
+        {
+            "ArticleName": "James Reinders, Intel threading building blocks, O'Reilly & Associates, Inc., Sebastopol, CA, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1461409"
+        }, 
+        {
+            "ArticleName": "James Reinders. 2012. An Overview of Programming for Intel Xeon Processors and Intel Xeon Phi Coprocessors. Intel White Paper. (2012). https://software.intel.com/sites/default/files/article/330164/an-overview-of-programming-for-intel-xeon-processors-and-intel-xeon-phi-coprocessors_1.pdf."
+        }, 
+        {
+            "ArticleName": "Bin Ren , Youngjoon Jo , Sriram Krishnamoorthy , Kunal Agrawal , Milind Kulkarni, Efficient execution of recursive programs on commodity vector hardware, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2738004", 
+            "DOIname": "10.1145/2737924.2738004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738004"
+        }, 
+        {
+            "ArticleName": "Bin Ren , Sriram Krishnamoorthy , Kunal Agrawal , Milind Kulkarni, Exploiting Vector and Multicore Parallelism for Recursive, Data- and Task-Parallel Programs, Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, February 04-08, 2017, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3018743.3018763", 
+            "DOIname": "10.1145/3018743.3018763", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3018763"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Mattan Erez, CAPRI: prediction of compaction-adequacy for handling control-divergence in GPGPU architectures, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337167"
+        }, 
+        {
+            "ArticleName": "Suzanne Rivoire , Rebecca Schultz , Tomofumi Okuda , Christos Kozyrakis, Vector Lane Threading, Proceedings of the 2006 International Conference on Parallel Processing, p.55-64, August 14-18, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2006.74", 
+            "DOIname": "10.1109/ICPP.2006.74", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1157610"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Daniel R. Johnson , Mike O'Connor , Stephen W. Keckler, A variable warp size architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750410", 
+            "DOIname": "10.1145/2749469.2750410", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750410"
+        }, 
+        {
+            "ArticleName": "Julian Shun , Guy E. Blelloch , Jeremy T. Fineman , Phillip B. Gibbons , Aapo Kyrola , Harsha Vardhan Simhadri , Kanat Tangwongsan, Brief announcement: the problem based benchmark suite, Proceedings of the twenty-fourth annual ACM symposium on Parallelism in algorithms and architectures, June 25-27, 2012, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2312005.2312018", 
+            "DOIname": "10.1145/2312005.2312018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2312018"
+        }, 
+        {
+            "ArticleName": "S. Somasegar. 2011. Targeting Heterogeneity with C++ AMP and PPL. MSDN Blog. (Jun 2011). http://blogs.msdn.com/b/somasegar/archive/2011/06/15/targeting-heterogeneity-with-c-amp-and-ppl.aspx."
+        }, 
+        {
+            "ArticleName": "Shreesha Srinath , Berkin Ilbeyi , Mingxing Tan , Gai Liu , Zhiru Zhang , Christopher Batten, Architectural Specialization for Inter-Iteration Loop Dependence Patterns, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.31", 
+            "DOIname": "10.1109/MICRO.2014.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742214"
+        }, 
+        {
+            "ArticleName": "Stanley Tzeng , Brandon Lloyd , John D. Owens, A GPU Task-Parallel Model with Dependency Resolution, Computer, v.45 n.8, p.34-41, August 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2012.255", 
+            "DOIname": "10.1109/MC.2012.255", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2780213"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Ji Kim"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Shunning Jiang"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Christopher Torng"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Moyang Wang"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Shreesha Srinath"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Berkin Ilbeyi"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Khalid Al-Hawaj"
+        }, 
+        {
+            "Affiliation": "Cornell University", 
+            "Name": "Christopher Batten"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3136952&preflayout=flat"
+}

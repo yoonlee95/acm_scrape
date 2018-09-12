@@ -1,0 +1,382 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Cagri Balkesen , Nitin Kunal , Georgios Giannikis , Pit Fender , Seema Sundara , Felix Schmidt , Jarod Wen , Sandeep Agrawal , Arun Raghavan , Venkatanathan Varadarajan , Anand Viswanathan , Balakrishnan Chandrasekaran , Sam Idicula , Nipun Agarwal , Eric Sedlar, RAPID: In-Memory Analytical Query Processing Engine with Extreme Performance per Watt, Proceedings of the 2018 International Conference on Management of Data, June 10-15, 2018, Houston, TX, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3190655"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 698, 
+        "Downloads_6Weeks": 37, 
+        "Downloads_cumulative": 698, 
+        "CitationCount": 1
+    }, 
+    "Title": "A many-core architecture for in-memory data processing", 
+    "Abstract": "For many years, the highest energy cost in processing has been data movement rather than computation, and energy is the limiting factor in processor design [21]. As the data needed for a single application grows to exabytes [56], there is clearly an opportunity to design a bandwidth-optimized architecture for big data computation by specializing hardware for data movement. We present the Data Processing Unit or DPU, a shared memory many-core that is specifically designed for high bandwidth analytics workloads. The DPU contains a unique Data Movement System (DMS), which provides hardware acceleration for data movement and partitioning operations at the memory controller that is sufficient to keep up with DDR bandwidth. The DPU also provides acceleration for core to core communication via a unique hardware RPC mechanism called the Atomic Transaction Engine. Comparison of a DPU chip fabricated in 40nm with a Xeon processor on a variety of data processing applications shows a 3\u00d7 - 15\u00d7 performance per watt advantage.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Daniel J. Abadi , Peter A. Boncz , Stavros Harizopoulos, Column-oriented database systems, Proceedings of the VLDB Endowment, v.2 n.2, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.14778/1687553.1687625", 
+            "DOIname": "10.14778/1687553.1687625", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1687625"
+        }, 
+        {
+            "ArticleName": "Mart\u00edn Abadi , Paul Barham , Jianmin Chen , Zhifeng Chen , Andy Davis , Jeffrey Dean , Matthieu Devin , Sanjay Ghemawat , Geoffrey Irving , Michael Isard , Manjunath Kudlur , Josh Levenberg , Rajat Monga , Sherry Moore , Derek G. Murray , Benoit Steiner , Paul Tucker , Vijay Vasudevan , Pete Warden , Martin Wicke , Yuan Yu , Xiaoqiang Zheng, TensorFlow: a system for large-scale machine learning, Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation, November 02-04, 2016, Savannah, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026899"
+        }, 
+        {
+            "ArticleName": "Sandeep R. Agrawal , Christopher M. Dee , Alvin R. Lebeck, Exploiting accelerators for efficient high dimensional similarity search, Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, March 12-16, 2016, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/2851141.2851144", 
+            "DOIname": "10.1145/2851141.2851144", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2851144"
+        }, 
+        {
+            "ArticleName": "Sandeep R. Agrawal , Valentin Pistol , Jun Pang , John Tran , David Tarjan , Alvin R. Lebeck, Rhythm: harnessing data parallel hardware for server workloads, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541956", 
+            "DOIname": "10.1145/2541940.2541956", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541956"
+        }, 
+        {
+            "ArticleName": "David G. Andersen , Jason Franklin , Michael Kaminsky , Amar Phanishayee , Lawrence Tan , Vijay Vasudevan, FAWN: a fast array of wimpy nodes, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629577", 
+            "DOIname": "10.1145/1629575.1629577", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629577"
+        }, 
+        {
+            "ArticleName": "Chad Austin. 2013. SAJSON: Single-Allocation JSON Parser. (2013). https://chadaustin.me/2013/01/single-allocation-json-parser"
+        }, 
+        {
+            "ArticleName": "Claus Bahlmann , Bernard Haasdonk , Hans Burkhardt, On-Line Handwriting Recognition with Support Vector Machines \" A Kernel Approach, Proceedings of the Eighth International Workshop on Frontiers in Handwriting Recognition (IWFHR'02), p.49, August 06-08, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=856840"
+        }, 
+        {
+            "ArticleName": "Cagri Balkesen , Gustavo Alonso , Jens Teubner , M. Tamer \u00d6zsu, Multi-core, main-memory joins: sort vs. hash revisited, Proceedings of the VLDB Endowment, v.7 n.1, p.85-96, September 2013", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732219.2732227", 
+            "DOIname": "10.14778/2732219.2732227", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732227"
+        }, 
+        {
+            "ArticleName": "Arkaprava Basu , Jayneel Gandhi , Jichuan Chang , Mark D. Hill , Michael M. Swift, Efficient virtual memory for big memory servers, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485943", 
+            "DOIname": "10.1145/2485922.2485943", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485943"
+        }, 
+        {
+            "ArticleName": "Luca Becchetti, Carlos Castillo, Debora Donato, Stefano Leonardi, and Ricardo Baeza-Yates. 2006. Using Rank Propagation and Probabilistic Counting for Link-Based Spam Detection. In In Proceedings of the Workshop on Web Mining and Web Usage Analysis (WebKDD."
+        }, 
+        {
+            "ArticleName": "Emery D. Berger , Kathryn S. McKinley , Robert D. Blumofe , Paul R. Wilson, Hoard: a scalable memory allocator for multithreaded applications, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.117-128, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379232", 
+            "DOIname": "10.1145/378993.379232", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379232"
+        }, 
+        {
+            "ArticleName": "Christian B\u00f6hm , Stefan Berchtold , Daniel A. Keim, Searching in high-dimensional spaces: Index structures for improving the performance of multimedia databases, ACM Computing Surveys (CSUR), v.33 n.3, p.322-373, September 2001", 
+            "DOIhref": "http://doi.acm.org/10.1145/502807.502809", 
+            "DOIname": "10.1145/502807.502809", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=502809"
+        }, 
+        {
+            "ArticleName": "Sergey Brin , Lawrence Page, The anatomy of a large-scale hypertextual Web search engine, Proceedings of the seventh international conference on World Wide Web 7, p.107-117, April 1998, Brisbane, Australia", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=297827"
+        }, 
+        {
+            "ArticleName": "L. J. Cao , S. S. Keerthi , Chong-Jin Ong , J. Q. Zhang , U. Periyathamby , Xiu Ju Fu , H. P. Lee, Parallel sequential minimal optimization for the training of support vector machines, IEEE Transactions on Neural Networks, v.17 n.4, p.1039-1049, July 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TNN.2006.875989", 
+            "DOIname": "10.1109/TNN.2006.875989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2327666"
+        }, 
+        {
+            "ArticleName": "A. M. Caulfield, E. S. Chung, A. Putnam, H. Angepat, J. Fowers, M. Haselman, S. Heil, M. Humphrey, P. Kaur, J. Y. Kim, D. Lo, T. Massengill, K. Ovtcharov, M. Papamichael, L. Woods, S. Lanka, D. Chiou, and D. Burger. 2016. A cloud-scale acceleration architecture. In 2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO). 1--13."
+        }, 
+        {
+            "ArticleName": "Chih-Chung Chang , Chih-Jen Lin, LIBSVM: A library for support vector machines, ACM Transactions on Intelligent Systems and Technology (TIST), v.2 n.3, p.1-27, April 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/1961189.1961199", 
+            "DOIname": "10.1145/1961189.1961199", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1961199"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , John D. Davis , Jaewon Lee, LINQits: big data on little clients, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485945", 
+            "DOIname": "10.1145/2485922.2485945", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485945"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , James C. Hoe , Ken Mai, CoRAM: an in-fabric memory architecture for FPGA-based computing, Proceedings of the 19th ACM/SIGDA international symposium on Field programmable gate arrays, February 27-March 01, 2011, Monterey, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950413.1950435", 
+            "DOIname": "10.1145/1950413.1950435", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950435"
+        }, 
+        {
+            "ArticleName": "John Cieslewicz , Kenneth A. Ross, Adaptive aggregation on chip multiprocessors, Proceedings of the 33rd international conference on Very large data bases, September 23-27, 2007, Vienna, Austria", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1325893"
+        }, 
+        {
+            "ArticleName": "William J. Dally. {n. d.}. GPU Computing to Exascale and Beyond. In Plenary keynote, SC '10."
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2150982", 
+            "DOIname": "10.1145/2248487.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Philippe Flajolet, \u00c9ric Fusy, Olivier Gandouet, and Fr\u00e9d\u00e9ric Meunier. 2007. Hyper-LogLog: the analysis of a near-optimal cardinality estimation algorithm. In AofA: Analysis of Algorithms (DMTCS Proceedings), Philippe Jacquet (Ed.), Vol. AH. Discrete Mathematics and Theoretical Computer Science, Juan les Pins, France, 137--156. https://hal.inria.fr/hal-00406166"
+        }, 
+        {
+            "ArticleName": "Sanjay Ghemawat and Paul Menage. {n. d.}. TCMalloc: Thread-Caching Malloc. ({n. d.}). http://goog-perftools.sourceforge.net/doc/tcmalloc.html"
+        }, 
+        {
+            "ArticleName": "Fr\u00e9d\u00e9ric Giroire, Order statistics and estimating cardinalities of massive data sets, Discrete Applied Mathematics, v.157 n.2, p.406-427, January, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.dam.2008.06.020", 
+            "DOIname": "10.1016/j.dam.2008.06.020", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1464953"
+        }, 
+        {
+            "ArticleName": "G. Grubb, A. Zelinsky, L. Nilsson, and M. Rilbe. 2004. 3D vision sensing for improved pedestrian safety. In IEEE Intelligent Vehicles Symposium, 2004. 19--24."
+        }, 
+        {
+            "ArticleName": "Tae Jun Ham , Juan L. Arag\u00f3n , Margaret Martonosi, DeSC: decoupled supply-compute communication management for heterogeneous architectures, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830800", 
+            "DOIname": "10.1145/2830772.2830800", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830800"
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "Tayler H. Hetherington , Mike O'Connor , Tor M. Aamodt, MemcachedGPU: scaling-up scale-out key-value stores, Proceedings of the Sixth ACM Symposium on Cloud Computing, August 27-29, 2015, Kohala Coast, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2806777.2806836", 
+            "DOIname": "10.1145/2806777.2806836", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2806836"
+        }, 
+        {
+            "ArticleName": "Tayler H. Hetherington , Timothy G. Rogers , Lisa Hsu , Mike O'Connor , Tor M. Aamodt, Characterizing and evaluating a key-value store application on heterogeneous CPU-GPU systems, Proceedings of the 2012 IEEE International Symposium on Performance Analysis of Systems & Software, p.88-98, April 01-03, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISPASS.2012.6189209", 
+            "DOIname": "10.1109/ISPASS.2012.6189209", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310991"
+        }, 
+        {
+            "ArticleName": "Vijay Janapa Reddi , Benjamin C. Lee , Trishul Chilimbi , Kushagra Vaid, Web search using mobile cores: quantifying and mitigating the price of efficiency, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1816002", 
+            "DOIname": "10.1145/1815961.1816002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1816002"
+        }, 
+        {
+            "ArticleName": "Thorsten Joachims, Text Categorization with Suport Vector Machines: Learning with Many Relevant Features, Proceedings of the 10th European Conference on Machine Learning, p.137-142, April 21-23, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=649721"
+        }, 
+        {
+            "ArticleName": "J. A. Kahle , M. N. Day , H. P. Hofstee , C. R. Johns , T. R. Maeurer , D. Shippy, Introduction to the cell multiprocessor, IBM Journal of Research and Development, v.49 n.4/5, p.589-604, July 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1148891"
+        }, 
+        {
+            "ArticleName": "G. Kestor, R. Gioiosa, D. J. Kerbyson, and A. Hoisie. 2013. Quantifying the energy cost of data movement in scientific applications. In 2013 IEEE International Symposium on Workload Characterization (IISWC). 56--65."
+        }, 
+        {
+            "ArticleName": "Changkyu Kim , Tim Kaldewey , Victor W. Lee , Eric Sedlar , Anthony D. Nguyen , Nadathur Satish , Jatin Chhugani , Andrea Di Blas , Pradeep Dubey, Sort vs. Hash revisited: fast join implementation on modern multi-core CPUs, Proceedings of the VLDB Endowment, v.2 n.2, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.14778/1687553.1687564", 
+            "DOIname": "10.14778/1687553.1687564", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1687564"
+        }, 
+        {
+            "ArticleName": "Onur Kocberber , Boris Grot , Javier Picorel , Babak Falsafi , Kevin Lim , Parthasarathy Ranganathan, Meet the walkers: accelerating index traversals for in-memory databases, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540748", 
+            "DOIname": "10.1145/2540708.2540748", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540748"
+        }, 
+        {
+            "ArticleName": "Sanjeev Kumar , Christopher J. Hughes , Anthony Nguyen, Carbon: architectural support for fine-grained parallelism on chip multiprocessors, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250683", 
+            "DOIname": "10.1145/1250662.1250683", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250683"
+        }, 
+        {
+            "ArticleName": "Willis Lang , Jignesh M. Patel , Srinath Shankar, Wimpy node clusters: what about non-wimpy workloads?, Proceedings of the Sixth International Workshop on Data Management on New Hardware, p.47-55, June 07-07, 2010, Indianapolis, Indiana", 
+            "DOIhref": "http://doi.acm.org/10.1145/1869389.1869396", 
+            "DOIname": "10.1145/1869389.1869396", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1869396"
+        }, 
+        {
+            "ArticleName": "M. Lichman. 2013. UCI Machine Learning Repository. (2013). http://archive.ics.uci.edu/ml"
+        }, 
+        {
+            "ArticleName": "Kevin Lim , David Meisner , Ali G. Saidi , Parthasarathy Ranganathan , Thomas F. Wenisch, Thin servers with smart pipes: designing SoC accelerators for memcached, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485926", 
+            "DOIname": "10.1145/2485922.2485926", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485926"
+        }, 
+        {
+            "ArticleName": "Ken Mai , Tim Paaske , Nuwan Jayasena , Ron Ho , William J. Dally , Mark Horowitz, Smart Memories: a modular reconfigurable architecture, Proceedings of the 27th annual international symposium on Computer architecture, p.161-171, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339673", 
+            "DOIname": "10.1145/339647.339673", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339673"
+        }, 
+        {
+            "ArticleName": "David Marr and Tomaso Poggio. 1976. Cooperative computation of stereo disparity. In From the Retina to the Neocortex. Springer, 239--243."
+        }, 
+        {
+            "ArticleName": "Rene Mueller , Jens Teubner, FPGAs: a new point in the database design space, Proceedings of the 13th International Conference on Extending Database Technology, March 22-26, 2010, Lausanne, Switzerland", 
+            "DOIhref": "http://doi.acm.org/10.1145/1739041.1739137", 
+            "DOIname": "10.1145/1739041.1739137", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1739137"
+        }, 
+        {
+            "ArticleName": "Don Murray , James J. Little, Using Real-Time Stereo Vision for Mobile Robot Navigation, Autonomous Robots, v.8 n.2, p.161-171, April 2000", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1008987612352", 
+            "DOIname": "10.1023/A:1008987612352", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=591804"
+        }, 
+        {
+            "ArticleName": "NVIDIA. {n. d.}. NVIDIA TESLA P100 GPU ACCELERATOR. ({n. d.}). http://images.nvidia.com/content/tesla/pdf/nvidia-tesla-p100-PCIe-datasheet.pdf"
+        }, 
+        {
+            "ArticleName": "Md Mostofa Ali Patwary, Nadathur Rajagopalan Satish, Narayanan Sundaram, Jongsoo Park, Michael J Anderson, Satya Gautam Vadlamudi, Dipankar Das, Sergey G Pudov, Vadim O Pirogov, and Pradeep Dubey. 2015. Parallel efficient sparse matrix-matrix multiplication on multicore platforms. In International Conference on High Performance Computing. Springer, 48--57."
+        }, 
+        {
+            "ArticleName": "Andrew Pavlo , Erik Paulson , Alexander Rasin , Daniel J. Abadi , David J. DeWitt , Samuel Madden , Michael Stonebraker, A comparison of approaches to large-scale data analysis, Proceedings of the 2009 ACM SIGMOD International Conference on Management of data, June 29-July 02, 2009, Providence, Rhode Island, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1559845.1559865", 
+            "DOIname": "10.1145/1559845.1559865", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1559865"
+        }, 
+        {
+            "ArticleName": "Orestis Polychroniou , Arun Raghavan , Kenneth A. Ross, Rethinking SIMD Vectorization for In-Memory Databases, Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data, May 31-June 04, 2015, Melbourne, Victoria, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/2723372.2747645", 
+            "DOIname": "10.1145/2723372.2747645", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2747645"
+        }, 
+        {
+            "ArticleName": "Orestis Polychroniou , Kenneth A. Ross, A comprehensive study of main-memory partitioning and its application to large-scale comparison- and radix-sort, Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data, June 22-27, 2014, Snowbird, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2588555.2610522", 
+            "DOIname": "10.1145/2588555.2610522", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2610522"
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Wajahat Qadeer , Rehan Hameed , Ofer Shacham , Preethi Venkatesan , Christos Kozyrakis , Mark A. Horowitz, Convolution engine: balancing efficiency & flexibility in specialized computing, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485925", 
+            "DOIname": "10.1145/2485922.2485925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485925"
+        }, 
+        {
+            "ArticleName": "Sridhar Ramaswamy, Pablo Tamayo, Ryan Rifkin, Sayan Mukherjee, Chen-Hsiang Yeang, Michael Angelo, Christine Ladd, Michael Reich, Eva Latulippe, Jill P Mesirov, et al. 2001. Multiclass cancer diagnosis using tumor gene expression signatures. Proceedings of the National Academy of Sciences 98, 26 (2001), 15149--15154."
+        }, 
+        {
+            "ArticleName": "Valentina Salapura , Tejas Karkhanis , Priya Nagpurkar , Jose Moreira, Accelerating business analytics applications, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-10, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169044", 
+            "DOIname": "10.1109/HPCA.2012.6169044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192659"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Richard M. Yoo , Christos Kozyrakis, Flexible architectural support for fine-grain scheduling, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736055", 
+            "DOIname": "10.1145/1736020.1736055", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736055"
+        }, 
+        {
+            "ArticleName": "Arnold W. M. Smeulders , Marcel Worring , Simone Santini , Amarnath Gupta , Ramesh Jain, Content-Based Image Retrieval at the End of the Early Years, IEEE Transactions on Pattern Analysis and Machine Intelligence, v.22 n.12, p.1349-1380, December 2000", 
+            "DOIhref": "https://dx.doi.org/10.1109/34.895972", 
+            "DOIname": "10.1109/34.895972", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=357873"
+        }, 
+        {
+            "ArticleName": "Zachary D Stephens, Skylar Y. Lee, Faraz Faghri, Roy H Campbell, Chengxiang Zhai, Miles J Efron, Ravishankar Iyer, Michael C Schatz, Saurabh Sinha, and Gene E Robinson. 2015. Big data: astronomical or genomical? PLoS Biol 13, 7 (2015), e1002195."
+        }, 
+        {
+            "ArticleName": "Sravanthi Kota Venkata , Ikkjin Ahn , Donghwan Jeon , Anshuman Gupta , Christopher Louie , Saturnino Garcia , Serge Belongie , Michael Bedford Taylor, SD-VBS: The San Diego Vision Benchmark Suite, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.55-64, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306794", 
+            "DOIname": "10.1109/IISWC.2009.5306794", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680783"
+        }, 
+        {
+            "ArticleName": "Lei Wang, Jianfeng Zhan, Chunjie Luo, Yuqing Zhu, Qiang Yang, Yongqiang He, Wanling Gao, Zhen Jia, Yingjie Shi, Shujie Zhang, et al. 2014. Bigdatabench: A big data benchmark suite from internet services. In High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on. IEEE, 488--499."
+        }, 
+        {
+            "ArticleName": "Yipeng Wang , Ren Wang , Andrew Herdrich , James Tsai , Yan Solihin, CAF: Core to Core Communication Acceleration Framework, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967954", 
+            "DOIname": "10.1145/2967938.2967954", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967954"
+        }, 
+        {
+            "ArticleName": "Wikipedia. {n. d.}. Ajax (programming). ({n. d.}). https://en.wikipedia.org/w/index.php?title=Ajax_(programming)&oldid=770489771"
+        }, 
+        {
+            "ArticleName": "Lisa Wu , Raymond J. Barker , Martha A. Kim , Kenneth A. Ross, Navigating big data with high-throughput, energy-efficient data partitioning, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485944", 
+            "DOIname": "10.1145/2485922.2485944", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485944"
+        }, 
+        {
+            "ArticleName": "Lisa Wu , Andrea Lottarini , Timothy K. Paine , Martha A. Kim , Kenneth A. Ross, Q100: the architecture and design of a database processing unit, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541961", 
+            "DOIname": "10.1145/2541940.2541961", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541961"
+        }, 
+        {
+            "ArticleName": "Shen Yin and Okyay Kaynak. 2015. Big data for modern industry: challenges and trends {point of view}. Proc. IEEE 103, 2 (2015), 143--146."
+        }, 
+        {
+            "ArticleName": "Wei Yu, Tiebin Liu, Rodolfo Valdez, Marta Gwinn, and Muin J Khoury. 2010. Application of support vector machine modeling for prediction of common diseases: the case of diabetes and pre-diabetes. BMC Medical Informatics and Decision Making 10, 1 (2010), 16."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Sandeep R Agrawal"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Sam Idicula"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Arun Raghavan"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Evangelos Vlachos"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Venkatraman Govindaraju"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Venkatanathan Varadarajan"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Cagri Balkesen"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Georgios Giannikis"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Charlie Roth"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Nipun Agarwal"
+        }, 
+        {
+            "Affiliation": "Oracle Labs", 
+            "Name": "Eric Sedlar"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123985&preflayout=flat"
+}

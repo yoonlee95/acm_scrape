@@ -1,0 +1,260 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 593, 
+        "Downloads_6Weeks": 25, 
+        "Downloads_cumulative": 593, 
+        "CitationCount": 0
+    }, 
+    "Title": "Cache automaton", 
+    "Abstract": "Finite State Automata are widely used to accelerate pattern matching in many emerging application domains like DNA sequencing and XML parsing. Conventional CPUs and compute-centric accelerators are bottlenecked by memory bandwidth and irregular memory access patterns in automata processing. We present Cache Automaton, which repurposes last-level cache for automata processing, and a compiler that automates the process of mapping large real world Non-Deterministic Finite Automata (NFAs) to the proposed architecture. Cache Automaton extends a conventional last-level cache architecture with components to accelerate two phases in NFA processing: state-match and state-transition. State-matching is made efficient using a sense-amplifier cycling technique that exploits spatial locality in symbol matches. State-transition is made efficient using a new compact switch architecture. By overlapping these two phases for adjacent symbols we realize an efficient pipelined design. We evaluate two designs, one optimized for performance and the other optimized for space, across a set of 20 diverse benchmarks. The performance optimized design provides a speedup of 15\u00d7 over DRAM-based Micron's Automata Processor and 3840\u00d7 speedup over processing in a conventional x86 CPU. The proposed design utilizes on an average 1.2MB of cache space across benchmarks, while consuming 2.3nJ of energy per input symbol. Our space optimized design can reduce the cache utilization to 0.72MB, while still providing a speedup of 9\u00d7 over AP.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Alfred V. Aho , Margaret J. Corasick, Efficient string matching: an aid to bibliographic search, Communications of the ACM, v.18 n.6, p.333-340, June 1975", 
+            "DOIhref": "http://doi.acm.org/10.1145/360825.360855", 
+            "DOIname": "10.1145/360825.360855", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360855"
+        }, 
+        {
+            "ArticleName": "Rajeev Alur , Mihalis Yannakakis, Model checking of hierarchical state machines, ACM SIGSOFT Software Engineering Notes, v.23 n.6, p.175-188, Nov. 1998", 
+            "DOIhref": "http://doi.acm.org/10.1145/291252.288305", 
+            "DOIname": "10.1145/291252.288305", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=288305"
+        }, 
+        {
+            "ArticleName": "Michela Becchi , Patrick Crowley, An improved algorithm to accelerate regular expression evaluation, Proceedings of the 3rd ACM/IEEE Symposium on Architecture for networking and communications systems, December 03-04, 2007, Orlando, Florida, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1323548.1323573", 
+            "DOIname": "10.1145/1323548.1323573", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1323573"
+        }, 
+        {
+            "ArticleName": "Michela Becchi , Patrick Crowley, Efficient regular expression evaluation: theory to practice, Proceedings of the 4th ACM/IEEE Symposium on Architectures for Networking and Communications Systems, November 06-07, 2008, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1477942.1477950", 
+            "DOIname": "10.1145/1477942.1477950", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1477950"
+        }, 
+        {
+            "ArticleName": "Michela Becchi, Mark A. Franklin, and Patrick Crowley. 2008. A workload for evaluating deep packet inspection architectures. In 4th International Symposium on Workload Characterization (IISWC 2008), Seattle, Washington, USA, September 14--16, 2008. 79--89."
+        }, 
+        {
+            "ArticleName": "Michela Becchi , Charlie Wiseman , Patrick Crowley, Evaluating regular expression matching engines on network and general purpose processors, Proceedings of the 5th ACM/IEEE Symposium on Architectures for Networking and Communications Systems, October 19-20, 2009, Princeton, New Jersey", 
+            "DOIhref": "http://doi.acm.org/10.1145/1882486.1882495", 
+            "DOIname": "10.1145/1882486.1882495", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1882495"
+        }, 
+        {
+            "ArticleName": "Chunkun Bo, Ke Wang, Jeffrey J Fox, and Kevin Skadron. 2015. Entity Resolution Acceleration using Micron\u00e2\u0102\u0179s Automata Processor. Architectures and Systems for Big Data (ASBD), in conjunction with ISCA (2015)."
+        }, 
+        {
+            "ArticleName": "William J. Bowhill, Blaine A. Stackhouse, Nevine Nassif, Zibing Yang, Arvind Raghavan, Oscar Mendoza, Charles Morganti, Chris Houghton, Dan Krueger, Olivier Franza, Jayen Desai, Jason Crop, Brian Brock, Dave Bradley, Chris Bostak, Sal Bhimji, and Matt Becker. 2016. The Xeon\u00ae Processor E5--2600 v3: a 22 nm 18-Core Product Family. J. Solid-State Circuits 51, 1 (2016), 92--104."
+        }, 
+        {
+            "ArticleName": "Niladrish Chatterjee, Mike O'Connor, Donghyuk Lee, Daniel R. Johnson, Stephen W. Keckler, Minsoo Rhu, and William J. Dally. 2017. Architecting an Energy-Efficient DRAM System for GPUs. In High Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "Wei Chen, Szu-Liang Chen, Siufu Chiu, Raghuraman Ganesan, Venkata Lukka, Wei Wing Mar, and Stefan Rusu. 2013. A 22nm 2.5 MB slice on-die L3 cache for the next generation Xeon\u00ae processor. In VLSI Technology (VLSIT), 2013 Symposium on. IEEE, C132--C133."
+        }, 
+        {
+            "ArticleName": "Alessandro Cimatti , Edmund M. Clarke , Enrico Giunchiglia , Fausto Giunchiglia , Marco Pistore , Marco Roveri , Roberto Sebastiani , Armando Tacchella, NuSMV 2: An OpenSource Tool for Symbolic Model Checking, Proceedings of the 14th International Conference on Computer Aided Verification, p.359-364, July 27-31, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=734431"
+        }, 
+        {
+            "ArticleName": "Subhasis Das , Tor M. Aamodt , William J. Dally, SLIP: reducing wire energy in the memory hierarchy, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750398", 
+            "DOIname": "10.1145/2749469.2750398", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750398"
+        }, 
+        {
+            "ArticleName": "Sutapa Datta and Subhasis Mukhopadhyay. 2015. A grammar inference approach for predicting kinase specific phosphorylation sites. PloS one 10, 4 (2015), e0122294."
+        }, 
+        {
+            "ArticleName": "Paul Dlugosch, Dave Brown, Paul Glendenning, Michael Leventhal, and Harold Noyes. 2014. An efficient and scalable semiconductor architecture for parallel automata processing. IEEE Transactions on Parallel and Distributed Systems 25, 12 (2014), 3088--3098."
+        }, 
+        {
+            "ArticleName": "Yuanwei Fang , Tung T. Hoang , Michela Becchi , Andrew A. Chien, Fast support for unstructured data processing: the unified automata processor, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830809", 
+            "DOIname": "10.1145/2830772.2830809", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830809"
+        }, 
+        {
+            "ArticleName": "Domenico Ficara , Stefano Giordano , Gregorio Procissi , Fabio Vitucci , Gianni Antichi , Andrea Di Pietro, An improved DFA for fast regular expression matching, ACM SIGCOMM Computer Communication Review, v.38 n.5, October 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1452335.1452339", 
+            "DOIname": "10.1145/1452335.1452339", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1452339"
+        }, 
+        {
+            "ArticleName": "Vaibhav Gogte, Aasheesh Kolli, Michael J. Cafarella, Loris D'Antoni, and Thomas F. Wenisch. 2016. HARE: Hardware accelerator for regular expressions. In 49th Annual IEEE/ACM International Symposium on Microarchitecture, MICRO 2016, Taipei, Taiwan, October 15--19, 2016. 1--12."
+        }, 
+        {
+            "ArticleName": "Linley Gwennap. 2014. Micron Accelerates Automata:New Chip Speeds NFA Processing Using DRAM Architectures. In Microprocessor Report."
+        }, 
+        {
+            "ArticleName": "Min Huang, Moty Mehalel, Ramesh Arvapalli, and Songnian He. 2013. An Energy Efficient 32-nm 20-MB Shared On-Die L3 Cache for Intel\u00ae Xeon\u00ae Processor E5 Family. J. Solid-State Circuits 48, 8 (2013), 1954--1962."
+        }, 
+        {
+            "ArticleName": "Intel. 2017. Cache Allocation Technology. (2017). https://software.intel.com/en-us/articles/introduction-to-cache-allocation-technology"
+        }, 
+        {
+            "ArticleName": "Peng Jiang , Gagan Agrawal, Combining SIMD and Many/Multi-core Parallelism for Finite State Machines with Enumerative Speculation, Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, February 04-08, 2017, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3018743.3018760", 
+            "DOIname": "10.1145/3018743.3018760", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3018760"
+        }, 
+        {
+            "ArticleName": "Christopher Grant Jones , Rose Liu , Leo Meyerovich , Krste Asanovi\u0107 , Rastislav Bod\u00edk, Parallelizing the web browser, Proceedings of the First USENIX conference on Hot topics in parallelism, p.7-7, March 30-31, 2009, Berkeley, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855598"
+        }, 
+        {
+            "ArticleName": "George Karypis , Vipin Kumar, A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs, SIAM Journal on Scientific Computing, v.20 n.1, p.359-392, Aug. 1998", 
+            "DOIhref": "https://dx.doi.org/10.1137/S1064827595287997", 
+            "DOIname": "10.1137/S1064827595287997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=305248"
+        }, 
+        {
+            "ArticleName": "Linux kernel. 2017. Huge Pages. https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt"
+        }, 
+        {
+            "ArticleName": "Sailesh Kumar , Sarang Dharmapurikar , Fang Yu , Patrick Crowley , Jonathan Turner, Algorithms to accelerate multiple regular expressions matching for deep packet inspection, ACM SIGCOMM Computer Communication Review, v.36 n.4, October 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1151659.1159952", 
+            "DOIname": "10.1145/1151659.1159952", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1159952"
+        }, 
+        {
+            "ArticleName": "Dan Lin , Nigel Medforth , Kenneth S. Herdy , Arrvindh Shriraman , Rob Cameron, Parabix: Boosting the efficiency of text processing on commodity processors, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6169041", 
+            "DOIname": "10.1109/HPCA.2012.6169041", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192656"
+        }, 
+        {
+            "ArticleName": "Micron. 2016. Method and system to dynamically power-down a block of a pattern-recognition processor. (2016). Patent US 9389833 B2."
+        }, 
+        {
+            "ArticleName": "Micron. 2017. Micron Automata Processing. http://www.micronautomata.com/"
+        }, 
+        {
+            "ArticleName": "Sasa Misailovic , Michael Carbin , Sara Achour , Zichao Qi , Martin C. Rinard, Chisel: reliability- and accuracy-aware optimization of approximate computational kernels, ACM SIGPLAN Notices, v.49 n.10, October 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2714064.2660231", 
+            "DOIname": "10.1145/2714064.2660231", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660231"
+        }, 
+        {
+            "ArticleName": "Todd Mytkowicz , Madanlal Musuvathi , Wolfram Schulte, Data-parallel finite-state machines, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541988", 
+            "DOIname": "10.1145/2541940.2541988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541988"
+        }, 
+        {
+            "ArticleName": "Omar Naji, Christian Weis, Matthias Jung, Norbert Wehn, and Andreas Hansson. 2015. A high-level DRAM timing, power and area exploration tool. In Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS), 2015 International Conference on. IEEE, 149--156."
+        }, 
+        {
+            "ArticleName": "Alexandre Petrenko, Fault model-driven test derivation from finite state models: annotated bibliography, Modeling and verification of parallel processes, Springer-Verlag, Berlin, Heidelberg, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=766805"
+        }, 
+        {
+            "ArticleName": "Junqiao Qiu , Zhijia Zhao , Bin Ren, MicroSpec: Speculation-Centric Fine-Grained Parallelization for FSM Computations, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967965", 
+            "DOIname": "10.1145/2967938.2967965", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967965"
+        }, 
+        {
+            "ArticleName": "Indranil Roy and Srinivas Aluru. 2016. Discovering motifs in biological sequences using the micron automata processor. IEEE/ACM Transactions on Computational Biology and Bioinformatics 13, 1 (2016), 99--111."
+        }, 
+        {
+            "ArticleName": "Indranil Roy, Ankit Srivastava, and Srinivas Aluru. 2016. Programming Techniques for the Automata Processor. In 45th International Conference on Parallel Processing, ICPP 2016, Philadelphia, PA, USA, August 16--19, 2016. 205--210."
+        }, 
+        {
+            "ArticleName": "Indranil Roy, Ankit Srivastava, Marziyeh Nourian, Michela Becchi, and Srinivas Aluru. 2016. High Performance Pattern Matching Using the Automata Processor. In 2016 IEEE International Parallel and Distributed Processing Symposium, IPDPS 2016, Chicago, IL, USA, May 23--27, 2016. 1123--1132."
+        }, 
+        {
+            "ArticleName": "Prateek Tandon, Faissal M. Sleiman, Michael J. Cafarella, and Thomas F. Wenisch. 2016. HAWK: Hardware support for unstructured log processing. In 32nd IEEE International Conference on Data Engineering, ICDE 2016, Helsinki, Finland, May 16--20, 2016. 469--480."
+        }, 
+        {
+            "ArticleName": "Jan Van Lunteren , Christoph Hagleitner , Timothy Heil , Giora Biran , Uzi Shvadron , Kubilay Atasu, Designing a Programmable Wire-Speed Regular-Expression Matching Accelerator, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.461-472, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.49", 
+            "DOIname": "10.1109/MICRO.2012.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457520"
+        }, 
+        {
+            "ArticleName": "Jack Wadden, Vinh Dang, Nathan Brunelle, Tommy Tracy II, Deyuan Guo, Elaheh Sadredini, Ke Wang, Chunkun Bo, Gabriel Robins, Mircea Stan, and Kevin Skadron. 2016. ANMLzoo: a benchmark suite for exploring bottlenecks in automata processing engines and architectures. In 2016 IEEE International Symposium on Workload Characterization, IISWC 2016, Providence, RI, USA, September 25--27, 2016. 105--166."
+        }, 
+        {
+            "ArticleName": "Ke Wang , Kevin Angstadt , Chunkun Bo , Nathan Brunelle , Elaheh Sadredini , Tommy Tracy, II , Jack Wadden , Mircea Stan , Kevin Skadron, An overview of micron's automata processor, Proceedings of the Eleventh IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis, p.1-3, October 01-07, 2016, Pittsburgh, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2968456.2976763", 
+            "DOIname": "10.1145/2968456.2976763", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2976763"
+        }, 
+        {
+            "ArticleName": "Ke Wang , Elaheh Sadredini , Kevin Skadron, Sequential pattern mining with the Micron automata processor, Proceedings of the ACM International Conference on Computing Frontiers, May 16-19, 2016, Como, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2903150.2903172", 
+            "DOIname": "10.1145/2903150.2903172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2903172"
+        }, 
+        {
+            "ArticleName": "Zhen-Gang Wang, Johann Elbaz, Fran\u00e7oise Remacle, RD Levine, and Itamar Willner. 2010. All-DNA finite-state automata with finite memory. Proceedings of the National Academy of Sciences 107, 51 (2010), 21996--22001."
+        }, 
+        {
+            "ArticleName": "Yi-Hua E. Yang , Viktor K. Prasanna, Optimizing Regular Expression Matching with SR-NFA on Multi-Core Systems, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.424-433, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.73", 
+            "DOIname": "10.1109/PACT.2011.73", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121469"
+        }, 
+        {
+            "ArticleName": "Fang Yu , Zhifeng Chen , Yanlei Diao , T. V. Lakshman , Randy H. Katz, Fast and memory-efficient regular expression matching for deep packet inspection, Proceedings of the 2006 ACM/IEEE symposium on Architecture for networking and communications systems, December 03-05, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1185347.1185360", 
+            "DOIname": "10.1145/1185347.1185360", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1185360"
+        }, 
+        {
+            "ArticleName": "Fang Yu , Zhifeng Chen , Yanlei Diao , T. V. Lakshman , Randy H. Katz, Fast and memory-efficient regular expression matching for deep packet inspection, Proceedings of the 2006 ACM/IEEE symposium on Architecture for networking and communications systems, December 03-05, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1185347.1185360", 
+            "DOIname": "10.1145/1185347.1185360", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1185360"
+        }, 
+        {
+            "ArticleName": "Xiaodong Yu, Bill Lin, and Michela Becchi. 2014. Revisiting state blow-up: Automatically building augmented-fa while preserving functional equivalence. IEEE Journal on Selected Areas in Communications 32, 10 (2014), 1822--1833."
+        }, 
+        {
+            "ArticleName": "Zhijia Zhao , Xipeng Shen, On-the-Fly Principled Speculation for FSM Parallelization, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694369", 
+            "DOIname": "10.1145/2694344.2694369", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694369"
+        }, 
+        {
+            "ArticleName": "Zhijia Zhao , Bo Wu , Xipeng Shen, Challenging the \"embarrassingly sequential\": parallelizing finite state machine-based computations through principled speculation, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541989", 
+            "DOIname": "10.1145/2541940.2541989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541989"
+        }, 
+        {
+            "ArticleName": "Keira Zhou, Jeffrey J Fox, Ke Wang, Donald E Brown, and Kevin Skadron. 2015. Brill tagging on the micron automata processor. In Semantic Computing (ICSC), 2015 IEEE International Conference on. IEEE, 236--239."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "Arun Subramaniyan"
+        }, 
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "Jingcheng Wang"
+        }, 
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "Ezhil R. M. Balasubramanian"
+        }, 
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "David Blaauw"
+        }, 
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "Dennis Sylvester"
+        }, 
+        {
+            "Affiliation": "University of Michigan-Ann Arbor", 
+            "Name": "Reetuparna Das"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123986&preflayout=flat"
+}

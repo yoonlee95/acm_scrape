@@ -1,0 +1,103 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Antonella Galizia , Daniele D'Agostino , Andrea Clematis, An MPI-CUDA library for image processing on HPC architectures, Journal of Computational and Applied Mathematics, v.273 n.C, p.414-427, January 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2932758"
+        }, 
+        {
+            "ArticleName": "Timo van Kessel , Niels Drost , Jason Maassen , Henri E. Bal , Frank J. Seinstra, User Transparent Data and Task Parallel Multimedia Computing with Pyxis-DT, Proceedings of the 2012 12th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (ccgrid 2012), p.17-24, May 13-16, 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310111"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 2
+    }, 
+    "Title": "Towards user transparent parallel multimedia computing on GPU-Clusters", 
+    "Abstract": "The research area of Multimedia Content Analysis (MMCA) considers all aspects of the automated extraction of knowledge from multimedia archives and data streams. To satisfy the increasing computational demands of MMCA problems, the use of High Performance Computing (HPC) techniques is essential. As most MMCA researchers are not HPC experts, there is an urgent need for \u2018familiar' programming models and tools that are both easy to use and efficient. Today, several user transparent library-based parallelization tools exist that aim to satisfy both these requirements. In general, such tools focus on data parallel execution on traditional compute clusters. As of yet, none of these tools also incorporate the use of many-core processors (e.g. GPUs), however. While traditional clusters are now being transformed into GPU-clusters, programming complexity vastly increases -- and the need for easy and efficient programming models is as urgent as ever. This paper presents our first steps in the direction of obtaining a user transparent programming model for data parallel and hierarchical multimedia computing on GPU-clusters. The model is obtained by extending an existing user transparent parallel programming system (applicable to traditional compute clusters) with a set of CUDA compute kernels. We show our model to be capable of obtaining orders-of-magnitude speed improvements, without requiring any additional effort from the application programmer.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "Cees G. M. Snoek , Marcel Worring , Jan-Mark Geusebroek , Dennis C. Koelma , Frank J. Seinstra , Arnold W. M. Smeulders, The Semantic Pathfinder: Using an Authoring Metaphor for Generic Multimedia Indexing, IEEE Transactions on Pattern Analysis and Machine Intelligence, v.28 n.10, p.1678-1689, October 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPAMI.2006.212", 
+            "DOIname": "10.1109/TPAMI.2006.212", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1159362"
+        }, 
+        {
+            "ArticleName": "A. Galizia , D. D'Agostino , A. Clematis, A Grid framework to enable parallel and concurrent TMA image analyses, International Journal of Grid and Utility Computing, v.1 n.3, p.261-271, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.1504/IJGUC.2009.027653", 
+            "DOIname": "10.1504/IJGUC.2009.027653", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1593544"
+        }, 
+        {
+            "ArticleName": "Morrow, P. J., et al.: Efficient implementation of a portable parallel programming model for image processing. Concur. - Pract. Exp. 11(11), 671-685 (1999)"
+        }, 
+        {
+            "ArticleName": "Lebak, J., et al.: Parallel VSIPL++: An Open Standard Software Library for High-Performance Signal Processing. Proc. IEEE 93(2), 313-330 (2005)"
+        }, 
+        {
+            "ArticleName": "Zoltan Juhasz , Danny Crookes, A PVM Implementation of a Portable Parallel Image Processing Library, Proceedings of the Third European PVM Conference on Parallel Virtual Machine, p.188-196, October 07-09, 1996", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=748311"
+        }, 
+        {
+            "ArticleName": "Antonio Plaza , David Valencia , Javier Plaza , Pablo Martinez, Commodity cluster-based parallel processing of hyperspectral imagery, Journal of Parallel and Distributed Computing, v.66 n.3, p.345-358, March 2006", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.jpdc.2005.10.001", 
+            "DOIname": "10.1016/j.jpdc.2005.10.001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1140786"
+        }, 
+        {
+            "ArticleName": "Frank J. Seinstra , Jan-Mark Geusebroek , Dennis Koelma , Cees G. M. Snoek , Marcel Worring , Arnold W. M. Smeulders, High-Performance Distributed Video Content Analysis with Parallel-Horus, IEEE MultiMedia, v.14 n.4, p.64-75, October 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MMUL.2007.74", 
+            "DOIname": "10.1109/MMUL.2007.74", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1308686"
+        }, 
+        {
+            "ArticleName": "Michael Garland , Scott Le Grand , John Nickolls , Joshua Anderson , Jim Hardwick , Scott Morton , Everett Phillips , Yao Zhang , Vasily Volkov, Parallel Computing Experiences with CUDA, IEEE Micro, v.28 n.4, p.13-27, July 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.57", 
+            "DOIname": "10.1109/MM.2008.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1442820"
+        }, 
+        {
+            "ArticleName": "Koelma, D.: et al.: Horus C++ Reference. Technical report, Univ. Amsterdam, The Netherlands (January 2002)"
+        }, 
+        {
+            "ArticleName": "Frank J. Seinstra , Dennis Koelma , Andrew D. Bagdanov, Finite State Machine-Based Optimization of Data Parallel Regular Domain Problems Applied in Low-Level Image Processing, IEEE Transactions on Parallel and Distributed Systems, v.15 n.10, p.865-877, October 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2004.55", 
+            "DOIname": "10.1109/TPDS.2004.55", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1018313"
+        }, 
+        {
+            "ArticleName": "David B. Kirk , Wen-mei W. Hwu, Programming Massively Parallel Processors: A Hands-on Approach, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2010", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1841511"
+        }, 
+        {
+            "ArticleName": "F. J. Seinstra , D. Koelma , J. M. Geusebroek, A software architecture for user transparent parallel image processing, Parallel Computing, v.28 n.7-8, p.967-993, August 2002", 
+            "DOIhref": "https://dx.doi.org/10.1016/S0167-8191(02)00103-5", 
+            "DOIname": "10.1016/S0167-8191(02)00103-5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=611431"
+        }, 
+        {
+            "ArticleName": "Jan-Mark Geusebroek , Arnold W. M. Smeulders , Hugo Geerts, A Minimum Cost Approach for Segmenting Networks of Lines, International Journal of Computer Vision, v.43 n.2, p.99-111, July 1, 2001", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1011118718821", 
+            "DOIname": "10.1023/A:1011118718821", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=513336"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Department of Computer Science, VU University, Amsterdam, HV, The Netherlands", 
+            "Name": "Ben van Werkhoven"
+        }, 
+        {
+            "Affiliation": "Department of Computer Science, VU University, Amsterdam, HV, The Netherlands", 
+            "Name": "Jason Maassen"
+        }, 
+        {
+            "Affiliation": "Department of Computer Science, VU University, Amsterdam, HV, The Netherlands", 
+            "Name": "Frank J. Seinstra"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185875&preflayout=flat"
+}

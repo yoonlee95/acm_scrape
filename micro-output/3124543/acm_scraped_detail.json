@@ -1,0 +1,198 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Tiancong Wang , Sakthikumaran Sambasivam , Yan Solihin , James Tuck, Hardware supported persistent object address translation, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123981"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 388, 
+        "Downloads_6Weeks": 18, 
+        "Downloads_cumulative": 388, 
+        "CitationCount": 1
+    }, 
+    "Title": "Efficient support of position independence on non-volatile memory", 
+    "Abstract": "This paper explores solutions for enabling efficient supports of position independence of pointer-based data structures on byte-addressable None-Volatile Memory (NVM). When a dynamic data structure (e.g., a linked list) gets loaded from persistent storage into main memory in different executions, the locations of the elements contained in the data structure could differ in the address spaces from one run to another. As a result, some special support must be provided to ensure that the pointers contained in the data structures always point to the correct locations, which is called position independence. This paper shows the insufficiency of traditional methods in supporting position independence on NVM. It proposes a concept called implicit self-contained representations of pointers, and develops two such representations named off-holder and Region ID in Value (RIV) to materialize the concept. Experiments show that the enabled representations provide much more efficient and flexible support of position independence for dynamic data structures, alleviating a major issue for effective data reuses on NVM.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "{n. d.}. OpenNVM. http:opennvm.github.io. ({n. d.})."
+        }, 
+        {
+            "ArticleName": "2015. Intel and Micron Produce Breakthrough Memory Technology. http://newsroom.intel.com/community/intel_newsroom/blog/2015/07/28/intel-and-micron-produce-breakthrough-memory-technology. (2015). {Online; accessed 2016/11/08}."
+        }, 
+        {
+            "ArticleName": "2015. NVM Programming Model (NPM). http://www.snia.org/tech_activities/standards/curr_standards/npm/. (2015). {Online; accessed 2016/11/08}."
+        }, 
+        {
+            "ArticleName": "Joy Arulraj , Andrew Pavlo , Subramanya R. Dulloor, Let's Talk About Storage & Recovery Methods for Non-Volatile Memory Database Systems, Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data, May 31-June 04, 2015, Melbourne, Victoria, Australia", 
+            "DOIhref": "http://doi.acm.org/10.1145/2723372.2749441", 
+            "DOIname": "10.1145/2723372.2749441", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749441"
+        }, 
+        {
+            "ArticleName": "Katelin A. Bailey , Peter Hornyack , Luis Ceze , Steven D. Gribble , Henry M. Levy, Exploring storage class memory with key value stores, Proceedings of the 1st Workshop on Interactions of NVM/FLASH with Operating Systems and Workloads, November 03-03, 2013, Farmington, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2527792.2527799", 
+            "DOIname": "10.1145/2527792.2527799", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2527799"
+        }, 
+        {
+            "ArticleName": "Ryan Berryhill, Wojciech Golab, and Mahesh Tripunitara. 2016. Robust shared objects for non-volatile main memory. In LIPIcs-Leibniz International Proceedings in Informatics, Vol. 46. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik."
+        }, 
+        {
+            "ArticleName": "Dhruva R. Chakrabarti and Hans-J. Boehm. 2013. Durability Semantics for Lock-based Multithreaded Programs. In USINEX Hotpar."
+        }, 
+        {
+            "ArticleName": "Dhruva R. Chakrabarti , Hans-J. Boehm , Kumud Bhandari, Atlas: leveraging locks for non-volatile memory consistency, ACM SIGPLAN Notices, v.49 n.10, October 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2714064.2660224", 
+            "DOIname": "10.1145/2714064.2660224", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660224"
+        }, 
+        {
+            "ArticleName": "Andreas Chatzistergiou , Marcelo Cintra , Stratis D. Viglas, REWIND: <u>re</u>covery <u>w</u>rite-ahead system for <u>i</u>n-memory <u>n</u>on-volatile <u>d</u>ata-structures, Proceedings of the VLDB Endowment, v.8 n.5, p.497-508, January 2015", 
+            "DOIhref": "https://dx.doi.org/10.14778/2735479.2735483", 
+            "DOIname": "10.14778/2735479.2735483", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2735483"
+        }, 
+        {
+            "ArticleName": "Joel Coburn , Adrian M. Caulfield , Ameen Akel , Laura M. Grupp , Rajesh K. Gupta , Ranjit Jhala , Steven Swanson, NV-Heaps: making persistent objects fast and safe with next-generation, non-volatile memories, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950380", 
+            "DOIname": "10.1145/1950365.1950380", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950380"
+        }, 
+        {
+            "ArticleName": "Jeremy Condit , Edmund B. Nightingale , Christopher Frost , Engin Ipek , Benjamin Lee , Doug Burger , Derrick Coetzee, Better I/O through byte-addressable, persistent memory, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629589", 
+            "DOIname": "10.1145/1629575.1629589", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629589"
+        }, 
+        {
+            "ArticleName": "Jonathan Corbet. 2014. Supporting filesystems in persistent memory {LWN.net}. https://lwn.net/Articles/610174/. (2014). {Online; accessed 2016/11/08}."
+        }, 
+        {
+            "ArticleName": "Subramanya R. Dulloor , Sanjay Kumar , Anil Keshavamurthy , Philip Lantz , Dheeraj Reddy , Rajesh Sankaran , Jeff Jackson, System software for persistent memory, Proceedings of the Ninth European Conference on Computer Systems, April 14-16, 2014, Amsterdam, The Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2592798.2592814", 
+            "DOIname": "10.1145/2592798.2592814", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2592814"
+        }, 
+        {
+            "ArticleName": "Hector Garcia-Molina , Jeffrey D. Ullman , Jennifer Widom, Database Systems: The Complete Book, Prentice Hall Press, Upper Saddle River, NJ, 2008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1450931"
+        }, 
+        {
+            "ArticleName": "J. Izraelevitz, H. Mendes, and M. L. Scott. 2016. Linearizability of Persistent Memory Objects under a Full-System-Crash Failure Model. In Proceedings of 30th Intl. Symp. on Distributed Computing (DISC). ACM."
+        }, 
+        {
+            "ArticleName": "C. Lattner. 2002. LLVM: An Infrastructure for Multi-Stage Optimization. Ph.D. Dissertation. Computer Science Dept., Univ. of Illinois at Urbana-Champaign."
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Ping Zhou , Jun Yang , Youtao Zhang , Bo Zhao , Engin Ipek , Onur Mutlu , Doug Burger, Phase-Change Technology and the Future of Main Memory, IEEE Micro, v.30 n.1, p.143-143, January 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2010.24", 
+            "DOIname": "10.1109/MM.2010.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1749491"
+        }, 
+        {
+            "ArticleName": "Ren-Shuo Liu , De-Yu Shen , Chia-Lin Yang , Shun-Chih Yu , Cheng-Yuan Michael Wang, NVM duet: unified working memory and persistent store architecture, ACM SIGPLAN Notices, v.49 n.4, April 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2644865.2541957", 
+            "DOIname": "10.1145/2644865.2541957", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541957"
+        }, 
+        {
+            "ArticleName": "Youyou Lu, Jiwu Shu, Long Sun, and Onur Mutlu. 2014. Loose-Ordering Consistency for persistent memory. In 32nd IEEE International Conference on Computer Design, ICCD 2014, Seoul, South Korea, October 19--22, 2014. 216--223."
+        }, 
+        {
+            "ArticleName": "Calif Milpitas. 2015. SanDisk and HP Launch Partnership to Create Memory-Driven Computing Solutions. https://www.sandisk.com/about/media-center/press-releases/2015/sandisk-and-hp-launch-partnership. (2015). {Online; accessed 2016/11/08}."
+        }, 
+        {
+            "ArticleName": "Dushyanth Narayanan , Orion Hodson, Whole-system persistence, Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems, March 03-07, 2012, London, England, UK", 
+            "DOIhref": "http://doi.acm.org/10.1145/2150976.2151018", 
+            "DOIname": "10.1145/2150976.2151018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2151018"
+        }, 
+        {
+            "ArticleName": "Jiaxin Ou , Jiwu Shu , Youyou Lu, A high performance file system for non-volatile main memory, Proceedings of the Eleventh European Conference on Computer Systems, April 18-21, 2016, London, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/2901318.2901324", 
+            "DOIname": "10.1145/2901318.2901324", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2901324"
+        }, 
+        {
+            "ArticleName": "Steven Pelley , Peter M. Chen , Thomas F. Wenisch, Memory persistency, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665712"
+        }, 
+        {
+            "ArticleName": "S. Raoux , G. W. Burr , M. J. Breitwisch , C. T. Rettner , Y.-C. Chen , R. M. Shelby , M. Salinga , D. Krebs , S.-H. Chen , H.-L. Lung , C. H. Lam, Phase-change random access memory: a scalable technology, IBM Journal of Research and Development, v.52 n.4, p.465-479, July 2008", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.524.0465", 
+            "DOIname": "10.1147/rd.524.0465", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1462885"
+        }, 
+        {
+            "ArticleName": "Andy Rudoff et al. {n. d.}. PMEM library website. http://pmem.io/nvml/. ({n. d.})."
+        }, 
+        {
+            "ArticleName": "Hovav Shacham , Matthew Page , Ben Pfaff , Eu-Jin Goh , Nagendra Modadugu , Dan Boneh, On the effectiveness of address-space randomization, Proceedings of the 11th ACM conference on Computer and communications security, October 25-29, 2004, Washington DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1030083.1030124", 
+            "DOIname": "10.1145/1030083.1030124", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1030124"
+        }, 
+        {
+            "ArticleName": "Shivaram Venkataraman , Niraj Tolia , Parthasarathy Ranganathan , Roy H. Campbell, Consistent and durable data structures for non-volatile byte-addressable memory, Proceedings of the 9th USENIX conference on File and stroage technologies, p.5-5, February 15-17, 2011, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1960480"
+        }, 
+        {
+            "ArticleName": "Haris Volos , Sanketh Nalli , Sankarlingam Panneerselvam , Venkatanathan Varadarajan , Prashant Saxena , Michael M. Swift, Aerie: flexible file-system interfaces to storage-class memory, Proceedings of the Ninth European Conference on Computer Systems, April 14-16, 2014, Amsterdam, The Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2592798.2592810", 
+            "DOIname": "10.1145/2592798.2592810", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2592810"
+        }, 
+        {
+            "ArticleName": "Haris Volos , Andres Jaan Tack , Michael M. Swift, Mnemosyne: lightweight persistent memory, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950379", 
+            "DOIname": "10.1145/1950365.1950379", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950379"
+        }, 
+        {
+            "ArticleName": "Tiancong Wang , Sakthikumaran Sambasivam , Yan Solihin , James Tuck, Hardware supported persistent object address translation, Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture, October 14-18, 2017, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/3123939.3123981", 
+            "DOIname": "10.1145/3123939.3123981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3123981"
+        }, 
+        {
+            "ArticleName": "Matthew Wilcox. 2014. Support ext4 on NV-DIMMs. http://lwn.net/Articles/588218/. (2014). {Online; accessed 2016/11/08}."
+        }, 
+        {
+            "ArticleName": "Xiaojian Wu , A. L. Narasimha Reddy, SCMFS: a file system for storage class memory, Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis, November 12-18, 2011, Seattle, Washington", 
+            "DOIhref": "http://doi.acm.org/10.1145/2063384.2063436", 
+            "DOIname": "10.1145/2063384.2063436", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2063436"
+        }, 
+        {
+            "ArticleName": "Jishen Zhao , Sheng Li , Doe Hyun Yoon , Yuan Xie , Norman P. Jouppi, Kiln: closing the performance gap between systems with and without persistence support, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540744", 
+            "DOIname": "10.1145/2540708.2540744", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540744"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Qualcomm Inc.", 
+            "Name": "Guoyang Chen"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Lei Zhang"
+        }, 
+        {
+            "Affiliation": "Qualcomm Inc.", 
+            "Name": "Richa Budhiraja"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Xipeng Shen"
+        }, 
+        {
+            "Affiliation": "Intel Corp.", 
+            "Name": "Youfeng Wu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124543&preflayout=flat"
+}

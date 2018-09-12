@@ -1,0 +1,206 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 234, 
+        "Downloads_6Weeks": 8, 
+        "Downloads_cumulative": 234, 
+        "CitationCount": 0
+    }, 
+    "Title": "SCRATCH: an end-to-end application-aware soft-GPGPU architecture and trimming tool", 
+    "Abstract": "Applying advanced signal processing and artificial intelligence algorithms is often constrained by power and energy consumption limitations, in high performance and embedded, cyber-physical and super-computing devices and systems. Although Graphics Processing Units (GPUs) helped to mitigate the throughput-per-Watt performance problem in many compute-intensive applications, dealing more efficiently with the autonomy requirements of intelligent systems demands power-oriented customized architectures that are specially tuned for each application, preferably without manual redesign of the entire hardware and capable of supporting legacy code. Hence, this work proposes a new SCRATCH framework that aims at automatically identifying the specific requirements of each application kernel, regarding instruction set and computing unit demands, allowing for the generation of application-specific and FPGA-implementable trimmed-down GPU-inspired architectures. The work is based on an improved version of the original MIAOW system (here named MIAOW2.0), which is herein extended to support a set of 156 instructions and enhanced to provide a fast prefetch memory system and a dual-clock domain. Experimental results with 17 highly relevant benchmarks, using integer and floating-point arithmetic, demonstrate that we have been able to achieve an average of 140\u00d7 speedup and 115\u00d7 higher energy-efficiency levels (instructions-per-Joule) when compared to the original MIAOW system, and a 2.4\u00d7 speedup and 2.1\u00d7 energy-efficiency gains compared against our optimized version without pruning.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Advanced Micro Devices Inc. 2017. CodeXL. (2017). http://gpuopen.com/compute-product/codexl/"
+        }, 
+        {
+            "ArticleName": "Muhammed Al Kadi , Benedikt Janssen , Michael Huebner, FGPU: An SIMT-Architecture for FPGAs, Proceedings of the 2016 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 21-23, 2016, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2847263.2847273", 
+            "DOIname": "10.1145/2847263.2847273", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2847273"
+        }, 
+        {
+            "ArticleName": "Altera Corp. 2014. Altera SDK for OpenCL. Programming Guide. (2014)."
+        }, 
+        {
+            "ArticleName": "K. Andryc, M. Merchant, and R. Tessier. 2013. FlexGrip: A soft GPGPU for FPGAs. In International Conference on Field-Programmable Technology (FPT). 230--237."
+        }, 
+        {
+            "ArticleName": "Raghuraman Balasubramanian , Vinay Gangadhar , Ziliang Guo , Chen-Han Ho , Cherin Joseph , Jaikrishnan Menon , Mario Paulo Drumond , Robin Paul , Sharath Prasad , Pradip Valathol , Karthikeyan Sankaralingam, Enabling GPGPU Low-Level Hardware Explorations with MIAOW: An Open-Source RTL Implementation of a GPGPU, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.2, p.21:1-21:25, July 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2764908", 
+            "DOIname": "10.1145/2764908", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2764908"
+        }, 
+        {
+            "ArticleName": "A. Bourd. 2016. The OpenCL Specification: Version 2.2. (March 2016). khronos. org/registry/cl/specs/opencl-2.2.pdf"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Kevin Skadron, A performance study of general-purpose applications on graphics processors using CUDA, Journal of Parallel and Distributed Computing, v.68 n.10, p.1370-1380, October, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.jpdc.2008.05.014", 
+            "DOIname": "10.1016/j.jpdc.2008.05.014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1412827"
+        }, 
+        {
+            "ArticleName": "Hari Cherupalli , Henry Duwe , Weidong Ye , Rakesh Kumar , John Sartori, Bespoke Processors for Applications with Ultra-low Area and Power Constraints, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080247", 
+            "DOIname": "10.1145/3079856.3080247", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080247"
+        }, 
+        {
+            "ArticleName": "T. S. Czajkowski, U. Aydonat, D. Denisenko, J. Freeman, M. Kinsner, D. Neto, J. Wong, P. Yiannacouras, and D. P. Singh. 2012. From OpenCL to high-performance hardware on FPGAS. In 22nd International Conference on Field Programmable Logic and Applications (FPL). 531--534."
+        }, 
+        {
+            "ArticleName": "J. Deng, W. Dong, R. Socher, L. J. Li, Kai Li, and Li Fei-Fei. 2009. ImageNet: A large-scale hierarchical image database. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 248--255."
+        }, 
+        {
+            "ArticleName": "G. Falcao , M. Owaida , D. Novo , M. Purnaprajna , N. Bellas , C. D. Antonopoulos , G. Karakonstantis , A. Burg , P. Ienne, Shortening Design Time through Multiplatform Simulations with a Portable OpenCL Golden-model: The LDPC Decoder Case, Proceedings of the 2012 IEEE 20th International Symposium on Field-Programmable Custom Computing Machines, p.224-231, April 29-May 01, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2012.46", 
+            "DOIname": "10.1109/FCCM.2012.46", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310460"
+        }, 
+        {
+            "ArticleName": "G. Falcao, V. Silva, L. Sousa, and J. Andrade. 2012. Portable LDPC Decoding on Multicores Using OpenCL {Applications Corner}. IEEE Signal Processing Magazine 29, 4 (July 2012), 81--109."
+        }, 
+        {
+            "ArticleName": "V. Gangadhar, R. Balasubramanian, M. Drumond, Z. Guo, J. Menon, C. Joseph, R. Prakash, S. Prasad, P. Vallathol, and K. Sankaralingam. 2015. MIAOW: An open source GPGPU. In IEEE Hot Chips 27 Symposium (HCS). 1--43."
+        }, 
+        {
+            "ArticleName": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , Jian Sun, Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV), p.1026-1034, December 07-13, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCV.2015.123", 
+            "DOIname": "10.1109/ICCV.2015.123", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2919814"
+        }, 
+        {
+            "ArticleName": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 770--778."
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices Inc. 2012. Southern Islands Series Instruction Set Architecture Reference Guide. (2012)."
+        }, 
+        {
+            "ArticleName": "Advanced Micro Devices Inc. 2016. Accelerated Parallel Processing (APP) Software Development Kit (SDK). (2016). http://developer.amd.com/sdks/amdappsdk/"
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "K. Krommydas, A. E. Helal, A. Verma, and W. C. Feng. 2016. Bridging the Performance-Programmability Gap for FPGAs via OpenCL: A Case Study with OpenDwarfs. In IEEE 24th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM). 198--198."
+        }, 
+        {
+            "ArticleName": "Min Lin, Qiang Chen, and Shuicheng Yan. 2013. Network in network. arXiv preprint arXiv:1312.4400 (2013)."
+        }, 
+        {
+            "ArticleName": "Jose Marques, Jose Andrade, and Gabriel Falcao. 2017. Unreliable Memory Operation on a Convolutional Neural Network Processor. In Proceedings of the 2017 IEEE International Workshop on Signal Processing Systems (SiPS) (SiPS'17). IEEE, New York, NY, USA, 1--6."
+        }, 
+        {
+            "ArticleName": "Sparsh Mittal , Jeffrey S. Vetter, A Survey of Methods for Analyzing and Improving GPU Energy Efficiency, ACM Computing Surveys (CSUR), v.47 n.2, p.1-23, January 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2636342", 
+            "DOIname": "10.1145/2636342", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2636342"
+        }, 
+        {
+            "ArticleName": "A. Momeni, H. Tabkhi, G. Schirner, and D. Kaeli. 2016. Hardware thread reordering to boost OpenCL throughput on FPGAs. In IEEE 34th International Conference on Computer Design (ICCD). 257--264."
+        }, 
+        {
+            "ArticleName": "N. Neves, N. Sebastiao, D. Matos, P. Tom\u00e1s, P. Flores, and N. Roma. 2015. Multicore SIMD ASIP for Next-Generation Sequencing and Alignment Biochip Platforms. IEEE Transactions on Very Large Scale Integration (VLSI) Systems 23, 7 (July 2015), 1287--1300."
+        }, 
+        {
+            "ArticleName": "N. Neves,P. Tom\u00e1s, and N. Roma. 2017. Adaptive In-Cache Streaming for Efficient Data Management. IEEE Transactions on Very Large Scale Integration (VLSI) Systems 25, 7 (July 2017), 2130--2143."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2017. CUDA C Programming Guide 8.0. NVIDIA."
+        }, 
+        {
+            "ArticleName": "Y. Pang, M. Sun, X. Jiang, and X. Li. 2017. Convolution in Convolution for Network in Network. IEEE Transactions on Neural Networks and Learning Systems PP, 99 (2017), 1--11."
+        }, 
+        {
+            "ArticleName": "Human Brain Project. 2017. Human Brain Project. (June 2017). https://www.humanbrainproject.eu/en/"
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Daniel R. Johnson , Mike O'Connor , Stephen W. Keckler, A variable warp size architecture, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750410", 
+            "DOIname": "10.1145/2749469.2750410", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750410"
+        }, 
+        {
+            "ArticleName": "Olga Russakovsky , Jia Deng , Hao Su , Jonathan Krause , Sanjeev Satheesh , Sean Ma , Zhiheng Huang , Andrej Karpathy , Aditya Khosla , Michael Bernstein , Alexander C. Berg , Li Fei-Fei, ImageNet Large Scale Visual Recognition Challenge, International Journal of Computer Vision, v.115 n.3, p.211-252, December 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11263-015-0816-y", 
+            "DOIname": "10.1007/s11263-015-0816-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2846559"
+        }, 
+        {
+            "ArticleName": "Muhammad Husni Santriaji and Henry Hoffmann. 2016. GRAPE: Minimizing energy for GPU applications with performance requirements. In 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 1--13."
+        }, 
+        {
+            "ArticleName": "Ankit Sethia , Ganesh Dasika , Mehrzad Samadi , Scott Mahlke, APOGEE: adaptive prefetching on GPUs for energy efficiency, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523735"
+        }, 
+        {
+            "ArticleName": "Ankit Sethia , Scott Mahlke, Equalizer: Dynamic Tuning of GPU Resources for Efficient Execution, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.16", 
+            "DOIname": "10.1109/MICRO.2014.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742220"
+        }, 
+        {
+            "ArticleName": "Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich. 2015. Going deeper with convolutions. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 1--9."
+        }, 
+        {
+            "ArticleName": "Rafael Ubal , Byunghyun Jang , Perhaad Mistry , Dana Schaa , David Kaeli, Multi2Sim: a simulation framework for CPU-GPU computing, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370865", 
+            "DOIname": "10.1145/2370816.2370865", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370865"
+        }, 
+        {
+            "ArticleName": "Yaman Umuroglu , Nicholas J. Fraser , Giulio Gambardella , Michaela Blott , Philip Leong , Magnus Jahre , Kees Vissers, FINN: A Framework for Fast, Scalable Binarized Neural Network Inference, Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2017, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/3020078.3021744", 
+            "DOIname": "10.1145/3020078.3021744", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3021744"
+        }, 
+        {
+            "ArticleName": "Kizheppatt Vipin and Suhaib A Fahmy. 2014. ZyCAP: Efficient partial reconfiguration management on the Xilinx Zynq. IEEE Embedded Systems Letters 6, 3 (2014), 41--44."
+        }, 
+        {
+            "ArticleName": "Xilinx. 2015. Zynq-7000 All Programmable SoC and 7 Series Devices Memory Interface Solutions v2.3 User Guide. (June 2015). http://www.xilinx.com/support/documentation/ip_documentation/mig_7series/v2_3/ug586_7Series_MIS.pdf"
+        }, 
+        {
+            "ArticleName": "Xilinx Inc. 2014. The Xilinx SDAccel Development Environment. (2014). https://www.xilinx.com/publications/prod_mktg/sdnet/sdaccel-backgrounder.pdf"
+        }, 
+        {
+            "ArticleName": "Xilinx Inc. 2015. Vivado Design Suite: AXI Reference Guide. (2015). http://www.xilinx.com/support/documentation/ip_documentation/axi_ref_guide/latest/ug1037-vivado-axi-reference-guide.pdf"
+        }, 
+        {
+            "ArticleName": "Xilinx Inc. 2017. MicroBlaze Soft Processor Core. (2017). https://www.xilinx.com/products/design-tools/microblaze.html"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Coimbra, Portugal", 
+            "Name": "Pedro Duarte"
+        }, 
+        {
+            "Affiliation": "Universidade de Lisboa, Portugal", 
+            "Name": "Pedro Tomas"
+        }, 
+        {
+            "Affiliation": "University of Coimbra, Portugal", 
+            "Name": "Gabriel Falcao"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123953&preflayout=flat"
+}

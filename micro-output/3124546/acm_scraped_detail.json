@@ -1,0 +1,221 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Shuwen Deng , Wenjie Xiong , Jakub Szefer, Cache timing side-channel vulnerability checking with computation tree logic, Proceedings of the 7th International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 02-02, 2018, Los Angeles, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3214294"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 533, 
+        "Downloads_6Weeks": 27, 
+        "Downloads_cumulative": 533, 
+        "CitationCount": 1
+    }, 
+    "Title": "How secure is your cache against side-channel attacks?", 
+    "Abstract": "Security-critical data can leak through very unexpected side channels, making side-channel attacks very dangerous threats to information security. Of these, cache-based side-channel attacks are some of the most problematic. This is because caches are essential for the performance of modern computers, but an intrinsic property of all caches - the different access times for cache hits and misses - is the property exploited to leak information in time-based cache side-channel attacks. Recently, different secure cache architectures have been proposed to defend against these attacks. However, we do not have a reliable method for evaluating a cache's resilience against different classes of cache side-channel attacks, which is the goal of this paper. We first propose a novel probabilistic information flow graph (PIFG) to model the interaction between the victim program, the attacker program and the cache architecture. From this model, we derive a new metric, the Probability of Attack Success (PAS), which gives a quantitative measure for evaluating a cache's resilience against a given class of cache side-channel attacks. We show the generality of our model and metric by applying them to evaluate nine different cache architectures against all four classes of cache side-channel attacks. Our new methodology, model and metric can help verify the security provided by different proposed secure cache architectures, and compare them in terms of their resilience to cache side-channel attacks, without the need for simulation or taping out a chip.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Michael Backes , Markus D\u00fcrmuth , Sebastian Gerling , Manfred Pinkal , Caroline Sporleder, Acoustic side-channel attacks on printers, Proceedings of the 19th USENIX conference on Security, August 11-13, 2010, Washington, DC", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1929847"
+        }, 
+        {
+            "ArticleName": "Daniel J Bernstein. 2005. Cache-timing attacks on AES. (2005)."
+        }, 
+        {
+            "ArticleName": "Joseph Bonneau , Ilya Mironov, Cache-collision timing attacks against AES, Proceedings of the 8th international conference on Cryptographic Hardware and Embedded Systems, October 10-13, 2006, Yokohama, Japan", 
+            "DOIhref": "https://dx.doi.org/10.1007/11894063_16", 
+            "DOIname": "10.1007/11894063_16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2105357"
+        }, 
+        {
+            "ArticleName": "Ernie Brickell, Gary Graunke, Michael Neve, and Jean-Pierre Seifert. 2006. Software mitigations to hedge AES against cache-based software side channel vulnerabilities. IACR Cryptology ePrint Archive 2006 (2006), 52."
+        }, 
+        {
+            "ArticleName": "John Demme , Robert Martin , Adam Waksman , Simha Sethumadhavan, Side-channel vulnerability factor: a metric for measuring information leakage, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337172", 
+            "DOIname": "10.1145/2366231.2337172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337172"
+        }, 
+        {
+            "ArticleName": "Leonid Domnitser , Nael Abu-Ghazaleh , Dmitry Ponomarev, A predictive model for cache-based side channels in multicore and multithreaded microprocessors, Proceedings of the 5th international conference on Mathematical methods, models and architectures for computer network security, September 08-10, 2010, St. Petersburg, Russia", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1885202"
+        }, 
+        {
+            "ArticleName": "Leonid Domnitser , Aamer Jaleel , Jason Loew , Nael Abu-Ghazaleh , Dmitry Ponomarev, Non-monopolizable caches: Low-complexity mitigation of cache side channel attacks, ACM Transactions on Architecture and Code Optimization (TACO), v.8 n.4, p.1-21, January 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2086696.2086714", 
+            "DOIname": "10.1145/2086696.2086714", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2086714"
+        }, 
+        {
+            "ArticleName": "David Gullasch , Endre Bangerter , Stephan Krenn, Cache Games -- Bringing Access-Based Cache Attacks on AES to Practice, Proceedings of the 2011 IEEE Symposium on Security and Privacy, p.490-505, May 22-25, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2011.22", 
+            "DOIname": "10.1109/SP.2011.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2006784"
+        }, 
+        {
+            "ArticleName": "Danny Harnik , Benny Pinkas , Alexandra Shulman-Peleg, Side Channels in Cloud Services: Deduplication in Cloud Storage, IEEE Security and Privacy, v.8 n.6, p.40-47, November 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MSP.2010.187", 
+            "DOIname": "10.1109/MSP.2010.187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1920063"
+        }, 
+        {
+            "ArticleName": "Naofumi Homma, Takafumi Aoki, and Akashi Satoh. 2010. Electromagnetic information leakage for side-channel analysis of cryptographic modules. In 2010 IEEE International Symposium on Electromagnetic Compatibility."
+        }, 
+        {
+            "ArticleName": "Emilia K\u00e4sper , Peter Schwabe, Faster and Timing-Attack Resistant AES-GCM, Proceedings of the 11th International Workshop on Cryptographic Hardware and Embedded Systems, September 06-09, 2009, Lausanne, Switzerland", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-04138-9_1", 
+            "DOIname": "10.1007/978-3-642-04138-9_1", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1617724"
+        }, 
+        {
+            "ArticleName": "Taesoo Kim , Marcus Peinado , Gloria Mainar-Ruiz, STEALTHMEM: system-level protection against cache-based side channel attacks in the cloud, Proceedings of the 21st USENIX conference on Security symposium, p.11-11, August 08-10, 2012, Bellevue, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362804"
+        }, 
+        {
+            "ArticleName": "Jingfei Kong , Onur Aciicmez , Jean-Pierre Seifert , Huiyang Zhou, Deconstructing new cache designs for thwarting software cache-based side channel attacks, Proceedings of the 2nd ACM workshop on Computer security architectures, October 31-31, 2008, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1456508.1456514", 
+            "DOIname": "10.1145/1456508.1456514", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1456514"
+        }, 
+        {
+            "ArticleName": "Boris K\u00f6pf , David Basin, An information-theoretic model for adaptive side-channel attacks, Proceedings of the 14th ACM conference on Computer and communications security, November 02-October 31, 2007, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1315245.1315282", 
+            "DOIname": "10.1145/1315245.1315282", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1315282"
+        }, 
+        {
+            "ArticleName": "Boris K\u00f6pf , Laurent Mauborgne , Mart\u00edn Ochoa, Automatic quantification of cache side-channels, Proceedings of the 24th international conference on Computer Aided Verification, July 07-13, 2012, Berkeley, CA", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-31424-7_40", 
+            "DOIname": "10.1007/978-3-642-31424-7_40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362268"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu, Qian Ge, Yuval Yarom, Frank Mckeen, Carlos Rozas, Gernot Heiser, and Ruby B Lee. 2016. Catalyst: Defeating last-level cache side channel attacks in cloud computing. In 2016 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 406--418."
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Ruby B. Lee, Security testing of a secure cache design, Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 23-24, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2487726.2487729", 
+            "DOIname": "10.1145/2487726.2487729", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2487729"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Ruby B. Lee, Random Fill Cache Architecture, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.28", 
+            "DOIname": "10.1109/MICRO.2014.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742176"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Hao Wu , Kenneth Mai , Ruby B. Lee, Newcache: Secure Cache Architecture Thwarting Cache Side-Channel Attacks, IEEE Micro, v.36 n.5, p.8-16, September 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2016.85", 
+            "DOIname": "10.1109/MM.2016.85", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026719"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Yuval Yarom , Qian Ge , Gernot Heiser , Ruby B. Lee, Last-Level Cache Side-Channel Attacks are Practical, Proceedings of the 2015 IEEE Symposium on Security and Privacy, p.605-622, May 17-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2015.43", 
+            "DOIname": "10.1109/SP.2015.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2867673"
+        }, 
+        {
+            "ArticleName": "Stefan Mangard, A simple power-analysis (SPA) attack on implementations of the AES key expansion, Proceedings of the 5th international conference on Information security and cryptology, November 28-29, 2002, Seoul, Korea", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1765392"
+        }, 
+        {
+            "ArticleName": "Kouhei Nadehara, Masao Ikekawa, and Ichiro Kuroda. 2004. Extended instructions for the AES cryptography and their efficient implementation. In Signal Processing Systems, 2004. SIPS 2004. IEEE Workshop on. IEEE, 152--157."
+        }, 
+        {
+            "ArticleName": "Elisabeth Oswald , Stefan Mangard , Norbert Pramstaller , Vincent Rijmen, A side-channel analysis resistant description of the AES s-box, Proceedings of the 12th international conference on Fast Software Encryption, February 21-23, 2005, Paris, France", 
+            "DOIhref": "https://dx.doi.org/10.1007/11502760_28", 
+            "DOIname": "10.1007/11502760_28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2103298"
+        }, 
+        {
+            "ArticleName": "Dan Page. 2005. Partitioned Cache Architecture as a Side-Channel Defence Mechanism. IACR Cryptology ePrint Archive 2005 (2005), 280."
+        }, 
+        {
+            "ArticleName": "Colin Percival. 2005. Cache missing for fun and profit. (2005)."
+        }, 
+        {
+            "ArticleName": "Chester Rebeiro , Debdeep Mukhopadhyay, Boosting Profiled Cache Timing Attacks With A Priori Analysis, IEEE Transactions on Information Forensics and Security, v.7 n.6, p.1900-1905, December 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TIFS.2012.2217333", 
+            "DOIname": "10.1109/TIFS.2012.2217333", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2713760"
+        }, 
+        {
+            "ArticleName": "Fran\u00e7ois-Xavier Standaert , Tal G. Malkin , Moti Yung, A Unified Framework for the Analysis of Side-Channel Key Recovery Attacks, Proceedings of the 28th Annual International Conference on Advances in Cryptology: the Theory and Applications of Cryptographic Techniques, April 26-30, 2009, Cologne, Germany", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-01001-9_26", 
+            "DOIname": "10.1007/978-3-642-01001-9_26", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1533709"
+        }, 
+        {
+            "ArticleName": "Stefan Tillich , Johann Gro\u00dfsch\u00e4dl, Instruction set extensions for efficient AES implementation on 32-bit processors, Proceedings of the 8th international conference on Cryptographic Hardware and Embedded Systems, October 10-13, 2006, Yokohama, Japan", 
+            "DOIhref": "https://dx.doi.org/10.1007/11894063_22", 
+            "DOIname": "10.1007/11894063_22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2105366"
+        }, 
+        {
+            "ArticleName": "Eran Tromer , Dag Arne Osvik , Adi Shamir, Efficient Cache Attacks on AES, and Countermeasures, Journal of Cryptology, v.23 n.1, p.37-71, January 2010", 
+            "DOIhref": "https://dx.doi.org/10.1007/s00145-009-9049-y", 
+            "DOIname": "10.1007/s00145-009-9049-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2725064"
+        }, 
+        {
+            "ArticleName": "Bhanu C. Vattikonda , Sambit Das , Hovav Shacham, Eliminating fine grained timers in Xen, Proceedings of the 3rd ACM workshop on Cloud computing security workshop, October 21-21, 2011, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2046660.2046671", 
+            "DOIname": "10.1145/2046660.2046671", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2046671"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, New cache designs for thwarting software cache-based side channel attacks, ACM SIGARCH Computer Architecture News, v.35 n.2, May 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273440.1250723", 
+            "DOIname": "10.1145/1273440.1250723", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250723"
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, A novel cache architecture with enhanced performance and security, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.83-93, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771781", 
+            "DOIname": "10.1109/MICRO.2008.4771781", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521781"
+        }, 
+        {
+            "ArticleName": "Yunjing Xu , Michael Bailey , Farnam Jahanian , Kaustubh Joshi , Matti Hiltunen , Richard Schlichting, An exploration of L2 cache covert channels in virtualized environments, Proceedings of the 3rd ACM workshop on Cloud computing security workshop, October 21-21, 2011, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2046660.2046670", 
+            "DOIname": "10.1145/2046660.2046670", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2046670"
+        }, 
+        {
+            "ArticleName": "Yuval Yarom , Katrina Falkner, FLUSH+RELOAD: a high resolution, low noise, L3 cache side-channel attack, Proceedings of the 23rd USENIX conference on Security Symposium, p.719-732, August 20-22, 2014, San Diego, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2671271"
+        }, 
+        {
+            "ArticleName": "Tianwei Zhang , Ruby B. Lee, New models of cache architectures characterizing information leakage from cache side channels, Proceedings of the 30th Annual Computer Security Applications Conference, December 08-12, 2014, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2664243.2664273", 
+            "DOIname": "10.1145/2664243.2664273", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2664273"
+        }, 
+        {
+            "ArticleName": "Tianwei Zhang , Fangfei Liu , Si Chen , Ruby B. Lee, Side channel vulnerability metrics: the promise and the pitfalls, Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 23-24, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2487726.2487728", 
+            "DOIname": "10.1145/2487726.2487728", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2487728"
+        }, 
+        {
+            "ArticleName": "Yinqian Zhang , Ari Juels , Michael K. Reiter , Thomas Ristenpart, Cross-VM side channels and their use to extract private keys, Proceedings of the 2012 ACM conference on Computer and communications security, October 16-18, 2012, Raleigh, North Carolina, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2382196.2382230", 
+            "DOIname": "10.1145/2382196.2382230", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2382230"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Princeton University", 
+            "Name": "Zecheng He"
+        }, 
+        {
+            "Affiliation": "Princeton University", 
+            "Name": "Ruby B. Lee"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124546&preflayout=flat"
+}

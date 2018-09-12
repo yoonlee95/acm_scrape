@@ -1,0 +1,340 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 10, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 10, 
+        "CitationCount": 0
+    }, 
+    "Title": "Racer: TSO consistency via race detection", 
+    "Abstract": "Several recent efforts aim to simplify coherence and its associate costs (e.g., directory size, complexity) in multicores. The bulk of these efforts rely on program data-race-free (DRF) semantics to eliminate explicit invalidations and use self-invalidation instead. While such protocols are simple, they require software cooperation. This is acceptable only for (correct) software that abides by the SC-for-DRF semantics defined in many modern programming language standards (e.g., C++11, Java, the latest C standards) but many are unwilling to trust coherence that relies solely on program semantics for its correctness. To address this important issue, this work proposes Racer, an efficient self-invalidation/write-through approach that guarantees the memory consistency model of the most common family of processors (TSO-x86), and at the same time maintains the relaxed-ordering advantages of SC-for-DRF protocols. Lacking a directory and explicit invalidations, Racer achieves this by detecting read-after-write races and causing self-invalidation on the racing reader's cache. Racer also uses a coalescing store buffer (at the L1 level) that allows coalescing and reordering of stores but upon detecting a race, delays the racing read until all its stores appear in order to the read. Race detection is performed using an efficient signature-based mechanism at the level of the shared cache. Racer performs significantly better than a traditional non-scalable directory-based protocol that does not allow reordering at the protocol level (14.2% in time and 26.4% in energy), a directory protocol for TSO (1.9% in time and 15.5% in energy), and state-of-the-art SC-for-DRF protocol that relies on acquire-release annotations in the programs (6.7% in time and 9.5% in energy). Racer self-invalidates less than program-level annotations as it only enforces ordering on dynamically detected races and provides significant reductions in network traffic and memory-system energy consumption.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Daniel J. Sorin , Mark D. Hill , David A. Wood, A Primer on Memory Consistency and Cache Coherence, Morgan & Claypool Publishers, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2028905"
+        }, 
+        {
+            "ArticleName": "L. Lamport, How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs, IEEE Transactions on Computers, v.28 n.9, p.690-691, September 1979", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1979.1675439", 
+            "DOIname": "10.1109/TC.1979.1675439", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1311750"
+        }, 
+        {
+            "ArticleName": "Byn Choi , Rakesh Komuravelli , Hyojin Sung , Robert Smolinski , Nima Honarmand , Sarita V. Adve , Vikram S. Adve , Nicholas P. Carter , Ching-Tsun Chou, DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.155-166, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.21", 
+            "DOIname": "10.1109/PACT.2011.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121416"
+        }, 
+        {
+            "ArticleName": "Thomas J. Ashby , Pedro Diaz , Marcelo Cintra, Software-Based Cache Coherence with Hardware-Assisted Selective Self-Invalidations Using Bloom Filters, IEEE Transactions on Computers, v.60 n.4, p.472-483, April 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2010.155", 
+            "DOIname": "10.1109/TC.2010.155", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1957566"
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Stefanos Kaxiras, Complexity-effective multicore coherence, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370853", 
+            "DOIname": "10.1145/2370816.2370853", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370853"
+        }, 
+        {
+            "ArticleName": "Stefanos Kaxiras , Alberto Ros, A new perspective for efficient virtual-cache coherence, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485968", 
+            "DOIname": "10.1145/2485922.2485968", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485968"
+        }, 
+        {
+            "ArticleName": "Hyojin Sung , Rakesh Komuravelli , Sarita V. Adve, DeNovoND: efficient hardware support for disciplined non-determinism, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451119", 
+            "DOIname": "10.1145/2451116.2451119", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451119"
+        }, 
+        {
+            "ArticleName": "Inderpreet Singh , Arrvindh Shriraman , Wilson W. L. Fung , Mike O'Connor , Tor M. Aamodt, Cache coherence for GPU architectures, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.578-590, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522351", 
+            "DOIname": "10.1109/HPCA.2013.6522351", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495501"
+        }, 
+        {
+            "ArticleName": "B. A. Hechtman, S. Che, D. R. Hower, Y. Tian, B. M. Beckmann, M. D. Hill, S. K. Reinhardt, and D. A. Wood, \"QuickRelease: A throughput-oriented approach to release consistency on GPUs,\" in 20th Int'l Symp. on High-Performance Computer Architecture (HPCA), Feb. 2014, pp. 189--200."
+        }, 
+        {
+            "ArticleName": "Derek R. Hower , Blake A. Hechtman , Bradford M. Beckmann , Benedict R. Gaster , Mark D. Hill , Steven K. Reinhardt , David A. Wood, Heterogeneous-race-free memory models, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541981", 
+            "DOIname": "10.1145/2541940.2541981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541981"
+        }, 
+        {
+            "ArticleName": "A. Ros, M. Davari, and S. Kaxiras, \"Hierarchical private/shared classification: the key to simple and efficient coherence for clustered cache hierarchies,\" in 21th Int'l Symp. on High-Performance Computer Architecture (HPCA), Feb. 2015, pp. 186--197."
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Stefanos Kaxiras, Callback: efficient synchronization without invalidation with a directory just for spin-waiting, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750405", 
+            "DOIname": "10.1145/2749469.2750405", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750405"
+        }, 
+        {
+            "ArticleName": "Hyojin Sung , Sarita V. Adve, DeNovoSync: Efficient Support for Arbitrary Synchronization without Writer-Initiated Invalidations, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694356", 
+            "DOIname": "10.1145/2694344.2694356", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694356"
+        }, 
+        {
+            "ArticleName": "Marco Elver , Vijay Nagarajan, RC3: Consistency Directed Cache Coherence for x86-64 with RC Extensions, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.292-304, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.37", 
+            "DOIname": "10.1109/PACT.2015.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923799"
+        }, 
+        {
+            "ArticleName": "Sarita V. Adve , Mark D. Hill, Weak ordering\u2014a new definition, Proceedings of the 17th annual international symposium on Computer Architecture, p.2-14, May 28-31, 1990, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/325164.325100", 
+            "DOIname": "10.1145/325164.325100", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325100"
+        }, 
+        {
+            "ArticleName": "ISO, ISO/IEC 14882:2015 Information technology --- Programming languages --- C++. International Organization for Standardization, 2015."
+        }, 
+        {
+            "ArticleName": "James Gosling , Bill Joy , Guy L. Steele , Gilad Bracha , Alex Buckley, The Java Language Specification, Java SE 8 Edition, Addison-Wesley Professional, 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2636997"
+        }, 
+        {
+            "ArticleName": "ISO, ISO/IEC 9899:2011 Information technology --- Programming languages --- C. International Organization for Standardization, 2011."
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Stefanos Kaxiras, Fast&Furious: A Tool for Detecting Covert Racing, Proceedings of the 6th Workshop on Parallel Programming and Run-Time Management Techniques for Many-core Architectures, p.1-6, January 19-21, 2015, Amsterdam, Netherlands", 
+            "DOIhref": "http://doi.acm.org/10.1145/2701310.2701315", 
+            "DOIname": "10.1145/2701310.2701315", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2701315"
+        }, 
+        {
+            "ArticleName": "C. Sakalis, C. Leonardsson, S. Kaxiras, and A. Ros, \"Splash-3: A properly synchronized benchmark suite for contemporary research,\" in IEEE Int'l Symp. on Performance Analysis of Systems and Software (ISPASS), Apr. 2016."
+        }, 
+        {
+            "ArticleName": "Peter Sewell , Susmit Sarkar , Scott Owens , Francesco Zappa Nardelli , Magnus O. Myreen, x86-TSO: a rigorous and usable programmer's model for x86 multiprocessors, Communications of the ACM, v.53 n.7, July 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1785414.1785443", 
+            "DOIname": "10.1145/1785414.1785443", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1785443"
+        }, 
+        {
+            "ArticleName": "Christoph von Praun , Harold W. Cain , Jong-Deok Choi , Kyung Dong Ryu, Conditional Memory Ordering, Proceedings of the 33rd annual international symposium on Computer Architecture, p.41-52, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.16", 
+            "DOIname": "10.1109/ISCA.2006.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136490"
+        }, 
+        {
+            "ArticleName": "Chris Gniady , Babak Falsafi , T. N. Vijaykumar, Is SC + ILP = RC?, Proceedings of the 26th annual international symposium on Computer architecture, p.162-171, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300993", 
+            "DOIname": "10.1145/300979.300993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300993"
+        }, 
+        {
+            "ArticleName": "Thomas F. Wenisch , Anastasia Ailamaki , Babak Falsafi , Andreas Moshovos, Mechanisms for store-wait-free multiprocessors, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250696", 
+            "DOIname": "10.1145/1250662.1250696", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250696"
+        }, 
+        {
+            "ArticleName": "Luis Ceze , James Tuck , Josep Torrellas , Calin Cascaval, Bulk Disambiguation of Speculative Threads in Multiprocessors, Proceedings of the 33rd annual international symposium on Computer Architecture, p.227-238, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.13", 
+            "DOIname": "10.1109/ISCA.2006.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136506"
+        }, 
+        {
+            "ArticleName": "Paul E. McKenney, Memory ordering in modern microprocessors, Part I, Linux Journal, v.2005 n.136, p.2, August 2005", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1080074"
+        }, 
+        {
+            "ArticleName": "Mahdad Davari , Alberto Ros , Erik Hagersten , Stefanos Kaxiras, An Efficient, Self-Contained, On-chip Directory: DIR1-SISD, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.317-330, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.23", 
+            "DOIname": "10.1109/PACT.2015.23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923800"
+        }, 
+        {
+            "ArticleName": "Jason Zebchuk , Vijayalakshmi Srinivasan , Moinuddin K. Qureshi , Andreas Moshovos, A tagless coherence directory, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669166", 
+            "DOIname": "10.1145/1669112.1669166", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669166"
+        }, 
+        {
+            "ArticleName": "Hongzhou Zhao , Arrvindh Shriraman , Sandhya Dwarkadas , Vijayalakshmi Srinivasan, SPATL: Honey, I Shrunk the Coherence Directory, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.33-44, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.10", 
+            "DOIname": "10.1109/PACT.2011.10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121482"
+        }, 
+        {
+            "ArticleName": "Blas A. Cuesta , Alberto Ros , Mar\u00eda E. G\u00f3mez , Antonio Robles , Jos\u00e9 F. Duato, Increasing the effectiveness of directory caches by deactivating coherence for private memory blocks, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000076", 
+            "DOIname": "10.1145/2000064.2000076", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000076"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, SCD: A scalable coherence directory with flexible sharer set encoding, Proceedings of the 2012 IEEE 18th International Symposium on High-Performance Computer Architecture, p.1-12, February 25-29, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2012.6168950", 
+            "DOIname": "10.1109/HPCA.2012.6168950", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192678"
+        }, 
+        {
+            "ArticleName": "Jason Zebchuk , Babak Falsafi , Andreas Moshovos, Multi-grain coherence directories, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540739", 
+            "DOIname": "10.1145/2540708.2540739", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540739"
+        }, 
+        {
+            "ArticleName": "M. Elver and V. Nagarajan, \"TSO-CC: Consistency directed cache coherence for tso,\" in 20th Int'l Symp. on High-Performance Computer Architecture (HPCA), Feb. 2014, pp. 165--176."
+        }, 
+        {
+            "ArticleName": "Xiangyao Yu , Srinivas Devadas, Tardis: Time Traveling Coherence Algorithm for Distributed Shared Memory, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.227-240, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.12", 
+            "DOIname": "10.1109/PACT.2015.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923792"
+        }, 
+        {
+            "ArticleName": "George Kurian , Qingchuan Shi , Srinivas Devadas , Omer Khan, OSPREY: Implementation of Memory Consistency Models for Cache Coherence Protocols involving Invalidation-Free Data Access, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.392-405, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.45", 
+            "DOIname": "10.1109/PACT.2015.45", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923807"
+        }, 
+        {
+            "ArticleName": "Leslie Lamport, Time, clocks, and the ordering of events in a distributed system, Communications of the ACM, v.21 n.7, p.558-565, July 1978", 
+            "DOIhref": "http://doi.acm.org/10.1145/359545.359563", 
+            "DOIname": "10.1145/359545.359563", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=359563"
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Alexandra Jimborean, A Dual-Consistency Cache Coherence Protocol, Proceedings of the 2015 IEEE International Parallel and Distributed Processing Symposium, p.1119-1128, May 25-29, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2015.43", 
+            "DOIname": "10.1109/IPDPS.2015.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2864054"
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Alexandra Jimborean, A Hybrid Static-Dynamic Classification for Dual-Consistency Cache Coherence, IEEE Transactions on Parallel and Distributed Systems, v.27 n.11, p.3101-3115, November 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2016.2528241", 
+            "DOIname": "10.1109/TPDS.2016.2528241", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3026174"
+        }, 
+        {
+            "ArticleName": "Nikos Hardavellas , Michael Ferdman , Babak Falsafi , Anastasia Ailamaki, Reactive NUCA: near-optimal block placement and replication in distributed caches, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555779", 
+            "DOIname": "10.1145/1555754.1555779", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555779"
+        }, 
+        {
+            "ArticleName": "Yong Li , Ahmed Abousamra , Rami Melhem , Alex K. Jones, Compiler-assisted data distribution for chip multiprocessors, Proceedings of the 19th international conference on Parallel architectures and compilation techniques, September 11-15, 2010, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/1854273.1854335", 
+            "DOIname": "10.1145/1854273.1854335", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1854335"
+        }, 
+        {
+            "ArticleName": "Yong Li , Rami Melhem , Alex K. Jones, Practically private: enabling high performance CMPs through compiler-assisted data classification, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370852", 
+            "DOIname": "10.1145/2370816.2370852", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370852"
+        }, 
+        {
+            "ArticleName": "Abhayendra Singh , Satish Narayanasamy , Daniel Marino , Todd Millstein , Madanlal Musuvathi, End-to-end sequential consistency, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337220"
+        }, 
+        {
+            "ArticleName": "Alberto Ros , Blas Cuesta , Mar\u00eda E. G\u00f3mez , Antonio Robles , Jos\u00e9 Duato, Temporal-Aware Mechanism to Detect Private Data in Chip Multiprocessors, Proceedings of the 2013 42nd International Conference on Parallel Processing, p.562-571, October 01-04, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2013.70", 
+            "DOIname": "10.1109/ICPP.2013.70", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2571111"
+        }, 
+        {
+            "ArticleName": "Daehoon Kim , Jeongseob Ahn , Jaehong Kim , Jaehyuk Huh, Subspace snooping: filtering snoops with operating system support, Proceedings of the 19th international conference on Parallel architectures and compilation techniques, September 11-15, 2010, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/1854273.1854292", 
+            "DOIname": "10.1145/1854273.1854292", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1854292"
+        }, 
+        {
+            "ArticleName": "Albert Esteve , Alberto Ros , Antonio Robles , Mar\u00eda E. G\u00f3mez , Jos\u00e9 Duato, TokenTLB: A Token-Based Page Classification Approach, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926280", 
+            "DOIname": "10.1145/2925426.2926280", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926280"
+        }, 
+        {
+            "ArticleName": "Burton H. Bloom, Space/time trade-offs in hash coding with allowable errors, Communications of the ACM, v.13 n.7, p.422-426, July 1970", 
+            "DOIhref": "http://doi.acm.org/10.1145/362686.362692", 
+            "DOIname": "10.1145/362686.362692", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=362692"
+        }, 
+        {
+            "ArticleName": "J. L. Carter and M. N. Wegman, \"Universal classes of hash functions,\" Journal of Computer and System Sciences, vol. 18, no. 2, pp. 143--154, 1979."
+        }, 
+        {
+            "ArticleName": "K. E. Moore, J. Bobba, M. J. Moravan, M. D. Hill, and D. A. Wood, \"LogTM: Log-based transactional memory,\" in 12th Int'l Symp. on High-Performance Computer Architecture (HPCA), Feb. 2006, pp. 254--265."
+        }, 
+        {
+            "ArticleName": "G. K. Konstadinidis, H. P. Li, F. Schumacher, V. Krishnaswamy, H. Cho, S. Dash, R. Masleid, C. Zheng, Y. D. Lin, P. Loewenstein, H. Park, V. Srinivasan, D. Huang, C. Hwang, W. Hsu, C. McAllister, J. Brooks, H. Pham, S. Turullols, Y. Yanggong, R. Golla, A. P. Smith, and A. Vahid-safa, \"SPARC M7: A 20 nm 32-core 64 MB L3 cache processor,\" IEEE Journal of Solid-State Circuits, Jan. 2015."
+        }, 
+        {
+            "ArticleName": "Jungju Oh , Milos Prvulovic , Alenka Zajic, TLSync: support for multiple fast barriers using on-chip transmission lines, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000078", 
+            "DOIname": "10.1145/2000064.2000078", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000078"
+        }, 
+        {
+            "ArticleName": "Bradford M. Beckmann , David A. Wood, TLC: Transmission Line Caches, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.43, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956579"
+        }, 
+        {
+            "ArticleName": "M-C. Frank Chang , Jason Cong , Adam Kaplan , Chunyue Liu , Mishali Naik , Jagannath Premkumar , Glenn Reinman , Eran Socher , Sai-Wang Tam, Power reduction of CMP communication networks via RF-interconnects, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.376-387, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771806", 
+            "DOIname": "10.1109/MICRO.2008.4771806", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521818"
+        }, 
+        {
+            "ArticleName": "Tushar Krishna , Amit Kumar , Patrick Chiang , Mattan Erez , Li-Shiuan Peh, NoC with Near-Ideal Express Virtual Channels Using Global-Line Communication, Proceedings of the 2008 16th IEEE Symposium on High Performance Interconnects, p.11-20, August 26-28, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/HOTI.2008.22", 
+            "DOIname": "10.1109/HOTI.2008.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1443816"
+        }, 
+        {
+            "ArticleName": "Kenneth C. Yeager, The MIPS R10000 Superscalar Microprocessor, IEEE Micro, v.16 n.2, p.28-40, April 1996", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.491460", 
+            "DOIname": "10.1109/40.491460", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=623999"
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Bradford M. Beckmann , Michael R. Marty , Min Xu , Alaa R. Alameldeen , Kevin E. Moore , Mark D. Hill , David A. Wood, Multifacet's general execution-driven multiprocessor simulator (GEMS) toolset, ACM SIGARCH Computer Architecture News, v.33 n.4, November 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1105734.1105747", 
+            "DOIname": "10.1145/1105734.1105747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105747"
+        }, 
+        {
+            "ArticleName": "N. Agarwal, T. Krishna, L.-S. Peh, and N. K. Jha, \"GARNET: A detailed on-chip network model inside a full-system simulator,\" in IEEE Int'l Symp. on Performance Analysis of Systems and Software (ISPASS), Apr. 2009, pp. 33--42."
+        }, 
+        {
+            "ArticleName": "N. Muralimanohar, R. Balasubramonian, and N. P. Jouppi, \"Cacti 6.0,\" HP Labs, Tech. Rep. HPL-2009-85, Apr. 2009."
+        }, 
+        {
+            "ArticleName": "Steven Cameron Woo , Moriyoshi Ohara , Evan Torrie , Jaswinder Pal Singh , Anoop Gupta, The SPLASH-2 programs: characterization and methodological considerations, Proceedings of the 22nd annual international symposium on Computer architecture, p.24-36, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.223990", 
+            "DOIname": "10.1145/223982.223990", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=223990"
+        }, 
+        {
+            "ArticleName": "Christian Bienia , Sanjeev Kumar , Jaswinder Pal Singh , Kai Li, The PARSEC benchmark suite: characterization and architectural implications, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454128", 
+            "DOIname": "10.1145/1454115.1454128", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454128"
+        }, 
+        {
+            "ArticleName": "David Culler , Jaswinder Pal Singh , Anoop Gupta, Parallel Computer Architecture: A Hardware/Software Approach, Morgan Kaufmann Publishers Inc., San Francisco, CA, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2821564"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Universidad de Murcia, Spain", 
+            "Name": "Alberto Ros"
+        }, 
+        {
+            "Affiliation": "Uppsala Universitet, Sweden", 
+            "Name": "Stefanos Kaxiras"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195678&preflayout=flat"
+}

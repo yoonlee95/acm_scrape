@@ -1,0 +1,215 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 534, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 534, 
+        "CitationCount": 0
+    }, 
+    "Title": "Fine-grained DRAM: energy-efficient DRAM for extreme bandwidth systems", 
+    "Abstract": "Future GPUs and other high-performance throughput processors will require multiple TB/s of bandwidth to DRAM. Satisfying this bandwidth demand within an acceptable energy budget is a challenge in these extreme bandwidth memory systems. We propose a new high-bandwidth DRAM architecture, Fine-Grained DRAM (FGDRAM), which improves bandwidth by 4\u00d7 and improves the energy efficiency of DRAM by 2\u00d7 relative to the highest-bandwidth, most energy-efficient contemporary DRAM, High Bandwidth Memory (HBM2). These benefits are in large measure achieved by partitioning the DRAM die into many independent units, called grains, each of which has a local, adjacent I/O. This approach unlocks the bandwidth of all the banks in the DRAM to be used simultaneously, eliminating shared buses interconnecting various banks. Furthermore, the on-DRAM data movement energy is significantly reduced due to the much shorter wiring distance between the cell array and the local I/O. This FGDRAM architecture readily lends itself to leveraging existing techniques to reducing the effective DRAM row size in an area efficient manner, reducing wasteful row activate energy in applications with low locality. In addition, when FGDRAM is paired with a memory controller optimized to exploit the additional concurrency provided by the independent grains, it improves GPU system performance by 19% over an iso-bandwidth and iso-capacity future HBM baseline. Thus, this energy-efficient, high-bandwidth FGDRAM architecture addresses the needs of future extreme-bandwidth memory systems.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "M. F. Adams, J. Brown, J. Shalf, B. V. Straalen, E. Strohmaier, and S. Williams. 2014. HPGMG 1.0: A Benchmark for Ranking High Performance Computing Systems. Technical Report. Lawrence Berkley National Laboratory. LBNL-6630E."
+        }, 
+        {
+            "ArticleName": "Timo Aila , Tero Karras, Architecture considerations for tracing incoherent rays, Proceedings of the Conference on High Performance Graphics, June 25-27, 2010, Saarbrucken, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1921497"
+        }, 
+        {
+            "ArticleName": "M. Andersch, J. Lucas, M. Alvarez-Mesa, and B. Juurlink. 2015. On Latency in GPU Throughput Microarchitectures. In Proceedings of the International Symposium on Performance Analysis of Systems and Software (ISPASS). 169--170."
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Rupesh Nasre , Keshav Pingali, A quantitative study of irregular programs on GPUs, Proceedings of the 2012 IEEE International Symposium on Workload Characterization (IISWC), p.141-151, November 04-06, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2012.6402918", 
+            "DOIname": "10.1109/IISWC.2012.6402918", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2474126"
+        }, 
+        {
+            "ArticleName": "S. Cha, S. O, H. Shin, S. Hwang, K. Park, S. J. Jang, J. S. Choi, G. Y. Jin, Y. H. Son, H. Cho, J. H. Ahn, and N. S. Kim. 2017. Defect Analysis and Cost-Effective Resilience Architecture for Future DRAM Devices. In Proceedings of the International Symposium on High-Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "N. Chatterjee, M. O'Connor, D. Lee, D. R. Johnson, S. W. Keckler, M. Rhu, and W. J. Dally. 2017. Architecting an Energy-Efficient DRAM System For GPUs. In Proceedings of the International Symposium on High-Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "Niladrish Chatterjee , Mike O'Connor , Gabriel H. Loh , Nuwan Jayasena , Rajeev Balasubramonian, Managing DRAM latency divergence in irregular GPGPU applications, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.16", 
+            "DOIname": "10.1109/SC.2014.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683608"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Elliott Cooper-Balis , Bruce Jacob, Fine-Grained Activation for Power Reduction in DRAM, IEEE Micro, v.30 n.3, p.34-47, May 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2010.43", 
+            "DOIname": "10.1109/MM.2010.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1849320"
+        }, 
+        {
+            "ArticleName": "Coral 2014. CORAL Benchmarks. https://asc.llnl.gov/CORAL-benchmarks/. (2014)."
+        }, 
+        {
+            "ArticleName": "J. Dongarra and P. Luszczek. 2005. Introduction to the HPCChallenege Benchmark Suite. ICL Technical Report ICL-UT-05--01. (2005)."
+        }, 
+        {
+            "ArticleName": "H. Ha, A. Pedram, S. Richardson, S. Kvatinsky, and M. Horowitz. 2016. Improving Energy Efficiency of DRAM by Exploiting Half Page Row Access. In Proceedings of the International Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Q. Harvard and R. J. Baker. 2011. A Scalable I/O Architecture for Wide I/O DRAM. In Proceedings of the International Midwest Symposium on Circuits and Systems (MWSCAS)."
+        }, 
+        {
+            "ArticleName": "M. A Heroux, D. W. Doerfler, Paul S. Crozier, J. M. Wilenbring, H. C. Edwards, A. Williams, M. Rajan, E. R. Keiter, H. K. Thornquist, and R. W. Numrich. 2009. Improving Performance via Mini-applications. Sandia Report SAND 2008--5574. (2009)."
+        }, 
+        {
+            "ArticleName": "Intel. 2016. An Intro to MCDRAM (High Bandwidth Memory) on Knights Landing. (2016). https://software.intel.com/en-us/blogs/2016/01/20/an-intro-to-mcdram-high-bandwidth-memory-on-knights-landing."
+        }, 
+        {
+            "ArticleName": "D. James. 2010. Recent Advances in DRAM Manufacturing. In Proceedings of the SEMI Advanced Semiconductor Manufacturing Conference. 264--269."
+        }, 
+        {
+            "ArticleName": "J. Jeddeloh and B. Keeth. 2012. Hybrid Memory Cube - New DRAM Architecture Increases Density and Performance. In Symposium on VLSI Technology."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2009. JEDEC Standard JESD212: GDDR5 SGRAM. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2012. JESD79--4: JEDEC Standard DDR4 SDRAM. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2013. JEDEC Standard JESD235: High Bandwidth Memory (HBM) DRAM. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2014. GDDR3 Specific SGRAM Functions in JEDEC Standard JESD21-C: JEDEC Configurations for Solid State Memories. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2014. JESD209--4: Low Power Double Data Rate 4 (LPDDR4). JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2015. JEDEC Standard JESD235A: High Bandwidth Memory (HBM) DRAM. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "JEDEC. 2016. JEDEC Standard JESD232A: Graphics Double Data Rate (GDDR5X) SGRAM Standard. JEDEC Solid State Technology Association, Virginia, USA."
+        }, 
+        {
+            "ArticleName": "Brent Keeth , R. Jacob Baker , Brian Johnson , Feng Lin, DRAM Circuit Design: Fundamental and High-Speed Topics, Wiley-IEEE Press, 2007", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1557425"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "S. Layton, N. Sakharnykh, and K. Clark. 2015. GPU Implementation of HPGMG-FV. In HPGMG BoF, Supercomputing."
+        }, 
+        {
+            "ArticleName": "Y. Lee, H. Kim, S. Hong, S. Hong, and S. Kim. 2017. Partial Row Activation for Low-Power DRAM System. In Proceedings of the International Symposium on High-Performance Computer Architecture (HPCA)."
+        }, 
+        {
+            "ArticleName": "J. Mohd-Yusof and N. Sakharnykh. 2014. Optimizing CoMD: A Molecular Dynamics Proxy Application Study. In GPU Technology Conference (GTC)."
+        }, 
+        {
+            "ArticleName": "NVIDIA. 2016. NVIDIA Tesla P100 Whitepaper. (2016). https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf."
+        }, 
+        {
+            "ArticleName": "NVIDIA 2017. NVIDIA GeForce GTX 1080: Gaming Perfected. (2017). http://international.download.nvidia.com/geforce-com/international/pdfs/GeForce_GTX_1080_Whitepaper_FINAL.pdf."
+        }, 
+        {
+            "ArticleName": "Seongil O , Young Hoon Son , Nam Sung Kim , Jung Ho Ahn, Row-buffer decoupling: a case for low-latency DRAM microarchitecture, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665723"
+        }, 
+        {
+            "ArticleName": "T. Pawlowski. 2011. Hybrid Memory Cube (HMC). In HotChips 23."
+        }, 
+        {
+            "ArticleName": "J. Poulton, W. Dally, X. Chen, J. Eyles, T. Greer, S. Tell, J. Wilson, and T. Gray. 2013. A 0.54pJ/b 20Gb/s Ground-Referenced Single-Ended Short-Reach Serial Link in 28nm CMOS for Advanced Packaging Applications. IEEE Journal of Solid-State Circuits 48, 12 (December 2013), 3206--3218."
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Michael Sullivan , Jingwen Leng , Mattan Erez, A locality-aware memory hierarchy for energy-efficient GPU architectures, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540717", 
+            "DOIname": "10.1145/2540708.2540717", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540717"
+        }, 
+        {
+            "ArticleName": "T. Schloesser, F. Jakubowski, J. v. Kluge, A. Graham, S. Selsazeck, M. Popp, P. Baars, K. Muemmler, P. Moll, K. Wilson, A. Buerke, D. Koehler, J. Radecker, E. Erben, U. Zimmerman, T. vorrath, B. Fischer, G. Aichmayr, R. Agaiby, W. Pamler, and T. Scheuster. 2008. A 6f2 Buried Wordline DRAM Cell for 40nm and Beyond. In Proceedings of the International Electron Devices Meeting (IEDM). 1--4."
+        }, 
+        {
+            "ArticleName": "R. Schmitt, J.-H. Kim, W. Kim, D. Oh, J. Feng, C. Yuan, L. Luo, and J. Wilson. 2008. Analyzing the Impact of Simultaneous Switching Noise on System Margin in Gigabit Single-Ended Memory Systems. In DesignCon."
+        }, 
+        {
+            "ArticleName": "Young Hoon Son , O. Seongil , Hyunggyun Yang , Daejin Jung , Jung Ho Ahn , John Kim , Jangwoo Kim , Jae W. Lee, Microbank: architecting through-silicon interposer-based main memory systems, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.91", 
+            "DOIname": "10.1109/SC.2014.91", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683708"
+        }, 
+        {
+            "ArticleName": "Mircea R. Stan , Wayne P. Burleson, Bus-invert coding for low-power I/O, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.3 n.1, p.49-58, March 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/92.365453", 
+            "DOIname": "10.1109/92.365453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=205235"
+        }, 
+        {
+            "ArticleName": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erha, V. Vanhoucke, and A. Rabinovich. 2015. Going Deeper With Convolutions. In Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)."
+        }, 
+        {
+            "ArticleName": "K. Tran and J. Ahn. 2014. HBM: Memory Solution for High Performance Processors. In Proceedings of MemCon."
+        }, 
+        {
+            "ArticleName": "Aniruddha N. Udipi , Naveen Muralimanohar , Niladrish Chatterjee , Rajeev Balasubramonian , Al Davis , Norman P. Jouppi, Rethinking DRAM design and organization for energy-constrained multi-cores, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815983", 
+            "DOIname": "10.1145/1815961.1815983", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815983"
+        }, 
+        {
+            "ArticleName": "Oreste Villa , Daniel R. Johnson , Mike O'Connor , Evgeny Bolotin , David Nellans , Justin Luitjens , Nikolai Sakharnykh , Peng Wang , Paulius Micikevicius , Anthony Scudiero , Stephen W. Keckler , William J. Dally, Scaling the power wall: a path to exascale, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.73", 
+            "DOIname": "10.1109/SC.2014.73", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683684"
+        }, 
+        {
+            "ArticleName": "Thomas Vogelsang, Understanding the Energy Consumption of Dynamic Random Access Memories, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.363-374, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.42", 
+            "DOIname": "10.1109/MICRO.2010.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934982"
+        }, 
+        {
+            "ArticleName": "Tao Zhang , Ke Chen , Cong Xu , Guangyu Sun , Tao Wang , Yuan Xie, Half-DRAM: a high-bandwidth and low-power DRAM architecture from the rethinking of fine-grained activation, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665724"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "NVIDIA and The University of Texas at Austin", 
+            "Name": "Mike O'Connor"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Niladrish Chatterjee"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Donghyuk Lee"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "John Wilson"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Aditya Agrawal"
+        }, 
+        {
+            "Affiliation": "NVIDIA and The University of Texas at Austin", 
+            "Name": "Stephen W. Keckler"
+        }, 
+        {
+            "Affiliation": "NVIDIA and Stanford University", 
+            "Name": "William J. Dally"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124545&preflayout=flat"
+}

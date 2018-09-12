@@ -1,0 +1,437 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 10, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 10, 
+        "CitationCount": 0
+    }, 
+    "Title": "Data-centric execution of speculative parallel programs", 
+    "Abstract": "Multicore systems must exploit locality to scale, scheduling tasks to minimize data movement. While locality-aware parallelism is well studied in non-speculative systems, it has received little attention in speculative systems (e.g., HTM or TLS), which hinders their scalability. We present spatial hints, a technique that leverages program knowledge to reveal and exploit locality in speculative parallel programs. A hint is an abstract integer, given when a speculative task is created, that denotes the data that the task is likely to access. We show it is easy to modify programs to convey locality through hints. We design simple hardware techniques that allow a state-of-the-art, tiled speculative architecture to exploit hints by: (i) running tasks likely to access the same data on the same tile, (ii) serializing tasks likely to conflict, and (iii) balancing tasks across tiles in a locality-aware fashion. We also show that programs can often be restructured to make hints more effective. Together, these techniques make speculative parallelism practical on large-scale systems: at 256 cores, hints achieve near-linear scalability on nine challenging applications, improving performance over hint-oblivious scheduling by 3.3x gmean and by up to 16x. Hints also make speculation far more efficient, reducing wasted work by 6.4x and traffic by 3.5x on average.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "\"9th DIMACS Implementation Challenge: Shortest Paths,\" 2006."
+        }, 
+        {
+            "ArticleName": "Umut A. Acar , Guy E. Blelloch , Robert D. Blumofe, The data locality of work stealing, Proceedings of the twelfth annual ACM symposium on Parallel algorithms and architectures, p.1-12, July 09-13, 2000, Bar Harbor, Maine, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/341800.341801", 
+            "DOIname": "10.1145/341800.341801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=341801"
+        }, 
+        {
+            "ArticleName": "N. Agarwal, T. Krishna, L.-S. Peh, and N. K. Jha, \"GARNET: A detailed on-chip network model inside a full-system simulator,\" in ISPASS, 2009."
+        }, 
+        {
+            "ArticleName": "Shivali Agarwal , Rajkishore Barik , Dan Bonachea , Vivek Sarkar , Rudrapatna K. Shyamasundar , Katherine Yelick, Deadlock-free scheduling of X10 computations with bounded resources, Proceedings of the nineteenth annual ACM symposium on Parallel algorithms and architectures, June 09-11, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1248377.1248416", 
+            "DOIname": "10.1145/1248377.1248416", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1248416"
+        }, 
+        {
+            "ArticleName": "Mohammad Ansari , Mikel Luj\u00e1n , Christos Kotselidis , Kim Jarvis , Chris Kirkham , Ian Watson, Steal-on-Abort: Improving Transactional Memory Performance through Dynamic Transaction Reordering, Proceedings of the 4th International Conference on High Performance Embedded Architectures and Compilers, January 25-28, 2009, Paphos, Cyprus", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-92990-1_3", 
+            "DOIname": "10.1007/978-3-540-92990-1_3", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1505821"
+        }, 
+        {
+            "ArticleName": "A. Armejach, A. Negi, A. Cristal, O. Unsal, P. Stenstrom, and T. Harris, \"HARP: Adaptive abort recurrence prediction for hardware transactional memory,\" in HiPC-20, 2013."
+        }, 
+        {
+            "ArticleName": "D. Bader, H. Meyerhenke, P. Sanders, and D. Wagner, Eds., 10th DIMACS Implementation Challenge Workshop, 2012."
+        }, 
+        {
+            "ArticleName": "Geoffrey Blake , Ronald G. Dreslinski , Trevor Mudge, Proactive transaction scheduling for contention management, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669133", 
+            "DOIname": "10.1145/1669112.1669133", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669133"
+        }, 
+        {
+            "ArticleName": "G. Blake, R. G. Dreslinski, and T. Mudge, \"Bloom filter guided transaction scheduling,\" in MICRO-44, 2011."
+        }, 
+        {
+            "ArticleName": "Robert D. Blumofe , Charles E. Leiserson, Scheduling multithreaded computations by work stealing, Journal of the ACM (JACM), v.46 n.5, p.720-748, Sept. 1999", 
+            "DOIhref": "http://doi.acm.org/10.1145/324133.324234", 
+            "DOIname": "10.1145/324133.324234", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=324234"
+        }, 
+        {
+            "ArticleName": "Robert L. Bocchino , Vikram S. Adve , Bradford L. Chamberlain, Software transactional memory for large scale clusters, Proceedings of the 13th ACM SIGPLAN Symposium on Principles and practice of parallel programming, February 20-23, 2008, Salt Lake City, UT, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1345206.1345242", 
+            "DOIname": "10.1145/1345206.1345242", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1345242"
+        }, 
+        {
+            "ArticleName": "J. Lawrence Carter , Mark N. Wegman, Universal classes of hash functions (Extended Abstract), Proceedings of the ninth annual ACM symposium on Theory of computing, p.106-112, May 04-04, 1977, Boulder, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/800105.803400", 
+            "DOIname": "10.1145/800105.803400", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=803400"
+        }, 
+        {
+            "ArticleName": "Luis Ceze , James Tuck , Josep Torrellas , Calin Cascaval, Bulk Disambiguation of Speculative Threads in Multiprocessors, Proceedings of the 33rd annual international symposium on Computer Architecture, p.227-238, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.13", 
+            "DOIname": "10.1109/ISCA.2006.13", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136506"
+        }, 
+        {
+            "ArticleName": "Hassan Chafi , Jared Casper , Brian D. Carlstrom , Austen McDonald , Chi Cao Minh , Woongki Baek , Christos Kozyrakis , Kunle Olukotun, A Scalable, Non-blocking Approach to Transactional Memory, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.97-108, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346189", 
+            "DOIname": "10.1109/HPCA.2007.346189", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318105"
+        }, 
+        {
+            "ArticleName": "Shimin Chen , Phillip B. Gibbons , Michael Kozuch , Vasileios Liaskovitis , Anastassia Ailamaki , Guy E. Blelloch , Babak Falsafi , Limor Fix , Nikos Hardavellas , Todd C. Mowry , Chris Wilkerson, Scheduling threads for constructive cache sharing on CMPs, Proceedings of the nineteenth annual ACM symposium on Parallel algorithms and architectures, June 09-11, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1248377.1248396", 
+            "DOIname": "10.1145/1248377.1248396", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1248396"
+        }, 
+        {
+            "ArticleName": "Carlo Curino , Evan Jones , Yang Zhang , Sam Madden, Schism: a workload-driven approach to database replication and partitioning, Proceedings of the VLDB Endowment, v.3 n.1-2, September 2010", 
+            "DOIhref": "https://dx.doi.org/10.14778/1920841.1920853", 
+            "DOIname": "10.14778/1920841.1920853", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1920853"
+        }, 
+        {
+            "ArticleName": "Timothy A. Davis , Yifan Hu, The university of Florida sparse matrix collection, ACM Transactions on Mathematical Software (TOMS), v.38 n.1, p.1-25, November 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2049662.2049663", 
+            "DOIname": "10.1145/2049662.2049663", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2049663"
+        }, 
+        {
+            "ArticleName": "B. D. de Dinechin, R. Ayrignac, P.-E. Beaucamps, P. Couvert, B. Ganne, P. G. de Massas, F. Jacquet, S. Jones, N. M. Chaisemartin, F. Riss, and T. Strudel, \"A clustered manycore processor architecture for embedded and accelerated applications,\" in HPEC, 2013."
+        }, 
+        {
+            "ArticleName": "Nuno Diegues , Paolo Romano , Stoyan Garbatov, Seer: Probabilistic Scheduling for Hardware Transactional Memory, Proceedings of the 27th ACM symposium on Parallelism in Algorithms and Architectures, June 13-15, 2015, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2755573.2755578", 
+            "DOIname": "10.1145/2755573.2755578", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2755578"
+        }, 
+        {
+            "ArticleName": "Shlomi Dolev , Danny Hendler , Adi Suissa, CAR-STM: scheduling-based collision avoidance and resolution for software transactional memory, Proceedings of the twenty-seventh ACM symposium on Principles of distributed computing, August 18-21, 2008, Toronto, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1400751.1400769", 
+            "DOIname": "10.1145/1400751.1400769", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1400769"
+        }, 
+        {
+            "ArticleName": "Aleksandar Dragojevi\u0107 , Rachid Guerraoui , Anmol V. Singh , Vasu Singh, Preventing versus curing: avoiding conflicts in transactional memories, Proceedings of the 28th ACM symposium on Principles of distributed computing, August 10-12, 2009, Calgary, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1582716.1582725", 
+            "DOIname": "10.1145/1582716.1582725", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1582725"
+        }, 
+        {
+            "ArticleName": "Alejandro Duran , Julita Corbal\u00e1n , Eduard Ayguad\u00e9, Evaluation of OpenMP task scheduling strategies, Proceedings of the 4th international conference on OpenMP in a new era of parallelism, May 12-14, 2008, West Lafayette, IN, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1789838"
+        }, 
+        {
+            "ArticleName": "Stanley L. C. Fung , J. Gregory Steffan, Improving cache locality for thread-level speculation, Proceedings of the 20th international conference on Parallel and distributed processing, p.32-32, April 25-29, 2006, Rhodes Island, Greece", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1898966"
+        }, 
+        {
+            "ArticleName": "M. J. Garzar\u00e1n, M. Prvulovic, J. M. Llaber\u00eda, V. Vi\u00f1als, L. Rauchwerger, and J. Torrellas, \"Tradeoffs in buffering speculative memory state for thread-level speculation in multiprocessors,\" in HPCA-9, 2003."
+        }, 
+        {
+            "ArticleName": "J. P. Grossman , Jeffrey S. Kuskin , Joseph A. Bank , Michael Theobald , Ron O. Dror , Douglas J. Ierardi , Richard H. Larson , U. Ben Schafer , Brian Towles , Cliff Young , David E. Shaw, Hardware support for fine-grained event-driven computation in Anton 2, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451175", 
+            "DOIname": "10.1145/2451116.2451175", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451175"
+        }, 
+        {
+            "ArticleName": "Yi Guo , Jisheng Zhao , Vincent Cave , Vivek Sarkar, SLAW: a scalable locality-aware adaptive work-stealing scheduler for multi-core systems, Proceedings of the 15th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, January 09-14, 2010, Bangalore, India", 
+            "DOIhref": "http://doi.acm.org/10.1145/1693453.1693504", 
+            "DOIname": "10.1145/1693453.1693504", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1693504"
+        }, 
+        {
+            "ArticleName": "Lance Hammond , Mark Willey , Kunle Olukotun, Data speculation support for a chip multiprocessor, Proceedings of the eighth international conference on Architectural support for programming languages and operating systems, p.58-69, October 02-07, 1998, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/291069.291020", 
+            "DOIname": "10.1145/291069.291020", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=291020"
+        }, 
+        {
+            "ArticleName": "Lance Hammond , Vicky Wong , Mike Chen , Brian D. Carlstrom , John D. Davis , Ben Hertzberg , Manohar K. Prabhu , Honggo Wijaya , Christos Kozyrakis , Kunle Olukotun, Transactional Memory Coherence and Consistency, Proceedings of the 31st annual international symposium on Computer architecture, p.102, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006711"
+        }, 
+        {
+            "ArticleName": "P. Hart, N. Nilsson, and B. Raphael, \"A formal basis for the heuristic determination of minimum cost paths,\" IEEE Trans. Syst. Sci. Cybernetics, vol. 4, no. 2, 1968."
+        }, 
+        {
+            "ArticleName": "William Hasenplaugh , Tim Kaler , Tao B. Schardl , Charles E. Leiserson, Ordering heuristics for parallel graph coloring, Proceedings of the 26th ACM symposium on Parallelism in algorithms and architectures, June 23-25, 2014, Prague, Czech Republic", 
+            "DOIhref": "http://doi.acm.org/10.1145/2612669.2612697", 
+            "DOIname": "10.1145/2612669.2612697", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2612697"
+        }, 
+        {
+            "ArticleName": "Muhammad Amber Hassaan , Martin Burtscher , Keshav Pingali, Ordered vs. unordered: a comparison of parallelism and work-efficiency in irregular algorithms, Proceedings of the 16th ACM symposium on Principles and practice of parallel programming, February 12-16, 2011, San Antonio, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1941553.1941557", 
+            "DOIname": "10.1145/1941553.1941557", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941557"
+        }, 
+        {
+            "ArticleName": "Maurice Herlihy , Ye Sun, Distributed transactional memory for metric-space networks, Proceedings of the 19th international conference on Distributed Computing, September 26-29, 2005, Cracow, Poland", 
+            "DOIhref": "https://dx.doi.org/10.1007/11561927_24", 
+            "DOIname": "10.1007/11561927_24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2162344"
+        }, 
+        {
+            "ArticleName": "Brandon Holt , Preston Briggs , Luis Ceze , Mark Oskin, Alembic: automatic locality extraction via migration, Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications, October 20-24, 2014, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2660193.2660194", 
+            "DOIname": "10.1145/2660193.2660194", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2660194"
+        }, 
+        {
+            "ArticleName": "Intel TBB, \"http://www.threadingbuildingblocks.org.\""
+        }, 
+        {
+            "ArticleName": "Syed Ali Raza Jafri , Gwendolyn Voskuilen , T. N. Vijaykumar, Wait-n-GoTM: improving HTM performance by serializing cyclic dependencies, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451173", 
+            "DOIname": "10.1145/2451116.2451173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451173"
+        }, 
+        {
+            "ArticleName": "David R. Jefferson, Virtual time, ACM Transactions on Programming Languages and Systems (TOPLAS), v.7 n.3, p.404-425, July 1985", 
+            "DOIhref": "http://doi.acm.org/10.1145/3916.3988", 
+            "DOIname": "10.1145/3916.3988", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3988"
+        }, 
+        {
+            "ArticleName": "Mark C. Jeffrey , Suvinay Subramanian , Cong Yan , Joel Emer , Daniel Sanchez, A scalable architecture for ordered parallelism, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830777", 
+            "DOIname": "10.1145/2830772.2830777", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830777"
+        }, 
+        {
+            "ArticleName": "M. C. Jeffrey, S. Subramanian, C. Yan, J. Emer, and D. Sanchez, \"Unlocking Ordered Parallelism with the Swarm Architecture,\" IEEE Micro, vol. 36, no. 3, 2016."
+        }, 
+        {
+            "ArticleName": "Changkyu Kim , Doug Burger , Stephen W. Keckler, An adaptive, non-uniform cache structure for wire-delay dominated on-chip caches, Proceedings of the 10th international conference on Architectural support for programming languages and operating systems, October 05-09, 2002, San Jose, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/605397.605420", 
+            "DOIname": "10.1145/605397.605420", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605420"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni , Patrick Carribault , Keshav Pingali , Ganesh Ramanarayanan , Bruce Walter , Kavita Bala , L. Paul Chew, Scheduling strategies for optimistic parallel execution of irregular programs, Proceedings of the twentieth annual symposium on Parallelism in algorithms and architectures, June 14-16, 2008, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1378533.1378575", 
+            "DOIname": "10.1145/1378533.1378575", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1378575"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni , Keshav Pingali , Ganesh Ramanarayanan , Bruce Walter , Kavita Bala , L. Paul Chew, Optimistic parallelism benefits from data partitioning, Proceedings of the 13th international conference on Architectural support for programming languages and operating systems, March 01-05, 2008, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1346281.1346311", 
+            "DOIname": "10.1145/1346281.1346311", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346311"
+        }, 
+        {
+            "ArticleName": "Sanjeev Kumar , Christopher J. Hughes , Anthony Nguyen, Carbon: architectural support for fine-grained parallelism on chip multiprocessors, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250683", 
+            "DOIname": "10.1145/1250662.1250683", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250683"
+        }, 
+        {
+            "ArticleName": "Charles E. Leiserson , Tao B. Schardl, A work-efficient parallel breadth-first search algorithm (or how to cope with the nondeterminism of reducers), Proceedings of the twenty-second annual ACM symposium on Parallelism in algorithms and architectures, June 13-15, 2010, Thira, Santorini, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/1810479.1810534", 
+            "DOIname": "10.1145/1810479.1810534", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1810534"
+        }, 
+        {
+            "ArticleName": "A. Lenharth, D. Nguyen, and K. Pingali, \"Priority queues are not good concurrent priority schedulers,\" in Euro-Par, 2015."
+        }, 
+        {
+            "ArticleName": "J. Leskovec and A. Krevl, \"SNAP Datasets: Stanford large network dataset collection,\" http://snap.stanford.edu/data, jun 2014."
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Robert Ryan McCune , Tim Weninger , Greg Madey, Thinking Like a Vertex: A Survey of Vertex-Centric Frameworks for Large-Scale Distributed Graph Processing, ACM Computing Surveys (CSUR), v.48 n.2, p.1-39, November 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2818185", 
+            "DOIname": "10.1145/2818185", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2818185"
+        }, 
+        {
+            "ArticleName": "C. C. Minh, J. Chung, C. Kozyrakis, and K. Olukotun, \"STAMP: Stanford Transactional Applications for Multi-Processing,\" in IISWC, 2008."
+        }, 
+        {
+            "ArticleName": "K. Moore, J. Bobba, M. Moravan, M. Hill, and D. Wood, \"LogTM: Log-based transactional memory,\" in HPCA-12, 2006."
+        }, 
+        {
+            "ArticleName": "J. E. Nelson, \"Latency-Tolerant Distributed Shared Memory For Data-Intensive Applications,\" Ph.D. dissertation, 2015."
+        }, 
+        {
+            "ArticleName": "Donald Nguyen , Keshav Pingali, Synthesizing concurrent schedulers for irregular algorithms, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950404", 
+            "DOIname": "10.1145/1950365.1950404", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950404"
+        }, 
+        {
+            "ArticleName": "OpenStreetMap, \"http://www.openstreetmap.org.\""
+        }, 
+        {
+            "ArticleName": "Heidi Pan , Krste Asanovi\u0107 , Robert Cohn , Chi-Keung Luk, Controlling program execution through binary instrumentation, ACM SIGARCH Computer Architecture News, v.33 n.5, December 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1127577.1127587", 
+            "DOIname": "10.1145/1127577.1127587", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1127587"
+        }, 
+        {
+            "ArticleName": "Keshav Pingali , Donald Nguyen , Milind Kulkarni , Martin Burtscher , M. Amber Hassaan , Rashid Kaleem , Tsung-Hsien Lee , Andrew Lenharth , Roman Manevich , Mario M\u00e9ndez-Lojo , Dimitrios Prountzos , Xin Sui, The tao of parallelism in algorithms, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993501", 
+            "DOIname": "10.1145/1993498.1993501", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993501"
+        }, 
+        {
+            "ArticleName": "Dimitrios Prountzos , Roman Manevich , Keshav Pingali, Synthesizing parallel graph programs via automated planning, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2737953", 
+            "DOIname": "10.1145/2737924.2737953", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2737953"
+        }, 
+        {
+            "ArticleName": "Xuehai Qian , Wonsun Ahn , Josep Torrellas, ScalableBulk: Scalable Cache Coherence for Atomic Blocks in a Lazy Environment, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.447-458, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.29", 
+            "DOIname": "10.1109/MICRO.2010.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934989"
+        }, 
+        {
+            "ArticleName": "Jose Renau , Karin Strauss , Luis Ceze , Wei Liu , Smruti Sarangi , James Tuck , Josep Torrellas, Thread-Level Speculation on a CMP can be energy efficient, Proceedings of the 19th annual international conference on Supercomputing, June 20-22, 2005, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/1088149.1088178", 
+            "DOIname": "10.1145/1088149.1088178", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1088178"
+        }, 
+        {
+            "ArticleName": "Jose Renau , James Tuck , Wei Liu , Luis Ceze , Karin Strauss , Josep Torrellas, Tasking with out-of-order spawn in TLS chip multiprocessors: microarchitecture and compilation, Proceedings of the 19th annual international conference on Supercomputing, June 20-22, 2005, Cambridge, Massachusetts", 
+            "DOIhref": "http://doi.acm.org/10.1145/1088149.1088173", 
+            "DOIname": "10.1145/1088149.1088173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1088173"
+        }, 
+        {
+            "ArticleName": "Christopher J. Rossbach , Owen S. Hofmann , Emmett Witchel, Is transactional programming actually easier?, Proceedings of the 15th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, January 09-14, 2010, Bangalore, India", 
+            "DOIhref": "http://doi.acm.org/10.1145/1693453.1693462", 
+            "DOIname": "10.1145/1693453.1693462", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1693462"
+        }, 
+        {
+            "ArticleName": "Mohamed M. Saad , Binoy Ravindran, HyFlow: a high performance distributed software transactional memory framework, Proceedings of the 20th international symposium on High performance distributed computing, June 08-11, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1996130.1996167", 
+            "DOIname": "10.1145/1996130.1996167", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1996167"
+        }, 
+        {
+            "ArticleName": "D. Sainz and H. Attiya, \"RELSTM: A proactive transactional memory scheduler,\" in TRANSACT, 2013."
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, ZSim: fast and accurate microarchitectural simulation of thousand-core systems, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485963", 
+            "DOIname": "10.1145/2485922.2485963", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485963"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , David Lo , Richard M. Yoo , Jeremy Sugerman , Christos Kozyrakis, Dynamic Fine-Grain Scheduling of Pipeline Parallelism, Proceedings of the 2011 International Conference on Parallel Architectures and Compilation Techniques, p.22-32, October 10-14, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2011.9", 
+            "DOIname": "10.1109/PACT.2011.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2121481"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Richard M. Yoo , Christos Kozyrakis, Flexible architectural support for fine-grain scheduling, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736055", 
+            "DOIname": "10.1145/1736020.1736055", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736055"
+        }, 
+        {
+            "ArticleName": "Harsha Vardhan Simhadri , Guy E. Blelloch , Jeremy T. Fineman , Phillip B. Gibbons , Aapo Kyrola, Experimental analysis of space-bounded schedulers, Proceedings of the 26th ACM symposium on Parallelism in algorithms and architectures, June 23-25, 2014, Prague, Czech Republic", 
+            "DOIhref": "http://doi.acm.org/10.1145/2612669.2612678", 
+            "DOIname": "10.1145/2612669.2612678", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2612678"
+        }, 
+        {
+            "ArticleName": "Gurindar S. Sohi , Scott E. Breach , T. N. Vijaykumar, Multiscalar processors, Proceedings of the 22nd annual international symposium on Computer architecture, p.414-425, June 22-24, 1995, S. Margherita Ligure, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/223982.224451", 
+            "DOIname": "10.1145/223982.224451", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224451"
+        }, 
+        {
+            "ArticleName": "J. Greggory Steffan , Christopher B. Colohan , Antonia Zhai , Todd C. Mowry, A scalable approach to thread-level speculation, Proceedings of the 27th annual international symposium on Computer architecture, p.1-12, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339650", 
+            "DOIname": "10.1145/339647.339650", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339650"
+        }, 
+        {
+            "ArticleName": "J. Steffan , T Mowry, The Potential for Using Thread-Level Data Speculation to Facilitate Automatic Parallelization, Proceedings of the 4th International Symposium on High-Performance Computer Architecture, p.2, January 31-February 04, 1998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822712"
+        }, 
+        {
+            "ArticleName": "Jeremy Sugerman , Kayvon Fatahalian , Solomon Boulos , Kurt Akeley , Pat Hanrahan, GRAMPS: A programming model for graphics pipelines, ACM Transactions on Graphics (TOG), v.28 n.1, p.1-11, January 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1477926.1477930", 
+            "DOIname": "10.1145/1477926.1477930", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1477930"
+        }, 
+        {
+            "ArticleName": "Stephen Tu , Wenting Zheng , Eddie Kohler , Barbara Liskov , Samuel Madden, Speedy transactions in multicore in-memory databases, Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles, November 03-06, 2013, Farminton, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2517349.2522713", 
+            "DOIname": "10.1145/2517349.2522713", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2522713"
+        }, 
+        {
+            "ArticleName": "D. J. Welsh and M. B. Powell, \"An upper bound for the chromatic number of a graph and its application to timetabling problems,\" The Computer Journal, vol. 10, no. 1, 1967."
+        }, 
+        {
+            "ArticleName": "David Wentzlaff , Patrick Griffin , Henry Hoffmann , Liewei Bao , Bruce Edwards , Carl Ramey , Matthew Mattina , Chyi-Chang Miao , John F. Brown III , Anant Agarwal, On-Chip Interconnection Architecture of the Tile Processor, IEEE Micro, v.27 n.5, p.15-31, September 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2007.89", 
+            "DOIname": "10.1109/MM.2007.89", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1320834"
+        }, 
+        {
+            "ArticleName": "Craig M. Wittenbrink , Emmett Kilgariff , Arjun Prabhu, Fermi GF100 GPU Architecture, IEEE Micro, v.31 n.2, p.50-59, March 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.24", 
+            "DOIname": "10.1109/MM.2011.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1978279"
+        }, 
+        {
+            "ArticleName": "Katherine Yelick , Dan Bonachea , Wei-Yu Chen , Phillip Colella , Kaushik Datta , Jason Duell , Susan L. Graham , Paul Hargrove , Paul Hilfinger , Parry Husbands , Costin Iancu , Amir Kamil , Rajesh Nishtala , Jimmy Su , Michael Welcome , Tong Wen, Productivity and performance using partitioned global address space languages, Proceedings of the 2007 international workshop on Parallel symbolic computation, July 27-28, 2007, London, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1278177.1278183", 
+            "DOIname": "10.1145/1278177.1278183", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1278183"
+        }, 
+        {
+            "ArticleName": "Luke Yen , Jayaram Bobba , Michael R. Marty , Kevin E. Moore , Haris Volos , Mark D. Hill , Michael M. Swift , David A. Wood, LogTM-SE: Decoupling Hardware Transactional Memory from Caches, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.261-272, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346204", 
+            "DOIname": "10.1109/HPCA.2007.346204", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318082"
+        }, 
+        {
+            "ArticleName": "Richard M. Yoo , Christopher J. Hughes , Changkyu Kim , Yen-Kuang Chen , Christos Kozyrakis, Locality-aware task management for unstructured parallelism: a quantitative limit study, Proceedings of the twenty-fifth annual ACM symposium on Parallelism in algorithms and architectures, July 23-25, 2013, Montr\u00e9al, Qu\u00e9bec, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2486159.2486175", 
+            "DOIname": "10.1145/2486159.2486175", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2486175"
+        }, 
+        {
+            "ArticleName": "Richard M. Yoo , Hsien-Hsin S. Lee, Adaptive transaction scheduling for transactional memory systems, Proceedings of the twentieth annual symposium on Parallelism in algorithms and architectures, June 14-16, 2008, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1378533.1378564", 
+            "DOIname": "10.1145/1378533.1378564", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1378564"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Mark C. Jeffrey"
+        }, 
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Suvinay Subramanian"
+        }, 
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Maleen Abeydeera"
+        }, 
+        {
+            "Affiliation": "NVIDIA / MIT", 
+            "Name": "Joel Emer"
+        }, 
+        {
+            "Affiliation": "Massachusetts Institute of Technology", 
+            "Name": "Daniel Sanchez"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195644&preflayout=flat"
+}

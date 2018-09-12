@@ -1,0 +1,83 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 6, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 301, 
+        "CitationCount": 0
+    }, 
+    "Title": "Exploiting data parallelism in signal processing on a dataflow machine", 
+    "Abstract": "This paper will show that the massive data parallelism inherent to most signal processing tasks may be easily mapped onto the parallel structure of a data flow machine. A special system called STRUCTFLOW has been designed to optimize the static data flow model for hardware efficiency and low latency. The same abstractions from the general purpose data flow model that lead to a quasi systolic operation of the processing elements make explicit flow control of the data tokens as they pass through the arcs of the flow graph obsolete. We will describe the architecture of the system and discuss the restrictions on the structure of the flow graphs.\n", 
+    "Published": 1989, 
+    "References": [
+        {
+            "ArticleName": "Augcnstcin, R.; Enhvurf umi Realisierung einer Verarbeitungseinheir; Masters Thesis, Fak. Electrical Eng., Univasitit Karlsruhe. 1987( in German)"
+        }, 
+        {
+            "ArticleName": "Campbell, M. L.; Static Allocation for a Data Flow Multiprocessor; IEEE Int. Conf. Parallel Processing, p. 51 lff, 1985"
+        }, 
+        {
+            "ArticleName": "Chase, M.; A Pipelined Data Flow Architecture for Digital Signal Processing, VLSI Signal Processing. Sect. 18, IEEE Press, 1984"
+        }, 
+        {
+            "ArticleName": "Chen, S.; Rittcr, G.X.; A Reconfigurable Archirecrure for Image Processing; IEEE, Int. Conf. Computer Design, p. 516ff, 1984"
+        }, 
+        {
+            "ArticleName": "Dennis, J. B.; Data Flow Ideas for Supercomputers, IEEE COMPCON Spring, p. 15ff, 1984"
+        }, 
+        {
+            "ArticleName": "Dennis, J.B.; Rong, G.G.; Maximum Pipelining of Array Operalions on Sfafic Dora Flow Machine, IEEE, Int. Conf. Parallel Processing, p. 33lff. 1983"
+        }, 
+        {
+            "ArticleName": "Gallinat, J.; Entwurf und Aufbrru einer Matching-Einheil, Masters Thesis, Fak. Computer Science, Univcrsitiit Karlstuhe, 1987 ( in German )"
+        }, 
+        {
+            "ArticleName": "Hogenauer, E.B.; Newbold, R.F.; Inn, Y.J.; DDSP -A Data Flow Cornpurer for Signal Processing, IEEE Int. Conf Parallel Processing, p. 126ff. 1982"
+        }, 
+        {
+            "ArticleName": "Hong, Y.-C.; Payne, T. H.; Fcrguson, L. 0.; An Archilecfure for a Dataflow Mufriprocessor, IEEE Int. Conf. Parallel Processing, p. 349ff, 1986"
+        }, 
+        {
+            "ArticleName": "Leier, W.; A Small, High-Speed Data Flow Processor, IEEE Int. Conf. Parallel Processing, p. 34 lff, 1983"
+        }, 
+        {
+            "ArticleName": "L. B. Montz, SAFETY AND OPTIMIZATION TRANSFORMATIONS FOR DATA FLOW PROGRAMS, Massachusetts Institute of Technology, Cambridge, MA, 1980", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=889847"
+        }, 
+        {
+            "ArticleName": "Sawawakar, P.S.; Forquer, T.J.; Derry, R.P.; Programmable Modular Signal Processor - A Data Flow Computer for Real Time Signal Processing, IEEE Int. Conf. Parallel Processing, p. 344ff. 1985"
+        }, 
+        {
+            "ArticleName": "Scarchillo, A.; Entwurf und Aufbau ciner Kommunikationseinhcit; Masters-Thesis, Fak. Electrical Eng., Universitit Karlsruhe, 1987 ( in German)"
+        }, 
+        {
+            "ArticleName": "Seals, J.D.; Shivcly, R.R.; EMSP: A Data Flow Compufer for Signal Processing Applicalionr, VLSI Signal Processing, Sect. 6. IEEE Press, 1984"
+        }, 
+        {
+            "ArticleName": "McGraw, J., et al.: SISAL: Sfreams and Iteration in a SingIe-Assignmenl LMgunge; Lawrence Livermore Ntnl. Labs, 1983"
+        }, 
+        {
+            "ArticleName": "Tcmma, T., Mizoguchi, M.; Hanaki, S.: Template-Confrolled Image Processor TIP-1 Pelformance Evaluation, IJCAI,1983"
+        }, 
+        {
+            "ArticleName": "Rex Vedder , Dennis Finn, The Hughes Data Flow Multiprocessor: architecture for efficient signal and data processing, Proceedings of the 12th annual international symposium on Computer architecture, p.324-332, June 17-19, 1985, Boston, Massachusetts, United States", 
+            "DOIhref": "http://doi.acm.org/10.1145/327010.327290", 
+            "DOIname": "10.1145/327010.327290", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=327290"
+        }, 
+        {
+            "ArticleName": "Veen, A.: A Formal Model for Dala Flow Programs wifh Token Coloring; internal repcxt, MC, Asterdam, 1981"
+        }, 
+        {
+            "ArticleName": "A. H. Veen, The misconstrued semicolon: reconciling imperative languages and dataflow machines, Centrum voor Wiskunde en Informatica, Amsterdam, The Netherlands, 1986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=6312"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Forschungszentrum Informatik, Technische Expertensysteme und Robotik, Haid-und-Neu-Str. 10-14, Karkuhe 1, West Germany", 
+            "Name": "P. Nitezki"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=74932&preflayout=flat"
+}

@@ -1,0 +1,61 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Snehasish Kumar , Vijayalakshmi Srinivasan , Amirali Sharifian , Nick Sumner , Arrvindh Shriraman, Peruse and Profit: Estimating the Accelerability of Loops, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926269"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 1
+    }, 
+    "Title": "Computation vs. memory systems: pinning down accelerator bottlenecks", 
+    "Abstract": "The world needs special-purpose accelerators to meet future constraints on computation and power consumption. Choosing appropriate accelerator architectures is a key challenge. In this work, we present a pintool designed to help evaluate the potential benefit of accelerating a particular function. Our tool gathers cross-procedural data usage patterns, including implicit dependencies not captured by arguments and return values. We then use this data to characterize the limits of hardware procedural acceleration imposed by on-chip communication and storage systems. Through an understanding the bottlenecks in future accelerator-based systems we will focus future research on the most performance-critical regions of the design. Accelerator designers will also find our tool useful for selecting which regions of their application to accelerate.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "James Clause , Wanchun Li , Alessandro Orso, Dytan: a generic dynamic taint analysis framework, Proceedings of the 2007 international symposium on Software testing and analysis, July 09-12, 2007, London, United Kingdom", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273463.1273490", 
+            "DOIname": "10.1145/1273463.1273490", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1273490"
+        }, 
+        {
+            "ArticleName": "Adele Goldberg , David Robson, Smalltalk-80: the language and its implementation, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 1983", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=273"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, June 12-15, 2005, Chicago, IL, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1065010.1065034", 
+            "DOIname": "10.1145/1065010.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Nethercote, N., Mycroft, A.: Redux: A dynamic dataflow tracer. Electronic Notes in Theoretical Computer Science 89(2), 149-170 (2003); RV 2003, Run-time Verification (Satellite Workshop of CAV 2003)"
+        }, 
+        {
+            "ArticleName": "Nicholas Nethercote , Julian Seward, How to shadow every byte of memory used by a program, Proceedings of the 3rd international conference on Virtual execution environments, June 13-15, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1254810.1254820", 
+            "DOIname": "10.1145/1254810.1254820", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1254820"
+        }, 
+        {
+            "ArticleName": "Marek Olszewski , Jeremy Cutler , J. Gregory Steffan, JudoSTM: A Dynamic Binary-Rewriting Approach to Software Transactional Memory, Proceedings of the 16th International Conference on Parallel Architecture and Compilation Techniques, p.365-375, September 15-19, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2007.42", 
+            "DOIname": "10.1109/PACT.2007.42", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1299063"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Department of Computer Science, Columbia University, New York, NY", 
+            "Name": "Martha A. Kim"
+        }, 
+        {
+            "Affiliation": "Department of Computer Science, Columbia University, New York, NY", 
+            "Name": "Stephen A. Edwards"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185881&preflayout=flat"
+}

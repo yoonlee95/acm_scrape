@@ -1,0 +1,211 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "P. Yocom , H. Shah , M. F. Hulber, IBM zEnterprise unified resource manager platform performance management, IBM Journal of Research and Development, v.56 n.1, p.223-234, January 2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2481741"
+        }, 
+        {
+            "ArticleName": "Priyanka Tembey , Ada Gavrilovska , Karsten Schwan, inTune: coordinating multicore islands to achieve global policy objectives, Proceedings of the First ACM SIGOPS Conference on Timely Results in Operating Systems, p.1-16, November 03-06, 2013, Farmington, Pennsylvania", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2524213"
+        }, 
+        {
+            "ArticleName": "Vishakha Gupta , Rob Knauerhase , Karsten Schwan, Attaining system performance points: revisiting the end-to-end argument in system design for heterogeneous many-core systems, ACM SIGOPS Operating Systems Review, v.45 n.1, January 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1945026"
+        }, 
+        {
+            "ArticleName": "Amir M. Rahmani , Bryan Donyanavard , Tiago M\u00fcck , Kasra Moazzemi , Axel Jantsch , Onur Mutlu , Nikil Dutt, SPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173199"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 4
+    }, 
+    "Title": "A case for coordinated resource management in heterogeneous multicore platforms", 
+    "Abstract": "Recent advances in multi- and many-core architectures include increased hardware-level parallelism (i.e., core counts) and the emergence of platform-level heterogeneity. System software managing these platforms is typically comprised of multiple independent resource managers (e.g., drivers and specialized runtimes) customized for heterogeneous vs. general purpose platform elements. This independence, however, can cause performance degradation for an application that spans diverse cores and resource managers, unless managers coordinate with each other to better service application needs. This paper first presents examples that demonstrate the need for coordination among multiple resource managers on heterogeneous multicore platforms. It then presents useful coordination schemes for a platform coupling an IXP network processor with x86 cores and running web and multimedia applications. Experimental evidence of performance gains achieved through coordinated management motivates a case for standard coordination mechanisms and interfaces for future heterogeneous many-core systems.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "J. Chapin , M. Rosenblum , S. Devine , T. Lahiri , D. Teodosiu , A. Gupta, Hive: fault containment for shared-memory multiprocessors, ACM SIGOPS Operating Systems Review, v.29 n.5, p.12-25, Dec. 3, 1995", 
+            "DOIhref": "http://doi.acm.org/10.1145/224057.224059", 
+            "DOIname": "10.1145/224057.224059", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=224059"
+        }, 
+        {
+            "ArticleName": "Orran Krieger , Marc Auslander , Bryan Rosenburg , Robert W. Wisniewski , Jimi Xenidis , Dilma Da Silva , Michal Ostrowski , Jonathan Appavoo , Maria Butrico , Mark Mergen , Amos Waterland , Volkmar Uhlig, K42: building a complete operating system, Proceedings of the 1st ACM SIGOPS/EuroSys European Conference on Computer Systems 2006, April 18-21, 2006, Leuven, Belgium", 
+            "DOIhref": "http://doi.acm.org/10.1145/1217935.1217949", 
+            "DOIname": "10.1145/1217935.1217949", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1217949"
+        }, 
+        {
+            "ArticleName": "Sandip Agarwala , Fernando Alegre , Karsten Schwan , Jegannathan Mehalingham, E2EProf: Automated End-to-End Performance Management for Enterprise Systems, Proceedings of the 37th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, p.749-758, June 25-28, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2007.38", 
+            "DOIname": "10.1109/DSN.2007.38", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1253122"
+        }, 
+        {
+            "ArticleName": "Kumar, V., Schwan, K.: A state-space approach to SLA based management. In: NOMS (2008)"
+        }, 
+        {
+            "ArticleName": "Christopher Stewart , Terence Kelly , Alex Zhang , Kai Shen, A dollar from 15 cents: cross-platform management for internet services, USENIX 2008 Annual Technical Conference on Annual Technical Conference, p.199-212, June 22-27, 2008, Boston, Massachusetts", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1404029"
+        }, 
+        {
+            "ArticleName": "Xiaoyun Zhu , Don Young , Brian J. Watson , Zhikui Wang , Jerry Rolia , Sharad Singhal , Bret McKee , Chris Hyser , Daniel Gmach , Rob Gardner , Tom Christian , Lucy Cherkasova, 1000 Islands: Integrated Capacity and Workload Management for the Next Generation Data Center, Proceedings of the 2008 International Conference on Autonomic Computing, p.172-181, June 02-06, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICAC.2008.32", 
+            "DOIname": "10.1109/ICAC.2008.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1444671"
+        }, 
+        {
+            "ArticleName": "Sanjay Kumar , Vanish Talwar , Vibhore Kumar , Parthasarathy Ranganathan , Karsten Schwan, vManage: loosely coupled platform and virtualization management in data centers, Proceedings of the 6th international conference on Autonomic computing, June 15-19, 2009, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555228.1555262", 
+            "DOIname": "10.1145/1555228.1555262", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555262"
+        }, 
+        {
+            "ArticleName": "Vishakha Gupta , Ada Gavrilovska , Karsten Schwan , Harshvardhan Kharche , Niraj Tolia , Vanish Talwar , Parthasarathy Ranganathan, GViM: GPU-accelerated virtual machines, Proceedings of the 3rd ACM Workshop on System-level Virtualization for High Performance Computing, p.17-24, March 31-31, 2009, Nuremburg, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1519138.1519141", 
+            "DOIname": "10.1145/1519138.1519141", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1519141"
+        }, 
+        {
+            "ArticleName": "Paul Barham , Boris Dragovic , Keir Fraser , Steven Hand , Tim Harris , Alex Ho , Rolf Neugebauer , Ian Pratt , Andrew Warfield, Xen and the art of virtualization, Proceedings of the nineteenth ACM symposium on Operating systems principles, October 19-22, 2003, Bolton Landing, NY, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/945445.945462", 
+            "DOIname": "10.1145/945445.945462", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=945462"
+        }, 
+        {
+            "ArticleName": "Sunpyo Hong , Hyesoon Kim, An analytical model for a GPU architecture with memory-level and thread-level parallelism awareness, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555775", 
+            "DOIname": "10.1145/1555754.1555775", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555775"
+        }, 
+        {
+            "ArticleName": "AMD Opteron six-core rocessors, http://bit.ly/8oe8uU"
+        }, 
+        {
+            "ArticleName": "AMD Fusion Processors, http://bit.ly/7fA5sb"
+        }, 
+        {
+            "ArticleName": "Darwin: The Streaming Server, http://bit.ly/f4EWU"
+        }, 
+        {
+            "ArticleName": "Intel QuickPath Interconnect, http://bit.ly/5OYmVP"
+        }, 
+        {
+            "ArticleName": "Intel Nehalem Processors, http://bit.ly/5eNDKy"
+        }, 
+        {
+            "ArticleName": "Larrabee: An x86 many-core architecture for visual computing, http://bit.ly/ 5sgX8T"
+        }, 
+        {
+            "ArticleName": "Howard, J., Dighe, S., et al.: A 48-Core IA-32 Message-Passing Processor with DVFS in 45nm CMOS. In: International Solid State Circuits Conference (2010)"
+        }, 
+        {
+            "ArticleName": "IBM Corporation: AWire-speed Power processor: 2.3 GHz 45 nm SOI with 16 cores and 64 threads. In: International Solid State Circuits Conference (2010)"
+        }, 
+        {
+            "ArticleName": "Adiletta, M., Rosenbluth, M., et al.: The Next Generation of Intel IXP Network Processors. Intel Technology Journal (2002)"
+        }, 
+        {
+            "ArticleName": "Kinshuk Govil , Dan Teodosiu , Yongqiang Huang , Mendel Rosenblum, Cellular disco: resource management using virtual clusters on shared-memory multiprocessors, ACM Transactions on Computer Systems (TOCS), v.18 n.3, p.229-262, Aug. 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/354871.354873", 
+            "DOIname": "10.1145/354871.354873", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=354873"
+        }, 
+        {
+            "ArticleName": "Edmund B. Nightingale , Orion Hodson , Ross McIlroy , Chris Hawblitzel , Galen Hunt, Helios: heterogeneous multiprocessing with satellite kernels, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629597", 
+            "DOIname": "10.1145/1629575.1629597", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629597"
+        }, 
+        {
+            "ArticleName": "Ripal Nathuji , Karsten Schwan , Ankit Somani , Yogendra Joshi, VPM tokens: virtual machine-aware power budgeting in datacenters, Cluster Computing, v.12 n.2, p.189-203, June 2009", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10586-009-0077-z", 
+            "DOIname": "10.1007/s10586-009-0077-z", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1612824"
+        }, 
+        {
+            "ArticleName": "Silas Boyd-Wickizer , Haibo Chen , Rong Chen , Yandong Mao , Frans Kaashoek , Robert Morris , Aleksey Pesterev , Lex Stein , Ming Wu , Yuehua Dai , Yang Zhang , Zheng Zhang, Corey: an operating system for many cores, Proceedings of the 8th USENIX conference on Operating systems design and implementation, p.43-57, December 08-10, 2008, San Diego, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855745"
+        }, 
+        {
+            "ArticleName": "Andrew Baumann , Paul Barham , Pierre-Evariste Dagand , Tim Harris , Rebecca Isaacs , Simon Peter , Timothy Roscoe , Adrian Sch\u00fcpbach , Akhilesh Singhania, The multikernel: a new OS architecture for scalable multicore systems, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629579", 
+            "DOIname": "10.1145/1629575.1629579", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629579"
+        }, 
+        {
+            "ArticleName": "Paul Barham , Austin Donnelly , Rebecca Isaacs , Richard Mortier, Using magpie for request extraction and workload modelling, Proceedings of the 6th conference on Symposium on Opearting Systems Design & Implementation, p.18-18, December 06-08, 2004, San Francisco, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251272"
+        }, 
+        {
+            "ArticleName": "Ludmila Cherkasova , Diwaker Gupta , Amin Vahdat, Comparison of the three CPU schedulers in Xen, ACM SIGMETRICS Performance Evaluation Review, v.35 n.2, p.42-51, September 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1330555.1330556", 
+            "DOIname": "10.1145/1330555.1330556", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1330556"
+        }, 
+        {
+            "ArticleName": "Min Lee , A. S. Krishnakumar , P. Krishnan , Navjot Singh , Shalini Yajnik, Supporting soft real-time tasks in the xen hypervisor, Proceedings of the 6th ACM SIGPLAN/SIGOPS international conference on Virtual execution environments, March 17-19, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735997.1736012", 
+            "DOIname": "10.1145/1735997.1736012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736012"
+        }, 
+        {
+            "ArticleName": "Maria Butrico , Dilma Da Silva , Orran Krieger , Michal Ostrowski , Bryan Rosenburg , Dan Tsafrir , Eric Van Hensbergen , Robert W. Wisniewski , Jimi Xenidis, Specialized execution environments, ACM SIGOPS Operating Systems Review, v.42 n.1, January 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1341312.1341335", 
+            "DOIname": "10.1145/1341312.1341335", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1341335"
+        }, 
+        {
+            "ArticleName": "Vasanth Bala , Jehoshua Bruck , Robert Cypher , Pablo Elustando , Alex Ho , Ching-Tien Ho , Shlomo Kipnis , Marc Snir, CCL: A Portable and Tunable Collective Communication Library for Scalable Parallel Computers, IEEE Transactions on Parallel and Distributed Systems, v.6 n.2, p.154-164, February 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/71.342126", 
+            "DOIname": "10.1109/71.342126", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=203161"
+        }, 
+        {
+            "ArticleName": "James Frey , Todd Tannenbaum , Miron Livny , Ian Foster , Steven Tuecke, Condor-G: A Computation Management Agent for Multi-Institutional Grids, Cluster Computing, v.5 n.3, p.237-246, July 2002", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1015617019423", 
+            "DOIname": "10.1023/A:1015617019423", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=593005"
+        }, 
+        {
+            "ArticleName": "Sriram Govindan , Jeonghwan Choi , Arjun R. Nath , Amitayu Das , Bhuvan Urgaonkar , Anand Sivasubramaniam, Xen and Co.: Communication-Aware CPU Management in Consolidated Xen-Based Hosting Platforms, IEEE Transactions on Computers, v.58 n.8, p.1111-1125, August 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2009.53", 
+            "DOIname": "10.1109/TC.2009.53", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1592238"
+        }, 
+        {
+            "ArticleName": "Diego Ongaro , Alan L. Cox , Scott Rixner, Scheduling I/O in virtual machine monitors, Proceedings of the fourth ACM SIGPLAN/SIGOPS international conference on Virtual execution environments, March 05-07, 2008, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1346256.1346258", 
+            "DOIname": "10.1145/1346256.1346258", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346258"
+        }, 
+        {
+            "ArticleName": "Thomas E. Anderson , Brian N. Bershad , Edward D. Lazowska , Henry M. Levy, Scheduler activations: effective kernel support for the user-level management of parallelism, ACM Transactions on Computer Systems (TOCS), v.10 n.1, p.53-79, Feb. 1992", 
+            "DOIhref": "http://doi.acm.org/10.1145/146941.146944", 
+            "DOIname": "10.1145/146941.146944", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=146944"
+        }, 
+        {
+            "ArticleName": "Rosu, M.-C., Schwan, K., Fujimoto, R.: Supporting Parallel Applications on Clusters of Workstations: The"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Georgia Institute of Technology, Atlanta", 
+            "Name": "Priyanka Tembey"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology, Atlanta", 
+            "Name": "Ada Gavrilovska"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology, Atlanta", 
+            "Name": "Karsten Schwan"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185902&preflayout=flat"
+}

@@ -1,0 +1,355 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Jason Lowe-Power , Venkatesh Akella , Matthew K. Farrens , Samuel T. King , Christopher J. Nitta, Position Paper: A case for exposing extra-architectural state in the ISA, Proceedings of the 7th International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-6, June 02-02, 2018, Los Angeles, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3214300"
+        }, 
+        {
+            "ArticleName": "Sangho Lee , Ming-Wei Shih , Prasun Gera , Taesoo Kim , Hyesoon Kim , Marcus Peinado, Inferring fine-grained control flow inside SGX enclaves with branch shadowing, Proceedings of the 26th USENIX Conference on Security Symposium, August 16-18, 2017, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3241233"
+        }, 
+        {
+            "ArticleName": "Daniel Gruss , Julian Lettner , Felix Schuster , Olga Ohrimenko , Istvan Haller , Manuel Costa, Strong and efficient cache side-channel protection using hardware transactional memory, Proceedings of the 26th USENIX Conference on Security Symposium, August 16-18, 2017, Vancouver, BC, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3241208"
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Ryan Riley , Nael CSE and ECE Abu-Ghazaleh , Dmitry Ponomarev, BranchScope: A New Side-Channel Attack on Directional Branch Predictor, Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, March 24-28, 2018, Williamsburg, VA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3173204"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 44, 
+        "Downloads_6Weeks": 6, 
+        "Downloads_cumulative": 44, 
+        "CitationCount": 4
+    }, 
+    "Title": "Jump over ASLR: attacking branch predictors to bypass ASLR", 
+    "Abstract": "Address Space Layout Randomization (ASLR) is a widely-used technique that protects systems against a range of attacks. ASLR works by randomizing the offset of key program segments in virtual memory, making it difficult for an attacker to derive the addresses of specific code objects and consequently redirect the control flow to this code. In this paper, we develop an attack to derive kernel and user-level ASLR offset using a side-channel attack on the branch target buffer (BTB). Our attack exploits the observation that an adversary can create BTB collisions between the branch instructions of the attacker process and either the user-level victim process or on the kernel executing on its behalf. These collisions, in turn, can impact the timing of the attacker's code, allowing the attacker to identify the locations of known branch instructions in the address space of the victim process or the kernel. We demonstrate that our attack can reliably recover kernel ASLR in about 60 milliseconds when performed on a real Haswell processor running a recent version of Linux. Finally, we describe several possible protection mechanisms, both in software and in hardware.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "A. One, \"Smashing the stack for fun and profit,\" Phrack magazine, vol. 7, no. 49, pp. 14--16, 1996."
+        }, 
+        {
+            "ArticleName": "C. Cowan, P. Wagle, C. Pu, S. Beattie, and J. Walpole, \"Buffer overflows: Attacks and defenses for the vulnerability of the decade,\" in DARPA Information Survivability Conference and Exposition, 2000. DISCEX'00. Proceedings, vol. 2. IEEE, 2000, pp. 119--129."
+        }, 
+        {
+            "ArticleName": "T. Newsham, \"Format string attacks,\" 2000."
+        }, 
+        {
+            "ArticleName": "Feng Qin , Shan Lu , Yuanyuan Zhou, SafeMem: Exploiting ECC-Memory for Detecting Memory Leaks and Memory Corruption During Production Runs, Proceedings of the 11th International Symposium on High-Performance Computer Architecture, p.291-302, February 12-16, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2005.29", 
+            "DOIname": "10.1109/HPCA.2005.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1043428"
+        }, 
+        {
+            "ArticleName": "Jun Xu , Nithin Nakka, Defeating Memory Corruption Attacks via Pointer Taintedness Detection, Proceedings of the 2005 International Conference on Dependable Systems and Networks, p.378-387, June 28-July 01, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/DSN.2005.36", 
+            "DOIname": "10.1109/DSN.2005.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1078296"
+        }, 
+        {
+            "ArticleName": "Jun Xu , Peng Ning , Chongkyung Kil , Yan Zhai , Chris Bookholt, Automatic diagnosis and response to memory corruption vulnerabilities, Proceedings of the 12th ACM conference on Computer and communications security, November 07-11, 2005, Alexandria, VA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1102120.1102151", 
+            "DOIname": "10.1145/1102120.1102151", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1102151"
+        }, 
+        {
+            "ArticleName": "D. Jang, Z. Tatlock, and S. Lerner, \"SafeDispatch: Securing C++ Virtual Calls from Memory Corruption Attacks.\" in NDSS, 2014."
+        }, 
+        {
+            "ArticleName": "Emre C. Sezer , Peng Ning , Chongkyung Kil , Jun Xu, Memsherlock: an automated debugger for unknown memory corruption vulnerabilities, Proceedings of the 14th ACM conference on Computer and communications security, November 02-October 31, 2007, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1315245.1315314", 
+            "DOIname": "10.1145/1315245.1315314", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1315314"
+        }, 
+        {
+            "ArticleName": "Stephen Checkoway , Lucas Davi , Alexandra Dmitrienko , Ahmad-Reza Sadeghi , Hovav Shacham , Marcel Winandy, Return-oriented programming without returns, Proceedings of the 17th ACM conference on Computer and communications security, October 04-08, 2010, Chicago, Illinois, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1866307.1866370", 
+            "DOIname": "10.1145/1866307.1866370", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1866370"
+        }, 
+        {
+            "ArticleName": "Mehmet Kayaalp , Meltem Ozsoy , Nael Abu-Ghazaleh , Dmitry Ponomarev, Branch regulation: low-overhead protection from code reuse attacks, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337171"
+        }, 
+        {
+            "ArticleName": "Mehmet Kayaalp , Timothy Schmitt , Junaid Nomani , Dmitry Ponomarev , Nael Abu-Ghazaleh, SCRAP: Architecture for signature-based protection from Code Reuse Attacks, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.258-269, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522324", 
+            "DOIname": "10.1109/HPCA.2013.6522324", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495494"
+        }, 
+        {
+            "ArticleName": "Hovav Shacham , Matthew Page , Ben Pfaff , Eu-Jin Goh , Nagendra Modadugu , Dan Boneh, On the effectiveness of address-space randomization, Proceedings of the 11th ACM conference on Computer and communications security, October 25-29, 2004, Washington DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1030083.1030124", 
+            "DOIname": "10.1145/1030083.1030124", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1030124"
+        }, 
+        {
+            "ArticleName": "Hristo Bojinov , Dan Boneh , Rich Cannings , Iliyan Malchev, Address space randomization for mobile devices, Proceedings of the fourth ACM conference on Wireless network security, June 14-17, 2011, Hamburg, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/1998412.1998434", 
+            "DOIname": "10.1145/1998412.1998434", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1998434"
+        }, 
+        {
+            "ArticleName": "\"CVE-2015-3108.\" Available from NVD, CVE-ID CVE-2015-3108, Sep. 6 2015, {Online; accessed Feb. 2 2016 https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-3108}."
+        }, 
+        {
+            "ArticleName": "Shuo Chen , Jun Xu , Emre C. Sezer , Prachi Gauriar , Ravishankar K. Iyer, Non-control-data attacks are realistic threats, Proceedings of the 14th conference on USENIX Security Symposium, p.12-12, July 31-August 05, 2005, Baltimore, MD", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251410"
+        }, 
+        {
+            "ArticleName": "Kangjie Lu , Chengyu Song , Byoungyoung Lee , Simon P. Chung , Taesoo Kim , Wenke Lee, ASLR-Guard: Stopping Address Space Leakage for Code Reuse Attacks, Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, October 12-16, 2015, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2810103.2813694", 
+            "DOIname": "10.1145/2810103.2813694", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2813694"
+        }, 
+        {
+            "ArticleName": "PaX Team, \"Address space layout randomization,\" Phrack, March, 2003."
+        }, 
+        {
+            "ArticleName": "M. Howard, \"Address space layout randomization in Windows Vista,\" Microsoft Corporation, vol. 26, 2006."
+        }, 
+        {
+            "ArticleName": "D. Keuper, \"XNU: A security evaluation,\" December 2012."
+        }, 
+        {
+            "ArticleName": "D. A. Dai Zovi, \"Apple iOS 4 security evaluation,\" Black Hat USA, pp. 1--29, 2011."
+        }, 
+        {
+            "ArticleName": "M. Payer, \"Too much PIE is bad for performance,\" 2012."
+        }, 
+        {
+            "ArticleName": "S. Designer, \"return-to-libc attack,\" Bugtraq, Aug, 1997."
+        }, 
+        {
+            "ArticleName": "Hovav Shacham, The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86), Proceedings of the 14th ACM conference on Computer and communications security, November 02-October 31, 2007, Alexandria, Virginia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1315245.1315313", 
+            "DOIname": "10.1145/1315245.1315313", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1315313"
+        }, 
+        {
+            "ArticleName": "Vasileios P. Kemerlis , Georgios Portokalidis , Angelos D. Keromytis, kGuard: lightweight kernel protection against return-to-user attacks, Proceedings of the 21st USENIX conference on Security symposium, p.39-39, August 08-10, 2012, Bellevue, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362832"
+        }, 
+        {
+            "ArticleName": "B. Spengler and PaX Team, \"KASLR: An Exercise in Cargo Cult Security,\" Available online, Mar. 20 2013, {Online; accessed Feb. 2 2016 http://forums.grsecurity.net/viewtopic.php?f=7&t=3367#p12726/}."
+        }, 
+        {
+            "ArticleName": "T Mandt, \"Revisiting iOS Kernel (In) Security: Attacking the early_random() PRNG.\""
+        }, 
+        {
+            "ArticleName": "Onur Acii\u00e7mez , \u00c7etin Kaya Ko\u00e7 , Jean-Pierre Seifert, On the power of simple branch prediction analysis, Proceedings of the 2nd ACM symposium on Information, computer and communications security, March 20-22, 2007, Singapore", 
+            "DOIhref": "http://doi.acm.org/10.1145/1229285.1266999", 
+            "DOIname": "10.1145/1229285.1266999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1266999"
+        }, 
+        {
+            "ArticleName": "Onur Ac\u0131i\u00e7mez , \u00c7etin Kaya Ko\u00e7 , Jean-Pierre Seifert, Predicting secret keys via branch prediction, Proceedings of the 7th Cryptographers' track at the RSA conference on Topics in Cryptology, February 05-09, 2007, San Francisco, CA", 
+            "DOIhref": "https://dx.doi.org/10.1007/11967668_15", 
+            "DOIname": "10.1007/11967668_15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2174168"
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Dmitry Ponomarev , Nael Abu-Ghazaleh, Understanding and Mitigating Covert Channels Through Branch Predictors, ACM Transactions on Architecture and Code Optimization (TACO), v.13 n.1, p.1-23, April 2016", 
+            "DOIhref": "http://doi.acm.org/10.1145/2870636", 
+            "DOIname": "10.1145/2870636", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2870636"
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Dmitry Ponomarev , Nael Abu-Ghazaleh, Covert channels through branch predictors: a feasibility study, Proceedings of the Fourth Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 14-14, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2768566.2768571", 
+            "DOIname": "10.1145/2768566.2768571", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2768571"
+        }, 
+        {
+            "ArticleName": "Chongkyung Kil , Jinsuk Jun , Christopher Bookholt , Jun Xu , Peng Ning, Address Space Layout Permutation (ASLP): Towards Fine-Grained Randomization of Commodity Software, Proceedings of the 22nd Annual Computer Security Applications Conference, p.339-348, December 11-15, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ACSAC.2006.9", 
+            "DOIname": "10.1109/ACSAC.2006.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1191889"
+        }, 
+        {
+            "ArticleName": "Cristiano Giuffrida , Anton Kuijsten , Andrew S. Tanenbaum, Enhanced operating system security through efficient and fine-grained address space randomization, Proceedings of the 21st USENIX conference on Security symposium, p.40-40, August 08-10, 2012, Bellevue, WA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2362833"
+        }, 
+        {
+            "ArticleName": "Haizhi Xu , Steve J. Chapin, Improving address space randomization with a dynamic offset randomization technique, Proceedings of the 2006 ACM symposium on Applied computing, April 23-27, 2006, Dijon, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1141277.1141364", 
+            "DOIname": "10.1145/1141277.1141364", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1141364"
+        }, 
+        {
+            "ArticleName": "Sandeep Bhatkar , R. Sekar , Daniel C. DuVarney, Efficient techniques for comprehensive protection from memory error exploits, Proceedings of the 14th conference on USENIX Security Symposium, p.17-17, July 31-August 05, 2005, Baltimore, MD", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251415"
+        }, 
+        {
+            "ArticleName": "Chetana N. Keltcher , Kevin J. McGrath , Ardsher Ahmed , Pat Conway, The AMD Opteron Processor for Multiprocessor Servers, IEEE Micro, v.23 n.2, p.66-76, March 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1196116", 
+            "DOIname": "10.1109/MM.2003.1196116", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=776720"
+        }, 
+        {
+            "ArticleName": "\"CVE-2015-1158.\" Available from NVD, CVE-ID CVE-2015-1158, Sep. 6 2015, {Online; accessed Feb. 2 2016 https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1158}."
+        }, 
+        {
+            "ArticleName": "I. Anati, S. Gueron, S. Johnson, and V. Scarlata, \"Innovative technology for CPU based attestation and sealing,\" in Proceedings of the 2nd international workshop on hardware and architectural support for security and privacy, vol. 13, 2013."
+        }, 
+        {
+            "ArticleName": "Dmitry Evtyushkin , Jesse Elwell , Meltem Ozsoy , Dmitry Ponomarev , Nael Abu Ghazaleh , Ryan Riley, Iso-X: A Flexible Architecture for Hardware-Managed Isolated Execution, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.25", 
+            "DOIname": "10.1109/MICRO.2014.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742175"
+        }, 
+        {
+            "ArticleName": "D. Evtyushkin, J. Elwell, M. Ozsoy, D. Ponomarev, N. A. Ghazaleh, and R. Riley, \"Flexible hardware-managed isolated execution: Architecture, software support and applications,\" IEEE Transactions on Dependable and Secure Computing (TDSC), 2016."
+        }, 
+        {
+            "ArticleName": "V. Costan, I. Lebedev, and S. Devadas, \"Sanctum: Minimal hardware extensions for strong software isolation,\" in 25th USENIX Security Symposium (USENIX Security 16). Austin, TX: USENIX Association, Aug. 2016. {Online}. Available: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/costan"
+        }, 
+        {
+            "ArticleName": "Y. Xu, W. Cui, and M. Peinado, \"Controlled-channel attacks: Deterministic side channels for untrusted operating systems,\" 2015."
+        }, 
+        {
+            "ArticleName": "M. Kerrisk et al., \"SCHED_SETAFFINITY(2) linux programme's manual,\" Dec 2015."
+        }, 
+        {
+            "ArticleName": "Yinqian Zhang , Ari Juels , Alina Oprea , Michael K. Reiter, HomeAlone: Co-residency Detection in the Cloud via Side-Channel Analysis, Proceedings of the 2011 IEEE Symposium on Security and Privacy, p.313-328, May 22-25, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2011.31", 
+            "DOIname": "10.1109/SP.2011.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2006774"
+        }, 
+        {
+            "ArticleName": "M. Kerrisk et al., \"proc(5) Linux Programmer's Manual,\" Dec 2015."
+        }, 
+        {
+            "ArticleName": "Vahid Kazempour , Alexandra Fedorova , Pouya Alagheband, Performance Implications of Cache Affinity on Multicore Processors, Proceedings of the 14th international Euro-Par conference on Parallel Processing, August 26-29, 2008, Las Palmas de Gran Canaria, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-540-85451-7_17", 
+            "DOIname": "10.1007/978-3-540-85451-7_17", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1429642"
+        }, 
+        {
+            "ArticleName": "J. Torrellas , A. Tucker , A. Gupta, Evaluating the Performance of Cache-Affinity Scheduling in Shared-Memory Multiprocessors, Journal of Parallel and Distributed Computing, v.24 n.2, p.139-151, Feb. 1, 1995", 
+            "DOIhref": "https://dx.doi.org/10.1006/jpdc.1995.1014", 
+            "DOIname": "10.1006/jpdc.1995.1014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=213060"
+        }, 
+        {
+            "ArticleName": "H. Marco-Gisbert and I. Ripoll, \"On the Effectiveness of Full-ASLR on 64-bit Linux,\" 2014."
+        }, 
+        {
+            "ArticleName": "Richard Wartell , Vishwath Mohan , Kevin W. Hamlen , Zhiqiang Lin, Binary stirring: self-randomizing instruction addresses of legacy x86 binary code, Proceedings of the 2012 ACM conference on Computer and communications security, October 16-18, 2012, Raleigh, North Carolina, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2382196.2382216", 
+            "DOIname": "10.1145/2382196.2382216", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2382216"
+        }, 
+        {
+            "ArticleName": "Vasilis Pappas , Michalis Polychronakis , Angelos D. Keromytis, Smashing the Gadgets: Hindering Return-Oriented Programming Using In-place Code Randomization, Proceedings of the 2012 IEEE Symposium on Security and Privacy, p.601-615, May 20-25, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2012.41", 
+            "DOIname": "10.1109/SP.2012.41", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2310681"
+        }, 
+        {
+            "ArticleName": "S. Shamasunder, \"On the Effectiveness of Heterogeneous-ISA Program State Relocation against Return-Oriented Programming,\" Ph.D. dissertation, UNIVERSITY OF CALIFORNIA, SAN DIEGO, 2015."
+        }, 
+        {
+            "ArticleName": "Robert Martin , John Demme , Simha Sethumadhavan, TimeWarp: rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks, ACM SIGARCH Computer Architecture News, v.40 n.3, June 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2366231.2337173", 
+            "DOIname": "10.1145/2366231.2337173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337173"
+        }, 
+        {
+            "ArticleName": "David Gullasch , Endre Bangerter , Stephan Krenn, Cache Games -- Bringing Access-Based Cache Attacks on AES to Practice, Proceedings of the 2011 IEEE Symposium on Security and Privacy, p.490-505, May 22-25, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2011.22", 
+            "DOIname": "10.1109/SP.2011.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2006784"
+        }, 
+        {
+            "ArticleName": "Sarani Bhattacharya , Chester Rebeiro , Debdeep Mukhopadhyay, Unraveling timewarp: what all the fuzz is about?, Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, p.1-8, June 23-24, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2487726.2487734", 
+            "DOIname": "10.1145/2487726.2487734", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2487734"
+        }, 
+        {
+            "ArticleName": "Bruce Jacob , Trevor Mudge, Virtual Memory in Contemporary Microprocessors, IEEE Micro, v.18 n.4, p.60-75, July 1998", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.710872", 
+            "DOIname": "10.1109/40.710872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624201"
+        }, 
+        {
+            "ArticleName": "D. Gruss, C. Maurice, and K. Wagner, \"Flush+ Flush: A Stealthier Last-Level Cache Attack,\" arXiv preprint arXiv:1511.04594, 2015."
+        }, 
+        {
+            "ArticleName": "Zhenghong Wang , Ruby B. Lee, Covert and Side Channels Due to Processor Architecture, Proceedings of the 22nd Annual Computer Security Applications Conference, p.473-482, December 11-15, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ACSAC.2006.20", 
+            "DOIname": "10.1109/ACSAC.2006.20", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1191898"
+        }, 
+        {
+            "ArticleName": "Fangfei Liu , Yuval Yarom , Qian Ge , Gernot Heiser , Ruby B. Lee, Last-Level Cache Side-Channel Attacks are Practical, Proceedings of the 2015 IEEE Symposium on Security and Privacy, p.605-622, May 17-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2015.43", 
+            "DOIname": "10.1109/SP.2015.43", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2867673"
+        }, 
+        {
+            "ArticleName": "Yuval Yarom , Katrina Falkner, FLUSH+RELOAD: a high resolution, low noise, L3 cache side-channel attack, Proceedings of the 23rd USENIX conference on Security Symposium, p.719-732, August 20-22, 2014, San Diego, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2671271"
+        }, 
+        {
+            "ArticleName": "Mehmet Kayaalp , Nael Abu-Ghazaleh , Dmitry Ponomarev , Aamer Jaleel, A high-resolution side-channel attack on last-level cache, Proceedings of the 53rd Annual Design Automation Conference, p.1-6, June 05-09, 2016, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2897937.2897962", 
+            "DOIname": "10.1145/2897937.2897962", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2897962"
+        }, 
+        {
+            "ArticleName": "Giampaolo Fresi Roglia , Lorenzo Martignoni , Roberto Paleari , Danilo Bruschi, Surgically Returning to Randomized lib(c), Proceedings of the 2009 Annual Computer Security Applications Conference, p.60-69, December 07-11, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/ACSAC.2009.16", 
+            "DOIname": "10.1109/ACSAC.2009.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1723221"
+        }, 
+        {
+            "ArticleName": "Byoungyoung Lee , Long Lu , Tielei Wang , Taesoo Kim , Wenke Lee, From Zygote to Morula: Fortifying Weakened ASLR on Android, Proceedings of the 2014 IEEE Symposium on Security and Privacy, p.424-439, May 18-21, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2014.34", 
+            "DOIname": "10.1109/SP.2014.34", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2650762"
+        }, 
+        {
+            "ArticleName": "Yufei Gu , Zhiqiang Lin, Derandomizing Kernel Address Space Layout for Memory Introspection and Forensics, Proceedings of the Sixth ACM Conference on Data and Application Security and Privacy, March 09-11, 2016, New Orleans, Louisiana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2857705.2857707", 
+            "DOIname": "10.1145/2857705.2857707", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2857707"
+        }, 
+        {
+            "ArticleName": "Ralf Hund , Carsten Willems , Thorsten Holz, Practical Timing Side Channel Attacks against Kernel Space ASLR, Proceedings of the 2013 IEEE Symposium on Security and Privacy, p.191-205, May 19-22, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2013.23", 
+            "DOIname": "10.1109/SP.2013.23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2498111"
+        }, 
+        {
+            "ArticleName": "Kevin Z. Snow , Fabian Monrose , Lucas Davi , Alexandra Dmitrienko , Christopher Liebchen , Ahmad-Reza Sadeghi, Just-In-Time Code Reuse: On the Effectiveness of Fine-Grained Address Space Layout Randomization, Proceedings of the 2013 IEEE Symposium on Security and Privacy, p.574-588, May 19-22, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/SP.2013.45", 
+            "DOIname": "10.1109/SP.2013.45", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2498135"
+        }, 
+        {
+            "ArticleName": "Adrian Tang , Simha Sethumadhavan , Salvatore Stolfo, Heisenbyte: Thwarting Memory Disclosure Attacks using Destructive Code Reads, Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, October 12-16, 2015, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2810103.2813685", 
+            "DOIname": "10.1145/2810103.2813685", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2813685"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "State University of New York at Binghamton", 
+            "Name": "Dmitry Evtyushkin"
+        }, 
+        {
+            "Affiliation": "State University of New York at Binghamton", 
+            "Name": "Dmitry Ponomarev"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Nael Abu-Ghazaleh"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195686&preflayout=flat"
+}

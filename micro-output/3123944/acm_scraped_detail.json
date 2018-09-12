@@ -1,0 +1,425 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 234, 
+        "Downloads_6Weeks": 12, 
+        "Downloads_cumulative": 234, 
+        "CitationCount": 0
+    }, 
+    "Title": "BVF: enabling significant on-chip power savings via bit-value-favor for throughput processors", 
+    "Abstract": "Power reduction is one of the primary tasks for designing modern processors, especially for high-performance throughput processors such as GPU due to their high power budget. In this paper, we propose a novel circuit-architecture co-design scheme to harvest enormous power savings for GPU on-chip SRAM and interconnects. We propose a new 8T SRAM that exhibits asymmetric energy consumption for bit value 0/1, in terms of read, write and standby. We name this feature Bit-Value-Favor (BVF). To harvest the power benefits from BVF on GPUs, we propose three coding methods at architectural level to maximize the occurrence of bit-1s over bit-0s in the on-chip data and instruction streams, leading to substantial chip-level power reduction. Experimental results across a large spectrum of 58 representative GPU applications demonstrate that our proposed BVF design can bring an average of 21% and 24% chip power reduction under 28nm and 40nm process technologies, with negligible design overhead. Further sensitivity studies show that the effectiveness of our design is robust to DVFS, warp scheduling policies and different SRAM capacities.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "David A Patterson. Computer Architecture: A Quantitative Approach. Elsevier, 2011."
+        }, 
+        {
+            "ArticleName": "William J. Dally, Moving the needle, computer architecture research in academe and industry, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815963", 
+            "DOIname": "10.1145/1815961.1815963", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815963"
+        }, 
+        {
+            "ArticleName": "S Keckler. Life after Dennard and how I learned to love the picojoule. Keynote at MICRO, 2011."
+        }, 
+        {
+            "ArticleName": "Keren Bergman, Shekhar Borkar, Dan Campbell, William Carlson, William Dally, Monty Denneau, Paul Franzon, William Harrod, Kerry Hill, Jon Hiller, et al. Exascale computing study: Technology challenges in achieving exascale systems. Defense Advanced Research Projects Agency Information Processing Techniques Office (DARPA IPTO), Tech. Rep, 15, 2008."
+        }, 
+        {
+            "ArticleName": "Peter M. Kogge , Timothy J. Dysart, Using the TOP500 to trace and project technology and architecture trends, Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis, November 12-18, 2011, Seattle, Washington", 
+            "DOIhref": "http://doi.acm.org/10.1145/2063384.2063421", 
+            "DOIname": "10.1145/2063384.2063421", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2063421"
+        }, 
+        {
+            "ArticleName": "Andy White. Exascale challenges: Applications, technologies, and co-design. In From Petascale to Exascale: R&D Challenges for HPC Simulation Environments ASC Exascale Workshop, 2011."
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar, Rajeev Balasubramonian, and Norman P Jouppi. CACTI 6.0: A tool to model large caches. HP Laboratories, pages 22--31, 2009."
+        }, 
+        {
+            "ArticleName": "Chris Wilkerson , Hongliang Gao , Alaa R. Alameldeen , Zeshan Chishti , Muhammad Khellah , Shih-Lien Lu, Trading off Cache Capacity for Reliability to Enable Low Voltage Operation, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.203-214, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.22", 
+            "DOIname": "10.1109/ISCA.2008.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382139"
+        }, 
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Dynamic reduction of voltage margins by leveraging on-chip ECC in Itanium II processors, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485948", 
+            "DOIname": "10.1145/2485922.2485948", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485948"
+        }, 
+        {
+            "ArticleName": "Anys Bacha , Radu Teodorescu, Using ECC Feedback to Guide Voltage Speculation in Low-Voltage Processors, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.54", 
+            "DOIname": "10.1109/MICRO.2014.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742186"
+        }, 
+        {
+            "ArticleName": "Juan-Antonio Carballo, Wei-Ting Jonas Chan, Paolo A Gargini, Andrew B Kahng, and Siddhartha Nath. ITRS 2.0: Toward a re-framing of the Semiconductor Technology Roadmap. In IEEE 32nd International Conference on Computer Design, ICCD. IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "Jingweijia Tan , Shuaiwen Leon Song , Kaige Yan , Xin Fu , Andres Marquez , Darren Kerbyson, Combating the Reliability Challenge of GPU Register File at Low Supply Voltage, Proceedings of the 2016 International Conference on Parallel Architectures and Compilation, September 11-15, 2016, Haifa, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2967938.2967951", 
+            "DOIname": "10.1145/2967938.2967951", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2967951"
+        }, 
+        {
+            "ArticleName": "David J Palframan, Nam Sung Kim, and Mikko H Lipasti. iPatch: Intelligent fault patching to improve energy efficiency. In 21st International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2015."
+        }, 
+        {
+            "ArticleName": "Leland Chang, Robert K Montoye, Yutaka Nakamura, Kevin A Batson, Richard J Eickemeyer, Robert H Dennard, Wilfried Haensch, and Damir Jamsek. An 8T-SRAM for variability tolerance and low-voltage operation in high-performance caches. IEEE Journal of Solid-State Circuits, 2008."
+        }, 
+        {
+            "ArticleName": "Alireza Shafaei , Yanzhi Wang , Xue Lin , Massoud Pedram, FinCACTI: Architectural Analysis and Modeling of Caches with Deeply-Scaled FinFET Devices, Proceedings of the 2014 IEEE Computer Society Annual Symposium on VLSI, p.290-295, July 09-11, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISVLSI.2014.94", 
+            "DOIname": "10.1109/ISVLSI.2014.94", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2672757"
+        }, 
+        {
+            "ArticleName": "Azeez J Bhavnagarwala, Xinghai Tang, and James D Meindl. The impact of intrinsic device fluctuations on CMOS SRAM cell stability. IEEE Journal of Solid-State Circuits, 2001."
+        }, 
+        {
+            "ArticleName": "Naoki Tega, Hiroshi Miki, Masanao Yamaoka, Hitoshi Kume, Toshiyuki Mine, Takeshi Ishida, Yuki Mori, Renichi Yamada, and Kazuyoshi Torii. Impact of threshold voltage fluctuation due to random telegraph noise on scaled-down SRAM. In IEEE International Reliability Physics Symposium. IEEE, 2008."
+        }, 
+        {
+            "ArticleName": "J. Yang, H.K. Lin, J. Shen, Y. Li, and H. Chen. Eight transistor (8T) write assist static random access memory (SRAM) cell, 2015. US Patent 9,183,922."
+        }, 
+        {
+            "ArticleName": "J.J. Wuu, D.R. Weiss, K.E. WILCOX, A.W. SCHAEFER, and K.V. UNDERHILL. Alternating wordline connection in 8t cells for improving resiliency to multi-bit ser upsets, 2013. WO Patent App. PCT/US2012/050,542."
+        }, 
+        {
+            "ArticleName": "Leland Chang, David M Fried, Jack Hergenrother, Jeffrey W Sleight, Robert H Dennard, Robert K Montoye, Lidija Sekaric, Sharee J McNab, Anna W Topol, Charlotte D Adams, et al. Stable SRAM cell design for the 32 nm node and beyond. In Symposium on VLSI Technology Digest of Technical Papers. IEEE, 2005."
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Daniel R. Johnson , David Tarjan , Stephen W. Keckler , William J. Dally , Erik Lindholm , Kevin Skadron, Energy-efficient mechanisms for managing thread context in throughput processors, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000093", 
+            "DOIname": "10.1145/2000064.2000093", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000093"
+        }, 
+        {
+            "ArticleName": "Sangpil Lee , Keunsoo Kim , Gunjae Koo , Hyeran Jeon , Won Woo Ro , Murali Annavaram, Warped-compression: enabling power efficient GPUs through register compression, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750417", 
+            "DOIname": "10.1145/2749469.2750417", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750417"
+        }, 
+        {
+            "ArticleName": "Zhe Zhang , Michael A. Turi , Jos\u00e9 G. Delgado-Frias, SRAM leakage in CMOS, FinFET and CNTFET technologies: leakage in 8t and 6t sram cells, Proceedings of the great lakes symposium on VLSI, May 03-04, 2012, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2206781.2206846", 
+            "DOIname": "10.1145/2206781.2206846", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2206846"
+        }, 
+        {
+            "ArticleName": "Haruki Mori, T Nakagawa, Y Kitahara, Y Kawamoto, K Takagi, S Yoshimoto, S Izumi, K Nii, H Kawaguchi, and M Yoshimoto. A 298-fJ/writecycle 650-fJ/readcycle 8T three-port SRAM in 28-nm FD-SOI process technology for image processor. In IEEE Custom Integrated Circuits Conference, CICC. IEEE, 2015."
+        }, 
+        {
+            "ArticleName": "Jonathan Dama and Andrew Lines. Pseudo dual-port SRAM and a shared memory switch using multiple memory banks and a sideband memory, 2013. US Patent 8,370,557."
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Mahmut E Sinangil and Anantha P Chandrakasan. Application-Specific SRAM Design Using Output Prediction to Reduce Bit-Line Switching Activity and Statistically Gated Sense Amplifiers for Up to 1.9X Lower Energy/Access. IEEE Journal of Solid-State Circuits, 2014."
+        }, 
+        {
+            "ArticleName": "Shyamkumar Thoziyoor, Naveen Muralimanohar, Jung Ho Ahn, and Norman P Jouppi. CACTI 5.1. Technical report, HPL-2008-20, HP Labs, 2008."
+        }, 
+        {
+            "ArticleName": "S. Bhattacharjee , D. K. Pradhan, LPRAM: a novel low-power high-performance RAM design with testability and scalability, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.23 n.5, p.637-651, November 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2004.826581", 
+            "DOIname": "10.1109/TCAD.2004.826581", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2301006"
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Tayler Hetherington , Ahmed ElTantawy , Syed Gilani , Nam Sung Kim , Tor M. Aamodt , Vijay Janapa Reddi, GPUWattch: enabling energy optimizations in GPGPUs, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485964", 
+            "DOIname": "10.1145/2485922.2485964", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485964"
+        }, 
+        {
+            "ArticleName": "Ali Bakhoda , John Kim , Tor M. Aamodt, Throughput-Effective On-Chip Networks for Manycore Accelerators, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.421-432, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.50", 
+            "DOIname": "10.1109/MICRO.2010.50", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934987"
+        }, 
+        {
+            "ArticleName": "Vignesh Adhinarayanan, Indrani Paul, Joseph L. Greathouse, Wei Huang, Ashutosh Pattnaik, and Wu-chun Feng. Measuring and Modeling On-Chip Interconnect Power on Real Hardware. In International Symposium on Workload Characterization, IISWC. IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "Bradford M. Beckmann , David A. Wood, TLC: Transmission Line Caches, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.43, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956579"
+        }, 
+        {
+            "ArticleName": "Mahdi Nazm Bojnordi , Engin Ipek, DESC: energy-efficient data exchange using synchronized counters, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540729", 
+            "DOIname": "10.1145/2540708.2540729", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540729"
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko, Evgeny Bolotin, Nandita Vijaykumar, Onur Mutlu, Todd C Mowry, and Stephen W Keckler. A case for toggle-aware compression for GPU systems. In International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "Mircea R. Stan , Wayne P. Burleson, Bus-invert coding for low-power I/O, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, v.3 n.1, p.49-58, March 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/92.365453", 
+            "DOIname": "10.1109/92.365453", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=205235"
+        }, 
+        {
+            "ArticleName": "Ji Gu and Hui Guo. A segmental bus-invert coding method for instruction memory data bus power efficiency. In IEEE International Symposium on Circuits and Systems, ISCAS. IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Stephen W. Keckler , Brucek Khailany , Ronny Krashinsky , William J. Dally, Unifying Primary Cache, Scratch, and Register File Memories in a Throughput Processor, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.96-106, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.18", 
+            "DOIname": "10.1109/MICRO.2012.18", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457489"
+        }, 
+        {
+            "ArticleName": "Ji Kim , Christopher Torng , Shreesha Srinath , Derek Lockhart , Christopher Batten, Microarchitectural mechanisms to exploit value structure in SIMT architectures, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485934", 
+            "DOIname": "10.1145/2485922.2485934", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485934"
+        }, 
+        {
+            "ArticleName": "Daniel Wong, Nam Sung Kim, and Murali Annavaram. Approximating warps with intra-warp operand value similarity. In International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "NVIDIA. CUDA SDK Code Samples, 2015."
+        }, 
+        {
+            "ArticleName": "William Kahan. IEEE standard 754 for binary floating-point arithmetic. Lecture Notes on the Status of IEEE, 754(94720--1776):11, 1996."
+        }, 
+        {
+            "ArticleName": "Marcel Gort and Jason H Anderson. Range and bitmask analysis for hardware optimization in high-level synthesis. In 18th Asia and South Pacific Design Automation Conference, ASP-DAC. IEEE, 2013."
+        }, 
+        {
+            "ArticleName": "Victor Hugo Sperle Campos , Raphael Ernani Rodrigues , Igor Rafael de Assis Costa , Fernando Magno Quint\u00e3o Pereira, Speed and precision in range analysis, Proceedings of the 16th Brazilian conference on Programming Languages, p.42-56, September 23-28, 2012, Natal, Brazil", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-33182-4_5", 
+            "DOIname": "10.1007/978-3-642-33182-4_5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2415313"
+        }, 
+        {
+            "ArticleName": "Alaa R Alameldeen and David A Wood. Frequent pattern compression: A significance-based compression scheme for L2 caches. Technical Report, 2004."
+        }, 
+        {
+            "ArticleName": "D. Citron , L. Rudolph, Creating a wider bus using caching techniques, Proceedings of the 1st IEEE Symposium on High-Performance Computer Architecture, p.90, January 22-25, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822610"
+        }, 
+        {
+            "ArticleName": "Yuho Jin , Ki Hwan Yum , Eun Jung Kim, Adaptive data compression for high-performance low-power on-chip networks, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.354-363, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771804", 
+            "DOIname": "10.1109/MICRO.2008.4771804", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521787"
+        }, 
+        {
+            "ArticleName": "NVIDIA. NVIDIA Tesla P100: The Most Advanced Datacenter Accelerator Ever Built Featuring Pascal GP100 the World's Fastest GPU. http://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf, 2016."
+        }, 
+        {
+            "ArticleName": "NVIDIA. Parallel Thread Execution ISA. http://docs.nvidia.com/cuda/parallel-thread-execution."
+        }, 
+        {
+            "ArticleName": "Jun Yang , Youtao Zhang , Rajiv Gupta, Frequent value compression in data caches, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.258-265, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360154", 
+            "DOIname": "10.1145/360128.360154", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360154"
+        }, 
+        {
+            "ArticleName": "Saisanthosh Balakrishnan , Gurindar S. Sohi, Exploiting Value Locality in Physical Register Files, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.265, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956561"
+        }, 
+        {
+            "ArticleName": "Magnus Ekman , Per Stenstrom, A Robust Main-Memory Compression Scheme, Proceedings of the 32nd annual international symposium on Computer Architecture, p.74-85, June 04-08, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2005.6", 
+            "DOIname": "10.1109/ISCA.2005.6", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069978"
+        }, 
+        {
+            "ArticleName": "Mafijul Md. Islam , Per Stenstrom, Zero-Value Caches: Cancelling Loads that Return Zero, Proceedings of the 2009 18th International Conference on Parallel Architectures and Compilation Techniques, p.237-245, September 12-16, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2009.29", 
+            "DOIname": "10.1109/PACT.2009.29", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1637761"
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu, Mike O'Connor, Niladrish Chatterjee, Jeff Pool, and Stephen W Keckler. Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks. arXiv preprint arXiv:1705.01626, 2017."
+        }, 
+        {
+            "ArticleName": "Ping Xiang , Yi Yang , Mike Mantor , Norm Rubin , Lisa R. Hsu , Huiyang Zhou, Exploiting uniform vector instructions for GPGPU performance, energy efficiency, and opportunistic reliability enhancement, Proceedings of the 27th international ACM conference on International conference on supercomputing, June 10-14, 2013, Eugene, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2464996.2465022", 
+            "DOIname": "10.1145/2464996.2465022", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465022"
+        }, 
+        {
+            "ArticleName": "Syed Zohaib Gilani , Nam Sung Kim , Michael J. Schulte, Power-efficient computing for compute-intensive GPGPU applications, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.330-341, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522330", 
+            "DOIname": "10.1109/HPCA.2013.6522330", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495478"
+        }, 
+        {
+            "ArticleName": "Vijay Sathish , Michael J. Schulte , Nam Sung Kim, Lossless and lossy memory I/O link compression for improving performance of GPGPU workloads, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370864", 
+            "DOIname": "10.1145/2370816.2370864", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370864"
+        }, 
+        {
+            "ArticleName": "Nandita Vijaykumar , Gennady Pekhimenko , Adwait Jog , Abhishek Bhowmick , Rachata Ausavarungnirun , Chita Das , Mahmut Kandemir , Todd C. Mowry , Onur Mutlu, A case for core-assisted bottleneck acceleration in GPUs: enabling flexible data compression with assist warps, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750399", 
+            "DOIname": "10.1145/2749469.2750399", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750399"
+        }, 
+        {
+            "ArticleName": "Richard W Hamming. Error detecting and error correcting codes. Bell System Technical Journal, 1950."
+        }, 
+        {
+            "ArticleName": "Ang Li , Shuaiwen Leon Song , Weifeng Liu , Xu Liu , Akash Kumar , Henk Corporaal, Locality-Aware CTA Clustering for Modern GPUs, Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems, April 08-12, 2017, Xi'an, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/3037697.3037709", 
+            "DOIname": "10.1145/3037697.3037709", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3037709"
+        }, 
+        {
+            "ArticleName": "Ang Li , Gert-Jan van den Braak , Akash Kumar , Henk Corporaal, Adaptive and transparent cache bypassing for GPUs, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2807591.2807606", 
+            "DOIname": "10.1145/2807591.2807606", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2807606"
+        }, 
+        {
+            "ArticleName": "Cadence. Virtuoso Analog Design Environment."
+        }, 
+        {
+            "ArticleName": "Cadence. Virtuoso Multi-Mode Simulation with Spectre Platform."
+        }, 
+        {
+            "ArticleName": "Ali Bakhoda, George L Yuan, Wilson WL Fung, Henry Wong, and Tor M Aamodt. Analyzing CUDA workloads using a detailed GPU simulator. In IEEE International Symposium on Performance Analysis of Systems and Software, ISPASS. IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "John A Stratton, Christopher Rodrigues, I-Jui Sung, Nady Obeid, Li-Wen Chang, Nasser Anssari, Geng Daniel Liu, and Wen-mei W Hwu. Parboil: A revised benchmark suite for scientific and commercial throughput computing. Center for Reliable and High-Performance Computing, 127, 2012."
+        }, 
+        {
+            "ArticleName": "Anthony Danalis , Gabriel Marin , Collin McCurdy , Jeremy S. Meredith , Philip C. Roth , Kyle Spafford , Vinod Tipparaju , Jeffrey S. Vetter, The Scalable Heterogeneous Computing (SHOC) benchmark suite, Proceedings of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units, March 14-14, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735688.1735702", 
+            "DOIname": "10.1145/1735688.1735702", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1735702"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni, Martin Burtscher, Calin Cas\u00e7aval, and Keshav Pingali. Lonestar: A suite of parallel irregular programs. In IEEE International Symposium on Performance Analysis of Systems and Software, ISPASS. IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Scott Grauer-Gray, Lifan Xu, Robert Searles, Sudhee Ayalasomayajula, and John Cavazos. Auto-tuning a high-level language targeted to GPU codes. In Innovative Parallel Computing, InPar. IEEE, 2012."
+        }, 
+        {
+            "ArticleName": "Stanley Wolf. Excerpt from: Silicon Processing for the VLSI Era-vol. 4. 2004."
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Craig M. Wittenbrink , Emmett Kilgariff , Arjun Prabhu, Fermi GF100 GPU Architecture, IEEE Micro, v.31 n.2, p.50-59, March 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2011.24", 
+            "DOIname": "10.1109/MM.2011.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1978279"
+        }, 
+        {
+            "ArticleName": "Ki Chul Chun, Pulkit Jain, Jung Hwa Lee, and Chris H Kim. A sub-0.9 V logic-compatible embedded DRAM with boosted 3T gain cell, regulated bit-line write scheme and PVT-tracking read reference bias. In Symposium on VLSI Circuits. IEEE, 2009."
+        }, 
+        {
+            "ArticleName": "Wing-kei S. Yu , Ruirui Huang , Sarah Q. Xu , Sung-En Wang , Edwin Kan , G. Edward Suh, SRAM-DRAM hybrid memory with applications to efficient register files in fine-grained multi-threading, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000094", 
+            "DOIname": "10.1145/2000064.2000094", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000094"
+        }, 
+        {
+            "ArticleName": "Naifeng Jing , Yao Shen , Yao Lu , Shrikanth Ganapathy , Zhigang Mao , Minyi Guo , Ramon Canal , Xiaoyao Liang, An energy-efficient and scalable eDRAM-based register file architecture for GPGPU, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485952", 
+            "DOIname": "10.1145/2485922.2485952", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485952"
+        }, 
+        {
+            "ArticleName": "Dinesh Somasekhar, Yibin Ye, Paolo Aseron, Shih-Lien Lu, Muhammad Khellah, Jason Howard, Greg Ruhl, Tanay Karnik, Shekhar Y Borkar, Vivek De, et al. 2GHz 2Mb 2T gain-cell memory macro with 128GB/s bandwidth in a 65nm logic process. In IEEE International Solid-State Circuits Conference-Digest of Technical Papers. IEEE, 2008."
+        }, 
+        {
+            "ArticleName": "Ang Li, Weifeng Liu, Mads RB Kristensen, Brian Vinter, Hao Wang, Kaixi Hou, Andres Marquez, and Shuaiwen Leon Song. Exploring and analyzing the real impact of modern on-package memory on hpc scientific kernels. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, SC, 2017."
+        }, 
+        {
+            "ArticleName": "W Luk, Jin Cai, R Dennard, M Immediato, and S Kosonocky. A 3-transistor DRAM cell with gated diode for enhanced speed and retention time. In 2006 Symposium on VLSI Circuits Digest of Technical Papers. IEEE, 2006."
+        }, 
+        {
+            "ArticleName": "Mohammad Abdel-Majeed , Murali Annavaram, Warped register file: A power efficient register file for GPGPUs, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.412-423, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522337", 
+            "DOIname": "10.1109/HPCA.2013.6522337", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495519"
+        }, 
+        {
+            "ArticleName": "Mohammad Abdel-Majeed, Alireza Shafaei, Hyeran Jeon, Massoud Pedram, and Murali Annavaram. Pilot Register File: Energy Efficient Partitioned Register File for GPUs. In 23rd IEEE International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "Zhenhong Liu, Syed Gilani, Murali Annavaram, and Nam Sung Kim. G-Scalar: Cost-Effective Generalized Scalar Execution Architecture for Power-Efficient GPUs. In 23rd IEEE International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2017."
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu , Michael Sullivan , Jingwen Leng , Mattan Erez, A locality-aware memory hierarchy for energy-efficient GPU architectures, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540717", 
+            "DOIname": "10.1145/2540708.2540717", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540717"
+        }, 
+        {
+            "ArticleName": "Amir Kavyan Ziabari , Jos\u00e9 L. Abell\u00e1n , Yenai Ma , Ajay Joshi , David Kaeli, Asymmetric NoC Architectures for GPU Systems, Proceedings of the 9th International Symposium on Networks-on-Chip, September 28-30, 2015, Vancouver, BC, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786572.2786596", 
+            "DOIname": "10.1145/2786572.2786596", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2786596"
+        }, 
+        {
+            "ArticleName": "Hoseok Seol , Wongyu Shin , Jaemin Jang , Jungwhan Choi , Jinwoong Suh , Lee-Sup Kim, Energy efficient data encoding in DRAM channels exploiting data value similarity, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.68", 
+            "DOIname": "10.1109/ISCA.2016.68", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001213"
+        }, 
+        {
+            "ArticleName": "NVIDIA. Whitepaper: NVIDIA GeForce GTX 980, 2014."
+        }, 
+        {
+            "ArticleName": "Sunpyo Hong , Hyesoon Kim, An integrated GPU power and performance model, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815998", 
+            "DOIname": "10.1145/1815961.1815998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815998"
+        }, 
+        {
+            "ArticleName": "Renji Thomas, Kristin Barber, Naser Sedaghati, Li Zhou, and Radu Teodorescu. Core Tunneling: Variation-aware voltage noise mitigation in GPUs. In 22nd International Symposium on High Performance Computer Architecture, HPCA. IEEE, 2016."
+        }, 
+        {
+            "ArticleName": "Indrani Paul , Wei Huang , Manish Arora , Sudhakar Yalamanchili, Harmonia: balancing compute and memory power in high-performance GPUs, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750404", 
+            "DOIname": "10.1145/2749469.2750404", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750404"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Pacific Northwest National Lab", 
+            "Name": "Ang Li"
+        }, 
+        {
+            "Affiliation": "University of Minnesota", 
+            "Name": "Wenfeng Zhao"
+        }, 
+        {
+            "Affiliation": "Pacific Northwest National Lab", 
+            "Name": "Shuaiwen Leon Song"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123944&preflayout=flat"
+}

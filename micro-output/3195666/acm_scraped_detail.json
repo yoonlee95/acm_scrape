@@ -1,0 +1,215 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 15, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 15, 
+        "CitationCount": 0
+    }, 
+    "Title": "Continuous shape shifting: enabling loop co-optimization via near-free dynamic code rewriting", 
+    "Abstract": "The class of optimizations characterized by manipulating a loop's interaction space for improved cache locality and reuse (i.e, cache tiling / blocking / strip mine and interchange) are static optimizations requiring a priori information about the microarchitectural and runtime environment of an application binary. However, particularly in datacenter environments, deployed applications face numerous dynamic environments over their lifetimes. As a result, this class of optimizations can result in sub-optimal performance due to the inability to flexibly adapt iteration spaces as cache conditions change at runtime. This paper introduces continuous shape shifiting, a compilation approach that removes the risks of cache tiling optimizations by dynamically rewriting (and reshaping) deployed, running application code. To realize continuous shape shifting, we present ShapeShifter, a framework for continuous monitoring of co-running applications and their runtime environments to reshape loop iteration spaces and pinpoint near-optimal loop tile configurations. Upon identifying a need for reshaping, a new tiling approach is quickly constructed for the application, new code is dynamically generated and is then seamlessly stitched into the running application with near-zero overhead. Our evaluation on a wide spectrum of runtime scenarios demonstrates that ShapeShifter achieves an average of 10--40% performance improvement (up to 2.4X) on real systems depending on the runtime environment compared to an oracle static loop tiling baseline.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Michael E. Wolf , Monica S. Lam, A data locality optimizing algorithm, Proceedings of the ACM SIGPLAN 1991 conference on Programming language design and implementation, p.30-44, June 24-28, 1991, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/113445.113449", 
+            "DOIname": "10.1145/113445.113449", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=113449"
+        }, 
+        {
+            "ArticleName": "M. Wolfe, More iteration space tiling, Proceedings of the 1989 ACM/IEEE conference on Supercomputing, p.655-664, November 12-17, 1989, Reno, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/76263.76337", 
+            "DOIname": "10.1145/76263.76337", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=76337"
+        }, 
+        {
+            "ArticleName": "Uday Bondhugula , Albert Hartono , J. Ramanujam , P. Sadayappan, A practical automatic polyhedral parallelizer and locality optimizer, Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 07-13, 2008, Tucson, AZ, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375581.1375595", 
+            "DOIname": "10.1145/1375581.1375595", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375595"
+        }, 
+        {
+            "ArticleName": "Monica D. Lam , Edward E. Rothberg , Michael E. Wolf, The cache performance and optimizations of blocked algorithms, Proceedings of the fourth international conference on Architectural support for programming languages and operating systems, p.63-74, April 08-11, 1991, Santa Clara, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/106972.106981", 
+            "DOIname": "10.1145/106972.106981", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=106981"
+        }, 
+        {
+            "ArticleName": "Stephanie Coleman , Kathryn S. McKinley, Tile size selection using cache organization and data layout, Proceedings of the ACM SIGPLAN 1995 conference on Programming language design and implementation, p.279-290, June 18-21, 1995, La Jolla, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/207110.207162", 
+            "DOIname": "10.1145/207110.207162", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=207162"
+        }, 
+        {
+            "ArticleName": "Steve Carr , Kathryn S. McKinley , Chau-Wen Tseng, Compiler optimizations for improving data locality, Proceedings of the sixth international conference on Architectural support for programming languages and operating systems, p.252-262, October 05-07, 1994, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/195473.195557", 
+            "DOIname": "10.1145/195473.195557", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=195557"
+        }, 
+        {
+            "ArticleName": "Sanyam Mehta , Gautham Beeraka , Pen-Chung Yew, Tile size selection revisited, ACM Transactions on Architecture and Code Optimization (TACO), v.10 n.4, p.1-27, December 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541228.2555292", 
+            "DOIname": "10.1145/2541228.2555292", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555292"
+        }, 
+        {
+            "ArticleName": "Bin Bao , Chen Ding, Defensive loop tiling for shared cache, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-11, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6495008", 
+            "DOIname": "10.1109/CGO.2013.6495008", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495934"
+        }, 
+        {
+            "ArticleName": "Jithendra Srinivas , Wei Ding , Mahmut Kandemir, Reactive tiling, Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization, February 07-11, 2015, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738612"
+        }, 
+        {
+            "ArticleName": "Sanket Tavarageri , Louis-Noel Pouchet , J. Ramanujam , Atanas Rountev , P. Sadayappan, Dynamic selection of tile sizes, Proceedings of the 2011 18th International Conference on High Performance Computing, p.1-10, December 18-21, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/HiPC.2011.6152742", 
+            "DOIname": "10.1109/HiPC.2011.6152742", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2192645"
+        }, 
+        {
+            "ArticleName": "Jason Mars , Lingjia Tang , Robert Hundt , Kevin Skadron , Mary Lou Soffa, Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155650", 
+            "DOIname": "10.1145/2155620.2155650", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155650"
+        }, 
+        {
+            "ArticleName": "Christina Delimitrou , Christos Kozyrakis, Paragon: QoS-aware scheduling for heterogeneous datacenters, Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems, March 16-20, 2013, Houston, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2451116.2451125", 
+            "DOIname": "10.1145/2451116.2451125", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2451125"
+        }, 
+        {
+            "ArticleName": "Yunqi Zhang , Michael A. Laurenzano , Jason Mars , Lingjia Tang, SMiTe: Precise QoS Prediction on Real-System SMT Processors to Improve Utilization in Warehouse Scale Computers, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.53", 
+            "DOIname": "10.1109/MICRO.2014.53", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742197"
+        }, 
+        {
+            "ArticleName": "C. Gao, A. Gutierrez, M. Rajan, R. G. Dreslinski, T. Mudge, and C.-J. Wu, \"A study of mobile device utilization,\" in International Symposium on the Performance Analysis of Systems and Software (ISPASS), 2015."
+        }, 
+        {
+            "ArticleName": "K. Gillespie, H. R. Fair, C. Henrion, R. Jotwani, S. Kosonocky, R. S. Orefice, D. A. Priore, J. White, and K. Wilcox, \"Steamroller: An x86-64 core implemented in 28nm bulk cmos,\" in Solid-State Circuits Conference (ISSCC),, 2014."
+        }, 
+        {
+            "ArticleName": "Howard David , Eugene Gorbatov , Ulf R. Hanebutte , Rahul Khanna , Christian Le, RAPL: memory power estimation and capping, Proceedings of the 16th ACM/IEEE international symposium on Low power electronics and design, August 18-20, 2010, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1840845.1840883", 
+            "DOIname": "10.1145/1840845.1840883", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1840883"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Yale N. Patt, Utility-Based Cache Partitioning: A Low-Overhead, High-Performance, Runtime Mechanism to Partition Shared Caches, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.423-432, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.49", 
+            "DOIname": "10.1109/MICRO.2006.49", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194855"
+        }, 
+        {
+            "ArticleName": "Daniel Sanchez , Christos Kozyrakis, Vantage: scalable and efficient fine-grain cache partitioning, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000073", 
+            "DOIname": "10.1145/2000064.2000073", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000073"
+        }, 
+        {
+            "ArticleName": "Luiz Andr Barroso , Jimmy Clidaras , Urs Hlzle, The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Morgan & Claypool Publishers, 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2534500"
+        }, 
+        {
+            "ArticleName": "Jason Mars , Lingjia Tang, Whare-map: heterogeneity in \"homogeneous\" warehouse-scale computers, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485975", 
+            "DOIname": "10.1145/2485922.2485975", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485975"
+        }, 
+        {
+            "ArticleName": "\"Amazon EC2 Spot Instances,\" http://aws.amazon.com/ec2/purchasing-options/, 2016, online; accessed 5-Aug-2016."
+        }, 
+        {
+            "ArticleName": "L.-N. Pouchet, \"Polybench: The polyhedral benchmark suite,\" URL: http://www.cs.ucla.edu/pouchet/software/polybench, 2012."
+        }, 
+        {
+            "ArticleName": "Michael A. Laurenzano , Yunqi Zhang , Lingjia Tang , Jason Mars, Protean Code: Achieving Near-Free Online Code Transformations for Warehouse Scale Computers, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.21", 
+            "DOIname": "10.1109/MICRO.2014.21", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742212"
+        }, 
+        {
+            "ArticleName": "Tomofumi Yuki , Lakshminarayanan Renganarayanan , Sanjay Rajopadhye , Charles Anderson , Alexandre E. Eichenberger , Kevin O'Brien, Automatic creation of tile size selection models, Proceedings of the 8th annual IEEE/ACM international symposium on Code generation and optimization, April 24-28, 2010, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1772954.1772982", 
+            "DOIname": "10.1145/1772954.1772982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1772982"
+        }, 
+        {
+            "ArticleName": "Thomas B. Jablin , Prakash Prabhu , James A. Jablin , Nick P. Johnson , Stephen R. Beard , David I. August, Automatic CPU-GPU communication management and optimization, Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1993498.1993516", 
+            "DOIname": "10.1145/1993498.1993516", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1993516"
+        }, 
+        {
+            "ArticleName": "Jose-Maria Arnau , Joan-Manuel Parcerisa , Polychronis Xekalakis, Parallel frame rendering: trading responsiveness for energy on a mobile GPU, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523736"
+        }, 
+        {
+            "ArticleName": "Jonathan Lifflander , Sriram Krishnamoorthy , Laxmikant V. Kale, Optimizing data locality for fork/join programs using constrained work stealing, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.75", 
+            "DOIname": "10.1109/SC.2014.75", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683687"
+        }, 
+        {
+            "ArticleName": "Shreesha Srinath , Berkin Ilbeyi , Mingxing Tan , Gai Liu , Zhiru Zhang , Christopher Batten, Architectural Specialization for Inter-Iteration Loop Dependence Patterns, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.31", 
+            "DOIname": "10.1109/MICRO.2014.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742214"
+        }, 
+        {
+            "ArticleName": "D. Li, M. Rhu, D. R. Johnson, M. O'Connor, M. Erez, D. Burger, D. S. Fussell, and S. W. Redder, \"Priority-based cache allocation in throughput processors,\" in High Performance Computer Architecture (HPCA), 2015."
+        }, 
+        {
+            "ArticleName": "T. Grosser, A. Groesslinger, and C. Lengauer, \"Polly - performing polyhedral optimizations on a low-level intermediate representation,\" in Parallel Processing Letters, 2012."
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "V. Sarkar , N. Megiddo, An analytical model for loop tiling and its solution, Proceedings of the 2000 IEEE International Symposium on Performance Analysis of Systems and Software, p.146-153, April 24-25, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1154542"
+        }, 
+        {
+            "ArticleName": "Jianxin Xiong , Jeremy Johnson , Robert Johnson , David Padua, SPL: a language and compiler for DSP algorithms, Proceedings of the ACM SIGPLAN 2001 conference on Programming language design and implementation, p.298-308, June 2001, Snowbird, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378795.378860", 
+            "DOIname": "10.1145/378795.378860", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=378860"
+        }, 
+        {
+            "ArticleName": "R. C. Whaley, A. Petitet, and J. J. Dongarra, \"Automated empirical optimizations of software and the atlas project,\" Parallel Computing, 2001."
+        }, 
+        {
+            "ArticleName": "Chun Chen , Jacqueline Chame , Mary Hall, Combining Models and Guided Empirical Search to Optimize for Multiple Levels of the Memory Hierarchy, Proceedings of the international symposium on Code generation and optimization, p.111-122, March 20-23, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2005.10", 
+            "DOIname": "10.1109/CGO.2005.10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1048980"
+        }, 
+        {
+            "ArticleName": "J. Demmel, J. Dongarra, V. Eijkhout, E. Fuentes, A. Petitet, R. Vuduc, R. Whaley, and K. Yelick, \"Self-adapting linear algebra algorithms and software,\" Proceedings of the IEEE, 2005."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Animesh Jain"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Michael A. Laurenzano"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Lingjia Tang"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Jason Mars"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195666&preflayout=flat"
+}

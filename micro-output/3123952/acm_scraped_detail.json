@@ -1,0 +1,300 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 843, 
+        "Downloads_6Weeks": 26, 
+        "Downloads_cumulative": 843, 
+        "CitationCount": 0
+    }, 
+    "Title": "An experimental microarchitecture for a superconducting quantum processor", 
+    "Abstract": "Quantum computers promise to solve certain problems that are intractable for classical computers, such as factoring large numbers and simulating quantum systems. To date, research in quantum computer engineering has focused primarily at opposite ends of the required system stack: devising high-level programming languages and compilers to describe and optimize quantum algorithms, and building reliable low-level quantum hardware. Relatively little attention has been given to using the compiler output to fully control the operations on experimental quantum processors. Bridging this gap, we propose and build a prototype of a flexible control microarchitecture supporting quantum-classical mixed code for a superconducting quantum processor. The microarchitecture is based on three core elements: (i) a codeword-based event control scheme, (ii) queue-based precise event timing control, and (iii) a flexible multilevel instruction decoding mechanism for control. We design a set of quantum microinstructions that allows flexible control of quantum operations with precise timing. We demonstrate the microarchitecture and microinstruction set by performing a standard gate-characterization experiment on a transmon qubit.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Michael A. Nielsen , Isaac L. Chuang, Quantum Computation and Quantum Information: 10th Anniversary Edition, Cambridge University Press, New York, NY, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1972505"
+        }, 
+        {
+            "ArticleName": "X. Fu , L. Riesebos , L. Lao , C. G. Almudever , F. Sebastiano , R. Versluis , E. Charbon , K. Bertels, A heterogeneous quantum computer architecture, Proceedings of the ACM International Conference on Computing Frontiers, May 16-19, 2016, Como, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/2903150.2906827", 
+            "DOIname": "10.1145/2903150.2906827", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2906827"
+        }, 
+        {
+            "ArticleName": "B. Omer, \"Structured quantum programming,\" Information Systems, p. 130, 2003."
+        }, 
+        {
+            "ArticleName": "A. J. Abhari, A. Faruque, M. J. Dousti, L. Svec, O. Catu, A. Chakrabati, C.-F. Chiang, S. Vanderwilt, J. Black, and F. Chong, \"Scaffold: Quantum programming language,\" DTIC Document, Tech. Rep., 2012."
+        }, 
+        {
+            "ArticleName": "Alexander S. Green , Peter LeFanu Lumsdaine , Neil J. Ross , Peter Selinger , Beno\u00eet Valiron, An introduction to quantum programming in quipper, Proceedings of the 5th international conference on Reversible Computation, July 04-05, 2013, Victoria, BC, Canada", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-38986-3_10", 
+            "DOIname": "10.1007/978-3-642-38986-3_10", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2525062"
+        }, 
+        {
+            "ArticleName": "D. Wecker and K. M. Svore, \"LIQUi|>: A software design architecture and domain-specific language for quantum computing,\" arXiv:1402.4467, 2014."
+        }, 
+        {
+            "ArticleName": "D. S. Steiger, T. H\u00e4ner, and M. Troyer, \"ProjectQ: an open source software framework for quantum computing,\" arXiv:1612.08091, 2016."
+        }, 
+        {
+            "ArticleName": "B. M. Terhal, \"Quantum error correction for quantum memories,\" Reviews of Modern Physics, vol. 87, p. 307, 2015."
+        }, 
+        {
+            "ArticleName": "A. G. Fowler, M. Mariantoni, J. M. Martinis, and A. N. Cleland, \"Surface codes: Towards practical large-scale quantum computation,\" Physical Review A, vol. 86, p. 032324, 2012."
+        }, 
+        {
+            "ArticleName": "Krysta M. Svore , Alfred V. Aho , Andrew W. Cross , Isaac Chuang , Igor L. Markov, A Layered Software Architecture for Quantum Computing Design Tools, Computer, v.39 n.1, p.74-83, January 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2006.4", 
+            "DOIname": "10.1109/MC.2006.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1110676"
+        }, 
+        {
+            "ArticleName": "Ali JavadiAbhari , Shruti Patil , Daniel Kudrow , Jeff Heckey , Alexey Lvov , Frederic T. Chong , Margaret Martonosi, ScaffCC, Parallel Computing, v.45 n.C, p.2-17, June 2015", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.parco.2014.12.001", 
+            "DOIname": "10.1016/j.parco.2014.12.001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2792367"
+        }, 
+        {
+            "ArticleName": "M. Amy, M. Roetteler, and K. Svore, \"Verified compilation of space-efficient reversible circuits,\" arXiv:1603.01635, 2016."
+        }, 
+        {
+            "ArticleName": "Daniel Kudrow , Kenneth Bier , Zhaoxia Deng , Diana Franklin , Yu Tomita , Kenneth R. Brown , Frederic T. Chong, Quantum rotations: a case study in static and dynamic machine-code generation for quantum computers, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485937", 
+            "DOIname": "10.1145/2508148.2485937", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485937"
+        }, 
+        {
+            "ArticleName": "Adam Paetznick , Krysta M. Svore, Repeat-until-success: non-deterministic decomposition of single-qubit unitaries, Quantum Information & Computation, v.14 n.15-16, p.1277-1301, November 2014", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685181"
+        }, 
+        {
+            "ArticleName": "Jeff Heckey , Shruti Patil , Ali JavadiAbhari , Adam Holmes , Daniel Kudrow , Kenneth R. Brown , Diana Franklin , Frederic T. Chong , Margaret Martonosi, Compiler Management of Communication and Parallelism for Quantum Computation, ACM SIGARCH Computer Architecture News, v.43 n.1, March 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2786763.2694357", 
+            "DOIname": "10.1145/2786763.2694357", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694357"
+        }, 
+        {
+            "ArticleName": "Steven Balensiefer , Lucas Kregor-Stickles , Mark Oskin, An Evaluation Framework and Instruction Set Architecture for Ion-Trap Based Quantum Micro-Architectures, ACM SIGARCH Computer Architecture News, v.33 n.2, p.186-196, May 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1080695.1069986", 
+            "DOIname": "10.1145/1080695.1069986", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1069986"
+        }, 
+        {
+            "ArticleName": "R. S. Smith, M. J. Curtis, and W. J. Zeng, \"A practical quantum instruction set architecture,\" arXiv:1608.03355, 2016."
+        }, 
+        {
+            "ArticleName": "A. W. Cross, L. S. Bishop, J. A. Smolin, and J. M. Gambetta, \"QISKit OPENQASM,\" arXiv:1707.03429, 2017."
+        }, 
+        {
+            "ArticleName": "John L. Hennessy , David A. Patterson, Computer Architecture, Fifth Edition: A Quantitative Approach, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1999263"
+        }, 
+        {
+            "ArticleName": "E. Dennis, A. Kitaev, A. Landahl, and J. Preskill, \"Topological quantum memory,\" Journal of Mathematical Physics, vol. 43, pp. 4452--4505, 2002."
+        }, 
+        {
+            "ArticleName": "Austin G. Fowler, Minimum weight perfect matching of fault-tolerant topological quantum error correction in average O(1) parallel time, Quantum Information & Computation, v.15 n.1-2, p.145-158, January 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685197"
+        }, 
+        {
+            "ArticleName": "J. Kelly, R. Barends, A. G. Fowler, A. Megrant, E. Jeffrey, T. C. White, D. Sank, J. Y. Mutus, B. Campbell, Y. Chen, Z. Chen, B. Chiaro, A. Dunsworth, I. C. Hoi, C. Neill, P. J. J. O'Malley, C. Quintana, P. Roushan, A. Vainsencher, J. Wenner, A. N. Cleland, and J. M. Martinis, \"State preservation by repetitive error detection in a superconducting quantum circuit,\" Nature, vol. 519, no. 7541, pp. 66--69, 2015."
+        }, 
+        {
+            "ArticleName": "D. Rist\u00e8, S. Poletto, M.-Z. Huang, A. Bruno, V. Vesterinen, O.-P. Saira, and L. Di-Carlo, \"Detecting bit-flip errors in a logical qubit using stabilizer measurements,\" Nature Communications, vol. 6, p. 6983, 2015."
+        }, 
+        {
+            "ArticleName": "A. Kandala, A. Mezzacapo, K. Temme, M. Takita, J. M. Chow, and J. M. Gambetta, \"Hardware-efficient quantum optimizer for small molecules and quantum magnets,\" arXiv:1704.05018, 2017."
+        }, 
+        {
+            "ArticleName": "C. Monroe, D. Meekhof, B. King, W. M. Itano, and D. J. Wineland, \"Demonstration of a fundamental quantum logic gate,\" Physical Review Letters, vol. 75, p. 4714, 1995."
+        }, 
+        {
+            "ArticleName": "S. Debnath, N. Linke, C. Figgatt, K. Landsman, K. Wright, and C. Monroe, \"Demonstration of a small programmable quantum computer with atomic qubits,\" Nature, vol. 536, pp. 63--66, 2016."
+        }, 
+        {
+            "ArticleName": "R. Hanson, L. P. Kouwenhoven, J. R. Petta, S. Tarucha, and L. M. K. Vandersypen, \"Spins in few-electron quantum dots,\" Reviews of Modern Physics, vol. 79, pp. 1217--1265, 2007."
+        }, 
+        {
+            "ArticleName": "G. De Lange, Z. Wang, D. Riste, V. Dobrovitski, and R. Hanson, \"Universal dynamical decoupling of a single solid-state spin from a spin bath,\" Science, vol. 330, no. 6000, pp. 60--63, 2010."
+        }, 
+        {
+            "ArticleName": "J. Cramer, N. Kalb, M. A. Rol, B. Hensen, M. S. Blok, M. Markham, D. J. Twitchen, R. Hanson, and T. H. Taminiau, \"Repeated quantum error correction on a continuously encoded qubit by real-time feedback,\" Nature Communications, vol. 7, 2016."
+        }, 
+        {
+            "ArticleName": "J. M. Hornibrook, J. I. Colless, I. D. Conway Lamb, S. J. Pauka, H. Lu, A. C. Gossard, J. D. Watson, G. C. Gardner, S. Fallahi, M. J. Manfra, and D. J. Reilly, \"Cryogenic control architecture for large-scale quantum computing,\" Physical Review Applied, vol. 3, p. 024010, 2015."
+        }, 
+        {
+            "ArticleName": "J. M. Chow, L. DiCarlo, J. M. Gambetta, F. Motzoi, L. Frunzio, S. M. Girvin, and R. J. Schoelkopf, \"Optimized driving of superconducting artificial atoms for improved single-qubit gates,\" Physical Review A, vol. 82, p. 040305, 2010."
+        }, 
+        {
+            "ArticleName": "M. D. Reed, \"Entanglement and quantum error correction with superconducting qubits,\" Ph.D. dissertation, Yale University, 2013."
+        }, 
+        {
+            "ArticleName": "J. Koch, M. Y. Terri, J. Gambetta, A. A. Houck, D. I. Schuster, J. Majer, A. Blais, M. H. Devoret, S. M. Girvin, and R. J. Schoelkopf, \"Charge-insensitive qubit design derived from the cooper pair box,\" Physical Review A, vol. 76, p. 042319, 2007."
+        }, 
+        {
+            "ArticleName": "A. Blais, R.-S. Huang, A. Wallraff, S. Girvin, and R. J. Schoelkopf, \"Cavity quantum electrodynamics for superconducting electrical circuits: An architecture for quantum computation,\" Physical Review A, vol. 69, p. 062320, 2004."
+        }, 
+        {
+            "ArticleName": "D. P. DiVincenzo, \"The physical implementation of quantum computation,\" ArXiv:quant-ph/0002077, 2000."
+        }, 
+        {
+            "ArticleName": "M. Takita, A. C\u00f3rcoles, E. Magesan, B. Abdo, M. Brink, A. Cross, J. M. Chow, and J. M. Gambetta, \"Demonstration of weight-four parity measurements in the surface code architecture,\" Physical Review Letters, vol. 117, p. 210505, 2016."
+        }, 
+        {
+            "ArticleName": "C. C. Bultink, M. A. Rol, T. E. O'Brien, X. Fu, B. Dikken, R. Vermeulen, J. C. de Sterke, A. Bruno, R. N. Schouten, and L. DiCarlo, \"Active resonator reset in the nonlinear dispersive regime of circuit QED,\" Physical Review Applied, vol. 6, p. 034008, 2016."
+        }, 
+        {
+            "ArticleName": "L. DiCarlo, J. M. Chow, J. M. Gambetta, L. S. Bishop, B. R. Johnson, D. I. Schuster, J. Majer, A. Blais, L. Frunzio, S. M. Girvin, and R. J. Schoelkopf, \"Demonstration of two-qubit algorithms with a superconducting quantum processor,\" Nature, vol. 460, pp. 240--244, 2009."
+        }, 
+        {
+            "ArticleName": "L. DiCarlo, M. D. Reed, L. Sun, B. R. Johnson, J. M. Chow, J. M. Gambetta, L. Frunzio, S. M. Girvin, M. H. Devoret, and R. J. Schoelkopf, \"Preparation and measurement of three-qubit entanglement in a superconducting circuit,\" Nature, vol. 467, pp. 574--578, 2010."
+        }, 
+        {
+            "ArticleName": "R. Barends, J. Kelly, A. Megrant, A. Veitia, D. Sank, E. Jeffrey, T. C. White, J. Mutus, A. G. Fowler, B. Campbell, Y. Chen, Z. Chen, B. Chiaro, A. Dunsworth, C. Neill, P. O'Malley, P. Roushan, A. Vainsencher, J. Wenner, A. N. Korotkov, A. N. Cleland, and J. M. Martinis, \"Superconducting quantum circuits at the surface code threshold for fault tolerance,\" Nature, vol. 508, no. 7497, pp. 500--503, 2014."
+        }, 
+        {
+            "ArticleName": "S. Bettelli, T. Calarco, and L. Serafini, \"Toward an architecture for quantum programming,\" The European Physical Journal D-Atomic, Molecular, Optical and Plasma Physics, vol. 25, pp. 181--200, 2003."
+        }, 
+        {
+            "ArticleName": "T. H\u00e4ner, D. S. Steiger, K. Svore, and M. Troyer, \"A software methodology for compiling quantum programs,\" arXiv:1604.01401, 2016."
+        }, 
+        {
+            "ArticleName": "D. Kielpinski, C. Monroe, and D. J. Wineland, \"Architecture for a large-scale ion-trap quantum computer,\" Nature, vol. 417, pp. 709--711, 2002."
+        }, 
+        {
+            "ArticleName": "Darshan D. Thaker , Tzvetan S. Metodi , Andrew W. Cross , Isaac L. Chuang , Frederic T. Chong, Quantum Memory Hierarchies: Efficient Designs to Match Available Parallelism in Quantum Computing, ACM SIGARCH Computer Architecture News, v.34 n.2, p.378-390, May 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1150019.1136518", 
+            "DOIname": "10.1145/1150019.1136518", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136518"
+        }, 
+        {
+            "ArticleName": "D. P. DiVincenzo, \"Fault-tolerant architectures for superconducting qubits,\" Physica Scripta, vol. 2009, p. 014020, 2009."
+        }, 
+        {
+            "ArticleName": "T. Brecht, W. Pfaff, C. Wang, Y. Chu, L. Frunzio, M. H. Devoret, and R. J. Schoelkopf, \"Multilayer microwave integrated quantum circuits for scalable quantum computing,\" NPJ Quantum Information, vol. 2, p. 16002, 2016."
+        }, 
+        {
+            "ArticleName": "C. D. Hill, E. Peretz, S. J. Hile, M. G. House, M. Fuechsle, S. Rogge, M. Y. Simmons, and L. C. Hollenberg, \"A surface code quantum computer in silicon,\" Science Advances, vol. 1, p. e1500707, 2015."
+        }, 
+        {
+            "ArticleName": "Mark Oskin , Frederic T. Chong , Isaac L. Chuang, A Practical Architecture for Reliable Quantum Computers, Computer, v.35 n.1, p.79-87, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.976922", 
+            "DOIname": "10.1109/2.976922", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621887"
+        }, 
+        {
+            "ArticleName": "Tzvetan S. Metodi , Darshan D. Thaker , Andrew W. Cross , Frederic T. Chong , Isaac L. Chuang, A Quantum Logic Array Microarchitecture: Scalable Quantum Data Movement and Computation, Proceedings of the 38th annual IEEE/ACM International Symposium on Microarchitecture, p.305-318, November 12-16, 2005, Barcelona, Spain", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2005.9", 
+            "DOIname": "10.1109/MICRO.2005.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1100566"
+        }, 
+        {
+            "ArticleName": "Eric Chi , Stephen A. Lyon , Margaret Martonosi, Tailoring quantum architectures to implementation style: a quantum computer for mobile and persistent qubits, ACM SIGARCH Computer Architecture News, v.35 n.2, May 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273440.1250687", 
+            "DOIname": "10.1145/1273440.1250687", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250687"
+        }, 
+        {
+            "ArticleName": "Lucas Kreger-Stickles , Mark Oskin, Microcoded Architectures for Ion-Tap Quantum Computers, Proceedings of the 35th Annual International Symposium on Computer Architecture, p.165-176, June 21-25, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2008.28", 
+            "DOIname": "10.1109/ISCA.2008.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382136"
+        }, 
+        {
+            "ArticleName": "Rodney Van Meter , Clare Horsman, A blueprint for building a quantum computer, Communications of the ACM, v.56 n.10, October 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2494568", 
+            "DOIname": "10.1145/2494568", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2494568"
+        }, 
+        {
+            "ArticleName": "N. C. Jones, R. Van Meter, A. G. Fowler, P. L. McMahon, J. Kim, T. D. Ladd, and Y. Yamamoto, \"Layered architecture for quantum computing,\" Physical Review X, vol. 2, p. 031007, 2012."
+        }, 
+        {
+            "ArticleName": "M. V. Wilkes, The best way to design an automatic calculating machine, The early British computer conferences, MIT Press, Cambridge, MA, 1989", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=94976"
+        }, 
+        {
+            "ArticleName": "Stamatis Vassiliadis , Stephan Wong , Sorin Cotofana, Microcode Processing: Positioning and Directions, IEEE Micro, v.23 n.4, p.21-31, July 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1225960", 
+            "DOIname": "10.1109/MM.2003.1225960", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=942693"
+        }, 
+        {
+            "ArticleName": "Stephane Beauregard, Circuit for Shor's algorithm using 2n+3 qubits, Quantum Information & Computation, v.3 n.2, p.175-185, March 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2011525"
+        }, 
+        {
+            "ArticleName": "P. W. Shor, Algorithms for quantum computation: discrete logarithms and factoring, Proceedings of the 35th Annual Symposium on Foundations of Computer Science, p.124-134, November 20-22, 1994", 
+            "DOIhref": "https://dx.doi.org/10.1109/SFCS.1994.365700", 
+            "DOIname": "10.1109/SFCS.1994.365700", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1399018"
+        }, 
+        {
+            "ArticleName": "C. A. Ryan, B. R. Johnson, D. Rist\u00e8, B. Donovan, and T. A. Ohki, \"Hardware for dynamic quantum computing,\" arXiv:1704.08314, 2017."
+        }, 
+        {
+            "ArticleName": "R. BBN, \"Bbn technologies arbitrary pulse sequencer 2,\" 2017."
+        }, 
+        {
+            "ArticleName": "J. M. Epstein, A. W. Cross, E. Magesan, and J. M. Gambetta, \"Investigating the limits of randomized benchmarking protocols,\" Physical Review A, vol. 89, no. 6, p. 062321, 2014."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "X. Fu"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "M. A. Rol"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "C. C. Bultink"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "J. van Someren"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "N. Khammassi"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "I. Ashraf"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "R. F. L. Vermeulen"
+        }, 
+        {
+            "Affiliation": "Topic Embedded Systems B.V. and Delft University of Technology, Delft, The Netherlands", 
+            "Name": "J. C. de Sterke"
+        }, 
+        {
+            "Affiliation": "Netherlands Organisation for Applied Scientic Research (TNO) and Delft University of Technology, Delft, The Netherlands", 
+            "Name": "W. J. Vlothuizen"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "R. N. Schouten"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "C. G. Almudever"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "L. DiCarlo"
+        }, 
+        {
+            "Affiliation": "Delft University of Technology, Delft, The Netherlands", 
+            "Name": "K. Bertels"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123952&preflayout=flat"
+}

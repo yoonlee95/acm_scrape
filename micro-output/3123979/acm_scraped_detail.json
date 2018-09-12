@@ -1,0 +1,434 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Stylianos I. Venieris , Alexandros Kouris , Christos-Savvas Bouganis, Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions, ACM Computing Surveys (CSUR), v.51 n.3, p.1-39, July 2018", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3186332"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 1003, 
+        "Downloads_6Weeks": 52, 
+        "Downloads_cumulative": 1003, 
+        "CitationCount": 1
+    }, 
+    "Title": "Scale-out acceleration for machine learning", 
+    "Abstract": "The growing scale and complexity of Machine Learning (ML) algorithms has resulted in prevalent use of distributed general-purpose systems. In a rather disjoint effort, the community is focusing mostly on high performance single-node accelerators for learning. This work bridges these two paradigms and offers CoSMIC, a full computing stack constituting language, compiler, system software, template architecture, and circuit generators, that enable programmable acceleration of learning at scale. CoSMIC enables programmers to exploit scale-out acceleration using FPGAs and Programmable ASICs (P-ASICs) from a high-level and mathematical Domain-Specific Language (DSL). Nonetheless, CoSMIC does not require programmers to delve into the onerous task of system software development or hardware design. CoSMIC achieves three conflicting objectives of efficiency, automation, and programmability, by integrating a novel multi-threaded template accelerator architecture and a cohesive stack that generates the hardware and software code from its high-level DSL. CoSMIC can accelerate a wide range of learning algorithms that are most commonly trained using parallel variants of gradient descent. The key is to distribute partial gradient calculations of the learning algorithms across the accelerator-augmented nodes of the scale-out system. Additionally, CoSMIC leverages the parallelizability of the algorithms to offer multi-threaded acceleration within each node. Multi-threading allows CoSMIC to efficiently exploit the numerous resources that are becoming available on modern FPGAs/P-ASICs by striking a balance between multi-threaded parallelism and single-threaded performance. CoSMIC takes advantage of algorithmic properties of ML to offer a specialized system software that optimizes task allocation, role-assignment, thread management, and internode communication. We evaluate the versatility and efficiency of CoSMIC for 10 different machine learning applications from various domains. On average, a 16-node CoSMIC with UltraScale+ FPGAs offers 18.8\u00d7 speedup over a 16-node Spark system with Xeon processors while the programmer only writes 22--55 lines of code. CoSMIC offers higher scalability compared to the state-of-the-art Spark; scaling from 4 to 16 nodes with CoSMIC yields 2.7\u00d7 improvements whereas Spark offers 1.8\u00d7. These results confirm that the full-stack approach of CoSMIC takes an effective and vital step towards enabling scale-out acceleration for machine learning.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Apache Spark, 2017. URL https://spark.apache.org/."
+        }, 
+        {
+            "ArticleName": "Apache Hadoop, 2017. URL http://hadoop.apache.org/."
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "Daofu Liu , Tianshi Chen , Shaoli Liu , Jinhong Zhou , Shengyuan Zhou , Olivier Teman , Xiaobing Feng , Xuehai Zhou , Yunji Chen, PuDianNao: A Polyvalent Machine Learning Accelerator, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694358", 
+            "DOIname": "10.1145/2694344.2694358", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694358"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "Song Han, Xingyu Liu, Huizi Mao, Jing Pu, Ardavan Pedram, Mark A. Horowitz, and William J. Dally. EIE: efficient inference engine on compressed deep neural network. CoRR, abs/1602.01528, 2016. URL http://arxiv.org/abs/1602.01528."
+        }, 
+        {
+            "ArticleName": "Yu-Hsin Chen , Joel Emer , Vivienne Sze, Eyeriss: a spatial architecture for energy-efficient dataflow for convolutional neural networks, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.40", 
+            "DOIname": "10.1109/ISCA.2016.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001177"
+        }, 
+        {
+            "ArticleName": "Jorge Albericio , Patrick Judd , Tayler Hetherington , Tor Aamodt , Natalie Enright Jerger , Andreas Moshovos, Cnvlutin: ineffectual-neuron-free deep neural network computing, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.11", 
+            "DOIname": "10.1109/ISCA.2016.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001138"
+        }, 
+        {
+            "ArticleName": "Hardik Sharma, Jongse Park, Divya Mahajan, Emmanuel Amaro, Joon Kyung Kim, Chenkai Shao, Asit Misra, and Hadi Esmaeilzadeh. From high-level deep neural models to fpgas. In MICRO, October 2016."
+        }, 
+        {
+            "ArticleName": "Divya Mahajan, Jongse Park, Emmanuel Amaro, Hardik Sharma, Amir Yazdanbakhsh, Joon Kyung Kim, and Hadi Esmaeilzadeh. TABLA: A unified template-based framework for accelerating statistical machine learning. In HPCA, 2016."
+        }, 
+        {
+            "ArticleName": "Snickerdoodle: Affordable FPGA platform for powering everything robots, drones, and computer vision, 2017. URL http://krtkl.com/."
+        }, 
+        {
+            "ArticleName": "Andrew Putnam , Adrian M. Caulfield , Eric S. Chung , Derek Chiou , Kypros Constantinides , John Demme , Hadi Esmaeilzadeh , Jeremy Fowers , Gopi Prashanth Gopal , Jan Gray , Michael Haselman , Scott Hauck , Stephen Heil , Amir Hormati , Joo-Young Kim , Sitaram Lanka , James Larus , Eric Peterson , Simon Pope , Aaron Smith , Jason Thong , Phillip Yi Xiao , Doug Burger, A reconfigurable fabric for accelerating large-scale datacenter services, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665678"
+        }, 
+        {
+            "ArticleName": "Adrian M. Caulfield, EricS. Chung, Andrew Putnam, Hari Angepat, Jeremy Fowers, Michael Haselman, Stephen Heil, Matt Humphrey, Puneet Kaur, Joo-Young Kim, Daniel Lo, Todd Massengill, Kalin Ovtcharov, Michael Papamichael, Lisa Woods, Sitaram Lanka, Derek Chiou, and Doug Burger. A cloud-scale acceleration architecture. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Amazon EC2 F1 instances: Run custom FPGAs in the AWS cloud, 2017. URL https://aws.amazon.com/ec2/instance-types/f1/."
+        }, 
+        {
+            "ArticleName": "Xixuan Feng , Arun Kumar , Benjamin Recht , Christopher R\u00e9, Towards a unified architecture for in-RDBMS analytics, Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data, May 20-24, 2012, Scottsdale, Arizona, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2213836.2213874", 
+            "DOIname": "10.1145/2213836.2213874", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2213874"
+        }, 
+        {
+            "ArticleName": "Stephen Boyd , Lieven Vandenberghe, Convex Optimization, Cambridge University Press, New York, NY, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=993483"
+        }, 
+        {
+            "ArticleName": "Frank Seide, Hao Fu, Jasha Droppo, Gang Li, and Dong Yu. On parallelizability of stochastic gradient descent for speech dnns. In ICASSP, 2014."
+        }, 
+        {
+            "ArticleName": "Martin A. Zinkevich , Markus Weimer , Alex Smola , Lihong Li, Parallelized stochastic gradient descent, Proceedings of the 23rd International Conference on Neural Information Processing Systems, p.2595-2603, December 06-09, 2010, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2997185"
+        }, 
+        {
+            "ArticleName": "Ofer Dekel , Ran Gilad-Bachrach , Ohad Shamir , Lin Xiao, Optimal distributed online prediction using mini-batches, The Journal of Machine Learning Research, 13, p.165-202, 3/1/2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2188391"
+        }, 
+        {
+            "ArticleName": "John Langford , Alexander J. Smola , Martin Zinkevich, Slow learners are fast, Proceedings of the 22nd International Conference on Neural Information Processing Systems, p.2331-2339, December 07-10, 2009, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2984354"
+        }, 
+        {
+            "ArticleName": "Gideon Mann , Ryan McDonald , Mehryar Mohri , Nathan Silberman , Daniel D. Walker, Efficient large-scale distributed training of conditional maximum entropy models, Proceedings of the 22nd International Conference on Neural Information Processing Systems, p.1231-1239, December 07-10, 2009, Vancouver, British Columbia, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2984232"
+        }, 
+        {
+            "ArticleName": "Dipankar Das, Sasikanth Avancha, Dheevatsa Mudigere, Karthikeyan Vaidynathan, Srinivas Sridharan, Dhiraj Kalamkar, Bharat Kaul, and Pradeep Dubey. Distributed deep learning using synchronous stochastic gradient descent. arXiv:1602.06709 {cs}, 2016."
+        }, 
+        {
+            "ArticleName": "Jianmin Chen, Rajat Monga, Samy Bengio, and Rafal Jozefowicz. Revisiting distributed synchronous SGD. In ICLR Workshop Track, 2016."
+        }, 
+        {
+            "ArticleName": "Intel Altera. Arria 10 architecture, 2017. URL https://www.altera.com/products/fpga/arria-serqies/arria-10/features.html."
+        }, 
+        {
+            "ArticleName": "Spark MLlib: Apache spark's scalable machine learning library. URL http://spark.apache.org/mllib/."
+        }, 
+        {
+            "ArticleName": "Minsoo Rhu, Natalia Gimelshein, Jason Clemons, Arslan Zulfiqar, and Stephen W. Keckler. vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Patrick Judd, Jorge Albericio, Tayler Hetherington, Tor M. Aamodt, and Andreas Moshovos. Stripes: Bit-serial deep neural network computing. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Shijin Zhang, Zidong Du, Lei Zhang, Huiying Lan, Shaoli Liu, Ling Li, Qi Guo, Tianshi Chen, and Yunji Chen. Cambricon-x: An accelerator for sparse neural networks. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Yu Ji, Youhui Zhang, Shuangchen Li, and Ping Chi. NEUTRAMS: Neural network transformation and co-design under neuromorphic hardware constraints. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Manoj Alwani, Han Chen, Michael Ferdman, and Peter Milder. Fused-layer cnn accelerators. In MICRO, 2016."
+        }, 
+        {
+            "ArticleName": "Ioannis Stamoulias , Elias S. Manolakos, Parallel architectures for the kNN classifier -- design of soft IP cores and FPGA implementations, ACM Transactions on Embedded Computing Systems (TECS), v.13 n.2, p.1-21, September 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2514641.2514649", 
+            "DOIname": "10.1145/2514641.2514649", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2514649"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Adrian Sampson , Luis Ceze , Doug Burger, Neural Acceleration for General-Purpose Approximate Programs, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.449-460, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.48", 
+            "DOIname": "10.1109/MICRO.2012.48", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457519"
+        }, 
+        {
+            "ArticleName": "Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis Ceze, and Mark Oskin. SNNAP: Approximate computing on programmable socs via neural acceleration. In HPCA, 2015."
+        }, 
+        {
+            "ArticleName": "E.S. Manolakos and I. Stamoulias. Ip-cores design for the knn classifier. In ISCAS, 2010."
+        }, 
+        {
+            "ArticleName": "H.M. Hussain, K. Benkrid, H. Seker, and A.T. Erdogan. Fpga implementation of k-means algorithm for bioinformatics application: An accelerated approach to clustering microarray data. In AHS, 2011."
+        }, 
+        {
+            "ArticleName": "Tsutomu Maruyama, Real-time K-Means Clustering for Color Images on Reconfigurable Hardware, Proceedings of the 18th International Conference on Pattern Recognition, p.816-819, August 20-24, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPR.2006.961", 
+            "DOIname": "10.1109/ICPR.2006.961", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1172355"
+        }, 
+        {
+            "ArticleName": "Abel Guilhermino da S. Filho , Alejandro C. Frery , Cristiano Co\u00ealho de Ara\u00fajo , Haglay Alice , Jorge Cerqueira , Juliana A. Loureiro , Manoel Eusebio de Lima , Maria das Gra\u00e7as S. Oliveira , Michelle Matos Horta, Hyperspectral Images Clustering on Reconfigurable Hardware Using the K-Means Algorithm, Proceedings of the 16th symposium on Integrated circuits and systems design, p.99, September 08-11, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=943973"
+        }, 
+        {
+            "ArticleName": "Markos Papadonikolakis , Christos-Savvas Bouganis, A Heterogeneous FPGA Architecture for Support Vector Machine Training, Proceedings of the 2010 18th IEEE Annual International Symposium on Field-Programmable Custom Computing Machines, p.211-214, May 02-04, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2010.39", 
+            "DOIname": "10.1109/FCCM.2010.39", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1827879"
+        }, 
+        {
+            "ArticleName": "Srihari Cadambi , Igor Durdanovic , Venkata Jakkula , Murugan Sankaradass , Eric Cosatto , Srimat Chakradhar , Hans Peter Graf, A Massively Parallel FPGA-Based Coprocessor for Support Vector Machines, Proceedings of the 2009 17th IEEE Symposium on Field Programmable Custom Computing Machines, p.115-122, April 05-07, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2009.34", 
+            "DOIname": "10.1109/FCCM.2009.34", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1675206"
+        }, 
+        {
+            "ArticleName": "A. Majumdar , S. Cadambi , S. T. Chakradhar, An Energy-Efficient Heterogeneous System for Embedded Learning and Classification, IEEE Embedded Systems Letters, v.3 n.1, p.42-45, March 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/LES.2010.2100802", 
+            "DOIname": "10.1109/LES.2010.2100802", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2207172"
+        }, 
+        {
+            "ArticleName": "Abhinandan Majumdar , Srihari Cadambi , Michela Becchi , Srimat T. Chakradhar , Hans Peter Graf, A Massively Parallel, Energy Efficient Programmable Accelerator for Learning and Classification, ACM Transactions on Architecture and Code Optimization (TACO), v.9 n.1, p.1-30, March 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2133382.2133388", 
+            "DOIname": "10.1145/2133382.2133388", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2133388"
+        }, 
+        {
+            "ArticleName": "C. Farabet, B. Martini, B. Corda, P. Akselrod, E. Culurciello, and Y. LeCun. Neuflow: A runtime reconfigurable dataflow processor for vision. In CVPRW, 2011."
+        }, 
+        {
+            "ArticleName": "Antonio Roldao , George A. Constantinides, A High Throughput FPGA-Based Floating Point Conjugate Gradient Implementation for Dense Matrices, ACM Transactions on Reconfigurable Technology and Systems (TRETS), v.3 n.1, p.1-19, January 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1661438.1661439", 
+            "DOIname": "10.1145/1661438.1661439", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1661439"
+        }, 
+        {
+            "ArticleName": "Gerald R. Morris , Viktor K. Prasanna , Richard D. Anderson, A Hybrid Approach for Mapping Conjugate Gradient onto an FPGA-Augmented Reconfigurable Supercomputer, Proceedings of the 14th Annual IEEE Symposium on Field-Programmable Custom Computing Machines, p.3-12, April 24-26, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2006.8", 
+            "DOIname": "10.1109/FCCM.2006.8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1170435"
+        }, 
+        {
+            "ArticleName": "David DuBois , Andrew DuBois , Thomas Boorman , Carolyn Connor , Steve Poole, An Implementation of the Conjugate Gradient Algorithm on FPGAs, Proceedings of the 2008 16th International Symposium on Field-Programmable Custom Computing Machines, p.296-297, April 14-15, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/FCCM.2008.54", 
+            "DOIname": "10.1109/FCCM.2008.54", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1489209"
+        }, 
+        {
+            "ArticleName": "David Kesler , Biplab Deka , Rakesh Kumar, A hardware acceleration technique for gradient descent and conjugate gradient, Proceedings of the 2011 IEEE 9th Symposium on Application Specific Processors, p.94-101, June 05-06, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/SASP.2011.5941086", 
+            "DOIname": "10.1109/SASP.2011.5941086", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2062146"
+        }, 
+        {
+            "ArticleName": "Chen Zhang , Peng Li , Guangyu Sun , Yijin Guan , Bingjun Xiao , Jason Cong, Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks, Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 22-24, 2015, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2684746.2689060", 
+            "DOIname": "10.1145/2684746.2689060", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2689060"
+        }, 
+        {
+            "ArticleName": "Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross Girshick, Sergio Guadarrama, and Trevor Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv:1408.5093, 2014."
+        }, 
+        {
+            "ArticleName": "Arvind K. Sujeeth , Kevin J. Brown , Hyoukjoong Lee , Tiark Rompf , Hassan Chafi , Martin Odersky , Kunle Olukotun, Delite: A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages, ACM Transactions on Embedded Computing Systems (TECS), v.13 n.4s, p.1-25, July 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2584665", 
+            "DOIname": "10.1145/2584665", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2584665"
+        }, 
+        {
+            "ArticleName": "David C. Ku , Giovanni De Micheli, High level synthesis of ASICs under timing and synchronization constraints, Kluwer Academic Publishers, Norwell, MA, 1992", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=132264"
+        }, 
+        {
+            "ArticleName": "Yann LeCun and Corinna Cortes. MNIST handwritten digit database, 2010. URL http://yann.lecun.com/exdb/mnist/."
+        }, 
+        {
+            "ArticleName": "A variant of mnist dataset with 8 millions records. URL https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html#mnist8m."
+        }, 
+        {
+            "ArticleName": "Joel Praveen Pinto. Multilayer Perceptron Based Hierarchical Acoustic Modeling for Automatic Speech Recognition. PhD thesis, EPFL, 2010."
+        }, 
+        {
+            "ArticleName": "Bin Zhou. High-frequency data and volatility in foreign-exchange rates. Journal of Business & Economic Statistics, 14(1), 2008."
+        }, 
+        {
+            "ArticleName": "S Dhanya and Roshni VS Kumari. Comparison of various texture classification methods using multiresolution analysis and linear regression modelling. Springerplus, 5(54), 2016."
+        }, 
+        {
+            "ArticleName": "MR Segal, KD Dahlquist, and BR Conklin. Regression approaches for microarray data analysis. Journal of Computational Biology, 10(6), 2003."
+        }, 
+        {
+            "ArticleName": "D Singh, P Febbo, K Ross, D Jackson, J Manola, C Ladd, P Tamayo, A Renshaw, Amico A D, J Richie, E Lander, M Loda, P Kantoff, T Golub, and W Sellers. Gene expression correlates of clinical prostate cancer behavior. Cancer Cell, 1(2), 2002."
+        }, 
+        {
+            "ArticleName": "Iv\u00e1n Cantador, Peter Brusilovsky, and Tsvi Kuflik. Movielens dataset. In HetRec, 2011."
+        }, 
+        {
+            "ArticleName": "Grouplens. Movielens dataset, 2017. URL http://grouplens.org/datasets/movielens/."
+        }, 
+        {
+            "ArticleName": "Netflix Prize Data Set. URL http://www.netflixprize.com/."
+        }, 
+        {
+            "ArticleName": "J. Weston , S. Mukherjee , O. Chapelle , M. Pontil , T. Poggio , V. Vapnik, Feature selection for SVMs, Proceedings of the 13th International Conference on Neural Information Processing Systems, p.647-653, January 01, 2000, Denver, CO", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3008845"
+        }, 
+        {
+            "ArticleName": "Spark gpu and simd support. URL https://github.com/kiszk/spark-gpu."
+        }, 
+        {
+            "ArticleName": "Rajesh Bordawekar. Accelerating spark workloads using gpus. URL https://www.oreilly.com/learning/accelerating-spark-workloads-using-gpus."
+        }, 
+        {
+            "ArticleName": "GPUEnabler. URL https://github.com/ibmsparkgpu/gpuenabler."
+        }, 
+        {
+            "ArticleName": "CUDA-MLlib. URL https://github.com/ibmsparkgpu/cuda-mllib."
+        }, 
+        {
+            "ArticleName": "Andreas Athanasopoulos, Anastasios Dimou, Vasileios Mezaris, and Ioannis Kompatsiaris. GPU acceleration for support vector machines. In 12th International Workshop on Image Analysis for Multimedia Interactive Services, 2011."
+        }, 
+        {
+            "ArticleName": "Caffe2, 2017. URL https://github.com/caffe2/caffe2."
+        }, 
+        {
+            "ArticleName": "CUDA v8.0, 2017. URL https://developer.nvidia.com/cuda-toolkit."
+        }, 
+        {
+            "ArticleName": "cuDNN v7.0, 2017. URL https://developer.nvidia.com/cudnn."
+        }, 
+        {
+            "ArticleName": "Wattsup .net meter., 2017. URL http://www.wattsupmeters.com/."
+        }, 
+        {
+            "ArticleName": "Henry Hoffmann , Stelios Sidiroglou , Michael Carbin , Sasa Misailovic , Anant Agarwal , Martin Rinard, Dynamic knobs for responsive power-aware computing, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950390", 
+            "DOIname": "10.1145/1950365.1950390", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950390"
+        }, 
+        {
+            "ArticleName": "Mu Li , Tong Zhang , Yuqiang Chen , Alexander J. Smola, Efficient mini-batch training for stochastic optimization, Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining, August 24-27, 2014, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2623330.2623612", 
+            "DOIname": "10.1145/2623330.2623612", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2623612"
+        }, 
+        {
+            "ArticleName": "Andrew Cotter , Ohad Shamir , Nathan Srebro , Karthik Sridharan, Better mini-batch algorithms via accelerated gradient methods, Proceedings of the 24th International Conference on Neural Information Processing Systems, p.1647-1655, December 12-15, 2011, Granada, Spain", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2986643"
+        }, 
+        {
+            "ArticleName": "Martin Tak\u00e1\u010d , Avleen Bijral , Peter Richt\u00e1rik , Nathan Srebro, Mini-batch primal and dual methods for SVMs, Proceedings of the 30th International Conference on International Conference on Machine Learning, June 16-21, 2013, Atlanta, GA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3043051"
+        }, 
+        {
+            "ArticleName": "Ofer Dekel , Ran Gilad-Bachrach , Ohad Shamir , Lin Xiao, Optimal distributed online prediction using mini-batches, The Journal of Machine Learning Research, 13, p.165-202, 3/1/2012", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2188391"
+        }, 
+        {
+            "ArticleName": "Richard H. Byrd , Gillian M. Chin , Jorge Nocedal , Yuchen Wu, Sample size selection in optimization methods for machine learning, Mathematical Programming: Series A and B, v.134 n.1, p.127-155, August 2012", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10107-012-0572-5", 
+            "DOIname": "10.1007/s10107-012-0572-5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2348140"
+        }, 
+        {
+            "ArticleName": "TABLA source code. URL http://www.act-lab.org/artifacts/tabla/."
+        }, 
+        {
+            "ArticleName": "Cl\u00e9ment Farabet, Yann LeCun, Koray Kavukcuoglu, Eugenio Culurciello, Berin Martini, Polina Akselrod, and Selcuk Talay. Large-scale fpga-based convolutional networks. Machine Learning on Very Large Data Sets, 2011."
+        }, 
+        {
+            "ArticleName": "Chrilly Donninger, Alex Kure, and Ulf Lorenz. Parallel brutus: The first distributed, fpga accelerated chess program. In IPDPS, 2004."
+        }, 
+        {
+            "ArticleName": "John Paul Walters , Xiandong Meng , Vipin Chaudhary , Tim Oliver , Leow Yuan Yeow , Bertil Schmidt , Darran Nathan , Joseph Landman, MPI-HMMER-Boost: Distributed FPGA Acceleration, Journal of VLSI Signal Processing Systems, v.48 n.3, p.223-238, September 2007", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11265-007-0062-9", 
+            "DOIname": "10.1007/s11265-007-0062-9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1288668"
+        }, 
+        {
+            "ArticleName": "Eric Chung, Jeremy Fowers, Kalin Ovtcharov, Michael Papamichael, Adrian Caulfield, Todd Massengil, Ming Liu, Daniel Lo, Shlomi Alkalay, Michael Haselman, Christian Boehn, Oren Firestein, Alessandro Forin, Kang Su Gatlin, Mahdi Ghandi, Stephen Heil, Kyle Holohan, Tamas Juhasz, Ratna Kumar Kovvuri, Sitaram Lanka, Friedel van Megen, Dima Mukhortov, Prerak Patel, Steve Reinhardt, Adam Sapek, Raja Seera, Balaji Sridharan, Lisa Woods, Phillip Yi-Xiao, Ritchie Zhao, and Doug Burger. Accelerating persistent neural networks at datacenter scale. In HotChips, 2017."
+        }, 
+        {
+            "ArticleName": "Norman P. Jouppi , Cliff Young , Nishant Patil , David Patterson , Gaurav Agrawal , Raminder Bajwa , Sarah Bates , Suresh Bhatia , Nan Boden , Al Borchers , Rick Boyle , Pierre-luc Cantin , Clifford Chao , Chris Clark , Jeremy Coriell , Mike Daley , Matt Dau , Jeffrey Dean , Ben Gelb , Tara Vazir Ghaemmaghami , Rajendra Gottipati , William Gulland , Robert Hagmann , C. Richard Ho , Doug Hogberg , John Hu , Robert Hundt , Dan Hurt , Julian Ibarz , Aaron Jaffey , Alek Jaworski , Alexander Kaplan , Harshit Khaitan , Daniel Killebrew , Andy Koch , Naveen Kumar , Steve Lacy , James Laudon , James Law , Diemthu Le , Chris Leary , Zhuyuan Liu , Kyle Lucke , Alan Lundin , Gordon MacKean , Adriana Maggiore , Maire Mahony , Kieran Miller , Rahul Nagarajan , Ravi Narayanaswami , Ray Ni , Kathy Nix , Thomas Norrie , Mark Omernick , Narayana Penukonda , Andy Phelps , Jonathan Ross , Matt Ross , Amir Salek , Emad Samadiani , Chris Severn , Gregory Sizikov , Matthew Snelham , Jed Souter , Dan Steinberg , Andy Swing , Mercedes Tan , Gregory Thorson , Bo Tian , Horia Toma , Erick Tuttle , Vijay Vasudevan , Richard Walter , Walter Wang , Eric Wilcox , Doe Hyun Yoon, In-Datacenter Performance Analysis of a Tensor Processing Unit, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080246", 
+            "DOIname": "10.1145/3079856.3080246", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080246"
+        }, 
+        {
+            "ArticleName": "Mart\u00edn Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. TensorFlow: Large-scale machine learning on heterogeneous distributed systems. arXiv:1603.04467 {cs}, 2016."
+        }, 
+        {
+            "ArticleName": "Shaoyi Cheng and John Wawrzynek. High Level Synthesis with a Dataflow Architectural Template. In OLAF, June 2016."
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , John D. Davis , Jaewon Lee, LINQits: big data on little clients, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485945", 
+            "DOIname": "10.1145/2485922.2485945", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485945"
+        }, 
+        {
+            "ArticleName": "Andrew R. Putnam , Dave Bennett , Eric Dellinger , Jeff Mason , Prasanna Sundararajan, CHiMPS: a high-level compilation flow for hybrid CPU-FPGA architectures, Proceedings of the 16th international ACM/SIGDA symposium on Field programmable gate arrays, February 24-26, 2008, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1344671.1344720", 
+            "DOIname": "10.1145/1344671.1344720", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1344720"
+        }, 
+        {
+            "ArticleName": "J. Cong , Bin Liu , S. Neuendorffer , J. Noguera , K. Vissers , Zhiru Zhang, High-Level Synthesis for FPGAs: From Prototyping to Deployment, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, v.30 n.4, p.473-491, April 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCAD.2011.2110592", 
+            "DOIname": "10.1109/TCAD.2011.2110592", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2302228"
+        }, 
+        {
+            "ArticleName": "I. Ouaiss, S. Govindarajan, V. Srinivasan, and R. Vemuri. An integrated partitioning and synthesis system for dynamically reconfigurable multi-fpga architectures. Lecture Notes in Computer Science, 1385--1388:31--36, 1999."
+        }, 
+        {
+            "ArticleName": "Muhuan Huang , Di Wu , Cody Hao Yu , Zhenman Fang , Matteo Interlandi , Tyson Condie , Jason Cong, Programming and Runtime Support to Blaze FPGA Accelerator Deployment at Datacenter Scale, Proceedings of the Seventh ACM Symposium on Cloud Computing, October 05-07, 2016, Santa Clara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2987550.2987569", 
+            "DOIname": "10.1145/2987550.2987569", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2987569"
+        }, 
+        {
+            "ArticleName": "Zeke Wang , Shuhao Zhang , Bingsheng He , Wei Zhang, Melia: A MapReduce Framework on OpenCL-Based FPGAs, IEEE Transactions on Parallel and Distributed Systems, v.27 n.12, p.3547-3560, December 2016", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2016.2537805", 
+            "DOIname": "10.1109/TPDS.2016.2537805", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3024137"
+        }, 
+        {
+            "ArticleName": "Dionysios Diamantopoulos and Christoforos Kachris. High-level synthesizable dataflow mapreduce accelerator for fpga-coupled data centers. In SAMOS, 2015."
+        }, 
+        {
+            "ArticleName": "Jeffrey Dean , Sanjay Ghemawat, MapReduce: simplified data processing on large clusters, Proceedings of the 6th conference on Symposium on Opearting Systems Design & Implementation, p.10-10, December 06-08, 2004, San Francisco, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1251264"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Jongse Park"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Hardik Sharma"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Divya Mahajan"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Joon Kyung Kim"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology", 
+            "Name": "Preston Olds"
+        }, 
+        {
+            "Affiliation": "Georgia Institute of Technology and University of California", 
+            "Name": "Hadi Esmaeilzadeh"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123979&preflayout=flat"
+}

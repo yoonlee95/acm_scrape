@@ -1,0 +1,292 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 251, 
+        "Downloads_6Weeks": 8, 
+        "Downloads_cumulative": 251, 
+        "CitationCount": 0
+    }, 
+    "Title": "Estimating and understanding architectural risk", 
+    "Abstract": "Designing a system in an era of rapidly evolving application behaviors and significant technology shifts involves taking on risk that a design will fail to meet its performance goals. While risk assessment and management are expected in both business and investment, these aspects are typically treated as independent to questions of performance and efficiency in architecture analysis. As hardware and software characteristics become uncertain (i.e. samples from a distribution), we demonstrate that the resulting performance distributions quickly grow beyond our ability to reason about with intuition alone. We further show that knowledge of the performance distribution can be used to significantly improve both the average case performance and minimize the risk of under-performance (which we term architectural risk). Our automated framework can be used to quantify the areas where trade-offs between expected performance and the \"tail\" of performance are most acute and provide new insights supporting architectural decision making (such as core selection) under uncertainty. Importantly it can do this even without a priori knowledge of an analytic model governing that uncertainty.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Alaa R. Alameldeen , David A. Wood, Variability in Architectural Simulations of Multi-Threaded Workloads, Proceedings of the 9th International Symposium on High-Performance Computer Architecture, p.7, February 08-12, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=822813"
+        }, 
+        {
+            "ArticleName": "Muhammad Shoaib Bin Altaf , David A. Wood, LogCA: A High-Level Performance Model for Hardware Accelerators, Proceedings of the 44th Annual International Symposium on Computer Architecture, June 24-28, 2017, Toronto, ON, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/3079856.3080216", 
+            "DOIname": "10.1145/3079856.3080216", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3080216"
+        }, 
+        {
+            "ArticleName": "Michael Armbrust , Armando Fox , Rean Griffith , Anthony D. Joseph , Randy Katz , Andy Konwinski , Gunho Lee , David Patterson , Ariel Rabkin , Ion Stoica , Matei Zaharia, A view of cloud computing, Communications of the ACM, v.53 n.4, April 2010", 
+            "DOIhref": "http://doi.acm.org/10.1145/1721654.1721672", 
+            "DOIname": "10.1145/1721654.1721672", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1721672"
+        }, 
+        {
+            "ArticleName": "Omid Azizi , Aqeel Mahesri , Benjamin C. Lee , Sanjay J. Patel , Mark Horowitz, Energy-performance tradeoffs in processor architecture and circuit design: a marginal cost analysis, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815967", 
+            "DOIname": "10.1145/1815961.1815967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815967"
+        }, 
+        {
+            "ArticleName": "Major Bhadauria , Vincent M. Weaver , Sally A. McKee, Understanding PARSEC performance on contemporary CMPs, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.98-107, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306793", 
+            "DOIname": "10.1109/IISWC.2009.5306793", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680786"
+        }, 
+        {
+            "ArticleName": "Shekhar Borkar, Thousand core chips: a technology perspective, Proceedings of the 44th annual Design Automation Conference, June 04-08, 2007, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/1278480.1278667", 
+            "DOIname": "10.1145/1278480.1278667", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1278667"
+        }, 
+        {
+            "ArticleName": "James Bornholt , Todd Mytkowicz , Kathryn S. McKinley, Uncertain<T>: a first-order type for uncertain data, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541958", 
+            "DOIname": "10.1145/2541940.2541958", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541958"
+        }, 
+        {
+            "ArticleName": "G. E. P. Box and D. R. Cox. 1964. An Analysis of Transformations. Journal of the Royal Statistical Society. Series B (Methodological) 26, 2 (1964), 211--252. http://www.jstor.org/stable/2984418"
+        }, 
+        {
+            "ArticleName": "David Brooks , Vivek Tiwari , Margaret Martonosi, Wattch: a framework for architectural-level power analysis and optimizations, Proceedings of the 27th annual international symposium on Computer architecture, p.83-94, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339657", 
+            "DOIname": "10.1145/339647.339657", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339657"
+        }, 
+        {
+            "ArticleName": "C.L. Philip Chen and Chun-Yang Zhang. 2014. Data-intensive applications, challenges, techniques and technologies: A survey on Big Data. Information Sciences 275 (2014), 314 -- 347."
+        }, 
+        {
+            "ArticleName": "Kwang-Ting Tim Cheng , Dmitri B. Strukov, 3D CMOS-memristor hybrid circuits: devices, integration, architecture, and applications, Proceedings of the 2012 ACM international symposium on International Symposium on Physical Design, March 25-28, 2012, Napa, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2160916.2160925", 
+            "DOIname": "10.1145/2160916.2160925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2160925"
+        }, 
+        {
+            "ArticleName": "Eric S. Chung , Peter A. Milder , James C. Hoe , Ken Mai, Single-Chip Heterogeneous Computing: Does the Future Include Custom Logic, FPGAs, and GPGPUs?, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.225-236, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.36", 
+            "DOIname": "10.1109/MICRO.2010.36", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935024"
+        }, 
+        {
+            "ArticleName": "Kypros Constantinides , Onur Mutlu , Todd Austin, Online design bug detection: RTL analysis, flexible mechanisms, and evaluation, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.282-293, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771798", 
+            "DOIname": "10.1109/MICRO.2008.4771798", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521801"
+        }, 
+        {
+            "ArticleName": "J. A. Cunningham. 1990. The use and evaluation of yield models in integrated circuit manufacturing. IEEE Transactions on Semiconductor Manufacturing 3, 2 (May 1990), 60--71."
+        }, 
+        {
+            "ArticleName": "Christophe Dubach , Timothy Jones , Michael O'Boyle, Microarchitectural Design Space Exploration Using an Architecture-Centric Approach, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.262-271, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.26", 
+            "DOIname": "10.1109/MICRO.2007.26", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331724"
+        }, 
+        {
+            "ArticleName": "Hadi Esmaeilzadeh , Emily Blem , Renee St. Amant , Karthikeyan Sankaralingam , Doug Burger, Dark silicon and the end of multicore scaling, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000108", 
+            "DOIname": "10.1145/2000064.2000108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000108"
+        }, 
+        {
+            "ArticleName": "Songchun Fan , Seyed Majid Zahedi , Benjamin C. Lee, The Computational Sprinting Game, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872383", 
+            "DOIname": "10.1145/2872362.2872383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872383"
+        }, 
+        {
+            "ArticleName": "Harry D. Foster, Trends in functional verification: a 2014 industry study, Proceedings of the 52nd Annual Design Automation Conference, p.1-6, June 07-11, 2015, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2744769.2744921", 
+            "DOIname": "10.1145/2744769.2744921", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2744921"
+        }, 
+        {
+            "ArticleName": "Marisabel Guevara , Benjamin Lubin , Benjamin C. Lee, Navigating heterogeneous processors with market mechanisms, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.95-106, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522310", 
+            "DOIname": "10.1109/HPCA.2013.6522310", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495505"
+        }, 
+        {
+            "ArticleName": "M. Guevara, B. Lubin, and B. C. Lee. 2014. Strategies for anticipating risk in heterogeneous system design. In 2014 IEEE 20th International Symposium on High Performance Computer Architecture (HPCA). 154--164."
+        }, 
+        {
+            "ArticleName": "John L. Gustafson, Reevaluating Amdahl's law, Communications of the ACM, v.31 n.5, p.532-533, May 1988", 
+            "DOIhref": "http://doi.acm.org/10.1145/42411.42415", 
+            "DOIname": "10.1145/42411.42415", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=42415"
+        }, 
+        {
+            "ArticleName": "A. Hartstein , Thomas R. Puzak, The optimum pipeline depth for a microprocessor, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545217"
+        }, 
+        {
+            "ArticleName": "Mark D. Hill , Michael R. Marty, Amdahl's Law in the Multicore Era, Computer, v.41 n.7, p.33-38, July 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2008.209", 
+            "DOIname": "10.1109/MC.2008.209", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1449387"
+        }, 
+        {
+            "ArticleName": "M. Hosomi, H. Yamagishi, T. Yamamoto, K. Bessho, Y. Higo, K. Yamane, H. Yamada, M. Shoji, H. Hachino, C. Fukumoto, H. Nagao, and H. Kano. 2005. A novel nonvolatile memory with spin torque transfer magnetization switching: spinram. In IEEE InternationalElectron Devices Meeting, 2005. IEDM Technical Digest. 459--462."
+        }, 
+        {
+            "ArticleName": "Intel. 2017. Intel Processor Pricing. https://www.intc.com/investor-relations/investor-education-and-news/cpu-price-list. (2017). Accessed: 2017-04-03."
+        }, 
+        {
+            "ArticleName": "Engin \u00cfpek , Sally A. McKee , Rich Caruana , Bronis R. de Supinski , Martin Schulz, Efficiently exploring architectural design spaces via predictive modeling, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168882", 
+            "DOIname": "10.1145/1168857.1168882", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168882"
+        }, 
+        {
+            "ArticleName": "Natalie Enright Jerger , Ajaykumar Kannan , Zimo Li , Gabriel H. Loh, NoC Architectures for Silicon Interposer Systems: Why Pay for more Wires when you Can Get them (from your interposer) for Free?, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.61", 
+            "DOIname": "10.1109/MICRO.2014.61", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742202"
+        }, 
+        {
+            "ArticleName": "Stanley Kaplan and B. John Garrick. 1981. On The Quantitative Definition of Risk. Risk Analysis 1, 1 (1981), 11--27."
+        }, 
+        {
+            "ArticleName": "I. Koren and Z. Koren. 1998. Defect tolerance in VLSI circuits: techniques and yield analysis. Proc. IEEE 86, 9 (Sep 1998), 1819--1838."
+        }, 
+        {
+            "ArticleName": "C. Lam. 2008. Cell Design Considerations for Phase Change Memory as a Universal Memory. In 2008 International Symposium on VLSI Technology, Systems and Applications (VLSI-TSA). 132--133."
+        }, 
+        {
+            "ArticleName": "Abraham Lee. 2014. Real-time latin-hypercube-sampling-based Monte Carlo Error Propagation. https://github.com/tisimst/mcerp"
+        }, 
+        {
+            "ArticleName": "B Lee and David Brooks. 2006. Statistically rigorous regression modeling for the microprocessor design space. In ISCA-33: Workshop on Modeling, Benchmarking, and Simulation."
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David Brooks, Efficiency trends and limits from comprehensive microarchitectural adaptivity, Proceedings of the 13th international conference on Architectural support for programming languages and operating systems, March 01-05, 2008, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1346281.1346288", 
+            "DOIname": "10.1145/1346281.1346288", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1346288"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David M. Brooks, Accurate and efficient regression modeling for microarchitectural performance and power prediction, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168881", 
+            "DOIname": "10.1145/1168857.1168881", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168881"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David M. Brooks, Illustrative Design Space Studies with Microarchitectural Regression Models, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.340-351, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346211", 
+            "DOIname": "10.1109/HPCA.2007.346211", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318090"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , David M. Brooks , Bronis R. de Supinski , Martin Schulz , Karan Singh , Sally A. McKee, Methods of inference and learning for performance modeling of parallel applications, Proceedings of the 12th ACM SIGPLAN symposium on Principles and practice of parallel programming, March 14-17, 2007, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1229428.1229479", 
+            "DOIname": "10.1145/1229428.1229479", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1229479"
+        }, 
+        {
+            "ArticleName": "Benjamin C. Lee , Jamison Collins , Hong Wang , David Brooks, CPR: Composable performance regression for scalable multiprocessor models, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.270-281, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771797", 
+            "DOIname": "10.1109/MICRO.2008.4771797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521802"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Xiaoyao Liang , David Brooks, Mitigating the Impact of Process Variations on Processor Register Files and Execution Units, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.504-514, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.37", 
+            "DOIname": "10.1109/MICRO.2006.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194862"
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh , Yuan Xie , Bryan Black, Processor Design in 3D Die-Stacking Technologies, IEEE Micro, v.27 n.3, p.31-48, May 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2007.59", 
+            "DOIname": "10.1109/MM.2007.59", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1308569"
+        }, 
+        {
+            "ArticleName": "Advait Madhavan , Timothy Sherwood , Dmitri Strukov, Race logic: a hardware acceleration for dynamic programming algorithms, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665747"
+        }, 
+        {
+            "ArticleName": "Mark Oskin , Frederic T. Chong , Matthew Farrens, HLS: combining statistical and symbolic simulation to guide microprocessor designs, Proceedings of the 27th annual international symposium on Computer architecture, p.71-82, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339656", 
+            "DOIname": "10.1145/339647.339656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339656"
+        }, 
+        {
+            "ArticleName": "A. Rahimi, L. Benini, and R. K. Gupta. 2016. Variability Mitigation in Nanometer CMOS Integrated Systems: A Survey of Techniques From Circuits to Software. Proc. IEEE 104, 7 (July 2016), 1410--1448."
+        }, 
+        {
+            "ArticleName": "S. R. Sarangi, B. Greskamp, R. Teodorescu, J. Nakano, A. Tiwari, and J. Torrellas. 2008. VARIUS: A Model of Process Variation and Resulting Timing Errors for Microarchitects. IEEE Transactions on Semiconductor Manufacturing 21, 1 (Feb 2008), 3--13."
+        }, 
+        {
+            "ArticleName": "J\u00fcrgen Schmidhuber, Deep learning in neural networks, Neural Networks, v.61 n.C, p.85-117, January 2015", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.neunet.2014.09.003", 
+            "DOIname": "10.1016/j.neunet.2014.09.003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2947734"
+        }, 
+        {
+            "ArticleName": "David W. Scott. 2008. Kernel Density Estimators. John Wiley Sons, Inc., 125--193."
+        }, 
+        {
+            "ArticleName": "Timothy Sherwood , Erez Perelman , Greg Hamerly , Suleyman Sair , Brad Calder, Discovering and Exploiting Program Phases, IEEE Micro, v.23 n.6, p.84-93, November 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2003.1261391", 
+            "DOIname": "10.1109/MM.2003.1261391", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1436219"
+        }, 
+        {
+            "ArticleName": "Dmitri B. Strukov, Gregory S. Snider, Duncan R. Stewart, and R. S. Williams. 2008. The missing memristor found. Nature 453, 7191 (May 01 2008), 80--3. https://search.proquest.com/docview/204473846?accountid=14522 Copyright - Copyright Nature Publishing Group May 1, 2008; Last updated - 2014-03-19; CODEN - NATUAS."
+        }, 
+        {
+            "ArticleName": "Xian-He Sun , Yong Chen, Reevaluating Amdahl's law in the multicore era, Journal of Parallel and Distributed Computing, v.70 n.2, p.183-188, February, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.jpdc.2009.05.002", 
+            "DOIname": "10.1016/j.jpdc.2009.05.002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1688079"
+        }, 
+        {
+            "ArticleName": "SymPy Development Team. 2016. SymPy: Python library for symbolic mathematics. http://www.sympy.org"
+        }, 
+        {
+            "ArticleName": "M Mitchell Waldrop. 2016. The chips are down for Moore's law. Nature 530, 7589 (2016), 144--147."
+        }, 
+        {
+            "ArticleName": "Dong Hyuk Woo , Hsien-Hsin S. Lee, Extending Amdahl's Law for Energy-Efficient Computing in the Many-Core Era, Computer, v.41 n.12, p.24-31, December 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2008.494", 
+            "DOIname": "10.1109/MC.2008.494", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1495841"
+        }, 
+        {
+            "ArticleName": "L. Yavits , A. Morad , R. Ginosar, The effect of communication and synchronization on Amdahl's law in multicore systems, Parallel Computing, v.40 n.1, p.1-16, January, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.parco.2013.11.001", 
+            "DOIname": "10.1016/j.parco.2013.11.001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2567211"
+        }, 
+        {
+            "ArticleName": "Seyed Majid Zahedi , Benjamin C. Lee, REF: resource elasticity fairness with sharing incentives for multiprocessors, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541962", 
+            "DOIname": "10.1145/2541940.2541962", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541962"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "Weilong Cui"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Timothy Sherwood"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124541&preflayout=flat"
+}

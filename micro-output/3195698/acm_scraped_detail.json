@@ -1,0 +1,228 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 12, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 12, 
+        "CitationCount": 0
+    }, 
+    "Title": "CHAINSAW: von-neumann accelerators to leverage fused instruction chains", 
+    "Abstract": "A central tenet behind accelerators is to partition a program execution into regions with different behavior (e.g., SIMD, Irregular, Compute-Intensive) and then use behavior-specialized architectures [1] for each region. It is unclear whether the gains in efficiency arise from recognizing that a simpler microarchitecture is sufficient for the acceleratable code region or the actual microarchitecture, or a combination of both. Many proposals [2], [3] seem to choose dataflow-based accelerators which encounters challenges with fabric utilization and static power when the available instruction parallelism is below the peak operation parallelism available [4]. In this paper, we develop, Chainsaw, a Von-Neumann based accelerator and demonstrate that many of the fundamental overheads (e.g., fetch-decode) can be amortized by adopting the appropriate instruction abstraction. The key insight is the notion of chains, which are compiler fused sequences of instructions. chains adapt to different acceleration behaviors by varying the length of the chains and the types of instructions that are fused into a chain. Chains convey the producer-consumer locality between dependent instructions, which the Chainsaw architecture then captures by temporally scheduling such operations on the same execution unit and uses pipeline registers to forward the values between dependent operations. Chainsaw is a generic multi-lane architecture (4-stage pipeline per lane) and does not require any specialized compound function units; it can be reloaded enabling it to accelerate multiple program paths. We have developed a complete LLVM-based compiler prototype and simulation infrastructure and demonstrated that a 8-lane Chainsaw is within 73% of the performance of an ideal dataflow architecture, while reducing the energy consumption by 45% compared to a 4-way OOO processor.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Tony Nowatzki , Karthikeyan Sankaralingam, Analyzing Behavior Specialized Acceleration, Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, April 02-06, 2016, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2872362.2872412", 
+            "DOIname": "10.1145/2872362.2872412", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2872412"
+        }, 
+        {
+            "ArticleName": "Hyunchul Park , Yongjun Park , Scott Mahlke, Polymorphic pipeline array: a flexible multicore accelerator with virtualized execution for mobile multimedia applications, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669160", 
+            "DOIname": "10.1145/1669112.1669160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669160"
+        }, 
+        {
+            "ArticleName": "Venkatraman Govindaraju , Chen-Han Ho , Tony Nowatzki , Jatin Chhugani , Nadathur Satish , Karthikeyan Sankaralingam , Changkyu Kim, DySER: Unifying Functionality and Parallelism Specialization for Energy-Efficient Computing, IEEE Micro, v.32 n.5, p.38-51, September 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2012.51", 
+            "DOIname": "10.1109/MM.2012.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2412723"
+        }, 
+        {
+            "ArticleName": "C. Frericks, R. Cofell, and K. Sankaralingam, \"Performance evaluation of a DySER FPGA prototype system spanning the compiler, microarchitecture, and hardware implementation,\" ... Software (ISPASS), 2015."
+        }, 
+        {
+            "ArticleName": "Thomas Ball , James R. Larus, Efficient path profiling, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.46-57, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243857"
+        }, 
+        {
+            "ArticleName": "Shantanu Gupta , Shuguang Feng , Amin Ansari , Scott Mahlke , David August, Bundled execution of recurring traces for energy-efficient general purpose processing, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155623", 
+            "DOIname": "10.1145/2155620.2155623", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155623"
+        }, 
+        {
+            "ArticleName": "C. Gonz\u00e1lez-\u00c1lvarez, J. B. Sartor, C. Alvarez, D. Jim\u00e9nez-Gonz\u00e1lez, and L. Eeckhout, \"Automatic design of domain-specific instructions for low-power processors,\" in 2015 IEEE 26th International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2015, pp. 1--8."
+        }, 
+        {
+            "ArticleName": "R. Gonzalez, \"Xtensa: a configurable and extensible processor,\" 2000."
+        }, 
+        {
+            "ArticleName": "Nathan Clark , Manjunath Kudlur , Hyunchul Park , Scott Mahlke , Krisztian Flautner, Application-Specific Processing on a General-Purpose Core via Transparent Instruction Set Customization, Proceedings of the 37th annual IEEE/ACM International Symposium on Microarchitecture, p.30-40, December 04-08, 2004, Portland, Oregon", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2004.5", 
+            "DOIname": "10.1109/MICRO.2004.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1038929"
+        }, 
+        {
+            "ArticleName": "Tony Nowatzki , Venkatraman Govindaraju , Karthikeyan Sankaralingam, A Graph-Based Program Representation for Analyzing Hardware Specialization Approaches, IEEE Computer Architecture Letters, v.14 n.2, p.94-98, July 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/LCA.2015.2476801", 
+            "DOIname": "10.1109/LCA.2015.2476801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2878667"
+        }, 
+        {
+            "ArticleName": "Andrew Lukefahr , Shruti Padmanabha , Reetuparna Das , Faissal M. Sleiman , Ronald Dreslinski , Thomas F. Wenisch , Scott Mahlke, Composite Cores: Pushing Heterogeneity Into a Core, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.317-328, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.37", 
+            "DOIname": "10.1109/MICRO.2012.37", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457508"
+        }, 
+        {
+            "ArticleName": "Shruti Padmanabha , Andrew Lukefahr , Reetuparna Das , Scott Mahlke, Trace based phase prediction for tightly-coupled heterogeneous cores, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540746", 
+            "DOIname": "10.1145/2540708.2540746", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540746"
+        }, 
+        {
+            "ArticleName": "Rehan Hameed , Wajahat Qadeer , Megan Wachs , Omid Azizi , Alex Solomatnikov , Benjamin C. Lee , Stephen Richardson , Christos Kozyrakis , Mark Horowitz, Understanding sources of inefficiency in general-purpose chips, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815968", 
+            "DOIname": "10.1145/1815961.1815968", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815968"
+        }, 
+        {
+            "ArticleName": "M. Hayenga, V. R. K. Naresh, and M. H. Lipasti, \"Revolver: Processor architecture for power efficient loop execution.\" in Proc. of the 20th HPCA, 2014."
+        }, 
+        {
+            "ArticleName": "Tony Nowatzki , Vinay Gangadhar , Karthikeyan Sankaralingam, Exploring the potential of heterogeneous von neumann/dataflow execution models, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750380", 
+            "DOIname": "10.1145/2749469.2750380", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750380"
+        }, 
+        {
+            "ArticleName": "Ganesh Venkatesh , Jack Sampson , Nathan Goulding , Saturnino Garcia , Vladyslav Bryksin , Jose Lugo-Martinez , Steven Swanson , Michael Bedford Taylor, Conservation cores: reducing the energy of mature computations, Proceedings of the fifteenth edition of ASPLOS on Architectural support for programming languages and operating systems, March 13-17, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1736020.1736044", 
+            "DOIname": "10.1145/1736020.1736044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1736044"
+        }, 
+        {
+            "ArticleName": "Ganesh Venkatesh , Jack Sampson , Nathan Goulding-Hotta , Sravanthi Kota Venkata , Michael Bedford Taylor , Steven Swanson, QsCores: trading dark silicon for scalable energy efficiency with quasi-specific cores, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155640", 
+            "DOIname": "10.1145/2155620.2155640", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155640"
+        }, 
+        {
+            "ArticleName": "S. Hu, I. Kim, M. H. Lipasti, and J. E. Smith, \"An approach for implementing efficient superscalar CISC processors,\" in PROC of the 12th HPCA, 2006."
+        }, 
+        {
+            "ArticleName": "Karthikeyan Sankaralingam , Ramadass Nagarajan , Robert McDonald , Rajagopalan Desikan , Saurabh Drolia , M. S. Govindan , Paul Gratz , Divya Gulati , Heather Hanson , Changkyu Kim , Haiming Liu , Nitya Ranganathan , Simha Sethumadhavan , Sadia Sharif , Premkishore Shivakumar , Stephen W. Keckler , Doug Burger, Distributed Microarchitectural Protocols in the TRIPS Prototype Processor, Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture, p.480-491, December 09-13, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2006.19", 
+            "DOIname": "10.1109/MICRO.2006.19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1194859"
+        }, 
+        {
+            "ArticleName": "Enric Gibert , Jes\u00fas S\u00e1nchez , Antonio Gonz\u00e1lez, Flexible Compiler-Managed L0 Buffers for Clustered VLIW Processors, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.315, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956547"
+        }, 
+        {
+            "ArticleName": "J. Balfour, \"EFFICIENT EMBEDDED COMPUTING,\" 2011. {Online}. Available: http://cva.stanford.edu/publications/2010/jbalfour-thesis.pdf"
+        }, 
+        {
+            "ArticleName": "Ho-Seop Kim , James E. Smith, An instruction set and microarchitecture for instruction level distributed processing, Proceedings of the 29th annual international symposium on Computer architecture, May 25-29, 2002, Anchorage, Alaska", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=545224"
+        }, 
+        {
+            "ArticleName": "Daniel Stasiak , Rajat Chaudhry , Dennis Cox , Stephen Posluszny , Jim Warnock , Steve Weitzel , Dieter Wendel , Michael Wang, Cell Processor Low-Power Design Methodology, IEEE Micro, v.25 n.6, p.71-78, November 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2005.107", 
+            "DOIname": "10.1109/MM.2005.107", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1108295"
+        }, 
+        {
+            "ArticleName": "Samuel Larsen , Saman Amarasinghe, Exploiting superword level parallelism with multimedia instruction sets, Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation, p.145-156, June 18-21, 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/349299.349320", 
+            "DOIname": "10.1145/349299.349320", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=349320"
+        }, 
+        {
+            "ArticleName": "Engin Ipek , Meyrem Kirman , Nevin Kirman , Jose F. Martinez, Core fusion: accommodating software diversity in chip multiprocessors, Proceedings of the 34th annual international symposium on Computer architecture, June 09-13, 2007, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1250662.1250686", 
+            "DOIname": "10.1145/1250662.1250686", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1250686"
+        }, 
+        {
+            "ArticleName": "Amin Ansari , Shuguang Feng , Shantanu Gupta , Josep Torrellas , Scott Mahlke, Illusionist: Transforming lightweight cores into aggressive cores on demand, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.436-447, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522339", 
+            "DOIname": "10.1109/HPCA.2013.6522339", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495504"
+        }, 
+        {
+            "ArticleName": "Shruti Padmanabha , Andrew Lukefahr , Reetuparna Das , Scott Mahlke, DynaMOS: dynamic schedule migration for heterogeneous cores, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830791", 
+            "DOIname": "10.1145/2830772.2830791", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830791"
+        }, 
+        {
+            "ArticleName": "Mark Gebhart , Stephen W. Keckler , William J. Dally, A compile-time managed multi-level register file hierarchy, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155675", 
+            "DOIname": "10.1145/2155620.2155675", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155675"
+        }, 
+        {
+            "ArticleName": "P. Chen, L. Zhang, Y.-H. Han, and Y.-J. Chen, \"A general-purpose many-accelerator architecture based on dataflow graph clustering of applications,\" Journal of Computer Science and Technology, vol. 29, no. 2, pp. 239--246, 2014."
+        }, 
+        {
+            "ArticleName": "Hyunchul Park , Kevin Fan , Scott A. Mahlke , Taewook Oh , Heeseok Kim , Hong-seok Kim, Edge-centric modulo scheduling for coarse-grained reconfigurable architectures, Proceedings of the 17th international conference on Parallel architectures and compilation techniques, October 25-29, 2008, Toronto, Ontario, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/1454115.1454140", 
+            "DOIname": "10.1145/1454115.1454140", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1454140"
+        }, 
+        {
+            "ArticleName": "Steven Swanson , Ken Michelson , Andrew Schwerin , Mark Oskin, WaveScalar, Proceedings of the 36th annual IEEE/ACM International Symposium on Microarchitecture, p.291, December 03-05, 2003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=956546"
+        }, 
+        {
+            "ArticleName": "Venkatraman Govindaraju , Chen-Han Ho , Karthikeyan Sankaralingam, Dynamically Specialized Datapaths for energy efficient computing, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.503-514, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014884"
+        }, 
+        {
+            "ArticleName": "Bill Dally, Power, Programmability, and Granularity: The Challenges of ExaScale Computing, Proceedings of the 2011 IEEE International Parallel & Distributed Processing Symposium, p.878, May 16-20, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/IPDPS.2011.420", 
+            "DOIname": "10.1109/IPDPS.2011.420", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2059485"
+        }, 
+        {
+            "ArticleName": "D. R. Fulkerson, \"Note on dilworths decomposition theorem for partially ordered sets,\" in Proc. Amer. Math. Soc, vol. 7. Citeseer, 1956, pp. 701--702."
+        }, 
+        {
+            "ArticleName": "\"Macsim : Simulator for heterogeneous architecture - https://code.google.com/p/macsim/.\" {Online}. Available: https://code.google.com/p/macsim/"
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Bradford M. Beckmann , Michael R. Marty , Min Xu , Alaa R. Alameldeen , Kevin E. Moore , Mark D. Hill , David A. Wood, Multifacet's general execution-driven multiprocessor simulator (GEMS) toolset, ACM SIGARCH Computer Architecture News, v.33 n.4, November 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1105734.1105747", 
+            "DOIname": "10.1145/1105734.1105747", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105747"
+        }, 
+        {
+            "ArticleName": "Chi-Keung Luk , Robert Cohn , Robert Muth , Harish Patil , Artur Klauser , Geoff Lowney , Steven Wallace , Vijay Janapa Reddi , Kim Hazelwood, Pin: building customized program analysis tools with dynamic instrumentation, ACM SIGPLAN Notices, v.40 n.6, June 2005", 
+            "DOIhref": "http://doi.acm.org/10.1145/1064978.1065034", 
+            "DOIname": "10.1145/1064978.1065034", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1065034"
+        }, 
+        {
+            "ArticleName": "Yakun Sophia Shao , Brandon Reagen , Gu-Yeon Wei , David Brooks, Aladdin: a Pre-RTL, power-performance accelerator simulator enabling large design space exploration of customized architectures, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665689"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Simon Fraser University", 
+            "Name": "Amirali Sharifian"
+        }, 
+        {
+            "Affiliation": "Simon Fraser University", 
+            "Name": "Snehasish Kumar"
+        }, 
+        {
+            "Affiliation": "Simon Fraser University", 
+            "Name": "Apala Guha"
+        }, 
+        {
+            "Affiliation": "Simon Fraser University", 
+            "Name": "Arrvindh Shriraman"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195698&preflayout=flat"
+}

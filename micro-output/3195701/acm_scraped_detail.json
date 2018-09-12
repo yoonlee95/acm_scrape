@@ -1,0 +1,200 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 20, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 20, 
+        "CitationCount": 0
+    }, 
+    "Title": "A patch memory system for image processing and computer vision", 
+    "Abstract": "From self-driving cars to high dynamic range (HDR) imaging, the demand for image-based applications is growing quickly. In mobile systems, these applications place particular strain on performance and energy efficiency. As traditional memory systems are optimized for 1D memory access, they are unable to efficiently exploit the multi-dimensional locality characteristics of image-based applications which often operate on sub-regions of 2D and 3D image data. We have developed a new Patch Memory System (PMEM) tailored to application domains that process 2D and 3D data streams. PMEM supports efficient multidimensional addressing, automatic handling of image boundaries, and efficient caching and prefetching of image data. In addition to an optimized cache, PMEM includes hardware for offloading structured address calculations from processing units. We improve average energy-delay by 26% compared to EVA, a memory system for computer vision applications. Compared to a traditional cache, our results show that PMEM can reduce processor energy by 34% for a selection of CV and IP applications, leading to system performance improvement of up to 32% and energy-delay product improvement of 48--86% on the applications in this study.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "NVIDIA, \"Advanced Driver Assistance Systems (ADAS),\" http://www.nvidia.com/object/advanced-driver-assistance-systems.html."
+        }, 
+        {
+            "ArticleName": "R. Ng, M. Levoy, M. Br\u00e9dif, G. Duval, M. Horowitz, and P. Hanrahan, \"Light Field Photography with a Hand-held Plenoptic Camera,\" Stanford University, Computer Science Department, Tech. Rep. CSTR 2005-02, 2005."
+        }, 
+        {
+            "ArticleName": "Microsoft, \"Microsoft HoloLens,\" https://www.microsoft.com/microsoft-hololens/en-us."
+        }, 
+        {
+            "ArticleName": "F. Stein, \"The Challenge of Putting Vision Algorithms into a Car,\" in Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), June 2012, pp. 89--94."
+        }, 
+        {
+            "ArticleName": "Piotr Dollar , Christian Wojek , Bernt Schiele , Pietro Perona, Pedestrian Detection: An Evaluation of the State of the Art, IEEE Transactions on Pattern Analysis and Machine Intelligence, v.34 n.4, p.743-761, April 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPAMI.2011.155", 
+            "DOIname": "10.1109/TPAMI.2011.155", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2197275"
+        }, 
+        {
+            "ArticleName": "S. J. Krotosky , M. M. Trivedi, On Color-, Infrared-, and Multimodal-Stereo Approaches to Pedestrian Detection, IEEE Transactions on Intelligent Transportation Systems, v.8 n.4, p.619-629, December 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/TITS.2007.908722", 
+            "DOIname": "10.1109/TITS.2007.908722", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2218890"
+        }, 
+        {
+            "ArticleName": "R. Rithe, P. Raina, N. Ickes, S. Tenneti, and A. Chandrakasan, \"Reconfigurable Processor for Energy-Efficient Computational Photography,\" IEEE Journal of Solid-State Circuits (JSSC), vol. 48, no. 11, pp. 2908--2919, November 2013."
+        }, 
+        {
+            "ArticleName": "Wajahat Qadeer , Rehan Hameed , Ofer Shacham , Preethi Venkatesan , Christos Kozyrakis , Mark A. Horowitz, Convolution engine: balancing efficiency & flexibility in specialized computing, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485925", 
+            "DOIname": "10.1145/2485922.2485925", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485925"
+        }, 
+        {
+            "ArticleName": "T. Ohmaru, T. Nakagawa, S. Maeda, Y. Okamoto, M. Kozuma, S. Yoneda, H. Inoue, Y. Kurokawa, T. Ikeda, Y. Ieda, N. Yamade, H. Miyairi, M. Ikeda, and S. Yamazaki, \"25.3\u03bcW at 60fps 240X 160-pixel Vision Sensor for Motion Capturing with In-pixel Non-volatile Analog Memory Using Crystalline Oxide Semiconductor FET,\" in International Solid-State Circuits Conference (ISSCC), February 2015."
+        }, 
+        {
+            "ArticleName": "J. Tanabe, S. Toru, Y. Yamada, T. Watanabe, M. Okumura, M. Nishiyama, T. Nomura, K. Oma, N. Sato, M. Banno, H. Hayashi, and T. Miyamori, \"A 1.9TOPS and 564GOPS/W Heterogeneous Multicore SoC with Color-based Object Classification Accelerator for Image-recognition Applications,\" in International Solid-State Circuits Conference (ISSCC), February 2015."
+        }, 
+        {
+            "ArticleName": "I. Hong, K. Bong, D. Shin, S. Park, K. Lee, Y. Kim, and H.-J. Yoo, \"A 2.71nJ/pixel 3D-stacked Gaze-activated Object-recognition System for Low-power Mobile HMD Applications,\" in International Solid-State Circuits Conference (ISSCC), February 2015."
+        }, 
+        {
+            "ArticleName": "T. Kurafuji, M. Haraguchi, M. Nakajima, T. Nishijima, T. Tanizaki, H. Yamasaki, T. Sugimura, Y. Imai, M. Ishizaki, T. Kumaki, K. Murata, K. Yoshida, E. Shimomura, H. Noda, Y. Okuno, S. Kamijo, T. Koide, H. Mattausch, and K. Arimoto, \"A Scalable Massively Parallel Processor for Real-Time Image Processing,\" IEEE Journal of Solid-State Circuits (JSSC), vol. 46, no. 10, pp. 2363--2373, October 2011."
+        }, 
+        {
+            "ArticleName": "M. Demler, \"Synopsys Embeds Vision Processing,\" Microprocessor Report, April 2015."
+        }, 
+        {
+            "ArticleName": "T. R. Halfhill, \"Ceva Sharpens Computer Vision,\" Microprocessor Report, April 2015."
+        }, 
+        {
+            "ArticleName": "TMS320C64x+ DSP Cache User's Guide (Rev. B), Texas Instruments. {Online}. Available: http://www.ti.com/litv/pdf/spru862b"
+        }, 
+        {
+            "ArticleName": "Jason Clemons , Andrea Pellegrini , Silvio Savarese , Todd Austin, EVA: an efficient vision architecture for mobile systems, Proceedings of the 2013 International Conference on Compilers, Architectures and Synthesis for Embedded Systems, p.1-10, September 29-October 04, 2013, Montreal, Quebec, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555742"
+        }, 
+        {
+            "ArticleName": "Jonathan Ragan-Kelley , Connelly Barnes , Andrew Adams , Sylvain Paris , Fr\u00e9do Durand , Saman Amarasinghe, Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines, Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 16-19, 2013, Seattle, Washington, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2491956.2462176", 
+            "DOIname": "10.1145/2491956.2462176", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2462176"
+        }, 
+        {
+            "ArticleName": "H. Malvar, L.-W. He, and R. Cutler, \"High-quality Linear Interpolation for Demosaicing of Bayer-patterned Color Images,\" in Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP), May 2004."
+        }, 
+        {
+            "ArticleName": "I. Frosio and N. Borghese, \"Statistical Based Impulsive Noise Removal in Digital Radiography,\" IEEE Transactions on Medical Imaging, vol. 28, no. 1, pp. 3--16, January 2009."
+        }, 
+        {
+            "ArticleName": "K. . Dabov , A. . Foi , V. . Katkovnik , K. . Egiazarian, Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering, IEEE Transactions on Image Processing, v.16 n.8, p.2080-2095, August 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/TIP.2007.901238", 
+            "DOIname": "10.1109/TIP.2007.901238", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2321415"
+        }, 
+        {
+            "ArticleName": "G. Yu and G. Sapiro, \"DCT Image Denoising: A Simple and Effective Image Denoising Algorithm,\" Image Processing On Line, vol. 1, 2011."
+        }, 
+        {
+            "ArticleName": "Edward Rosten , Tom Drummond, Machine learning for high-speed corner detection, Proceedings of the 9th European conference on Computer Vision, May 07-13, 2006, Graz, Austria", 
+            "DOIhref": "https://dx.doi.org/10.1007/11744023_34", 
+            "DOIname": "10.1007/11744023_34", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2094478"
+        }, 
+        {
+            "ArticleName": "Michael Calonder , Vincent Lepetit , Christoph Strecha , Pascal Fua, BRIEF: binary robust independent elementary features, Proceedings of the 11th European conference on Computer vision: Part IV, September 05-11, 2010, Heraklion, Crete, Greece", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1888148"
+        }, 
+        {
+            "ArticleName": "Thorsten Joachims, Making large-scale support vector machine learning practical, Advances in kernel methods: support vector learning, MIT Press, Cambridge, MA, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=299104"
+        }, 
+        {
+            "ArticleName": "Leo Breiman, Random Forests, Machine Learning, v.45 n.1, p.5-32, October 1 2001", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1010933404324", 
+            "DOIname": "10.1023/A:1010933404324", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=570182"
+        }, 
+        {
+            "ArticleName": "Rafael C. Gonzalez , Richard E. Woods, Digital Image Processing (3rd Edition), Prentice-Hall, Inc., Upper Saddle River, NJ, 2006", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1076432"
+        }, 
+        {
+            "ArticleName": "David E. Jacobs , Orazio Gallo , Kari A. Pulli, Dynamic Image Stacks, Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition Workshops, p.144-151, June 23-28, 2014", 
+            "DOIhref": "https://dx.doi.org/10.1109/CVPRW.2014.27", 
+            "DOIname": "10.1109/CVPRW.2014.27", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2679657"
+        }, 
+        {
+            "ArticleName": "M. Bojnordi, N. Sedaghati-Mokhtari, O. Fatemi, and M. Hashemi, \"An Efficient Self-Transposing Memory Structure for 32-bit Video Processors,\" in Asia Pacific Conference on Circuits and Systems (APCCAS), December 2006, pp. 1438--1441."
+        }, 
+        {
+            "ArticleName": "Tung-Chien Chen , Yu-Han Chen , Sung-Fang Tsai , Shao-Yi Chien , Liang-Gee Chen, Fast Algorithm and Architecture Design of Low-Power Integer Motion Estimation for H.264/AVC, IEEE Transactions on Circuits and Systems for Video Technology, v.17 n.5, p.568-577, May 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/TCSVT.2007.894044", 
+            "DOIname": "10.1109/TCSVT.2007.894044", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2324100"
+        }, 
+        {
+            "ArticleName": "Edward Rosten , Tom Drummond, Fusing Points and Lines for High Performance Tracking, Proceedings of the Tenth IEEE International Conference on Computer Vision, p.1508-1515, October 17-20, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCV.2005.104", 
+            "DOIname": "10.1109/ICCV.2005.104", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1097819"
+        }, 
+        {
+            "ArticleName": "C. Stauffer and W. Grimson, \"Adaptive Background Mixture Models for Real-time Tracking,\" in Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR), June 1999."
+        }, 
+        {
+            "ArticleName": "Jean-Loup Baer , Tien-Fu Chen, Effective Hardware-Based Data Prefetching for High-Performance Processors, IEEE Transactions on Computers, v.44 n.5, p.609-623, May 1995", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.381947", 
+            "DOIname": "10.1109/12.381947", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=627012"
+        }, 
+        {
+            "ArticleName": "N. Zhou, F. Qiao, and H. Yang, \"A Hybrid Cache Architecture with 2D-based Prefetching Scheme for Image and Video Processing,\" in International Conference on Communications and Signal Processing (ICCSP), April 2013, pp. 1092--1096."
+        }, 
+        {
+            "ArticleName": "Z. Larabi, Y. Mathieu, and S. Mancini, \"High Efficiency Reconfigurable Cache for Image Processing,\" in International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA), July 2009, pp. 226--232."
+        }, 
+        {
+            "ArticleName": "J.-P. Farrugia and P. Horain, \"GPUCV: A Framework for Image Processing Acceleration with Graphics Processors,\" in International Conference on Multimedia and Expo (ICME), July 2006, pp. 585--588."
+        }, 
+        {
+            "ArticleName": "G. Wang, Y. Xiong, J. Yun, and J. R. Cavallaro, \"Accelerating Computer Vision Algorithms Using OpenCL Framework on the Mobile GPU - A Case Study,\" in IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), May 2013, pp. 2629--2633."
+        }, 
+        {
+            "ArticleName": "Homan Igehy , Matthew Eldridge , Kekoa Proudfoot, Prefetching in a texture cache architecture, Proceedings of the ACM SIGGRAPH/EUROGRAPHICS workshop on Graphics hardware, p.133-ff., August 31-September 01, 1998, Lisbon, Portugal", 
+            "DOIhref": "http://doi.acm.org/10.1145/285305.285321", 
+            "DOIname": "10.1145/285305.285321", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=285321"
+        }, 
+        {
+            "ArticleName": "N. Wilt, The CUDA Handbook: A Comprehensive Buide to GPU Programming, 1st ed. Addison-Wesley Professional, 2013."
+        }, 
+        {
+            "ArticleName": "S. Gilani, N. S. Kim, and M. Schulte, \"Scratchpad Memory Optimizations for Digital Signal Processing Applications,\" in Design, Automation Test in Europe (DATE), 2011, March 2011, pp. 1--6."
+        }, 
+        {
+            "ArticleName": "Tassadaq Hussain , Muhammad Shafiq , Miquel Peric\u00e0s , Nacho Navarro , Eduard Ayguad\u00e9, PPMC: a programmable pattern based memory controller, Proceedings of the 8th international conference on Reconfigurable Computing: architectures, tools and applications, March 19-23, 2012, Hong Kong, China", 
+            "DOIhref": "https://dx.doi.org/10.1007/978-3-642-28365-9_8", 
+            "DOIname": "10.1007/978-3-642-28365-9_8", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2247088"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Jason Clemons"
+        }, 
+        {
+            "Affiliation": "Qualcomm", 
+            "Name": "Chih-Chi Cheng"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Iuri Frosio"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Daniel Johnson"
+        }, 
+        {
+            "Affiliation": "NVIDIA", 
+            "Name": "Stephen W. Keckler"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195701&preflayout=flat"
+}

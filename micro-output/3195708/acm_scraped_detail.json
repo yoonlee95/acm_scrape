@@ -1,0 +1,270 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Haibo Zhang , Prasanna Venkatesh Rengasamy , Nachiappan Chidambaram Nachiappan , Shulin Zhao , Anand Sivasubramaniam , Mahmut T. Kandemir , Chita R. Das, FLOSS: FLOw sensitive scheduling on mobile platforms, Proceedings of the 55th Annual Design Automation Conference, p.1-6, June 24-29, 2018, San Francisco, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3196052"
+        }, 
+        {
+            "ArticleName": "Orhan Kislal , Jagadish Kotra , Xulong Tang , Mahmut Taylan Kandemir , Myoungsoo Jung, Enhancing computation-to-core assignment with physical location information, Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 18-22, 2018, Philadelphia, PA, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3192386"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 19, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 19, 
+        "CitationCount": 2
+    }, 
+    "Title": "Improving bank-level parallelism for irregular applications", 
+    "Abstract": "Observing that large multithreaded applications with irregular data access patterns exhibit very low memory bank-level parallelism (BLP) during their execution, we propose a novel loop iteration scheduling strategy built upon the inspector-executor paradigm. A unique characteristic of this strategy is that it considers both bank-level parallelism (from an inter-core perspective) and bank reuse (from an intra-core perspective) in a unified framework. Its primary goal is to improve bank-level parallelism, and bank reuse is taken into account only if doing so does not hurt bank-level parallelism. Our experiments with this strategy using eight application programs on both a simulator and a real multicore system show an average BLP improvement of 46.8% and an average execution time reduction of 18.3%.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Abhisek Pan , Vijay S. Pai, Imbalanced cache partitioning for balanced data-parallel programs, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540734", 
+            "DOIname": "10.1145/2540708.2540734", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540734"
+        }, 
+        {
+            "ArticleName": "Stephen W. Keckler, Rethinking caches for throughput processors: technical perspective, Communications of the ACM, v.57 n.12, December 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2682585", 
+            "DOIname": "10.1145/2682585", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2682585"
+        }, 
+        {
+            "ArticleName": "Kathryn S. McKinley, Author retrospective for optimizing for parallelism and data locality, ACM International Conference on Supercomputing 25th Anniversary Volume, June 10-13, 2014, Munich, Germany", 
+            "DOIhref": "http://doi.acm.org/10.1145/2591635.2591646", 
+            "DOIname": "10.1145/2591635.2591646", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591646"
+        }, 
+        {
+            "ArticleName": "Chang Joo Lee , Veynu Narasiman , Onur Mutlu , Yale N. Patt, Improving memory bank-level parallelism in the presence of prefetching, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669155", 
+            "DOIname": "10.1145/1669112.1669155", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669155"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Vivek Seshadri , Donghyuk Lee , Jamie Liu , Onur Mutlu, A case for exploiting subarray-level parallelism (SALP) in DRAM, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337202"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Thomas Moscibroda, Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems, ACM SIGARCH Computer Architecture News, v.36 n.3, p.63-74, June 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1394608.1382128", 
+            "DOIname": "10.1145/1394608.1382128", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382128"
+        }, 
+        {
+            "ArticleName": "Raja Das , Mustafa Uysal , Joel Saltz , Yuan-Shin Hwang, Communication optimizations for irregular scientific computations on distributed memory architectures, Journal of Parallel and Distributed Computing, v.22 n.3, p.462-478, Sept. 1994", 
+            "DOIhref": "https://dx.doi.org/10.1006/jpdc.1994.1104", 
+            "DOIname": "10.1006/jpdc.1994.1104", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=186538"
+        }, 
+        {
+            "ArticleName": "Scott Rixner, Memory Controller Optimizations for Web Servers, Proceedings of the 37th annual IEEE/ACM International Symposium on Microarchitecture, p.355-366, December 04-08, 2004, Portland, Oregon", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2004.22", 
+            "DOIname": "10.1109/MICRO.2004.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1038956"
+        }, 
+        {
+            "ArticleName": "Scott Rixner , William J. Dally , Ujval J. Kapasi , Peter Mattson , John D. Owens, Memory access scheduling, ACM SIGARCH Computer Architecture News, v.28 n.2, p.128-138, May 2000", 
+            "DOIhref": "http://doi.acm.org/10.1145/342001.339668", 
+            "DOIname": "10.1145/342001.339668", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339668"
+        }, 
+        {
+            "ArticleName": "Vijay S. Pai , Sarita Adve, Code transformations to improve memory parallelism, Proceedings of the 32nd annual ACM/IEEE international symposium on Microarchitecture, p.147-155, November 16-18, 1999, Haifa, Israel", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=320103"
+        }, 
+        {
+            "ArticleName": "I. Intel Uncore Performance Monitoring Guide, \"Intel Xeon Processor E5 v2 and E7 v2 Product Families Uncore Performance Monitoring Reference Manual,\" 2014. {Online}. Available: http://www.intel.com/content/www/us/en/processors/xeon/xeon-e5-2600-v2-uncore-manual.html"
+        }, 
+        {
+            "ArticleName": "Chris Lattner , Vikram Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization, p.75, March 20-24, 2004, Palo Alto, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=977673"
+        }, 
+        {
+            "ArticleName": "D. J. Craik, A. Kumar, and G. C. Levy, \"MOLDYN: a generalized program for the evaluation of molecular dynamics models using nuclear magnetic resonance spin-relaxation data,\" Journal of Chemical Information and Computer Sciences, 1983."
+        }, 
+        {
+            "ArticleName": "J. Dongarra and M. A. Heroux, \"HPCG: Toward a New Metric for Ranking High Performance Computing Systems,\" 2013. {Online}. Available: https://software.sandia.gov/hpcg/"
+        }, 
+        {
+            "ArticleName": "\"Minife,\" available at https://www.nersc.gov/users/computational-systems/cori/nersc-8-procurement/trinity-nersc-8-rfp/nersc-8-trinity-benchmarks."
+        }, 
+        {
+            "ArticleName": "Vishal Aslot , Max J. Domeika , Rudolf Eigenmann , Greg Gaertner , Wesley B. Jones , Bodo Parady, SPEComp: A New Benchmark Suite for Measuring Parallel Computer Performance, Proceedings of the International Workshop on OpenMP Applications and Tools: OpenMP Shared Memory Parallel Programming, p.1-10, July 30-31, 2001", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=713908"
+        }, 
+        {
+            "ArticleName": "He Hhonghao , Yuan Dongjin , Hou Yi , Xu Jinqiu, Preconditioned Gauss-Seidel Iterative Method for Linear Systems, Proceedings of the 2009 International Forum on Information Technology and Applications, p.382-385, May 15-17, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IFITA.2009.339", 
+            "DOIname": "10.1109/IFITA.2009.339", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1606851"
+        }, 
+        {
+            "ArticleName": "Nathan Binkert , Bradford Beckmann , Gabriel Black , Steven K. Reinhardt , Ali Saidi , Arkaprava Basu , Joel Hestness , Derek R. Hower , Tushar Krishna , Somayeh Sardashti , Rathijit Sen , Korey Sewell , Muhammad Shoaib , Nilay Vaish , Mark D. Hill , David A. Wood, The gem5 simulator, ACM SIGARCH Computer Architecture News, v.39 n.2, May 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2024716.2024718", 
+            "DOIname": "10.1145/2024716.2024718", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2024718"
+        }, 
+        {
+            "ArticleName": "Wei Ding , Mahmut Kandemir , Diana Guttman , Adwait Jog , Chita R. Das , Praveen Yedlapalli, Trading cache hit rate for memory performance, Proceedings of the 23rd international conference on Parallel architectures and compilation, August 24-27, 2014, Edmonton, AB, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/2628071.2628082", 
+            "DOIname": "10.1145/2628071.2628082", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2628082"
+        }, 
+        {
+            "ArticleName": "Hwansoo Han , Chau-Wen Tseng, Exploiting Locality for Irregular Scientific Codes, IEEE Transactions on Parallel and Distributed Systems, v.17 n.7, p.606-618, July 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/TPDS.2006.88", 
+            "DOIname": "10.1109/TPDS.2006.88", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1155397"
+        }, 
+        {
+            "ArticleName": "Yoongu Kim , Michael Papamichael , Onur Mutlu , Mor Harchol-Balter, Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.65-76, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.51", 
+            "DOIname": "10.1109/MICRO.2010.51", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1935012"
+        }, 
+        {
+            "ArticleName": "Eiman Ebrahimi , Rustam Miftakhutdinov , Chris Fallin , Chang Joo Lee , Jos\u00e9 A. Joao , Onur Mutlu , Yale N. Patt, Parallel application memory scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155663", 
+            "DOIname": "10.1145/2155620.2155663", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155663"
+        }, 
+        {
+            "ArticleName": "Lei Liu , Zehan Cui , Mingjie Xing , Yungang Bao , Mingyu Chen , Chengyong Wu, A software memory partition approach for eliminating bank-level interference in multicore systems, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370869", 
+            "DOIname": "10.1145/2370816.2370869", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370869"
+        }, 
+        {
+            "ArticleName": "Wei Ding , Diana Guttman , Mahmut Kandemir, Compiler Support for Optimizing Memory Bank-Level Parallelism, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.34", 
+            "DOIname": "10.1109/MICRO.2014.34", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742213"
+        }, 
+        {
+            "ArticleName": "Yuan Chou , Brian Fahs , Santosh Abraham, Microarchitecture Optimizations for Exploiting Memory-Level Parallelism, Proceedings of the 31st annual international symposium on Computer architecture, p.76, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006708"
+        }, 
+        {
+            "ArticleName": "Stijn Everman , Lieven Eeckhout, A Memory-Level Parallelism Aware Fetch Policy for SMT Processors, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.240-249, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346201", 
+            "DOIname": "10.1109/HPCA.2007.346201", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318084"
+        }, 
+        {
+            "ArticleName": "Moinuddin K. Qureshi , Daniel N. Lynch , Onur Mutlu , Yale N. Patt, A Case for MLP-Aware Cache Replacement, Proceedings of the 33rd annual international symposium on Computer Architecture, p.167-178, June 17-21, 2006", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2006.5", 
+            "DOIname": "10.1109/ISCA.2006.5", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1136501"
+        }, 
+        {
+            "ArticleName": "Akanksha Jain , Calvin Lin, Linearizing irregular memory accesses for improved correlated prefetching, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540730", 
+            "DOIname": "10.1145/2540708.2540730", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540730"
+        }, 
+        {
+            "ArticleName": "Ibrahim Hur , Calvin Lin, Adaptive History-Based Memory Schedulers, Proceedings of the 37th annual IEEE/ACM International Symposium on Microarchitecture, p.343-354, December 04-08, 2004, Portland, Oregon", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2004.4", 
+            "DOIname": "10.1109/MICRO.2004.4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1038953"
+        }, 
+        {
+            "ArticleName": "Praveen Yedlapalli , Jagadish Kotra , Emre Kultursay , Mahmut Kandemir , Chita R. Das , Anand Sivasubramaniam, Meeting midway: improving CMP performance with memory-side prefetching, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523761"
+        }, 
+        {
+            "ArticleName": "Erez Petrank , Dror Rawitz, The hardness of cache conscious data placement, Proceedings of the 29th ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.101-112, January 16-18, 2002, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/503272.503283", 
+            "DOIname": "10.1145/503272.503283", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=503283"
+        }, 
+        {
+            "ArticleName": "Chengliang Zhang , Chen Ding , Mitsunori Ogihara , Yutao Zhong , Youfeng Wu, A hierarchical model of data locality, Conference record of the 33rd ACM SIGPLAN-SIGACT symposium on Principles of programming languages, p.16-29, January 11-13, 2006, Charleston, South Carolina, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1111037.1111040", 
+            "DOIname": "10.1145/1111037.1111040", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1111040"
+        }, 
+        {
+            "ArticleName": "Chen Ding , Ken Kennedy, Improving cache performance in dynamic applications through data and computation reorganization at run time, Proceedings of the ACM SIGPLAN 1999 conference on Programming language design and implementation, p.229-241, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/301618.301670", 
+            "DOIname": "10.1145/301618.301670", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=301670"
+        }, 
+        {
+            "ArticleName": "John Mellor-Crummey , David Whalley , Ken Kennedy, Improving Memory Hierarchy Performance for Irregular Applications Using Data and Computation Reorderings, International Journal of Parallel Programming, v.29 n.3, p.217-247, June 2001", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1011119519789", 
+            "DOIname": "10.1023/A:1011119519789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=608774"
+        }, 
+        {
+            "ArticleName": "Nicholas Mitchell , Larry Carter , Jeanne Ferrante, Localizing Non-Affine Array References, Proceedings of the 1999 International Conference on Parallel Architectures and Compilation Techniques, p.192, October 12-16, 1999", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=825758"
+        }, 
+        {
+            "ArticleName": "Michelle Mills Strout , Larry Carter , Jeanne Ferrante, Compile-time composition of run-time data and iteration reorderings, Proceedings of the ACM SIGPLAN 2003 conference on Programming language design and implementation, June 09-11, 2003, San Diego, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/781131.781142", 
+            "DOIname": "10.1145/781131.781142", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=781142"
+        }, 
+        {
+            "ArticleName": "Youngjoon Jo , Milind Kulkarni, Automatically enhancing locality for tree traversals with traversal splicing, Proceedings of the ACM international conference on Object oriented programming systems languages and applications, October 19-26, 2012, Tucson, Arizona, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2384616.2384643", 
+            "DOIname": "10.1145/2384616.2384643", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2384643"
+        }, 
+        {
+            "ArticleName": "Milind Kulkarni , Martin Burtscher , Rajeshkar Inkulu , Keshav Pingali , Calin Cas\u00e7aval, How much parallelism is there in irregular applications?, Proceedings of the 14th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 14-18, 2009, Raleigh, NC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1504176.1504181", 
+            "DOIname": "10.1145/1504176.1504181", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1504181"
+        }, 
+        {
+            "ArticleName": "Praveen Yedlapalli , Emre Kultursay , Mahmut T. Kandemir, Cooperative parallelization, Proceedings of the International Conference on Computer-Aided Design, November 07-10, 2011, San Jose, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2132358"
+        }, 
+        {
+            "ArticleName": "Lucian Codrescu , D. Scott Wills , James Meindl, Architecture of the Atlas Chip-Multiprocessor: Dynamically Parallelizing Irregular Applications, IEEE Transactions on Computers, v.50 n.1, p.67-82, January 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/12.902753", 
+            "DOIname": "10.1109/12.902753", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=361740"
+        }, 
+        {
+            "ArticleName": "Hao Yu , Lawrence Rauchwerger, Adaptive reduction parallelization techniques, Proceedings of the 14th international conference on Supercomputing, p.66-77, May 08-11, 2000, Santa Fe, New Mexico, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/335231.335238", 
+            "DOIname": "10.1145/335231.335238", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=335238"
+        }, 
+        {
+            "ArticleName": "Hwansoo Han , Chau-Wen Tseng, Improving Locality for Adaptive Irregular Scientific Codes, Proceedings of the 13th International Workshop on Languages and Compilers for Parallel Computing-Revised Papers, p.173-188, August 10-12, 2000", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=663936"
+        }, 
+        {
+            "ArticleName": "Yutao Zhong , Maksim Orlovich , Xipeng Shen , Chen Ding, Array regrouping and structure splitting using whole-program reference affinity, Proceedings of the ACM SIGPLAN 2004 conference on Programming language design and implementation, June 09-11, 2004, Washington DC, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/996841.996872", 
+            "DOIname": "10.1145/996841.996872", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=996872"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Pennsylvania State University", 
+            "Name": "Xulong Tang"
+        }, 
+        {
+            "Affiliation": "Pennsylvania State University", 
+            "Name": "Mahmut Kandemir"
+        }, 
+        {
+            "Affiliation": "VMware, Inc.", 
+            "Name": "Praveen Yedlapalli"
+        }, 
+        {
+            "Affiliation": "Pennsylvania State University", 
+            "Name": "Jagadish Kotra"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195708&preflayout=flat"
+}

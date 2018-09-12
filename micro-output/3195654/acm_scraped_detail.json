@@ -1,0 +1,220 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Jing Zhang , Ashwin M. Aji , Michael L. Chu , Hao Wang , Wu-chun Feng, Taming irregular applications via advanced dynamic parallelism on GPUs, Proceedings of the 15th ACM International Conference on Computing Frontiers, May 08-10, 2018, Ischia, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3203243"
+        }, 
+        {
+            "ArticleName": "Li-Wen Chang , Izzat El Hajj , Christopher Rodrigues , Juan G\u00f3mez-Luna , Wen-mei Hwu, Efficient kernel synthesis for performance portable programming, The 49th Annual IEEE/ACM International Symposium on Microarchitecture, October 15-19, 2016, Taipei, Taiwan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3195653"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 14, 
+        "Downloads_6Weeks": 3, 
+        "Downloads_cumulative": 14, 
+        "CitationCount": 2
+    }, 
+    "Title": "KLAP: kernel launch aggregation and promotion for optimizing dynamic parallelism", 
+    "Abstract": "Dynamic parallelism on GPUs simplifies the programming of many classes of applications that generate parallelizable work not known prior to execution. However, modern GPUs architectures do not support dynamic parallelism efficiently due to the high kernel launch overhead, limited number of simultaneous kernels, and limited depth of dynamic calls a device can support. In this paper, we propose Kernel Launch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of kernels which use dynamic parallelism. Kernel launch aggregation fuses kernels launched by threads in the same warp, block, or kernel into a single aggregated kernel, thereby reducing the total number of kernels spawned and increasing the amount of work per kernel to improve occupancy. Kernel launch promotion enables early launch of child kernels to extract more parallelism between parents and children, and to aggregate kernel launches across generations mitigating the problem of limited depth. We implement our techniques in a real compiler and show that kernel launch aggregation obtains a geometric mean speedup of 6.58x over regular dynamic parallelism. We also show that kernel launch promotion enables cases that were not originally possible, improving throughput by a geometric mean of 30.44x.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "S. Jones, \"Introduction to dynamic parallelism,\" in GPU Technology Conference Presentation, 2012."
+        }, 
+        {
+            "ArticleName": "Heterogeneous System Architecture: A new compute platform infrastructure, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2015", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2935458"
+        }, 
+        {
+            "ArticleName": "Peter Zhang , Eric Holk , John Matty , Samantha Misurda , Marcin Zalewski , Jonathan Chu , Scott McMillan , Andrew Lumsdaine, Dynamic parallelism for simple and efficient GPU graph algorithms, Proceedings of the 5th Workshop on Irregular Applications: Architectures and Algorithms, p.1-4, November 15-15, 2015, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2833179.2833189", 
+            "DOIname": "10.1145/2833179.2833189", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2833189"
+        }, 
+        {
+            "ArticleName": "Martin L. S\u00e6tra , Andr\u00e9 R. Brodtkorb , Knut-Andreas Lie, Efficient GPU-Implementation of Adaptive Mesh Refinement for the Shallow-Water Equations, Journal of Scientific Computing, v.63 n.1, p.23-48, April 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10915-014-9883-4", 
+            "DOIname": "10.1007/s10915-014-9883-4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2740122"
+        }, 
+        {
+            "ArticleName": "Juan Gomez Luna , Li-Wen Chang , I-Jui Sung , Wen-Mei Hwu , Nicolas Guil, In-Place Data Sliding Algorithms for Many-Core Architectures, Proceedings of the 2015 44th International Conference on Parallel Processing (ICPP), p.210-219, September 01-04, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2015.30", 
+            "DOIname": "10.1109/ICPP.2015.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2881063"
+        }, 
+        {
+            "ArticleName": "J. Wang and S. Yalamanchili, \"Characterization and analysis of dynamic parallelism in unstructured GPU applications,\" in Workload Characterization (IISWC), 2014 IEEE International Symposium on, pp. 51--60, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "Yi Yang , Huiyang Zhou, CUDA-NP: realizing nested thread-level parallelism in GPGPU applications, ACM SIGPLAN Notices, v.49 n.8, August 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2692916.2555254", 
+            "DOIname": "10.1145/2692916.2555254", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2555254"
+        }, 
+        {
+            "ArticleName": "\"A CUDA dynamic parallelism case study: PANDA.\" https://devblogs.nvidia.com/parallelforall/a-cuda-dynamic-parallelism-case-study-panda/. Accessed: 2016-04-01."
+        }, 
+        {
+            "ArticleName": "Jin Wang , Norm Rubin , Albert Sidelnik , Sudhakar Yalamanchili, Dynamic thread block launch: a lightweight execution mechanism to support irregular applications on GPUs, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750393", 
+            "DOIname": "10.1145/2749469.2750393", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750393"
+        }, 
+        {
+            "ArticleName": "Guoyang Chen , Xipeng Shen, Free launch: optimizing GPU dynamic kernel launches through thread reuse, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830818", 
+            "DOIname": "10.1145/2830772.2830818", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830818"
+        }, 
+        {
+            "ArticleName": "Tim Kaldewey , Jeff Hagen , Andrea Di Blas , Eric Sedlar, Parallel search on video cards, Proceedings of the First USENIX conference on Hot topics in parallelism, p.9-9, March 30-31, 2009, Berkeley, California", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1855600"
+        }, 
+        {
+            "ArticleName": "D. Merrill, \"CUB:kernel-level software reuse and library design,\" in GPU Technology Conference Presentation, 2013."
+        }, 
+        {
+            "ArticleName": "Pekka J\u00e4\u00e4skel\u00e4inen , Carlos S\u00e1nchez Lama , Erik Schnetter , Kalle Raiskila , Jarmo Takala , Heikki Berg, pocl: A Performance-Portable OpenCL Implementation, International Journal of Parallel Programming, v.43 n.5, p.752-785, October 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10766-014-0320-y", 
+            "DOIname": "10.1007/s10766-014-0320-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2812652"
+        }, 
+        {
+            "ArticleName": "Krste Asanovic , Stephen W. Keckler , Yunsup Lee , Ronny Krashinsky , Vinod Grover, Convergence and scalarization for data-parallel architectures, Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), p.1-11, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/CGO.2013.6494995", 
+            "DOIname": "10.1109/CGO.2013.6494995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495936"
+        }, 
+        {
+            "ArticleName": "Markus Billeter , Ola Olsson , Ulf Assarsson, Efficient stream compaction on wide SIMD many-core architectures, Proceedings of the Conference on High Performance Graphics 2009, August 01-03, 2009, New Orleans, Louisiana", 
+            "DOIhref": "http://doi.acm.org/10.1145/1572769.1572795", 
+            "DOIname": "10.1145/1572769.1572795", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1572795"
+        }, 
+        {
+            "ArticleName": "L. Howes and A. Munshi, \"The OpenCL specification, version 2.0,\" Khronos Group, 2015."
+        }, 
+        {
+            "ArticleName": "Shengen Yan , Guoping Long , Yunquan Zhang, StreamScan: fast scan algorithms for GPUs without global barrier synchronization, Proceedings of the 18th ACM SIGPLAN symposium on Principles and practice of parallel programming, February 23-27, 2013, Shenzhen, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/2442516.2442539", 
+            "DOIname": "10.1145/2442516.2442539", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2442539"
+        }, 
+        {
+            "ArticleName": "Anthony Danalis , Gabriel Marin , Collin McCurdy , Jeremy S. Meredith , Philip C. Roth , Kyle Spafford , Vinod Tipparaju , Jeffrey S. Vetter, The Scalable Heterogeneous Computing (SHOC) benchmark suite, Proceedings of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units, March 14-14, 2010, Pittsburgh, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1735688.1735702", 
+            "DOIname": "10.1145/1735688.1735702", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1735702"
+        }, 
+        {
+            "ArticleName": "Martin Burtscher , Rupesh Nasre , Keshav Pingali, A quantitative study of irregular programs on GPUs, Proceedings of the 2012 IEEE International Symposium on Workload Characterization (IISWC), p.141-151, November 04-06, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2012.6402918", 
+            "DOIname": "10.1109/IISWC.2012.6402918", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2474126"
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"CUDA samples v. 7.5,\" 2015."
+        }, 
+        {
+            "ArticleName": "Yash Ukidave , Fanny Nina Paravecino , Leiming Yu , Charu Kalra , Amir Momeni , Zhongliang Chen , Nick Materise , Brett Daley , Perhaad Mistry , David Kaeli, NUPAR: A Benchmark Suite for Modern GPU Architectures, Proceedings of the 6th ACM/SPEC International Conference on Performance Engineering, January 28-February 04, 2015, Austin, Texas, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2668930.2688046", 
+            "DOIname": "10.1145/2668930.2688046", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2688046"
+        }, 
+        {
+            "ArticleName": "Andre Vincent Pascal Grosset , Peihong Zhu , Shusen Liu , Suresh Venkatasubramanian , Mary Hall, Evaluating graph coloring on GPUs, Proceedings of the 16th ACM symposium on Principles and practice of parallel programming, February 12-16, 2011, San Antonio, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1941553.1941597", 
+            "DOIname": "10.1145/1941553.1941597", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1941597"
+        }, 
+        {
+            "ArticleName": "\"Matrix market.\" http://math.nist.gov/MatrixMarket/. Accessed: 2016-04-01."
+        }, 
+        {
+            "ArticleName": "N. Bell and J. Hoberock, \"Thrust: a productivity-oriented library for cuda,\" GPU Computing Gems: Jade Edition, 2012."
+        }, 
+        {
+            "ArticleName": "\"GPU pro tip: CUDA 7 streams simplify concurrency.\" http://devblogs.nvidia.com/parallelforall/gpu-pro-tip-cuda-7-streams-simplify-concurrency/. Accessed: 2016-04-01."
+        }, 
+        {
+            "ArticleName": "\"CUDA dynamic parallelism API and principles.\" https://devblogs.nvidia.com/parallelforall/cuda-dynamic-parallelism-api-principles/. Accessed: 2016-04--10."
+        }, 
+        {
+            "ArticleName": "NVIDIA, \"Profiler user's guide v. 7.5,\" 2015."
+        }, 
+        {
+            "ArticleName": "Jin Wang , Norm Rubin , Albert Sidelnik , Sudhakar Yalamanchili, LaPerm: locality aware scheduler for dynamic parallelism on GPUs, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.57", 
+            "DOIname": "10.1109/ISCA.2016.57", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001199"
+        }, 
+        {
+            "ArticleName": "Marc S. Orr , Bradford M. Beckmann , Steven K. Reinhardt , David A. Wood, Fine-grain task aggregation and coordination on GPUs, ACM SIGARCH Computer Architecture News, v.42 n.3, June 2014", 
+            "DOIhref": "http://doi.acm.org/10.1145/2678373.2665701", 
+            "DOIname": "10.1145/2678373.2665701", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665701"
+        }, 
+        {
+            "ArticleName": "K. Gupta, J. A. Stuart, and J. D. Owens, \"A study of persistent threads style GPU programming for gpgpu workloads,\" in Innovative Parallel Computing (InPar), 2012, pp. 1--14, IEEE, 2012."
+        }, 
+        {
+            "ArticleName": "G. Chen and X. Shen. private communication."
+        }, 
+        {
+            "ArticleName": "M. Guevara, C. Gregg, K. Hazelwood, and K. Skadron, \"Enabling task parallelism in the cuda scheduler,\" in Workshop on Programming Models for Emerging Architectures, vol. 9, 2009."
+        }, 
+        {
+            "ArticleName": "Da Li , Hancheng Wu , Michela Becchi, Nested Parallelism on GPU: Exploring Parallelization Templates for Irregular Loops and Recursive Computations, Proceedings of the 2015 44th International Conference on Parallel Processing (ICPP), p.979-988, September 01-04, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2015.107", 
+            "DOIname": "10.1109/ICPP.2015.107", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2881140"
+        }, 
+        {
+            "ArticleName": "Bin Ren , Youngjoon Jo , Sriram Krishnamoorthy , Kunal Agrawal , Milind Kulkarni, Efficient execution of recursive programs on commodity vector hardware, Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2015, Portland, OR, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2737924.2738004", 
+            "DOIname": "10.1145/2737924.2738004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2738004"
+        }, 
+        {
+            "ArticleName": "Ram Rangan , Neil Vachharajani , Manish Vachharajani , David I. August, Decoupled Software Pipelining with the Synchronization Array, Proceedings of the 13th International Conference on Parallel Architectures and Compilation Techniques, p.177-188, September 29-October 03, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2004.14", 
+            "DOIname": "10.1109/PACT.2004.14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1026007"
+        }, 
+        {
+            "ArticleName": "Haicheng Wu , Gregory Diamos , Srihari Cadambi , Sudhakar Yalamanchili, Kernel Weaver: Automatically Fusing Database Primitives for Efficient GPU Computation, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.107-118, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.19", 
+            "DOIname": "10.1109/MICRO.2012.19", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457490"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign and Hewlett-Packard Labs", 
+            "Name": "Izzat El Hajj"
+        }, 
+        {
+            "Affiliation": "Universidad de C\u00f3rdoba", 
+            "Name": "Juan G\u00f3mez-Luna"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Cheng Li"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Li-Wen Chang"
+        }, 
+        {
+            "Affiliation": "Hewlett-Packard Labs", 
+            "Name": "Dejan Milojicic"
+        }, 
+        {
+            "Affiliation": "University of Illinois at Urbana-Champaign", 
+            "Name": "Wen-mei Hwu"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195654&preflayout=flat"
+}

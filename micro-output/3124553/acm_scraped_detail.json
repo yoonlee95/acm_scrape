@@ -1,0 +1,246 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 474, 
+        "Downloads_6Weeks": 33, 
+        "Downloads_cumulative": 474, 
+        "CitationCount": 0
+    }, 
+    "Title": "Summarizer: trading communication with computing near storage", 
+    "Abstract": "Modern data center solid state drives (SSDs) integrate multiple general-purpose embedded cores to manage flash translation layer, garbage collection, wear-leveling, and etc., to improve the performance and the reliability of SSDs. As the performance of these cores steadily improves there are opportunities to repurpose these cores to perform application driven computations on stored data, with the aim of reducing the communication between the host processor and the SSD. Reducing host-SSD bandwidth demand cuts down the I/O time which is a bottleneck for many applications operating on large data sets. However, the embedded core performance is still significantly lower than the host processor, as generally wimpy embedded cores are used within SSD for cost effective reasons. So there is a trade-off between the computation overhead associated with near SSD processing and the reduction in communication overhead to the host system. In this work, we design a set of application programming interfaces (APIs) that can be used by the host application to offload a data intensive task to the SSD processor. We describe how these APIs can be implemented by simple modifications to the existing Non-Volatile Memory Express (NVMe) command interface between the host and the SSD processor. We then quantify the computation versus communication tradeoffs for near storage computing using applications from two important domains, namely data analytics and data integration. Using a fully functional SSD evaluation platform we perform design space exploration of our proposed approach by varying the bandwidth and computation capabilities of the SSD processor. We evaluate static and dynamic approaches for dividing the work between the host and SSD processor, and show that our design may improve the performance by up to 20% when compared to processing at the host processor only, and 6X when compared to processing at the SSD processor only.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Anurag Acharya , Mustafa Uysal , Joel Saltz, Active disks: programming model, algorithms and evaluation, Proceedings of the eighth international conference on Architectural support for programming languages and operating systems, p.81-91, October 02-07, 1998, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/291069.291026", 
+            "DOIname": "10.1145/291069.291026", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=291026"
+        }, 
+        {
+            "ArticleName": "Amber Huffman. 2012. NVM Express Revision 1.1. http://nvmexpress.org/wp-content/uploads/2013/05/NVM_Express_1_1.pdf. (2012)."
+        }, 
+        {
+            "ArticleName": "J. Banerjee , D. K. Hsiao , K. Kannan, DBC A Database Computer for Very Large Databases, IEEE Transactions on Computers, v.28 n.6, p.414-429, June 1979", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1979.1675381", 
+            "DOIname": "10.1109/TC.1979.1675381", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1310905"
+        }, 
+        {
+            "ArticleName": "Simona. Boboila, Youngjae Kim, Sudharshan S. Vazhkudai, Peter Desnoyers, and Galen M. Shipman. 2012. Active Flash: Out-of-core data analytics on flash storage. In Mass Storage Systems and Technologies, 2012 IEEE 28th Symposium on (MSST '12). 1--12."
+        }, 
+        {
+            "ArticleName": "Adrian M. Caulfield , Arup De , Joel Coburn , Todor I. Mollow , Rajesh K. Gupta , Steven Swanson, Moneta: A High-Performance Storage Array Architecture for Next-Generation, Non-volatile Memories, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.385-395, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.33", 
+            "DOIname": "10.1109/MICRO.2010.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934984"
+        }, 
+        {
+            "ArticleName": "Feng Chen , Rubao Lee , Xiaodong Zhang, Essential roles of exploiting internal parallelism of flash memory based solid state drives in high-speed data processing, Proceedings of the 2011 IEEE 17th International Symposium on High Performance Computer Architecture, p.266-277, February 12-16, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2014864"
+        }, 
+        {
+            "ArticleName": "Sangyeun Cho , Chanik Park , Hyunok Oh , Sungchan Kim , Youngmin Yi , Gregory R. Ganger, Active disk meets flash: a case for intelligent SSDs, Proceedings of the 27th international ACM conference on International conference on supercomputing, June 10-14, 2013, Eugene, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2464996.2465003", 
+            "DOIname": "10.1145/2464996.2465003", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465003"
+        }, 
+        {
+            "ArticleName": "Jaeyoung Do , Yang-Suk Kee , Jignesh M. Patel , Chanik Park , Kwanghyun Park , David J. DeWitt, Query processing on smart SSDs: opportunities and challenges, Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data, June 22-27, 2013, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463676.2465295", 
+            "DOIname": "10.1145/2463676.2465295", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2465295"
+        }, 
+        {
+            "ArticleName": "Jeff Draper , Jacqueline Chame , Mary Hall , Craig Steele , Tim Barrett , Jeff LaCoss , John Granacki , Jaewook Shin , Chun Chen , Chang Woo Kang , Ihn Kim , Gokhan Daglikoca, The architecture of the DIVA processing-in-memory chip, Proceedings of the 16th international conference on Supercomputing, June 22-26, 2002, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/514191.514197", 
+            "DOIname": "10.1145/514191.514197", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=514197"
+        }, 
+        {
+            "ArticleName": "EEMBC. 2017. CoreMark Scores. http://www.eembc.org/coremark. (2017)."
+        }, 
+        {
+            "ArticleName": "Mingyu Gao , Grant Ayers , Christos Kozyrakis, Practical Near-Data Processing for In-Memory Analytics Frameworks, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.113-124, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.22", 
+            "DOIname": "10.1109/PACT.2015.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923783"
+        }, 
+        {
+            "ArticleName": "Boncheol Gu , Andre S. Yoon , Duck-Ho Bae , Insoon Jo , Jinyoung Lee , Jonghyun Yoon , Jeong-Uk Kang , Moonsang Kwon , Chanho Yoon , Sangyeun Cho , Jaeheon Jeong , Duckhyun Chang, Biscuit: a framework for near-data processing of big data workloads, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.23", 
+            "DOIname": "10.1109/ISCA.2016.23", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001154"
+        }, 
+        {
+            "ArticleName": "ITRS. 2009. International Technology Roadmap for Semiconductors 2009 Edition: Assembly and Packaging, http://www.itrs2.net/itrs-reports.html. (2009)."
+        }, 
+        {
+            "ArticleName": "Yanqin Jin, Hung-Wei Tseng, Yannis Papakonstantinou, and Steven Swanson. 2017. KAML: A Flexible, High-Performance Key-Value SSD. In 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA '17). 373--384."
+        }, 
+        {
+            "ArticleName": "Sang-Woo Jun , Ming Liu , Sungjin Lee , Jamey Hicks , John Ankcorn , Myron King , Shuotao Xu , Arvind, BlueDBM: an appliance for big data analytics, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750412", 
+            "DOIname": "10.1145/2749469.2750412", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750412"
+        }, 
+        {
+            "ArticleName": "Yangwook Kang, Yang-Suk Kee, Ethan L. Miller, and Chanik Park. 2013. Enabling cost-effective data processing with smart SSD. In Mass Storage Systems and Technologies (MSST '13)."
+        }, 
+        {
+            "ArticleName": "Kimberly Keeton , David A. Patterson , Joseph M. Hellerstein, A case for intelligent disks (IDISKs), ACM SIGMOD Record, v.27 n.3, p.42-52, Sept. 1, 1998", 
+            "DOIhref": "http://doi.acm.org/10.1145/290593.290602", 
+            "DOIname": "10.1145/290593.290602", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=290602"
+        }, 
+        {
+            "ArticleName": "Peter M. Kogge, EXECUBE-A New Architecture for Scaleable MPPs, Proceedings of the 1994 International Conference on Parallel Processing, p.77-84, August 15-19, 1994", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.1994.108", 
+            "DOIname": "10.1109/ICPP.1994.108", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1261010"
+        }, 
+        {
+            "ArticleName": "Hans-Otto Leilich , G\u00fcnther Stiege , Hans Christoph Zeidler, A search processor for data base management systems, Proceedings of the fourth international conference on Very Large Data Bases, p.280-287, September 13-15, 1978, West Berlin, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1286682"
+        }, 
+        {
+            "ArticleName": "Chyuan Shiun Lin , Diane C. P. Smith , John Miles Smith, The design of a rotating associative memory for relational database applications, ACM Transactions on Database Systems (TODS), v.1 n.1, p.53-65, March 1976", 
+            "DOIhref": "http://doi.acm.org/10.1145/320434.320447", 
+            "DOIname": "10.1145/320434.320447", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=320447"
+        }, 
+        {
+            "ArticleName": "Yang Liu, Hung-Wei Tseng, Mark Gahagan, Jing Li, Yanqin Jin, and Steven Swanson. 2016. Hippogriff: Efficiently moving data in heterogeneous computing systems. In 2016 IEEE 34th International Conference on Computer Design (ICCD '16). 376--379."
+        }, 
+        {
+            "ArticleName": "Ken Mai , Tim Paaske , Nuwan Jayasena , Ron Ho , William J. Dally , Mark Horowitz, Smart Memories: a modular reconfigurable architecture, Proceedings of the 27th annual international symposium on Computer architecture, p.161-171, June 2000, Vancouver, British Columbia, Canada", 
+            "DOIhref": "http://doi.acm.org/10.1145/339647.339673", 
+            "DOIname": "10.1145/339647.339673", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=339673"
+        }, 
+        {
+            "ArticleName": "Marvell. 2017. High performance PCIE SSD Controller (88SS1093). http://www.marvell.com/storage/ssd/88SS1093. (2017)."
+        }, 
+        {
+            "ArticleName": "Micron. 2017. Micron 3D NAND technology. https://www.micron.com/products/nand-flash/3d-nand. (2017)."
+        }, 
+        {
+            "ArticleName": "Micron. 2017. Micron NAND Flash by Technology, https://www.micron.com/products/nand-flash. (2017)."
+        }, 
+        {
+            "ArticleName": "Microsemi. 2017. Flashtec NVMe Controllers, http://www.microsemi.com/products/storage/flashtec-nvme-controllers/flashtec-nvme-controllers. (2017)."
+        }, 
+        {
+            "ArticleName": "PassMark. 2017. Hard Drive Benchmarks - Solid State Drive (SSD) Chart, http://www.harddrivebenchmark.net/ssd.html. (2017)."
+        }, 
+        {
+            "ArticleName": "PassMark. 2017. PassMark CPU benchmark, http://www.cpubenchmark.net. (2017)."
+        }, 
+        {
+            "ArticleName": "David Patterson, Thomas Anderson, Neal Cardwell, Richard Fromm, Kimberley Keeton, Christoforos Kozyrakis, Randi Thomas, and Kathy Yelick. 1997. Intelligent RAM (IRAM): chips that remember and compute. In Solid-State Circuits Conference, 1997. Digest of Technical Papers. 43rd ISSCC., 1997 IEEE International. 224--225."
+        }, 
+        {
+            "ArticleName": "Erik Riedel , Christos Faloutsos , Garth A. Gibson , David Nagle, Active Disks for Large-Scale Data Processing, Computer, v.34 n.6, p.68-74, June 2001", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.928624", 
+            "DOIname": "10.1109/2.928624", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621736"
+        }, 
+        {
+            "ArticleName": "Samsung. 2015. Samsung SSD 850 PRO Data Sheet, Rev.2.0 (January, 2015). http://www.samsung.com/semiconductor/minisite/ssd/downloads/document/Samsung_SSD_850_PRO_Data_Sheet_rev_2_0.pdf. (2015)."
+        }, 
+        {
+            "ArticleName": "Mohit Saxena , Michael M. Swift , Yiying Zhang, FlashTier: a lightweight, consistent and durable storage cache, Proceedings of the 7th ACM european conference on Computer Systems, April 10-13, 2012, Bern, Switzerland", 
+            "DOIhref": "http://doi.acm.org/10.1145/2168836.2168863", 
+            "DOIname": "10.1145/2168836.2168863", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2168863"
+        }, 
+        {
+            "ArticleName": "S. A. Schuster , H. B. Nguyen , E. A. Ozkarahan , K. C. Smith, RAP.2 An Associative Processor for Databases and Its Applications, IEEE Transactions on Computers, v.28 n.6, p.446-458, June 1979", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.1979.1675383", 
+            "DOIname": "10.1109/TC.1979.1675383", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1310906"
+        }, 
+        {
+            "ArticleName": "Sudharsan Seshadri , Mark Gahagan , Sundaram Bhaskaran , Trevor Bunker , Arup De , Yanqin Jin , Yang Liu , Steven Swanson, Willow: a user-programmable SSD, Proceedings of the 11th USENIX conference on Operating Systems Design and Implementation, October 06-08, 2014, Broomfield, CO", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2685055"
+        }, 
+        {
+            "ArticleName": "Devesh Tiwari , Simona Boboila , Sudharshan S. Vazhkudai , Youngjae Kim , Xiaosong Ma , Peter J. Desnoyers , Yan Solihin, Active flash: towards energy-efficient, in-situ data analytics on extreme-scale machines, Proceedings of the 11th USENIX conference on File and Storage Technologies, February 12-15, 2013, San Jose, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2591286"
+        }, 
+        {
+            "ArticleName": "Devesh Tiwari , Sudharshan S. Vazhkudai , Youngjae Kim , Xiaosong Ma , Simona Boboila , Peter J. Desnoyers, Reducing data movement costs using energy efficient, active computation on SSD, Proceedings of the 2012 USENIX conference on Power-Aware Computing and Systems, p.4-4, October 07, 2012, Hollywood, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2387873"
+        }, 
+        {
+            "ArticleName": "Josep Torrellas, FlexRAM: Toward an advanced Intelligent Memory system: A retrospective paper, Proceedings of the 2012 IEEE 30th International Conference on Computer Design (ICCD 2012), p.3-4, September 30-October 03, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCD.2012.6378607", 
+            "DOIname": "10.1109/ICCD.2012.6378607", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2417581"
+        }, 
+        {
+            "ArticleName": "Hung-Wei Tseng, Yang Liu, Mark Gahagan, Jing Li, Yanqin Jin, and Steven Swanson. 2015. Gullfoss: Accelerating and Simplifying Data Movement among Heterogeneous Computing and Storage Resources. Technical Report CS2015-1015. Department of Computer Science and Engineering, University of California, San Diego technical report. http://csetechrep.ucsd.edu/Dienst/UI/2-0/Describe/ncstrl.ucsd_cse/CS2015-1015"
+        }, 
+        {
+            "ArticleName": "Hung-Wei Tseng , Qianchen Zhao , Yuxiao Zhou , Mark Gahagan , Steven Swanson, Morpheus: creating application objects efficiently for heterogeneous computing, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.15", 
+            "DOIname": "10.1109/ISCA.2016.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001143"
+        }, 
+        {
+            "ArticleName": "Wikipedia. 2017. Raspberry Pi. http://en.wikipedia.org/wiki/Raspberry_Pi. (2017)."
+        }, 
+        {
+            "ArticleName": "Louis Woods , Zsolt Istv\u00e1n , Gustavo Alonso, Ibex: an intelligent storage engine with support for advanced SQL offloading, Proceedings of the VLDB Endowment, v.7 n.11, p.963-974, July 2014", 
+            "DOIhref": "https://dx.doi.org/10.14778/2732967.2732972", 
+            "DOIname": "10.14778/2732967.2732972", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2732972"
+        }, 
+        {
+            "ArticleName": "Chuan Xiao , Wei Wang , Xuemin Lin , Jeffrey Xu Yu, Efficient similarity joins for near duplicate detection, Proceedings of the 17th international conference on World Wide Web, April 21-25, 2008, Beijing, China", 
+            "DOIhref": "http://doi.acm.org/10.1145/1367497.1367516", 
+            "DOIname": "10.1145/1367497.1367516", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1367516"
+        }, 
+        {
+            "ArticleName": "Yuan Yuan , Rubao Lee , Xiaodong Zhang, The Yin and Yang of processing data warehousing queries on GPU devices, Proceedings of the VLDB Endowment, v.6 n.10, p.817-828, August 2013", 
+            "DOIhref": "https://dx.doi.org/10.14778/2536206.2536210", 
+            "DOIname": "10.14778/2536206.2536210", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2536210"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Gunjae Koo"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Kiran Kumar Matam"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Te I"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "H. V. Krishna Giri Narra"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Jing Li"
+        }, 
+        {
+            "Affiliation": "North Carolina State University", 
+            "Name": "Hung-Wei Tseng"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Steven Swanson"
+        }, 
+        {
+            "Affiliation": "University of Southern California", 
+            "Name": "Murali Annavaram"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124553&preflayout=flat"
+}

@@ -1,0 +1,162 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 324, 
+        "Downloads_6Weeks": 22, 
+        "Downloads_cumulative": 324, 
+        "CitationCount": 0
+    }, 
+    "Title": "UNFOLD: a memory-efficient speech recognizer using on-the-fly WFST composition", 
+    "Abstract": "Accurate, real-time Automatic Speech Recognition (ASR) requires huge memory storage and computational power. The main bottleneck in state-of-the-art ASR systems is the Viterbi search on a Weighted Finite State Transducer (WFST). The WFST is a graph-based model created by composing an Acoustic Model (AM) and a Language Model (LM) offline. Offline composition simplifies the implementation of a speech recognizer as only one WFST has to be searched. However, the size of the composed WFST is huge, typically larger than a Gigabyte, resulting in a large memory footprint and memory bandwidth requirements. In this paper, we take a completely different approach and propose a hardware accelerator for speech recognition that composes the AM and LM graphs on-the-fly. In our ASR system, the fully-composed WFST is never generated in main memory. On the contrary, only the subset required for decoding each input speech fragment is dynamically generated from the AM and LM models. In addition to the direct benefits of this on-the-fly composition, the resulting approach is more amenable to further reduction in storage requirements through compression techniques. The resulting accelerator, called UNFOLD, performs the decoding in real-time using the compressed AM and LM models, and reduces the size of the datasets from more than one Gigabyte to less than 40 Megabytes, which can be very important in small form factor mobile and wearable devices. Besides, UNFOLD improves energy-efficiency by orders of magnitude with respect to CPUs and GPUs. Compared to a state-of-the-art Viterbi search accelerators, the proposed ASR system outperforms by providing 31x reduction in memory footprint and 28% energy savings on average.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Diamantino Caseiro and Isabel Trancoso. 2001. On Integrating the Lexicon with the Language Model. (2001)."
+        }, 
+        {
+            "ArticleName": "D. Caseiro and I. Trancoso. 2001. Transducer composition for \"on-the-fly\" lexicon and language model integration. In Automatic Speech Recognition and Understanding, 2001. ASRU '01. IEEE Workshop on. 393--396."
+        }, 
+        {
+            "ArticleName": "J. Choi, K. You, and W. Sung. 2010. An FPGA implementation of speech recognition with weighted finite state transducers. In 2010 IEEE International Conference on Acoustics, Speech and Signal Processing. 1602--1605."
+        }, 
+        {
+            "ArticleName": "Wen-mei W. Hwu, GPU Computing Gems Emerald Edition, Morgan Kaufmann Publishers Inc., San Francisco, CA, 2011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1964878"
+        }, 
+        {
+            "ArticleName": "VoxForge Speech Corpus. 2009. http://www.voxforge.org."
+        }, 
+        {
+            "ArticleName": "H. J. G. A. Dolfing and I. L. Hetherington. 2001. Incremental language models for speech recognition using finite-state transducers. In Automatic Speech Recognition and Understanding, 2001. ASRU '01. IEEE Workshop on. 194--197."
+        }, 
+        {
+            "ArticleName": "Zidong Du , Robert Fasthuber , Tianshi Chen , Paolo Ienne , Ling Li , Tao Luo , Xiaobing Feng , Yunji Chen , Olivier Temam, ShiDianNao: shifting vision processing closer to the sensor, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750389", 
+            "DOIname": "10.1145/2749469.2750389", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750389"
+        }, 
+        {
+            "ArticleName": "M. Friesen. 2016. Linux Power Management Optimization on the Nvidia Jetson Platform. Technical Report. \"https://www.socallinuxexpo.org/sites/default/files/presentations/scale14x_r27_final.pdf\""
+        }, 
+        {
+            "ArticleName": "Alex Graves , Navdeep Jaitly, Towards end-to-end speech recognition with recurrent neural networks, Proceedings of the 31st International Conference on International Conference on Machine Learning, June 21-26, 2014, Beijing, China", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3045089"
+        }, 
+        {
+            "ArticleName": "A. Graves, A. r. Mohamed, and G. Hinton. 2013. Speech recognition with deep recurrent neural networks. In 2013 IEEE International Conference on Acoustics, Speech and Signal Processing. 6645--6649."
+        }, 
+        {
+            "ArticleName": "S. Han, J. Kang, H. Mao, Y. Hu, X. Li, Y. Li, D. Xie, H. Luo, S. Yao, Y. Wang, H. Yang, and W. J. Dally. 2016. ESE: Efficient Speech Recognition Engine with Sparse LSTM on FPGA. ArXiv e-prints (Dec. 2016). arXiv:cs.CL/1612.00694"
+        }, 
+        {
+            "ArticleName": "Song Han , Jeff Pool , John Tran , William J. Dally, Learning both weights and connections for efficient neural networks, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1135-1143, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969366"
+        }, 
+        {
+            "ArticleName": "T. Hori , C. Hori , Y. Minami , A. Nakamura, Efficient WFST-Based One-Pass Decoding With On-The-Fly Hypothesis Rescoring in Extremely Large Vocabulary Continuous Speech Recognition, IEEE Transactions on Audio, Speech, and Language Processing, v.15 n.4, p.1352-1365, May 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/TASL.2006.889790", 
+            "DOIname": "10.1109/TASL.2006.889790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2210484"
+        }, 
+        {
+            "ArticleName": "K. Hwang and W. Sung. 2014. Fixed-point feedforward deep neural network design using weights +1, 0, and -1. In 2014 IEEE Workshop on Signal Processing Systems (SiPS). 1--6."
+        }, 
+        {
+            "ArticleName": "Jeffrey R. Johnston , Rob A. Rutenbar, A High-Rate, Low-Power, ASIC Speech Decoder Using Finite State Transducers, Proceedings of the 2012 IEEE 23rd International Conference on Application-Specific Systems, Architectures and Processors, p.77-85, July 09-11, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/ASAP.2012.25", 
+            "DOIname": "10.1109/ASAP.2012.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2408830"
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Andrej Ljolje, Fernando Pereira, and Michael Riley. 1999. Efficient general lattice generation and rescoring. In EUROSPEECH."
+        }, 
+        {
+            "ArticleName": "Y. Miao, M. Gowayyed, and F. Metze. 2015. EESEN: End-to-end speech recognition using deep RNN models and WFST-based decoding. In 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU). 167--174."
+        }, 
+        {
+            "ArticleName": "Mehryar Mohri , Fernando Pereira , Michael Riley, Weighted finite-state transducers in speech recognition, Computer Speech and Language, v.16 n.1, p.69-88, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1006/csla.2001.0184", 
+            "DOIname": "10.1006/csla.2001.0184", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2826918"
+        }, 
+        {
+            "ArticleName": "V. Panayotov, G. Chen, D. Povey, and S. Khudanpur. 2015. Librispeech: An ASR corpus based on public domain audio books. In Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on. 5206--5210."
+        }, 
+        {
+            "ArticleName": "Daniel Povey, Arnab Ghoshal, Gilles Boulianne, Lukas Burget, Ondrej Glembek, Nagendra Goel, Mirko Hannemann, Petr Motlicek, Yanmin Qian, Petr Schwarz, Jan Silovsky, Georg Stemmer, and Karel Vesely. 2011. The Kaldi Speech Recognition Toolkit. In IEEE 2011 Workshop on Automatic Speech Recognition and Understanding. IEEE Signal Processing Society. IEEE Catalog No.: CFP11SRW-USB."
+        }, 
+        {
+            "ArticleName": "Michael Price. 2016. Energy-scalable speech recognition circuits (Doctoral dissertation). In Massachusetts Institute of Technology. http://hdl.handle.net/1721.1/106090"
+        }, 
+        {
+            "ArticleName": "Michael Price, Anantha Chandrakasan, and James R. Glass. 2016. Memory-Efficient Modeling and Search Techniques for Hardware ASR Decoders. In INTERSPEECH. 1893--1897."
+        }, 
+        {
+            "ArticleName": "M. Price, J. Glass, and A. P. Chandrakasan. 2015. A 6 mW, 5,000-Word Real-Time Speech Recognizer Using WFST Models. IEEE Journal of Solid-State Circuits 50, 1 (Jan 2015), 102--112."
+        }, 
+        {
+            "ArticleName": "L. R. Rabiner. 1989. A tutorial on hidden Markov models and selected applications in speech recognition. Proc. IEEE 77, 2 (Feb 1989), 257--286."
+        }, 
+        {
+            "ArticleName": "Anthony Rousseau, Paul Del\u00c3l'glise, and Yannick Est\u00c3l'Ave. 2014. Enhancing the TED-LIUM corpus with selected data for language modeling and more TED talks. In In Proc. LREC. 26--31."
+        }, 
+        {
+            "ArticleName": "Hamid Tabani, Jose-Maria Arnau, Jordi Tubella, and Antonio Gonzalez. 2017. Performance Analysis and Optimization of Automatic Speech Recognition. Multi-Scale Computing Systems, IEEE Transactions on (2017)."
+        }, 
+        {
+            "ArticleName": "Hamid Tabani, Jose-Maria Arnau, Jordi Tubella, and Antonio Gonzalez. 2017. An Ultra Low-power Hardware Accelerator for Acoustic Scoring in Speech Recognition. In Parallel Architecture and Compilation Techniques (PACT), 26th International Conference on. IEEE."
+        }, 
+        {
+            "ArticleName": "TN-41--01. 2007. Calculating Memory System Power for DDR3, Micron Technology, Tech. Rep. Technical Report."
+        }, 
+        {
+            "ArticleName": "TN-53--01. 2016. LPDDR4 Power Calculator, Micron Technology, Tech. Rep. Technical Report."
+        }, 
+        {
+            "ArticleName": "Willie Walker , Paul Lamere , Philip Kwok , Bhiksha Raj , Rita Singh , Evandro Gouvea , Peter Wolf , Joe Woelfel, Sphinx-4: a flexible open source framework for speech recognition, Sun Microsystems, Inc., Mountain View, CA, 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1698193"
+        }, 
+        {
+            "ArticleName": "D. Willett and S. Katagiri. 2002. Recent advances in efficient decoding combining on-line transducer composition and smoothed language model incorporation. In 2002 IEEE International Conference on Acoustics, Speech, and Signal Processing, Vol. 1. I-713--I-716."
+        }, 
+        {
+            "ArticleName": "Wayne Xiong, Jasha Droppo, Xuedong Huang, Frank Seide, Mike Seltzer, Andreas Stolcke, Dong Yu, and Geoffrey Zweig. 2016. Achieving Human Parity in Conversational Speech Recognition. CoRR abs/1610.05256 (2016). http://arxiv.org/abs/1610.05256"
+        }, 
+        {
+            "ArticleName": "Reza Yazdani, Albert Segura, Jose-Maria Arnau, and Antonio Gonzalez. 2016. An ultra low-power hardware accelerator for automatic speech recognition. In 2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO). 1--12."
+        }, 
+        {
+            "ArticleName": "Reza Yazdani , Albert Segura , Jose-Maria Arnau , Antonio Gonzalez, Low-Power Automatic Speech Recognition Through a Mobile GPU and a Viterbi Accelerator, IEEE Micro, v.37 n.1, p.22-29, January 2017", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2017.15", 
+            "DOIname": "10.1109/MM.2017.15", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3083732"
+        }, 
+        {
+            "ArticleName": "K. You, J. Chong, Y. Yi, E. Gonina, C. J. Hughes, Y. K. Chen, W. Sung, and K. Keutzer. 2009. Parallel scalability in speech recognition. IEEE Signal Processing Magazine 26, 6 (November 2009), 124--135."
+        }, 
+        {
+            "ArticleName": "X. Zhang, J. Trmal, D. Povey, and S. Khudanpur. 2014. Improving deep neural network acoustic models using generalized maxout networks. In 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 215--219."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Universitat Polit\u00e9cnica de Catalunya, Barcelona, Spain", 
+            "Name": "Reza Yazdani"
+        }, 
+        {
+            "Affiliation": "Universitat Polit\u00e9cnica de Catalunya, Barcelona, Spain", 
+            "Name": "Jose-Maria Arnau"
+        }, 
+        {
+            "Affiliation": "Universitat Polit\u00e9cnica de Catalunya, Barcelona, Spain", 
+            "Name": "Antonio Gonz\u00e1lez"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3124542&preflayout=flat"
+}

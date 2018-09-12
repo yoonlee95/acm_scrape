@@ -1,0 +1,394 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 19, 
+        "Downloads_6Weeks": 4, 
+        "Downloads_cumulative": 19, 
+        "CitationCount": 0
+    }, 
+    "Title": "A unified memory network architecture for in-memory computing in commodity servers", 
+    "Abstract": "In-memory computing is emerging as a promising paradigm in commodity servers to accelerate data-intensive processing by striving to keep the entire dataset in DRAM. To address the tremendous pressure on the main memory system, discrete memory modules can be networked together to form a memory pool, enabled by recent trends towards richer memory interfaces (e.g. Hybrid Memory Cubes, or HMCs). Such an inter-memory network provides a scalable fabric to expand memory capacity, but still suffers from long multi-hop latency, limited bandwidth, and high power consumption---problems that will continue to exacerbate as the gap between interconnect and transistor performance grows. Moreover, inside each memory module, an intra-memory network (NoC) is typically employed to connect different memory partitions. Without careful design, the back-pressure inside the memory modules can further propagate to the inter-memory network to cause a performance bottleneck. To address these problems, we propose co-optimization of intra- and inter-memory network. First, we re-organize the intra-memory network structure, and provide a smart I/O interface to reuse the intra-memory NoC as the network switches for inter-memory communication, thus forming a unified memory network. Based on this architecture, we further optimize the inter-memory network for both high performance and lower energy, including a distance-aware selective compression scheme to drastically reduce communication burden, and a light-weight power-gating algorithm to turn off under-utilized links while guaranteeing a connected graph and deadlock-free routing. We develop an event-driven simulator to model our proposed architectures. Experiment results based on both synthetic traffic and real big-data workloads show that our unified memory network architecture can achieve 75.1% average memory access latency reduction and 22.1% total memory energy saving.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "J. Gantz and D. Reinsel, \"The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east,\" 2012."
+        }, 
+        {
+            "ArticleName": "L. Wang, J. Zhan, C. Luo, Y. Zhu, Q. Yang, Y. He, W. Gao, Z. Jia, Y. Shi, S. Zhang, C. Zheng, G. Lu, K. Zhan, X. Li, and B. Qiu, \"Bigdatabench: a big data benchmark suite from internet services,\" in HPCA, pp. 488--499, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "Michael Ferdman , Almutaz Adileh , Onur Kocberber , Stavros Volos , Mohammad Alisafaee , Djordje Jevdjic , Cansu Kaynak , Adrian Daniel Popescu , Anastasia Ailamaki , Babak Falsafi, Clearing the clouds: a study of emerging scale-out workloads on modern hardware, ACM SIGPLAN Notices, v.47 n.4, April 2012", 
+            "DOIhref": "http://doi.acm.org/10.1145/2248487.2150982", 
+            "DOIname": "10.1145/2248487.2150982", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2150982"
+        }, 
+        {
+            "ArticleName": "Svilen Kanev , Juan Pablo Darago , Kim Hazelwood , Parthasarathy Ranganathan , Tipp Moseley , Gu-Yeon Wei , David Brooks, Profiling a warehouse-scale computer, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750392", 
+            "DOIname": "10.1145/2749469.2750392", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750392"
+        }, 
+        {
+            "ArticleName": "Franz F\u00e4rber , Sang Kyun Cha , J\u00fcrgen Primsch , Christof Bornh\u00f6vd , Stefan Sigg , Wolfgang Lehner, SAP HANA database: data management for modern business applications, ACM SIGMOD Record, v.40 n.4, December 2011", 
+            "DOIhref": "http://doi.acm.org/10.1145/2094114.2094126", 
+            "DOIname": "10.1145/2094114.2094126", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2094126"
+        }, 
+        {
+            "ArticleName": "M. Stonebraker and A. Weisberg, \"The VoltDB Main Memory DBMS,\" IEEE Data Eng. Bull., vol. 36, no. 2, pp. 21--27, 2013."
+        }, 
+        {
+            "ArticleName": "Vijayshankar Raman , Gopi Attaluri , Ronald Barber , Naresh Chainani , David Kalmuk , Vincent KulandaiSamy , Jens Leenstra , Sam Lightstone , Shaorong Liu , Guy M. Lohman , Tim Malkemus , Rene Mueller , Ippokratis Pandis , Berni Schiefer , David Sharpe , Richard Sidle , Adam Storm , Liping Zhang, DB2 with BLU acceleration: so much more than just a column store, Proceedings of the VLDB Endowment, v.6 n.11, p.1080-1091, August 2013", 
+            "DOIhref": "https://dx.doi.org/10.14778/2536222.2536233", 
+            "DOIname": "10.14778/2536222.2536233", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2536233"
+        }, 
+        {
+            "ArticleName": "Matei Zaharia , Mosharaf Chowdhury , Michael J. Franklin , Scott Shenker , Ion Stoica, Spark: cluster computing with working sets, Proceedings of the 2nd USENIX conference on Hot topics in cloud computing, p.10-10, June 22-25, 2010, Boston, MA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1863113"
+        }, 
+        {
+            "ArticleName": "Haoyuan Li , Ali Ghodsi , Matei Zaharia , Scott Shenker , Ion Stoica, Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks, Proceedings of the ACM Symposium on Cloud Computing, p.1-15, November 03-05, 2014, Seattle, WA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2670979.2670985", 
+            "DOIname": "10.1145/2670979.2670985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2670985"
+        }, 
+        {
+            "ArticleName": "Stanko Novakovic , Alexandros Daglis , Edouard Bugnion , Babak Falsafi , Boris Grot, Scale-out NUMA, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541965", 
+            "DOIname": "10.1145/2541940.2541965", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541965"
+        }, 
+        {
+            "ArticleName": "Alexandros Daglis , Stanko Novakovi\u0107 , Edouard Bugnion , Babak Falsafi , Boris Grot, Manycore network interfaces for in-memory rack-scale computing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750415", 
+            "DOIname": "10.1145/2749469.2750415", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750415"
+        }, 
+        {
+            "ArticleName": "Onur Mutlu , Lavanya Subramanian, Research Problems and Opportunities in Memory Systems, Supercomputing Frontiers and Innovations: an International Journal, v.1 n.3, p.19-55, October 2014", 
+            "DOIhref": "https://dx.doi.org/10.14529/jsfi140302", 
+            "DOIname": "10.14529/jsfi140302", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2983611"
+        }, 
+        {
+            "ArticleName": "Jishen Zhao , Sheng Li , Jichuan Chang , John L. Byrne , Laura L. Ramirez , Kevin Lim , Yuan Xie , Paolo Faraboschi, Buri: Scaling Big-Memory Computing with Hardware-Based Memory Expansion, ACM Transactions on Architecture and Code Optimization (TACO), v.12 n.3, p.1-24, October 2015", 
+            "DOIhref": "http://doi.acm.org/10.1145/2808233", 
+            "DOIname": "10.1145/2808233", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2808233"
+        }, 
+        {
+            "ArticleName": "Dimitrios Ziakas , Allen Baum , Robert A. Maddox , Robert J. Safranek, Intel\u00ae QuickPath Interconnect Architectural Features Supporting Scalable System Architectures, Proceedings of the 2010 18th IEEE Symposium on High Performance Interconnects, p.1-6, August 18-20, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/HOTI.2010.24", 
+            "DOIname": "10.1109/HOTI.2010.24", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1902273"
+        }, 
+        {
+            "ArticleName": "\"HyperTransport I/O technology overview,\" HyperTransport Consortium, June, 2004."
+        }, 
+        {
+            "ArticleName": "J. T. Pawlowski, \"Hybrid memory cube (HMC),\" in Hotchips, vol. 23, pp. 1--24, 2011."
+        }, 
+        {
+            "ArticleName": "\"The Machine: A new kind of computer.\" http://www.hpl.hp.com/research/systems-research/themachine/."
+        }, 
+        {
+            "ArticleName": "Kevin Lim , Jichuan Chang , Trevor Mudge , Parthasarathy Ranganathan , Steven K. Reinhardt , Thomas F. Wenisch, Disaggregated memory for expansion and sharing in blade servers, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555789", 
+            "DOIname": "10.1145/1555754.1555789", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555789"
+        }, 
+        {
+            "ArticleName": "H. T. C. Ltd, \"High Throughput Computing Data Center Architecture: Thinking of Data Center 3.0,\" Technical White Paper, 2014."
+        }, 
+        {
+            "ArticleName": "Gwangsun Kim , John Kim , Jung Ho Ahn , Jaeha Kim, Memory-centric system interconnect design with hybrid memory cubes, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523744"
+        }, 
+        {
+            "ArticleName": "Gwangsun Kim , Minseok Lee , Jiyun Jeong , John Kim, Multi-GPU System Design with Memory Networks, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.55", 
+            "DOIname": "10.1109/MICRO.2014.55", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742204"
+        }, 
+        {
+            "ArticleName": "Jeffrey Dean , Sanjay Ghemawat, MapReduce: simplified data processing on large clusters, Communications of the ACM, v.51 n.1, January 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1327452.1327492", 
+            "DOIname": "10.1145/1327452.1327492", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1327492"
+        }, 
+        {
+            "ArticleName": "D. Borthakur, \"HDFS architecture guide,\" Hadoop Apache Project http://hadoop.apache.org/docs/r1.2.1/hdfs_design.pdf, 2008."
+        }, 
+        {
+            "ArticleName": "Matei Zaharia , Mosharaf Chowdhury , Tathagata Das , Ankur Dave , Justin Ma , Murphy McCauley , Michael J. Franklin , Scott Shenker , Ion Stoica, Resilient distributed datasets: a fault-tolerant abstraction for in-memory cluster computing, Proceedings of the 9th USENIX conference on Networked Systems Design and Implementation, April 25-27, 2012, San Jose, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228301"
+        }, 
+        {
+            "ArticleName": "Larry McVoy , Carl Staelin, lmbench: portable tools for performance analysis, Proceedings of the 1996 annual conference on USENIX Annual Technical Conference, p.23-23, January 22-26, 1996, San Diego, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1268322"
+        }, 
+        {
+            "ArticleName": "Gabriel H. Loh, 3D-Stacked Memory Architectures for Multi-core Processors, ACM SIGARCH Computer Architecture News, v.36 n.3, p.453-464, June 2008", 
+            "DOIhref": "http://doi.acm.org/10.1145/1394608.1382159", 
+            "DOIname": "10.1145/1394608.1382159", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1382159"
+        }, 
+        {
+            "ArticleName": "Christianto C. Liu , Ilya Ganusov , Martin Burtscher , Sandip Tiwari, Bridging the Processor-Memory Performance Gapwith 3D IC Technology, IEEE Design & Test, v.22 n.6, p.556-564, November 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/MDT.2005.134", 
+            "DOIname": "10.1109/MDT.2005.134", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1105862"
+        }, 
+        {
+            "ArticleName": "Taeho Kgil , Shaun D'Souza , Ali Saidi , Nathan Binkert , Ronald Dreslinski , Trevor Mudge , Steven Reinhardt , Krisztian Flautner, PicoServer: using 3D stacking technology to enable a compact energy efficient chip multiprocessor, ACM SIGPLAN Notices, v.41 n.11, November 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168918.1168873", 
+            "DOIname": "10.1145/1168918.1168873", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168873"
+        }, 
+        {
+            "ArticleName": "Gian Luca Loi , Banit Agrawal , Navin Srivastava , Sheng-Chih Lin , Timothy Sherwood , Kaustav Banerjee, A thermally-aware performance analysis of vertically integrated (3-D) processor-memory hierarchy, Proceedings of the 43rd annual Design Automation Conference, July 24-28, 2006, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1146909.1147160", 
+            "DOIname": "10.1145/1146909.1147160", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1147160"
+        }, 
+        {
+            "ArticleName": "R. Nair, S. Antao, C. Bertolli, P. Bose, J. Brunheroto, T. Chen, C. Cher, C. Costa, J. Doi, C. Evangelinos, B. Fleischer, T. Fox, D. Gallo, L. Grinberg, J. Gunnels, A. Jacob, P. Jacob, H. Jacobson, T. Karkhanis, C. Kim, J. Moreno, J. O'Brien, M. Ohmacht, Y. Park, D. Prener, B. Rosenburg, K. Ryu, O. Sallenave, M. Serrano, P. Siegl, K. Sugavanam, and Z. Sura, \"Active Memory Cube: A processing-in-memory architecture for exascale systems,\" IBM Journal of Research and Development, vol. 59, no. 2/3, pp. 17--1, 2015."
+        }, 
+        {
+            "ArticleName": "\"NVLink, Pascal and Stacked Memory: Feeding the Appetite for Big Data.\" http://devblogs.nvidia.com/parallelforall/nvlink-pascal-stacked-memory-feeding-appetite-big-data/."
+        }, 
+        {
+            "ArticleName": "Brian Towles , J. P. Grossman , Brian Greskamp , David E. Shaw, Unifying on-chip and inter-node switching within the Anton 2 network, Proceeding of the 41st annual international symposium on Computer architecuture, June 14-18, 2014, Minneapolis, Minnesota, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2665677"
+        }, 
+        {
+            "ArticleName": "David E. Shaw , J. P. Grossman , Joseph A. Bank , Brannon Batson , J. Adam Butts , Jack C. Chao , Martin M. Deneroff , Ron O. Dror , Amos Even , Christopher H. Fenton , Anthony Forte , Joseph Gagliardo , Gennette Gill , Brian Greskamp , C. Richard Ho , Douglas J. Ierardi , Lev Iserovich , Jeffrey S. Kuskin , Richard H. Larson , Timothy Layman , Li-Siang Lee , Adam K. Lerer , Chester Li , Daniel Killebrew , Kenneth M. Mackenzie , Shark Yeuk-Hai Mok , Mark A. Moraes , Rolf Mueller , Lawrence J. Nociolo , Jon L. Peticolas , Terry Quan , Daniel Ramot , John K. Salmon , Daniele P. Scarpazza , U. Ben Schafer , Naseer Siddique , Christopher W. Snyder , Jochen Spengler , Ping Tak Peter Tang , Michael Theobald , Horia Toma , Brian Towles , Benjamin Vitale , Stanley C. Wang , Cliff Young, Anton 2: raising the bar for performance and programmability in a special-purpose molecular dynamics supercomputer, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 16-21, 2014, New Orleans, Louisana", 
+            "DOIhref": "https://dx.doi.org/10.1109/SC.2014.9", 
+            "DOIname": "10.1109/SC.2014.9", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2683599"
+        }, 
+        {
+            "ArticleName": "Pejman Lotfi-Kamran , Boris Grot , Babak Falsafi, NOC-Out: Microarchitecting a Scale-Out Processor, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.177-187, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.25", 
+            "DOIname": "10.1109/MICRO.2012.25", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457496"
+        }, 
+        {
+            "ArticleName": "William J. Dally , Brian Towles, Route packets, not wires: on-chip inteconnection networks, Proceedings of the 38th annual Design Automation Conference, p.684-689, June 2001, Las Vegas, Nevada, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378239.379048", 
+            "DOIname": "10.1145/378239.379048", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379048"
+        }, 
+        {
+            "ArticleName": "Luca Benini , Giovanni De Micheli, Networks on Chips: A New SoC Paradigm, Computer, v.35 n.1, p.70-78, January 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.976921", 
+            "DOIname": "10.1109/2.976921", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621885"
+        }, 
+        {
+            "ArticleName": "R. Das, A. K. Mishra, C. Nicopoulos, D. Park, V. Narayanan, R. Iyer, M. S. Yousif, and C. R. Das, \"Performance and power optimization through data compression in network-on-chip architectures,\" in HPCA, pp. 215--225, IEEE, 2008."
+        }, 
+        {
+            "ArticleName": "Gennady Pekhimenko , Vivek Seshadri , Onur Mutlu , Phillip B. Gibbons , Michael A. Kozuch , Todd C. Mowry, Base-delta-immediate compression: practical data compression for on-chip caches, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370870", 
+            "DOIname": "10.1145/2370816.2370870", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370870"
+        }, 
+        {
+            "ArticleName": "J. Zhan, M. Poremba, Y. Xu, and Y. Xie, \"No\u0394: Leveraging delta compression for end-to-end memory access in NoC based multicores.,\" in ASP-DAC, pp. 586--591, 2014."
+        }, 
+        {
+            "ArticleName": "Jun Yang , Youtao Zhang , Rajiv Gupta, Frequent value compression in data caches, Proceedings of the 33rd annual ACM/IEEE international symposium on Microarchitecture, p.258-265, December 2000, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/360128.360154", 
+            "DOIname": "10.1145/360128.360154", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=360154"
+        }, 
+        {
+            "ArticleName": "Alaa R. Alameldeen , David A. Wood, Adaptive Cache Compression for High-Performance Processors, Proceedings of the 31st annual international symposium on Computer architecture, p.212, June 19-23, 2004, M\u00fcnchen, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1006719"
+        }, 
+        {
+            "ArticleName": "A. Shafiee, M. Taassori, R. Balasubramonian, and A. Davis, \"MemZip: Exploring unconventional benefits from memory compression,\" in HPCA, pp. 638--649, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "\"Hybrid memory cube specification 1.0,\" Technical report, Hybrid Memory Cube Consortium, 2013."
+        }, 
+        {
+            "ArticleName": "Ahmad Samih , Ren Wang , Anil Krishna , Christian Maciocco , Charlie Tai , Yan Solihin, Energy-efficient interconnect via Router Parking, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.508-519, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522345", 
+            "DOIname": "10.1109/HPCA.2013.6522345", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495518"
+        }, 
+        {
+            "ArticleName": "Lizhong Chen , Timothy M. Pinkston, NoRD: Node-Router Decoupling for Effective Power-gating of On-Chip Routers, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.270-281, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.33", 
+            "DOIname": "10.1109/MICRO.2012.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457505"
+        }, 
+        {
+            "ArticleName": "Reetuparna Das , Satish Narayanasamy , Sudhir K. Satpathy , Ronald G. Dreslinski, Catnap: energy proportional multiple network-on-chip, Proceedings of the 40th Annual International Symposium on Computer Architecture, June 23-27, 2013, Tel-Aviv, Israel", 
+            "DOIhref": "http://doi.acm.org/10.1145/2485922.2485950", 
+            "DOIname": "10.1145/2485922.2485950", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485950"
+        }, 
+        {
+            "ArticleName": "Ritesh Parikh , Reetuparna Das , Valeria Bertacco, Power-Aware NoCs through Routing and Topology Reconfiguration, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593187", 
+            "DOIname": "10.1145/2593069.2593187", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593187"
+        }, 
+        {
+            "ArticleName": "V. Soteriou and L.-S. Peh, \"Dynamic power management for power optimization of interconnection networks using on/off links,\" in HOTI, pp. 15--20, IEEE, 2003."
+        }, 
+        {
+            "ArticleName": "\"Redis Benchmark.\" http://redis.io/topics/benchmarks."
+        }, 
+        {
+            "ArticleName": "\"Spark 1.4.1.\" http://spark.apache.org/downloads.html."
+        }, 
+        {
+            "ArticleName": "Harish Patil , Robert Cohn , Mark Charney , Rajiv Kapoor , Andrew Sun , Anand Karunanidhi, Pinpointing Representative Portions of Large Intel\u00ae Itanium\u00ae Programs with Dynamic Instrumentation, Proceedings of the 37th annual IEEE/ACM International Symposium on Microarchitecture, p.81-92, December 04-08, 2004, Portland, Oregon", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2004.28", 
+            "DOIname": "10.1109/MICRO.2004.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1038933"
+        }, 
+        {
+            "ArticleName": "\"Micron System Power Calculator.\" hthttp://www.micron.com/support/power-calc."
+        }, 
+        {
+            "ArticleName": "Sheng Li , Jung Ho Ahn , Richard D. Strong , Jay B. Brockman , Dean M. Tullsen , Norman P. Jouppi, McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures, Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, December 12-16, 2009, New York, New York", 
+            "DOIhref": "http://doi.acm.org/10.1145/1669112.1669172", 
+            "DOIname": "10.1145/1669112.1669172", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1669172"
+        }, 
+        {
+            "ArticleName": "Chen Sun , Chia-Hsin Owen Chen , George Kurian , Lan Wei , Jason Miller , Anant Agarwal , Li-Shiuan Peh , Vladimir Stojanovic, DSENT - A Tool Connecting Emerging Photonics with Electronics for Opto-Electronic Networks-on-Chip Modeling, Proceedings of the 2012 IEEE/ACM Sixth International Symposium on Networks-on-Chip, p.201-210, May 09-11, 2012", 
+            "DOIhref": "https://dx.doi.org/10.1109/NOCS.2012.31", 
+            "DOIname": "10.1109/NOCS.2012.31", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2311275"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungjoo Yoo , Kiyoung Choi, Dynamic Power Management of Off-Chip Links for Hybrid Memory Cubes, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593128", 
+            "DOIname": "10.1145/2593069.2593128", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593128"
+        }, 
+        {
+            "ArticleName": "Brinda Ganesh , Aamer Jaleel , David Wang , Bruce Jacob, Fully-Buffered DIMM Memory Architectures: Understanding Mechanisms, Overheads and Scaling, Proceedings of the 2007 IEEE 13th International Symposium on High Performance Computer Architecture, p.109-120, February 10-14, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2007.346190", 
+            "DOIname": "10.1109/HPCA.2007.346190", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318106"
+        }, 
+        {
+            "ArticleName": "Kanit Therdsteerasukdi , Gyung-Su Byun , Jeremy Ir , Glenn Reinman , Jason Cong , M. F. Chang, The DIMM tree architecture: A high bandwidth and scalable memory system, Proceedings of the 2011 IEEE 29th International Conference on Computer Design, p.388-395, October 09-12, 2011", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCD.2011.6081428", 
+            "DOIname": "10.1109/ICCD.2011.6081428", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2118397"
+        }, 
+        {
+            "ArticleName": "Tae Jun Ham , Bharath K. Chelepalli , Neng Xue , Benjamin C. Lee, Disintegrated control for energy-efficient and heterogeneous memory systems, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.424-435, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522338", 
+            "DOIname": "10.1109/HPCA.2013.6522338", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495524"
+        }, 
+        {
+            "ArticleName": "Aniruddha N. Udipi , Naveen Muralimanohar , Rajeev Balasubramonian , Al Davis , Norman P. Jouppi, Combining memory and a controller with photonics through 3D-stacking to enable scalable and energy-efficient systems, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000115", 
+            "DOIname": "10.1145/2000064.2000115", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000115"
+        }, 
+        {
+            "ArticleName": "Yuho Jin , Ki Hwan Yum , Eun Jung Kim, Adaptive data compression for high-performance low-power on-chip networks, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.354-363, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771804", 
+            "DOIname": "10.1109/MICRO.2008.4771804", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521787"
+        }, 
+        {
+            "ArticleName": "Ping Zhou , Bo Zhao , Yu Du , Yi Xu , Youtao Zhang , Jun Yang , Li Zhao, Frequent value compression in packet-based NoC architectures, Proceedings of the 2009 Asia and South Pacific Design Automation Conference, January 19-22, 2009, Yokohama, Japan", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1509640"
+        }, 
+        {
+            "ArticleName": "Martin Thuresson , Lawrence Spracklen , Per Stenstrom, Memory-Link Compression Schemes: A Value Locality Perspective, IEEE Transactions on Computers, v.57 n.7, p.916-927, July 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/TC.2008.28", 
+            "DOIname": "10.1109/TC.2008.28", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1383204"
+        }, 
+        {
+            "ArticleName": "Vijay Sathish , Michael J. Schulte , Nam Sung Kim, Lossless and lossy memory I/O link compression for improving performance of GPGPU workloads, Proceedings of the 21st international conference on Parallel architectures and compilation techniques, September 19-23, 2012, Minneapolis, Minnesota, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2370816.2370864", 
+            "DOIname": "10.1145/2370816.2370864", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2370864"
+        }, 
+        {
+            "ArticleName": "Michael Powell , Se-Hyun Yang , Babak Falsafi , Kaushik Roy , T. N. Vijaykumar, Gated-Vdd: a circuit technique to reduce leakage in deep-submicron cache memories, Proceedings of the 2000 international symposium on Low power electronics and design, p.90-95, July 25-27, 2000, Rapallo, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/344166.344526", 
+            "DOIname": "10.1145/344166.344526", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=344526"
+        }, 
+        {
+            "ArticleName": "D. DiTomaso, A. Kodi, and A. Louri, \"QORE: A fault tolerant network-on-chip architecture with power-efficient quad-function channel (QFC) buffers,\" in HPCA, pp. 320--331, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "Jia Zhan , Yuan Xie , Guangyu Sun, NoC-Sprinting: Interconnect for Fine-Grained Sprinting in the Dark Silicon Era, Proceedings of the 51st Annual Design Automation Conference, p.1-6, June 01-05, 2014, San Francisco, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2593069.2593165", 
+            "DOIname": "10.1145/2593069.2593165", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2593165"
+        }, 
+        {
+            "ArticleName": "Jia Zhan , Jin Ouyang , Fen Ge , Jishen Zhao , Yuan Xie, DimNoC: a dim silicon approach towards power-efficient on-chip network, Proceedings of the 52nd Annual Design Automation Conference, p.1-6, June 07-11, 2015, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2744769.2744824", 
+            "DOIname": "10.1145/2744769.2744824", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2744824"
+        }, 
+        {
+            "ArticleName": "S. Pugsley, J. Jestes, H. Zhang, R. Balasubramonian, V. Srinivasan, A. Buyuktosunoglu, A. Davis, and F. Li, \"Ndc: Analyzing the impact of 3d-stacked memory+ logic devices on mapreduce workloads,\" in ISPASS, pp. 190--200, IEEE, 2014."
+        }, 
+        {
+            "ArticleName": "A. Farmahini-Farahani, J. H. Ahn, K. Morrow, and N. S. Kim, \"Nda: Near-dram acceleration architecture leveraging commodity dram devices and standard memory modules,\" in HPCA, pp. 283--295, IEEE, 2015."
+        }, 
+        {
+            "ArticleName": "Mingyu Gao , Grant Ayers , Christos Kozyrakis, Practical Near-Data Processing for In-Memory Analytics Frameworks, Proceedings of the 2015 International Conference on Parallel Architecture and Compilation (PACT), p.113-124, October 18-21, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/PACT.2015.22", 
+            "DOIname": "10.1109/PACT.2015.22", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2923783"
+        }, 
+        {
+            "ArticleName": "Junwhan Ahn , Sungpack Hong , Sungjoo Yoo , Onur Mutlu , Kiyoung Choi, A scalable processing-in-memory accelerator for parallel graph processing, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2750386", 
+            "DOIname": "10.1145/2749469.2750386", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2750386"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of California", 
+            "Name": "Jia Zhan"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Itir Akgun"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Jishen Zhao"
+        }, 
+        {
+            "Affiliation": "HP Labs", 
+            "Name": "Al Davis"
+        }, 
+        {
+            "Affiliation": "HP Labs", 
+            "Name": "Paolo Faraboschi"
+        }, 
+        {
+            "Affiliation": "Huawei", 
+            "Name": "Yuangang Wang"
+        }, 
+        {
+            "Affiliation": "University of California", 
+            "Name": "Yuan Xie"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195673&preflayout=flat"
+}

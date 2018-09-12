@@ -1,0 +1,214 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Rosario Cammarota , Rami Sheikh, VPsec: countering fault attacks in general purpose microprocessors with value prediction, Proceedings of the 15th ACM International Conference on Computing Frontiers, May 08-10, 2018, Ischia, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3203276"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 307, 
+        "Downloads_6Weeks": 11, 
+        "Downloads_cumulative": 307, 
+        "CitationCount": 1
+    }, 
+    "Title": "Load value prediction via path-based address prediction: avoiding mispredictions due to conflicting stores", 
+    "Abstract": "Current flagship processors excel at extracting instruction-level-parallelism (ILP) by forming large instruction windows. Even then, extracting ILP is inherently limited by true data dependencies. Value prediction was proposed to address this limitation. Many challenges face value prediction, in this work we focus on two of them. Challenge #1: store instructions change the values in memory, rendering the values in the value predictor stale, and resulting in value mispredictions and a retraining penalty. Challenge #2: value mispredictions trigger costly pipeline flushes. To minimize the number of pipeline flushes, value predictors employ stringent, yet necessary, high confidence requirements to guarantee high prediction accuracy. Such requirements can negatively impact training time and coverage. In this work, we propose Decoupled Load Value Prediction (DLVP), a technique that targets the value prediction challenges for load instructions. DLVP mitigates the stale state caused by stores by replacing value prediction with memory address prediction. Then, it opportunistically probes the data cache to retrieve the value(s) corresponding to the predicted address(es) early enough so value prediction can take place. Since the values captured in the data cache mirror the current program data (except for in-flight stores), this addresses the first challenge. Regarding the second challenge, DLVP reduces pipeline flushes by using a new context-based address prediction scheme that leverages load-path history to deliver high address prediction accuracy (over 99%) with relaxed confidence requirements. We call this address prediction scheme Path-based Address Prediction (PAP). With a modest 8KB prediction table, DLVP improves performance by up to 71%, and 4.8% on average, without increasing the core energy consumption.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Muawya Al-Otoom , Elliott Forbes , Eric Rotenberg, EXACT: explicit dynamic-branch prediction with active updates, Proceedings of the 7th ACM international conference on Computing frontiers, May 17-19, 2010, Bertinoro, Italy", 
+            "DOIhref": "http://doi.acm.org/10.1145/1787275.1787321", 
+            "DOIname": "10.1145/1787275.1787321", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1787321"
+        }, 
+        {
+            "ArticleName": "Todd M. Austin , Gurindar S. Sohi, Zero-cycle loads: microarchitecture support for reducing load latency, Proceedings of the 28th annual international symposium on Microarchitecture, p.82-92, November 29-December 01, 1995, Ann Arbor, Michigan, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=225176"
+        }, 
+        {
+            "ArticleName": "Michael Bekerman , Stephan Jourdan , Ronny Ronen , Gilad Kirshenboim , Lihu Rappoport , Adi Yoaz , Uri Weiser, Correlated load-address predictors, Proceedings of the 26th annual international symposium on Computer architecture, p.54-63, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300984", 
+            "DOIname": "10.1145/300979.300984", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300984"
+        }, 
+        {
+            "ArticleName": "Browser benchmark. {n. d.}. Browsermark. In http://web.basemark.com."
+        }, 
+        {
+            "ArticleName": "Brad Calder , Glenn Reinman , Dean M. Tullsen, Selective value prediction, Proceedings of the 26th annual international symposium on Computer architecture, p.64-74, May 01-04, 1999, Atlanta, Georgia, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/300979.300985", 
+            "DOIname": "10.1145/300979.300985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=300985"
+        }, 
+        {
+            "ArticleName": "Nathan Chong , Samin Ishtiaq, Reasoning about the ARM weakly consistent memory model, Proceedings of the 2008 ACM SIGPLAN workshop on Memory systems performance and correctness: held in conjunction with the Thirteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '08), March 02-02, 2008, Seattle, Washington", 
+            "DOIhref": "http://doi.acm.org/10.1145/1353522.1353528", 
+            "DOIname": "10.1145/1353522.1353528", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1353528"
+        }, 
+        {
+            "ArticleName": "George Z. Chrysos , Joel S. Emer, Memory dependence prediction using store sets, Proceedings of the 25th annual international symposium on Computer architecture, p.142-153, June 27-July 02, 1998, Barcelona, Spain", 
+            "DOIhref": "http://doi.acm.org/10.1145/279358.279378", 
+            "DOIname": "10.1145/279358.279378", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=279378"
+        }, 
+        {
+            "ArticleName": "Dromaeo: Javascript Performance Testing. {n. d.}. Dromaeo. In http://dromaeo.com."
+        }, 
+        {
+            "ArticleName": "R. J. Eickemeyer , S. Vassiliadis, A load-instruction unit for pipelined processors, IBM Journal of Research and Development, v.37 n.4, p.547-564, July 1993", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.374.0547", 
+            "DOIname": "10.1147/rd.374.0547", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1666043"
+        }, 
+        {
+            "ArticleName": "R. J. Eickemeyer , S. Vassiliadis, A load-instruction unit for pipelined processors, IBM Journal of Research and Development, v.37 n.4, p.547-564, July 1993", 
+            "DOIhref": "https://dx.doi.org/10.1147/rd.374.0547", 
+            "DOIname": "10.1147/rd.374.0547", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1666043"
+        }, 
+        {
+            "ArticleName": "Ian Forsyth. 2015. The ARM Cortex-A72 processor: Delivering high efficiency for Server, Networking and HPC. Presented at ARM TechDay, Londom."
+        }, 
+        {
+            "ArticleName": "Freddy Gabbay. 1996. Speculative Execution based on Value Prediction. Technical Report. EE Department TR 1080, Technion - Israel Institue of Technology."
+        }, 
+        {
+            "ArticleName": "Jos\u00e9 Gonz\u00e1lez , Antonio Gonz\u00e1lez, Speculative execution via address prediction and data prefetching, Proceedings of the 11th international conference on Supercomputing, p.196-203, July 07-11, 1997, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/263580.263631", 
+            "DOIname": "10.1145/263580.263631", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=263631"
+        }, 
+        {
+            "ArticleName": "Google Octane Benchmark. {n. d.}. Octane. In https://developers.google.com/octane."
+        }, 
+        {
+            "ArticleName": "Google V8 Benchmarks. {n. d.}. V8. In http://code.google.com/apis/v8/benchmarks.html."
+        }, 
+        {
+            "ArticleName": "Mark D. Hill , Michael R. Marty, Amdahl's Law in the Multicore Era, Computer, v.41 n.7, p.33-38, July 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2008.209", 
+            "DOIname": "10.1109/MC.2008.209", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1449387"
+        }, 
+        {
+            "ArticleName": "iBench Benchmark. {n. d.}. iBench. In http://ibench.sourceforge.net."
+        }, 
+        {
+            "ArticleName": "R. E. Kessler, The Alpha 21264 Microprocessor, IEEE Micro, v.19 n.2, p.24-36, March 1999", 
+            "DOIhref": "https://dx.doi.org/10.1109/40.755465", 
+            "DOIname": "10.1109/40.755465", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=624258"
+        }, 
+        {
+            "ArticleName": "Linpack Benchmark. {n. d.}. Linpack. In http://www.netlib.org/benchmark/hpl."
+        }, 
+        {
+            "ArticleName": "Mikko H. Lipasti , Christopher B. Wilkerson , John Paul Shen, Value locality and load value prediction, ACM SIGPLAN Notices, v.31 n.9, p.138-147, Sept. 1996", 
+            "DOIhref": "http://doi.acm.org/10.1145/248209.237173", 
+            "DOIname": "10.1145/248209.237173", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=237173"
+        }, 
+        {
+            "ArticleName": "Julius Mandelblat. 2015. Technology Insight: Intel's Next Generation Microarchitecture Code Name Skylake. Presented at Intel Developer Forum, San Francisco."
+        }, 
+        {
+            "ArticleName": "Milo M. K. Martin , Daniel J. Sorin , Harold W. Cain , Mark D. Hill , Mikko H. Lipasti, Correctly implementing value prediction in microprocessors that support multithreading or multiprocessing, Proceedings of the 34th annual ACM/IEEE international symposium on Microarchitecture, December 01-05, 2001, Austin, Texas", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=564039"
+        }, 
+        {
+            "ArticleName": "Media Player Benchmark. {n. d.}. MPlayer. In http://mplayerhq.hu/design7/dload.html."
+        }, 
+        {
+            "ArticleName": "Andreas Moshovos , Scott E. Breach , T. N. Vijaykumar , Gurindar S. Sohi, Dynamic speculation and synchronization of data dependences, Proceedings of the 24th annual international symposium on Computer architecture, p.181-193, June 01-04, 1997, Denver, Colorado, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/264107.264189", 
+            "DOIname": "10.1145/264107.264189", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=264189"
+        }, 
+        {
+            "ArticleName": "Andreas Moshovos , Gurindar S. Sohi, Streamlining inter-operation memory communication via data dependence prediction, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.235-245, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266823"
+        }, 
+        {
+            "ArticleName": "Ravi Nair, Dynamic path-based branch correlation, Proceedings of the 28th annual international symposium on Microarchitecture, p.15-23, November 29-December 01, 1995, Ann Arbor, Michigan, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=225168"
+        }, 
+        {
+            "ArticleName": "Paul E. McKenney. 2010. Memory Barriers: a Hardware View for Software Hackers. In Linux Technology Center, IBM Beaverton."
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec. 2014. Practical data value speculation for future high-end processors. In High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on. 428--439."
+        }, 
+        {
+            "ArticleName": "A. Perais and A. Seznec. 2015. BeBoP: A cost effective predictor infrastructure for superscalar value prediction. In 2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA). 13--25."
+        }, 
+        {
+            "ArticleName": "Jason A. Poovey , Thomas M. Conte , Markus Levy , Shay Gal-On, A Benchmark Characterization of the EEMBC Benchmark Suite, IEEE Micro, v.29 n.5, p.18-29, September 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2009.74", 
+            "DOIname": "10.1109/MM.2009.74", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1683292"
+        }, 
+        {
+            "ArticleName": "N. Riley and C. Zilles. 2006. Probabilistic counter updates for predictor hysteresis and stratification. In High-Performance Computer Architecture, 2006. The Twelfth International Symposium on. 110--120."
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides and James E. Smith. 1997. Implementations of Context-Based Value Predictors. Technical Report."
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides , James E. Smith, The predictability of data values, Proceedings of the 30th annual ACM/IEEE international symposium on Microarchitecture, p.248-258, December 01-03, 1997, Research Triangle Park, North Carolina, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=266824"
+        }, 
+        {
+            "ArticleName": "Yiannakis Sazeides , Stamatis Vassiliadis , James E. Smith, The performance potential of data dependence speculation & collapsing, Proceedings of the 29th annual ACM/IEEE international symposium on Microarchitecture, p.238-247, December 02-04, 1996, Paris, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=243890"
+        }, 
+        {
+            "ArticleName": "SciMark: Java benchmark for scientific and numerical computing. {n. d.}. SciMark. In http://math.nist.gov/scimark2/."
+        }, 
+        {
+            "ArticleName": "Andr\u00e9 Seznec. 2011. A 64-Kbytes ITTAGE indirect branch predictor. In Third Championship Branch Prediction (JWAC-2)."
+        }, 
+        {
+            "ArticleName": "Andr\u00e9 Seznec, A new case for the TAGE branch predictor, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155635", 
+            "DOIname": "10.1145/2155620.2155635", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155635"
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation. {n. d.}. The SPEC CPU 2000 Benchmark Suite. In http://www.spec.org."
+        }, 
+        {
+            "ArticleName": "Standard Performance Evaluation Corporation. {n. d.}. The SPEC CPU 2006 Benchmark Suite. In http://www.spec.org."
+        }, 
+        {
+            "ArticleName": "Sunspider Javascript Benchmark. {n. d.}. Sunspider. In http://www.webkit.org/perf/sunspider/sunspider.html."
+        }, 
+        {
+            "ArticleName": "Gary S. Tyson , Todd M. Austin, Memory Renaming: Fast, Early and Accurate Processing of Memory Communication, International Journal of Parallel Programming, v.27 n.5, p.357-380, Oct. 1999", 
+            "DOIhref": "https://dx.doi.org/10.1023/A:1018734923512", 
+            "DOIname": "10.1023/A:1018734923512", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=325594"
+        }, 
+        {
+            "ArticleName": "V. Zyuban , P. Kogge, The energy complexity of register files, Proceedings of the 1998 international symposium on Low power electronics and design, p.305-310, August 10-12, 1998, Monterey, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/280756.280943", 
+            "DOIname": "10.1145/280756.280943", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=280943"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Qualcomm Technologies, Inc.", 
+            "Name": "Rami Sheikh"
+        }, 
+        {
+            "Affiliation": "Qualcomm Datacenter Technologies, Inc.", 
+            "Name": "Harold W. Cain"
+        }, 
+        {
+            "Affiliation": "Qualcomm Technologies, Inc.", 
+            "Name": "Raguram Damodaran"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123951&preflayout=flat"
+}

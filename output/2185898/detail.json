@@ -1,0 +1,168 @@
+{
+    "Citedpaper": [
+        {
+            "ArticleName": "Yuki Matsuo , Taku Shimosawa , Yutaka Ishikawa, A file I/O system for many-core based clusters, Proceedings of the 2nd International Workshop on Runtime and Operating Systems for Supercomputers, June 29-29, 2012, Venice, Italy", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2318920"
+        }, 
+        {
+            "ArticleName": "Alex Landau , Muli Ben-Yehuda , Abel Gordon, SplitX: split guest/hypervisor execution on multi-core, Proceedings of the 3rd conference on I/O virtualization, p.1-1, June 14, 2011, Portland, OR", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2001556"
+        }, 
+        {
+            "ArticleName": "Livio Soares , Michael Stumm, Exception-less system calls for event-driven servers, Proceedings of the 2011 USENIX conference on USENIX annual technical conference, p.10-10, June 15-17, 2011, Portland, OR", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2002191"
+        }
+    ], 
+    "Bibilometrics": {
+        "Downloads_12Months": 0, 
+        "Downloads_6Weeks": 0, 
+        "Downloads_cumulative": 0, 
+        "CitationCount": 3
+    }, 
+    "Title": "Improving server performance on multi-cores via selective off-loading of OS functionality", 
+    "Abstract": "Modern and future server-class processors will incorporate many cores. Some studies have suggested that it may be worthwhile to dedicate some of the many cores for specific tasks such as operating system execution. OS off-loading has two main benefits: improved performance due to better cache utilization and improved power efficiency due to smarter use of heterogeneous cores. However, OS off-loading is a complex process that involves balancing the overheads of off-loading against the potential benefit, which is unknown while making the off-loading decision. In prior work, OS off-loading has been implemented by first profiling system call behavior and then manually instrumenting some OS routines (out of hundreds) to support off-loading. We propose a hardware-based mechanism to help automate the off-load decision-making process, and provide high quality dynamic decisions via performance feedback. Our mechanism dynamically estimates the off-load requirements of the application and relies on a run-length predictor for the upcoming OS system call invocation. The resulting hardware based off-loading policy yields a throughput improvement of up to 18% over a baseline without off-loading, 13% over a static software based policy, and 23% over a dynamic software based policy.", 
+    "Published": 2010, 
+    "References": [
+        {
+            "ArticleName": "CORPORATE SPARC International, Inc., The SPARC architecture manual (version 9), Prentice-Hall, Inc., Upper Saddle River, NJ, 1994", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=174556"
+        }, 
+        {
+            "ArticleName": "Anant Agarwal , John Hennessy , Mark Horowitz, Cache performance of operating system and multiprogramming workloads, ACM Transactions on Computer Systems (TOCS), v.6 n.4, p.393-431, Nov. 1988", 
+            "DOIhref": "http://doi.acm.org/10.1145/48012.48037", 
+            "DOIname": "10.1145/48012.48037", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=48037"
+        }, 
+        {
+            "ArticleName": "K. Albayraktaroglu , A. Jaleel , Xue Wu , M. Franklin , B. Jacob , Chau-Wen Tseng , D. Yeung, BioBench: A Benchmark Suite of Bioinformatics Applications, Proceedings of the IEEE International Symposium on Performance Analysis of Systems and Software, 2005, p.2-9, March 20-22, 2005", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISPASS.2005.1430554", 
+            "DOIname": "10.1109/ISPASS.2005.1430554", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1318391"
+        }, 
+        {
+            "ArticleName": "Thomas E. Anderson , Henry M. Levy , Brian N. Bershad , Edward D. Lazowska, The interaction of architecture and operating system design, Proceedings of the fourth international conference on Architectural support for programming languages and operating systems, p.108-120, April 08-11, 1991, Santa Clara, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/106972.106985", 
+            "DOIname": "10.1145/106972.106985", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=106985"
+        }, 
+        {
+            "ArticleName": "Rajeev Balasubramonian , Sandhya Dwarkadas , David H. Albonesi, Dynamically managing the communication-parallelism trade-off in future clustered processors, Proceedings of the 30th annual international symposium on Computer architecture, June 09-11, 2003, San Diego, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/859618.859650", 
+            "DOIname": "10.1145/859618.859650", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=859650"
+        }, 
+        {
+            "ArticleName": "Urs Hoelzle , Luiz Andre Barroso, The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Morgan and Claypool Publishers, 2009", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1643608"
+        }, 
+        {
+            "ArticleName": "Andrew Baumann , Paul Barham , Pierre-Evariste Dagand , Tim Harris , Rebecca Isaacs , Simon Peter , Timothy Roscoe , Adrian Sch\u00fcpbach , Akhilesh Singhania, The multikernel: a new OS architecture for scalable multicore systems, Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles, October 11-14, 2009, Big Sky, Montana, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1629575.1629579", 
+            "DOIname": "10.1145/1629575.1629579", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1629579"
+        }, 
+        {
+            "ArticleName": "Benia, C., et al.: The PARSEC Benchmark Suite: Characterization and Architectural Implications. Tech. rep., Department of Computer Science, Princeton University (2008)"
+        }, 
+        {
+            "ArticleName": "Jeffery A. Brown , Dean M. Tullsen, The shared-thread multiprocessor, Proceedings of the 22nd annual international conference on Supercomputing, June 07-12, 2008, Island of Kos, Greece", 
+            "DOIhref": "http://doi.acm.org/10.1145/1375527.1375541", 
+            "DOIname": "10.1145/1375527.1375541", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1375541"
+        }, 
+        {
+            "ArticleName": "Koushik Chakraborty , Philip M. Wells , Gurindar S. Sohi, Computation spreading: employing hardware migration to specialize CMP cores on-the-fly, Proceedings of the 12th international conference on Architectural support for programming languages and operating systems, October 21-25, 2006, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1168857.1168893", 
+            "DOIname": "10.1145/1168857.1168893", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1168893"
+        }, 
+        {
+            "ArticleName": "Nicolas Gloy , Cliff Young , J. Bradley Chen , Michael D. Smith, An analysis of dynamic branch prediction schemes on system workloads, Proceedings of the 23rd annual international symposium on Computer architecture, p.12-21, May 22-24, 1996, Philadelphia, Pennsylvania, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/232973.232977", 
+            "DOIname": "10.1145/232973.232977", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=232977"
+        }, 
+        {
+            "ArticleName": "John L. Henning, SPEC CPU2006 benchmark descriptions, ACM SIGARCH Computer Architecture News, v.34 n.4, p.1-17, September 2006", 
+            "DOIhref": "http://doi.acm.org/10.1145/1186736.1186737", 
+            "DOIname": "10.1145/1186736.1186737", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1186737"
+        }, 
+        {
+            "ArticleName": "Galen C. Hunt , James R. Larus, Singularity: rethinking the software stack, ACM SIGOPS Operating Systems Review, v.41 n.2, p.37-49, April 2007", 
+            "DOIhref": "http://doi.acm.org/10.1145/1243418.1243424", 
+            "DOIname": "10.1145/1243418.1243424", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1243424"
+        }, 
+        {
+            "ArticleName": "Tao Li , Lizy Kurian John , Anand Sivasubramaniam , N. Vijaykrishnan , Juan Rubio, Understanding and improving operating system effects in control flow prediction, ACM SIGPLAN Notices, v.37 n.10, October 2002", 
+            "DOIhref": "http://doi.acm.org/10.1145/605432.605405", 
+            "DOIname": "10.1145/605432.605405", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=605405"
+        }, 
+        {
+            "ArticleName": "Li, T., John, L. K.: Operating System Power Minimization through Run-time Processor Resource Adaptation. IEEE Microprocessors and Microsystems 30, 189-198 (2006)"
+        }, 
+        {
+            "ArticleName": "Peter S. Magnusson , Magnus Christensson , Jesper Eskilson , Daniel Forsgren , Gustav H\u00e5llberg , Johan H\u00f6gberg , Fredrik Larsson , Andreas Moestedt , Bengt Werner, Simics: A Full System Simulation Platform, Computer, v.35 n.2, p.50-58, February 2002", 
+            "DOIhref": "https://dx.doi.org/10.1109/2.982916", 
+            "DOIname": "10.1109/2.982916", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=621909"
+        }, 
+        {
+            "ArticleName": "Jeffrey C. Mogul , Jayaram Mudigonda , Nathan Binkert , Parthasarathy Ranganathan , Vanish Talwar, Using Asymmetric Single-ISA CMPs to Save Energy on Operating Systems, IEEE Micro, v.28 n.3, p.26-41, May 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MM.2008.47", 
+            "DOIname": "10.1109/MM.2008.47", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1436099"
+        }, 
+        {
+            "ArticleName": "Naveen Muralimanohar , Rajeev Balasubramonian , Norm Jouppi, Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.3-14, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.30", 
+            "DOIname": "10.1109/MICRO.2007.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331704"
+        }, 
+        {
+            "ArticleName": "Nellans, D., Balasubramonian, R., Brunvand, E.: A Case for Increased Operating System Support in Chip Multi-Processors. In: Proceedings of the 2nd IBM Watson Conference on Interaction between Architecture, Circuits, and Compilers (September 2005)"
+        }, 
+        {
+            "ArticleName": "David Nellans , Rajeev Balasubramonian , Erik Brunvand, OS execution on multi-cores: is out-sourcing worthwhile?, ACM SIGOPS Operating Systems Review, v.43 n.2, April 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1531793.1531812", 
+            "DOIname": "10.1145/1531793.1531812", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1531812"
+        }, 
+        {
+            "ArticleName": "Joshua A. Redstone , Susan J. Eggers , Henry M. Levy, An analysis of operating system behavior on a simultaneous multithreaded architecture, Proceedings of the ninth international conference on Architectural support for programming languages and operating systems, p.245-256, November 2000, Cambridge, Massachusetts, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/378993.379245", 
+            "DOIname": "10.1145/378993.379245", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=379245"
+        }, 
+        {
+            "ArticleName": "Richard Strong , Jayaram Mudigonda , Jeffrey C. Mogul , Nathan Binkert , Dean Tullsen, Fast switching of threads between cores, ACM SIGOPS Operating Systems Review, v.43 n.2, April 2009", 
+            "DOIhref": "http://doi.acm.org/10.1145/1531793.1531801", 
+            "DOIname": "10.1145/1531793.1531801", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1531801"
+        }, 
+        {
+            "ArticleName": "U. S. Environmental Protection Agency - Energy Star Program: Report To Congress on Server and Data Center Energy Efficiency - Public Law 109-431 (2007)"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "School of Computing, University of Utah", 
+            "Name": "David Nellans"
+        }, 
+        {
+            "Affiliation": "School of Computing, University of Utah", 
+            "Name": "Kshitij Sudan"
+        }, 
+        {
+            "Affiliation": "School of Computing, University of Utah", 
+            "Name": "Erik Brunvand"
+        }, 
+        {
+            "Affiliation": "School of Computing, University of Utah", 
+            "Name": "Rajeev Balasubramonian"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=2185898&preflayout=flat"
+}

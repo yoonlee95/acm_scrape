@@ -1,0 +1,329 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 750, 
+        "Downloads_6Weeks": 28, 
+        "Downloads_cumulative": 750, 
+        "CitationCount": 0
+    }, 
+    "Title": "DeftNN: addressing bottlenecks for DNN execution on GPUs via synapse vector elimination and near-compute data fission", 
+    "Abstract": "Deep neural networks (DNNs) are key computational building blocks for emerging classes of web services that interact in real time with users via voice, images and video inputs. Although GPUs have gained popularity as a key accelerator platform for deep learning workloads, the increasing demand for DNN computation leaves a significant gap between the compute capabilities of GPU-enabled datacenters and the compute needed to service demand. The state-of-the-art techniques to improve DNN performance have significant limitations in bridging the gap on real systems. Current network pruning techniques remove computation, but the resulting networks map poorly to GPU architectures, yielding no performance benefit or even slowdowns. Meanwhile, current bandwidth optimization techniques focus on reducing off-chip bandwidth while overlooking on-chip bandwidth, a key DNN bottleneck. To address these limitations, this work introduces DeftNN, a GPU DNN execution framework that targets the key architectural bottlenecks of DNNs on GPUs to automatically and transparently improve execution performance. DeftNN is composed of two novel optimization techniques - (1) synapse vector elimination, a technique that identifies non-contributing synapses in the DNN and carefully transforms data and removes the computation and data movement of these synapses while fully utilizing the GPU to improve performance, and (2) near-compute data fission, a mechanism for scaling down the on-chip data movement requirements within DNN computations. Our evaluation of DeftNN spans 6 state-of-the-art DNNs. By applying both optimizations in concert, DeftNN is able to achieve an average speedup of 2.1X on real GPU hardware. We also introduce a small additional hardware unit per GPU core to facilitate efficient data fission operations, increasing the speedup achieved by DeftNN to 2.6X.", 
+    "Published": 2017, 
+    "References": [
+        {
+            "ArticleName": "Jorge Albericio , Patrick Judd , Tayler Hetherington , Tor Aamodt , Natalie Enright Jerger , Andreas Moshovos, Cnvlutin: ineffectual-neuron-free deep neural network computing, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.11", 
+            "DOIname": "10.1109/ISCA.2016.11", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001138"
+        }, 
+        {
+            "ArticleName": "Lukas Cavigelli , Michele Magno , Luca Benini, Accelerating real-time embedded scene labeling with convolutional networks, Proceedings of the 52nd Annual Design Automation Conference, p.1-6, June 07-11, 2015, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2744769.2744788", 
+            "DOIname": "10.1145/2744769.2744788", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2744788"
+        }, 
+        {
+            "ArticleName": "Srimat Chakradhar , Murugan Sankaradas , Venkata Jakkula , Srihari Cadambi, A dynamically configurable coprocessor for convolutional neural networks, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815993", 
+            "DOIname": "10.1145/1815961.1815993", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815993"
+        }, 
+        {
+            "ArticleName": "Tianshi Chen , Zidong Du , Ninghui Sun , Jia Wang , Chengyong Wu , Yunji Chen , Olivier Temam, DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning, Proceedings of the 19th international conference on Architectural support for programming languages and operating systems, March 01-05, 2014, Salt Lake City, Utah, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2541940.2541967", 
+            "DOIname": "10.1145/2541940.2541967", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2541967"
+        }, 
+        {
+            "ArticleName": "Yunji Chen , Tao Luo , Shaoli Liu , Shijin Zhang , Liqiang He , Jia Wang , Ling Li , Tianshi Chen , Zhiwei Xu , Ninghui Sun , Olivier Temam, DaDianNao: A Machine-Learning Supercomputer, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.58", 
+            "DOIname": "10.1109/MICRO.2014.58", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742217"
+        }, 
+        {
+            "ArticleName": "Yu-Hsin Chen , Joel Emer , Vivienne Sze, Eyeriss: a spatial architecture for energy-efficient dataflow for convolutional neural networks, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.40", 
+            "DOIname": "10.1109/ISCA.2016.40", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001177"
+        }, 
+        {
+            "ArticleName": "Sharan Chetlur, Cliff Woolley, Philippe Vandermersch, Jonathan Cohen, John Tran, Bryan Catanzaro, and Evan Shelhamer. 2014. cuDNN: Efficient primitives for deep learning. arXiv:1410.0759."
+        }, 
+        {
+            "ArticleName": "Ronan Collobert, Clement Farabet, Koray Kavukcuoglu, and Soumith Chintala. 2015. torch. (2015). Retrieved August 25, 2017 from http://torch.ch/"
+        }, 
+        {
+            "ArticleName": "Francesco Conti , Luca Benini, A ultra-low-energy convolution engine for fast brain-inspired vision in multicore clusters, Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition, March 09-13, 2015, Grenoble, France", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2755910"
+        }, 
+        {
+            "ArticleName": "Matthieu Courbariaux, Yoshua Bengio, and Jean-Pierre David. 2014. Low precision arithmetic for deep learning. arXiv:1412.7024."
+        }, 
+        {
+            "ArticleName": "Jeffrey Dean , Greg S. Corrado , Rajat Monga , Kai Chen , Matthieu Devin , Quoc V. Le , Mark Z. Mao , Marc'Aurelio Ranzato , Andrew Senior , Paul Tucker , Ke Yang , Andrew Y. Ng, Large scale distributed deep networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1223-1231, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999271"
+        }, 
+        {
+            "ArticleName": "Zidong Du, Avinash Lingamneni, Yunji Chen, Krishna Palem, Olivier Temam, and Chengyong Wu. 2014. Leveraging the error resilience of machine-learning applications for designing highly energy efficient accelerators. In Asia and South Pacific Design Automation Conference (ASP-DAC)."
+        }, 
+        {
+            "ArticleName": "Cl\u00e9ment Farabet, Berin Martini, Benoit Corda, Polina Akselrod, Eugenio Culurciello, and Yann LeCun. 2011. Neuflow: A runtime reconfigurable dataflow processor for vision. In Computer Vision and Pattern Recognition Workshops (CVPRW)."
+        }, 
+        {
+            "ArticleName": "Klint Finley. 2015. Facebook open-sources a trove of AI tools. (2015). Retrieved August 25, 2017 from https://www.wired.com/2015/01/facebook-open-sources-trove-ai-tools/"
+        }, 
+        {
+            "ArticleName": "Wilson W. L. Fung , Ivan Sham , George Yuan , Tor M. Aamodt, Dynamic Warp Formation and Scheduling for Efficient GPU Control Flow, Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture, p.407-420, December 01-05, 2007", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2007.12", 
+            "DOIname": "10.1109/MICRO.2007.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1331735"
+        }, 
+        {
+            "ArticleName": "Ross Girshick, Fast R-CNN, Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV), p.1440-1448, December 07-13, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICCV.2015.169", 
+            "DOIname": "10.1109/ICCV.2015.169", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2920125"
+        }, 
+        {
+            "ArticleName": "Inigo Goiri , Ricardo Bianchini , Santosh Nagarakatte , Thu D. Nguyen, ApproxHadoop: Bringing Approximations to MapReduce Frameworks, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694351", 
+            "DOIname": "10.1145/2694344.2694351", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694351"
+        }, 
+        {
+            "ArticleName": "Google. 2015. TensorFlow. (2015). Retrieved August 25, 2017 from http://www.tensorflow.org/"
+        }, 
+        {
+            "ArticleName": "Suyog Gupta, Ankur Agrawal, Kailash Gopalakrishnan, and Pritish Narayanan. 2015. Deep Learning with Limited Numerical Precision. arXiv:1502.02551."
+        }, 
+        {
+            "ArticleName": "Song Han , Xingyu Liu , Huizi Mao , Jing Pu , Ardavan Pedram , Mark A. Horowitz , William J. Dally, EIE: efficient inference engine on compressed deep neural network, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.30", 
+            "DOIname": "10.1109/ISCA.2016.30", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001163"
+        }, 
+        {
+            "ArticleName": "Song Han, Huizi Mao, and William J Dally. 2015. Deep compression: Compressing deep neural network with pruning, trained quantization and huffman coding. International Conference on Learning Representations (ICLR)."
+        }, 
+        {
+            "ArticleName": "Song Han , Jeff Pool , John Tran , William J. Dally, Learning both weights and connections for efficient neural networks, Proceedings of the 28th International Conference on Neural Information Processing Systems, p.1135-1143, December 07-12, 2015, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969366"
+        }, 
+        {
+            "ArticleName": "Awni Y. Hannun, Carl Case, Jared Casper, Bryan Catanzaro, Greg Diamos, Erich Elsen, Ryan Prenger, Sanjeev Satheesh, Shubho Sengupta, Adam Coates, and Andrew Y. Ng. 2014. DeepSpeech: Scaling up end-to-end speech recognition. arXiv:1412.5567."
+        }, 
+        {
+            "ArticleName": "Johann Hauswald , Yiping Kang , Michael A. Laurenzano , Quan Chen , Cheng Li , Trevor Mudge , Ronald G. Dreslinski , Jason Mars , Lingjia Tang, DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers, Proceedings of the 42nd Annual International Symposium on Computer Architecture, June 13-17, 2015, Portland, Oregon", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749469.2749472", 
+            "DOIname": "10.1145/2749469.2749472", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749472"
+        }, 
+        {
+            "ArticleName": "Johann Hauswald , Michael A. Laurenzano , Yunqi Zhang , Cheng Li , Austin Rovinski , Arjun Khurana , Ronald G. Dreslinski , Trevor Mudge , Vinicius Petrucci , Lingjia Tang , Jason Mars, Sirius: An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694347", 
+            "DOIname": "10.1145/2694344.2694347", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694347"
+        }, 
+        {
+            "ArticleName": "Sunpyo Hong , Hyesoon Kim, An analytical model for a GPU architecture with memory-level and thread-level parallelism awareness, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555775", 
+            "DOIname": "10.1145/1555754.1555775", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555775"
+        }, 
+        {
+            "ArticleName": "Intel. 2015. neon. (2015). Retrieved August 25, 2017 from https://github.com/NervanaSystems/neon"
+        }, 
+        {
+            "ArticleName": "Animesh Jain, Parker Hill, Shih-Chieh Lin, Muneeb Khan, Md E. Haque, Michael A. Laurenzano, Scott Mahlke, Lingjia Tang, and Jason Mars. 2016. Concise Loads and Stores: The Case for an Asymmetric Compute-Memory Architecture for Approximation. In International Symposium on Microarchitecture (MICRO)."
+        }, 
+        {
+            "ArticleName": "Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross Girshick, Sergio Guadarrama, and Trevor Darrell. 2014. Caffe: Convolutional Architecture for Fast Feature Embedding. arXiv:1408.5093."
+        }, 
+        {
+            "ArticleName": "Patrick Judd , Jorge Albericio , Tayler Hetherington , Tor M. Aamodt , Natalie Enright Jerger , Andreas Moshovos, Proteus: Exploiting Numerical Precision Variability in Deep Neural Networks, Proceedings of the 2016 International Conference on Supercomputing, June 01-03, 2016, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2925426.2926294", 
+            "DOIname": "10.1145/2925426.2926294", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2926294"
+        }, 
+        {
+            "ArticleName": "Sergey Karayev, Matthew Trentacoste, Helen Han, Aseem Agarwala, Trevor Darrell, Aaron Hertzmann, and Holger Winnemoeller. 2013. Recognizing image style. arXiv:1311.3715."
+        }, 
+        {
+            "ArticleName": "Joo-Young Kim, Minsu Kim, Seungjin Lee, Jinwook Oh, Kwanho Kim, and Hoi-Jun Yoo. 2010. A 201.4 GOPS 496 mW real-time multi-object recognition processor with bio-inspired neural perception engine. In Journal of Solid-State Circuits (JSSC)."
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky and Geoffrey Hinton. 2009. Learning multiple layers of features from tiny images. Tech report, University of Toronto."
+        }, 
+        {
+            "ArticleName": "Alex Krizhevsky , Ilya Sutskever , Geoffrey E. Hinton, ImageNet classification with deep convolutional neural networks, Proceedings of the 25th International Conference on Neural Information Processing Systems, p.1097-1105, December 03-06, 2012, Lake Tahoe, Nevada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2999257"
+        }, 
+        {
+            "ArticleName": "LISA lab. 2015. theano. (2015). Retrieved August 25, 2017 from http://deeplearning.net/software/theano/"
+        }, 
+        {
+            "ArticleName": "Hugo Larochelle , Dumitru Erhan , Aaron Courville , James Bergstra , Yoshua Bengio, An empirical evaluation of deep architectures on problems with many factors of variation, Proceedings of the 24th international conference on Machine learning, p.473-480, June 20-24, 2007, Corvalis, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1273496.1273556", 
+            "DOIname": "10.1145/1273496.1273556", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1273556"
+        }, 
+        {
+            "ArticleName": "Michael A. Laurenzano , Parker Hill , Mehrzad Samadi , Scott Mahlke , Jason Mars , Lingjia Tang, Input responsiveness: using canary inputs to dynamically steer approximation, Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation, June 13-17, 2016, Santa Barbara, CA, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2908080.2908087", 
+            "DOIname": "10.1145/2908080.2908087", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2908087"
+        }, 
+        {
+            "ArticleName": "Andrew Lavin. 2015. maxDNN: An Efficient Convolution Kernel for Deep Learning with Maxwell GPUs. arXiv:1501.06633."
+        }, 
+        {
+            "ArticleName": "Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. 2015. Deep learning. Nature."
+        }, 
+        {
+            "ArticleName": "Yann LeCun, L\u00e9on Bottou, Yoshua Bengio, and Patrick Haffner. 1998. Gradient-based learning applied to document recognition. In Proceedings of the IEEE."
+        }, 
+        {
+            "ArticleName": "Yann LeCun, Corinna Cortes, and Christopher JC Burges. 1998. The MNIST database of handwritten digits. (1998). Retrieved August 25, 2017 from http://yann.lecun.com/exdb/mnist/"
+        }, 
+        {
+            "ArticleName": "Yongsoon Lee , Younhee Choi , Seok-Bum Ko , Moon Ho Lee, Performance analysis of bit-width reduced floating-point arithmetic units in FPGAs: a case study of neural network-based face detector, EURASIP Journal on Embedded Systems, 2009, p.1-11, January 2009", 
+            "DOIhref": "https://dx.doi.org/10.1155/2009/258921", 
+            "DOIname": "10.1155/2009/258921", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1592797"
+        }, 
+        {
+            "ArticleName": "Boxun Li, Yuzhi Wang, Yu Wang, Yuanfeng Chen, and Huazhong Yang. 2014. Training itself: Mixed-signal training acceleration for memristor-based neural network. In Asia and South Pacific Design Automation Conference (ASP-DAC)."
+        }, 
+        {
+            "ArticleName": "Divya Mahajan , Amir Yazdanbakhsh , Jongse Park , Bradley Thwaites , Hadi Esmaeilzadeh, Towards statistical guarantees in controlling quality tradeoffs for approximate acceleration, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.16", 
+            "DOIname": "10.1109/ISCA.2016.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001144"
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Rajib Nath , Stanimire Tomov , Jack Dongarra, Accelerating GPU kernels for dense linear algebra, Proceedings of the 9th international conference on High performance computing for computational science, June 22-25, 2010, Berkeley, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1964250"
+        }, 
+        {
+            "ArticleName": "Quoc V. Le , Jiquan Ngiam , Adam Coates , Abhik Lahiri , Bobby Prochnow , Andrew Y. Ng, On optimization methods for deep learning, Proceedings of the 28th International Conference on International Conference on Machine Learning, p.265-272, June 28-July 02, 2011, Bellevue, Washington, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3104516"
+        }, 
+        {
+            "ArticleName": "Maria-Elena Nilsback , Andrew Zisserman, Automated Flower Classification over a Large Number of Classes, Proceedings of the 2008 Sixth Indian Conference on Computer Vision, Graphics & Image Processing, p.722-729, December 16-19, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICVGIP.2008.47", 
+            "DOIname": "10.1109/ICVGIP.2008.47", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1491653"
+        }, 
+        {
+            "ArticleName": "Nvidia. 2017. cuBLAS. (2017). Retrieved August 25, 2017 from developer.nvidia.com/cublas"
+        }, 
+        {
+            "ArticleName": "Nvidia. 2017. cuSPARSE. (2017). Retrieved August 25, 2017 from developer.nvidia.com/cusparse"
+        }, 
+        {
+            "ArticleName": "Nvidia. 2017. GeForce GTX TITAN X, Specifications. (2017). Retrieved August 25, 2017 from http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications"
+        }, 
+        {
+            "ArticleName": "Nvidia. 2017. Parallel Thread Execution ISA Version 5.0. (2017). Retrieved August 25, 2017 from http://docs.nvidia.com/cuda/parallel-thread-execution"
+        }, 
+        {
+            "ArticleName": "Kalin Ovtcharov, Olatunji Ruwase, Joo-Young Kim, Jeremy Fowers, Karin Strauss, and Eric Chung. 2015. Accelerating Deep Convolutional Neural Networks Using Specialized Hardware. (2015). Retrieved August 25, 2017 from https://www.microsoft.com/en-us/research/publication/accelerating-deep-convolutional-neural-networks-using-specialized-hardware"
+        }, 
+        {
+            "ArticleName": "Eustace Painkras, Luis A Plana, Jim Garside, Steve Temple, Simon Davidson, Jeffrey Pepper, David Clark, Cameron Patterson, and Steve Furber. 2012. Spinnaker: a multi-core system-on-chip for massively-parallel neural net simulation. In Custom Integrated Circuits Conference (CICC)."
+        }, 
+        {
+            "ArticleName": "Robert Preissl , Theodore M. Wong , Pallab Datta , Myron Flickner , Raghavendra Singh , Steven K. Esser , William P. Risk , Horst D. Simon , Dharmendra S. Modha, Compass: a scalable simulator for an architecture for cognitive computing, Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis, November 10-16, 2012, Salt Lake City, Utah", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2389070"
+        }, 
+        {
+            "ArticleName": "Brandon Reagen , Paul Whatmough , Robert Adolf , Saketh Rama , Hyunkwang Lee , Sae Kyu Lee , Jos\u00e9 Miguel Hern\u00e1ndez-Lobato , Gu-Yeon Wei , David Brooks, Minerva: enabling low-power, highly-accurate deep neural network accelerators, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.32", 
+            "DOIname": "10.1109/ISCA.2016.32", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001165"
+        }, 
+        {
+            "ArticleName": "Olga Russakovsky , Jia Deng , Hao Su , Jonathan Krause , Sanjeev Satheesh , Sean Ma , Zhiheng Huang , Andrej Karpathy , Aditya Khosla , Michael Bernstein , Alexander C. Berg , Li Fei-Fei, ImageNet Large Scale Visual Recognition Challenge, International Journal of Computer Vision, v.115 n.3, p.211-252, December 2015", 
+            "DOIhref": "https://dx.doi.org/10.1007/s11263-015-0816-y", 
+            "DOIname": "10.1007/s11263-015-0816-y", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2846559"
+        }, 
+        {
+            "ArticleName": "Mehrzad Samadi , Janghaeng Lee , D. Anoushe Jamshidi , Amir Hormati , Scott Mahlke, SAGE: self-tuning approximation for graphics engines, Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture, December 07-11, 2013, Davis, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2540708.2540711", 
+            "DOIname": "10.1145/2540708.2540711", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2540711"
+        }, 
+        {
+            "ArticleName": "Kaz Sato, Cliff Young, and David Patterson. 2017. An in-depth look at Google's first Tensor Processing Unit (TPU). (2017). Retrieved August 25, 2017 from https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu"
+        }, 
+        {
+            "ArticleName": "Johannes Schemmel, Johannes Fieres, and Karlheinz Meier. 2008. Wafer-scale integration of analog neural networks. In International Joint Conference on Neural Networks (IJCNN)."
+        }, 
+        {
+            "ArticleName": "Ali Shafiee , Anirban Nag , Naveen Muralimanohar , Rajeev Balasubramonian , John Paul Strachan , Miao Hu , R. Stanley Williams , Vivek Srikumar, ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.12", 
+            "DOIname": "10.1109/ISCA.2016.12", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001139"
+        }, 
+        {
+            "ArticleName": "Olivier Temam, A defect-tolerant accelerator for emerging high-performance applications, Proceedings of the 39th Annual International Symposium on Computer Architecture, June 09-13, 2012, Portland, Oregon", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2337200"
+        }, 
+        {
+            "ArticleName": "Vincent Vanhoucke, Andrew Senior, and Mark Z Mao. 2011. Improving the speed of neural networks on CPUs. In Deep Learning and Unsupervised Feature Learning Workshop."
+        }, 
+        {
+            "ArticleName": "Jason Yosinski , Jeff Clune , Yoshua Bengio , Hod Lipson, How transferable are features in deep neural networks?, Proceedings of the 27th International Conference on Neural Information Processing Systems, p.3320-3328, December 08-13, 2014, Montreal, Canada", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2969197"
+        }, 
+        {
+            "ArticleName": "Jianming Zhang, Shuga Ma, Mehrnoosh Sameki, Stan Sclaroff, Margrit Betke, Zhe Lin, Xiaohui Shen, Brian Price, and Radom\u00edr M\u011bch. 2015. Salient Object Subitizing. In Computer Vision and Pattern Recognition (CVPR)."
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Parker Hill"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Animesh Jain"
+        }, 
+        {
+            "Affiliation": "University of Michigan and University of Nevada", 
+            "Name": "Mason Hill"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Babak Zamirai"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Chang-Hong Hsu"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Michael A. Laurenzano"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Scott Mahlke"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Lingjia Tang"
+        }, 
+        {
+            "Affiliation": "University of Michigan", 
+            "Name": "Jason Mars"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3123970&preflayout=flat"
+}

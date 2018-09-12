@@ -1,0 +1,295 @@
+{
+    "Citedpaper": [], 
+    "Bibilometrics": {
+        "Downloads_12Months": 8, 
+        "Downloads_6Weeks": 1, 
+        "Downloads_cumulative": 8, 
+        "CitationCount": 0
+    }, 
+    "Title": "GRAPE: minimizing energy for GPU applications with performance requirements", 
+    "Abstract": "Many applications have performance requirements (e.g., real-time deadlines or quality-of-service goals) and we can save tremendous energy by tailoring resource usage so the application just meets its performance using the minimal resources. This problem is a classic constrained optimization: the performance goal is the constraint and energy consumption is the objective to be optimized. While several existing hardware approaches solve unconstrained optimizations (i.e., maximizing performance or minimizing energy), we are not aware of a hardware approach that minimizes GPU energy under an externally defined performance constraint. Therefore, we propose GRAPE, a hardware control system for GPUs that coordinates core usage, wavefront/warp action, core speed, and memory speed to deliver user-specified performance while minimizing energy. We implement GRAPE in VHDL (to demonstrate feasibility) and as an extension to GPGPU-Sim (for performance and power measurement). We find that GRAPE can be implemented with very low hardware overhead; however, compared to the no-overhead approach of race-to-idle, GRAPE reduces energy by 9--26% (depending on the performance goal), while meeting performance goals with an average error of 0.75%.", 
+    "Published": 2016, 
+    "References": [
+        {
+            "ArticleName": "Yuki Abe , Hiroshi Sasaki , Martin Peres , Koji Inoue , Kazuaki Murakami , Shinpei Kato, Power and performance analysis of GPU-accelerated systems, Proceedings of the 2012 USENIX conference on Power-Aware Computing and Systems, p.10-10, October 07, 2012, Hollywood, CA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2387879"
+        }, 
+        {
+            "ArticleName": "N. Almoosa et al. \"Throughput regulation in multicore processors via IPA\". In: 2012 IEEE 51st IEEE Conference on Decision and Control (CDC). 2012, pp. 7267--7272."
+        }, 
+        {
+            "ArticleName": "H. Amur et al. \"Towards Optimal Power Management: Estimation of Performance Degradation due to DVFS on Modern Processors\". In: (2010)."
+        }, 
+        {
+            "ArticleName": "A. Bakhoda et al. \"Analyzing CUDA workloads using a detailed GPU simulator\". In: Performance Analysis of Systems and Software, 2009. ISPASS 2009. IEEE International Symposium on. IEEE. 2009, pp. 163--174."
+        }, 
+        {
+            "ArticleName": "D. Bishop. \"Fixed point package users guide\". In: Packages and bodies for the IEEE (2006), pp. 1076--2008."
+        }, 
+        {
+            "ArticleName": "Liyu Cao , Howard M. Schwartz, Analysis of the Kalman filter based estimation algorithm: an orthogonal decomposition approach, Automatica (Journal of IFAC), v.40 n.1, p.5-19, January, 2004", 
+            "DOIhref": "https://dx.doi.org/10.1016/j.automatica.2003.07.011", 
+            "DOIname": "10.1016/j.automatica.2003.07.011", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2239766"
+        }, 
+        {
+            "ArticleName": "Yu Cao, Predictive Technology Model for Robust Nanoelectronic Design, Springer Publishing Company, Incorporated, 2013", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2601707"
+        }, 
+        {
+            "ArticleName": "Shuai Che , Michael Boyer , Jiayuan Meng , David Tarjan , Jeremy W. Sheaffer , Sang-Ha Lee , Kevin Skadron, Rodinia: A benchmark suite for heterogeneous computing, Proceedings of the 2009 IEEE International Symposium on Workload Characterization (IISWC), p.44-54, October 04-06, 2009", 
+            "DOIhref": "https://dx.doi.org/10.1109/IISWC.2009.5306797", 
+            "DOIname": "10.1109/IISWC.2009.5306797", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1680782"
+        }, 
+        {
+            "ArticleName": "Tao Chen , Alexander Rucker , G. Edward Suh, Execution time prediction for energy-efficient hardware accelerators, Proceedings of the 48th International Symposium on Microarchitecture, December 05-09, 2015, Waikiki, Hawaii", 
+            "DOIhref": "http://doi.acm.org/10.1145/2830772.2830798", 
+            "DOIname": "10.1145/2830772.2830798", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2830798"
+        }, 
+        {
+            "ArticleName": "X. Chen , H. Xiao , Y. Wardi , S. Yalamanchili, Throughput Regulation in Shared Memory Multicore Processors, Proceedings of the 2015 IEEE 22nd International Conference on High Performance Computing (HiPC), p.12-20, December 16-19, 2015", 
+            "DOIhref": "https://dx.doi.org/10.1109/HiPC.2015.33", 
+            "DOIname": "10.1109/HiPC.2015.33", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2919258"
+        }, 
+        {
+            "ArticleName": "Qingyuan Deng , David Meisner , Luiz Ramos , Thomas F. Wenisch , Ricardo Bianchini, MemScale: active low-power modes for main memory, Proceedings of the sixteenth international conference on Architectural support for programming languages and operating systems, March 05-11, 2011, Newport Beach, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1950365.1950392", 
+            "DOIname": "10.1145/1950365.1950392", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1950392"
+        }, 
+        {
+            "ArticleName": "Christophe Dubach , Timothy M. Jones , Edwin V. Bonilla , Michael F. P. O'Boyle, A Predictive Model for Dynamic Microarchitectural Adaptivity Control, Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture, p.485-496, December 04-08, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2010.14", 
+            "DOIname": "10.1109/MICRO.2010.14", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1934992"
+        }, 
+        {
+            "ArticleName": "Rong Ge , Ryan Vogt , Jahangir Majumder , Arif Alam , Martin Burtscher , Ziliang Zong, Effects of Dynamic Voltage and Frequency Scaling on a K20 GPU, Proceedings of the 2013 42nd International Conference on Parallel Processing, p.826-833, October 01-04, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/ICPP.2013.98", 
+            "DOIname": "10.1109/ICPP.2013.98", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2571035"
+        }, 
+        {
+            "ArticleName": "Google. The Google gospel of speed."
+        }, 
+        {
+            "ArticleName": "Joseph L. Hellerstein , Yixin Diao , Sujay Parekh , Dawn M. Tilbury, Feedback Control of Computing Systems, John Wiley & Sons, Inc., 2004", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=975344"
+        }, 
+        {
+            "ArticleName": "Henry Hoffmann, Racing and pacing to idle: an evaluation of heuristics for energy-aware resource allocation, Proceedings of the Workshop on Power-Aware Computing and Systems, November 03-06, 2013, Farmington, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2525526.2525854", 
+            "DOIname": "10.1145/2525526.2525854", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2525854"
+        }, 
+        {
+            "ArticleName": "Henry Hoffmann, JouleGuard: energy guarantees for approximate applications, Proceedings of the 25th Symposium on Operating Systems Principles, October 04-07, 2015, Monterey, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2815400.2815403", 
+            "DOIname": "10.1145/2815400.2815403", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2815403"
+        }, 
+        {
+            "ArticleName": "Henry Hoffmann , Jim Holt , George Kurian , Eric Lau , Martina Maggio , Jason E. Miller , Sabrina M. Neuman , Mahmut Sinangil , Yildiz Sinangil , Anant Agarwal , Anantha P. Chandrakasan , Srinivas Devadas, Self-aware computing in the Angstrom processor, Proceedings of the 49th Annual Design Automation Conference, June 03-07, 2012, San Francisco, California", 
+            "DOIhref": "http://doi.acm.org/10.1145/2228360.2228409", 
+            "DOIname": "10.1145/2228360.2228409", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2228409"
+        }, 
+        {
+            "ArticleName": "Sunpyo Hong , Hyesoon Kim, An integrated GPU power and performance model, Proceedings of the 37th annual international symposium on Computer architecture, June 19-23, 2010, Saint-Malo, France", 
+            "DOIhref": "http://doi.acm.org/10.1145/1815961.1815998", 
+            "DOIname": "10.1145/1815961.1815998", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1815998"
+        }, 
+        {
+            "ArticleName": "C. Imes et al. \"POET: A Portable Approach to Minimizing Energy Under Soft Real-time Constraints\". In: RTAS. 2015."
+        }, 
+        {
+            "ArticleName": "Y. Jiao , H. Lin , P. Balaji , W. Feng, Power and Performance Characterization of Computational Kernels on the GPU, Proceedings of the 2010 IEEE/ACM Int'l Conference on Green Computing and Communications & Int'l Conference on Cyber, Physical and Social Computing, p.221-228, December 18-20, 2010", 
+            "DOIhref": "https://dx.doi.org/10.1109/GreenCom-CPSCom.2010.143", 
+            "DOIname": "10.1109/GreenCom-CPSCom.2010.143", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1953559"
+        }, 
+        {
+            "ArticleName": "Andrew B. Kahng, The ITRS design technology and system drivers roadmap: process and status, Proceedings of the 50th Annual Design Automation Conference, May 29-June 07, 2013, Austin, Texas", 
+            "DOIhref": "http://doi.acm.org/10.1145/2463209.2488776", 
+            "DOIname": "10.1145/2463209.2488776", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2488776"
+        }, 
+        {
+            "ArticleName": "Onur Kay\u0131ran , Adwait Jog , Mahmut Taylan Kandemir , Chita Ranjan Das, Neither more nor less: optimizing thread-level parallelism for GPGPUs, Proceedings of the 22nd international conference on Parallel architectures and compilation techniques, October 07-07, 2013, Edinburgh, Scotland, UK", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2523745"
+        }, 
+        {
+            "ArticleName": "Nam Sung Kim , Todd Austin , David Blaauw , Trevor Mudge , Kriszti\u00e1n Flautner , Jie S. Hu , Mary Jane Irwin , Mahmut Kandemir , Vijaykrishnan Narayanan, Leakage Current: Moore's Law Meets Static Power, Computer, v.36 n.12, p.68-75, December 2003", 
+            "DOIhref": "https://dx.doi.org/10.1109/MC.2003.1250885", 
+            "DOIname": "10.1109/MC.2003.1250885", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=957974"
+        }, 
+        {
+            "ArticleName": "W. Kim et al. \"System level analysis of fast, per-core DVFS using on-chip switching regulators\". In: High Performance Computer Architecture, 2008. HPCA 2008. IEEE 14th International Symposium on. 2008, pp. 123--134."
+        }, 
+        {
+            "ArticleName": "Kissmetrics. How loading time affects your bottom line."
+        }, 
+        {
+            "ArticleName": "Charles Lefurgy , Xiaorui Wang , Malcolm Ware, Power capping: a prelude to power shifting, Cluster Computing, v.11 n.2, p.183-195, June 2008", 
+            "DOIhref": "https://dx.doi.org/10.1007/s10586-007-0045-4", 
+            "DOIname": "10.1007/s10586-007-0045-4", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1355779"
+        }, 
+        {
+            "ArticleName": "Jingwen Leng , Tayler Hetherington , Ahmed ElTantawy , Syed Gilani , Nam Sung Kim , Tor M. Aamodt , Vijay Janapa Reddi, GPUWattch: enabling energy optimizations in GPGPUs, ACM SIGARCH Computer Architecture News, v.41 n.3, June 2013", 
+            "DOIhref": "http://doi.acm.org/10.1145/2508148.2485964", 
+            "DOIname": "10.1145/2508148.2485964", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2485964"
+        }, 
+        {
+            "ArticleName": "W. Levine. The control handbook. Ed. by W. Levine. CRC Press, 2005."
+        }, 
+        {
+            "ArticleName": "S. A. Manavski. \"CUDA Compatible GPU as an Efficient Hardware Accelerator for AES Cryptography\". In: Signal Processing and Communications, 2007. ICSPC 2007. IEEE International Conference on. 2007, pp. 65--68."
+        }, 
+        {
+            "ArticleName": "Xinxin Mei , Ling Sing Yung , Kaiyong Zhao , Xiaowen Chu, A measurement study of GPU DVFS on energy conservation, Proceedings of the Workshop on Power-Aware Computing and Systems, November 03-06, 2013, Farmington, Pennsylvania", 
+            "DOIhref": "http://doi.acm.org/10.1145/2525526.2525852", 
+            "DOIname": "10.1145/2525526.2525852", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2525852"
+        }, 
+        {
+            "ArticleName": "David Meisner , Christopher M. Sadler , Luiz Andr\u00e9 Barroso , Wolf-Dietrich Weber , Thomas F. Wenisch, Power management of online data-intensive services, Proceedings of the 38th annual international symposium on Computer architecture, June 04-08, 2011, San Jose, California, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2000064.2000103", 
+            "DOIname": "10.1145/2000064.2000103", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2000103"
+        }, 
+        {
+            "ArticleName": "Nikita Mishra , Huazhe Zhang , John D. Lafferty , Henry Hoffmann, A Probabilistic Graphical Model-based Approach for Minimizing Energy Under Performance Constraints, Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, March 14-18, 2015, Istanbul, Turkey", 
+            "DOIhref": "http://doi.acm.org/10.1145/2694344.2694373", 
+            "DOIname": "10.1145/2694344.2694373", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2694373"
+        }, 
+        {
+            "ArticleName": "Akihiko Miyoshi , Charles Lefurgy , Eric Van Hensbergen , Ram Rajamony , Raj Rajkumar, Critical power slope: understanding the runtime effects of frequency scaling, Proceedings of the 16th international conference on Supercomputing, June 22-26, 2002, New York, New York, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/514191.514200", 
+            "DOIname": "10.1145/514191.514200", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=514200"
+        }, 
+        {
+            "ArticleName": "N. Nachiappan et al. \"Domain knowledge based energy management in handhelds\". In: High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. 2015, pp. 150--160."
+        }, 
+        {
+            "ArticleName": "Veynu Narasiman , Michael Shebanow , Chang Joo Lee , Rustam Miftakhutdinov , Onur Mutlu , Yale N. Patt, Improving GPU performance via large warps and two-level warp scheduling, Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture, December 03-07, 2011, Porto Alegre, Brazil", 
+            "DOIhref": "http://doi.acm.org/10.1145/2155620.2155656", 
+            "DOIname": "10.1145/2155620.2155656", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2155656"
+        }, 
+        {
+            "ArticleName": "Tapasya Patki , David K. Lowenthal , Anjana Sasidharan , Matthias Maiterth , Barry L. Rountree , Martin Schulz , Bronis R. de Supinski, Practical Resource Management in Power-Constrained, High Performance Computing, Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing, June 15-19, 2015, Portland, Oregon, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/2749246.2749262", 
+            "DOIname": "10.1145/2749246.2749262", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2749262"
+        }, 
+        {
+            "ArticleName": "Raghavendra Pradyumna Pothukuchi , Amin Ansari , Petros Voulgaris , Josep Torrellas, Using multiple input, multiple output formal control to maximize resource efficiency in architectures, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.63", 
+            "DOIname": "10.1109/ISCA.2016.63", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001207"
+        }, 
+        {
+            "ArticleName": "Predictive Technology Model. http://ptm.asu.edu/."
+        }, 
+        {
+            "ArticleName": "R. Rajkumar , C. Lee , J. Lehoczky , D. Siewiorek, A resource allocation model for QoS management, Proceedings of the 18th IEEE Real-Time Systems Symposium, p.298, December 03-05, 1997", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=828990"
+        }, 
+        {
+            "ArticleName": "Timothy G. Rogers , Mike O'Connor , Tor M. Aamodt, Cache-Conscious Wavefront Scheduling, Proceedings of the 2012 45th Annual IEEE/ACM International Symposium on Microarchitecture, p.72-83, December 01-05, 2012, Vancouver, B.C., CANADA", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2012.16", 
+            "DOIname": "10.1109/MICRO.2012.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2457487"
+        }, 
+        {
+            "ArticleName": "V. Sarkar et al. \"Software challenges in extreme scale systems\". In: Journal of Physics: Conference Series 180.1 (2009), p. 012045."
+        }, 
+        {
+            "ArticleName": "Scientific discovery at exascale: Report from the doe ascr 2011 workshop on exascale data management, analysis, and visualization. 2011."
+        }, 
+        {
+            "ArticleName": "Ankit Sethia , Scott Mahlke, Equalizer: Dynamic Tuning of GPU Resources for Efficient Execution, Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture, December 13-17, 2014, Cambridge, United Kingdom", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2014.16", 
+            "DOIname": "10.1109/MICRO.2014.16", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2742220"
+        }, 
+        {
+            "ArticleName": "Alex Shye , Yan Pan , Ben Scholbrock , J. Scott Miller , Gokhan Memik , Peter A. Dinda , Robert P. Dick, Power to the people: Leveraging human physiological traits to control microprocessor frequency, Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture, p.188-199, November 08-12, 2008", 
+            "DOIhref": "https://dx.doi.org/10.1109/MICRO.2008.4771790", 
+            "DOIname": "10.1109/MICRO.2008.4771790", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1521795"
+        }, 
+        {
+            "ArticleName": "R. Smith. NVIDIAs GeForce GTX 480 and GTX 470: 6 Months Late, Was It Worth the Wait? http://www.anandtech.com/show/2977/nvidia-s-geforce-gtx-480-and-gtx-470-6-months-late-was-it-worth-the-wait-/19. Accessed: 2015-05-01."
+        }, 
+        {
+            "ArticleName": "Seokwoo Song , Minseok Lee , John Kim , Woong Seo , Yeongon Cho , Soojung Ryu, Energy-efficient scheduling for memory-intensive GPGPU workloads, Proceedings of the conference on Design, Automation & Test in Europe, March 24-28, 2014, Dresden, Germany", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2616630"
+        }, 
+        {
+            "ArticleName": "David C. Steere , Ashvin Goel , Joshua Gruenberg , Dylan McNamee , Calton Pu , Jonathan Walpole, A feedback-driven proportion allocator for real-rate scheduling, Proceedings of the third symposium on Operating systems design and implementation, p.145-158, February 1999, New Orleans, Louisiana, USA", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=296820"
+        }, 
+        {
+            "ArticleName": "J. A. Stratton et al. \"Parboil: A revised benchmark suite for scientific and commercial throughput computing\". In: Center for Reliable and High-Performance Computing (2012)."
+        }, 
+        {
+            "ArticleName": "Jinho Suh , Michel Dubois, Dynamic MIPS rate stabilization in out-of-order processors, Proceedings of the 36th annual international symposium on Computer architecture, June 20-24, 2009, Austin, TX, USA", 
+            "DOIhref": "http://doi.acm.org/10.1145/1555754.1555763", 
+            "DOIname": "10.1145/1555754.1555763", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1555763"
+        }, 
+        {
+            "ArticleName": "M. Aater Suleman , Moinuddin K. Qureshi , Khubaib , Yale N. Patt, Feedback-directed pipeline parallelism, Proceedings of the 19th international conference on Parallel architectures and compilation techniques, September 11-15, 2010, Vienna, Austria", 
+            "DOIhref": "http://doi.acm.org/10.1145/1854273.1854296", 
+            "DOIname": "10.1145/1854273.1854296", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=1854296"
+        }, 
+        {
+            "ArticleName": "Synergistic Challenges in data-intensive science and exascale computing. 2013."
+        }, 
+        {
+            "ArticleName": "Greg Welch , Gary Bishop, An Introduction to the Kalman Filter, University of North Carolina at Chapel Hill, Chapel Hill, NC, 1995", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=897831"
+        }, 
+        {
+            "ArticleName": "G. Wu et al. \"GPGPU performance and power estimation using machine learning\". In: High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on. 2015, pp. 564--576."
+        }, 
+        {
+            "ArticleName": "Ronghua Zhang , Chenyang Lu , Tarek F. Abdelzaher , John A. Stankovic, ControlWare: A Middleware Architecture for Feedback Control of Software Performance, Proceedings of the 22 nd International Conference on Distributed Computing Systems (ICDCS'02), p.301, July 02-05, 2002", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=851887"
+        }, 
+        {
+            "ArticleName": "Yanqi Zhou , Henry Hoffmann , David Wentzlaff, CASH: supporting IaaS customers with a sub-core configurable architecture, Proceedings of the 43rd International Symposium on Computer Architecture, June 18-22, 2016, Seoul, Republic of Korea", 
+            "DOIhref": "https://dx.doi.org/10.1109/ISCA.2016.65", 
+            "DOIname": "10.1109/ISCA.2016.65", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=3001209"
+        }, 
+        {
+            "ArticleName": "Yuhao Zhu , Vijay Janapa Reddi, High-performance and energy-efficient mobile web browsing on big/little systems, Proceedings of the 2013 IEEE 19th International Symposium on High Performance Computer Architecture (HPCA), p.13-24, February 23-27, 2013", 
+            "DOIhref": "https://dx.doi.org/10.1109/HPCA.2013.6522303", 
+            "DOIname": "10.1109/HPCA.2013.6522303", 
+            "ArticleHref": "http://dl.acm.org/citation.cfm?id=2495486"
+        }
+    ], 
+    "Authors": [
+        {
+            "Affiliation": "Surya University & University of Chicago", 
+            "Name": "Muhammad Husni Santriaji"
+        }, 
+        {
+            "Affiliation": "University of Chicago", 
+            "Name": "Henry Hoffmann"
+        }
+    ], 
+    "Link": "https://dl.acm.org/citation.cfm?id=3195657&preflayout=flat"
+}
